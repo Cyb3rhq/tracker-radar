@@ -1,0 +1,113 @@
+{
+    "domain": "bybit.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "wildcard"
+    ],
+    "cnames": [
+        {
+            "original": "api2.bybit.com",
+            "resolved": "wildcard.bybit.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "bybit\\.com\\.edgekey\\.net\\/v3\\/config\\/web",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wildcard"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api2.bybit.com",
+                    "resolved": "wildcard.bybit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bybit.com",
+                "www.bybit.com"
+            ]
+        },
+        {
+            "rule": "bybit\\.com\\.edgekey\\.net\\/v3\\/config\\/web",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wildcard"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api2.bybit.com",
+                    "resolved": "wildcard.bybit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "0d5159f170022599523c2192ceab759a20aa99f0579cc679a53f3a264a98be6e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bybit.com",
+                "www.bybit.com"
+            ]
+        },
+        {
+            "rule": "bybit\\.com\\.edgekey\\.net\\/v3\\/config\\/banner",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wildcard"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api2.bybit.com",
+                    "resolved": "wildcard.bybit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "a219a8fb7e8cc8fcf4d086e7528c8bc206217ee01677a685e82e65abb57193e5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bybit.com",
+                "www.bybit.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "types": {
+        "Preflight": 2,
+        "Fetch": 4
+    },
+    "nameservers": []
+}

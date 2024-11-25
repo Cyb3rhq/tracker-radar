@@ -1,0 +1,224 @@
+{
+    "domain": "conscent.in",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "sdk",
+        "sdk-v2",
+        "user-netlify",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "conscent\\.in\\/csc-sdk\\.js",
+            "cookies": 0.00000683,
+            "fingerprinting": 2,
+            "subdomains": [
+                "sdk",
+                "sdk-v2"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.product": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "window.localStorage": 4,
+                "window.sessionStorage": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 1,
+                "Document.cookie getter": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "d0a74d70635f6c331752e32bea8ff84bdd9ed3eeae48fa6a68eca3a7663dc6de",
+                "9a8404a221e802f6aa40c6a28ec3188e6d60179264e12601d2e66608d707399d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_cscAnonId": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abplive.com",
+                "news.abplive.com",
+                "theprint.in",
+                "www.abplive.com"
+            ]
+        },
+        {
+            "rule": "conscent\\.in\\/user-status",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "user-netlify"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "2aba67f46d95df8dd2dcbe06ec14f9b4f4918a94616d2987fd1d5813ffb63afd"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abplive.com",
+                "news.abplive.com",
+                "www.abplive.com"
+            ]
+        },
+        {
+            "rule": "conscent\\.in\\/static\\/css\\/main\\.305206bd\\.chunk\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "user-netlify"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "584cb0a1f3d7d71095fd73b8487c69bd853405bbdaecf620233e446e885dfe10"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abplive.com",
+                "news.abplive.com",
+                "www.abplive.com"
+            ]
+        },
+        {
+            "rule": "conscent\\.in\\/static\\/js\\/10\\.2bdfeecb\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "user-netlify"
+            ],
+            "apis": {
+                "window.indexedDB": 3,
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.product": 3,
+                "Navigator.prototype.platform": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "665177122ffa6cbeb697150ff45cbcee03c5eb5d91e79167966490f054c09e8b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abplive.com",
+                "news.abplive.com",
+                "www.abplive.com"
+            ]
+        },
+        {
+            "rule": "conscent\\.in\\/static\\/js\\/main\\.f30226ed\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "user-netlify"
+            ],
+            "apis": {
+                "window.innerWidth": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "b7d6523ff677a2e14b8e3dfa353803c064c04eebad7f2c4d35f9078b52ef2112"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abplive.com",
+                "news.abplive.com",
+                "www.abplive.com"
+            ]
+        },
+        {
+            "rule": "conscent\\.in\\/static\\/js\\/31\\.643e861c\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "user-netlify"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "33ca7bf4f66e59eaf988efec8267c3f3823b45e453db5be10f057ab2e47e5669"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abplive.com",
+                "news.abplive.com",
+                "www.abplive.com"
+            ]
+        },
+        {
+            "rule": "conscent\\.in\\/api\\/v1\\/user\\/validate-sessionId",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abplive.com",
+                "www.abplive.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000683,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "Document": 3,
+        "Stylesheet": 3,
+        "XHR": 2
+    },
+    "nameservers": [
+        "sierra.ns.cloudflare.com",
+        "sterling.ns.cloudflare.com"
+    ]
+}

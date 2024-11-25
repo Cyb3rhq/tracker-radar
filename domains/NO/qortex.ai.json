@@ -1,0 +1,132 @@
+{
+    "domain": "qortex.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "cpm",
+        "tags",
+        "events"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "qortex\\.ai\\/hb",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cpm"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "medal.tv",
+                "www.avforums.com",
+                "www.timesofisrael.com"
+            ]
+        },
+        {
+            "rule": "qortex\\.ai\\/bootstrapper",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tags"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9554b211b59cb46d8a4f37906b897d96928c4d591bbad5e7b37928a81155a964"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalpost.com",
+                "www.timeout.com"
+            ]
+        },
+        {
+            "rule": "qortex\\.ai\\/api\\/v1\\/player-event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalpost.com",
+                "www.timeout.com"
+            ]
+        },
+        {
+            "rule": "qortex\\.ai\\/cxo\\/cx-bootstrapper-init",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tags"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fe4235fe230fbb3f5885c90a55985e7ded9ffd99ac88c02b04beabaef53ee5f0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalpost.com",
+                "www.timeout.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "script.ac",
+            "prevalence": 0.2222222222222222
+        },
+        {
+            "domain": "aditude.io",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Fetch": 5,
+        "Script": 4
+    },
+    "nameservers": [
+        "rosemary.ns.cloudflare.com",
+        "olof.ns.cloudflare.com"
+    ]
+}

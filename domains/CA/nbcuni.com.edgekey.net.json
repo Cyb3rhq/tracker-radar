@@ -1,0 +1,149 @@
+{
+    "domain": "nbcuni.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00111,
+    "sites": 11,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "mps.nbcuni.com",
+            "resolved": "nbcuni.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "nbcuni\\.com\\.edgekey\\.net\\/fetch\\/ext\\/load-rottentomatoes-web\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "mps.nbcuni.com",
+                    "resolved": "nbcuni.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "dd2c60e871f04b487ba37440525cae35c68bb857dc7c8f3514450a9664d98ea1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rottentomatoes.com",
+                "www.rottentomatoes.com"
+            ]
+        },
+        {
+            "rule": "nbcuni\\.com\\.edgekey\\.net\\/request\\/page\\/json\\/params\\/",
+            "cookies": 0.00101,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.00101,
+            "cnames": [
+                {
+                    "original": "mps.nbcuni.com",
+                    "resolved": "nbcuni.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "6ca50abcfcafc3825720c8b951bd180cfcf1e1b3793378f3db8960df920a01c7",
+                "a42babf270dd9c0ca3232c265e6bc8bdbbcf9659b612a703b87a1cf4600f26ef",
+                "d60dc6757113dd0048cad850bd707f7df0c32fb53ae6ba68c19c34d921904329",
+                "db8344a5dae2bbc3f458f65864b4e25de433eeb438bedd1414439ef67f50f579",
+                "53d90304070f8f2fa9a3ff68935e5c2b00ac322f497ea655817d1778bbb68c70",
+                "0c30f6966aede019b11518940abfd70568a36e2fb5bd0bddc9f5c574787fc98c",
+                "4493baafa46f8e4fc67c1b50e551ccb93eeb950a67d181fc639a1d523af807e1",
+                "946f20c049a38fb3cd1511e56e50ce59dc6718e70db4857895e88c0800850dca",
+                "a81e44a22f0c50c4b7f37a949aea35b79354a9959516961925d39a23f6e6a6bb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rottentomatoes.com",
+                "www.bravotv.com",
+                "www.eonline.com",
+                "www.fandango.com",
+                "www.msnbc.com",
+                "www.nbcsports.com",
+                "www.nbcnews.com",
+                "www.nbc.com",
+                "www.rottentomatoes.com",
+                "www.today.com"
+            ]
+        },
+        {
+            "rule": "nbcuni\\.com\\.edgekey\\.net\\/fetch\\/ext\\/load-nbcnews-bento\\.js",
+            "cookies": 0.000302,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [
+                {
+                    "original": "mps.nbcuni.com",
+                    "resolved": "nbcuni.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "7f7e4bd7379ccf356f4ea23369f75617e8756e05c00177c342a90ee0487decd9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1731772833,
+                    "length": 1,
+                    "prevalence": 0.00020122748767481639,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "msnbc.com",
+                "www.nbcnews.com",
+                "www.today.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00101,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "cnbcfm.com",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "nbcnews.com",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.05
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 10
+    },
+    "nameservers": []
+}

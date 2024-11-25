@@ -1,0 +1,110 @@
+{
+    "domain": "envoke.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "e1",
+        "files"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "envoke\\.com\\/ext\\/analytics\\/visit",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "e1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "10f9bfa42bb96c99729c9b2fee669803ad9c6fcd434d8d7d60a8dc8f5f7cc331"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "christiedigital.com",
+                "www.glacierparkcollection.com",
+                "www.wildapricot.com"
+            ]
+        },
+        {
+            "rule": "envoke\\.com\\/web_files\\/208\\/nvk_tracking\\/bon_website_nvk_tracking\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "files"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e0c5a3c28004df14d2979b21aba12bedf970f399267cc3ee853e40a22c307857"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "nvk_page_count": {
+                    "ttl": 1803,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "_nvk_visitor": {
+                    "ttl": 31536003,
+                    "length": 30,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "_nvk_visit": {
+                    "ttl": 1803,
+                    "length": 138,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wildapricot.com",
+                "www.wildapricot.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000273,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Image": 3,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns2.dnsmadeeasy.com",
+        "ns3.dnsmadeeasy.com",
+        "ns4.dnsmadeeasy.com",
+        "ns1.dnsmadeeasy.com",
+        "ns0.dnsmadeeasy.com"
+    ]
+}

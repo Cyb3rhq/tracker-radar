@@ -1,0 +1,177 @@
+{
+    "domain": "sdiapi.com",
+    "owner": {
+        "name": "sourcedefense",
+        "displayName": "sourcedefense"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "services",
+        "reports"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sdiapi\\.com\\/bolt\\/1\\.0\\.3\\.3\\/bolt\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 4,
+                "Navigator.prototype.vendor": 4,
+                "Navigator.prototype.platform": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "ddd4f2bf322740d976abb5a5f926f5379c687d63fc16b613ce41f7e47ca59671"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackrock.com",
+                "www.ishares.com",
+                "www.jack-wolfskin.ch",
+                "www.skechers.ch"
+            ]
+        },
+        {
+            "rule": "sdiapi\\.com\\/service\\/viceEvent",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "reports"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackrock.com",
+                "www.ishares.com",
+                "www.jack-wolfskin.ch",
+                "www.skechers.ch"
+            ]
+        },
+        {
+            "rule": "sdiapi\\.com\\/reporter\\/1\\.0\\.7\\.40\\/reporter\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "95f0274fd3c7b2befefe5bdaa7335cc70cfa9f71c769178356acb08375c7e99a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackrock.com",
+                "www.ishares.com",
+                "www.jack-wolfskin.ch",
+                "www.skechers.ch"
+            ]
+        },
+        {
+            "rule": "sdiapi\\.com\\/reporter\\/1\\.0\\.7\\.40\\/reporter\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "1d6444639f04eb74f9c34de73028c7df742b0cd8ee838c0762f510d1091f72a9"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackrock.com",
+                "www.ishares.com",
+                "www.jack-wolfskin.ch",
+                "www.skechers.ch"
+            ]
+        },
+        {
+            "rule": "sdiapi\\.com\\/reporter\\/1\\.0\\.7\\.40\\/receiver\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "SharedWorker.prototype.constructor": 2
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "803dee102aa2a1aecf0c59caa2129351d20af6580189f51c6c6869a8ce0aeb14"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackrock.com",
+                "www.ishares.com",
+                "www.jack-wolfskin.ch",
+                "www.skechers.ch"
+            ]
+        }
+    ],
+    "categories": [
+        "Fraud Prevention"
+    ],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.38461538461538464
+        },
+        {
+            "domain": "blackrock.com",
+            "prevalence": 0.3076923076923077
+        },
+        {
+            "domain": "skechers.com",
+            "prevalence": 0.3076923076923077
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "XHR": 4,
+        "Document": 4
+    },
+    "nameservers": [
+        "ns1024.ui-dns.de",
+        "ns1024.ui-dns.biz",
+        "ns1024.ui-dns.org",
+        "ns1024.ui-dns.com"
+    ]
+}

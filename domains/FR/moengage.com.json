@@ -1,0 +1,232 @@
+{
+    "domain": "moengage.com",
+    "owner": {
+        "name": "MoEngage, Inc.",
+        "displayName": "MoEngage"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000302,
+    "sites": 3,
+    "subdomains": [
+        "cdn",
+        "sdk-01",
+        "sdk-04"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "moengage\\.com\\/webpush\\/moe_webSdk\\.min\\.latest\\.js",
+            "cookies": 0.000202,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.indexedDB": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.permissions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "9507f26d5914a59c60c9976e6852011e89a8729b243806ef4eb297d989df9e87"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "USER_DATA": {
+                    "ttl": 63072010,
+                    "length": 157,
+                    "prevalence": 0.00010076582023377671,
+                    "uniqueness": 1
+                },
+                "moe_uuid": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.00020153164046755341,
+                    "uniqueness": 1
+                },
+                "SESSION": {
+                    "ttl": 63072010,
+                    "length": 272,
+                    "prevalence": 0.00010076582023377671,
+                    "uniqueness": 1
+                },
+                "OPT_IN_SHOWN_TIME": {
+                    "ttl": 63072011,
+                    "length": 13,
+                    "prevalence": 0.00010076582023377671,
+                    "uniqueness": 1
+                },
+                "SOFT_ASK_STATUS": {
+                    "ttl": 63072011,
+                    "length": 74,
+                    "prevalence": 0.00010076582023377671,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vidio.com",
+                "www.yesstyle.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v2\\/websdksettings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-01",
+                "sdk-04"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "f8bc99e91755c0c33e4446f7ef6cce7a852513d8904a05aae546859ff23fe8b4",
+                "81fcf9885b69bd967e71efde8aecda6c98d55b99caa4c782201ffd104729fa49"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vidio.com",
+                "www.vidio.com",
+                "www.yesstyle.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/sdkconfig\\/web\\/P6ROY62T3ZRA6V523ACTG11A",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "8a2f89c0618d0420eb912b096b4a2baa18def3edbcce9036e3f147e7cbb41034"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vidio.com",
+                "www.vidio.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v2\\/device\\/add",
+            "cookies": 0.000101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-01",
+                "sdk-04"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "bb8b86a15c64fd109e4ebecafb8fe461838d1f73f1cb84d87b84da4fee00aae3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "moe_uuid": 0.0003022974607013301
+            },
+            "exampleSites": [
+                "vidio.com",
+                "www.vidio.com",
+                "www.yesstyle.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/campaigns\\/inapp\\/live",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-01",
+                "sdk-04"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "870ea79fe1826d6e5543d70942bd23d72399efbebf30ad8b6ecd05780e0a9f87"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "moe_uuid": 0.00020153164046755341
+            },
+            "exampleSites": [
+                "vidio.com",
+                "www.yesstyle.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/campaigns\\/inapp\\/live",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-01",
+                "sdk-04"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "moe_uuid": 0.00020153164046755341
+            },
+            "exampleSites": [
+                "vidio.com",
+                "www.yesstyle.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000202,
+    "topInitiators": [
+        {
+            "domain": "vidiocdn.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 10,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-1208.awsdns-23.org",
+        "ns-1616.awsdns-10.co.uk",
+        "ns-342.awsdns-42.com",
+        "ns-903.awsdns-48.net"
+    ]
+}

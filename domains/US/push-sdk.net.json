@@ -1,0 +1,79 @@
+{
+    "domain": "push-sdk.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "push-sdk\\.net\\/f\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "window.indexedDB": 4,
+                "NavigatorUAData.prototype.getHighEntropyValues": 4,
+                "Notification.permission": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "d029134af1526886d707773d260b8bacfa8e7cc6db4d3d18442f55b93553c01d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auralcrave.com",
+                "cryptoslate.com",
+                "www.lottopcso.com",
+                "yappe.in"
+            ]
+        },
+        {
+            "rule": "push-sdk\\.net\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auralcrave.com",
+                "cryptoslate.com",
+                "www.lottopcso.com",
+                "yappe.in"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Ping": 4
+    },
+    "nameservers": [
+        "braden.ns.cloudflare.com",
+        "aspen.ns.cloudflare.com"
+    ]
+}

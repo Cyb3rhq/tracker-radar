@@ -1,0 +1,103 @@
+{
+    "domain": "gdeslon.ru",
+    "owner": {
+        "name": "AdTech One Ltd.",
+        "displayName": "AdTech One"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "clicks"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "gdeslon\\.ru\\/gsp\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "9a3f564e61733a83a8430bca784900c1c6b6ccfccd261261389cebbda8e41618"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "gdeslon.ru.__arc_domain": {
+                    "ttl": 15552004,
+                    "length": 10,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "gdeslon.ru.user_id": {
+                    "ttl": 15552004,
+                    "length": 36,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {
+                "gdeslon.ru.user_id": 0.000006832001093120175,
+                "_ym_d": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "chitai-gorod.ru",
+                "www.chitai-gorod.ru",
+                "www.kaspersky.ru"
+            ]
+        },
+        {
+            "rule": "gdeslon\\.ru\\/gsclick\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "clicks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e18a390d278e08cbefab99a8b3b69f83f9c9bb370a9e44c2e7c6d061164a4173"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "gdeslon.ru.user_id": 0.00001366400218624035,
+                "_ym_d": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "chitai-gorod.ru",
+                "www.chitai-gorod.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000683,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "beau.ns.cloudflare.com",
+        "brit.ns.cloudflare.com"
+    ]
+}

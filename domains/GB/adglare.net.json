@@ -1,0 +1,196 @@
+{
+    "domain": "adglare.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.00151,
+    "sites": 15,
+    "subdomains": [
+        "candy.engine",
+        "findauniversity.engine",
+        "laweekly.engine"
+    ],
+    "cnames": [
+        {
+            "original": "engine.findaphd.com",
+            "resolved": "findauniversity.engine.adglare.net"
+        },
+        {
+            "original": "engine.laweekly.com",
+            "resolved": "laweekly.engine.adglare.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "adglare\\.net\\/",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "candy.engine",
+                "findauniversity.engine",
+                "laweekly.engine"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 9,
+                "window.localStorage": 9
+            },
+            "sites": 11,
+            "prevalence": 0.00111,
+            "cnames": [
+                {
+                    "original": "engine.findaphd.com",
+                    "resolved": "findauniversity.engine.adglare.net"
+                },
+                {
+                    "original": "engine.laweekly.com",
+                    "resolved": "laweekly.engine.adglare.net"
+                }
+            ],
+            "responseHashes": [
+                "f44dd5f75c73b3c1adc3b76623f6b704d053bc61c1fe0c0aad0616c66c76cc62",
+                "2388f28bf228d99112279f80f91a4f05bf0b148e2d81669dcaf81f8fe11e5c6a",
+                "6f1f61aa3f24a8ab05604d988bb38085563c0790df173b1f579cd6a1c240b8de"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "efukt.com",
+                "thethothub.com",
+                "thothub.ch",
+                "thothub.is",
+                "thothub.lol",
+                "thothub.mx",
+                "thothub.org",
+                "thothub.to",
+                "www.findaphd.com",
+                "www.laweekly.com",
+                "www.thothub.to"
+            ]
+        },
+        {
+            "rule": "adglare\\.net\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "candy.engine",
+                "laweekly.engine"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.00141,
+            "cnames": [
+                {
+                    "original": "engine.laweekly.com",
+                    "resolved": "laweekly.engine.adglare.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "efukt.com",
+                "f95zone.to",
+                "hypnotube.com",
+                "influencersgonewild.com",
+                "thethothub.com",
+                "thothub.ch",
+                "thothub.is",
+                "thothub.lol",
+                "thothub.mx",
+                "thothub.org",
+                "thothub.to",
+                "www.laweekly.com",
+                "www.loverslab.com",
+                "www.thothub.to"
+            ]
+        },
+        {
+            "rule": "adglare\\.net\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "candy.engine"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 2
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "3d620f75e1e2ede76c75a6ada79c90e1ecb0534520ef038b915fdb320435a799",
+                "1b88291bcdbc2bb1ed3475d09586203b229cf79376c4403d6a21c043d6c429f6",
+                "3b039da8dd8cca2d52e10a387f2fe748faab6e1960ba15bb76f9e1cba05c7645"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "f95zone.to",
+                "hypnotube.com",
+                "influencersgonewild.com",
+                "www.loverslab.com"
+            ]
+        },
+        {
+            "rule": "adglare\\.net\\/data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "findauniversity.engine"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "engine.findaphd.com",
+                    "resolved": "findauniversity.engine.adglare.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "findaphd.com",
+                "www.findaphd.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8181818181818182
+        },
+        {
+            "domain": "jads.co",
+            "prevalence": 0.18181818181818182
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "Ping": 16,
+        "Document": 4
+    },
+    "nameservers": [
+        "ns6.adglare.info",
+        "ns7.adglare.nl",
+        "ns8.adglare.org",
+        "ns9.adglare.info",
+        "ns10.adglare.eu"
+    ]
+}

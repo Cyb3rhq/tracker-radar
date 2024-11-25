@@ -1,0 +1,146 @@
+{
+    "domain": "npo-data.nl",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000137,
+    "sites": 20,
+    "subdomains": [
+        "hub",
+        "npotag"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "npo-data\\.nl\\/tags\\/tag\\.min\\.js",
+            "cookies": 0.000109,
+            "fingerprinting": 1,
+            "subdomains": [
+                "hub"
+            ],
+            "apis": {
+                "Document.cookie getter": 17,
+                "Date.prototype.getTime": 17,
+                "Document.cookie setter": 16,
+                "window.sessionStorage": 17
+            },
+            "sites": 18,
+            "prevalence": 0.000123,
+            "cnames": [],
+            "responseHashes": [
+                "60f0517cabc68a3290de09c566cce7865fa213730901cb4ac171518fab9aee5c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cs_fpid": {
+                    "ttl": 7776002,
+                    "length": 22,
+                    "prevalence": 0.0001093120174899228,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eo.nl",
+                "binnenstebuiten.kro-ncrv.nl",
+                "eenvandaag.avrotros.nl",
+                "hetklokhuis.nl",
+                "kro-ncrv.nl",
+                "npokennis.nl",
+                "opgelicht.avrotros.nl",
+                "radar.avrotros.nl",
+                "radar-forum.avrotros.nl",
+                "schooltv.nl",
+                "willemwever.kro-ncrv.nl",
+                "www.2doc.nl",
+                "www.avrotros.nl",
+                "www.bnnvara.nl",
+                "www.eo.nl",
+                "www.heelhollandbakt.nl",
+                "www.maxvandaag.nl",
+                "www.vpro.nl"
+            ]
+        },
+        {
+            "rule": "npo-data\\.nl\\/prod\\/npo-tag\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "npotag"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2,
+                "Screen.prototype.orientation": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.availWidth": 2,
+                "window.devicePixelRatio": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.language": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3769365d46fe6b5891344bd4ba0b901e1e7a3d84b47a832ea658b5a90adc3a40"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "pa_privacy": {
+                    "ttl": 34128004,
+                    "length": 11,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "_pcid": {
+                    "ttl": 34128004,
+                    "length": 85,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "_pctx": {
+                    "ttl": 34128004,
+                    "length": 109,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "npo.nl",
+                "www.zapp.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000123,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.95
+        },
+        {
+            "domain": "npodoc.nl",
+            "prevalence": 0.05
+        }
+    ],
+    "types": {
+        "Script": 20
+    },
+    "nameservers": [
+        "ns2.npohosting.eu",
+        "ns3.npohosting.nl",
+        "ns1.npohosting.nl"
+    ]
+}

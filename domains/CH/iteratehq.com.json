@@ -1,0 +1,156 @@
+{
+    "domain": "iteratehq.com",
+    "owner": {
+        "name": "Pickaxe LLC",
+        "displayName": "Iterate",
+        "privacyPolicy": "https://iteratehq.com",
+        "url": "http://iteratehq.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "platform"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "iteratehq\\.com\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "1d95c731090ef2001e33fb31ece760b25b126ea18dbd12b10c8e5c6c111c9127"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nytimes.com",
+                "www.nytimes.com",
+                "www.today.com"
+            ]
+        },
+        {
+            "rule": "iteratehq\\.com\\/match-prod-3cc2f23369d1218500ab\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "platform"
+            ],
+            "apis": {
+                "console.memory": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "window.localStorage": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "9646d478131a2632b5751400f8ee0d42d1fbaa66df81b55bac45856923b9f51b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "iter_id": {
+                    "ttl": 315360014,
+                    "length": 203,
+                    "prevalence": 0.0003013863773357444,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nytimes.com",
+                "www.nytimes.com",
+                "www.today.com"
+            ]
+        },
+        {
+            "rule": "iteratehq\\.com\\/api\\/v1\\/surveys\\/embed",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "fd96ddb1eafa305b48ed66170bd6337b252784945f8176a47acb393806e0f661",
+                "f495cfa60dcc8af434864ad3ef46023f5aea1d5f50e6bf19c113cd4b1e5b581b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nytimes.com",
+                "www.nytimes.com",
+                "www.today.com"
+            ]
+        },
+        {
+            "rule": "iteratehq\\.com\\/api\\/v1\\/surveys\\/embed",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nytimes.com",
+                "www.nytimes.com",
+                "www.today.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.14285714285714285
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.14285714285714285
+        },
+        {
+            "domain": "nbcnews.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Fetch": 3,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "val.ns.cloudflare.com",
+        "lars.ns.cloudflare.com"
+    ]
+}

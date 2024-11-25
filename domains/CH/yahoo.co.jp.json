@@ -1,0 +1,152 @@
+{
+    "domain": "yahoo.co.jp",
+    "owner": {
+        "name": "LY-Corporation",
+        "displayName": "LY-Corporation"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "b92",
+        "am",
+        "apm",
+        "b97",
+        "b99"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "yahoo\\.co\\.jp\\/js\\/s_retargeting\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "b92"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "76f7ed1e950345347015644836dd7a02a7fbe5f31c6034c60b75f2d980bf965c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hinative.com",
+                "tabelog.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/rt\\/",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "am",
+                "apm"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hinative.com",
+                "tabelog.com",
+                "www.hero-wars.com",
+                "www.twilio.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion_async\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 2,
+            "subdomains": [
+                "b97",
+                "b99"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 5,
+                "Screen.prototype.height": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.availHeight": 5,
+                "Screen.prototype.availWidth": 5,
+                "Screen.prototype.colorDepth": 5,
+                "Date.prototype.getTimezoneOffset": 5,
+                "Navigator.prototype.javaEnabled": 5,
+                "Navigator.prototype.plugins": 5,
+                "Navigator.prototype.mimeTypes": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "71dbfa067a2a9ec12101cd73128563c1dcaae28472f8dfa9de3e09dccf0a4ad3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fujifilm-x.com",
+                "tabelog.com",
+                "tomplay.com",
+                "www.hero-wars.com",
+                "www.insta360.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {},
+    "cookies": 0.000703,
+    "topInitiators": [
+        {
+            "domain": "yimg.jp",
+            "prevalence": 0.7333333333333333
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.06666666666666667
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.06666666666666667
+        },
+        {
+            "domain": "akamaihd.net",
+            "prevalence": 0.06666666666666667
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.06666666666666667
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns01.yahoo.co.jp",
+        "ns12.yahoo.co.jp",
+        "ns11.yahoo.co.jp",
+        "ns02.yahoo.co.jp"
+    ]
+}

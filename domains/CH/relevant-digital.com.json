@@ -1,0 +1,182 @@
+{
+    "domain": "relevant-digital.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00131,
+    "sites": 13,
+    "subdomains": [
+        "swissmg-cdn",
+        "otc-pbs",
+        "bcn-pbs",
+        "cluster5"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "relevant-digital\\.com\\/static\\/tags\\/65a8c88619cc519b10dc63d4\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "swissmg-cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.appName": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d03416f163e67c96421b0352ddadf14eda4eab9b783580e3b92d33a4953afd9a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ricardo.ch",
+                "www.ricardo.ch"
+            ]
+        },
+        {
+            "rule": "relevant-digital\\.com\\/openrtb2\\/auction",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "otc-pbs",
+                "bcn-pbs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eliteprospects.com",
+                "www.playboy.de"
+            ]
+        },
+        {
+            "rule": "relevant-digital\\.com\\/cookie_sync",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "otc-pbs",
+                "cluster5"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "57ce2b08ef8da65d0f5627d6e41c7725efd32d3e377dea3c91025a375ae93fdf"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eliteprospects.com",
+                "www.homegate.ch"
+            ]
+        },
+        {
+            "rule": "relevant-digital\\.com\\/setuid",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "otc-pbs",
+                "bcn-pbs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c956a8bbf43bb56f60d1beefcc5a70f2cb0725083a00e8a0daf423176509fd18"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eliteprospects.com",
+                "www.playboy.de"
+            ]
+        },
+        {
+            "rule": "relevant-digital\\.com\\/analytics",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cluster5",
+                "bcn-pbs"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homegate.ch",
+                "www.immoscout24.ch",
+                "www.playboy.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "relevantcustomscript.js",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "lwadm.com",
+            "prevalence": 0.08
+        },
+        {
+            "domain": "atf-tagmanager.de",
+            "prevalence": 0.04
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.04
+        },
+        {
+            "domain": "connectad.io",
+            "prevalence": 0.04
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Fetch": 2,
+        "XHR": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-1398.awsdns-46.org",
+        "ns-1957.awsdns-52.co.uk",
+        "ns-355.awsdns-44.com",
+        "ns-757.awsdns-30.net"
+    ]
+}

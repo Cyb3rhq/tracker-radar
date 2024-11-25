@@ -1,0 +1,1134 @@
+{
+    "domain": "microad.jp",
+    "owner": {
+        "name": "MicroAd, Inc.",
+        "displayName": "MicroAd"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00278,
+    "sites": 407,
+    "subdomains": [
+        "cdn",
+        "cache.send",
+        "s-rtb.send",
+        "ssp.send",
+        "aid.send",
+        "s-cs.send",
+        "s-rtb-pb.send",
+        "universe.send",
+        "d-cache",
+        "d-track.send"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "microad\\.jp\\/compass\\/compass2\\.js",
+            "cookies": 0.000355,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie setter": 52,
+                "Document.cookie getter": 52
+            },
+            "sites": 80,
+            "prevalence": 0.000547,
+            "cnames": [],
+            "responseHashes": [
+                "40e76c22fb533b282569635b926ad268fcf033f833d7c7229bbe78b9ec4d7a9b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mtcn": {
+                    "ttl": 0,
+                    "length": 5,
+                    "prevalence": 0.0003484320557491289,
+                    "uniqueness": 0.0196078431372549
+                },
+                "_unv_id": {
+                    "ttl": 3600,
+                    "length": 7,
+                    "prevalence": 0.0001639680262348842,
+                    "uniqueness": 0.041666666666666664
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "internet.watch.impress.co.jp",
+                "pc.watch.impress.co.jp",
+                "ichioshi.smt.docomo.ne.jp",
+                "belcy.jp",
+                "kokugoryokuup.com",
+                "blog.esuteru.com",
+                "www.afpbb.com",
+                "www.weblio.jp",
+                "cat.benesse.ne.jp",
+                "egg.5ch.net",
+                "okwave.jp",
+                "1geki.jp",
+                "thetv.jp",
+                "game.watch.impress.co.jp",
+                "dog.benesse.ne.jp",
+                "www.travelbook.co.jp",
+                "www.cinematoday.jp",
+                "st.benesse.ne.jp",
+                "lovely-media.jp",
+                "allabout.co.jp"
+            ]
+        },
+        {
+            "rule": "microad\\.jp\\/js\\/cookie_loader\\.html",
+            "cookies": 0.000191,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cache.send"
+            ],
+            "apis": {
+                "Document.cookie getter": 28,
+                "Document.cookie setter": 28
+            },
+            "sites": 61,
+            "prevalence": 0.000417,
+            "cnames": [],
+            "responseHashes": [
+                "e654ab4838bc0825c49012ef7f1204c5e4015cbe5f1de4b3a41a0747129e2ca4"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {
+                "RTUS_STATUS": {
+                    "ttl": 3600,
+                    "length": 6,
+                    "prevalence": 0.0001912960306073649,
+                    "uniqueness": 0.07142857142857142
+                },
+                "RTUS": {
+                    "ttl": 2592000,
+                    "length": 32,
+                    "prevalence": 0.00004099200655872105,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.news-postseven.com",
+                "www.goodfortune.jp",
+                "blog.goo.ne.jp",
+                "kamigame.jp",
+                "booklog.jp",
+                "nl.syosetu.com",
+                "hochi.news",
+                "st.benesse.ne.jp",
+                "chonborista.com",
+                "woman.excite.co.jp",
+                "blog.with2.net",
+                "akanbo-media.jp",
+                "1geki.jp",
+                "www.weblio.jp",
+                "oceans-nadia.com",
+                "japan.cnet.com",
+                "www.inter-edu.com",
+                "www.afpbb.com",
+                "www.nicozon.net",
+                "cat.benesse.ne.jp"
+            ]
+        },
+        {
+            "rule": "microad\\.jp\\/fpc\\/get-tr\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cache.send"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 38,
+                "Document.cookie getter": 34
+            },
+            "sites": 53,
+            "prevalence": 0.000362,
+            "cnames": [],
+            "responseHashes": [
+                "602625043180670539d0a18cfe9322f335982e3ae07419b8fe4f3587be9d6226"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blogmura.com",
+                "www.itmedia.co.jp",
+                "find.5ch.net",
+                "5ch.net",
+                "www.goodfortune.jp",
+                "blog.esuteru.com",
+                "hochi.news",
+                "www.animatetimes.com",
+                "cat.benesse.ne.jp",
+                "medical.nikkeibp.co.jp",
+                "kokugoryokuup.com",
+                "manga.nicovideo.jp",
+                "ichioshi.smt.docomo.ne.jp",
+                "akanbo-media.jp",
+                "woman.excite.co.jp",
+                "www.news-postseven.com",
+                "www.nicozon.net",
+                "www.inter-edu.com",
+                "dog.benesse.ne.jp",
+                "kdrama.fc2web.com"
+            ]
+        },
+        {
+            "rule": "microad\\.jp\\/ad",
+            "cookies": 0.000273,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s-rtb.send"
+            ],
+            "apis": {},
+            "sites": 41,
+            "prevalence": 0.00028,
+            "cnames": [],
+            "responseHashes": [
+                "ea5b0a76d64b5dd4dfc6e06501cffc75b2dd1ad042f9d88d85176d06b745b179",
+                "700109922dfcc94c86d751d4ad82ab4221720ce21c41453df4affed0f36d8354",
+                "99fbf76caca3c2a15476db7ed756daa3bfb3657b948108a9b525f5c4fee44987",
+                "1a41bf4d6444c7adb1ef3c9ff6153303bf4f353e077db27e68a3dab63f241fbf",
+                "2908bd2463e0cb6b0dee34a9e4ac8ce38e8d8de08ab33ae4e560b2c5d85b01c7",
+                "6bd169f9860f0d29215e677e1b8314dd934f77e2b6e7e5c5352d0531038164c4",
+                "0ee4b2027b04768dc0814152bc68166c1c9b96f14413a1dc21445f8cbc0630b4",
+                "c97e05ec1f8d873b316d9ed7f137f5c77076e99b6b527dc9b431304015e55317",
+                "d91d7f9da266498305041c337e7bc224ccf4384896b9888c8c382814f08704ed",
+                "5d1c679a1deb60c8777911b40d16d937231686a1e3ef9ecfe6a12cf9fe13dd7d",
+                "9d517b59b69ae46a15fc25136290e203777830652ff985523c8f094c30eaa221",
+                "c8c58e50a1872c52ef3180255cec2bd1b6a26492c94a0babf53c62c0c484d83c",
+                "a90afe16504d92d1ce2d188b241f3084fa68708932524b7e2de28799323c5a21",
+                "841dafd3f8f4d28085d7ddeb50f6f59b836b645dfe2139bc1f3e8cea34102479",
+                "de7f1cdd43d8752ad895dc9f36f3d5ffba14f329d2274662edb3c22a6b56ccbc",
+                "b7bcfff211104216e5440a21a30dfa37f7bcf3e5b28fe57ec49b90654dd9c8eb",
+                "5ab897e9f62fd39b1e3ea1d1d1148910224bb18dd5c05888e76412a3475f8e19",
+                "8c60695531dca130c6e0b4cabe0f1c2920bcfcca7f892d90871ba5f758ce9ff5",
+                "900ede38ad9f3ff20c4e4df6c3b113545eb9f3ab7f9b90b90f47a489581248ef",
+                "022d1f919568d179c158a1017c19622d36bd8e45854b414579d68585d22f5a4b",
+                "c4a742a1be1edeaf0fb329a8fe885e89d5c694d40a832f05f0a7036a5feda47e",
+                "3fb5ec4536044bd929bf29f10de214f12aecf6a14e6046025d6200f1816b1a83",
+                "d2cf9257bf7879e86959f28d906c7c7227e77c1ef3129f8eb69cbdd18a33e4f6",
+                "9b1ad0dd958a683b7ea6d4855c4a8022c8051442d4f8caa05e3506b992862976",
+                "16806a1cb5e6e1dc649bfb4d46fd5b0b1ecd9f4298f09d90d98b9453a07e90cc",
+                "cf0ac419541072db4b9bf942a1ca786cc2eaa27636903e8537ebc659c2d07e0e",
+                "679546dad22a233b761a3a03cd26a512853c3abf0942f13edfc88ff4561efe5e",
+                "afdb09c258d9f59365fde35e163c31574c8faa7b1b5c2cef60276aac7c7a7aa8",
+                "33227d8075a42039b1c1ce114806620b33b1cdd091a898388e98bd830f755599",
+                "a4fe0ff728bc7290bef3bc535f2494f4d3309fecab3b294983e212319ddeb30f",
+                "207a315eb7a6a754e0acc90f60a61f85036f04da08bafdacee27bb167cbbc7d8",
+                "2bb720bba36a6878516bbf1ad166a78629f9c3c850737045c695c9dd6d4557aa",
+                "cd5c3b8400b4d033c387f705a734bc05610fc214a413dae6ff1ac1e797d4b652"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_unv_aid": 0.0000819840131174421,
+                "__pid": 0.00001366400218624035,
+                "lotame_domain_check": 0.000020496003279360526
+            },
+            "exampleSites": [
+                "manga.nicovideo.jp",
+                "uranai.callat.jp",
+                "www.afpbb.com",
+                "dot.asahi.com",
+                "motor-fan.jp",
+                "woman.excite.co.jp",
+                "hochi.news",
+                "moviewalker.jp",
+                "www.animatetimes.com",
+                "www.news-postseven.com",
+                "cat.benesse.ne.jp",
+                "egg.5ch.net",
+                "kokugoryokuup.com",
+                "kamigame.jp",
+                "www.itmedia.co.jp",
+                "5ch.net",
+                "39mag.benesse.ne.jp",
+                "www.excite.co.jp",
+                "kdrama.fc2web.com",
+                "blog.with2.net"
+            ]
+        },
+        {
+            "rule": "microad\\.jp\\/fpc\\/collect\\.min\\.js",
+            "cookies": 0.00000683,
+            "fingerprinting": 3,
+            "subdomains": [
+                "cache.send"
+            ],
+            "apis": {
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "Navigator.prototype.vendor": 2,
+                "OfflineAudioContext.prototype.constructor": 1,
+                "Screen.prototype.availTop": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.availWidth": 1,
+                "Screen.prototype.availLeft": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.availHeight": 1,
+                "AudioBuffer.prototype.getChannelData": 1,
+                "Navigator.prototype.language": 1,
+                "Navigator.prototype.languages": 1,
+                "Screen.prototype.colorDepth": 1,
+                "Navigator.prototype.deviceMemory": 1,
+                "Navigator.prototype.hardwareConcurrency": 1,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
+                "window.sessionStorage": 1,
+                "window.localStorage": 1,
+                "window.indexedDB": 1,
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.plugins": 1,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 1,
+                "HTMLCanvasElement.prototype.toDataURL": 1,
+                "Navigator.prototype.maxTouchPoints": 1,
+                "Document.cookie setter": 1,
+                "Document.cookie getter": 1,
+                "WebGLRenderingContext.prototype.getExtension": 1,
+                "WebGLRenderingContext.prototype.getParameter": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 34,
+            "prevalence": 0.000232,
+            "cnames": [],
+            "responseHashes": [
+                "7d0985b49edbd22890b2703a48006ef5aa7bb8d3032d001b6c754f87142b183b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1731673444,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.excite.co.jp",
+                "blog.goo.ne.jp",
+                "akanbo-media.jp",
+                "motor-fan.jp",
+                "twilog.togetter.com",
+                "39mag.benesse.ne.jp",
+                "5ch.net",
+                "lovely-media.jp",
+                "himasoku.com",
+                "www.animatetimes.com",
+                "www.news-postseven.com",
+                "medical.nikkeibp.co.jp",
+                "www.ufret.jp",
+                "cat.benesse.ne.jp",
+                "blog.with2.net",
+                "manga.nicovideo.jp",
+                "nanjgod.com",
+                "kdrama.fc2web.com",
+                "2chmm.com",
+                "kokugoryokuup.com"
+            ]
+        },
+        {
+            "rule": "microad\\.jp\\/ic",
+            "cookies": 0.000232,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssp.send"
+            ],
+            "apis": {},
+            "sites": 34,
+            "prevalence": 0.000232,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lovely-media.jp",
+                "www.ufret.jp",
+                "hochi.news",
+                "www.excite.co.jp",
+                "motor-fan.jp",
+                "cat.benesse.ne.jp",
+                "find.5ch.net",
+                "ichioshi.smt.docomo.ne.jp",
+                "shiori-tabi.jp",
+                "blog.esuteru.com",
+                "booklog.jp",
+                "mtmx.jp",
+                "39mag.benesse.ne.jp",
+                "woman.excite.co.jp",
+                "twilog.togetter.com",
+                "blog.goo.ne.jp",
+                "kdrama.fc2web.com",
+                "www.nissen.co.jp",
+                "egg.5ch.net",
+                "www.news-postseven.com"
+            ]
+        },
+        {
+            "rule": "microad\\.jp\\/g\\/pc\\/asr",
+            "cookies": 0.0000956,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aid.send"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.000109,
+            "cnames": [],
+            "responseHashes": [
+                "071d0a5d172af491aedca9041f20e830d25fd4d339a1006bca3bed949069aa30"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1geki.jp",
+                "2chmm.com",
+                "5ch.net",
+                "blog.esuteru.com",
+                "blogmura.com",
+                "booklog.jp",
+                "cat.benesse.ne.jp",
+                "dog.benesse.ne.jp",
+                "egg.5ch.net",
+                "himasoku.com",
+                "hochi.news",
+                "manga.nicovideo.jp",
+                "shiori-tabi.jp",
+                "www.animatetimes.com",
+                "www.excite.co.jp",
+                "www.nissen.co.jp"
+            ]
+        },
+        {
+            "rule": "microad\\.jp\\/hs",
+            "cookies": 0.000758,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s-cs.send"
+            ],
+            "apis": {},
+            "sites": 113,
+            "prevalence": 0.000772,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.agaroot.jp",
+                "anond.hatelabo.jp",
+                "dynabook.com",
+                "www.matsui.co.jp",
+                "www.gamespark.jp",
+                "booklog.jp",
+                "japantravel.navitime.com",
+                "jpn.mizuno.com",
+                "l-tike.com",
+                "race.netkeiba.com",
+                "brand.taisho.co.jp",
+                "www.jfa.jp",
+                "www.minnanokaigo.com",
+                "www.sbishinseibank.co.jp",
+                "www.rakuten-bank.co.jp",
+                "sumai.panasonic.jp",
+                "manga.nicovideo.jp",
+                "www.cr.mufg.jp",
+                "www.carsensor.net",
+                "sp.gettersiida.net"
+            ]
+        },
+        {
+            "rule": "microad\\.jp\\/asr",
+            "cookies": 0.000383,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aid.send"
+            ],
+            "apis": {},
+            "sites": 57,
+            "prevalence": 0.000389,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f",
+                "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c",
+                "600897e8e4663c228f49c5bf0e8cec0fbb1df0d2f22b2a8690734de3b8ee32a2",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "tlb_sid": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "dc.watch.impress.co.jp",
+                "tenki.jp",
+                "precious.jp",
+                "livejapan.com",
+                "minkabu.jp",
+                "forest.watch.impress.co.jp",
+                "www.takarakuji-official.jp",
+                "www.athome.co.jp",
+                "www.princehotels.co.jp",
+                "www.livable.co.jp",
+                "www.dlsite.com",
+                "www.inter-edu.com",
+                "2chmm.com",
+                "mtmx.jp",
+                "shiori-tabi.jp",
+                "internet.watch.impress.co.jp",
+                "earthquake.tenki.jp",
+                "game.watch.impress.co.jp",
+                "minkara.carview.co.jp",
+                "5ch.net"
+            ]
+        },
+        {
+            "rule": "microad\\.jp\\/prebid",
+            "cookies": 0.000997,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s-rtb-pb.send"
+            ],
+            "apis": {},
+            "sites": 147,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "eafb4bf577f5c3be774b5a16fb3729c76c6487f5e210b2a55b962d2acee40638"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "pbjs_sharedId": 0.00015713602514176402,
+                "_pubcid": 0.0000273280043724807,
+                "sharedid": 0.00033476805356288854,
+                "cto_bidid": 0.00003416000546560088,
+                "_sharedID": 0.00004099200655872105,
+                "lotame_domain_check": 0.00020496003279360525
+            },
+            "exampleSites": [
+                "greensnap.jp",
+                "www.navitime.co.jp",
+                "www.kyounoryouri.jp",
+                "syosetu.org",
+                "business-textbooks.com",
+                "www.kobe-np.co.jp",
+                "www.cnn.co.jp",
+                "travel.navitime.com",
+                "www.afpbb.com",
+                "www.e-sogi.com",
+                "internet.watch.impress.co.jp",
+                "recipe.rakuten.co.jp",
+                "hinative.com",
+                "select.mamastar.jp",
+                "web.gekisaka.jp",
+                "www.fashion-press.net",
+                "www.lettuceclub.net",
+                "item.fril.jp",
+                "fily.jp",
+                "mine-3m.com"
+            ]
+        },
+        {
+            "rule": "microad\\.jp\\/aid",
+            "cookies": 0.000355,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aid.send"
+            ],
+            "apis": {},
+            "sites": 52,
+            "prevalence": 0.000355,
+            "cnames": [],
+            "responseHashes": [
+                "23c156e1a2ceb65bcc234b8dc7c3e6b35e5d012c591f3a5aa895404f95b1977e",
+                "586db5b4b3d8bfb68454825ad037a3b2e541aca7bd6e74a6c59cc38e4886df6e",
+                "897402774903a3660b0aac5b172eb219100480a00e9a5dd8eb9daafe6f451acf",
+                "a99fae564948d3084bc37ad1686fbe2779ab9f3d5756f8c98ef610835955b5da",
+                "723ad18324cc4049ec8c7722ab8b40c65ac6ec04e4a42a4d5d87486b18158fb1",
+                "ad749ce456c11d6f134d24aec208c06dd15648c8c70515b09a75e3954973c9c6",
+                "354ef21063cc7f9053203ad2da7cc9f9b034b04263d91b8fecd6edf32c89de60",
+                "8f0411ee7a380afda3eaff35fec14fe5f9726e71c2b696581724aabd955d958f",
+                "ffb2a4d129f90706f0fbd5bb8f1fa1b6666041012697bc64ed87505e09e8b7f5",
+                "5450aab2c1a61cc524660e7681450d83783897bd30eb9dc1c1ab3466999d8c85",
+                "fd70b1d2e3a9f4b421380a5bb4e948478c97ff5ce9f95ad2a851cd1f41a960eb",
+                "60054066ae116202cffb5fe1d3d3ded59b3a65a867363d3d01e7bb0120baedb6",
+                "d147e5038d6b2ccfab64e0a496f01990f39849e862de7718fe8b11ccaf65f9f3",
+                "05cde3390ab27a327ec8123ec20bea52a41612d12872678ae1f4c2737cb957a4",
+                "50b02505e6f9e031e902fa7d562b9a3413ff22af8e2cdf9feb2e75d4de487e0b",
+                "ead061aa28ad6d073055e67408e3a06cb4377d7a842ea3d807878412050d6fdd",
+                "1e5f03377e175f0584ec776156cedd8ce2770010f6c4de7f30ef4a8539bae9b3",
+                "2d5f69c977b2fc1111692ad4cf977d1ddfebba952d1d9a3526befd227a9b9692",
+                "2f4116c71e8ce08841b46375e51631b9aa38d47166ce37be93d587ba4a67a8ed",
+                "23f8ab22757d5f9e80c4759d17b5e5b60f0479c89f1df5e132ee7f512b0f7386",
+                "a74926fe1294c141c304fcc8c187d818f137eb89a4a0bb633a43a5699ebdf568",
+                "40aa391401c7b4f82a25844352533980e3a0cbd11fa019d491901d5299e9bc8a",
+                "b9b4a0bebfa9c29dfd2fc67b209326fbf5da07b76ac9ac555dc2f649f763ac50",
+                "3979e5ba8709588938315b55c1474aa8205c1a77e6864502faa61ba7dc8ad918",
+                "f65485043c8cfecad126eaf0c9930aaac3940b198b6e6cd98769d339ee721467",
+                "9f0be7331a9e31ecc8070cb689ad6880e86cab8d18cbdfa68ab80424d3df4aca",
+                "193300e51303731530311f31691848aa949774e86bd849a472bb65444b442e44",
+                "a5b079866f277a216b6ba68d9fd5051c27a481387a1d35660b4173c4e740c7aa",
+                "fe1f87591134620f88ead067b68f97a4089810a4013f09aee0bacb494e46c12b",
+                "372238d5a3255b01a8d83cc7ab862e0b5d4d75c763e357f78242f18467651371",
+                "ab0dafda041ab59e949f432e838a27198b4ff8414b27e6a47076e8a921fbcac3",
+                "1aeac4077697bea8330b229938d9a1f02a35688804bc5db8ae38ca42da6c36f7",
+                "59a3b8d19f5d6198761ac354b352e80654f6240ade54930d02ec9705af85e40a",
+                "f10db3e3971151644679b15eed1dbc9c9ce14057e2e2827a24fb976ab04eab43",
+                "8330c6875551aaca0cd9bdf10a21b803004091300495b28863ed2ad21145fa6e",
+                "288e35c9bc86bdbf252b9d035721c5b3ea7a4fc8af1440b0dbd57df861b24328",
+                "d6352bbf42c69dfd657ee75c7182737f897a8e718a05dbeefeedfb2453b2e748",
+                "7e82f12ba682c60eab4b6f0b17f2c0f4d4a5b3b9de52bcdd8a9d74b605248ffc",
+                "02f365e74c4b022ad7fec18fa71537dbd2930b4b0df6a05b93c1df9ec69b2aeb",
+                "d76b699c206a707a3601f1366ba4a872297be8bc8650e700ee1e2386f0c17e44",
+                "d60ea79aebb26826a926ba2943e76f4093dc66d833d51ea5f274c63c372c197f",
+                "c9a7d5509fa506333987c7b5abf1c6415783ad920a9ca060f297520e19e0eeab",
+                "8c2b42cbbd4e60c0d355374e29cdc359ed77dbfd9f44a9a0deacaf3ec0c73478",
+                "dd704466056397f128852be6a10e728911907a5565632b9d72808fc63e361562"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kamigame.jp",
+                "forest.watch.impress.co.jp",
+                "nekochan.jp",
+                "www.animatetimes.com",
+                "www.gamespark.jp",
+                "www.bengo4.com",
+                "yomou.syosetu.com",
+                "game8.jp",
+                "ciatr.jp",
+                "jinjibu.jp",
+                "k-tai.watch.impress.co.jp",
+                "wanchan.jp",
+                "www.news-postseven.com",
+                "www.biteki.com",
+                "www.zeiri4.com",
+                "oggi.jp",
+                "cancam.jp",
+                "sp.uta-net.com",
+                "bbs.bengo4.com",
+                "mynavi.jp"
+            ]
+        },
+        {
+            "rule": "microad\\.jp\\/tr",
+            "cookies": 0.000929,
+            "fingerprinting": 0,
+            "subdomains": [
+                "universe.send"
+            ],
+            "apis": {},
+            "sites": 136,
+            "prevalence": 0.000929,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00004099200655872105,
+                "__ph_opt_in_out_phc_tnQZyAK9BM0WkS5fdAZAxA1bNnyKUlWSACWzmxDfVrA": 0.000020496003279360526
+            },
+            "exampleSites": [
+                "nekochan.jp",
+                "www.palcloset.jp",
+                "www.his-j.com",
+                "www.irisplaza.co.jp",
+                "game8.jp",
+                "www.oanda.jp",
+                "dokusho-ojikan.jp",
+                "pc.watch.impress.co.jp",
+                "allabout.co.jp",
+                "wanchan.jp",
+                "www.suzuki.co.jp",
+                "www.autobacs.com",
+                "www.ntv.co.jp",
+                "moneykit.net",
+                "www.cr.mufg.jp",
+                "game.watch.impress.co.jp",
+                "kosodate.mynavi.jp",
+                "www.yayoi-kk.co.jp",
+                "www.livable.co.jp",
+                "kuruma-news.jp"
+            ]
+        },
+        {
+            "rule": "microad\\.jp\\/prebid",
+            "cookies": 0.000082,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s-rtb-pb.send"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0000888,
+            "cnames": [],
+            "responseHashes": [
+                "eafb4bf577f5c3be774b5a16fb3729c76c6487f5e210b2a55b962d2acee40638"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000020496003279360526,
+                "sharedid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "mynavi.jp",
+                "agri.mynavi.jp",
+                "anond.hatelabo.jp",
+                "b.hatena.ne.jp",
+                "blog.with2.net",
+                "earthquake.tenki.jp",
+                "gamewith.jp",
+                "kakuyomu.jp",
+                "minkara.carview.co.jp",
+                "okwave.jp",
+                "pokemongo.gamewith.jp",
+                "tenki.jp",
+                "www.orangepage.net"
+            ]
+        },
+        {
+            "rule": "microad\\.jp\\/js\\/td_iw_access\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d-cache"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "b3a3eaf768f93af953be490d6e8661b60d247bdb32bc76d07d0483cb5c9d7317"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "impress.co.jp",
+                "av.watch.impress.co.jp",
+                "dc.watch.impress.co.jp",
+                "forest.watch.impress.co.jp",
+                "game.watch.impress.co.jp",
+                "internet.watch.impress.co.jp",
+                "k-tai.watch.impress.co.jp",
+                "pc.watch.impress.co.jp"
+            ]
+        },
+        {
+            "rule": "microad\\.jp\\/js\\/track\\.js",
+            "cookies": 0.000417,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 61,
+                "NavigatorUAData.prototype.getHighEntropyValues": 61,
+                "Navigator.prototype.userAgent": 61,
+                "Document.cookie getter": 61,
+                "Document.cookie setter": 61
+            },
+            "sites": 63,
+            "prevalence": 0.00043,
+            "cnames": [],
+            "responseHashes": [
+                "d57d343b8375e5ba9e9420488e3f32a8059e3d6ca6c0d27728c6d199e4767865"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mtcn": {
+                    "ttl": 0,
+                    "length": 5,
+                    "prevalence": 0.0004167520666803307,
+                    "uniqueness": 0.01639344262295082
+                },
+                "universe_aid": {
+                    "ttl": 7776000,
+                    "length": 36,
+                    "prevalence": 0.0004167520666803307,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baby-calendar.jp",
+                "www.dot-st.com",
+                "moneykit.net",
+                "bookwalker.jp",
+                "earthquake.tenki.jp",
+                "minkabu.jp",
+                "livejapan.com",
+                "cancam.jp",
+                "news.mynavi.jp",
+                "minkara.carview.co.jp",
+                "jbpress.ismedia.jp",
+                "www.athome.co.jp",
+                "www.webcartop.jp",
+                "business.ntt-east.co.jp",
+                "www.livable.co.jp",
+                "www.inter-edu.com",
+                "www.sony.jp",
+                "www.sbisec.co.jp",
+                "autoc-one.jp",
+                "pc.watch.impress.co.jp"
+            ]
+        },
+        {
+            "rule": "microad\\.jp\\/js\\/universe_cookie_sync\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cache.send"
+            ],
+            "apis": {
+                "Document.cookie getter": 31
+            },
+            "sites": 62,
+            "prevalence": 0.000424,
+            "cnames": [],
+            "responseHashes": [
+                "8a5c6bfe18521db168aa80bcce8cd7091b0a789a588d4e2008dfdabecd43ff09"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bookwalker.jp",
+                "www.biteki.com",
+                "www.autobacs.com",
+                "game.watch.impress.co.jp",
+                "news.mynavi.jp",
+                "dpoint.docomo.ne.jp",
+                "minkabu.jp",
+                "forest.watch.impress.co.jp",
+                "www.dot-st.com",
+                "av.watch.impress.co.jp",
+                "www.yayoi-kk.co.jp",
+                "earthquake.tenki.jp",
+                "www.dlsite.com",
+                "kuruma-news.jp",
+                "www.sagawa-exp.co.jp",
+                "minkara.carview.co.jp",
+                "cc.minkabu.jp",
+                "www.suzuki.co.jp",
+                "bakusai.com",
+                "medipalette.lotte.co.jp"
+            ]
+        },
+        {
+            "rule": "microad\\.jp\\/track\\/json\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 62,
+            "prevalence": 0.000424,
+            "cnames": [],
+            "responseHashes": [
+                "52af878821dca82c246ac02769335fae64990e79ec84ac523aeabab9c3a1b73d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "l-tike.com",
+                "www.takarakuji-official.jp",
+                "bakusai.com",
+                "k-tai.watch.impress.co.jp",
+                "livejapan.com",
+                "www.suzuki.co.jp",
+                "fx.minkabu.jp",
+                "www.sagawa-exp.co.jp",
+                "www.aeon.co.jp",
+                "domani.shogakukan.co.jp",
+                "kuruma-news.jp",
+                "www.webcartop.jp",
+                "medicalnote.jp",
+                "www.cinematoday.jp",
+                "car-moby.jp",
+                "www.irisohyama.co.jp",
+                "nestle.jp",
+                "cancam.jp",
+                "www.mazda.co.jp",
+                "www.athome.co.jp"
+            ]
+        },
+        {
+            "rule": "microad\\.jp\\/cs",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s-cs.send"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ameblo.jp",
+                "en-gage.net"
+            ]
+        },
+        {
+            "rule": "microad\\.jp\\/g\\/asr",
+            "cookies": 0.000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aid.send"
+            ],
+            "apis": {},
+            "sites": 21,
+            "prevalence": 0.000143,
+            "cnames": [],
+            "responseHashes": [
+                "071d0a5d172af491aedca9041f20e830d25fd4d339a1006bca3bed949069aa30"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "tlb_sid": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "www.livable.co.jp",
+                "game.watch.impress.co.jp",
+                "business.ntt-east.co.jp",
+                "livejapan.com",
+                "game8.jp",
+                "pc.watch.impress.co.jp",
+                "www.inter-edu.com",
+                "earthquake.tenki.jp",
+                "kuruma-news.jp",
+                "baby-calendar.jp",
+                "cancam.jp",
+                "www.dot-st.com",
+                "medipalette.lotte.co.jp",
+                "internet.watch.impress.co.jp",
+                "www.takarakuji-official.jp",
+                "www.sony.jp",
+                "www.athome.co.jp",
+                "forest.watch.impress.co.jp",
+                "www.irisplaza.co.jp",
+                "l-tike.com"
+            ]
+        },
+        {
+            "rule": "microad\\.jp\\/js\\/td_b4_access\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d-cache"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ebdc2a8b4bdf07cb8a52e5cd087fadfd7eae770e1f80338d9fff7451dab0fe2c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bengo4.com",
+                "www.bengo4.com"
+            ]
+        },
+        {
+            "rule": "microad\\.jp\\/js\\/blade_track_jp\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d-cache",
+                "d-track.send"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.000123,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "benesse.ne.jp",
+                "dog.benesse.ne.jp",
+                "gold.tanaka.co.jp",
+                "p-town.dmm.com",
+                "shingakunet.com",
+                "shop.aeon.com",
+                "store.world.co.jp",
+                "tamashiiweb.com",
+                "www.aeon.co.jp",
+                "www.aeon.jp",
+                "www.dlsite.com",
+                "www.eposcard.co.jp",
+                "www.hmv.co.jp",
+                "www.iijmio.jp",
+                "www.mbs.jp",
+                "www.nitori-net.jp",
+                "www.pc-koubou.jp",
+                "www.y-aoyama.jp"
+            ]
+        },
+        {
+            "rule": "microad\\.jp\\/js\\/compass-gam\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "e181a8cd910e5296f0bd8562c55f2e5f53fa800fc7ecf3554524746e36691a2d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "impress.co.jp",
+                "erecipe.woman.excite.co.jp",
+                "internet.watch.impress.co.jp",
+                "k-tai.watch.impress.co.jp",
+                "www.jorudan.co.jp",
+                "www.watch.impress.co.jp"
+            ]
+        },
+        {
+            "rule": "microad\\.jp\\/js\\/td_sn_access\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d-cache"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "11285d7b9b8ad767b8f9e716467866ddce97233a7e746a6b26bef94ae77553c5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "syosetu.com",
+                "ncode.syosetu.com",
+                "yomou.syosetu.com"
+            ]
+        },
+        {
+            "rule": "microad\\.jp\\/js\\/td_un_access\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d-cache"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "11d36033c551502bd7b07ab341ee6639234134c49211206673374ffe8ed7105f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uta-net.com",
+                "www.uta-net.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {},
+    "cookies": 0.00264,
+    "topInitiators": [
+        {
+            "domain": "microad.net",
+            "prevalence": 0.4352711284807035
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.13727405959941377
+        },
+        {
+            "domain": "flux-cdn.com",
+            "prevalence": 0.11529066927210552
+        },
+        {
+            "domain": "ladsp.com",
+            "prevalence": 0.07474352711284807
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.05031753786028334
+        },
+        {
+            "domain": "rubiconproject.com",
+            "prevalence": 0.043478260869565216
+        },
+        {
+            "domain": "geoedge.be",
+            "prevalence": 0.03712750366389839
+        },
+        {
+            "domain": "im-apps.net",
+            "prevalence": 0.03517342452369321
+        },
+        {
+            "domain": "socdm.com",
+            "prevalence": 0.01612115290669272
+        },
+        {
+            "domain": "anymind360.com",
+            "prevalence": 0.015144113336590131
+        }
+    ],
+    "types": {
+        "Script": 309,
+        "Document": 176,
+        "Image": 379,
+        "Fetch": 147,
+        "XHR": 75
+    },
+    "nameservers": [
+        "ns2.cdnetdns.net",
+        "ns1.cdnetdns.net"
+    ]
+}

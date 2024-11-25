@@ -1,0 +1,1006 @@
+{
+    "domain": "onetrust.eu",
+    "owner": {
+        "name": "OneTrust LLC",
+        "displayName": "OneTrust",
+        "privacyPolicy": "https://www.onetrust.com/privacy-notice",
+        "url": "http://onetrust.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00015,
+    "sites": 22,
+    "subdomains": [
+        "breuninger.my",
+        "drei.my",
+        "edisonenergia.my",
+        "fielmann.my",
+        "witt.my",
+        "lahitapiola.my",
+        "geobra.my",
+        "rp.my",
+        "vattenfall-de.my",
+        "phs.my",
+        "otto.my",
+        "devolksbank.my",
+        "myprivacyeu.my"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/scripttemplates\\/otSDKStub\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "breuninger.my",
+                "drei.my",
+                "edisonenergia.my",
+                "fielmann.my",
+                "witt.my",
+                "lahitapiola.my",
+                "geobra.my",
+                "rp.my",
+                "vattenfall-de.my",
+                "phs.my"
+            ],
+            "apis": {
+                "Document.cookie getter": 13,
+                "window.sessionStorage": 13
+            },
+            "sites": 13,
+            "prevalence": 0.0000888,
+            "cnames": [],
+            "responseHashes": [
+                "ade920fd5b00cd298aae7978673a9a64d0bb3fa593d23e91994ec6b6723ebace"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "breuninger.com",
+                "www.breuninger.com",
+                "www.drei.at",
+                "www.edisonenergia.it",
+                "www.fielmann.de",
+                "www.heine.de",
+                "www.lahitapiola.fi",
+                "www.playmobil.com",
+                "www.sieh-an.de",
+                "www.tonight.de",
+                "www.vattenfall.de",
+                "www.volkswagen.at",
+                "www.witt-weiden.de"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/consent\\/3f61e194-60b9-4d37-b0d5-2b92d62a5c7c\\/3f61e194-60b9-4d37-b0d5-2b92d62a5c7c\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "breuninger.my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a02787e28a022e5bae2fe79a6bc3fe593fea84b45dddfd0c61e1df5895e6f741"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "breuninger.com",
+                "www.breuninger.com"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/geolocation\\/cookies\\/v1\\/location",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "breuninger.my",
+                "otto.my",
+                "rp.my",
+                "devolksbank.my",
+                "fielmann.my",
+                "witt.my",
+                "lahitapiola.my",
+                "phs.my",
+                "myprivacyeu.my"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.000109,
+            "cnames": [],
+            "responseHashes": [
+                "a83ed8323ccce5cac1a207168c721c696b588719d6dd90b721a4d14e78dd51a5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "breuninger.com",
+                "otto.de",
+                "trauer.rp-online.de",
+                "www.asnbank.nl",
+                "www.breuninger.com",
+                "www.fielmann.de",
+                "www.heine.de",
+                "www.lahitapiola.fi",
+                "www.otto.de",
+                "www.regiobank.nl",
+                "www.sieh-an.de",
+                "www.snsbank.nl",
+                "www.tonight.de",
+                "www.volkswagen.at",
+                "www.witt-weiden.de",
+                "www.zurbrueggen.de"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/scripttemplates\\/202405\\.2\\.0\\/otBannerSdk\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "breuninger.my"
+            ],
+            "apis": {
+                "Navigator.prototype.doNotTrack": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "402dda334f81814b077c20d0d093636239c027f3e82996fd7c12cb91aa57540a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "OptanonConsent": {
+                    "ttl": 31536005,
+                    "length": 12,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "breuninger.com",
+                "www.breuninger.com"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/consent\\/3f61e194-60b9-4d37-b0d5-2b92d62a5c7c\\/1fcf3b21-e3e6-4bb0-9d6b-8d436edbe4e6\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "breuninger.my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f5fc963c3c2a1202a53ee0ebeaf096a09b171a840b83fb812d1f0e4edc7b2cb9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "breuninger.com",
+                "www.breuninger.com"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/scripttemplates\\/202405\\.2\\.0\\/assets\\/otCenterRounded\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "breuninger.my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b1bc0b181617d553a69d6c20ada9495d7a8efe04ca9f098c965ec0758ba7a114"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "breuninger.com",
+                "www.breuninger.com"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/scripttemplates\\/202405\\.2\\.0\\/assets\\/v2\\/otPcCenter\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "breuninger.my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f4d5103576ca3021541a6eb4ece82f19b2b2ac610297ccb565da0fdcc8bf479e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "breuninger.com",
+                "www.breuninger.com"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/scripttemplates\\/202405\\.2\\.0\\/assets\\/otCommonStyles\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "breuninger.my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c52550189ad7a781a37919af639c2d6a786821aad8b982daa6a54af46817b8fa"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "breuninger.com",
+                "www.breuninger.com"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/logos\\/static\\/ot_guard_logo\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "breuninger.my",
+                "devolksbank.my",
+                "edisonenergia.my",
+                "fielmann.my",
+                "lahitapiola.my",
+                "geobra.my",
+                "vattenfall-de.my",
+                "phs.my",
+                "myprivacyeu.my"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.000082,
+            "cnames": [],
+            "responseHashes": [
+                "691dcdb24853a0f5ce4e6597e5713dea66799b57ffe2c2a10f28f98e0b569b19"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "breuninger.com",
+                "www.asnbank.nl",
+                "www.breuninger.com",
+                "www.edisonenergia.it",
+                "www.fielmann.de",
+                "www.lahitapiola.fi",
+                "www.playmobil.com",
+                "www.regiobank.nl",
+                "www.snsbank.nl",
+                "www.vattenfall.de",
+                "www.volkswagen.at",
+                "www.zurbrueggen.de"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/logos\\/static\\/ot_company_logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "breuninger.my",
+                "devolksbank.my"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "e7fd0009abc1f00afe5c545bf11873331d40d7cb97127a7492a4392942f5565a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "breuninger.com",
+                "www.asnbank.nl",
+                "www.breuninger.com",
+                "www.regiobank.nl",
+                "www.snsbank.nl"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/logos\\/static\\/powered_by_logo\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "breuninger.my",
+                "devolksbank.my",
+                "edisonenergia.my",
+                "fielmann.my",
+                "lahitapiola.my",
+                "geobra.my",
+                "vattenfall-de.my",
+                "phs.my"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000752,
+            "cnames": [],
+            "responseHashes": [
+                "5fa00d047acd959697b9d7772c31dcd37bec33c70c6fbf80ab8316205d1d286d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "breuninger.com",
+                "www.asnbank.nl",
+                "www.breuninger.com",
+                "www.edisonenergia.it",
+                "www.fielmann.de",
+                "www.lahitapiola.fi",
+                "www.playmobil.com",
+                "www.regiobank.nl",
+                "www.snsbank.nl",
+                "www.vattenfall.de",
+                "www.volkswagen.at"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/consent\\/4bb512ad-df52-4e7f-8a4f-1938a1a130cf\\/otSDKStub\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "otto.my"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "25337b2e76c6df5bd6f28db265296053f303c7c0e27c3de45f4b87b8ef04c05f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "otto.de",
+                "www.otto.de"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/consent\\/4bb512ad-df52-4e7f-8a4f-1938a1a130cf\\/4bb512ad-df52-4e7f-8a4f-1938a1a130cf\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "otto.my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0124d7bd57b6e88823115ca5ced84d2a2c21bac68323e808524cfc36bf0102cd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "otto.de",
+                "www.otto.de"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/scripttemplates\\/202409\\.1\\.0\\/otBannerSdk\\.js",
+            "cookies": 0.0000273,
+            "fingerprinting": 1,
+            "subdomains": [
+                "otto.my",
+                "rp.my",
+                "witt.my"
+            ],
+            "apis": {
+                "Navigator.prototype.doNotTrack": 4,
+                "Document.cookie getter": 4,
+                "Navigator.prototype.languages": 3,
+                "Navigator.prototype.userAgent": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "81a50b09cb85e4ff68788f763b8dcdc549414cecf42ca228a55ab77c971f1286",
+                "247f3be41e4d44afac56c74180f05cfc753c2c4618a88b4ed63fd84c5996dc2b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "OptanonConsent": {
+                    "ttl": 34560006,
+                    "length": 12,
+                    "prevalence": 0.0000273280043724807,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "otto.de",
+                "www.otto.de",
+                "www.tonight.de",
+                "www.witt-weiden.de"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/consent\\/4bb512ad-df52-4e7f-8a4f-1938a1a130cf\\/0190dab7-4781-7970-bd99-e74601083c7f\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "otto.my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "438f0a3d2ac9bc0f4fcfa9b3837beec18b632b225d152c1efc7954e9c29e39f6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "otto.de",
+                "www.otto.de"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/vendorlist\\/iab2V2Data\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "otto.my",
+                "rp.my"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "a159ed2d66ea53c973024bd4672601417cbf8f31f4c70fdd30f7b7259965d879"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "otto.de",
+                "trauer.rp-online.de",
+                "www.otto.de",
+                "www.tonight.de",
+                "www.wuppertaler-rundschau.de"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/scripttemplates\\/202409\\.1\\.0\\/otTCF\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "otto.my",
+                "rp.my"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "a77ed58556547050d62efb8363841c0ef48dd9ef8b092935d5e6b1b00a9c4c15",
+                "caa7a10f89a16a36a33cf736a7edba3b4adaf4f6c66854898aaf5435a498a94f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "otto.de",
+                "www.otto.de",
+                "www.tonight.de"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/scripttemplates\\/202409\\.1\\.0\\/assets\\/otFlat\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "otto.my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d890abf66010907c7a0a61236d25c3c98bcb7edec34b13dc887f5be122bfef7e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "otto.de",
+                "www.otto.de"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/scripttemplates\\/202409\\.1\\.0\\/assets\\/otCommonStyles\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "otto.my",
+                "rp.my",
+                "witt.my"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "7c2092048f21074425f3e025db78fb6505f75d6fcf2e121ced055c8d53bcb1b3",
+                "6c496fcbe60fec78dc1b86a9136644d9a97cae20df32be3e9a4a62ce7bd0e6a6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "otto.de",
+                "www.otto.de",
+                "www.tonight.de",
+                "www.witt-weiden.de"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/scripttemplates\\/6\\.39\\.0\\/otBannerSdk\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "devolksbank.my"
+            ],
+            "apis": {
+                "Navigator.prototype.doNotTrack": 3,
+                "Navigator.prototype.languages": 3,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.vendor": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "a48e8c64840f87cc0e1f27805431f9982eca374e815638e4b49a001366869e84",
+                "e0ba033e6cb25fa6e20186d6d8113cc3821028b7891c93eebe671b75f6eebc3f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "OptanonConsent": {
+                    "ttl": 31536003,
+                    "length": 12,
+                    "prevalence": 0.000020496003279360526,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asnbank.nl",
+                "www.regiobank.nl",
+                "www.snsbank.nl"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/scripttemplates\\/6\\.39\\.0\\/assets\\/otCenterRounded\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "devolksbank.my"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "d94edd219d965011aa7c423435675f8fc3aba340d1d2a45840c88592b922dbf2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asnbank.nl",
+                "www.regiobank.nl",
+                "www.snsbank.nl"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/scripttemplates\\/6\\.39\\.0\\/assets\\/v2\\/otPcCenter\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "devolksbank.my"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "331852fd9912583b03043c973d33d23b2711924f3731bd8bcd31b7000a6d4a60"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asnbank.nl",
+                "www.regiobank.nl",
+                "www.snsbank.nl"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/scripttemplates\\/6\\.39\\.0\\/assets\\/otCookieSettingsButton\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "devolksbank.my"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "a09d0f89e99cf5a081315ff701187632005dabd23f3ca116a75790003faa7e8f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asnbank.nl",
+                "www.regiobank.nl",
+                "www.snsbank.nl"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/scripttemplates\\/6\\.39\\.0\\/assets\\/otCommonStyles\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "devolksbank.my"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "9f0bdb71653a680e088d3250f6ec0df789c3e842121402b5fd0464aa18b15ed0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asnbank.nl",
+                "www.regiobank.nl",
+                "www.snsbank.nl"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/scripttemplates\\/202408\\.1\\.0\\/otBannerSdk\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "drei.my",
+                "lahitapiola.my"
+            ],
+            "apis": {
+                "Navigator.prototype.doNotTrack": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.languages": 1,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c6b56e45e770416d91dd83f5a7375794aee5667293cd54219b3d4c17997e885f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "OptanonConsent": {
+                    "ttl": 31536006,
+                    "length": 12,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drei.at",
+                "www.lahitapiola.fi"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/scripttemplates\\/202408\\.1\\.0\\/assets\\/otCommonStyles\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "drei.my",
+                "lahitapiola.my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7c2092048f21074425f3e025db78fb6505f75d6fcf2e121ced055c8d53bcb1b3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drei.at",
+                "www.lahitapiola.fi"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/scripttemplates\\/202406\\.1\\.0\\/otBannerSdk\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "witt.my"
+            ],
+            "apis": {
+                "Navigator.prototype.doNotTrack": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ee66778dba8431b64c285bbfcc94d437a298b46e129512f2371e3c7d13a2bcd6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "OptanonConsent": {
+                    "ttl": 31536009,
+                    "length": 12,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heine.de",
+                "www.sieh-an.de"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/scripttemplates\\/202406\\.1\\.0\\/assets\\/otCommonStyles\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "witt.my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6c496fcbe60fec78dc1b86a9136644d9a97cae20df32be3e9a4a62ce7bd0e6a6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heine.de",
+                "www.sieh-an.de"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/consent\\/8216df8b-9940-4564-9ed4-1d95a72ab211\\/8216df8b-9940-4564-9ed4-1d95a72ab211\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geobra.my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3ff8fd79eb207b34bcb477ae6dac5053c1b24ee4c59ccd82f5c89099b38ac5ba"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playmobil.com",
+                "www.playmobil.com"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/scripttemplates\\/202403\\.1\\.0\\/otBannerSdk\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "geobra.my"
+            ],
+            "apis": {
+                "Navigator.prototype.doNotTrack": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6d1137d21f3ba78b8a882dbf77f7c88712ad02a3f5efdce5ff996a67c15a6bf6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "OptanonConsent": {
+                    "ttl": 31536006,
+                    "length": 12,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playmobil.com",
+                "www.playmobil.com"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/scripttemplates\\/202403\\.1\\.0\\/assets\\/otCenterRounded\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geobra.my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "09b627933e01faa4979dc5661f7e616c7db1c12ea1984ca0549bdb253d24da9b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playmobil.com",
+                "www.playmobil.com"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/scripttemplates\\/202403\\.1\\.0\\/assets\\/v2\\/otPcCenter\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geobra.my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f40f57620246d052ea666f8f9d25dc6fcd93a7bbd6314077a2eb7213e98a4b5a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playmobil.com",
+                "www.playmobil.com"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/scripttemplates\\/202403\\.1\\.0\\/assets\\/otCommonStyles\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geobra.my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "906696b6eda58302976c520c1c37e981beb5e14702bd2445b987083bacb52116"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playmobil.com",
+                "www.playmobil.com"
+            ]
+        },
+        {
+            "rule": "onetrust\\.eu\\/cdn\\/cookies\\/logos\\/8aa082e2-4df7-4eb7-8232-665f4746c160\\/93b11506-ce31-4a23-bacc-f2deaa3881b0\\/81e70c26-5242-4001-804b-efe11a578d6e\\/playmobil_logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geobra.my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d7000e404af421abc7687b5d599eefee071a64f03af1d49ec065532729e095dd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playmobil.com",
+                "www.playmobil.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00013,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8387096774193549
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.0967741935483871
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.06451612903225806
+        }
+    ],
+    "types": {
+        "Script": 33,
+        "XHR": 22,
+        "Fetch": 55,
+        "Image": 18
+    },
+    "nameservers": [
+        "cullen.ns.cloudflare.com",
+        "naomi.ns.cloudflare.com"
+    ]
+}

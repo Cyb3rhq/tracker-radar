@@ -1,0 +1,420 @@
+{
+    "domain": "useinsider.com",
+    "owner": {
+        "name": "Sosyo Plus Bilgi Bilişim Tekn. Dan. Hiz. Tic. A.Ş.",
+        "displayName": "Insider"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "hunkemoller.api",
+        "medpetsdu.api",
+        "royalqueenseedssp.api",
+        "vietnamairlinesnew.api",
+        "singaporeairlines.api",
+        "assets.api",
+        "eitri.api",
+        "aryuder.api",
+        "locationv2.api",
+        "typhoon",
+        "log.api",
+        "hit.api",
+        "carrier",
+        "falcon"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "useinsider\\.com\\/ins\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "hunkemoller.api",
+                "medpetsdu.api",
+                "royalqueenseedssp.api",
+                "vietnamairlinesnew.api"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.vendor": 4,
+                "Navigator.prototype.maxTouchPoints": 4,
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.permissions": 4,
+                "window.indexedDB": 4,
+                "Notification.permission": 4,
+                "window.sessionStorage": 4,
+                "Navigator.prototype.webkitTemporaryStorage": 3,
+                "Performance.prototype.memory": 3,
+                "Element.prototype.getClientRects": 1,
+                "Document.cookie getter": 1
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "95f6320a7bd2b8110efd7e8bcc5ad2ab84a7722982dfe401e72c7e3eccad8ad1",
+                "3614f643dbd31c67114ddd2c893068fc0cac032bdfd0c46970d6ff8d1de283ec",
+                "52468e2641a5a7f6497ca196e0615d15ab776922b2d1756358a159d4f32530f7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hunkemoller.de",
+                "www.medpets.de",
+                "www.royalqueenseeds.de",
+                "www.vietnamairlines.com"
+            ]
+        },
+        {
+            "rule": "useinsider\\.com\\/worker-new\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "hunkemoller.api",
+                "medpetsdu.api",
+                "royalqueenseedssp.api",
+                "singaporeairlines.api",
+                "vietnamairlinesnew.api"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 5,
+                "window.localStorage": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Document.cookie getter": 4,
+                "window.name": 1
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "407b53a7416c7d2ead78587205c48f6b9d9d8402a4a205c7d3044beefce27f45"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hunkemoller.de",
+                "www.medpets.de",
+                "www.royalqueenseeds.de",
+                "www.singaporeair.com",
+                "www.vietnamairlines.com"
+            ]
+        },
+        {
+            "rule": "useinsider\\.com\\/css\\/info\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets.api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "bad7bd4f9214d7760252e8642d5b5c5a7d2e94aa7c933e95257894201aa6e706"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hunkemoller.de",
+                "www.medpets.de",
+                "www.royalqueenseeds.de"
+            ]
+        },
+        {
+            "rule": "useinsider\\.com\\/static\\/info\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eitri.api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "60d56395c56a57c7108ac60810e1f610c41d7e88f0503c02300d2ee3c3dc4e15"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hunkemoller.de",
+                "www.medpets.de",
+                "www.royalqueenseeds.de"
+            ]
+        },
+        {
+            "rule": "useinsider\\.com\\/v3\\/status",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aryuder.api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "61c0fe54bd9fe80ce4ddb3c1d4aba411310683a8b2a6a9e7aa5f48e6b3c087a1",
+                "8694259e1f725040d369f69f4ee4c8f7e7055364c8916c3be6908ecf14694968"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hunkemoller.de",
+                "www.hunkemoller.de",
+                "www.singaporeair.com"
+            ]
+        },
+        {
+            "rule": "useinsider\\.com\\/v3\\/status",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aryuder.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hunkemoller.de",
+                "www.singaporeair.com"
+            ]
+        },
+        {
+            "rule": "useinsider\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "locationv2.api",
+                "typhoon"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "845b378d26571da647e2ce7e2a9cd48015042e0684b6c351840b683e30e20213",
+                "869d4b6ec8da820ab1ee98f462095db2b9f054a34e0ea0244f06f713d8f97489",
+                "81e32ce63cdcfbe8b3aa76da75cc7a6c7ffca5663fc6d6665a2df7b68bb1eb9f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hunkemoller.de",
+                "www.medpets.de",
+                "www.royalqueenseeds.de",
+                "www.singaporeair.com",
+                "www.vietnamairlines.com"
+            ]
+        },
+        {
+            "rule": "useinsider\\.com\\/v2\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "log.api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hunkemoller.de",
+                "www.hunkemoller.de",
+                "www.medpets.de",
+                "www.royalqueenseeds.de",
+                "www.singaporeair.com"
+            ]
+        },
+        {
+            "rule": "useinsider\\.com\\/hit",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hit.api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "c955e57777ec0d73639dca6748560d00aa5eb8e12f13ebb2ed9656add3908f97"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hunkemoller.de",
+                "www.hunkemoller.de",
+                "www.medpets.de",
+                "www.singaporeair.com",
+                "www.vietnamairlines.com"
+            ]
+        },
+        {
+            "rule": "useinsider\\.com\\/static\\/ins-smart-recommender\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "eitri.api"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "18d7b0ea7b8cd91b83ce5842f0997d1802e6e0764c2688632edf4fad3e892b31"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hunkemoller.de",
+                "www.medpets.de"
+            ]
+        },
+        {
+            "rule": "useinsider\\.com\\/y\\/v2\\/z",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "carrier"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "d5060410522794611cd1a4f0c672beb5288a8db90c1f343ab90dd1218ecdf6fe",
+                "69a9491d4c3b3568af2961162c6dd60685826c8128618d25a943491c6b05a95e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "royalqueenseeds.de",
+                "www.singaporeair.com",
+                "www.vietnamairlines.com"
+            ]
+        },
+        {
+            "rule": "useinsider\\.com\\/y\\/v2\\/z",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "carrier"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "royalqueenseeds.de",
+                "www.singaporeair.com",
+                "www.vietnamairlines.com"
+            ]
+        },
+        {
+            "rule": "useinsider\\.com\\/api\\/v1\\/contact-profile\\/get\\/singaporeairlines",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "falcon"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "947884f103ed676be52706ad94e2a80b7b3bd8c0fe5eb2500ad1c0bd221a9a59"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "singaporeair.com",
+                "www.singaporeair.com"
+            ]
+        },
+        {
+            "rule": "useinsider\\.com\\/api\\/v1\\/contact-profile\\/get\\/singaporeairlines",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "falcon"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "singaporeair.com",
+                "www.singaporeair.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "glassboxcdn.com",
+            "prevalence": 0.7777777777777778
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.14814814814814814
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.07407407407407407
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "Document": 5,
+        "Stylesheet": 3,
+        "XHR": 18,
+        "Preflight": 7,
+        "Image": 5
+    },
+    "nameservers": [
+        "eric.ns.cloudflare.com",
+        "eva.ns.cloudflare.com"
+    ]
+}

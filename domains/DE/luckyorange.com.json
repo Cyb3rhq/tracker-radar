@@ -1,0 +1,211 @@
+{
+    "domain": "luckyorange.com",
+    "owner": {
+        "name": "Lucky Orange LLC",
+        "displayName": "Lucky Orange"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "tools",
+        "realtime",
+        "settings"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "luckyorange\\.com\\/core\\/lo\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tools"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "window.sessionStorage": 5,
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "9f856c8414143f27e5dd06dab33f37003f605eb4ac572f908c08123d2973bc9e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dreametech.com",
+                "leonardo.ai",
+                "wunschgutschein.de",
+                "www.solaredge.com",
+                "www.wunschgutschein.de"
+            ]
+        },
+        {
+            "rule": "luckyorange\\.com\\/core\\/core\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tools"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.platform": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.language": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "URL.createObjectURL": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f421955bb0cb16be8c2c5d9a62f1b735043cb40dff79bd7d2eec3a2c775e2269"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "lo-uid": {
+                    "ttl": 63072007,
+                    "length": 39,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 1
+                },
+                "lo-visits": {
+                    "ttl": 63072007,
+                    "length": 1,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dreametech.com",
+                "www.solaredge.com"
+            ]
+        },
+        {
+            "rule": "luckyorange\\.com\\/mqtt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "realtime"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dreametech.com",
+                "www.solaredge.com"
+            ]
+        },
+        {
+            "rule": "luckyorange\\.com\\/core\\/frame\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tools"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "9478b95f98291564fbafa04baf78d515505b2de365ef64366cd2871a805f2e35"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dreametech.com",
+                "de.dreametech.com",
+                "www.solaredge.com"
+            ]
+        },
+        {
+            "rule": "luckyorange\\.com\\/b47e406a",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "settings"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "eff17f6ab1c955dd56c5072bb31a945c1b096fbe5439afc3e2174c4f2bc2d471"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wunschgutschein.de",
+                "www.wunschgutschein.de"
+            ]
+        },
+        {
+            "rule": "luckyorange\\.com\\/b47e406a",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "settings"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wunschgutschein.de",
+                "www.wunschgutschein.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8888888888888888
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "WebSocket": 2,
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "olga.ns.cloudflare.com",
+        "sam.ns.cloudflare.com"
+    ]
+}

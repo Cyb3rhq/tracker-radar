@@ -1,0 +1,220 @@
+{
+    "domain": "shop.pe",
+    "owner": {
+        "name": "Add Shoppers",
+        "displayName": "Add Shoppers"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [
+        "shopper",
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "shop\\.pe\\/widget\\/widget_async\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "d35dec674eeb6ea303b01dbb26c4cf819a50d4f59ca0d2db2ffc00e9cf6ff2ce"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "haynes.com",
+                "www.ancient-origins.net",
+                "www.casetify.com",
+                "www.logos.com",
+                "www.paulaschoice.com.au",
+                "www.routledge.com"
+            ]
+        },
+        {
+            "rule": "shop\\.pe\\/widget\\/main\\/init\\/params",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "3d850dc2e40963c1f1ee6824d235cf53c18ee3d54ed9ef440736c094dcd7fb8a",
+                "4901e52076270e40dafc60124dd7523e0bc4f617c08149a4687d67d58f4e8dde",
+                "69b20d1b9909e33c0372ff17665be19dae1004c69557b7c765ef8e1d4ba59059",
+                "65acf954af544dd88fc6d50895d7fbb2a7cacbe638d1e0fe4ad781defba636ba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.0002008838891120932,
+                "lotame_domain_check": 0.0001004419445560466
+            },
+            "exampleSites": [
+                "haynes.com",
+                "www.ancient-origins.net",
+                "www.casetify.com",
+                "www.logos.com",
+                "www.paulaschoice.com.au",
+                "www.routledge.com"
+            ]
+        },
+        {
+            "rule": "shop\\.pe\\/input\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "shopper"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 4,
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "620a97911c6964bfc7cfacf4df74b3ba598ef728f2117675d171e4c62d500add"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "haynes.com",
+                "www.ancient-origins.net",
+                "www.casetify.com",
+                "www.paulaschoice.com.au",
+                "www.routledge.com"
+            ]
+        },
+        {
+            "rule": "shop\\.pe\\/app\\/datapartners\\/status",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "b4435b5ac2f1916ed1135fb1738a1cef87cb666f4356a6678fb1c77e1273f9e1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "haynes.com",
+                "www.ancient-origins.net",
+                "www.paulaschoice.com.au",
+                "www.routledge.com"
+            ]
+        },
+        {
+            "rule": "shop\\.pe\\/app\\/triggered_email_attribution",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "85ad9c4586b439a1f2ce5516c218bed3c64110ac93bb7c916894240392503053"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "haynes.com",
+                "www.paulaschoice.com.au"
+            ]
+        },
+        {
+            "rule": "shop\\.pe\\/app\\/triggered_email_attribution",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "haynes.com",
+                "www.paulaschoice.com.au"
+            ]
+        },
+        {
+            "rule": "shop\\.pe\\/widget\\/main\\/init\\/params",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "addshoppers.com": 0.0001004419445560466
+            },
+            "exampleSites": [
+                "paulaschoice.com.au",
+                "www.paulaschoice.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5588235294117647
+        },
+        {
+            "domain": "d2mjzob2nc713b.cloudfront.net",
+            "prevalence": 0.38235294117647056
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.058823529411764705
+        }
+    ],
+    "types": {
+        "Script": 17,
+        "XHR": 6,
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1375.awsdns-43.org",
+        "ns-1678.awsdns-17.co.uk",
+        "ns-482.awsdns-60.com",
+        "ns-601.awsdns-11.net"
+    ]
+}

@@ -1,0 +1,145 @@
+{
+    "domain": "orange.fr",
+    "owner": {
+        "name": "Orange",
+        "displayName": "Orange"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000403,
+    "sites": 4,
+    "subdomains": [
+        "datalayer",
+        "consent",
+        "pdata",
+        "login"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "orange\\.fr\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datalayer"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000403,
+            "cnames": [],
+            "responseHashes": [
+                "2a8cb08669c42d31436f0cadfffba0bd4c36fb53d21a9b913854cd7eb51e1803",
+                "a9da9fcfabc7cf509fab1c867430a2cfe5dc6765618d6a15b184bf7941c6ac2a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sosh.fr",
+                "communaute.sosh.fr",
+                "shop.sosh.fr",
+                "www.sosh.fr"
+            ]
+        },
+        {
+            "rule": "orange\\.fr\\/global-cookies\\/8d2801bc3d839c91e52768871c94b11651e616d1\\/global-cookies\\.8d2801bc3d839c91e52768871c94b11651e616d1\\.html",
+            "cookies": 0.000101,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 4,
+            "prevalence": 0.000403,
+            "cnames": [],
+            "responseHashes": [
+                "fa2ce86457ff3fc269469dd5742744427744101b8e4b511cbbf7484a789f562b"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sosh.fr",
+                "communaute.sosh.fr",
+                "shop.sosh.fr",
+                "www.sosh.fr"
+            ]
+        },
+        {
+            "rule": "orange\\.fr\\/pconsent\\/_pdb\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pdata"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000403,
+            "cnames": [],
+            "responseHashes": [
+                "1bd2aa0bb9f0a0fd919c42a18c81645bd6d9601f60086928b05db8a5be978689"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sosh.fr",
+                "communaute.sosh.fr",
+                "shop.sosh.fr",
+                "www.sosh.fr"
+            ]
+        },
+        {
+            "rule": "orange\\.fr\\/",
+            "cookies": 0.000302,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sosh.fr",
+                "shop.sosh.fr",
+                "www.sosh.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000403,
+    "topInitiators": [
+        {
+            "domain": "woopic.com",
+            "prevalence": 0.5294117647058824
+        },
+        {
+            "domain": "privacy-center.org",
+            "prevalence": 0.23529411764705882
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.23529411764705882
+        }
+    ],
+    "types": {
+        "XHR": 4,
+        "Document": 7,
+        "Image": 4
+    },
+    "nameservers": [
+        "ns2.orange.fr",
+        "ns1.orange.fr"
+    ]
+}

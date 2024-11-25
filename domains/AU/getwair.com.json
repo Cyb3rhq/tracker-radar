@@ -1,0 +1,111 @@
+{
+    "domain": "getwair.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "predict-v4",
+        "predict-api-v3"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "getwair\\.com\\/default\\/predict\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "predict-v4"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "397249b178a8ad5346fd71f47659aab655e04577004a4787b6f480b218b0be2c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "connor.com.au",
+                "www.johnnybigg.com.au",
+                "www.rockwear.com.au",
+                "www.yd.com.au"
+            ]
+        },
+        {
+            "rule": "getwair\\.com\\/load",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "predict-api-v3"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "connor.com.au",
+                "www.johnnybigg.com.au",
+                "www.rockwear.com.au",
+                "www.yd.com.au"
+            ]
+        },
+        {
+            "rule": "getwair\\.com\\/load",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "predict-api-v3"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "8f9a7cd3fe121b783dc914f598133da41fe6db26f6901846d22975166f414480"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "connor.com.au",
+                "www.johnnybigg.com.au",
+                "www.rockwear.com.au",
+                "www.yd.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Preflight": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns-761.awsdns-31.net",
+        "ns-1803.awsdns-33.co.uk",
+        "ns-1134.awsdns-13.org",
+        "ns-461.awsdns-57.com"
+    ]
+}

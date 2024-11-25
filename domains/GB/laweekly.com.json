@@ -1,0 +1,78 @@
+{
+    "domain": "laweekly.com",
+    "owner": {
+        "name": "New Times Media, LLC",
+        "displayName": "New Times Media"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "engine"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "laweekly\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "engine"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "window.localStorage": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "019085a1f20b23fe4e3440a69de8213b0bac79c90ef8fc50685f0bfde74ec2c3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "villagevoice.com",
+                "www.villagevoice.com"
+            ]
+        },
+        {
+            "rule": "laweekly\\.com\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engine"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "villagevoice.com",
+                "www.villagevoice.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Script": 2,
+        "Ping": 2
+    },
+    "nameservers": [
+        "isabel.ns.cloudflare.com",
+        "norm.ns.cloudflare.com"
+    ]
+}

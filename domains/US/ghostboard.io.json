@@ -1,0 +1,110 @@
+{
+    "domain": "ghostboard.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "t",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ghostboard\\.io\\/min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.language": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "44848f76d8a53df1707617799af832dc8b0cf43c35c0f0e11efb1d9de1e79330"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apolut.net",
+                "news.itsfoss.com",
+                "transition-news.org"
+            ]
+        },
+        {
+            "rule": "ghostboard\\.io\\/v3\\/views\\/c65cb68f4ca8e6b21011b7eb245ff8ca",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b44d16f77fe0cf3bff0c2f8f50ae65ee07b8fa89aeb8c496d85b28c0aefc6412"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apolut.net",
+                "transition-news.org"
+            ]
+        },
+        {
+            "rule": "ghostboard\\.io\\/v3\\/views\\/c65cb68f4ca8e6b21011b7eb245ff8ca",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apolut.net",
+                "transition-news.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "apolut.net",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-1167.awsdns-17.org",
+        "ns-1876.awsdns-42.co.uk",
+        "ns-326.awsdns-40.com",
+        "ns-936.awsdns-53.net"
+    ]
+}

@@ -1,0 +1,436 @@
+{
+    "domain": "azure.com",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.00562,
+    "sites": 56,
+    "subdomains": [
+        "js.monitor",
+        "westeurope-1.in.applicationinsights",
+        "westeurope-5.in.applicationinsights",
+        "westeurope-2.in.applicationinsights",
+        "eastus-3.in.applicationinsights",
+        "northeurope-2.in.applicationinsights",
+        "westeurope-4.in.applicationinsights"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "azure\\.com\\/scripts\\/c\\/ms\\.analytics-web-3\\.gbl\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js.monitor"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.appVersion": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3f179359dc1864bc3b859ce74b859f18a94dd691cd56054b2eb9b9fc39d0dd59"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "MicrosoftApplicationsTelemetryDeviceId": {
+                    "ttl": 31536000,
+                    "length": 36,
+                    "prevalence": 0.00020070245860511792,
+                    "uniqueness": 1
+                },
+                "ai_session": {
+                    "ttl": 1807,
+                    "length": 50,
+                    "prevalence": 0.00020070245860511792,
+                    "uniqueness": 1
+                },
+                "MSFPC": {
+                    "ttl": 31536000,
+                    "length": 4,
+                    "prevalence": 0.00020070245860511792,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "minecraft.net",
+                "www.minecraft.net"
+            ]
+        },
+        {
+            "rule": "azure\\.com\\/v2\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "westeurope-1.in.applicationinsights",
+                "westeurope-5.in.applicationinsights",
+                "westeurope-2.in.applicationinsights"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "fb5dc806f720d272a53b3e41f0eaf28c3f0fef5c895cafb73a9641c919db4f93",
+                "363ccc134ff12ac0b583e9b135a214a9b504fff1a8e31042fb13bc07e3e91468",
+                "b77934d05bdd2a58f476814325af7edfccad6f36b47247c3f10c6250891bafd2",
+                "e4fa1df5a5a536fe568b31a0d4916ce5b432cc7b480e5ce6edc0967aaee5e231",
+                "5e5fbeccb2c4426dbdd4d70dac039d69223ab935c9a43226b24b3ca75a32b637"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "holmwoods.eu",
+                "student.uva.nl",
+                "www.fonq.nl",
+                "www.radboudumc.nl",
+                "www.volkswagen.nl",
+                "www.waternet.nl"
+            ]
+        },
+        {
+            "rule": "azure\\.com\\/v2\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "westeurope-1.in.applicationinsights",
+                "westeurope-5.in.applicationinsights",
+                "westeurope-2.in.applicationinsights"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "holmwoods.eu",
+                "student.uva.nl",
+                "www.fonq.nl",
+                "www.radboudumc.nl",
+                "www.volkswagen.nl",
+                "www.waternet.nl"
+            ]
+        },
+        {
+            "rule": "azure\\.com\\/scripts\\/b\\/ai\\.2\\.min\\.js",
+            "cookies": 0.00191,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js.monitor"
+            ],
+            "apis": {
+                "Navigator.prototype.onLine": 21,
+                "window.sessionStorage": 21,
+                "Document.cookie getter": 19,
+                "Navigator.prototype.userAgent": 21,
+                "Document.cookie setter": 19,
+                "window.localStorage": 21,
+                "PerformanceTiming.prototype.navigationStart": 21
+            },
+            "sites": 22,
+            "prevalence": 0.00221,
+            "cnames": [],
+            "responseHashes": [
+                "bde9be4cbe799089a419225f87c2a9986043f6c7cb55853aaadab7200713f136"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ai_user": {
+                    "ttl": 31536000,
+                    "length": 47,
+                    "prevalence": 0.0019066733567486202,
+                    "uniqueness": 1
+                },
+                "ai_session": {
+                    "ttl": 1800,
+                    "length": 50,
+                    "prevalence": 0.0018063221274460613,
+                    "uniqueness": 1
+                },
+                "ai_sessionportal": {
+                    "ttl": 1800,
+                    "length": 50,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mbowebshop.nl",
+                "www.hogeschoolrotterdam.nl",
+                "www.pensioenfondspgb.nl",
+                "www.qatarairways.com",
+                "staatsloterij.nederlandseloterij.nl",
+                "www.weersvoorspelling.nl",
+                "www.sigma.nl",
+                "www.hollandcasino.nl",
+                "www.bison.net",
+                "www.aevitae.com",
+                "tabledusud.nl",
+                "www.victoriassecret.co.uk",
+                "www.next.co.uk",
+                "www.bkr.nl",
+                "twitch.facepunch.com",
+                "www.onvz.nl",
+                "www.vesteda.com",
+                "www.travelbags.nl",
+                "www.nederlandseloterij.nl",
+                "www.showroommodellen.nl"
+            ]
+        },
+        {
+            "rule": "azure\\.com\\/\\/v2\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "westeurope-5.in.applicationinsights",
+                "westeurope-1.in.applicationinsights",
+                "eastus-3.in.applicationinsights",
+                "northeurope-2.in.applicationinsights",
+                "westeurope-4.in.applicationinsights"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0012,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mbowebshop.nl",
+                "tabledusud.nl",
+                "twitch.facepunch.com",
+                "www.aevitae.com",
+                "www.agf.nl",
+                "www.bison.net",
+                "www.bkr.nl",
+                "www.delta.nl",
+                "www.hogeschoolrotterdam.nl",
+                "www.qatarairways.com",
+                "www.showroommodellen.nl",
+                "www.zilverenkruis.nl"
+            ]
+        },
+        {
+            "rule": "azure\\.com\\/\\/v2\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "westeurope-5.in.applicationinsights",
+                "westeurope-1.in.applicationinsights",
+                "eastus-3.in.applicationinsights",
+                "northeurope-2.in.applicationinsights",
+                "westeurope-4.in.applicationinsights"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0012,
+            "cnames": [],
+            "responseHashes": [
+                "ce2f5f717894e0800586a3fb5022ac8e8ea105d8a7dee912532b61d9a6fee7be",
+                "dcedc71969d6334e3d6e59c89192507e4c243453fb7f5c1bb26613c16df86a0e",
+                "b5a6b8f8dced09bf18920a311f765abe1ee41b3153a14ac76cad8e42e7b8a563",
+                "323ebafe581ab19f8546f3875491b28f43acd1633d461513b54fef195fbfb7a4",
+                "5e5fbeccb2c4426dbdd4d70dac039d69223ab935c9a43226b24b3ca75a32b637",
+                "8049f15a8eaca7841f95332ea627fb9d3abdea5084a206b0e5a9540234557637"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mbowebshop.nl",
+                "tabledusud.nl",
+                "twitch.facepunch.com",
+                "www.aevitae.com",
+                "www.agf.nl",
+                "www.bison.net",
+                "www.bkr.nl",
+                "www.delta.nl",
+                "www.hogeschoolrotterdam.nl",
+                "www.qatarairways.com",
+                "www.showroommodellen.nl",
+                "www.zilverenkruis.nl"
+            ]
+        },
+        {
+            "rule": "azure\\.com\\/scripts\\/b\\/ai\\.config\\.1\\.cfg\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js.monitor"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0013,
+            "cnames": [],
+            "responseHashes": [
+                "64ac278a67256ae70d462c23307e75416d4e5a0a060f95e124be57772ee5b43f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nederlandseloterij.nl",
+                "scholenopdekaart.nl",
+                "web.snelstart.nl",
+                "www.boels.com",
+                "www.das.nl",
+                "www.eneco.nl",
+                "www.fonq.nl",
+                "www.husqvarna.com",
+                "www.pressreader.com",
+                "www.roompot.nl",
+                "www.uefa.com",
+                "www.volkswagen.nl",
+                "www.ziengs.nl"
+            ]
+        },
+        {
+            "rule": "azure\\.com\\/scripts\\/b\\/ai\\.2\\.gbl\\.min\\.js",
+            "cookies": 0.000903,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js.monitor"
+            ],
+            "apis": {
+                "Navigator.prototype.onLine": 9,
+                "window.sessionStorage": 9,
+                "Document.cookie getter": 9,
+                "Navigator.prototype.userAgent": 9,
+                "Document.cookie setter": 9,
+                "window.localStorage": 9,
+                "PerformanceTiming.prototype.navigationStart": 9
+            },
+            "sites": 9,
+            "prevalence": 0.000903,
+            "cnames": [],
+            "responseHashes": [
+                "12e7192855d64b8867e792c9e0359a8e0b5ae2e2c9286007c9e4b881d86e7e07"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ai_user": {
+                    "ttl": 31536000,
+                    "length": 47,
+                    "prevalence": 0.0009031610637230306,
+                    "uniqueness": 1
+                },
+                "ai_session": {
+                    "ttl": 1800,
+                    "length": 50,
+                    "prevalence": 0.0009031610637230306,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "accountant.nl",
+                "www.anicura.nl",
+                "www.fjallraven.com",
+                "www.grantthornton.nl",
+                "www.loyensloeff.com",
+                "www.nba.nl",
+                "www.nikon.nl",
+                "www.slachtofferhulp.nl",
+                "www.yuverta.nl"
+            ]
+        },
+        {
+            "rule": "azure\\.com\\/scripts\\/b\\/ai\\.3\\.gbl\\.min\\.js",
+            "cookies": 0.000502,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js.monitor"
+            ],
+            "apis": {
+                "Navigator.prototype.onLine": 6,
+                "window.sessionStorage": 6,
+                "Document.cookie getter": 5,
+                "Navigator.prototype.userAgent": 6,
+                "Document.cookie setter": 5,
+                "window.localStorage": 6,
+                "PerformanceTiming.prototype.navigationStart": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "600d578752ad2581b1b8576ce45d75b7e2517c7ff146900e65aa416eb6da14f1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ai_user": {
+                    "ttl": 31536000,
+                    "length": 47,
+                    "prevalence": 0.0005017561465127947,
+                    "uniqueness": 1
+                },
+                "ai_session": {
+                    "ttl": 1800,
+                    "length": 50,
+                    "prevalence": 0.0005017561465127947,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fonq.nl",
+                "www.husqvarna.com",
+                "www.radboudumc.nl",
+                "www.roompot.nl",
+                "www.waternet.nl",
+                "www.ziengs.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00351,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9855072463768116
+        },
+        {
+            "domain": "prcdn.co",
+            "prevalence": 0.014492753623188406
+        }
+    ],
+    "types": {
+        "Script": 39,
+        "XHR": 18,
+        "Preflight": 18,
+        "Fetch": 13
+    },
+    "nameservers": [
+        "ns2-39.azure-dns.net",
+        "ns3-39.azure-dns.org",
+        "ns4-39.azure-dns.info",
+        "ns1-39.azure-dns.com"
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "domain": "ovh.net",
+    "owner": {
+        "name": "OVH SAS.",
+        "displayName": "OVH"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000806,
+    "sites": 8,
+    "subdomains": [
+        "gimii-static.s3.sbg.io.cloud"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ovh\\.net\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gimii-static.s3.sbg.io.cloud"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "fae02c5d0c41599fba968929d9eac164e3925a38a7b3eba6c715ef841927880c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "actugaming.net",
+                "www.meilleure-innovation.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.55
+        },
+        {
+            "domain": "saooti.com",
+            "prevalence": 0.15
+        },
+        {
+            "domain": "leslibraires.fr",
+            "prevalence": 0.15
+        },
+        {
+            "domain": "do69ll745l27z.cloudfront.net",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.05
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns10.ovh.net",
+        "dns15.ovh.net",
+        "dns10.ovh.net",
+        "dns11.ovh.net",
+        "ns11.ovh.net",
+        "dns12.ovh.net",
+        "ns12.ovh.net",
+        "ns15.ovh.net",
+        "ns13.ovh.net",
+        "dns13.ovh.net"
+    ]
+}

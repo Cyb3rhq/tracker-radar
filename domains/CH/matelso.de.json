@@ -1,0 +1,143 @@
+{
+    "domain": "matelso.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "rns"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "matelso\\.de\\/webtracking\\/4\\/",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "rns"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "8031ebeb7cc46559e2f1647c03514f3dd66262e1500af9dc8f4132afe628edb6",
+                "a7359d69f6554df370b99c76e284c175a5f5c2e67620ab1fcf196116081caf9b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mat_tel": {
+                    "ttl": 61516807,
+                    "length": 36,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 1
+                },
+                "mat_ep": {
+                    "ttl": 2592007,
+                    "length": 26,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toyota.ch",
+                "fr.toyota.ch",
+                "www.subaru.ch"
+            ]
+        },
+        {
+            "rule": "matelso\\.de\\/webtracking\\/4\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rns"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0822aa6e15506f8689613aefd60d756157d16e61cb65a2fc788519a4675e7c85"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toyota.ch",
+                "fr.toyota.ch"
+            ]
+        },
+        {
+            "rule": "matelso\\.de\\/webtracking\\/4\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rns"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toyota.ch",
+                "fr.toyota.ch"
+            ]
+        },
+        {
+            "rule": "matelso\\.de\\/webtracking\\/4\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rns"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toyota.ch",
+                "fr.toyota.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.42857142857142855
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 4,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns1.ns-serve.net",
+        "ns2.ns-serve.net"
+    ]
+}

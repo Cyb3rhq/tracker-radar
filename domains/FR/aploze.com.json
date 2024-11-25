@@ -1,0 +1,169 @@
+{
+    "domain": "aploze.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000605,
+    "sites": 6,
+    "subdomains": [
+        "js",
+        "prod.api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "aploze\\.com\\/v1\\.js",
+            "cookies": 0.000101,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "URL.createObjectURL": 6,
+                "Document.cookie getter": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.hardwareConcurrency": 6,
+                "Screen.prototype.width": 6,
+                "Screen.prototype.height": 6,
+                "window.devicePixelRatio": 6,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 6,
+                "Navigator.prototype.language": 6,
+                "Date.prototype.getTime": 6,
+                "window.localStorage": 3,
+                "Document.cookie setter": 1
+            },
+            "sites": 6,
+            "prevalence": 0.000605,
+            "cnames": [],
+            "responseHashes": [
+                "d87428ebfeb4936afac9d67f9c9d2a3af0b1db1d88f1d5a80690c50d86b01b7f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_aplz_tc.r06FPZpGSly5YiZv8gJo": {
+                    "ttl": 31536009,
+                    "length": 164,
+                    "prevalence": 0.00010076582023377671,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "somfy.fr",
+                "www.adopt.com",
+                "www.lagrandeepicerie.com",
+                "www.lebonmarche.com",
+                "www.nissan.fr",
+                "www.somfy.fr"
+            ]
+        },
+        {
+            "rule": "aploze\\.com\\/api\\/public\\/widgets",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000605,
+            "cnames": [],
+            "responseHashes": [
+                "fbbd61106406aefbd833da9ab1b263291814943b234a2bc5ba905b3ae60ee161",
+                "4da19f7a719fe74a092aba34eee902d7cd9eaaaff62a78ce50ae7779a053ed3d",
+                "7ccf12d156ae4c7ea09a512bd547176178526d3970990286a143d1d2b90a8963"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "somfy.fr",
+                "www.adopt.com",
+                "www.lagrandeepicerie.com",
+                "www.lebonmarche.com",
+                "www.nissan.fr",
+                "www.somfy.fr"
+            ]
+        },
+        {
+            "rule": "aploze\\.com\\/api\\/public\\/widgets",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000605,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "somfy.fr",
+                "www.adopt.com",
+                "www.lagrandeepicerie.com",
+                "www.lebonmarche.com",
+                "www.nissan.fr",
+                "www.somfy.fr"
+            ]
+        },
+        {
+            "rule": "aploze\\.com\\/28\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "5ddf939fbb2674742c691d922be96cd2d354c73fd08b89bcfb251adf3bc070d0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "somfy.fr",
+                "www.somfy.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000101,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "tagcommander.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "iadvize.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Fetch": 6,
+        "Preflight": 6
+    },
+    "nameservers": [
+        "ns-62.awsdns-07.com",
+        "ns-788.awsdns-34.net",
+        "ns-1540.awsdns-00.co.uk",
+        "ns-1245.awsdns-27.org"
+    ]
+}

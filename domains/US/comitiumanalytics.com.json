@@ -1,0 +1,98 @@
+{
+    "domain": "comitiumanalytics.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "static",
+        "publisher"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "comitiumanalytics\\.com\\/js\\/client\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "931efc9c4af6427ffc8d6a5ba3ec1088f7f6d9ee59ad0f107d3c9f0b599f9cef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ca_uid": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.000020496003279360526,
+                    "uniqueness": 1
+                },
+                "ca_stat": {
+                    "ttl": 14381818,
+                    "length": 314,
+                    "prevalence": 0.000020496003279360526,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "65ymas.com",
+                "www.autopista.es",
+                "www.elplural.com"
+            ]
+        },
+        {
+            "rule": "comitiumanalytics\\.com\\/stats\\/save",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "publisher"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "65ymas.com",
+                "www.autopista.es",
+                "www.elplural.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Ping": 3
+    },
+    "nameservers": [
+        "henry.ns.cloudflare.com",
+        "melinda.ns.cloudflare.com"
+    ]
+}

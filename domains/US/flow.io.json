@@ -1,0 +1,395 @@
+{
+    "domain": "flow.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000888,
+    "sites": 13,
+    "subdomains": [
+        "beacon",
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "flow\\.io\\/events\\/session_upserted",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beacon"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_f60_session": 0.0000546560087449614
+            },
+            "exampleSites": [
+                "citizensofhumanity.com",
+                "uncommongoods.com",
+                "www.aliceandolivia.com",
+                "www.barefootdreams.com",
+                "www.blenderseyewear.com",
+                "www.nicandzoe.com",
+                "www.truereligion.com",
+                "www.uncommongoods.com"
+            ]
+        },
+        {
+            "rule": "flow\\.io\\/events\\/pageview",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beacon"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_f60_session": 0.0000546560087449614,
+                "_li_dcdm_c": 0.000006832001093120175,
+                "dy_fs_page": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "citizensofhumanity.com",
+                "uncommongoods.com",
+                "www.aliceandolivia.com",
+                "www.barefootdreams.com",
+                "www.blenderseyewear.com",
+                "www.nicandzoe.com",
+                "www.truereligion.com",
+                "www.uncommongoods.com"
+            ]
+        },
+        {
+            "rule": "flow\\.io\\/util\\/icons\\/flags-v2\\/svg\\/iso_2_flags\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "7f32b970f71367afa4bc86acc2bbde1524b0240558106fd39deefaa1a37dc3ce"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "citizensofhumanity.com",
+                "www.barefootdreams.com",
+                "www.truereligion.com"
+            ]
+        },
+        {
+            "rule": "flow\\.io\\/flowjs\\/latest\\/flow\\.min\\.js",
+            "cookies": 0.000041,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie setter": 6,
+                "Document.cookie getter": 6,
+                "Date.prototype.getTime": 6,
+                "window.sessionStorage": 6,
+                "window.localStorage": 6,
+                "Navigator.prototype.userAgent": 6,
+                "PerformanceTiming.prototype.navigationStart": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "50fbfcb0f5612040ebea2cfdb6e901f79a31fdce5d780cea66a5fdf4187753cc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookies.js": {
+                    "ttl": 3,
+                    "length": 9,
+                    "prevalence": 0.00004099200655872105,
+                    "uniqueness": 0.16666666666666666
+                },
+                "_f60_session": {
+                    "ttl": 2724710400008,
+                    "length": 64,
+                    "prevalence": 0.00004099200655872105,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uncommongoods.com",
+                "www.aliceandolivia.com",
+                "www.barefootdreams.com",
+                "www.nicandzoe.com",
+                "www.truereligion.com",
+                "www.uncommongoods.com"
+            ]
+        },
+        {
+            "rule": "flow\\.io\\/sessions\\/organizations\\/uncommongoods",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5740a650d48a48d8f88ca54d4c6d427baa27b03c3f9365d56302b25dbb8ca86b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uncommongoods.com",
+                "www.uncommongoods.com"
+            ]
+        },
+        {
+            "rule": "flow\\.io\\/uncommongoods\\/bundles\\/browser",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "85518ca328488c6880f0479bb9bdb04377e7e17357798447cc83302acb9aad59"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uncommongoods.com",
+                "www.uncommongoods.com"
+            ]
+        },
+        {
+            "rule": "flow\\.io\\/country-picker\\/js\\/v0\\/country-picker\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie setter": 3,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "window.localStorage": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "71497cf40e9bdc93083c8fe2e1836694fdc07d955f7e177c9ca709a503bd9953"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookies.js": {
+                    "ttl": 1,
+                    "length": 9,
+                    "prevalence": 0.000020496003279360526,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aliceandolivia.com",
+                "www.truereligion.com",
+                "www.universalstandard.com"
+            ]
+        },
+        {
+            "rule": "flow\\.io\\/country-picker\\/js\\/v0\\/country-picker\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "08ba7a5db2a8c2c61badf973b5fad1835c6a60b75f67de1f5f6382d6a113c36b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookies.js": {
+                    "ttl": 3,
+                    "length": 9,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barefootdreams.com",
+                "www.barefootdreams.com"
+            ]
+        },
+        {
+            "rule": "flow\\.io\\/sessions\\/organizations\\/barefootdreams",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b8cbc88cd13426e80849a64584c292cf9a9852c3fb70d73dbd5700238e93ee64"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barefootdreams.com",
+                "www.barefootdreams.com"
+            ]
+        },
+        {
+            "rule": "flow\\.io\\/barefootdreams\\/bundles\\/browser",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ed5c85a8183a217a1333a4dfb905e15478c935be3ea8cbc8addf44c00784b28e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barefootdreams.com",
+                "www.barefootdreams.com"
+            ]
+        },
+        {
+            "rule": "flow\\.io\\/sessions\\/organizations\\/truereligion",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f1a7ddc7dac93eda3b9492e47c700eb5fab36f0923aa2a24ec867fb1b3d3300a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "truereligion.com",
+                "www.truereligion.com"
+            ]
+        },
+        {
+            "rule": "flow\\.io\\/truereligion\\/bundles\\/browser",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "701aa08208b053fa5238e529a5eaabecfeac6b4f67e4a5f395c79056ab9fe910"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "truereligion.com",
+                "www.truereligion.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000888,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6551724137931034
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.1206896551724138
+        },
+        {
+            "domain": "upsellit.com",
+            "prevalence": 0.06896551724137931
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.06896551724137931
+        },
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.05172413793103448
+        },
+        {
+            "domain": "bc0a.com",
+            "prevalence": 0.017241379310344827
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.017241379310344827
+        }
+    ],
+    "types": {
+        "Image": 19,
+        "Script": 11,
+        "XHR": 12
+    },
+    "nameservers": [
+        "pam.ns.cloudflare.com",
+        "rocky.ns.cloudflare.com"
+    ]
+}

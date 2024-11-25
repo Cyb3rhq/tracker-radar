@@ -1,0 +1,140 @@
+{
+    "domain": "bybit.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "wildcard"
+    ],
+    "cnames": [
+        {
+            "original": "api2.bybit.com",
+            "resolved": "wildcard.bybit.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "bybit\\.com\\.edgekey\\.net\\/v3\\/config\\/web",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wildcard"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api2.bybit.com",
+                    "resolved": "wildcard.bybit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bybit.com",
+                "www.bybit.com"
+            ]
+        },
+        {
+            "rule": "bybit\\.com\\.edgekey\\.net\\/v3\\/config\\/banner",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wildcard"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api2.bybit.com",
+                    "resolved": "wildcard.bybit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "15581bace1cf40a266f44fcc305ea9ce8fdfd4fcfe7d22c450da73feac4c1973"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bybit.com",
+                "www.bybit.com"
+            ]
+        },
+        {
+            "rule": "bybit\\.com\\.edgekey\\.net\\/v3\\/config\\/web",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wildcard"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api2.bybit.com",
+                    "resolved": "wildcard.bybit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "13e755c0cce08e7e3033a766a693d82e6a4f2ca019f390306b3886d27e9ae058"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bybit.com",
+                "www.bybit.com"
+            ]
+        },
+        {
+            "rule": "bybit\\.com\\.edgekey\\.net\\/v3\\/public\\/user\\/captcha-info",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wildcard"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api2.bybit.com",
+                    "resolved": "wildcard.bybit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e507376fbb92762d1adb964bba1561aa2505df77e82388dc98d4d70d6d0ad51a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bybit.com",
+                "www.bybit.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "types": {
+        "Preflight": 2,
+        "Fetch": 6
+    },
+    "nameservers": []
+}

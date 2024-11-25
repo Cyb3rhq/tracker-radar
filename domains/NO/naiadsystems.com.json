@@ -1,0 +1,120 @@
+{
+    "domain": "naiadsystems.com",
+    "owner": {
+        "name": "ICF Technology, Inc",
+        "displayName": "ICF"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "hybridclient",
+        "cdn.hybridclient",
+        "manifest-server"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "naiadsystems\\.com\\/purecam",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hybridclient"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "36e0e6df9fcdccc000df01110da496a761883d4d3cee01baf33080012408b507",
+                "9bfdbf2223b26dfbe1b984cb32c8f722f8f096e0691aed5305b9c2bfdf817564",
+                "86a366ca733620bce7bf75c00e0d053f92a2a50c7a7770d82a8bf2962e6439d0"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "camclips.tv",
+                "camhoes.tv",
+                "www.cambro.io",
+                "www.cambro.video"
+            ]
+        },
+        {
+            "rule": "naiadsystems\\.com\\/dist\\/pure\\/pure\\.3\\.1\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn.hybridclient"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Navigator.prototype.storage": 4,
+                "Navigator.prototype.userAgent": 4,
+                "NavigatorUAData.prototype.getHighEntropyValues": 4,
+                "NavigatorUAData.prototype.brands": 4,
+                "Navigator.prototype.connection": 4,
+                "Navigator.prototype.product": 4,
+                "Navigator.prototype.mediaDevices": 4,
+                "RTCPeerConnection.prototype.constructor": 4,
+                "MediaSource.isTypeSupported": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "f555ccf73a99a4a3317de67de7b5d0b959928cb1f6bf75e57ef39e2468b13ce1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "camclips.tv",
+                "camhoes.tv",
+                "www.cambro.io",
+                "www.cambro.video"
+            ]
+        },
+        {
+            "rule": "naiadsystems\\.com\\/live\\/s:RebeccaLane19\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "manifest-server"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "camclips.tv",
+                "camhoes.tv"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "cemiocw.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 4,
+        "Script": 4,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns2.flyingcroc.net",
+        "ns1.flyingcroc.net"
+    ]
+}

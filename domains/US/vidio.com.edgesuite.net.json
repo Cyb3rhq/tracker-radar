@@ -1,0 +1,162 @@
+{
+    "domain": "vidio.com.edgesuite.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "personalization",
+        "api"
+    ],
+    "cnames": [
+        {
+            "original": "api.vidio.com",
+            "resolved": "api.vidio.com.edgesuite.net"
+        },
+        {
+            "original": "personalization.vidio.com",
+            "resolved": "personalization.vidio.com.edgesuite.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "vidio\\.com\\.edgesuite\\.net\\/embed-internal\\.8324be04cc0adb1be9165f1847ed900281851c7a\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "personalization"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "personalization.vidio.com",
+                    "resolved": "personalization.vidio.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "80f0ca9c170debfbc6d04f92a1c62b0ddab77287947094956313cce1c41d9f69"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "liputan6.com",
+                "www.liputan6.com"
+            ]
+        },
+        {
+            "rule": "vidio\\.com\\.edgesuite\\.net\\/auth",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api.vidio.com",
+                    "resolved": "api.vidio.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "88ce01df3c6b59d0bb4f5d6d5b8291cd873df552d31ad21b0b08cfbfbaee737e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vidio.com",
+                "www.vidio.com"
+            ]
+        },
+        {
+            "rule": "vidio\\.com\\.edgesuite\\.net\\/categories",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api.vidio.com",
+                    "resolved": "api.vidio.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "dae8e4436110f8a59e81c54e1fb5f638fc9b128d5d2dac9aadd3d42f41bfe3b4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vidio.com",
+                "www.vidio.com"
+            ]
+        },
+        {
+            "rule": "vidio\\.com\\.edgesuite\\.net\\/categories",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api.vidio.com",
+                    "resolved": "api.vidio.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vidio.com",
+                "www.vidio.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "vidiocdn.com",
+            "prevalence": 0.8125
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "youniverse.id",
+            "prevalence": 0.0625
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 4,
+        "Preflight": 2
+    },
+    "nameservers": []
+}

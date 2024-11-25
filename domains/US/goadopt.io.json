@@ -1,0 +1,163 @@
+{
+    "domain": "goadopt.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000752,
+    "sites": 11,
+    "subdomains": [
+        "tag",
+        "disclaimer-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "goadopt\\.io\\/injector\\.js",
+            "cookies": 0.0000547,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {
+                "window.localStorage": 9,
+                "Navigator.prototype.product": 8,
+                "Navigator.prototype.userAgent": 9,
+                "Date.prototype.getTime": 8,
+                "Document.cookie getter": 8,
+                "Document.cookie setter": 8
+            },
+            "sites": 11,
+            "prevalence": 0.0000752,
+            "cnames": [],
+            "responseHashes": [
+                "1349fad2e32b723e2563bae09456edc266732b8ef5df8d684920ed04061eef0f",
+                "37bca49ce9869a13e6ffa68c72da60662d810c727164be0bfe5846d16ec299f9",
+                "b37f886aff63c3b74dae571006d2c0434def952b9e080162a3f73bb6f494ff77",
+                "0926185773fe37452dfee5ff7235d9384d83a596df1ae493475bcdf73ab1a4de",
+                "081263fa70f483af2b9b65fb92501e6ecda68f60c0b3f5667cad3395daf0e066",
+                "f56bbbfd3eae2d03c5305ca37501957c6dd619840e16e32282f3418d5e5b2b98",
+                "c7fdeaf18c06625aff39097db0fa81a91891f9a30635117f67b7ef99f3d51e31",
+                "c7774226ea94860fa636ec7976997dc0aebeb2c2b52c9afc30cacf77be9ea635",
+                "844c7eb58da2d2b8ef3d4a9ea915f5d0bed1c377eb3b277d21d3c52bcacfc767",
+                "47d168b474c583b7c841ff7ae4cdd967f7b1b141c1448bed5292d541250355bd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "AdoptVisitorId": {
+                    "ttl": 5184016,
+                    "length": 49,
+                    "prevalence": 0.0000546560087449614,
+                    "uniqueness": 1
+                },
+                "AdoptConsent": {
+                    "ttl": 5184015,
+                    "length": 293,
+                    "prevalence": 0.00004099200655872105,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "verdesmares.com.br",
+                "exame.com",
+                "m.horoscopovirtual.com.br",
+                "www.caixa.gov.br",
+                "www.gigasena.com.br",
+                "www.kabum.com.br",
+                "www.metropoles.com",
+                "www.olx.com.br",
+                "www.tecmundo.com.br",
+                "www.vivareal.com.br",
+                "www.zapimoveis.com.br"
+            ]
+        },
+        {
+            "rule": "goadopt\\.io\\/api\\/tag\\/get-consent",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "disclaimer-api"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "exame.com",
+                "m.horoscopovirtual.com.br",
+                "www.caixa.gov.br",
+                "www.gigasena.com.br",
+                "www.metropoles.com",
+                "www.olx.com.br",
+                "www.vivareal.com.br",
+                "www.zapimoveis.com.br"
+            ]
+        },
+        {
+            "rule": "goadopt\\.io\\/api\\/tag\\/get-consent",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "disclaimer-api"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "e63a2639d576cbd452d485376644f015406651d455aca4b71747dd07a4169aac",
+                "4bde07952607feeaec997917ff73519c37fc4b20e77969241eedfc493a018817",
+                "d98b24accebf46bbca40b94969035118cbacd346bbc89e689a6b428ee45eec0b",
+                "76e6b3144b1b1edcbb8a81abdae57633bba0d0d59c7348b252eadc14e104057a",
+                "3c92e0d3c96b8737ee90d4efce9f6dc67b2b98ae5e136296bd7874c08096ce7c",
+                "82a28e699663b11ae9f33795a531bcd902adb2f81e7a57422dd8a50cb530ed3c",
+                "ae13ddfd1cf546418dd307ae39d7dc8f675a8731b8b60ba7d4f052ac32dff3f0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "exame.com",
+                "m.horoscopovirtual.com.br",
+                "www.caixa.gov.br",
+                "www.gigasena.com.br",
+                "www.metropoles.com",
+                "www.olx.com.br",
+                "www.vivareal.com.br",
+                "www.zapimoveis.com.br"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000547,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6428571428571429
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.07142857142857142
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "Preflight": 8,
+        "XHR": 8
+    },
+    "nameservers": [
+        "isla.ns.cloudflare.com",
+        "greg.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,216 @@
+{
+    "domain": "customer.io",
+    "owner": {
+        "name": "Peaberry Software Inc.",
+        "displayName": "Peaberry Software"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00131,
+    "sites": 13,
+    "subdomains": [
+        "assets",
+        "track-eu",
+        "track"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "customer\\.io\\/assets\\/track\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Document.cookie getter": 8,
+                "window.innerWidth": 7,
+                "window.innerHeight": 7,
+                "Document.cookie setter": 3,
+                "Date.prototype.getTime": 6
+            },
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "2fcfdae5440da627328eae9b05b0a54eb0e545892167f7e3c88636037a5c4c79"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_cioanonid": {
+                    "ttl": 31536012,
+                    "length": 36,
+                    "prevalence": 0.0002008838891120932,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "decrypt.co",
+                "pearler.com",
+                "www.goldbullionaustralia.com.au",
+                "www.kenhub.com",
+                "www.retailmenot.com",
+                "www.slant.co",
+                "www.submagic.co",
+                "www.thebump.com",
+                "www.theknot.com"
+            ]
+        },
+        {
+            "rule": "customer\\.io\\/assets\\/track-eu\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "a7522401622d57760fd44e914b7a54c641d5c4356aae91c35bdc2ed0ef11f1f0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_cioanonid": {
+                    "ttl": 31536019,
+                    "length": 36,
+                    "prevalence": 0.0002008838891120932,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "winecompanion.com.au",
+                "www.madpaws.com.au",
+                "www.seagate.com"
+            ]
+        },
+        {
+            "rule": "customer\\.io\\/assets\\/in-app-eu\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d9511413b5827ebee36ef21bdc3dcde689bf36afa67f4f051c5bb441eb61917f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "winecompanion.com.au",
+                "www.madpaws.com.au"
+            ]
+        },
+        {
+            "rule": "customer\\.io\\/events\\/page\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track-eu",
+                "track"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cioanonid": 0.0004017677782241864,
+                "_li_dcdm_c": 0.0001004419445560466,
+                "lotame_domain_check": 0.0002008838891120932,
+                "ajs_anonymous_id": 0.0002008838891120932,
+                "IR_gbd": 0.0001004419445560466
+            },
+            "exampleSites": [
+                "winecompanion.com.au",
+                "www.goldbullionaustralia.com.au",
+                "www.kenhub.com",
+                "www.retailmenot.com",
+                "www.seagate.com",
+                "www.slant.co",
+                "www.thebump.com",
+                "www.theknot.com"
+            ]
+        },
+        {
+            "rule": "customer\\.io\\/events\\/event\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cioanonid": 0.0001004419445560466,
+                "ajs_anonymous_id": 0.0001004419445560466,
+                "_ga": 0.0002008838891120932,
+                "lotame_domain_check": 0.0001004419445560466
+            },
+            "exampleSites": [
+                "kenhub.com",
+                "www.thebump.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000603,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4090909090909091
+        },
+        {
+            "domain": "segment.com",
+            "prevalence": 0.36363636363636365
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.13636363636363635
+        },
+        {
+            "domain": "mindstamp.com",
+            "prevalence": 0.045454545454545456
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.045454545454545456
+        }
+    ],
+    "types": {
+        "Script": 14,
+        "Image": 10
+    },
+    "nameservers": [
+        "ns-1181.awsdns-19.org",
+        "ns-1893.awsdns-44.co.uk",
+        "ns-499.awsdns-62.com",
+        "ns-618.awsdns-13.net"
+    ]
+}

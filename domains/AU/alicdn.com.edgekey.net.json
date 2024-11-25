@@ -1,0 +1,136 @@
+{
+    "domain": "alicdn.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "wildcard",
+        "dsc.wildcard"
+    ],
+    "cnames": [
+        {
+            "original": "aeis.alicdn.com",
+            "resolved": "dsc.wildcard.alicdn.com.edgekey.net"
+        },
+        {
+            "original": "assets.alicdn.com",
+            "resolved": "wildcard.alicdn.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "alicdn\\.com\\.edgekey\\.net\\/g\\/",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "wildcard"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.alicdn.com",
+                    "resolved": "wildcard.alicdn.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "455c2a98c6ebea5336cd7fcc6e5dbbd978f0c83704955376e05d9586932221c5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aliexpress.com",
+                "www.aliexpress.com"
+            ]
+        },
+        {
+            "rule": "alicdn\\.com\\.edgekey\\.net\\/AWSC\\/et\\/1\\.81\\.3\\/et_f\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 3,
+            "subdomains": [
+                "dsc.wildcard"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "aeis.alicdn.com",
+                    "resolved": "dsc.wildcard.alicdn.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "84ab8cc958a6662116b828811ba46a250c424d36068095f668d3886682eb5500"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "tfstk": {
+                    "ttl": 15552009,
+                    "length": 355,
+                    "prevalence": 0.0002008838891120932,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aliexpress.com",
+                "www.alibaba.com"
+            ]
+        },
+        {
+            "rule": "alicdn\\.com\\.edgekey\\.net\\/AWSC\\/WebUMID\\/1\\.93\\.0\\/um\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "dsc.wildcard"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "aeis.alicdn.com",
+                    "resolved": "dsc.wildcard.alicdn.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "4c4701ca975df0019b9ce5ffd2a8d33f413bad55663a9f64ba9369da7a444db0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aliexpress.com",
+                "www.alibaba.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "aliexpress-media.com",
+            "prevalence": 0.6153846153846154
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.38461538461538464
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": []
+}

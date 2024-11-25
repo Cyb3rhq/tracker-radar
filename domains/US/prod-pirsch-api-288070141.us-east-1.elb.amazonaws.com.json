@@ -1,0 +1,84 @@
+{
+    "domain": "prod-pirsch-api-288070141.us-east-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "webdata-api.globalxetfs.com",
+            "resolved": "prod-pirsch-api-288070141.us-east-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "prod-pirsch-api-288070141\\.us-east-1\\.elb\\.amazonaws\\.com\\/pirsch-extended\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "webdata-api.globalxetfs.com",
+                    "resolved": "prod-pirsch-api-288070141.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "42599106f599fb3e63495577667795e547cc083ec5dc6c54874dfded0b3215a9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "globalxetfs.com",
+                "www.globalxetfs.com"
+            ]
+        },
+        {
+            "rule": "prod-pirsch-api-288070141\\.us-east-1\\.elb\\.amazonaws\\.com\\/hit",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "webdata-api.globalxetfs.com",
+                    "resolved": "prod-pirsch-api-288070141.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "globalxetfs.com",
+                "www.globalxetfs.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

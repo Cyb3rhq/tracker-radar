@@ -1,0 +1,185 @@
+{
+    "domain": "surfly.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "surfly\\.com\\/surfly\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "633f8adab9c852ae20159b2c2b406d71157aa52ea6e1c20bb8f6c37906b76df1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "caliber.com",
+                "www.caliber.com",
+                "www.ethias.be",
+                "www.kookwinkel.nl",
+                "www.scapino.nl",
+                "www.westfieldbank.com"
+            ]
+        },
+        {
+            "rule": "surfly\\.com\\/static\\/bundles\\/widget\\/apiframe\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.appName": 6,
+                "Navigator.prototype.vendor": 6,
+                "Navigator.prototype.maxTouchPoints": 6,
+                "window.sessionStorage": 6,
+                "window.localStorage": 4,
+                "Navigator.prototype.mediaDevices": 1
+            },
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "2fe512324ae3be1616c507c082dcb19bfcd2381843bc13477c76253096c896a4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "caliber.com",
+                "www.caliber.com",
+                "www.ethias.be",
+                "www.kookwinkel.nl",
+                "www.scapino.nl",
+                "www.westfieldbank.com"
+            ]
+        },
+        {
+            "rule": "surfly\\.com\\/v2\\/company\\/options\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "69be42ebc9a331fb7a6e8063cdecbeb3e0e27e409c3b45a4f90e33aca2e2fbdc",
+                "0b5ee703d56c9e0f2b1d8d4d1c876fcd8d4c1241767036cde4c32ac6c48a3f2a",
+                "4a8cbbb709fbd33ad147609642785c1fd0e74a3487db3b517e5e3f7002ec4197",
+                "c2c010fd4f18f3195cf32299598e94944c457048c35e45ac26dc5865a764235c",
+                "eeef14d9ffb2c0a0a519668883a180db5a2594373238b7da1a3be705c03db9b1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "caliber.com",
+                "www.caliber.com",
+                "www.ethias.be",
+                "www.kookwinkel.nl",
+                "www.scapino.nl",
+                "www.westfieldbank.com"
+            ]
+        },
+        {
+            "rule": "surfly\\.com\\/3rdpartycookietest\\/",
+            "cookies": 0.00000683,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie setter": 1,
+                "Document.cookie getter": 1
+            },
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "efeafba72717c378489a8617b563d18c21baeaa95a0246d7edf05ae916b814e7"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {
+                "tvjndh": {
+                    "ttl": 60,
+                    "length": 6,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {
+                "test": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "caliber.com",
+                "www.caliber.com",
+                "www.ethias.be",
+                "www.kookwinkel.nl",
+                "www.scapino.nl",
+                "www.westfieldbank.com"
+            ]
+        },
+        {
+            "rule": "surfly\\.com\\/static\\/bundles\\/dashboard\\/translate_global\\.451973c2f7dd0c999b53\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "4636088bde4b125587e5b6238aab5673938384f94d4a727b653bbe3bec7bfb0a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "caliber.com",
+                "www.caliber.com",
+                "www.ethias.be",
+                "www.kookwinkel.nl",
+                "www.scapino.nl",
+                "www.westfieldbank.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000683,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "windows.net",
+            "prevalence": 0.2857142857142857
+        }
+    ],
+    "types": {
+        "Script": 18,
+        "Fetch": 6,
+        "Document": 6
+    },
+    "nameservers": [
+        "ns3.surfly.com",
+        "ns5.surfly.com",
+        "ns0.surfly.com",
+        "ns4.surfly.com",
+        "ns2.surfly.com",
+        "ns1.surfly.com"
+    ]
+}

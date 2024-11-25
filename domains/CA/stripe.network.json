@@ -1,0 +1,105 @@
+{
+    "domain": "stripe.network",
+    "owner": {
+        "name": "Stripe, Inc",
+        "displayName": "Stripe",
+        "privacyPolicy": "https://stripe.com/privacy",
+        "url": "http://stripe.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "m"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "stripe\\.network\\/inner\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "m"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "947ac0903521f5eceefc90637c066306a8ca67466ccc188bb0107fb7cfb532d1"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "road.cc",
+                "www.gradesaver.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.network\\/out-4\\.5\\.43\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "m"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.plugins": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.colorDepth": 2,
+                "window.devicePixelRatio": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "CanvasRenderingContext2D.prototype.measureText": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e039e607c78306c7e029a7fd0ecdb14f86456f16e1a5ce65aa26b4fdf1d38a3c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "road.cc",
+                "www.gradesaver.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Online Payment",
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "stripe.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-423.awsdns-52.com",
+        "ns-705.awsdns-24.net",
+        "ns-1882.awsdns-43.co.uk",
+        "ns-1087.awsdns-07.org"
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "domain": "aimatch.com",
+    "owner": {
+        "name": "SAS Institute Inc.",
+        "displayName": "Institute"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000302,
+    "sites": 3,
+    "subdomains": [
+        "content"
+    ],
+    "cnames": [
+        {
+            "original": "mscontent.morningstar.com",
+            "resolved": "content.aimatch.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "aimatch\\.com\\/mstar\\/9\\/MS_Impact_120x60_C\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "mscontent.morningstar.com",
+                    "resolved": "content.aimatch.com"
+                }
+            ],
+            "responseHashes": [
+                "55ffa41270036e3c6ef385e597d146169b43302a88b41ee7045b3766014d05b1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "morningstar.com",
+                "www.morningstar.com"
+            ]
+        },
+        {
+            "rule": "aimatch\\.com\\/parameters\\/v1\\/parameters\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "838c9a99ef2b4e26039583df5baa8a0b782ce8ff166215ebef194f2aeaf37848"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "morningstar.com",
+                "www.morningstar.com",
+                "www.morningstar.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000302,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.44
+        },
+        {
+            "domain": "mstar.com",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "morningstar.com",
+            "prevalence": 0.08
+        },
+        {
+            "domain": "createjs.com",
+            "prevalence": 0.08
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "Script": 3
+    },
+    "nameservers": [
+        "ns-177.awsdns-22.com",
+        "ns-544.awsdns-04.net",
+        "ns-1068.awsdns-05.org",
+        "ns-1742.awsdns-25.co.uk"
+    ]
+}

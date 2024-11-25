@@ -1,0 +1,67 @@
+{
+    "domain": "block4d.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "widget"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "block4d\\.com\\/js\\/block\\/widget\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "be302aff70816cec070587b1ba3368e9c8385f88ad6524a7b415888c9634459f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "r_uid": {
+                    "ttl": 5184003,
+                    "length": 36,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hvg.hu",
+                "m.hvg.hu",
+                "www.blikk.hu",
+                "www.egeszsegkalauz.hu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "tom.ns.cloudflare.com",
+        "sue.ns.cloudflare.com"
+    ]
+}

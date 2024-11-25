@@ -1,0 +1,191 @@
+{
+    "domain": "odoo.com",
+    "owner": {
+        "name": "Fabien Pinckaers",
+        "displayName": "Fabien Pinckaers"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [
+        "tinyhouselistings",
+        "kyocera-inc",
+        "eurosender",
+        "fabspeed"
+    ],
+    "cnames": [
+        {
+            "original": "odoo.eurosender.com",
+            "resolved": "eurosender.odoo.com"
+        },
+        {
+            "original": "solutions.kyoceramobile.com",
+            "resolved": "kyocera-inc.odoo.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "odoo\\.com\\/im_livechat\\/loader\\/2",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tinyhouselistings",
+                "kyocera-inc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "solutions.kyoceramobile.com",
+                    "resolved": "kyocera-inc.odoo.com"
+                }
+            ],
+            "responseHashes": [
+                "ba72ef002b0197e71076c809d464c442b8f1454e535fa382ebe6b0bdf6d7d01a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tinyhouselistings.com",
+                "www.kyoceramobile.com"
+            ]
+        },
+        {
+            "rule": "odoo\\.com\\/im_livechat\\/assets_embed\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tinyhouselistings",
+                "kyocera-inc"
+            ],
+            "apis": {
+                "window.sessionStorage": 1,
+                "window.localStorage": 1,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "solutions.kyoceramobile.com",
+                    "resolved": "kyocera-inc.odoo.com"
+                }
+            ],
+            "responseHashes": [
+                "dd3fda5aa6b93024e9c4448d4abf182641e80457231331261be73f8683895791"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tinyhouselistings.com",
+                "www.kyoceramobile.com"
+            ]
+        },
+        {
+            "rule": "odoo\\.com\\/im_livechat\\/external_lib\\.css",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eurosender",
+                "fabspeed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "odoo.eurosender.com",
+                    "resolved": "eurosender.odoo.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eurosender.com",
+                "www.fabspeed.com"
+            ]
+        },
+        {
+            "rule": "odoo\\.com\\/im_livechat\\/external_lib\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "eurosender",
+                "fabspeed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "odoo.eurosender.com",
+                    "resolved": "eurosender.odoo.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eurosender.com",
+                "www.fabspeed.com"
+            ]
+        },
+        {
+            "rule": "odoo\\.com\\/im_livechat\\/loader\\/3",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fabspeed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fabspeed.com",
+                "www.fabspeed.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns1.odoo.com",
+        "ns3.odoo.com",
+        "ns0.odoo.com"
+    ]
+}

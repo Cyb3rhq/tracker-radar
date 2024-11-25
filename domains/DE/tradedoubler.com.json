@@ -1,0 +1,148 @@
+{
+    "domain": "tradedoubler.com",
+    "owner": {
+        "name": "TradeDoubler AB",
+        "displayName": "TradeDoubler"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00111,
+    "sites": 11,
+    "subdomains": [
+        "svht",
+        "swrap",
+        "impfr",
+        "impes",
+        "hst"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "tradedoubler\\.com\\/tr_sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "svht"
+            ],
+            "apis": {
+                "window.localStorage": 5
+            },
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "dc8fcbb5624b135de40059883dad8b0ddc3ac841420d57a3a5a94530ee6f08f5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "milwaukeetool.eu",
+                "witt-weiden.de",
+                "www.crowdfarming.com",
+                "www.fairment.de",
+                "www.heine.de",
+                "www.witt-weiden.de"
+            ]
+        },
+        {
+            "rule": "tradedoubler\\.com\\/wrap",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "swrap"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "4b0d262335780df200f02cc778999a52cd4bba2a01725d817906696a82c394fb",
+                "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "milwaukeetool.eu",
+                "tamaris.com",
+                "www.elmundo.es",
+                "www.fairment.de"
+            ]
+        },
+        {
+            "rule": "tradedoubler\\.com\\/imp",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "impfr",
+                "impes"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tech-aktuell.de",
+                "www.elmundo.es"
+            ]
+        },
+        {
+            "rule": "tradedoubler\\.com\\/file\\/47446\\/landingPageGTM_min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hst"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "32c833a9dcac280174a601aea083e84deba1def1f9dcf69a0ccf43a560a96e5d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wunschgutschein.de",
+                "www.wunschgutschein.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.47058823529411764
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.47058823529411764
+        },
+        {
+            "domain": "tagcommander.com",
+            "prevalence": 0.058823529411764705
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-582.awsdns-08.net",
+        "ns-159.awsdns-19.com",
+        "ns-2038.awsdns-62.co.uk",
+        "ns-1359.awsdns-41.org"
+    ]
+}

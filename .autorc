@@ -1,0 +1,40 @@
+{
+  "plugins": [],
+  "onlyPublishWithReleaseLabel": true,
+  "noDefaultLabels": true,
+  "labels": [
+    {
+      "name": "data-update",
+      "changelogTitle": "🚧 dataset update",
+      "description": "Change in categorization or entity data",
+      "releaseType": "minor",
+      "color": "#F1A60E"
+    },
+    {
+      "name": "crawl-update",
+      "changelogTitle": "🔁 Regular crawl update",
+      "description": "Regular dataset update",
+      "releaseType": "patch",
+      "color": "#870048"
+    },
+    {
+      "name": "infra-update",
+      "changelogTitle": "🔧 Infrastructure and tooling",
+      "description": "Updates not related to the dataset itself",
+      "releaseType": "patch",
+      "color": "#005887"
+    },
+    {
+      "name": "skip-release",
+      "description": "Preserve the current version when merged",
+      "releaseType": "skip",
+      "color": "#bf5416"
+    },
+    {
+      "name": "release",
+      "description": "Create a release when this pr is merged",
+      "releaseType": "release",
+      "color": "#007f70"
+    }
+  ]
+}

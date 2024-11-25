@@ -1,0 +1,159 @@
+{
+    "domain": "appconsent.io",
+    "owner": {
+        "name": "SFBX SAS",
+        "displayName": "SFBX"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "cdn",
+        "collector"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "appconsent\\.io\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6691d0ca4aa15a7e5e11ddf81f8b9ca366905fe733eda213e34a6ec06dc2a7ca"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "journaldesfemmes.fr",
+                "www.marketscreener.com"
+            ]
+        },
+        {
+            "rule": "appconsent\\.io\\/tcf2\\/32\\.4\\.0\\/core\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.languages": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3b4bb9d6369e92f6fa5c5b5315c14b58de0164ac4c26063b28f8e5fd4170cab9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "journaldesfemmes.fr",
+                "www.marketscreener.com"
+            ]
+        },
+        {
+            "rule": "appconsent\\.io\\/hello",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collector"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e256b717985b218359d2852668d85ed99571f951d25adb5486c3529a6efeea04"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "journaldesfemmes.fr",
+                "www.marketscreener.com"
+            ]
+        },
+        {
+            "rule": "appconsent\\.io\\/hello",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collector"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "journaldesfemmes.fr",
+                "www.marketscreener.com"
+            ]
+        },
+        {
+            "rule": "appconsent\\.io\\/gvl\\/vendor-list\\/v2\\/purposes-fr\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4c17efeb9efe97846cf3f396806b963ed0b74753269397750b057abea5b59c44"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marketscreener.com",
+                "www.marketscreener.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Consent Management Platform"
+    ],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 2,
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-cloud-b2.googledomains.com",
+        "ns-cloud-b3.googledomains.com",
+        "ns-cloud-b1.googledomains.com",
+        "ns-cloud-b4.googledomains.com"
+    ]
+}

@@ -1,0 +1,155 @@
+{
+    "domain": "baidu.com",
+    "owner": {
+        "name": "Baidu, Inc.",
+        "displayName": "Baidu"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "hm"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "baidu\\.com\\/hm\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 2,
+            "subdomains": [
+                "hm"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.cookieEnabled": 4,
+                "Navigator.prototype.javaEnabled": 4,
+                "Navigator.prototype.language": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "Screen.prototype.colorDepth": 4,
+                "Screen.prototype.orientation": 4,
+                "window.innerWidth": 4,
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "window.sessionStorage": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "window.innerHeight": 4
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "06fd6f2ef99d81285d041750842f96b117a568d45e07bacd7045c2a3105666b0",
+                "aaa85f83dfea76d624c5541a3ea844965aa525725f4805bd7150f9e21ce23a0e",
+                "e4cc320cd50e9950aed62cabf7030460799a0aafc4d2847db53db7faeee2cbff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac": {
+                    "ttl": 31536014,
+                    "length": 10,
+                    "prevalence": 0.00010049241282283188,
+                    "uniqueness": 1
+                },
+                "Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac": {
+                    "ttl": null,
+                    "length": 10,
+                    "prevalence": 0.00010049241282283188,
+                    "uniqueness": 1
+                },
+                "HMACCOUNT": {
+                    "ttl": null,
+                    "length": 16,
+                    "prevalence": 0.0004019696512913275,
+                    "uniqueness": 1
+                },
+                "Hm_lvt_1d5ba5cbc559273825f37fdd6ecdfe28": {
+                    "ttl": 31536007,
+                    "length": 10,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 1
+                },
+                "Hm_lpvt_1d5ba5cbc559273825f37fdd6ecdfe28": {
+                    "ttl": null,
+                    "length": 10,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 1
+                },
+                "Hm_lvt_a7025e25c8500c732b8f48cc46e21467": {
+                    "ttl": 31536004,
+                    "length": 10,
+                    "prevalence": 0.00010049241282283188,
+                    "uniqueness": 1
+                },
+                "Hm_lpvt_a7025e25c8500c732b8f48cc46e21467": {
+                    "ttl": null,
+                    "length": 10,
+                    "prevalence": 0.00010049241282283188,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "csdn.net",
+                "docs.espressif.com",
+                "mangapark.net",
+                "www.espressif.com",
+                "www.ventoy.net"
+            ]
+        },
+        {
+            "rule": "baidu\\.com\\/hm\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hm"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "HMACCOUNT": 0.0004019696512913275
+            },
+            "exampleSites": [
+                "csdn.net",
+                "docs.espressif.com",
+                "mangapark.net",
+                "www.espressif.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "csdnimg.cn",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Image": 4
+    },
+    "nameservers": [
+        "dns.baidu.com",
+        "ns7.baidu.com",
+        "ns2.baidu.com",
+        "ns4.baidu.com",
+        "ns3.baidu.com"
+    ]
+}

@@ -1,0 +1,204 @@
+{
+    "domain": "proper.io",
+    "owner": {
+        "name": "Proper Media",
+        "displayName": "Proper Media"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000804,
+    "sites": 8,
+    "subdomains": [
+        "global",
+        "abcheck",
+        "bids",
+        "usync",
+        "eb"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "proper\\.io\\/payloads\\/latest\\.js",
+            "cookies": 0.000603,
+            "fingerprinting": 2,
+            "subdomains": [
+                "global"
+            ],
+            "apis": {
+                "Document.cookie getter": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Date.prototype.getTime": 6,
+                "window.localStorage": 6,
+                "Navigator.prototype.cookieEnabled": 6,
+                "Date.prototype.getTimezoneOffset": 6,
+                "Navigator.prototype.language": 6,
+                "Document.cookie setter": 6,
+                "window.innerHeight": 6,
+                "window.innerWidth": 6,
+                "window.sessionStorage": 6,
+                "Screen.prototype.height": 6,
+                "Screen.prototype.width": 6,
+                "Navigator.prototype.doNotTrack": 4,
+                "window.devicePixelRatio": 4,
+                "Screen.prototype.availHeight": 4,
+                "Navigator.prototype.maxTouchPoints": 4
+            },
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "3682ce850eb37d9c7692129c5bb2df91e13d1dbb91cd6e3a6f0cf04f0c62c942"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "properSessionStorage": {
+                    "ttl": 1817,
+                    "length": 441,
+                    "prevalence": 0.0006026516673362796,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bestlifeonline.com",
+                "worldpopulationreview.com",
+                "www.dictionary.com",
+                "www.eatthis.com",
+                "www.thesaurus.com",
+                "www.whatismyip.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/px\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "abcheck"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [
+                "b20ec51b9c3229719d56dfb4d7698e09bb02e0b8e2c527b5fde2624cc2ba7b1f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bestlifeonline.com",
+                "nationalinterest.org",
+                "worldpopulationreview.com",
+                "www.dictionary.com",
+                "www.eatthis.com",
+                "www.nigella.com",
+                "www.thesaurus.com",
+                "www.whatismyip.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/api\\/bidding",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bids"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bestlifeonline.com",
+                "worldpopulationreview.com",
+                "www.dictionary.com",
+                "www.eatthis.com",
+                "www.nigella.com",
+                "www.thesaurus.com",
+                "www.whatismyip.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/v1\\/usersync",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "usync"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "c7d5760636e516100900c84348442740b335d422b3e17042368078ed7537e345",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalinterest.org",
+                "worldpopulationreview.com",
+                "www.dictionary.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/s2s",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eb"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "5211961235800745648d1bd7fe112290efc5b4c2c9bdcb9d470d15859eab1eba",
+                "72b9aee008830b2dc799d229563fb06e2a18746d82e8eb240cd0c8b9b1e4cf3d",
+                "9af999035284e3a07364ccb845da5f8edefe35eb715d2f4dfefc42a855d174bf"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "worldpopulationreview.com",
+                "www.dictionary.com",
+                "www.nigella.com",
+                "www.thesaurus.com",
+                "www.whatismyip.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000804,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.85
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.15
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "Image": 8,
+        "XHR": 12
+    },
+    "nameservers": [
+        "ns-1101.awsdns-09.org",
+        "ns-1599.awsdns-07.co.uk",
+        "ns-70.awsdns-08.com",
+        "ns-983.awsdns-58.net"
+    ]
+}

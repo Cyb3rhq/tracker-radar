@@ -1,0 +1,98 @@
+{
+    "domain": "convermax.com",
+    "owner": {
+        "name": "CONVERMAX CORP.",
+        "displayName": "CONVERMAX"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "client"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "convermax\\.com\\/static\\/stage3motorsports\\/search\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "82266445a18ff22c28d66197d40579c745be6393ae4eeed77f84aea5f3fb10c0"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stage3motorsports.com",
+                "www.stage3motorsports.com"
+            ]
+        },
+        {
+            "rule": "convermax\\.com\\/static\\/stage3motorsports\\/search\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "599f245a45ebe4e49d352ae7b605e0e25c4447746ff0dc6d5d65349f825c616c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cmuid": {
+                    "ttl": 157680006,
+                    "length": 16,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "cmsid": {
+                    "ttl": 1806,
+                    "length": 16,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stage3motorsports.com",
+                "www.stage3motorsports.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000273,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "alan.ns.cloudflare.com",
+        "robin.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,277 @@
+{
+    "domain": "monsido.com",
+    "owner": {
+        "name": "Monsido Inc.",
+        "displayName": "Monsido"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00211,
+    "sites": 21,
+    "subdomains": [
+        "app-script",
+        "tracking",
+        "cdn",
+        "heatmaps",
+        "pagecorrect"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "monsido\\.com\\/v2\\/monsido-script\\.js",
+            "cookies": 0.000604,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app-script"
+            ],
+            "apis": {
+                "Document.cookie getter": 18,
+                "Date.prototype.getTime": 18,
+                "Screen.prototype.width": 11,
+                "Screen.prototype.height": 11,
+                "Document.cookie setter": 6
+            },
+            "sites": 19,
+            "prevalence": 0.00191,
+            "cnames": [],
+            "responseHashes": [
+                "64e8ce58f2d8ee4332cc27fcb759c31013f418b6523586b6441fd2f097107b35"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "monsido": {
+                    "ttl": 2592003,
+                    "length": 16,
+                    "prevalence": 0.0006036824630244491,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guelph.ca",
+                "ontariotechu.ca",
+                "www.banffcentre.ca",
+                "www.burlington.ca",
+                "www.cifinancial.com",
+                "www.facinghistory.org",
+                "www.hornady.com",
+                "www.ilc.org",
+                "www.nscc.ca",
+                "www.ontariohealth.ca",
+                "www.publicboard.ca",
+                "www.regionofwaterloo.ca",
+                "www.surreylibraries.ca",
+                "www.tcenergy.com",
+                "www.surrey.ca",
+                "www.tvo.org",
+                "www.uwindsor.ca",
+                "www.wellington.ca",
+                "www.who.int"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking"
+            ],
+            "apis": {},
+            "sites": 20,
+            "prevalence": 0.00201,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "monsido": 0.0009055236945366737
+            },
+            "exampleSites": [
+                "guelph.ca",
+                "immi.homeaffairs.gov.au",
+                "www.azoresairlines.pt",
+                "www.banffcentre.ca",
+                "www.burlington.ca",
+                "www.cifinancial.com",
+                "www.facinghistory.org",
+                "www.hornady.com",
+                "www.ilc.org",
+                "www.nscc.ca",
+                "www.ontariohealth.ca",
+                "www.publicboard.ca",
+                "www.regionofwaterloo.ca",
+                "www.surreylibraries.ca",
+                "www.tcenergy.com",
+                "www.surrey.ca",
+                "www.tvo.org",
+                "www.uwindsor.ca",
+                "www.wellington.ca",
+                "www.who.int"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/tool\\/javascripts\\/monsido\\.js",
+            "cookies": 0.000302,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "PerformanceTiming.prototype.navigationStart": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "17dd560fed5a0713a3f47f70269fe1d3f9e1cdc3bc47fbcd114c6ebcb56d295f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "monsido": {
+                    "ttl": 2592002,
+                    "length": 16,
+                    "prevalence": 0.00030184123151222455,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homeaffairs.gov.au",
+                "www.azoresairlines.pt",
+                "www.banffcentre.ca"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/heatmaps\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000704,
+            "cnames": [],
+            "responseHashes": [
+                "699e1427474c3daa7932aa405a51762e6ab51ba12a19775321a7357deb31f384"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "banffcentre.ca",
+                "www.facinghistory.org",
+                "www.nscc.ca",
+                "www.surreylibraries.ca",
+                "www.surrey.ca",
+                "www.uwindsor.ca",
+                "www.who.int"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/page-correct\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pagecorrect"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "d141769570c57f86e87777d2093d36608c97f30872dbc3ce9c918b35793c180f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "burlington.ca",
+                "www.facinghistory.org",
+                "www.regionofwaterloo.ca",
+                "www.uwindsor.ca"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/vdHt5WQ9s1tLR1Yvryogxg\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pagecorrect",
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fe6ffde4a6d0ca22fb681fdda3213fc45b924ea10253c65477b29d24954bf2f6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "facinghistory.org",
+                "www.facinghistory.org"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/DZWv9cPcXodkqn2hwaS5sg\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps",
+                "pagecorrect"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ee7ddd43bdf3f045410d5724d04abab9791fc958d8f86d9fe4a0e38014439963"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uwindsor.ca",
+                "www.uwindsor.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000906,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6956521739130435
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.30434782608695654
+        }
+    ],
+    "types": {
+        "Script": 33,
+        "Image": 20,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns-cloud-e4.googledomains.com",
+        "ns-cloud-e3.googledomains.com",
+        "ns-cloud-e2.googledomains.com",
+        "ns-cloud-e1.googledomains.com"
+    ]
+}

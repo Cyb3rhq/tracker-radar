@@ -1,0 +1,78 @@
+{
+    "domain": "colibri-js.akamaized.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "colibri-js\\.akamaized\\.net\\/penguin\\/tc_SRGGD_11\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ecc7b59b4ad9e16d75721d4787b5a3c52a12a6018bd98e22fc34d21ed5664a42"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "srf:analytics:uuid": {
+                    "ttl": 63072009,
+                    "length": 36,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "cs_fpid": {
+                    "ttl": 15552009,
+                    "length": 22,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rts.ch",
+                "www.watson.ch"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000273,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "srf.ch",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": []
+}

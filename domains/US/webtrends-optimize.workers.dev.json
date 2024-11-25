@@ -1,0 +1,281 @@
+{
+    "domain": "webtrends-optimize.workers.dev",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000109,
+    "sites": 16,
+    "subdomains": [
+        "wto-halfords-segment-id",
+        "plt-sp-read",
+        "wto-halfords-lib",
+        "halfords-pepe",
+        "geo",
+        "wt-lib-v5-8",
+        "wt-lib-v5-6",
+        "wt-lib-plt"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "webtrends-optimize\\.workers\\.dev\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wto-halfords-segment-id"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "halfords.com",
+                "www.halfords.com"
+            ]
+        },
+        {
+            "rule": "webtrends-optimize\\.workers\\.dev\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wto-halfords-segment-id",
+                "plt-sp-read"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "bcc5621c2984c331bc4e222fdeec845dfd442fa708271424e235053e44fe6bd0",
+                "60e2340b84bfa9c2b2b055ccdd33151105b56b88a1e0720614b566fe338f116b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "halfords.com",
+                "www.halfords.com",
+                "www.prettylittlething.com"
+            ]
+        },
+        {
+            "rule": "webtrends-optimize\\.workers\\.dev\\/api\\/get-lib",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "wto-halfords-lib"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.name": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Document.cookie setter": 2,
+                "window.innerWidth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "72fe95d5560af1e12354210961a18bb4f863666ef787b9222167241071a34922"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_wt.mode-2392083": {
+                    "ttl": null,
+                    "length": 15,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "_wt.user-2392083": {
+                    "ttl": 7776007,
+                    "length": 223,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "wtSameSession": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "halfords.com",
+                "www.halfords.com"
+            ]
+        },
+        {
+            "rule": "webtrends-optimize\\.workers\\.dev\\/api\\/get-content",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halfords-pepe"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "80367ff9820d74323f2625e31644a58ccbb81157eb8f116917a4bae0702ec216"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "halfords.com",
+                "www.halfords.com"
+            ]
+        },
+        {
+            "rule": "webtrends-optimize\\.workers\\.dev\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo",
+                "plt-sp-read"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "b202ec59df151b3358de1237482934fb9ced9bd30f773521b30054079501b068",
+                "09e47de0254651d99bc2255c62e1cb8f10261b494cf662fbacbeb0e0967220a4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dfs.co.uk",
+                "www.dfs.co.uk",
+                "www.prettylittlething.com.au"
+            ]
+        },
+        {
+            "rule": "webtrends-optimize\\.workers\\.dev\\/",
+            "cookies": 0.000041,
+            "fingerprinting": 2,
+            "subdomains": [
+                "wt-lib-v5-8",
+                "wt-lib-v5-6",
+                "wt-lib-plt"
+            ],
+            "apis": {
+                "window.localStorage": 8,
+                "Navigator.prototype.userAgent": 8,
+                "window.name": 8,
+                "Date.prototype.getTime": 8,
+                "Document.cookie getter": 8,
+                "Date.prototype.getTimezoneOffset": 8,
+                "window.sessionStorage": 2,
+                "Document.cookie setter": 6,
+                "window.innerWidth": 1
+            },
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "70f312e1dd40e7e8919ca71fd9afa1261135101a97fdd5ee8571ebf042868255",
+                "2ec7be8be2ab9e73b63706ce76a98c5be54399cd12db7b7ee8d25cfce85f1267",
+                "00f432a9cb53dfc9a229b6c23a17e58d9f3f9fef42c5a61fb3563675c73d64fe",
+                "b5f5732f37507c8737503c7fc3e0e744e83935f15b3d6294907fde10ac77dbcc",
+                "5f008dfe008123a5c23c8ea854511fb73e02dedda78036814d208ca19996f896"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ag76_Ping": {
+                    "ttl": 7776005,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_wt.mode-2297846": {
+                    "ttl": null,
+                    "length": 15,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_wt.user-2297846": {
+                    "ttl": 7776004,
+                    "length": 227,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_wt.mode-2365884": {
+                    "ttl": null,
+                    "length": 15,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_wt.user-2365884": {
+                    "ttl": 7776003,
+                    "length": 111,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_wt.mode-2180214": {
+                    "ttl": null,
+                    "length": 15,
+                    "prevalence": 0.000020496003279360526,
+                    "uniqueness": 0.3333333333333333
+                },
+                "_wt.user-2180214": {
+                    "ttl": 604812,
+                    "length": 231,
+                    "prevalence": 0.000020496003279360526,
+                    "uniqueness": 1
+                },
+                "threeDSFlex_enabled": {
+                    "ttl": 86407,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americangolf.co.uk",
+                "www.golfbreaks.com",
+                "www.myregistry.com",
+                "www.prettylittlething.com.au",
+                "www.prettylittlething.com",
+                "www.prettylittlething.us",
+                "www.qbe.com",
+                "www.svenskfast.se"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000082,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "webtrends-optimize.com",
+            "prevalence": 0.42857142857142855
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 5,
+        "Script": 10,
+        "XHR": 3
+    },
+    "nameservers": [
+        "keaton.ns.cloudflare.com",
+        "grannbo.ns.cloudflare.com"
+    ]
+}

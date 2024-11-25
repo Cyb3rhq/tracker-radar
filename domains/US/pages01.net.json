@@ -1,0 +1,141 @@
+{
+    "domain": "pages01.net",
+    "owner": {
+        "name": "International Business Machines Corporation",
+        "displayName": "International Business Machines",
+        "privacyPolicy": "https://www.ibm.com/privacy/us/en/",
+        "url": "http://ibm.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000888,
+    "sites": 13,
+    "subdomains": [
+        "www.sc",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "pages01\\.net\\/lp\\/static\\/js\\/iMAWebCookie\\.js",
+            "cookies": 0.0000478,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www.sc"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 9,
+                "Document.cookie getter": 7,
+                "Date.prototype.getTime": 9,
+                "Document.cookie setter": 7,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 10,
+            "prevalence": 0.0000683,
+            "cnames": [],
+            "responseHashes": [
+                "e0447961a33816f0c4e3857863982dbc864a67748c596b78678a7622a8f69282"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "com.silverpop.iMAWebCookie": {
+                    "ttl": 86400005,
+                    "length": 36,
+                    "prevalence": 0.000047824007651841225,
+                    "uniqueness": 1
+                },
+                "com.silverpop.iMA.page_visit": {
+                    "ttl": 1205,
+                    "length": 5,
+                    "prevalence": 0.000047824007651841225,
+                    "uniqueness": 0.42857142857142855
+                },
+                "com.silverpop.iMA.session": {
+                    "ttl": 1205,
+                    "length": 36,
+                    "prevalence": 0.000047824007651841225,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ataglance.com",
+                "coborns.com",
+                "oukosher.org",
+                "www.ataglance.com",
+                "www.daytimer.com",
+                "www.lottoland.com",
+                "www.ou.org",
+                "www.spectrum.com",
+                "www.supplyworks.com",
+                "www.unum.com"
+            ]
+        },
+        {
+            "rule": "pages01\\.net\\/WTS\\/event\\.jpeg",
+            "cookies": 0.0000683,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000683,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "com.silverpop.iMAWebCookie": 0.00006148800983808158,
+                "com.silverpop.iMA.session": 0.00006148800983808158
+            },
+            "exampleSites": [
+                "ataglance.com",
+                "coborns.com",
+                "oukosher.org",
+                "www.ataglance.com",
+                "www.daytimer.com",
+                "www.genealogybank.com",
+                "www.lottoland.com",
+                "www.spectrum.com",
+                "www.supplyworks.com",
+                "www.unum.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000082,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5238095238095238
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.09523809523809523
+        },
+        {
+            "domain": "mkt912.com",
+            "prevalence": 0.09523809523809523
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Image": 10
+    },
+    "nameservers": [
+        "ns4.acoustic-adm.com",
+        "ns1.acoustic-adm.com",
+        "ns2.acoustic-adm.com",
+        "ns3.acoustic-adm.com"
+    ]
+}

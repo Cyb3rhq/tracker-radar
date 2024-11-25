@@ -1,0 +1,331 @@
+{
+    "domain": "azurefd.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00181,
+    "sites": 18,
+    "subdomains": [
+        "afd-b2c-iibozyiouoyi4.z01",
+        "glpfrontdoor",
+        "pcf-ingress-prod-02559514",
+        "adnprebid-bjdne3a8htfmd9c9.z02"
+    ],
+    "cnames": [
+        {
+            "original": "account.lexus.com.au",
+            "resolved": "pcf-ingress-prod-02559514.azurefd.net"
+        },
+        {
+            "original": "consumer.intel.com",
+            "resolved": "afd-b2c-iibozyiouoyi4.z01.azurefd.net"
+        },
+        {
+            "original": "id.cityofsydney.nsw.gov.au",
+            "resolved": "glpfrontdoor.azurefd.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "azurefd\\.net\\/intelcorpb2c\\.onmicrosoft\\.com\\/B2C_1A_UNIFIEDLOGIN_SISU_STD_OIDC\\/oauth2\\/v2\\.0\\/authorize",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "afd-b2c-iibozyiouoyi4.z01"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "consumer.intel.com",
+                    "resolved": "afd-b2c-iibozyiouoyi4.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intel.com",
+                "community.intel.com",
+                "www.intel.com"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/cityofsydneycouncilb2c\\.onmicrosoft\\.com\\/b2c_1a_signup_signin\\/oauth2\\/v2\\.0\\/authorize",
+            "cookies": 0.0001,
+            "fingerprinting": 2,
+            "subdomains": [
+                "glpfrontdoor"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "id.cityofsydney.nsw.gov.au",
+                    "resolved": "glpfrontdoor.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "f78ecef7ef13a461b8df2413e55d8a5597d21eac05e6d0dc58a116b115b6de05"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nsw.gov.au",
+                "www.cityofsydney.nsw.gov.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/signin",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pcf-ingress-prod-02559514"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "account.lexus.com.au",
+                    "resolved": "pcf-ingress-prod-02559514.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "52af963cedf0eb2892c7f37b16d242f829a436769c672869346bcfb206ca29fd"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lexus.com.au",
+                "www.lexus.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/index\\.0659e745\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pcf-ingress-prod-02559514"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "account.lexus.com.au",
+                    "resolved": "pcf-ingress-prod-02559514.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "0bd257d4c5af8c9da633c17d00e9c8c4a6d773b3f626f35597c6e012b7ee9efe"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lexus.com.au",
+                "www.lexus.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/index\\.runtime\\.8f4035cd\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pcf-ingress-prod-02559514"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "account.lexus.com.au",
+                    "resolved": "pcf-ingress-prod-02559514.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "964733624818bf5a71f260317e48662a9d8c34343698918b8b7d8fad3ef8714c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lexus.com.au",
+                "www.lexus.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/index\\.41b3fcde\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pcf-ingress-prod-02559514"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "account.lexus.com.au",
+                    "resolved": "pcf-ingress-prod-02559514.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "b3c3f29536df0d487e272489bd255a2c7af9a1a52958aad7d123751396e4c18c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lexus.com.au",
+                "www.lexus.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/Nobel-Book\\.fa9f6edb\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pcf-ingress-prod-02559514"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "account.lexus.com.au",
+                    "resolved": "pcf-ingress-prod-02559514.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "28eba2385a7eabdf0ce99069c9fc2f8713808bba98f2095c0b913cad3304b578"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lexus.com.au",
+                "www.lexus.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/Nobel-Regular\\.1c76569c\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pcf-ingress-prod-02559514"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "account.lexus.com.au",
+                    "resolved": "pcf-ingress-prod-02559514.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "25bccaaba1c5408a226c924d235b096524ffc72735239201641143d7f5e3b746"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lexus.com.au",
+                "www.lexus.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/Nobel-Bold\\.11f9a5f1\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pcf-ingress-prod-02559514"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "account.lexus.com.au",
+                    "resolved": "pcf-ingress-prod-02559514.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "e11aff641b11931188dbd63368e284ba67a1e85a54137568a41edfa8bc34ba12"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lexus.com.au",
+                "www.lexus.com.au"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/openrtb2\\/auction",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adnprebid-bjdne3a8htfmd9c9.z02"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "93f714d3fa152cfe7147c26ca74e6d3d619aa1d65cfa099e9db0b0279d7b5c68"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thephoblographer.com",
+                "www.thephoblographer.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000904,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9230769230769231
+        },
+        {
+            "domain": "azureedge.net",
+            "prevalence": 0.0641025641025641
+        },
+        {
+            "domain": "windows.net",
+            "prevalence": 0.01282051282051282
+        }
+    ],
+    "types": {
+        "Document": 7,
+        "Stylesheet": 2,
+        "Script": 4,
+        "Font": 6,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns1-37.azure-dns.com",
+        "ns2-37.azure-dns.net",
+        "ns4-37.azure-dns.info",
+        "ns3-37.azure-dns.org"
+    ]
+}

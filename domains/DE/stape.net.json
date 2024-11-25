@@ -1,0 +1,186 @@
+{
+    "domain": "stape.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00151,
+    "sites": 15,
+    "subdomains": [
+        "eux",
+        "leuc",
+        "eup",
+        "leuf",
+        "euc",
+        "leub"
+    ],
+    "cnames": [
+        {
+            "original": "diy.bauhaus.info",
+            "resolved": "eux.stape.net"
+        },
+        {
+            "original": "gtm.babyartikel.de",
+            "resolved": "euc.stape.net"
+        },
+        {
+            "original": "load.gtm.emma-matratze.de",
+            "resolved": "leuf.stape.net"
+        },
+        {
+            "original": "load.gtm.medi-karriere.de",
+            "resolved": "leub.stape.net"
+        },
+        {
+            "original": "load.sgtm.idee-shop.com",
+            "resolved": "leuc.stape.net"
+        },
+        {
+            "original": "path.repareo.de",
+            "resolved": "eup.stape.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "stape\\.net\\/gpt_ads-public\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eux",
+                "leuc",
+                "eup"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "diy.bauhaus.info",
+                    "resolved": "eux.stape.net"
+                },
+                {
+                    "original": "load.sgtm.idee-shop.com",
+                    "resolved": "leuc.stape.net"
+                },
+                {
+                    "original": "path.repareo.de",
+                    "resolved": "eup.stape.net"
+                }
+            ],
+            "responseHashes": [
+                "60cb051e5a90fb89b3dd953d5eb8a121a0d6d54f5c49a174997190aaf013e3af"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bauhaus.info",
+                "www.idee-shop.com",
+                "www.repareo.de"
+            ]
+        },
+        {
+            "rule": "stape\\.net\\/gtm\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "leuf",
+                "euc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "load.gtm.emma-matratze.de",
+                    "resolved": "leuf.stape.net"
+                },
+                {
+                    "original": "gtm.babyartikel.de",
+                    "resolved": "euc.stape.net"
+                }
+            ],
+            "responseHashes": [
+                "ef8353cf22ad7b3ba29cfe0c881f7c455fca4544e9722aeb6d4ac98515df5b6f",
+                "65bd9955dad991f27203c584ecc4e4d907a8ef6ce11ef158d5d64dd2cba62066"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "emma-matratze.de",
+                "www.babyartikel.de",
+                "www.emma-matratze.de"
+            ]
+        },
+        {
+            "rule": "stape\\.net\\/gtag\\/destination",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "leub",
+                "eup"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "load.gtm.medi-karriere.de",
+                    "resolved": "leub.stape.net"
+                },
+                {
+                    "original": "path.repareo.de",
+                    "resolved": "eup.stape.net"
+                }
+            ],
+            "responseHashes": [
+                "a10350dc7c3f39e116d32f1f70faf38734098abc0c68a141023a615537abfc63"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "medi-karriere.de",
+                "www.repareo.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000603,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "es5.js",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "stapecdn.com",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "baqend.com",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 8
+    },
+    "nameservers": [
+        "june.ns.cloudflare.com",
+        "eric.ns.cloudflare.com"
+    ]
+}

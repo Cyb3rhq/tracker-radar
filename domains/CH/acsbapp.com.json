@@ -1,0 +1,127 @@
+{
+    "domain": "acsbapp.com",
+    "owner": {
+        "name": "accessiBe Inc.",
+        "displayName": "accessiBe"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00111,
+    "sites": 11,
+    "subdomains": [
+        "eu",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "acsbapp\\.com\\/apps\\/app\\/dist\\/js\\/app\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "eu"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 11,
+                "Navigator.prototype.maxTouchPoints": 11,
+                "window.localStorage": 7,
+                "NavigatorUAData.prototype.brands": 7
+            },
+            "sites": 11,
+            "prevalence": 0.00111,
+            "cnames": [],
+            "responseHashes": [
+                "97eb81b3243714173224c1cdb3d41f8eea3ebb9f49408fdc472932d6f0aabfd9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "byjus.com",
+                "laderach.com",
+                "metamask.io",
+                "visitbregenz.com",
+                "www.etoro.com",
+                "www.ferrari.com",
+                "www.free.fr",
+                "www.remax.ch",
+                "www.smeg.com",
+                "www.wickedweasel.com",
+                "www.zwilling.com"
+            ]
+        },
+        {
+            "rule": "acsbapp\\.com\\/cache\\/app\\/wildcards\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "ae383fa1e3a44a72f51a5b3f443b82de4d4d8a07f96a18ebf612c5579eb98dce"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "byjus.com",
+                "www.remax.ch",
+                "www.wickedweasel.com",
+                "www.zwilling.com"
+            ]
+        },
+        {
+            "rule": "acsbapp\\.com\\/config\\/wickedweasel\\.com\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bde9c2949e64d059c18d8f93566a64dafc6d2e8e259a70322fb804831dfd0b5b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wickedweasel.com",
+                "www.wickedweasel.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7096774193548387
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25806451612903225
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.03225806451612903
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "Fetch": 6
+    },
+    "nameservers": [
+        "davina.ns.cloudflare.com",
+        "bill.ns.cloudflare.com"
+    ]
+}

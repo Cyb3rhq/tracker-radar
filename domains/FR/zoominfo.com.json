@@ -1,0 +1,126 @@
+{
+    "domain": "zoominfo.com",
+    "owner": {
+        "name": "Zoom Information, Inc.",
+        "displayName": "Zoom Information"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.00131,
+    "sites": 13,
+    "subdomains": [
+        "ws-assets",
+        "ws"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "zoominfo\\.com\\/formcomplete\\.js",
+            "cookies": 0.000202,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "dcb09186a3d016b8ae56ecd0cb76f787254388177fc8318061d619b56a7d81b2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plotly.com",
+                "www.techrepublic.com"
+            ]
+        },
+        {
+            "rule": "zoominfo\\.com\\/formcomplete-v2\\/forms",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plotly.com",
+                "www.techrepublic.com"
+            ]
+        },
+        {
+            "rule": "zoominfo\\.com\\/formcomplete-v2\\/forms",
+            "cookies": 0.000202,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plotly.com",
+                "www.techrepublic.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00131,
+    "topInitiators": [
+        {
+            "domain": "zi-scripts.com",
+            "prevalence": 0.47058823529411764
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.11764705882352941
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.11764705882352941
+        },
+        {
+            "domain": "prismic.io",
+            "prevalence": 0.11764705882352941
+        },
+        {
+            "domain": "fullstory.com",
+            "prevalence": 0.058823529411764705
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.058823529411764705
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.058823529411764705
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "tim.ns.cloudflare.com",
+        "rita.ns.cloudflare.com"
+    ]
+}

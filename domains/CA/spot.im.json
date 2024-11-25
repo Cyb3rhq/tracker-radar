@@ -1,0 +1,1138 @@
+{
+    "domain": "spot.im",
+    "owner": {
+        "name": "OpenWeb Technologies Ltd.",
+        "displayName": "OpenWeb",
+        "privacyPolicy": "https://www.openweb.com",
+        "url": "http://openweb.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.0148,
+    "sites": 147,
+    "subdomains": [
+        "open-api",
+        "launcher",
+        "direct-events-collector",
+        "static-cdn",
+        "publisher-assets",
+        "api-2-0",
+        "pix",
+        "metrics-logger",
+        "launcher-sa"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "spot\\.im\\/v1\\/messages-count",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "open-api"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.00151,
+            "cnames": [],
+            "responseHashes": [
+                "c36f83940ceb06ad28b347c894642595637f4b89ab02c2a5a305c2f987ec7537",
+                "5154c3c46c70bea25556f1c44d43467aa3e142da2aada81c4eecc572192182d0",
+                "cdde8e151c14eaab6e20fcd2777d7b92e9389f338ec519520a8695d5fd23b352",
+                "0833fb6ed11743e582ef2c9740558e5d30981ebadfd729bcf4cb031943d1c88a",
+                "5d85c6da9b379406baad4445c9da3ecf121df61405d75f92902e7995c1b258e1",
+                "2f572ff8b080d7aad51dc6156f4440e5b4187193ca52c6acc182809da99c1e9c",
+                "bd29dd8c6a9a81d4aa4daa9de35a079c0a13d0692ddc8c64c67c466e216794b6",
+                "36241649679928f6fe0eaf261210b6d974979e671ba64da6bf6afba76ef38b05",
+                "eefac9961b0085f2a771df7dac0c08181de7d4a1388b50ff4eececa6ca32a44b",
+                "7c1184e0bb7c6d06844ea376ba25f6a5b718fd62cfb84ce822a05c014b227118",
+                "6dff52bf9425a8ea59bebfe983494ee0b27480ccd8161ff71b7e5f2fc6e23f66",
+                "0ed4fba02287d30f2fa85e180e73bd7d151b24c4579aff31f9082669000fbd9a",
+                "6cd44dd886a306faa584bbe15bb7275ae6aa166dd9b81fbca35f6ad129c411be",
+                "55a1fe2d37a1f74b52747a7a6fc610a05c74587fe2220c6d1b6b594a57628053"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "attackofthefanboy.com",
+                "dotesports.com",
+                "primagames.com",
+                "progameguides.com",
+                "wegotthiscovered.com",
+                "www.comingsoon.net",
+                "www.escapistmagazine.com",
+                "www.eurogamer.net",
+                "www.forbes.com",
+                "www.gamerevolution.com",
+                "www.gamepur.com",
+                "www.gameskinny.com",
+                "www.pcinvasion.com",
+                "www.rockpapershotgun.com",
+                "www.vg247.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/spot\\/sp_xEkoxAFD",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "launcher"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "415bbd0c39464d21eab17d5cfab17cf4605ef3bda495c5734d5c0cd08f343dbb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ign.com",
+                "www.ign.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/api\\/v2\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "direct-events-collector"
+            ],
+            "apis": {},
+            "sites": 22,
+            "prevalence": 0.00221,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ign.com",
+                "lifehacker.com",
+                "nypost.com",
+                "www.dailydot.com",
+                "www.ign.com",
+                "www.thekitchn.com",
+                "pagesix.com",
+                "www.comingsoon.net",
+                "wordfinder.yourdictionary.com",
+                "www.capitalfm.com",
+                "www.eurogamer.net",
+                "www.thedailybeast.com",
+                "www.themeateater.com",
+                "www.rockpapershotgun.com",
+                "www.vg247.com",
+                "religionnews.com",
+                "www.celebdirtylaundry.com",
+                "mtgazone.com",
+                "decider.com",
+                "www.apartmenttherapy.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/production\\/launcher\\/tags\\/v3\\.28\\.0\\/launcher\\/450-bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {
+                "window.localStorage": 14
+            },
+            "sites": 15,
+            "prevalence": 0.00151,
+            "cnames": [],
+            "responseHashes": [
+                "99d371185bb11164fcd71cdc5917319d372c722aa0e21e65004dc3fc84fd4b15"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ign.com",
+                "lifehacker.com",
+                "mtgazone.com",
+                "soaps.sheknows.com",
+                "www.apartmenttherapy.com",
+                "www.celebdirtylaundry.com",
+                "www.comingsoon.net",
+                "www.eurogamer.net",
+                "www.gamerevolution.com",
+                "www.ign.com",
+                "www.rockpapershotgun.com",
+                "www.thedailybeast.com",
+                "www.thekitchn.com",
+                "www.themeateater.com",
+                "www.vg247.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/production\\/launcher\\/tags\\/v3\\.28\\.0\\/launcher\\/137-bundle\\.js",
+            "cookies": 0.00131,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 14,
+                "window.localStorage": 14,
+                "Date.prototype.getTime": 13,
+                "Document.cookie getter": 13,
+                "Document.cookie setter": 13,
+                "Navigator.prototype.language": 13
+            },
+            "sites": 15,
+            "prevalence": 0.00151,
+            "cnames": [],
+            "responseHashes": [
+                "c9dacf3dcc9a851edd11cc3f8af031eee44a193bce915d279654e2c5789a40e1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "spotim_visitId": {
+                    "ttl": 1815,
+                    "length": 178,
+                    "prevalence": 0.0013079786698863064,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ign.com",
+                "lifehacker.com",
+                "mtgazone.com",
+                "soaps.sheknows.com",
+                "www.apartmenttherapy.com",
+                "www.celebdirtylaundry.com",
+                "www.comingsoon.net",
+                "www.eurogamer.net",
+                "www.gamerevolution.com",
+                "www.ign.com",
+                "www.rockpapershotgun.com",
+                "www.thedailybeast.com",
+                "www.thekitchn.com",
+                "www.themeateater.com",
+                "www.vg247.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/production\\/launcher\\/tags\\/v3\\.28\\.0\\/launcher\\/63-bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {
+                "window.localStorage": 14
+            },
+            "sites": 15,
+            "prevalence": 0.00151,
+            "cnames": [],
+            "responseHashes": [
+                "8422d6185eb88db7e74dbe210cf91d91a8444d8bc583e43682b029efef0aaf17"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ign.com",
+                "lifehacker.com",
+                "mtgazone.com",
+                "soaps.sheknows.com",
+                "www.apartmenttherapy.com",
+                "www.celebdirtylaundry.com",
+                "www.comingsoon.net",
+                "www.eurogamer.net",
+                "www.gamerevolution.com",
+                "www.ign.com",
+                "www.rockpapershotgun.com",
+                "www.thedailybeast.com",
+                "www.thekitchn.com",
+                "www.themeateater.com",
+                "www.vg247.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/production\\/launcher\\/tags\\/v3\\.28\\.0\\/launcher\\/initial-bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 14,
+                "window.localStorage": 13
+            },
+            "sites": 15,
+            "prevalence": 0.00151,
+            "cnames": [],
+            "responseHashes": [
+                "b331648c9e84a55f78b6f5efdd23f995dd641c22bce0222f604f7b1aa511f568"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ign.com",
+                "lifehacker.com",
+                "mtgazone.com",
+                "soaps.sheknows.com",
+                "www.apartmenttherapy.com",
+                "www.celebdirtylaundry.com",
+                "www.comingsoon.net",
+                "www.eurogamer.net",
+                "www.gamerevolution.com",
+                "www.ign.com",
+                "www.rockpapershotgun.com",
+                "www.thedailybeast.com",
+                "www.thekitchn.com",
+                "www.themeateater.com",
+                "www.vg247.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/ad\\/event-tracking\\/pixel-ads-google-adsense\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "publisher-assets"
+            ],
+            "apis": {},
+            "sites": 22,
+            "prevalence": 0.00221,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ign.com",
+                "lifehacker.com",
+                "nypost.com",
+                "www.dailydot.com",
+                "www.ign.com",
+                "www.thekitchn.com",
+                "decider.com",
+                "www.gamerevolution.com",
+                "religionnews.com",
+                "www.vg247.com",
+                "soaps.sheknows.com",
+                "mtgazone.com",
+                "www.thedailybeast.com",
+                "www.comingsoon.net",
+                "www.eurogamer.net",
+                "www.celebdirtylaundry.com",
+                "www.themeateater.com",
+                "www.capitalfm.com",
+                "pagesix.com",
+                "wordfinder.yourdictionary.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/production\\/ads\\/tags\\/v22\\.20\\.0\\/ads\\/ads\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 14,
+                "Navigator.prototype.userAgent": 13,
+                "window.localStorage": 13,
+                "Navigator.prototype.platform": 1,
+                "NavigatorUAData.prototype.platform": 12
+            },
+            "sites": 15,
+            "prevalence": 0.00151,
+            "cnames": [],
+            "responseHashes": [
+                "c0c1fa94376ccf3d1d8f09b9f1ca953ccba3743a11b68d69d312eb3e2cca5400"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ign.com",
+                "lifehacker.com",
+                "mtgazone.com",
+                "soaps.sheknows.com",
+                "www.apartmenttherapy.com",
+                "www.celebdirtylaundry.com",
+                "www.comingsoon.net",
+                "www.eurogamer.net",
+                "www.gamerevolution.com",
+                "www.ign.com",
+                "www.rockpapershotgun.com",
+                "www.thedailybeast.com",
+                "www.thekitchn.com",
+                "www.themeateater.com",
+                "www.vg247.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/production\\/launcher\\/tags\\/v3\\.28\\.0\\/launcher\\/346-bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 5,
+            "prevalence": 0.000503,
+            "cnames": [],
+            "responseHashes": [
+                "ab651b30a03d6ef88757b92dd46c5c3ae6c446679258eba411b61163443e3db7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ign.com",
+                "www.comingsoon.net",
+                "www.gamerevolution.com",
+                "www.ign.com",
+                "www.themeateater.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/production\\/launcher\\/tags\\/v3\\.28\\.0\\/launcher\\/shell-bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3
+            },
+            "sites": 5,
+            "prevalence": 0.000503,
+            "cnames": [],
+            "responseHashes": [
+                "f280a2e38f285caa8e8e3144daf9e7d8fcc39e5347b6c0b948f8e18773d07571"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ign.com",
+                "www.comingsoon.net",
+                "www.gamerevolution.com",
+                "www.ign.com",
+                "www.themeateater.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/v1\\.0\\.0\\/device-load",
+            "cookies": 0.00211,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-2-0"
+            ],
+            "apis": {},
+            "sites": 21,
+            "prevalence": 0.00211,
+            "cnames": [],
+            "responseHashes": [
+                "99eb69540115271d2affa81ef40563be4dc4d658483e9c6b7fccaf7cd972388f",
+                "7553a1630c96f6091d0b8664cbc85f2fc53e67060092494c4fe719eba76515d9",
+                "54e665a79144dbf7e7980ab4619640520a8833dd963a6b1712adba71c6398b38",
+                "761026c4327d7c9be88b04652c3bec116fe60081e8c6dc262f28ae6756d6611b",
+                "3961644bfd846b2345421548026e8b6b98f0b27ca113d9aab1fc711e408f844d",
+                "993cecf678287e4e7998791394eba1e630a2f0417e86b5a150cc1cd53fbe09bc",
+                "3df32a00ccb613f0b4253a9fcc7eddff29f004c794d72f80a0c243231ddd22b4",
+                "c388bb40f7cbb300605163c8c9754405da9c15e80a4c5cf7db0a1b6668056a2e",
+                "83d7f96aa1cfc4a198cce745ee8909781bb658aad46ef5be12e4a1b57a61cb43",
+                "967013c96fbbf2b0533f8a7d9948de637d939adc79d41443dd392cff6c426353",
+                "e64913591e7e686e5fba2271144c1c593cf53f2b4650661fa0c99cc6c3001626",
+                "77ffd8b5d7a4ef954ee3b2274e98489afecb4f9e7d366b9767d94ddac4ad1042",
+                "d9bbdb53cecabee85e377b131bd8afa331ad4a3218042ea5231a89c367d94573",
+                "56577e0afbc2c71c8ba249c196d8727ab49d76e4f4b56bdc63e9c97df5140bfd",
+                "02802ffe38d31556caf488c0518118c5aa4e1882f93dfdd07b43c3f33ecc77e1",
+                "4da3101867a7ce4ed2e95d5258a3a10378df2c80a265aa6561c41273813da42e",
+                "869781bb7de63b814318dd87cb555065bcaedef29d3974b6204e5ca3a3a1b3cd",
+                "c0a7409d36fe06b4120d2e29500b38b117158df7418a7bd272b12370547a6f71",
+                "40eb392ccc75b3dcdf049a2db90c43478b253efe492b4f0906e6a0cee945fb89",
+                "99ac3fb4850c4a7193250a470af970595e0693cfafd85a2faafc8d6e0c2d90ae"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ign.com",
+                "lifehacker.com",
+                "nypost.com",
+                "www.dailydot.com",
+                "www.thekitchn.com",
+                "www.apartmenttherapy.com",
+                "www.eurogamer.net",
+                "www.capitalfm.com",
+                "www.rockpapershotgun.com",
+                "soaps.sheknows.com",
+                "wordfinder.yourdictionary.com",
+                "religionnews.com",
+                "mtgazone.com",
+                "pagesix.com",
+                "www.celebdirtylaundry.com",
+                "www.themeateater.com",
+                "www.gamerevolution.com",
+                "decider.com",
+                "www.comingsoon.net",
+                "www.vg247.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/production\\/icons\\/sprites\\/sprite\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.00141,
+            "cnames": [],
+            "responseHashes": [
+                "937085b9310af935b47f756a6326f86351c9fa0066de9e313e8cd6623ca0f888"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ign.com",
+                "lifehacker.com",
+                "mtgazone.com",
+                "soaps.sheknows.com",
+                "www.apartmenttherapy.com",
+                "www.celebdirtylaundry.com",
+                "www.comingsoon.net",
+                "www.eurogamer.net",
+                "www.gamerevolution.com",
+                "www.rockpapershotgun.com",
+                "www.thedailybeast.com",
+                "www.thekitchn.com",
+                "www.themeateater.com",
+                "www.vg247.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/pixels\\/ayl_pixel",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-2-0"
+            ],
+            "apis": {},
+            "sites": 115,
+            "prevalence": 0.0116,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cplusplus.com",
+                "gizmodo.com",
+                "www.techradar.com",
+                "www.thegatewaypundit.com",
+                "www.timeanddate.com",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.queerty.com",
+                "www.golfmonthly.com",
+                "www.presse-citron.net",
+                "www.techhive.com",
+                "www.whathifi.com",
+                "www.letras.com",
+                "www.anandtech.com",
+                "www.livesoccertv.com",
+                "www.wtatennis.com",
+                "www.finehomebuilding.com",
+                "www.dcode.fr",
+                "www.itpro.com",
+                "www.standard.co.uk"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/production\\/ads\\/tags\\/v22\\.20\\.0\\/ads-independent\\/ads-independent\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 6,
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 6,
+                "NavigatorUAData.prototype.platform": 6,
+                "Navigator.prototype.connection": 2,
+                "Navigator.prototype.deviceMemory": 2
+            },
+            "sites": 6,
+            "prevalence": 0.000604,
+            "cnames": [],
+            "responseHashes": [
+                "435887da7b588e0972e726853a9307fbbfbbe42471309a3fd284b459303f67ac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "decider.com",
+                "nypost.com",
+                "pagesix.com",
+                "religionnews.com",
+                "wordfinder.yourdictionary.com",
+                "www.capitalfm.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/api\\/v1\\/pixels",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pix"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.00191,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "decider.com",
+                "lifehacker.com",
+                "mtgazone.com",
+                "nypost.com",
+                "pagesix.com",
+                "religionnews.com",
+                "soaps.sheknows.com",
+                "wordfinder.yourdictionary.com",
+                "www.apartmenttherapy.com",
+                "www.celebdirtylaundry.com",
+                "www.comingsoon.net",
+                "www.dailydot.com",
+                "www.eurogamer.net",
+                "www.gamerevolution.com",
+                "www.rockpapershotgun.com",
+                "www.thedailybeast.com",
+                "www.thekitchn.com",
+                "www.themeateater.com",
+                "www.vg247.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/production\\/launcher\\/tags\\/v3\\.28\\.0\\/launcher\\/720-bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "2bebdff9a8d14a584340d840172e79de24abef6002d3ee18f155d108d9b62039"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comingsoon.net",
+                "www.gamerevolution.com",
+                "www.themeateater.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/production\\/launcher\\/tags\\/v3\\.28\\.0\\/launcher\\/765-bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "5cb5bb12f14018bbe44f2718091ebf346bd74dad71fd986ec8ed23443172b8cd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comingsoon.net",
+                "www.gamerevolution.com",
+                "www.themeateater.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/production\\/launcher\\/tags\\/v3\\.28\\.0\\/launcher\\/714-bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "c933b27d7336ddfbf60583d2f6aeb5e2d4ac5aa9d006aa07b3f9157de998f1de"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comingsoon.net",
+                "www.gamerevolution.com",
+                "www.themeateater.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/v1\\.0\\.0\\/authenticate",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-2-0"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comingsoon.net",
+                "www.gamerevolution.com",
+                "www.themeateater.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/v1\\.0\\.0\\/authenticate",
+            "cookies": 0.000302,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-2-0"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "3fd763b90e05d84c6074f2c65df76efcede0774e0fa6b2a50e53e3db89a9d422",
+                "7467581df11d576af5f105e8179457c426bba156527c9c954c76b64ee79ba2d0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comingsoon.net",
+                "www.gamerevolution.com",
+                "www.themeateater.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/production\\/launcher\\/tags\\/v3\\.28\\.0\\/launcher\\/with-all-vendors-bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "664ea793b11d14b85e39c167d3404271735a2bae369aa89881c3dbb62510f9b9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comingsoon.net",
+                "www.gamerevolution.com",
+                "www.themeateater.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/metric",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "metrics-logger"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comingsoon.net",
+                "www.comingsoon.net",
+                "www.themeateater.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/v1\\.0\\.0\\/conversation\\/realtime\\/read",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-2-0"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "d4229c303454c75351cf6f2d7f8415b0ee9f46467a2d2bd75488b3e670b0098f",
+                "34d8d89713e6bd878e8b2fb43a48e30e1c9f95d0c8c875c9f964e3522d7dd28b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comingsoon.net",
+                "www.gamerevolution.com",
+                "www.themeateater.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/v1\\.0\\.0\\/conversation\\/realtime\\/read",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-2-0"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comingsoon.net",
+                "www.gamerevolution.com",
+                "www.themeateater.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/production\\/notifications\\/tags\\/v1\\.33\\.0\\/notifications-bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "0feac81d322833d855ff54fba980e2cbbaad89d6f5e60a1d6c64e1c501852fbe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comingsoon.net",
+                "www.gamerevolution.com",
+                "www.themeateater.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/spot\\/sp_0eSO3A2h",
+            "cookies": 0.000101,
+            "fingerprinting": 1,
+            "subdomains": [
+                "launcher-sa"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 1,
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1,
+                "Navigator.prototype.language": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4d79a8523c09eec58f55f29ea0ec9504c8a3dce75669c4b49ad16156e2ea563b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "spotim_visitId": {
+                    "ttl": 1803,
+                    "length": 178,
+                    "prevalence": 0.00010061374383740819,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailydot.com",
+                "www.dailydot.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/v1\\.0\\.0\\/owa-gw\\/spot\\/sp_Go2WqYxH\\/v3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-2-0"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3594980aaef5ea2484cf67a745df522f1931c8d097de8ae52d21e53bb2fc214a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "themeateater.com",
+                "www.themeateater.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/v1\\.0\\.0\\/conversation\\/async",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-2-0"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "themeateater.com",
+                "www.themeateater.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/v1\\.0\\.0\\/conversation\\/async",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-2-0"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "themeateater.com",
+                "www.themeateater.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/v1\\.0\\.0\\/conversation\\/read",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-2-0"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "themeateater.com",
+                "www.themeateater.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/v1\\.0\\.0\\/conversation\\/read",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-2-0"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "be64ddf205c4dff8c4269072e69ba58e0552ef0be22ee47f9d3d266bc7fadf76"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "themeateater.com",
+                "www.themeateater.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/production\\/icons\\/font-awesome\\/v5\\.15\\.2\\/solid\\/arrow-up-from-bracket-solid\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ed9029e04ecf00983796937fb4c0bb3dfa09794e3a76b3f661e8405a25b39a74"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "themeateater.com",
+                "www.themeateater.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/production\\/icons\\/custom\\/openweb-symbol-v2\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ecb21ebdf48e900b241c017a3a5991c54f291038c4b71ae9c65ceadc0a0c6e7e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "themeateater.com",
+                "www.themeateater.com"
+            ]
+        },
+        {
+            "rule": "spot\\.im\\/production\\/icons\\/custom\\/openweb-text-v2\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "dd5f99b359e7415612cfdb97fb432b570af813d582919d6cea3692bdcb7e5d0a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "themeateater.com",
+                "www.themeateater.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00211,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.48936170212765956
+        },
+        {
+            "domain": "omnitagjs.com",
+            "prevalence": 0.3799392097264438
+        },
+        {
+            "domain": "geoedge.be",
+            "prevalence": 0.0364741641337386
+        },
+        {
+            "domain": "script.ac",
+            "prevalence": 0.0364741641337386
+        },
+        {
+            "domain": "ignimgs.com",
+            "prevalence": 0.030395136778115502
+        },
+        {
+            "domain": "adlightning.com",
+            "prevalence": 0.0182370820668693
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.00303951367781155
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.00303951367781155
+        },
+        {
+            "domain": "datadome.co",
+            "prevalence": 0.00303951367781155
+        }
+    ],
+    "types": {
+        "Fetch": 93,
+        "Script": 110,
+        "XHR": 22,
+        "Image": 115,
+        "Ping": 19,
+        "Preflight": 10
+    },
+    "nameservers": [
+        "ns-1202.awsdns-22.org",
+        "ns-2018.awsdns-60.co.uk",
+        "ns-34.awsdns-04.com",
+        "ns-802.awsdns-36.net"
+    ]
+}

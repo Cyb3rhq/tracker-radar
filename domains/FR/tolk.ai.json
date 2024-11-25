@@ -1,0 +1,141 @@
+{
+    "domain": "tolk.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000403,
+    "sites": 4,
+    "subdomains": [
+        "genii-script",
+        "script"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "tolk\\.ai\\/main\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "genii-script"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "51fc44725c7e3876f7c0d7736116f14274ae219e3eb995e945b4d665bc0d4b7d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ants.gouv.fr",
+                "permisdeconduire.ants.gouv.fr"
+            ]
+        },
+        {
+            "rule": "tolk\\.ai\\/webchat-latest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "script"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "f1712f81da3515e699713e5cbc3f7a9f0d6f5c8f5009650f8fcf47a0a0b1118f"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "agorastore.fr",
+                "www.groupe-uneo.fr",
+                "www.tediber.com"
+            ]
+        },
+        {
+            "rule": "tolk\\.ai\\/webchat-latest\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "script"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.platform": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "window.sessionStorage": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.language": 1,
+                "Event.prototype.timeStamp": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "96091e7c097e8dfb395c1e986d5da9b57f836a2ee8cd53342b5f550dc4d56f57"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "agorastore.fr",
+                "www.groupe-uneo.fr",
+                "www.tediber.com"
+            ]
+        },
+        {
+            "rule": "tolk\\.ai\\/iframe-latest\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "script"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 1,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "c6af19e5990f39308e92a6c8ee325e29a73879b202dbfa24a4ff56a1f7732be9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "groupe-uneo.fr",
+                "www.tediber.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Document": 3,
+        "Script": 5
+    },
+    "nameservers": [
+        "dns1.alwaysdata.com",
+        "dns2.alwaysdata.com"
+    ]
+}

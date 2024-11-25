@@ -1,0 +1,89 @@
+{
+    "domain": "trustedcareaccess.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [
+        "api",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "trustedcareaccess\\.com\\/acp\\/v1\\/get-configuration",
+            "cookies": 0.0000273,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "3d75aca1ea79f34969eeffc4fde1adaa2515a6da3302d7f4bccf1c8a9773b3fd",
+                "f170fe5c2d2463768041d806bea33e478dbd5fd84d9ba784e5f15762e0add52c",
+                "3ee6948b3a5ecdb63b42a48b731eb553234738703f36279285d3a75729f8a760"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clevelandclinic.org",
+                "health.clevelandclinic.org",
+                "my.clevelandclinic.org",
+                "www.mayoclinic.org"
+            ]
+        },
+        {
+            "rule": "trustedcareaccess\\.com\\/libs\\/js\\/aim-castleconnolly\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1936d86b0fcf5a8f1eb0da4ab6cb3e8a8d5b55c67a7c449fd60171a9ac94631d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "castleconnolly.com",
+                "www.castleconnolly.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000273,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-1455.awsdns-53.org",
+        "ns-206.awsdns-25.com",
+        "ns-1809.awsdns-34.co.uk",
+        "ns-701.awsdns-23.net"
+    ]
+}

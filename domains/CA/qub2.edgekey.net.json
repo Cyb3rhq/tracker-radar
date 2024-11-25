@@ -1,0 +1,86 @@
+{
+    "domain": "qub2.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000101,
+    "sites": 1,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [
+        {
+            "original": "api.qub.ca",
+            "resolved": "www.qub2.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "qub2\\.edgekey\\.net\\/content-delivery-service\\/v1\\/entities",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.qub.ca",
+                    "resolved": "www.qub2.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "qub.ca",
+                "www.qub.ca"
+            ]
+        },
+        {
+            "rule": "qub2\\.edgekey\\.net\\/content-delivery-service\\/v1\\/entities",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.qub.ca",
+                    "resolved": "www.qub2.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "14cebb128d2767c56b042bdcdbb71b7631da07247f74adebd46265d819dec5ba"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "qub.ca",
+                "www.qub.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000101,
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

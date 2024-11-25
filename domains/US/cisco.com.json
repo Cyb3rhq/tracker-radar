@@ -1,0 +1,361 @@
+{
+    "domain": "cisco.com",
+    "owner": {
+        "name": "Cisco Systems, Inc.",
+        "displayName": "Cisco Systems"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000547,
+    "sites": 8,
+    "subdomains": [
+        "www",
+        "cdcvps.cloudapps",
+        "cisco-tags",
+        "engagemetrics",
+        "partnersuccessmetrics",
+        "id"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "cisco\\.com\\/c\\/dam\\/cdc\\/t\\/ctm-core\\.js",
+            "cookies": 0.0000342,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "window.localStorage": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "6a3e02ebf6c8467b9aa6f1d4c08d2c03eecd895a1cc6390cca06bcb34e5eb925"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "meraki.com",
+                "community.meraki.com",
+                "dashboard.meraki.com",
+                "support.umbrella.com",
+                "www.ciscolive.com"
+            ]
+        },
+        {
+            "rule": "cisco\\.com\\/c\\/dam\\/cdc\\/t\\/i\\/icon-close\\.svg",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e5271aa3c6d807a767c89280649a38cb58960974754668de97f1585a3f98fa2c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "meraki.com",
+                "community.meraki.com",
+                "www.ciscolive.com"
+            ]
+        },
+        {
+            "rule": "cisco\\.com\\/c\\/dam\\/cdc\\/t\\/ctm\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 2,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Navigator.prototype.doNotTrack": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "9d939d410ca4b20e3b5c4a5797f7eae86464f05778a15997e285918918a20ad0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "umbrella.com",
+                "www.ciscolive.com",
+                "www.thousandeyes.com"
+            ]
+        },
+        {
+            "rule": "cisco\\.com\\/assets\\/ctm\\/xdc\\/xdcLsFrame\\.html",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "c5a8e23e12a62ebdaf338a17bf129613d51570708ea83d12bbe48fde419ede55"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "umbrella.com",
+                "www.ciscolive.com",
+                "www.thousandeyes.com"
+            ]
+        },
+        {
+            "rule": "cisco\\.com\\/assets\\/ctm\\/xdc\\/xdc_ls_frame\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "f14921c01d1d4ba729dae79db6b5ce92b5bf50e1ac06b3c6746cd16b8c43c61f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "umbrella.com",
+                "www.ciscolive.com",
+                "www.thousandeyes.com"
+            ]
+        },
+        {
+            "rule": "cisco\\.com\\/support\\/cdcvps\\/virtualprofile",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdcvps.cloudapps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f6841960f6aebc2b2b4feac2cc222ab34fcc314b9e3e644066ee476c4c9ea9b5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ciscolive.com",
+                "www.ciscolive.com"
+            ]
+        },
+        {
+            "rule": "cisco\\.com\\/tag\\/auth\\/ntpagetag\\.gif",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cisco-tags"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "UnicaNIODID": 0.000020496003279360526,
+                "gpv_v9": 0.00001366400218624035,
+                "_ga": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "ciscolive.com",
+                "www.ciscolive.com",
+                "www.thousandeyes.com"
+            ]
+        },
+        {
+            "rule": "cisco\\.com\\/visitor\\/v200\\/svrGP",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engagemetrics",
+                "partnersuccessmetrics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2e977bdccc768f21f5e6e93aa077f55edb9a01c32429d8ac18752fd59fe30f1c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "gpv_v9": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "ciscolive.com",
+                "www.ciscolive.com"
+            ]
+        },
+        {
+            "rule": "cisco\\.com\\/oauth2\\/default\\/v1\\/authorize",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ciscolive.com",
+                "www.ciscolive.com",
+                "www.thousandeyes.com"
+            ]
+        },
+        {
+            "rule": "cisco\\.com\\/visitor\\/v200\\/svrGP\\.aspx",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "partnersuccessmetrics",
+                "engagemetrics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2e977bdccc768f21f5e6e93aa077f55edb9a01c32429d8ac18752fd59fe30f1c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "gpv_v9": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "ciscolive.com",
+                "www.ciscolive.com"
+            ]
+        },
+        {
+            "rule": "cisco\\.com\\/callback\\/action\\.html",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cisco-tags"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ciscolive.com",
+                "www.ciscolive.com",
+                "www.thousandeyes.com"
+            ]
+        },
+        {
+            "rule": "cisco\\.com\\/c\\/dam\\/cdc\\/t\\/i\\/close14x14\\.svg",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8771b025c9a4ad79c440a6de651e1c864d2720bd02d7385a747eb1fbb1c231cb"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thousandeyes.com",
+                "www.thousandeyes.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000478,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.3953488372093023
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.32558139534883723
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.11627906976744186
+        },
+        {
+            "domain": "en25.com",
+            "prevalence": 0.09302325581395349
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.046511627906976744
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.023255813953488372
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "Image": 18,
+        "Document": 3,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns3.cisco.com",
+        "ns2.cisco.com",
+        "ns1.cisco.com"
+    ]
+}

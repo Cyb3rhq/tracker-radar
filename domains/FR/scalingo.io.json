@@ -1,0 +1,91 @@
+{
+    "domain": "scalingo.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000504,
+    "sites": 5,
+    "subdomains": [
+        "inclusion-matomo-production.osc-secnum-fr1",
+        "idfm-production-common-design.osc-secnum-fr1"
+    ],
+    "cnames": [
+        {
+            "original": "matomo.inclusion.beta.gouv.fr",
+            "resolved": "inclusion-matomo-production.osc-secnum-fr1.scalingo.io"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "scalingo\\.io\\/piwik\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "inclusion-matomo-production.osc-secnum-fr1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [
+                {
+                    "original": "matomo.inclusion.beta.gouv.fr",
+                    "resolved": "inclusion-matomo-production.osc-secnum-fr1.scalingo.io"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beta.gouv.fr",
+                "immersion-facile.beta.gouv.fr"
+            ]
+        },
+        {
+            "rule": "scalingo\\.io\\/common-header\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "idfm-production-common-design.osc-secnum-fr1"
+            ],
+            "apis": {
+                "Navigator.prototype.languages": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "71c075924d48ba3d58aac193a92a45e1ff1be0c2264c4d4084e658b69f39985b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iledefrance-mobilites.fr",
+                "www.iledefrance-mobilites.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000101,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Ping": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "wally.ns.cloudflare.com",
+        "burt.ns.cloudflare.com"
+    ]
+}

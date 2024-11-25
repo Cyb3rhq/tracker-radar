@@ -1,0 +1,331 @@
+{
+    "domain": "perfdrive.com",
+    "owner": {
+        "name": "Radware Ltd.",
+        "displayName": "Radware"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [
+        "cas.avalon",
+        "validate",
+        "captcha",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "perfdrive\\.com\\/jsdata",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cas.avalon"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "f0ff9e22abc5032ad3f40bb5b02a22d26a4ab4e0dc8ae4f5d3e8c33a8bb43ed9",
+                "b7aa739238f4c2818af2b33a3dbb1ccffb7f36b3d801bc63270902ade0a75674",
+                "92c52ebd5c1a7deabbe07072b77b48858fb5d72c64797b6e46db5917f8f53cb0",
+                "e226f4419b4634f20b1ebbae10facec8630af79c78b4ecc4903972568410e50b",
+                "a33ce43af55b7bfbee0e0c24d0f9e1c38e432b59c4d2dceb3e38f783ded35a7c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ebay.co.uk",
+                "my.ebay.co.uk",
+                "shop.nationaltrust.org.uk",
+                "www.freeads.co.uk",
+                "www.nationaltrust.org.uk",
+                "www.songfacts.com"
+            ]
+        },
+        {
+            "rule": "perfdrive\\.com\\/",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "validate"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationaltrust.org.uk",
+                "shop.nationaltrust.org.uk"
+            ]
+        },
+        {
+            "rule": "perfdrive\\.com\\/",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "validate"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationaltrust.org.uk",
+                "shop.nationaltrust.org.uk"
+            ]
+        },
+        {
+            "rule": "perfdrive\\.com\\/",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "validate"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ff1cb8d2e728e2832eac3dba029d8bfa0c9a257173f4d8ce9abb735735fadfb9"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {
+                "cbfmf94af": {
+                    "ttl": 131,
+                    "length": 9,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                },
+                "cbftf94af": {
+                    "ttl": 131,
+                    "length": 9,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                },
+                "cbfclf94af": {
+                    "ttl": 131,
+                    "length": 95,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                },
+                "cbfm48f4f": {
+                    "ttl": 126,
+                    "length": 9,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                },
+                "cbft48f4f": {
+                    "ttl": 126,
+                    "length": 9,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                },
+                "cbfcl48f4f": {
+                    "ttl": 127,
+                    "length": 95,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationaltrust.org.uk",
+                "www.nationaltrust.org.uk"
+            ]
+        },
+        {
+            "rule": "perfdrive\\.com\\/captcha-public\\/css\\/shieldsquare_styles\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "captcha"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2fcdc3b4f2aed79bbe5b2bb0b20ee2054efde2b66244387b69c6ca030635de31"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationaltrust.org.uk",
+                "www.nationaltrust.org.uk"
+            ]
+        },
+        {
+            "rule": "perfdrive\\.com\\/captcha-public\\/images\\/ss_captcha\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "captcha"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0b2379960ae45dd67797331f1415f803d0acd9a6fd08a21acb3934ec1c9c2488"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationaltrust.org.uk",
+                "www.nationaltrust.org.uk"
+            ]
+        },
+        {
+            "rule": "perfdrive\\.com\\/aperture\\/aperture\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 3,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "HTMLMediaElement.prototype.canPlayType": 3,
+                "Navigator.prototype.vendor": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.appCodeName": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.webdriver": 3,
+                "Navigator.prototype.maxTouchPoints": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.availHeight": 3,
+                "Screen.prototype.availWidth": 3,
+                "window.innerHeight": 3,
+                "window.innerWidth": 3,
+                "Navigator.prototype.onLine": 3,
+                "window.outerWidth": 3,
+                "window.outerHeight": 3,
+                "Navigator.prototype.plugins": 3,
+                "Navigator.prototype.doNotTrack": 3,
+                "Navigator.prototype.hardwareConcurrency": 3,
+                "Navigator.prototype.mimeTypes": 3,
+                "Navigator.prototype.product": 3,
+                "Navigator.prototype.appVersion": 3,
+                "Navigator.prototype.productSub": 3,
+                "Navigator.prototype.vendorSub": 3,
+                "window.localStorage": 3,
+                "window.sessionStorage": 3,
+                "window.indexedDB": 3,
+                "Performance.prototype.memory": 3,
+                "window.screenTop": 3,
+                "window.screenLeft": 3,
+                "Screen.prototype.pixelDepth": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Screen.prototype.orientation": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "9fb91ff0e8c179aea40dbe6842b36fd201654f5647c21dcec41fd18be535d506"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__sstester": {
+                    "ttl": -1731785748,
+                    "length": 1,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                },
+                "__ssds": {
+                    "ttl": 15548402,
+                    "length": 1,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                },
+                "__ssuzjsr2": {
+                    "ttl": 15548403,
+                    "length": 9,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                },
+                "__uzmaj2": {
+                    "ttl": 15548403,
+                    "length": 36,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                },
+                "__uzmbj2": {
+                    "ttl": 15548403,
+                    "length": 10,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                },
+                "__uzmcj2": {
+                    "ttl": 15548403,
+                    "length": 12,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                },
+                "__uzmdj2": {
+                    "ttl": 15548403,
+                    "length": 10,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationaltrust.org.uk",
+                "www.nationaltrust.org.uk",
+                "www.songfacts.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8181818181818182
+        },
+        {
+            "domain": "ebaystatic.com",
+            "prevalence": 0.18181818181818182
+        }
+    ],
+    "types": {
+        "XHR": 8,
+        "Preflight": 2,
+        "Document": 2,
+        "Stylesheet": 2,
+        "Image": 2,
+        "Script": 3
+    },
+    "nameservers": [
+        "ns-546.awsdns-04.net",
+        "ns-458.awsdns-57.com",
+        "ns-1220.awsdns-24.org",
+        "ns-1846.awsdns-38.co.uk"
+    ]
+}

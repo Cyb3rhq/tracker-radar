@@ -1,0 +1,147 @@
+{
+    "domain": "treasuredata.com",
+    "owner": {
+        "name": "Treasure Data, Inc",
+        "displayName": "Treasure Data"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "cdn",
+        "eu01.in"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "treasuredata\\.com\\/sdk\\/4\\.0\\/td\\.min\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1,
+                "window.localStorage": 1,
+                "Navigator.prototype.language": 1,
+                "Screen.prototype.colorDepth": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.platform": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "2953217b5e320afbe57db90ecb6b3081e7eeae485330fe325b8b1ff17519f3c4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_td": {
+                    "ttl": 63072003,
+                    "length": 36,
+                    "prevalence": 0.00010043185698503566,
+                    "uniqueness": 1
+                },
+                "__td_blockEvents": {
+                    "ttl": 63072003,
+                    "length": 5,
+                    "prevalence": 0.00010043185698503566,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dewalt.no",
+                "www.reiseguiden.no",
+                "www.stanleyworks.no"
+            ]
+        },
+        {
+            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/webtracking_itentertainment\\/js_pageviews_itentertainment_gamedeveloper",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu01.in"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "56587cffbb30e338497c9114f74803a530a713ebe374b69fcfa8551ad8dad1e9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gamedeveloper.com",
+                "www.gamedeveloper.com"
+            ]
+        },
+        {
+            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/webtracking_itentertainment\\/js_pageviews_itentertainment_gamedeveloper",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu01.in"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gamedeveloper.com",
+                "www.gamedeveloper.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Analytics",
+        "Audience Measurement"
+    ],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7272727272727273
+        },
+        {
+            "domain": "im-apps.net",
+            "prevalence": 0.09090909090909091
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.09090909090909091
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.09090909090909091
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-1952.awsdns-52.co.uk",
+        "ns-26.awsdns-03.com",
+        "ns-716.awsdns-25.net",
+        "ns-1295.awsdns-33.org"
+    ]
+}

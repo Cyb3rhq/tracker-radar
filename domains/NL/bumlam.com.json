@@ -1,0 +1,132 @@
+{
+    "domain": "bumlam.com",
+    "owner": {
+        "name": "MediaSniper",
+        "displayName": "MediaSniper"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.001,
+    "sites": 10,
+    "subdomains": [
+        "uid",
+        "sync",
+        "hb"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "bumlam\\.com\\/sync\\/",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uid"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "eb045d78d273107348b0300c01d29b7552d622abbc6faf81b3ec55359aa9950c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ficbook.net",
+                "vc.ru",
+                "www.playground.ru"
+            ]
+        },
+        {
+            "rule": "bumlam\\.com\\/",
+            "cookies": 0.000702,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000702,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ficbook.net",
+                "finance.rambler.ru",
+                "radikal.host",
+                "vc.ru",
+                "www.bolshoyvopros.ru",
+                "www.grammar-monster.com",
+                "www.playground.ru"
+            ]
+        },
+        {
+            "rule": "bumlam\\.com\\/yandex\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hb"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "846949c5a40e3ffbb702473e54dfac0646541aa624a844369b6e24e51ddaf96b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kartaslov.ru",
+                "pikabu.ru",
+                "www.rbc.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000702,
+    "topInitiators": [
+        {
+            "domain": "terratraf.com",
+            "prevalence": 0.4444444444444444
+        },
+        {
+            "domain": "yastatic.net",
+            "prevalence": 0.2222222222222222
+        },
+        {
+            "domain": "yandex.ru",
+            "prevalence": 0.1111111111111111
+        },
+        {
+            "domain": "betweendigital.com",
+            "prevalence": 0.1111111111111111
+        },
+        {
+            "domain": "ad-tech.ru",
+            "prevalence": 0.07407407407407407
+        },
+        {
+            "domain": "al-adtech.com",
+            "prevalence": 0.037037037037037035
+        }
+    ],
+    "types": {
+        "Fetch": 3,
+        "Image": 7,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns1jlp.name.com",
+        "ns2dfg.name.com",
+        "ns3cfp.name.com",
+        "ns4cjp.name.com"
+    ]
+}

@@ -1,0 +1,591 @@
+{
+    "domain": "dable.io",
+    "owner": {
+        "name": "Dable",
+        "displayName": "Dable",
+        "privacyPolicy": "https://dable.io/en",
+        "url": "http://dable.io"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000157,
+    "sites": 23,
+    "subdomains": [
+        "static",
+        "images",
+        "adx",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "dable\\.io\\/dist\\/plugin\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 21
+            },
+            "sites": 22,
+            "prevalence": 0.00015,
+            "cnames": [],
+            "responseHashes": [
+                "e70078a1f2d64d179a4fafd63b7017145017d5d22c8ea5bc02996d10477963ca"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.joongang.co.kr",
+                "std.stheadline.com",
+                "video.medcom.id",
+                "luatvietnam.vn",
+                "tuoitre.vn",
+                "www.tabloidbintang.com",
+                "www.timurkota.com",
+                "m.ruliweb.com",
+                "media.hogugu.com",
+                "icook.tw",
+                "star.ettoday.net",
+                "www.menit.co.id",
+                "www.koreaherald.com",
+                "udn.com",
+                "www.commonhealth.com.tw",
+                "akanbo-media.jp",
+                "www.yna.co.kr",
+                "www.ettoday.net",
+                "www.chosun.com",
+                "chisou-media.jp"
+            ]
+        },
+        {
+            "rule": "dable\\.io\\/dist\\/bundles\\/plugin-2KURZT3Q\\.js",
+            "cookies": 0.000123,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 21,
+                "window.sessionStorage": 21,
+                "Navigator.prototype.userAgent": 21,
+                "Navigator.prototype.languages": 18,
+                "Document.cookie getter": 18,
+                "Document.cookie setter": 18,
+                "NavigatorUAData.prototype.brands": 17,
+                "window.devicePixelRatio": 14,
+                "Navigator.prototype.connection": 14,
+                "window.innerHeight": 5
+            },
+            "sites": 21,
+            "prevalence": 0.000143,
+            "cnames": [],
+            "responseHashes": [
+                "60fbc60dab6d3e8a76125a51157baedee62879de28f6d0e55767a00ab1f6ab64"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "dable_uid": {
+                    "ttl": 63072000010,
+                    "length": 22,
+                    "prevalence": 0.00009564801530368245,
+                    "uniqueness": 1
+                },
+                "__dbl_v": {
+                    "ttl": 58958007,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.tabloidbintang.com",
+                "www.commonhealth.com.tw",
+                "bbs.ruliweb.com",
+                "www.menit.co.id",
+                "tuoitre.vn",
+                "star.ettoday.net",
+                "chisou-media.jp",
+                "std.stheadline.com",
+                "thanhnien.vn",
+                "www.timurkota.com",
+                "luatvietnam.vn",
+                "www.koreaherald.com",
+                "udn.com",
+                "video.medcom.id",
+                "www.ettoday.net",
+                "icook.tw",
+                "media.hogugu.com",
+                "m.ruliweb.com",
+                "www.yna.co.kr",
+                "www.chosun.com"
+            ]
+        },
+        {
+            "rule": "dable\\.io\\/1x1\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000615,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ruliweb.com",
+                "m.ruliweb.com",
+                "star.ettoday.net",
+                "std.stheadline.com",
+                "thanhnien.vn",
+                "tuoitre.vn",
+                "www.commonhealth.com.tw",
+                "www.ettoday.net",
+                "www.yna.co.kr"
+            ]
+        },
+        {
+            "rule": "dable\\.io\\/pixel",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adx"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "dable_uid": 0.00004099200655872105
+            },
+            "exampleSites": [
+                "ruliweb.com",
+                "m.ruliweb.com",
+                "star.ettoday.net",
+                "std.stheadline.com",
+                "thanhnien.vn",
+                "tuoitre.vn",
+                "www.ettoday.net",
+                "www.yna.co.kr"
+            ]
+        },
+        {
+            "rule": "dable\\.io\\/dist\\/fetchMetaData\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b232c5f362652763b926de9fa04c21f724302e78269c0ca7edeecfb0849a55d8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ettoday.net",
+                "www.ettoday.net"
+            ]
+        },
+        {
+            "rule": "dable\\.io\\/dist\\/lazysizes\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "3d9120fa621da6d613c1698b7014ec6bdf4620366e8f2b7b547059f4b6f6272b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ettoday.net",
+                "std.stheadline.com",
+                "thanhnien.vn",
+                "www.ettoday.net"
+            ]
+        },
+        {
+            "rule": "dable\\.io\\/plugin\\/services\\/std\\.stheadline\\.com\\/prefs2",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f3ef5514c2537234fcba0a9992051870de33d85f58c0665abb957b5174b6b19b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "stheadline.com",
+                "std.stheadline.com"
+            ]
+        },
+        {
+            "rule": "dable\\.io\\/static\\/b\\/infinite-swipe\\/dist\\/swipe\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "df4cd6f3b2e248d442621dc6ce284302b126f9af816cab8b60281725200d5190"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thanhnien.vn",
+                "www.koreaherald.com",
+                "www.yna.co.kr"
+            ]
+        },
+        {
+            "rule": "dable\\.io\\/dist\\/style\\.v2-2411D5C2\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "faaff5411016b10ff954d82ccb7d896be6fc93db5805bd5480952d30b974aa09"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thanhnien.vn",
+                "www.koreaherald.com",
+                "www.yna.co.kr"
+            ]
+        },
+        {
+            "rule": "dable\\.io\\/dist\\/widget-2OC3KWY4\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.matchMedia(\"prefers-color-scheme\")": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "14159872b89381256db9f19a2d11c0d6c1ee5424309a4df2432bba7e2c6d129d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thanhnien.vn",
+                "www.koreaherald.com",
+                "www.yna.co.kr"
+            ]
+        },
+        {
+            "rule": "dable\\.io\\/static\\/i\\/logo-text-tiny-gray\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "83ffa7cbd7b8df2a742bafe49b76d0c5fca2f407063cfabcacbda7ae99890968"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thanhnien.vn",
+                "www.yna.co.kr"
+            ]
+        },
+        {
+            "rule": "dable\\.io\\/plugin\\/services\\/medcom\\.id\\/prefs2",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1cee774a0e458e31df68de4dec326be5b7aa18043a3cce397c68e3cb2e3bf8d6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "medcom.id",
+                "video.medcom.id"
+            ]
+        },
+        {
+            "rule": "dable\\.io\\/plugin\\/services\\/chosun\\.com\\/prefs2",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "35d090006c0b069c1d95861be128ad6f5d6ef68d756be1f27a0ba792fb284c0b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "chosun.com",
+                "www.chosun.com"
+            ]
+        },
+        {
+            "rule": "dable\\.io\\/plugin\\/services\\/commonhealth\\.com\\.tw\\/prefs2",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4f04ab4a18e0964607dc09b2e3e3a6117478b0d64686c59ac8a30da9480bf485"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "commonhealth.com.tw",
+                "www.commonhealth.com.tw"
+            ]
+        },
+        {
+            "rule": "dable\\.io\\/plugin\\/services\\/boba\\.ettoday\\/prefs2",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a7327c563eb0430e2997af2f6a79f0e8627ef94a4acedb14397b10bfac795ab5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "dable_uid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "ettoday.net",
+                "www.ettoday.net"
+            ]
+        },
+        {
+            "rule": "dable\\.io\\/plugin\\/services\\/koreaherald\\.com%2Finterworks\\/prefs2",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bf2beab828c278f5886b8e2d7b833cbd73c8f82f25d23c7f3b436ab214abe0cb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "koreaherald.com",
+                "www.koreaherald.com"
+            ]
+        },
+        {
+            "rule": "dable\\.io\\/plugin\\/services\\/m\\.menit\\.co\\.id\\/prefs2",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "32bbd4292fda03df41c41a95a9bbaf130bbd7289c75e5c730d0c5b40ed0b15be"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "menit.co.id",
+                "www.menit.co.id"
+            ]
+        },
+        {
+            "rule": "dable\\.io\\/plugin\\/services\\/timurkota\\.com\\/prefs2",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f98dc2e1348dbca21473b6d98de62789bc831a9ffd755f32164fedb18725c2f3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "timurkota.com",
+                "www.timurkota.com"
+            ]
+        },
+        {
+            "rule": "dable\\.io\\/plugin\\/services\\/yna\\.co\\.kr\\/prefs2",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "88ce1581e5802a11913c8747b5bc7f0214dc22f70b66dee7ff080591c5eebb39"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yna.co.kr",
+                "www.yna.co.kr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00013,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5833333333333334
+        },
+        {
+            "domain": "pubmatic.com",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "gssprt.jp",
+            "prevalence": 0.0625
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.041666666666666664
+        },
+        {
+            "domain": "aedi.ai",
+            "prevalence": 0.041666666666666664
+        },
+        {
+            "domain": "googlesyndication.com",
+            "prevalence": 0.041666666666666664
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.020833333333333332
+        },
+        {
+            "domain": "piclick.kr",
+            "prevalence": 0.020833333333333332
+        },
+        {
+            "domain": "ad4989.co.kr",
+            "prevalence": 0.020833333333333332
+        }
+    ],
+    "types": {
+        "Script": 70,
+        "Image": 11,
+        "Document": 8,
+        "Stylesheet": 6
+    },
+    "nameservers": [
+        "ns-1093.awsdns-08.org",
+        "ns-144.awsdns-18.com",
+        "ns-833.awsdns-40.net",
+        "ns-1980.awsdns-55.co.uk"
+    ]
+}

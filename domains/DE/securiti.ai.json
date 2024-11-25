@@ -1,0 +1,215 @@
+{
+    "domain": "securiti.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "cdn-prod",
+        "cdn-prod.eu",
+        "app",
+        "app.eu"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "securiti\\.ai\\/consent\\/cookie-consent-sdk-loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "71d645772f2e68e129b9094cf238e5bdbde1a9031be3567ff3b7e080a0255721"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "3mdeutschland.de",
+                "www.united.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/consent\\/cookie-consent-latest\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-prod",
+                "cdn-prod.eu"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "d19345402a80151ddd1caa1ed515d15bf5a016639f9e91daf172f7967f8c4a98"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "3mdeutschland.de",
+                "www.dell.com",
+                "www.united.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/consent\\/cookie-consent-sdk-latest\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-prod"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.cookieEnabled": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8d84e23f12c187077cc57a11639b086fb0f579878e8275f4f0442dcb58a17bed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__privaci_cookie_consent_uuid": {
+                    "ttl": 31536010,
+                    "length": 38,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 1
+                },
+                "__privaci_cookie_consent_generated": {
+                    "ttl": 31536003,
+                    "length": 38,
+                    "prevalence": 0.00010049241282283188,
+                    "uniqueness": 1
+                },
+                "__privaci_cookie_no_action": {
+                    "ttl": 50269,
+                    "length": 30,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "3mdeutschland.de",
+                "www.united.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/core\\/v1\\/utils\\/geo\\/location",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "52017515315162fe63b8abb062698507fe79c917fd25a06b7b6e0097ba77d615"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "3mdeutschland.de",
+                "www.dell.com",
+                "www.hertz.de",
+                "www.united.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/privaci\\/v1\\/consent\\/cookie\\/singleupload",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "3mdeutschland.de",
+                "www.dell.com",
+                "www.hertz.de",
+                "www.united.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/privaci\\/v1\\/consent\\/cookie\\/singleupload",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "f1e25328be62ee5aca4777d33ecfbaf64a502f80dac2008bd7197e236cac8dc7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "3mdeutschland.de",
+                "www.dell.com",
+                "www.hertz.de",
+                "www.united.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8148148148148148
+        },
+        {
+            "domain": "hertz.io",
+            "prevalence": 0.1111111111111111
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.037037037037037035
+        },
+        {
+            "domain": "quantummetric.com",
+            "prevalence": 0.037037037037037035
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Stylesheet": 3,
+        "XHR": 8,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "elly.ns.cloudflare.com",
+        "matt.ns.cloudflare.com"
+    ]
+}

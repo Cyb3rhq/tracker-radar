@@ -1,0 +1,154 @@
+{
+    "domain": "hu-manity.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "cdn",
+        "transactional-api",
+        "designer-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "hu-manity\\.co\\/hu-banner\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.languages": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "29464b79452d875c022467060a6acb23d94570089bc9e193af30a253eafa2438"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "swissfamilyfun.com",
+                "worldcurling.org"
+            ]
+        },
+        {
+            "rule": "hu-manity\\.co\\/api\\/transactional\\/session\\/save",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "transactional-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d156827f9a43951316f9904b34a280b6aad50f12d9596171f2dd703b29f3d1e4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "swissfamilyfun.com",
+                "worldcurling.org"
+            ]
+        },
+        {
+            "rule": "hu-manity\\.co\\/api\\/transactional\\/session\\/save",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "transactional-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "swissfamilyfun.com",
+                "worldcurling.org"
+            ]
+        },
+        {
+            "rule": "hu-manity\\.co\\/api\\/designer\\/user-design-live",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "designer-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e4de36233011174c3b7b1d2ff54767d55790d64c86074df1e23ba193f2296601"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "swissfamilyfun.com",
+                "worldcurling.org"
+            ]
+        },
+        {
+            "rule": "hu-manity\\.co\\/hu-display\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "25026c3fd2416001bcdca2da23096e9e3b9aecc5e0111396459fa7f16027940d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "swissfamilyfun.com",
+                "worldcurling.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 4,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "chip.ns.cloudflare.com",
+        "uma.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,146 @@
+{
+    "domain": "baqend.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "bmw.app",
+        "canyon.app",
+        "myer.app",
+        "swarovski.app"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "baqend\\.com\\/v1\\/speedkit\\/install\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 2,
+            "subdomains": [
+                "bmw.app",
+                "canyon.app",
+                "myer.app",
+                "swarovski.app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie getter": 4,
+                "window.localStorage": 4,
+                "Document.cookie setter": 4,
+                "PerformanceTiming.prototype.navigationStart": 4,
+                "Screen.prototype.width": 4,
+                "window.devicePixelRatio": 4,
+                "Screen.prototype.height": 4,
+                "window.indexedDB": 4,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.connection": 3,
+                "Navigator.prototype.getBattery": 3,
+                "Navigator.prototype.hardwareConcurrency": 3,
+                "Navigator.prototype.deviceMemory": 3
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "5c52dfe3b51673f1d9cc5603d905323d9bf59ab0c652855fef83a71757df7eb5",
+                "b314c3269610acfb525a2d0ab8b257368889b076ff4c151fd4bf45174362f6a3",
+                "b9e745370ff4656ca6277b47232fff15f67efb39d87a2eac03f153270e9f0ed6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "baqend-speedkit-user-id": {
+                    "ttl": 15552009,
+                    "length": 25,
+                    "prevalence": 0.0004017677782241864,
+                    "uniqueness": 1
+                },
+                "baqend-speedkit-config": {
+                    "ttl": 15552016,
+                    "length": 63,
+                    "prevalence": 0.0002008838891120932,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bmw.com",
+                "www.canyon.com",
+                "www.myer.com.au",
+                "www.swarovski.com"
+            ]
+        },
+        {
+            "rule": "baqend\\.com\\/v1\\/rum\\/pi",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bmw.app",
+                "canyon.app",
+                "myer.app",
+                "swarovski.app"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bmw.com",
+                "www.bmw.com",
+                "www.canyon.com",
+                "www.myer.com.au",
+                "www.swarovski.com"
+            ]
+        },
+        {
+            "rule": "baqend\\.com\\/v1\\/asset\\/https:\\/\\/www\\.googletagmanager\\.com\\/gtag\\/js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bmw.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "95544255ac92929c6370bc3e8c25437781df29a8f26c02c7bf28e0d9293e37bb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bmw.com",
+                "www.bmw.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Ping": 5,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-224.awsdns-28.com",
+        "ns-1037.awsdns-01.org",
+        "ns-2024.awsdns-61.co.uk",
+        "ns-839.awsdns-40.net"
+    ]
+}

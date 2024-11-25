@@ -1,0 +1,203 @@
+{
+    "domain": "clickagy.com",
+    "owner": {
+        "name": "Clickagy",
+        "displayName": "Clickagy",
+        "privacyPolicy": "https://www.clickagy.com/privacy/",
+        "url": "http://clickagy.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00583,
+    "sites": 58,
+    "subdomains": [
+        "tags",
+        "aorta",
+        "hemsync"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "clickagy\\.com\\/data\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tags"
+            ],
+            "apis": {
+                "Document.cookie getter": 6,
+                "Navigator.prototype.language": 7,
+                "Navigator.prototype.cookieEnabled": 7,
+                "Date.prototype.getTimezoneOffset": 7,
+                "Screen.prototype.width": 7,
+                "Screen.prototype.height": 7,
+                "Navigator.prototype.userAgent": 7,
+                "Screen.prototype.colorDepth": 7,
+                "Navigator.prototype.hardwareConcurrency": 7,
+                "Navigator.prototype.platform": 7,
+                "Navigator.prototype.doNotTrack": 7,
+                "window.innerWidth": 7,
+                "window.innerHeight": 7,
+                "Date.prototype.getTime": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "429e6cab64539f15ca1c33984a782a42b43c0f02dba4cc4009f322f89fac9492"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amplitude.com",
+                "community.nxp.com",
+                "dzone.com",
+                "www.infosecinstitute.com",
+                "www.nvidia.com",
+                "www.techrepublic.com",
+                "www.viewsonic.com"
+            ]
+        },
+        {
+            "rule": "clickagy\\.com\\/data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aorta"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "e55545ef578e4437c0c5ef416f279d2baeb2870a85c308786601bab6b0f71005"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amplitude.com",
+                "community.nxp.com",
+                "dzone.com",
+                "www.infosecinstitute.com",
+                "www.nvidia.com",
+                "www.techrepublic.com",
+                "www.viewsonic.com"
+            ]
+        },
+        {
+            "rule": "clickagy\\.com\\/pixel\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aorta"
+            ],
+            "apis": {},
+            "sites": 58,
+            "prevalence": 0.00583,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__cmpconsentx54111": 0.00010043185698503566
+            },
+            "exampleSites": [
+                "cplusplus.com",
+                "lifehacker.com",
+                "mashable.com",
+                "www.makeuseof.com",
+                "appleinsider.com",
+                "tappedout.net",
+                "www.nvidia.com",
+                "www.metasrc.com",
+                "www.ndtv.com",
+                "golangdocs.com",
+                "www.techrepublic.com",
+                "sms24.me",
+                "www.nme.com",
+                "www.denofgeek.com",
+                "www.haaretz.com",
+                "www.thewrap.com",
+                "worldpopulationreview.com",
+                "www.coingecko.com",
+                "www.whattoexpect.com",
+                "www.nintendolife.com"
+            ]
+        },
+        {
+            "rule": "clickagy\\.com\\/external\\/hasHashes",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hemsync"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amplitude.com",
+                "community.nxp.com",
+                "dzone.com",
+                "www.infosecinstitute.com",
+                "www.nvidia.com",
+                "www.techrepublic.com",
+                "www.viewsonic.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Audience Measurement",
+        "Third-Party Analytics Marketing"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "lijit.com",
+            "prevalence": 0.8307692307692308
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.06153846153846154
+        },
+        {
+            "domain": "zoominfo.com",
+            "prevalence": 0.046153846153846156
+        },
+        {
+            "domain": "azure.com",
+            "prevalence": 0.03076923076923077
+        },
+        {
+            "domain": "lrkt-in.com",
+            "prevalence": 0.03076923076923077
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "XHR": 14,
+        "Image": 58
+    },
+    "nameservers": [
+        "ns-1114.awsdns-11.org",
+        "ns-551.awsdns-04.net",
+        "ns-1981.awsdns-55.co.uk",
+        "ns-393.awsdns-49.com"
+    ]
+}

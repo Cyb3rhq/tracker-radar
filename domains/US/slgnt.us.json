@@ -1,0 +1,315 @@
+{
+    "domain": "slgnt.us",
+    "owner": {
+        "name": "Selligent",
+        "displayName": "Selligent"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000683,
+    "sites": 10,
+    "subdomains": [
+        "cricut",
+        "teachco",
+        "site-azp",
+        "offer",
+        "gabes"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "slgnt\\.us\\/optiext\\/webtracker\\.dll",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cricut",
+                "teachco"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "96ca99a52d718b0ddd853c1d59dd70f69f833b3b388406e4e358c3d539760f06"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "m_ses": {
+                    "ttl": null,
+                    "length": 14,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "m_cnt": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cricut.com",
+                "www.thegreatcourses.com"
+            ]
+        },
+        {
+            "rule": "slgnt\\.us\\/frontend\\/api\\/track",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "site-azp"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "9dbf4bbd4ce1662c157593e365a7a64643939ed332560ead0fa609b4f421df1c",
+                "c19421db07cdd831e079846efe09d94e7996c05d8ceb6c6c775bbe0d7c04008b",
+                "59a66eeb416d40b52a8e8418f5c898e5359c1ec33b56df926113cade607bf7c7",
+                "08d364cb397097268e69b3ed7aff50cee43d02e8389ef01199be66386284e764"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cricut.com",
+                "vitacost.com",
+                "www.thegreatcoursesplus.com",
+                "www.thegreatcourses.com",
+                "www.vitacost.com"
+            ]
+        },
+        {
+            "rule": "slgnt\\.us\\/frontend\\/api\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "site-azp"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cricut.com",
+                "vitacost.com",
+                "www.thegreatcoursesplus.com",
+                "www.thegreatcourses.com",
+                "www.vitacost.com"
+            ]
+        },
+        {
+            "rule": "slgnt\\.us\\/static\\/cookie\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "offer"
+            ],
+            "apis": {
+                "Document.cookie getter": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "4b9d634e72b129717cdb60f03d28ee3a5957fd7dac32988fa7db8d0fa655b4e1"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cricut.com",
+                "vitacost.com",
+                "www.vitacost.com"
+            ]
+        },
+        {
+            "rule": "slgnt\\.us\\/optiext\\/optiextension\\.dll",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cricut",
+                "gabes"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e639e5ed72c08736a59e7eeb9ca4e841ebe79f49855a31e2e63bba2d6fe9cee2"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cricut.com",
+                "oldtimepottery.com"
+            ]
+        },
+        {
+            "rule": "slgnt\\.us\\/67e97228f507438eb676ccd17119fc0d\\/53e689e05e744f\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "offer"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.indexedDB": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1c47f5ee1c18ec9dcf32bc6a63a69ded8c2eef96de53aeb304e454ea0b5109b8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "th_u": {
+                    "ttl": 31557628,
+                    "length": 26,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vitacost.com",
+                "www.vitacost.com"
+            ]
+        },
+        {
+            "rule": "slgnt\\.us\\/a91883c6159e4cc2b64a6a46c6aa465e\\/905d9360cc6d4b\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "offer"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.indexedDB": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1c47f5ee1c18ec9dcf32bc6a63a69ded8c2eef96de53aeb304e454ea0b5109b8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "th_u": {
+                    "ttl": 31557624,
+                    "length": 22,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vitacost.com",
+                "www.vitacost.com"
+            ]
+        },
+        {
+            "rule": "slgnt\\.us\\/api\\/fa26651d6ebb464584e4f112864ff57a\\/iv\\/aHR0cHM6Ly93d3cudml0YWNvc3QuY29tLw%3D%3D",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "offer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f7f8202893c21135300fb5deb2b0d9567216a55ad37b98b7da51c9696181cf9c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vitacost.com",
+                "www.vitacost.com"
+            ]
+        },
+        {
+            "rule": "slgnt\\.us\\/api\\/fa26651d6ebb464584e4f112864ff57a\\/iv\\/aHR0cHM6Ly93d3cudml0YWNvc3QuY29tL2ZpZ3M%3D",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "offer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d3def546f3ea7798de28502dd4576e34d92034f3b548320ede946ef2c0d7b3c8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vitacost.com",
+                "www.vitacost.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000615,
+    "topInitiators": [
+        {
+            "domain": "windows.net",
+            "prevalence": 0.5208333333333334
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3958333333333333
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.041666666666666664
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.041666666666666664
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Fetch": 5,
+        "Preflight": 5,
+        "Document": 5,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns15.dnsmadeeasy.com",
+        "ns13.dnsmadeeasy.com",
+        "ns14.dnsmadeeasy.com",
+        "ns10.dnsmadeeasy.com",
+        "ns12.dnsmadeeasy.com",
+        "ns11.dnsmadeeasy.com"
+    ]
+}

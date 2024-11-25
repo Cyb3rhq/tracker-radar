@@ -1,0 +1,1597 @@
+{
+    "domain": "inmobi.com",
+    "owner": {
+        "name": "InMobi Pte Ltd",
+        "displayName": "InMobi"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.0179,
+    "sites": 178,
+    "subdomains": [
+        "cmp",
+        "api.cmp",
+        "sync"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "inmobi\\.com\\/tcfv2\\/53\\/cmp2\\.js",
+            "cookies": 0.00623,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 113,
+                "Navigator.prototype.userAgent": 113,
+                "window.localStorage": 111,
+                "Document.cookie getter": 111,
+                "Date.prototype.getTime": 112,
+                "Document.cookie setter": 62
+            },
+            "sites": 114,
+            "prevalence": 0.0115,
+            "cnames": [],
+            "responseHashes": [
+                "7245e25d6b55f5e66b7525738c32f69601bf8c1230bbb79732e5b68bb9c77f15"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "usprivacy": {
+                    "ttl": 33696000,
+                    "length": 4,
+                    "prevalence": 0.00612818967249347,
+                    "uniqueness": 0.03278688524590164
+                },
+                "euconsent-v2": {
+                    "ttl": 33696000,
+                    "length": 509,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                },
+                "addtl_consent": {
+                    "ttl": 33696000,
+                    "length": 1384,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0020092425155716293,
+                "_li_dcdm_c": 0.00020092425155716296
+            },
+            "exampleSites": [
+                "myanimelist.net",
+                "www.timeanddate.com",
+                "www.vice.com",
+                "www.powerthesaurus.org",
+                "www.destructoid.com",
+                "www.sitepoint.com",
+                "www.lifo.gr",
+                "exceljet.net",
+                "devcodef1.com",
+                "doctonat.com",
+                "www.elevenforum.com",
+                "code-maze.com",
+                "narrow.one",
+                "www.vesselfinder.com",
+                "bg3.wiki",
+                "cults3d.com",
+                "pangoly.com",
+                "www.timesofisrael.com",
+                "www.lipstickalley.com",
+                "www.myabandonware.com"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/geoip",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 140,
+            "prevalence": 0.0141,
+            "cnames": [],
+            "responseHashes": [
+                "9207aa3b28f1aff72041285132eb7375c35178fdce724c478fe50e4773d35453"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myanimelist.net",
+                "www.bustle.com",
+                "www.express.co.uk",
+                "www.mirror.co.uk",
+                "www.timeanddate.com",
+                "petapixel.com",
+                "poki.com",
+                "www.vesselfinder.com",
+                "kalenderwoche-online.de",
+                "www.gamepressure.com",
+                "time.is",
+                "www.pgadmin.org",
+                "www.gameskinny.com",
+                "themahjong.com",
+                "www.slant.co",
+                "doctonat.com",
+                "www.kreuzwort-raetsel.net",
+                "www.manua.ls",
+                "polizeiticker.ch",
+                "www.hifitest.de"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/GVL-v2\\/cmp-list\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 140,
+            "prevalence": 0.0141,
+            "cnames": [],
+            "responseHashes": [
+                "de3ad2ee90e0fa6f54045ef91d64c3c809c2fd9f359bbcceda7888f3ddca5bf6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myanimelist.net",
+                "www.bustle.com",
+                "www.express.co.uk",
+                "www.mirror.co.uk",
+                "www.timeanddate.com",
+                "polizeiticker.ch",
+                "exceljet.net",
+                "www.finews.ch",
+                "www.cpubenchmark.net",
+                "de.thejigsawpuzzles.com",
+                "www.apkmirror.com",
+                "www.kreuzwort-raetsel.net",
+                "ss64.com",
+                "www.voyagetips.com",
+                "www.besteveralbums.com",
+                "themahjong.com",
+                "www.jamieoliver.com",
+                "www.myabandonware.com",
+                "www.sortiraparis.com",
+                "www.lacoccinelle.net"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/tcfv2\\/53\\/cmp2ui-en\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 70,
+                "Navigator.prototype.userAgent": 70,
+                "Date.prototype.getTime": 70,
+                "window.localStorage": 70,
+                "window.innerWidth": 70,
+                "window.innerHeight": 70,
+                "Screen.prototype.width": 70,
+                "Element.prototype.getClientRects": 69
+            },
+            "sites": 70,
+            "prevalence": 0.00703,
+            "cnames": [],
+            "responseHashes": [
+                "1d36878275fdebcd10c4e7b031c09a5e76999afea375eff8688bc6622b0b349b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myanimelist.net",
+                "www.timeanddate.com",
+                "ss64.com",
+                "bg3.wiki",
+                "www.allacronyms.com",
+                "www.unknowncheats.me",
+                "nanoreview.net",
+                "animalia.bio",
+                "www.gamepressure.com",
+                "www.vice.com",
+                "www.exchange-rates.org",
+                "www.travelgay.com",
+                "www.tenforums.com",
+                "www.pgadmin.org",
+                "onlineradiobox.com",
+                "liveuamap.com",
+                "www.trustedreviews.com",
+                "twittervideodownloader.com",
+                "www.piokok.com",
+                "www.musicnotes.com"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/GVL-v3\\/vendor-list-trimmed-v1\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 119,
+            "prevalence": 0.012,
+            "cnames": [],
+            "responseHashes": [
+                "12229a998542c5eb2b0dbb005d619f1cdaf30e13bfff6298b339f18f8e5fc1b4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myanimelist.net",
+                "www.bustle.com",
+                "www.express.co.uk",
+                "www.mirror.co.uk",
+                "www.timeanddate.com",
+                "www.cpubenchmark.net",
+                "www.bluestacks.com",
+                "www.wikifeet.com",
+                "companiesmarketcap.com",
+                "www.boiteachansons.net",
+                "exceljet.net",
+                "www.piokok.com",
+                "www.boredpanda.com",
+                "www.universalis.fr",
+                "videa.hu",
+                "progameguides.com",
+                "www.musicnotes.com",
+                "www.jamieoliver.com",
+                "www.spiele123.com",
+                "fortnitetracker.com"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/tcfv2\\/google-atp-list\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 123,
+            "prevalence": 0.0124,
+            "cnames": [],
+            "responseHashes": [
+                "02783f81e6d5497e7efba350ba2a0cf3ab683ee711e2c6f6dc636b9ef6c32427"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.bustle.com",
+                "www.express.co.uk",
+                "www.mirror.co.uk",
+                "www.timeanddate.com",
+                "www.inverse.com",
+                "petapixel.com",
+                "devcodef1.com",
+                "www.boiteachansons.net",
+                "www.trustedreviews.com",
+                "www.vesselfinder.com",
+                "www.filmaffinity.com",
+                "www.travelgay.com",
+                "time.is",
+                "de.automobiledimension.com",
+                "www.baeldung.com",
+                "www.spiele123.com",
+                "www.tenforums.com",
+                "www.miniplay.com",
+                "www.bluestacks.com",
+                "www.premiere.fr"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.cmp"
+            ],
+            "apis": {},
+            "sites": 140,
+            "prevalence": 0.0141,
+            "cnames": [],
+            "responseHashes": [
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0020092425155716293,
+                "_li_dcdm_c": 0.0004018485031143259
+            },
+            "exampleSites": [
+                "myanimelist.net",
+                "www.bustle.com",
+                "www.express.co.uk",
+                "www.mirror.co.uk",
+                "www.timeanddate.com",
+                "www.lipstickalley.com",
+                "www.fvrz.ch",
+                "twittervideodownloader.com",
+                "www.besteveralbums.com",
+                "www.wikifeet.com",
+                "petapixel.com",
+                "www.protothema.gr",
+                "www.planet-liebe.com",
+                "mytuner-radio.com",
+                "makeitmeme.com",
+                "time.is",
+                "nanoreview.net",
+                "themahjong.com",
+                "fstoppers.com",
+                "fr.automobiledimension.com"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/gob",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 44,
+            "prevalence": 0.00442,
+            "cnames": [],
+            "responseHashes": [
+                "071d0a5d172af491aedca9041f20e830d25fd4d339a1006bca3bed949069aa30"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tabs.ultimate-guitar.com",
+                "www.buzzfeed.com",
+                "www.digitaltrends.com",
+                "www.spanishdict.com",
+                "24timezones.com",
+                "www.mentalfloss.com",
+                "www.ge-tracker.com",
+                "www.powerpyx.com",
+                "www.pcgamingwiki.com",
+                "www.destructoid.com",
+                "www.hifishark.com",
+                "www.ultimate-guitar.com",
+                "www.pcgamesn.com",
+                "www.rcgroups.com",
+                "www.tenforums.com",
+                "www.huffpost.com",
+                "www.overtake.gg",
+                "www.vesselfinder.com",
+                "tkp.at",
+                "fortnite.gg"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/sync",
+            "cookies": 0.00362,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 38,
+            "prevalence": 0.00382,
+            "cnames": [],
+            "responseHashes": [
+                "071d0a5d172af491aedca9041f20e830d25fd4d339a1006bca3bed949069aa30"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tabs.ultimate-guitar.com",
+                "www.buzzfeed.com",
+                "www.powerpyx.com",
+                "www.pcgamesn.com",
+                "www.rcgroups.com",
+                "chess-results.com",
+                "www.musicnotes.com",
+                "www.exchange-rates.org",
+                "www.destructoid.com",
+                "www.cpubenchmark.net",
+                "fortnite.gg",
+                "www.webtoons.com",
+                "www.pcgamingwiki.com",
+                "www.fortinet.com",
+                "pimeyes.com",
+                "www.ge-tracker.com",
+                "www.wtatennis.com",
+                "www.delftstack.com",
+                "tkp.at",
+                "www.vesselfinder.com"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/TAM",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 48,
+            "prevalence": 0.00482,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tabs.ultimate-guitar.com",
+                "www.buzzfeed.com",
+                "www.digitaltrends.com",
+                "www.nexusmods.com",
+                "www.spanishdict.com",
+                "www.thesaurus.com",
+                "dayspedia.com",
+                "sudoku.com",
+                "www.ilmeteo.it",
+                "www.thingiverse.com",
+                "www.hifishark.com",
+                "progameguides.com",
+                "www.ge-tracker.com",
+                "www.trueachievements.com",
+                "www.elevenforum.com",
+                "fortnite.gg",
+                "www.pcgamingwiki.com",
+                "www.serebii.net",
+                "www.sportingnews.com",
+                "www.destructoid.com"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/sync",
+            "cookies": 0.00492,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 49,
+            "prevalence": 0.00492,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__ATA_tuuid": 0.00010046212577858148
+            },
+            "exampleSites": [
+                "tabs.ultimate-guitar.com",
+                "www.buzzfeed.com",
+                "www.digitaltrends.com",
+                "www.nexusmods.com",
+                "www.spanishdict.com",
+                "www.thesaurus.com",
+                "www.rcgroups.com",
+                "liveuamap.com",
+                "www.ilmeteo.it",
+                "www.pcgamingwiki.com",
+                "chess-results.com",
+                "www.powerpyx.com",
+                "www.gameskinny.com",
+                "www.trueachievements.com",
+                "www.vesselfinder.com",
+                "www.destructoid.com",
+                "www.overtake.gg",
+                "www.tenforums.com",
+                "www.online-calculator.com",
+                "www.serebii.net"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/setuid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 42,
+            "prevalence": 0.00422,
+            "cnames": [],
+            "responseHashes": [
+                "a6642f816880217435423f2ae3bc4af4cdfb0ef852c20563e304eff8b79f025a",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tabs.ultimate-guitar.com",
+                "www.buzzfeed.com",
+                "www.digitaltrends.com",
+                "www.spanishdict.com",
+                "bg3.wiki",
+                "www.pcgamesn.com",
+                "www.elevenforum.com",
+                "www.songlyrics.com",
+                "www.sportingnews.com",
+                "eso-hub.com",
+                "attackofthefanboy.com",
+                "www.mentalfloss.com",
+                "www.thingiverse.com",
+                "animalia.bio",
+                "www.overtake.gg",
+                "www.ilmeteo.it",
+                "www.ge-tracker.com",
+                "www.destructoid.com",
+                "www.pcgamingwiki.com",
+                "www.ultimate-guitar.com"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/GVL-v2\\/vendor-list-trimmed-v1\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 21,
+            "prevalence": 0.00211,
+            "cnames": [],
+            "responseHashes": [
+                "b4ccfefd002e8a40c5098e4f0d4327d5d55f7d8b6eb80cb52a5bbd190e772f33"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.powerthesaurus.org",
+                "polizeiticker.ch",
+                "www.lipstickalley.com",
+                "www.paroles-musique.com",
+                "www.marinetraffic.com",
+                "de.book-info.com",
+                "nanoreview.net",
+                "cults3d.com",
+                "www.fujirumors.com",
+                "www.film-rezensionen.de",
+                "www.slant.co",
+                "fstoppers.com",
+                "www.trustedreviews.com",
+                "www.theatlantic.com",
+                "beebom.com",
+                "www.allacronyms.com",
+                "twittervideodownloader.com",
+                "www.hifitest.de",
+                "www.polizei-schweiz.ch",
+                "www.brainyquote.com"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/tcfv2\\/53\\/cmp2ui-de\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 29,
+                "Navigator.prototype.userAgent": 29,
+                "Date.prototype.getTime": 29,
+                "window.localStorage": 29,
+                "window.innerWidth": 29,
+                "window.innerHeight": 29,
+                "Screen.prototype.width": 29,
+                "Element.prototype.getClientRects": 29
+            },
+            "sites": 29,
+            "prevalence": 0.00291,
+            "cnames": [],
+            "responseHashes": [
+                "46bc20f5e44b91e385ae875e96d97a31b50fc2c2e3a183d8f8de1bc462d6a348"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "schlaraffenwelt.de",
+                "tkp.at",
+                "www.timeanddate.de",
+                "de.thejigsawpuzzles.com",
+                "kalenderwoche-online.de",
+                "www.planet-liebe.com",
+                "www.wortkreuz.de",
+                "www.was-war-wann.de",
+                "www.beliebte-vornamen.de",
+                "www.hifitest.de",
+                "www.film-rezensionen.de",
+                "manuall.de",
+                "makeitmeme.com",
+                "www.myabandonware.com",
+                "www.timesofisrael.com",
+                "polizeiticker.ch",
+                "companiesmarketcap.com",
+                "www.wikifeet.com",
+                "www.voyagetips.com",
+                "fortnitetracker.com"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/GVL-v3\\/purposes-de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 33,
+            "prevalence": 0.00332,
+            "cnames": [],
+            "responseHashes": [
+                "27b385d4377a7824e49e83c7c01ece42fe1046528d110f6ac787d74535e6bac1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fortnitetracker.com",
+                "www.elevenforum.com",
+                "www.was-war-wann.de",
+                "manuall.de",
+                "www.voyagetips.com",
+                "www.football.ch",
+                "www.wikifeet.com",
+                "makeitmeme.com",
+                "www.wortkreuz.de",
+                "www.myabandonware.com",
+                "www.pravda-tv.com",
+                "www.timesofisrael.com",
+                "tkp.at",
+                "www.timeanddate.de",
+                "xdaforums.com",
+                "www.apkmirror.com",
+                "www.bedienungsanleitu.ng",
+                "www.kreuzwort-raetsel.net",
+                "www.online-calculator.com",
+                "schlaraffenwelt.de"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/choice\\/WJ6A-Q3p3u8dz\\/automobiledimension\\.com\\/choice\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bac2ff2c00cf96c71aa7231ed075e966a64177a1a7d419d2911da5c0ec04f836"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "automobiledimension.com",
+                "fr.automobiledimension.com"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/tcfv2\\/cmp2\\.js",
+            "cookies": 0.00231,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 23,
+                "Navigator.prototype.userAgent": 23,
+                "window.localStorage": 23,
+                "Document.cookie setter": 23,
+                "Document.cookie getter": 23,
+                "Date.prototype.getTime": 23
+            },
+            "sites": 23,
+            "prevalence": 0.00231,
+            "cnames": [],
+            "responseHashes": [
+                "3f58a885d598e010a07f2fc2880b300a3f2acb7af6a68554dce71e2b7c47f5a5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "testcookie": {
+                    "ttl": -1731797227,
+                    "length": 1,
+                    "prevalence": 0.002310628892907374,
+                    "uniqueness": 0.043478260869565216
+                },
+                "usprivacy": {
+                    "ttl": 33696000,
+                    "length": 4,
+                    "prevalence": 0.0014064697609001407,
+                    "uniqueness": 0.07142857142857142
+                }
+            },
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.00010046212577858148
+            },
+            "exampleSites": [
+                "www.bustle.com",
+                "www.spiele123.com",
+                "www.bedienungsanleitu.ng",
+                "www.manua.ls",
+                "www.finews.ch",
+                "videa.hu",
+                "www.boredpanda.com",
+                "www.mathworks.com",
+                "www.manualeduso.it",
+                "www.el-pl.ch",
+                "www.base64decode.org",
+                "www.fvrz.ch",
+                "www.besteveralbums.com",
+                "www.modesdemploi.fr",
+                "www.inverse.com",
+                "www.football.ch",
+                "www.baeldung.com",
+                "www.eliteprospects.com",
+                "www.boiteachansons.net",
+                "tattle.life"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/tcfv2\\/56\\/cmp2ui-de\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 8,
+                "Navigator.prototype.userAgent": 8,
+                "window.localStorage": 8,
+                "Date.prototype.getTime": 8,
+                "window.innerWidth": 8,
+                "window.innerHeight": 8,
+                "Screen.prototype.width": 8,
+                "Element.prototype.getClientRects": 8
+            },
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [
+                "39a76d351541ec8eed142054de4f412022841ef0ee27d3a7b02cc4fe9ef64d4a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "automobiledimension.com",
+                "www.bedienungsanleitu.ng",
+                "www.el-pl.ch",
+                "www.finews.ch",
+                "www.football.ch",
+                "www.fvrz.ch",
+                "www.manua.ls",
+                "www.spiele123.com"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/us-mspa\\/v1\\/purposes-national-en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 26,
+            "prevalence": 0.00261,
+            "cnames": [],
+            "responseHashes": [
+                "e879eb5127bfbcada0bf0daef26a48cf681dd8fc96e03042f189d0b07bcd8f78"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.bustle.com",
+                "www.express.co.uk",
+                "www.mirror.co.uk",
+                "www.manua.ls",
+                "fr.automobiledimension.com",
+                "www.inverse.com",
+                "www.baeldung.com",
+                "www.universalis.fr",
+                "www.mathworks.com",
+                "www.fvrz.ch",
+                "videa.hu",
+                "www.el-pl.ch",
+                "www.boredpanda.com",
+                "tattle.life",
+                "www.boiteachansons.net",
+                "www.finews.ch",
+                "www.spiele123.com",
+                "www.manualeduso.it",
+                "www.modesdemploi.fr",
+                "www.eliteprospects.com"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/google-basic-consent\\/v1\\/purposes-de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "e23d262e5cf27255ac3db7a38e140c435a9b07d83000755af94c6f2af467961c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "automobiledimension.com",
+                "www.bedienungsanleitu.ng",
+                "www.beliebte-vornamen.de",
+                "www.el-pl.ch",
+                "www.finews.ch",
+                "www.football.ch",
+                "www.fvrz.ch",
+                "www.manua.ls",
+                "www.spiele123.com"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/GVL-v2\\/purposes-de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "e8263116445bef81b0b5fb92181b2cdacb8098983fc7bd40514b6a8d322ffda4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "book-info.com",
+                "polizeiticker.ch",
+                "www.film-rezensionen.de",
+                "www.hifitest.de",
+                "www.polizei-schweiz.ch"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/choice\\/6Fv0cGNfc_bw8\\/www\\.themoneytizer\\.com\\/choice\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.language": 1
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "abc4c24f7cdeabcfa58f96fb120ba7fd52263fe7e3394d24db1ec7ecaee8cc45"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "devcodef1.com",
+                "doctonat.com",
+                "www.developpez.net",
+                "www.piokok.com",
+                "www.pravda-tv.com"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/tcfv2\\/52\\/cmp2\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2bd0b2a63f33b1f6383166ebdb8b1f22f88439870e19ce28c0fad4ac9f1d6156"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "usprivacy": {
+                    "ttl": 33696000,
+                    "length": 4,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flightsim.to",
+                "www.polizei-schweiz.ch"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/tcfv2\\/56\\/cmp2ui-fr\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 4,
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4,
+                "Date.prototype.getTime": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "Screen.prototype.width": 4,
+                "Element.prototype.getClientRects": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "355c041e26e71bb0a32e5966c0dbe16651127409a77730e64863b1ce86b5c424"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "automobiledimension.com",
+                "www.boiteachansons.net",
+                "www.modesdemploi.fr",
+                "www.universalis.fr"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/google-basic-consent\\/v1\\/purposes-fr\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1000f38ae3a54373193d76446f9b049263c64e1e01da9e8e6a0ceff8b3e2093a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "automobiledimension.com",
+                "www.modesdemploi.fr"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/GVL-v3\\/purposes-fr\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.00131,
+            "cnames": [],
+            "responseHashes": [
+                "9d7cb35e6128652b6a62bec6287645267ec3b42907c111d221d2a102b866bc06"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "automobiledimension.com",
+                "generationvoyage.fr",
+                "manuall.fr",
+                "solitaire-jeu.eu",
+                "www.bibmath.net",
+                "www.boiteachansons.net",
+                "www.developpez.net",
+                "www.lacoccinelle.net",
+                "www.modesdemploi.fr",
+                "www.premiere.fr",
+                "www.signal-arnaques.com",
+                "www.sortiraparis.com",
+                "www.universalis.fr"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/tcfv2\\/51\\/cmp2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8ffcf1f715aa40dce62c0a984807767d7cc15035d2e99afe83642e960140410f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "generationvoyage.fr",
+                "www.techrepublic.com"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/choice\\/6Fv0cGNfc_bw8\\/www\\.themoneytizer\\.de\\/choice\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "9ebeac30da412401467007a73da4b06fc00c20d2b2ae4acc7e8fd16a943bb469"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kalenderwoche-online.de",
+                "schlaraffenwelt.de",
+                "www.was-war-wann.de"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/google-basic-consent\\/v1\\/purposes-en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "3a5daaa6ad4414ce23cf44631d6bd0fb55138eef51e5b89c9ac4fc4d18ef8f09"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "live-tennis.eu",
+                "pangoly.com",
+                "www.baeldung.com",
+                "www.base64decode.org",
+                "www.bustle.com",
+                "www.eliteprospects.com",
+                "www.inverse.com",
+                "www.jamieoliver.com",
+                "www.mathworks.com",
+                "www.unknowncheats.me"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/tcfv2\\/53\\/cmp2ui-fr\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 9,
+                "Navigator.prototype.userAgent": 9,
+                "Date.prototype.getTime": 9,
+                "window.localStorage": 8,
+                "window.innerWidth": 8,
+                "window.innerHeight": 8,
+                "Screen.prototype.width": 9,
+                "Element.prototype.getClientRects": 9
+            },
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "19c2a0dbced65d734b0201c1fe6176aeef55579563e1b140dca2625efdf3211d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manuall.fr",
+                "solitaire-jeu.eu",
+                "www.bibmath.net",
+                "www.developpez.net",
+                "www.lacoccinelle.net",
+                "www.paroles-musique.com",
+                "www.premiere.fr",
+                "www.signal-arnaques.com",
+                "www.sortiraparis.com"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/oRTB",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "seatemperature.info",
+                "www.wtatennis.com"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/tcfv2\\/56\\/cmp2ui-en\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 9,
+                "Navigator.prototype.userAgent": 9,
+                "window.localStorage": 9,
+                "Date.prototype.getTime": 9,
+                "window.innerWidth": 9,
+                "window.innerHeight": 9,
+                "Screen.prototype.width": 9,
+                "Element.prototype.getClientRects": 9
+            },
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "c042236c203d2b2b0516c28a5bdfa9a1cd31627b02a269f620e1f091ae4b0ed2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tattle.life",
+                "www.baeldung.com",
+                "www.base64decode.org",
+                "www.besteveralbums.com",
+                "www.boredpanda.com",
+                "www.bustle.com",
+                "www.eliteprospects.com",
+                "www.inverse.com",
+                "www.mathworks.com"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/GVL-v3\\/vendor-list\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "13d35d251c824b861932e38327d0343c99e1178de5f14e932718c162472f8bdb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "videa.hu",
+                "www.finews.ch",
+                "www.jamieoliver.com",
+                "www.techrepublic.com"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/choice\\/g1H2Df-ymg2zV\\/www\\.manua\\.ls\\/choice\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.language": 1
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "5f833ca67bd10b6052bcb5434ff14029f41a043379e3f630b9f059ebe1bda533"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedienungsanleitu.ng",
+                "www.manua.ls",
+                "www.manualeduso.it",
+                "www.modesdemploi.fr"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/choice\\/y8v3EUpJ-LcQy\\/www\\.football\\.ch\\/choice\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "4d0d7236abc28d8ce3a8914d0b76ffae9a4040c4b94e2260bdc378d90a459329"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "el-pl.ch",
+                "www.football.ch",
+                "www.fvrz.ch"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/tcfv2\\/55\\/cmp2\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ef03afa19d0dbc9ebc4976ac2eb55edf2b83e751743595c9b17c544cf8b64ff6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "testcookie": {
+                    "ttl": -1731797138,
+                    "length": 1,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 0.5
+                },
+                "usprivacy": {
+                    "ttl": 33696000,
+                    "length": 4,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "express.co.uk",
+                "www.mirror.co.uk"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/tcfv2\\/55\\/cmp2ui-en\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.width": 2,
+                "Element.prototype.getClientRects": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3d2f72566489f55ef576e238de07f0c730990665e6ba177591be0132683e7314"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "express.co.uk",
+                "www.mirror.co.uk"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/tcfv2\\/53\\/cmp2ui-it\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.width": 2,
+                "Element.prototype.getClientRects": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f397b54bffc25b8d5a2eef044be7876be02cc6177ad3cc7be097c07f6001b6b0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ilgiornale.it",
+                "www.mymovies.it"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/google-basic-consent\\/v1\\/purposes-it\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "03d28864bbb29d0801036fe363be0e4a6490f9f7899c679d1c65f03a48b0226b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ilgiornale.it",
+                "www.manualeduso.it"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/GVL-v3\\/purposes-it\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "45f036c0e6620eb6b6eeb583eea33c079277f7844f0e6a63f3cce8424aaee249"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ilgiornale.it",
+                "www.manualeduso.it",
+                "www.mymovies.it"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/tcfv2\\/53\\/cmp2ui-el\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.width": 2,
+                "Element.prototype.getClientRects": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a6c16520f4d858dd45e82631de4422b752565908cb126d52fabdd3b2ee0d82a9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifo.gr",
+                "www.protothema.gr"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/google-basic-consent\\/v1\\/purposes-el\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7d31e864d40692ec9056a92ccaaeb43a55426c553e267edbb54e2b56dfe38910"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifo.gr",
+                "www.protothema.gr"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/GVL-v3\\/purposes-el\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "22f6ad009672daa2e5ef8db65e8e8e3aa4b29874a7f3bccd9b3f63d57087cab5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifo.gr",
+                "www.protothema.gr"
+            ]
+        },
+        {
+            "rule": "inmobi\\.com\\/choice\\/uYq_n8ur0MFPn\\/www\\.wortkreuz\\.de\\/choice\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "85cacfe3a0417566720c9bbc2e6bd6060659f314b93a60c12272ede73f43b6e9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wortkreuz.de",
+                "www.wortkreuz.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0125,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.3546099290780142
+        },
+        {
+            "domain": "amazon-adsystem.com",
+            "prevalence": 0.3404255319148936
+        },
+        {
+            "domain": "quantcast.com",
+            "prevalence": 0.08037825059101655
+        },
+        {
+            "domain": "fuseplatform.net",
+            "prevalence": 0.07801418439716312
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.028368794326241134
+        },
+        {
+            "domain": "googlesyndication.com",
+            "prevalence": 0.018912529550827423
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.016548463356973995
+        },
+        {
+            "domain": "infolinks.com",
+            "prevalence": 0.014184397163120567
+        },
+        {
+            "domain": "webcontentassessor.com",
+            "prevalence": 0.0070921985815602835
+        },
+        {
+            "domain": "pubmine.com",
+            "prevalence": 0.0070921985815602835
+        }
+    ],
+    "types": {
+        "Script": 297,
+        "XHR": 794,
+        "Image": 126,
+        "Document": 97
+    },
+    "nameservers": [
+        "ns2-201.azure-dns.net",
+        "ns4-201.azure-dns.info",
+        "ns1-201.azure-dns.com",
+        "ns3-201.azure-dns.org"
+    ]
+}

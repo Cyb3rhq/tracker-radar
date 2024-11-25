@@ -1,0 +1,1284 @@
+{
+    "domain": "amplitude.com",
+    "owner": {
+        "name": "Amplitude",
+        "displayName": "Amplitude",
+        "privacyPolicy": "https://amplitude.com/privacy",
+        "url": "http://amplitude.com"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.00622,
+    "sites": 62,
+    "subdomains": [
+        "sr-client-cfg",
+        "sr-client-cfg.eu",
+        "api",
+        "cdn",
+        "api2",
+        "api.eu",
+        "api.lab.eu",
+        "api.lab",
+        "flag.lab"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "amplitude\\.com\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sr-client-cfg",
+                "sr-client-cfg.eu"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0013,
+            "cnames": [],
+            "responseHashes": [
+                "9c69b858222a52b7ed44dbf94cd27e6f610467fe27cebdf4ac8c80363592c176",
+                "60e3cebdb5937ad63b69d8fe9e0a7391f5d74ea97f7b697e23729d0e50c9980b",
+                "f720a111c8accef61624c6b1f74c8911590c043869813a5d24cd224be05ebc95",
+                "cca02121dfa11467eaf74f153ae410e2d60934a17a03f353125d9f10e98ab3b3",
+                "57f353361ccc515721e518deea7c9a88502fe1b91e305a5c7fce90eda2959f36"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clickup.com",
+                "de.pons.com",
+                "ebay.com",
+                "ebay.co.uk",
+                "gptzero.me",
+                "www.digitalocean.com",
+                "www.ebay.co.uk",
+                "www.ebay.com",
+                "www.ebay.com.au",
+                "www.ebay.ca",
+                "www.ebay.de",
+                "www.ebay.nl",
+                "zapier.com"
+            ]
+        },
+        {
+            "rule": "amplitude\\.com\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sr-client-cfg",
+                "sr-client-cfg.eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clickup.com",
+                "de.pons.com"
+            ]
+        },
+        {
+            "rule": "amplitude\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000702,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coinstats.app",
+                "fansly.com",
+                "kahoot.com",
+                "www.litcharts.com",
+                "www.scribbr.com",
+                "www.scribbr.nl",
+                "www.supersummary.com"
+            ]
+        },
+        {
+            "rule": "amplitude\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00171,
+            "cnames": [],
+            "responseHashes": [
+                "aee408847d35e44e99430f0979c3357b85fe8dbb4535a494301198adbee85f27",
+                "48fb01775da6ff1ebc1766873be1d34d28af56ef87a0d7251cdae1c277c2c05f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coinstats.app",
+                "fansly.com",
+                "invideo.io",
+                "kahoot.com",
+                "www.browserstack.com",
+                "www.lambdatest.com",
+                "www.litcharts.com",
+                "www.mindbodygreen.com",
+                "www.providers.nl",
+                "www.pscp.tv",
+                "www.restauplant.com",
+                "www.scribbr.com",
+                "www.scribbr.nl",
+                "www.stuvia.com",
+                "www.supersummary.com",
+                "www.westernunion.com",
+                "www.xe.com"
+            ]
+        },
+        {
+            "rule": "amplitude\\.com\\/libs\\/amplitude-8\\.21\\.9-min\\.gz\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d5fb67b0e221d0323b90c61463506a6416ac73aab476e805c8503f6813b4e4a7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "amp_cookie_test": {
+                    "ttl": -86396,
+                    "length": 4,
+                    "prevalence": 0.00020070245860511792,
+                    "uniqueness": 0.5
+                },
+                "amplitude_testkahoot.it": {
+                    "ttl": -86396,
+                    "length": 4,
+                    "prevalence": 0.00020070245860511792,
+                    "uniqueness": 0.5
+                },
+                "_tldtest_u1UUIYpeVSzAuX2SFfvooE": {
+                    "ttl": -86398,
+                    "length": 4,
+                    "prevalence": 0.00020070245860511792,
+                    "uniqueness": 0.5
+                },
+                "_tldtest_GgoiFlMh3ZMWyNZQE-yhcA": {
+                    "ttl": -86396,
+                    "length": 4,
+                    "prevalence": 0.00020070245860511792,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kahoot.it",
+                "create.kahoot.it"
+            ]
+        },
+        {
+            "rule": "amplitude\\.com\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sr-client-cfg.eu",
+                "sr-client-cfg"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pons.com",
+                "gptzero.me",
+                "zapier.com"
+            ]
+        },
+        {
+            "rule": "amplitude\\.com\\/libs\\/amplitude-8\\.18\\.1-min\\.gz\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bc639c48fbda7a7d1edd028852cd024851965e1e80c9a43f460687ce92ffd991"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "amp_cookie_testF1LeVu2a00PL_eg2KTqeLd": {
+                    "ttl": -86397,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "_tldtest__fge-0eeD-Ta5EcBjoReIl": {
+                    "ttl": -86397,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amplitude_testfansly.com": {
+                    "ttl": -86397,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "_tldtest_RANs52w09N6l2vjVZ4ArI4": {
+                    "ttl": -86397,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amp_cookie_testhGzAk5Q0TTZnm02AfiiKkk": {
+                    "ttl": -86397,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amp_4fb08e": {
+                    "ttl": 31536003,
+                    "length": 50,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amp_cookie_testSCEuqhpA411MEGByYPxC7x": {
+                    "ttl": -86399,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "_tldtest__wfRNj5KBMs5KTKPMi5ZH6": {
+                    "ttl": -86399,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amplitude_testkahoot.com": {
+                    "ttl": -86399,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "_tldtest_0cFF2-guNo9tdskRaDjgWw": {
+                    "ttl": -86399,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fansly.com",
+                "kahoot.com"
+            ]
+        },
+        {
+            "rule": "amplitude\\.com\\/2\\/httpapi",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api2",
+                "api.eu"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00171,
+            "cnames": [],
+            "responseHashes": [
+                "6dc8feb7156c33ae75bb9bc004be26ec2c4d340cc8c0afafba86b26aa3d07df4",
+                "821b12472263ff29ce7f8457db2a02ce6b62f16bd143aa4eb833ba95d8c487be",
+                "17cd1dc8576295c3c245f4483197299f249da9a463498174256f9636dd844aa5",
+                "206443ac1b48d773ce99a9c688467961342a8015916455af76acc26a3e505e5f",
+                "2d8458b2bd055c5c8ca12a4c5c1201c92dcc828f01b21747f7b18119a3ada4e0",
+                "afe5af758c6f5b8a92a8cb7d3ed134b5dfe4d9c5df0779813e4f2580b275c40b",
+                "570cb9f622eefcee80ad0e42022a76f04de346994c21c86e989826e522cc2528",
+                "cf15a7536dcb6d55e25cbfddb161a088dae8c3af58b384b87217d12e91ac7a62",
+                "c9277f5cc34e63c8942a76605d2e9a29a65df91bb7e51c2fcbb803106d99e2ef",
+                "255e0e2bce55ec61060453629e714a2803da3a8d9a978a2d60d8561348cd5936",
+                "046ce17216556de4f76ba3ce0b2e6e6eacd84d1d00fd054bac0a46a6bf24d54c",
+                "43240d51245438684d6e153553627ab62d825363d1d3e8e7412310ad72a23954",
+                "bdf0d793dfbdee095a81647d0978c0cb649f1256afa5343be7b130ffbbd1d74a",
+                "d72c5b0de7e56769c0127df41b2b6817f764ca961e24ccb428836f69eae97937",
+                "51b342c6b8dba8ccba763e02719006fb41e7c10e3a1b398ae074923ad209439b",
+                "b0ba6a0e218e646a278aa8848ba35254078bb5d6eff975582c534c2c2309576d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gptzero.me",
+                "learning.postman.com",
+                "openart.ai",
+                "opensea.io",
+                "slate.com",
+                "support.remarkable.com",
+                "tryhackme.com",
+                "www.aljazeera.com",
+                "www.digitalocean.com",
+                "www.express.co.uk",
+                "www.kapwing.com",
+                "www.manchestereveningnews.co.uk",
+                "www.mirror.co.uk",
+                "www.postman.com",
+                "www.puppyplaats.nl",
+                "www.sexlikereal.com",
+                "zapier.com"
+            ]
+        },
+        {
+            "rule": "amplitude\\.com\\/2\\/httpapi",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api2",
+                "api.eu"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.00161,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gptzero.me",
+                "learning.postman.com",
+                "openart.ai",
+                "opensea.io",
+                "slate.com",
+                "support.remarkable.com",
+                "tryhackme.com",
+                "www.aljazeera.com",
+                "www.digitalocean.com",
+                "www.express.co.uk",
+                "www.kapwing.com",
+                "www.manchestereveningnews.co.uk",
+                "www.mirror.co.uk",
+                "www.postman.com",
+                "www.puppyplaats.nl",
+                "zapier.com"
+            ]
+        },
+        {
+            "rule": "amplitude\\.com\\/libs\\/analytics-browser-2\\.10\\.0-min\\.js\\.gz",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.onLine": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "044f740225e7e77b8f847092765f3907b20db17d7d284cae7333cf8445057c42"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "AMP_TEST": {
+                    "ttl": -86398,
+                    "length": 6,
+                    "prevalence": 0.00020070245860511792,
+                    "uniqueness": 0.5
+                },
+                "AMP_TLDTEST": {
+                    "ttl": -86398,
+                    "length": 6,
+                    "prevalence": 0.00020070245860511792,
+                    "uniqueness": 0.5
+                },
+                "AMP_56d4a7f424": {
+                    "ttl": 31536002,
+                    "length": 278,
+                    "prevalence": 0.00020070245860511792,
+                    "uniqueness": 1
+                },
+                "AMP_MKTG_56d4a7f424": {
+                    "ttl": 31536002,
+                    "length": 8,
+                    "prevalence": 0.00020070245860511792,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "postman.com",
+                "www.postman.com"
+            ]
+        },
+        {
+            "rule": "amplitude\\.com\\/libs\\/amplitude-5\\.2\\.2-min\\.gz\\.js",
+            "cookies": 0.000401,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.languages": 4,
+                "Document.cookie setter": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "2173f130ca59dc5554498343432f02f92ecce45c4f9381ea12b203a2978f33d4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "amplitude_cookie_test": {
+                    "ttl": -86395,
+                    "length": 4,
+                    "prevalence": 0.00040140491721023583,
+                    "uniqueness": 0.25
+                },
+                "__tld_test__": {
+                    "ttl": -86397,
+                    "length": 4,
+                    "prevalence": 0.00020070245860511792,
+                    "uniqueness": 0.5
+                },
+                "amplitude_testsamplefocus.com": {
+                    "ttl": -86397,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amplitude_id_fa98f46349dc1f992abcd6b082dc5dc9samplefocus.com": {
+                    "ttl": 315360003,
+                    "length": 244,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amplitude_testmindbodygreen.com": {
+                    "ttl": -86392,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amplitude_idundefinedmindbodygreen.com": {
+                    "ttl": null,
+                    "length": 134,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amplitude_id_11557b26524039e99542fe1b2b25b044mindbodygreen.com": {
+                    "ttl": 315360008,
+                    "length": 244,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amplitude_testproviders.nl": {
+                    "ttl": -86395,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amplitude_id_1aeebe1796a391e2adb568ccc08136cdproviders.nl": {
+                    "ttl": 315360005,
+                    "length": 327,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amplitude_testzwift.com": {
+                    "ttl": -86390,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amplitude_idundefinedzwift.com": {
+                    "ttl": null,
+                    "length": 134,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amplitude_id_037da14d66a043d4d7e65108ad31fd1bzwift.com": {
+                    "ttl": 315360010,
+                    "length": 244,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samplefocus.com",
+                "www.mindbodygreen.com",
+                "www.providers.nl",
+                "www.zwift.com"
+            ]
+        },
+        {
+            "rule": "amplitude\\.com\\/libs\\/analytics-browser-2\\.8\\.1-min\\.js\\.gz",
+            "cookies": 0.0001,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie setter": 1,
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 4,
+                "window.localStorage": 3,
+                "Navigator.prototype.onLine": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.languages": 1
+            },
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "7e6ab312a56200b1fbd0e6d817444117dabc260b7433995b714ba88aad20b117"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "AMP_TEST": {
+                    "ttl": -86398,
+                    "length": 6,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "AMP_TLDTEST": {
+                    "ttl": -86398,
+                    "length": 6,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "AMP_d09a34bd2d": {
+                    "ttl": 31536002,
+                    "length": 310,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tryhackme.com",
+                "www.express.co.uk",
+                "www.manchestereveningnews.co.uk",
+                "www.mirror.co.uk"
+            ]
+        },
+        {
+            "rule": "amplitude\\.com\\/libs\\/analytics-browser-2\\.0\\.0-min\\.js\\.gz",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d35f972281e35c577e23cb31ab3078e26646def0ce1bc0a4bbab1e25664b8145"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "AMP_TEST": {
+                    "ttl": -86398,
+                    "length": 6,
+                    "prevalence": 0.00020070245860511792,
+                    "uniqueness": 0.5
+                },
+                "AMP_TLDTEST": {
+                    "ttl": -86398,
+                    "length": 6,
+                    "prevalence": 0.00020070245860511792,
+                    "uniqueness": 0.5
+                },
+                "AMP_9e2bdeb55f": {
+                    "ttl": 31536004,
+                    "length": 246,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "AMP_f3fb91c461": {
+                    "ttl": 31536002,
+                    "length": 246,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aljazeera.com",
+                "www.sexlikereal.com"
+            ]
+        },
+        {
+            "rule": "amplitude\\.com\\/2\\/httpapi",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api2",
+                "api.eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alltrails.com",
+                "www.monsterboard.nl"
+            ]
+        },
+        {
+            "rule": "amplitude\\.com\\/libs\\/analytics-browser-gtm-wrapper-3\\.11\\.2\\.js\\.br",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "2a944a0a98e4c10f48c45834dc7a1e6472fef6370ff5346f091d6f1625f5139d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digitalocean.com",
+                "www.manchestereveningnews.co.uk",
+                "www.mirror.co.uk",
+                "www.mumsnet.com",
+                "zapier.com"
+            ]
+        },
+        {
+            "rule": "amplitude\\.com\\/libs\\/analytics-browser-gtm-2\\.11\\.8-min\\.js\\.gz",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 4,
+                "window.localStorage": 4,
+                "Navigator.prototype.onLine": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "a6e1dd3788b6445d9b95605f55e35cf11670a2ac03f8174049576c916a39618e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "AMP_TEST": {
+                    "ttl": -86396,
+                    "length": 6,
+                    "prevalence": 0.00020070245860511792,
+                    "uniqueness": 0.5
+                },
+                "AMP_TLDTEST": {
+                    "ttl": -86396,
+                    "length": 6,
+                    "prevalence": 0.00020070245860511792,
+                    "uniqueness": 0.5
+                },
+                "AMP_deb86ab4f1": {
+                    "ttl": 31536005,
+                    "length": 315,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "AMP_MKTG_deb86ab4f1": {
+                    "ttl": 31536004,
+                    "length": 8,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "AMP_cb6d2e04dc": {
+                    "ttl": 31536006,
+                    "length": 278,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "AMP_MKTG_cb6d2e04dc": {
+                    "ttl": 31536005,
+                    "length": 8,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digitalocean.com",
+                "www.manchestereveningnews.co.uk",
+                "www.mirror.co.uk",
+                "www.mumsnet.com",
+                "zapier.com"
+            ]
+        },
+        {
+            "rule": "amplitude\\.com\\/libs\\/plugin-session-replay-browser-1\\.6\\.24-min\\.js\\.gz",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.indexedDB": 2,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "Navigator.prototype.storage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b06db3e3d5a109f42ee264a12252e59008d9b7dd1c05d6136cf1c1c1608d0d0a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digitalocean.com",
+                "zapier.com"
+            ]
+        },
+        {
+            "rule": "amplitude\\.com\\/sdk\\/v2\\/vardata",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.lab.eu",
+                "api.lab"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "itv.com",
+                "www.redgifs.com",
+                "www.savemyexams.com",
+                "www.supersummary.com"
+            ]
+        },
+        {
+            "rule": "amplitude\\.com\\/sdk\\/v2\\/vardata",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.lab.eu",
+                "api.lab"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "fa6d020510713bff8bcc5e8d57c9373924e5ac29bfc8eaa0690a5b7bb398a3e2",
+                "5a10cb6611da0e37db357b7cecf24057f1119c9a16dbba18c14c97fd1ebce643",
+                "7e3379a53b09f2e855676e654d24b561c667f47b29dcd15d243496dd946b48a5",
+                "799f605a4ef63fc11e3839149fef827aa1589567cb60a9ae2b46dd3baccdb019"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "itv.com",
+                "www.itv.com",
+                "www.redgifs.com",
+                "www.savemyexams.com",
+                "www.supersummary.com"
+            ]
+        },
+        {
+            "rule": "amplitude\\.com\\/libs\\/amplitude-7\\.2\\.1-min\\.gz\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1e8af1c8306411c684130fcf7d46fa10b1906898bcc781a822e5d4a38ae2cce8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "amp_cookie_test5P6ygu2yfRBS7UFBipn3Ci": {
+                    "ttl": -86397,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "_tldtest_dPaHP3OZqMGcMPPBddJpnb": {
+                    "ttl": -86397,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amplitude_testlambdatest.com": {
+                    "ttl": -86397,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "_tldtest_IknshNuTykJIuJc-1gWKzJ": {
+                    "ttl": -86397,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amp_cookie_testq9bAUdRE5Hh6EIyB5QQp4-": {
+                    "ttl": -86397,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amp_4bc4dc": {
+                    "ttl": 315360003,
+                    "length": 50,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amp_cookie_testbwCr8GUcm3mVRXR7GtnMvM": {
+                    "ttl": -86397,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "_tldtest_wE8xkbWHlJIDnY5KJYO3aL": {
+                    "ttl": -86397,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amplitude_testxe.com": {
+                    "ttl": -86397,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "_tldtest_ftpu5wQkpoOH2pqTIMLljj": {
+                    "ttl": -86397,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amp_cookie_testYt2en2erXvSBVTsLvPXAlQ": {
+                    "ttl": -86397,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amp_470887": {
+                    "ttl": 315360003,
+                    "length": 50,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lambdatest.com",
+                "www.xe.com"
+            ]
+        },
+        {
+            "rule": "amplitude\\.com\\/sdk\\/v2\\/flags",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "flag.lab"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "redgifs.com",
+                "www.savemyexams.com",
+                "www.supersummary.com"
+            ]
+        },
+        {
+            "rule": "amplitude\\.com\\/sdk\\/v2\\/flags",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "flag.lab"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "fa2e31a2c9acf85236cc40480ec8763d7d1074f60b8155914f4505d16506ab31",
+                "4eb9fa6a3540ba0c857fe6c1b75d5e2b164d4d44802a69c5e01f84dbd4b88c01"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "redgifs.com",
+                "www.savemyexams.com",
+                "www.supersummary.com"
+            ]
+        },
+        {
+            "rule": "amplitude\\.com\\/libs\\/amplitude-8\\.5\\.0-min\\.gz\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.languages": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2450e5580136f94bda7ccf95e3167b57e15b05b513a430967943a50036fa47a4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "amp_cookie_testVIN046R-CpT1ygLqg8EdDs": {
+                    "ttl": -86398,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "_tldtest_sXFNtqJVz-ZWQm5G6ekJ3i": {
+                    "ttl": -86398,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amplitude_testrestauplant.com": {
+                    "ttl": -86398,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "_tldtest_BX4hGf7YyGuqiiV-3huldz": {
+                    "ttl": -86398,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amp_cookie_testfPMQVyMhyw_QTjWq98vpHo": {
+                    "ttl": -86398,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amp_8776ce": {
+                    "ttl": 31536002,
+                    "length": 50,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amp_cookie_testzn3QaohhC8upZvDSMQmU4o": {
+                    "ttl": -86399,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "_tldtest_zTWgr1Xn1G7rMqauMTHvIz": {
+                    "ttl": -86399,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amplitude_teststuvia.com": {
+                    "ttl": -86399,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "_tldtest_WXy-D1NwlN1FJDKf7wN7Xm": {
+                    "ttl": -86399,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amp_cookie_testMX1hOg00qy7NT2yIX_3rrU": {
+                    "ttl": -86399,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amp_09a588": {
+                    "ttl": 31536002,
+                    "length": 50,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "restauplant.com",
+                "www.stuvia.com"
+            ]
+        },
+        {
+            "rule": "amplitude\\.com\\/libs\\/amplitude-8\\.21\\.4-min\\.gz\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.languages": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7ddd1f8552fd0e0609df5c0f17b10e274695a455c213d8222c105379154cff7c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "amp_cookie_testDD4fhVQXluQDPFpZOQKkv_": {
+                    "ttl": -86399,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "_tldtest_QLggp2PgoKFOLRPHFke0Lo": {
+                    "ttl": -86399,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amplitude_testscribbr.com": {
+                    "ttl": -86399,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "_tldtest_3IOD8TV43R-0Kg-KTNTUW9": {
+                    "ttl": -86399,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amp_cookie_testkKvBswYGljx_Yxha-lHoqs": {
+                    "ttl": -86399,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amp_6ae9ad": {
+                    "ttl": 31536003,
+                    "length": 50,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amp_cookie_testkbYH9pzMF5fuK65eR7uCmi": {
+                    "ttl": -86397,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "_tldtest_8UIK-Z32vvEt9VtrB7PlGg": {
+                    "ttl": -86397,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amplitude_testscribbr.nl": {
+                    "ttl": -86397,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "_tldtest_QMlv75jqJ5ev9wo8iTQ_Hy": {
+                    "ttl": -86397,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amp_cookie_test_QBYgAwbAAKZppAtkZML14": {
+                    "ttl": -86397,
+                    "length": 4,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "amp_68e13b": {
+                    "ttl": 31536004,
+                    "length": 50,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scribbr.com",
+                "www.scribbr.nl"
+            ]
+        }
+    ],
+    "categories": [
+        "Analytics"
+    ],
+    "performance": {},
+    "cookies": 0.00271,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6060606060606061
+        },
+        {
+            "domain": "ebaystatic.com",
+            "prevalence": 0.18181818181818182
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.08333333333333333
+        },
+        {
+            "domain": "zapier-deployment.com",
+            "prevalence": 0.05303030303030303
+        },
+        {
+            "domain": "quantummetric.com",
+            "prevalence": 0.022727272727272728
+        },
+        {
+            "domain": "browserstack.wpenginepowered.com",
+            "prevalence": 0.015151515151515152
+        },
+        {
+            "domain": "jsdelivr.net",
+            "prevalence": 0.007575757575757576
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.007575757575757576
+        },
+        {
+            "domain": "segment.io",
+            "prevalence": 0.007575757575757576
+        },
+        {
+            "domain": "vergelijkgroep.nl",
+            "prevalence": 0.007575757575757576
+        }
+    ],
+    "types": {
+        "Fetch": 38,
+        "Preflight": 32,
+        "XHR": 17,
+        "Script": 34,
+        "Other": 3,
+        "Ping": 2
+    },
+    "nameservers": [
+        "ns-1942.awsdns-50.co.uk",
+        "ns-260.awsdns-32.com",
+        "ns-579.awsdns-08.net",
+        "ns-1262.awsdns-29.org"
+    ]
+}

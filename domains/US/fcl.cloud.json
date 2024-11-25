@@ -1,0 +1,80 @@
+{
+    "domain": "fcl.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000683,
+    "sites": 1,
+    "subdomains": [
+        "services.prod.websites",
+        "identity-auth-ui.edge.soar"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "fcl\\.cloud\\/emergency-message\\/v1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services.prod.websites"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "56170e183b06cb06adc39aab444285db6cdd2b2b339e1d536afcfd25b4c90231"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flightcentre.com.au",
+                "www.flightcentre.com.au"
+            ]
+        },
+        {
+            "rule": "fcl\\.cloud\\/accountData",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "identity-auth-ui.edge.soar"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "921139f0f1f89483b36a73c02c348008d08a34506b99f88aa3df1bddbe23b420"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flightcentre.com.au",
+                "www.flightcentre.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1836.awsdns-37.co.uk",
+        "ns-640.awsdns-16.net",
+        "ns-412.awsdns-51.com",
+        "ns-1337.awsdns-39.org"
+    ]
+}

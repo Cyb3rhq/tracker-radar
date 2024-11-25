@@ -1,0 +1,131 @@
+{
+    "domain": "sr-cdn.azureedge.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sr-cdn\\.azureedge\\.net\\/Scripts\\/windowshoppers\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "caac69abb88420fa0da16502611b8c7668cb4445ee12673f6d69c7728dcf85af"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arcade1up.com",
+                "guitarkitworld.com",
+                "mrcooldiydirect.com"
+            ]
+        },
+        {
+            "rule": "sr-cdn\\.azureedge\\.net\\/Scripts\\/sr_core\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "3c4d621342b16cdd98c57bf5a54cc1d8ea0e2868be80fb0df7e51dae30f10d0f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arcade1up.com",
+                "guitarkitworld.com",
+                "mrcooldiydirect.com"
+            ]
+        },
+        {
+            "rule": "sr-cdn\\.azureedge\\.net\\/Content\\/bundle\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "f972efa3440b7cf00a628d69fb1ae9bda2d1a63f2825f156764c7175a13905c1"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arcade1up.com",
+                "guitarkitworld.com",
+                "mrcooldiydirect.com"
+            ]
+        },
+        {
+            "rule": "sr-cdn\\.azureedge\\.net\\/Scripts\\/widgets\\/preorders\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d6278dad2cb1d31fdc8c9f2b2fa87d4944d0d36ea6b19740ae006eedbe7cdb06"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guitarkitworld.com",
+                "mrcooldiydirect.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7647058823529411
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.20588235294117646
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.029411764705882353
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Stylesheet": 3
+    },
+    "nameservers": []
+}

@@ -1,0 +1,113 @@
+{
+    "domain": "syseleven.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "objectstorage.fes.cloud"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "syseleven\\.net\\/smartsteuer-cdn\\/cookiebot-banner\\/cookiebot-banner\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "objectstorage.fes.cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f349f9724a9e61a83b37ad9283a533979c16d390674b4f543973058c48695dfc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smartsteuer.de",
+                "www.smartsteuer.de"
+            ]
+        },
+        {
+            "rule": "syseleven\\.net\\/smartsteuer-cdn\\/ui\\/experimental\\/build\\/lib\\/smartsteuer-ui\\.cjs",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "objectstorage.fes.cloud"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerHeight": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2ccf32a1fe6c2e1dec8809668c9dd46bf7cc99ae350072d8f524dcbe201b06fd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smartsteuer.de",
+                "www.smartsteuer.de"
+            ]
+        },
+        {
+            "rule": "syseleven\\.net\\/smartsteuer-cdn\\/ui\\/experimental\\/build\\/img\\/logo\\/smartsteuer-oncolor-compact\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "objectstorage.fes.cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4f56117e3d7a024dc5c121561d63601e89faa8d1ce52d925e90641597eb4671a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smartsteuer.de",
+                "www.smartsteuer.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "cookiebot.eu",
+            "prevalence": 0.42857142857142855
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "dns2.syseleven.de",
+        "dns4.syseleven.de",
+        "dns1.syseleven.net",
+        "dns3.syseleven.net",
+        "dns5.syseleven.net"
+    ]
+}

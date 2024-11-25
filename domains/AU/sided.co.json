@@ -1,0 +1,110 @@
+{
+    "domain": "sided.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sided\\.co\\/embed-assets\\/load\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.innerHeight": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "0f336fe33566da2ed7ad5e9639d49afb11978f24ef558c71834cf569b1f46767"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "justjared.com",
+                "www.organicauthority.com",
+                "www.washingtonexaminer.com"
+            ]
+        },
+        {
+            "rule": "sided\\.co\\/embed\\/updateSession",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "b8c7e23c50ba5064b0b8579b3ef3f9aff241f97ed373f867f7645eecef270014",
+                "7a7b470b70ba451a429fa32b96973c238d91db0665b9cc851a28bf997d1c1355",
+                "477fe8958c3de8a177f1c7a7c1bc152182c6a3f7e0ea15c091f32191f9842e1f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "justjared.com",
+                "www.justjared.com",
+                "www.organicauthority.com",
+                "www.washingtonexaminer.com"
+            ]
+        },
+        {
+            "rule": "sided\\.co\\/embed\\/updateSession",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "justjared.com",
+                "www.justjared.com",
+                "www.organicauthority.com",
+                "www.washingtonexaminer.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 4,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "ns-397.awsdns-49.com",
+        "ns-657.awsdns-18.net",
+        "ns-1082.awsdns-07.org",
+        "ns-1581.awsdns-05.co.uk"
+    ]
+}

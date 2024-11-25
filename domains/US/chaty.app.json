@@ -1,0 +1,113 @@
+{
+    "domain": "chaty.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "cdn",
+        "pixel"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "chaty\\.app\\/pixel\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0aa7a1d0fca255a915e47dca1294da0febf08e1f5a36d4ff60ad9afde30a7a71"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "csaas_user_id": {
+                    "ttl": 31536005,
+                    "length": 13,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "cSaasWidget_ixoyzimdzp": {
+                    "ttl": 604806,
+                    "length": 101,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "activeCsaasWidgets": {
+                    "ttl": 86406,
+                    "length": 10,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "triggeredFor59OtnnI4": {
+                    "ttl": 2592006,
+                    "length": 10,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dogtra.com",
+                "www.cpasforexpats.com"
+            ]
+        },
+        {
+            "rule": "chaty\\.app\\/api\\/pixel\\/widgets",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f76223fca630faf4fcdbf433b4a537f3c3d1439bda27eb3f54ad7b87a629c475"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dogtra.com",
+                "www.cpasforexpats.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9
+        },
+        {
+            "domain": "parastorage.com",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "sofia.ns.cloudflare.com",
+        "anirban.ns.cloudflare.com"
+    ]
+}

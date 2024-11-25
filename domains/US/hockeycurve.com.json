@@ -1,0 +1,103 @@
+{
+    "domain": "hockeycurve.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "track",
+        "tag"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "hockeycurve\\.com\\/data_get",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "hcsid": 0.000006832001093120175,
+                "lotame_domain_check": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "shemaroome.com",
+                "www.zee5.com"
+            ]
+        },
+        {
+            "rule": "hockeycurve\\.com\\/zee5-001\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8e1d5335b2a9e524dad3dc5e1a2de092fbe570f9e95b326c814f253c88cd498f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "hcsid": {
+                    "ttl": 1833,
+                    "length": 16,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zee5.com",
+                "www.zee5.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-111.awsdns-13.com",
+        "ns-1022.awsdns-63.net",
+        "ns-1686.awsdns-18.co.uk",
+        "ns-1293.awsdns-33.org"
+    ]
+}

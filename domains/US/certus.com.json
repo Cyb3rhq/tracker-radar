@@ -1,0 +1,130 @@
+{
+    "domain": "certus.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "certus\\.com\\/global\\/js\\/include-fees-in-price\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "16cd156d961ff41a08ff8560f21a42c0080d537f3c64345808c2c72701ae35ab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dmvflorida.org",
+                "www.dmvflorida.org"
+            ]
+        },
+        {
+            "rule": "certus\\.com\\/global\\/js\\/livechat\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "486c9ccab51e99dd618560a281ca71009f350096a85dd9239ff26d7396c18791"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dmvflorida.org",
+                "www.dmvflorida.org",
+                "www.oshaeducationcenter.com",
+                "www.stateofflorida.com"
+            ]
+        },
+        {
+            "rule": "certus\\.com\\/Products\\/api\\/v2\\/Public\\/GetProductsBy\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "bb4f195f6173470a98763267efcd91283b57008dd5057c2a24216bb974324bae",
+                "701889209d57aaca4450f8924b0633791b851064a0609a3c5f053dc391f9b5fa"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dmvflorida.org",
+                "www.dmvflorida.org",
+                "www.oshaeducationcenter.com"
+            ]
+        },
+        {
+            "rule": "certus\\.com\\/global\\/js\\/site-config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "652ec2400b9a7a1072feac4badd41866b4509eb0622bd958fd53c35a06cd9849"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stateofflorida.com",
+                "www.stateofflorida.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns4-01.azure-dns.info",
+        "ns3-01.azure-dns.org",
+        "ns1-01.azure-dns.com",
+        "ns2-01.azure-dns.net"
+    ]
+}

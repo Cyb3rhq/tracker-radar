@@ -1,0 +1,214 @@
+{
+    "domain": "splitit.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000082,
+    "sites": 12,
+    "subdomains": [
+        "upstream.production",
+        "upstream.sandbox",
+        "translations-v2.production",
+        "shop-server",
+        "internalapi.production",
+        "externals"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "splitit\\.com\\/v1\\/dist\\/upstream-messaging\\.js",
+            "cookies": 0.0000342,
+            "fingerprinting": 1,
+            "subdomains": [
+                "upstream.production",
+                "upstream.sandbox"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 5,
+                "Navigator.prototype.product": 5,
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "5d1bad15fc8d71bce0075eeb448e646cf3ceaafe002554ced00e30df8a9e0712",
+                "f8c6d8e58117594b13c214956a8a8f4c5bc7452d171f9cfc7654be6dfe99857e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedjet.com",
+                "milanowigs.com",
+                "mypatriotsupply.com",
+                "www.beprepared.com",
+                "www.mypatriotsupply.com"
+            ]
+        },
+        {
+            "rule": "splitit\\.com\\/api\\/v1\\/translations",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "translations-v2.production"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "0e1bfcd98bea1c72699846f6d6e66184fb49185735491677769026e43180a2fa",
+                "97e4aa475e2f78b26acd96af451ad7f7c876300ff1a9de5c7907688f6615dde6",
+                "f56ccd6c34b902fbc93a0b12ac07f36c0e0448c586315846732b6b2b43d78a1d",
+                "00e0d16e0e9d761a84e711bd523d192e8bd7236770495d8f6462f462bab26cc9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedjet.com",
+                "milanowigs.com",
+                "mypatriotsupply.com",
+                "www.beprepared.com",
+                "www.mypatriotsupply.com"
+            ]
+        },
+        {
+            "rule": "splitit\\.com\\/get-on-site-messaging-script",
+            "cookies": 0.0000273,
+            "fingerprinting": 0,
+            "subdomains": [
+                "shop-server"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "900d765bb8de8372406550efe980c5d3f9ae801153d63530744a9927fa7a441f",
+                "f1bd83c986a0084011f8e85f8c4fd52733b22d0da55b3f2e3f7ad56b84ee1e4d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "magnusonsuperchargers.com",
+                "mypatriotsupply.com",
+                "www.ima-usa.com",
+                "www.mypatriotsupply.com"
+            ]
+        },
+        {
+            "rule": "splitit\\.com\\/api\\/v1\\/translations\\/en-US\\/multiple",
+            "cookies": 0.0000273,
+            "fingerprinting": 0,
+            "subdomains": [
+                "translations-v2.production"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "87278a25f6371b3d17738b0b818348f50a08eec26aefaf4cd295353da90c781d",
+                "8f601a72279727c3b67973dae93b14d716376328bab29751cfa29b2888486e74",
+                "8d93042e8c03d02b134c58ab62f2ed484a186c7e24c753b2d655f19919c83637"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "magnusonsuperchargers.com",
+                "mypatriotsupply.com",
+                "www.ima-usa.com",
+                "www.mypatriotsupply.com"
+            ]
+        },
+        {
+            "rule": "splitit\\.com\\/api\\/v1\\/upstream-configuration\\/84d5a330-1e5b-4801-918f-fe1ea53daf94\\/get",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "internalapi.production"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "16580cf56d69a2fd8129f4c48f21697eec74a1cfd3e5326c3d0b0fb4b07d4590"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mypatriotsupply.com",
+                "www.mypatriotsupply.com"
+            ]
+        },
+        {
+            "rule": "splitit\\.com\\/integration\\/js\\/splitit-marketing\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "externals"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ima-usa.com",
+                "www.ima-usa.com"
+            ]
+        },
+        {
+            "rule": "splitit\\.com\\/api\\/v1\\/upstream-configuration\\/fddab8fb-b911-4808-845a-79996f46e02a\\/get",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "internalapi.production"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "16580cf56d69a2fd8129f4c48f21697eec74a1cfd3e5326c3d0b0fb4b07d4590"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ima-usa.com",
+                "www.ima-usa.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000082,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "Fetch": 13
+    },
+    "nameservers": [
+        "ns-1179.awsdns-19.org",
+        "ns-177.awsdns-22.com",
+        "ns-1563.awsdns-03.co.uk",
+        "ns-762.awsdns-31.net"
+    ]
+}

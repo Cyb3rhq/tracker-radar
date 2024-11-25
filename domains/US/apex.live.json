@@ -1,0 +1,231 @@
+{
+    "domain": "apex.live",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "www",
+        "chat"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "apex\\.live\\/handlers\\/slim\\/pinghandler\\.ashx",
+            "cookies": 0.0000273,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "69e87e4b63838fcf158fa75e7ba7a8cca280cdd5e18b3907a2ffaf85f7be2fa5",
+                "98b20c6fe5587238f99cdeb80884f6e8a88e7257b68d8ecc9059afe9c92301a2",
+                "364ff441d1124548bd11360fdd92e6e0ac8f996b03d4319c4f5ba4e04a99cde3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "cdn_apex_profile_id": 0.0000273280043724807,
+                "livechat_profile_id": 0.0000273280043724807
+            },
+            "exampleSites": [
+                "baldwincremation.com",
+                "completehealth.com",
+                "silvertaxgroup.com",
+                "sinicropispine.com"
+            ]
+        },
+        {
+            "rule": "apex\\.live\\/scripts\\/invitation\\.ashx",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "URL.createObjectURL": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.platform": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c596db4e096d303a7c434f6dcb8801f15b6e928e2d71610b792a8693e2cba6f5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cdn_apex_profile_id": {
+                    "ttl": 86405,
+                    "length": 6,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "apexchat_dropdown_invitation": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "livechat_is_page_refreshed": {
+                    "ttl": null,
+                    "length": 5,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "livechat_prechat_lastmessage": {
+                    "ttl": null,
+                    "length": 45,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "livechat_v3_invitation_shown": {
+                    "ttl": 305,
+                    "length": 4,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "livechat_agent_alias_id": {
+                    "ttl": 3605,
+                    "length": 5,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "livechat_operator_id": {
+                    "ttl": 605,
+                    "length": 9,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "livechat_visitor_id": {
+                    "ttl": 21907,
+                    "length": 10,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "livechat_profile_id": {
+                    "ttl": 86405,
+                    "length": 6,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "apexchat_dompopup_chatwindow": {
+                    "ttl": null,
+                    "length": 9,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "livechat_visitLogged": {
+                    "ttl": 21908,
+                    "length": 4,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "livechat_invitation_traffic_sources": {
+                    "ttl": 15724809,
+                    "length": 140,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "apexchat_prechat_invitation": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "livechat_prechat_messagecounter": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "silvertaxgroup.com",
+                "sinicropispine.com"
+            ]
+        },
+        {
+            "rule": "apex\\.live\\/cdn\\/config\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ed8e8e5133103b6c07f583231086c8161f4e1309f5d3a157f779bc13ff119b5f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "silvertaxgroup.com",
+                "sinicropispine.com"
+            ]
+        },
+        {
+            "rule": "apex\\.live\\/cdn\\/invitation\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0b6f8ea7f7573b66bdff7d497ebf2c448e81772f6aa9f69f5141e728cff5bab3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "cdn_apex_profile_id": 0.00001366400218624035,
+                "livechat_profile_id": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "silvertaxgroup.com",
+                "sinicropispine.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "XHR": 8,
+        "Script": 2
+    },
+    "nameservers": [
+        "lara.ns.cloudflare.com",
+        "max.ns.cloudflare.com"
+    ]
+}

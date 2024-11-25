@@ -1,0 +1,107 @@
+{
+    "domain": "orichi.info",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000615,
+    "sites": 9,
+    "subdomains": [
+        "discount",
+        "pixel"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "orichi\\.info\\/Customer\\/GetSettingInfo",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "discount"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "6c4ad3f1f6318f9811f7c41bbea47ac94972e8af0e816b18604ab62a06dc87b6",
+                "178bc959e649b1e5f264516c374fb60b7b323efb3aeeeb7fc481b8f4a672bfe6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libertypuzzles.com",
+                "shop.t2t.org",
+                "theberkey.com"
+            ]
+        },
+        {
+            "rule": "orichi\\.info\\/Content\\/orichipixel\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Document.cookie getter": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "92be824e1bc2adb2be1647f8994d5db353d14adeeaa4f6ed9a721fba2ef8e3b8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dakine.com",
+                "www.dakine.com",
+                "www.sunlu.com"
+            ]
+        },
+        {
+            "rule": "orichi\\.info\\/Customer\\/GetShopData",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dcb31b409327f4876639eb9e060ec12ba578945636e1f1b99819ed5b3d472984"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sunlu.com",
+                "www.sunlu.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 3,
+        "Script": 3,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns2.matbao.com",
+        "ns1.matbao.com"
+    ]
+}

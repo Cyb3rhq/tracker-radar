@@ -1,0 +1,173 @@
+{
+    "domain": "getblue.io",
+    "owner": {
+        "name": "getblue",
+        "displayName": "getblue"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "event",
+        "widget",
+        "cms"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "getblue\\.io\\/js\\/blue-tag\\.min\\.js",
+            "cookies": 0.000502,
+            "fingerprinting": 1,
+            "subdomains": [
+                "event"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Date.prototype.getTime": 5,
+                "Navigator.prototype.cookieEnabled": 5,
+                "Document.cookie getter": 5,
+                "window.sessionStorage": 5,
+                "window.localStorage": 5,
+                "Document.cookie setter": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "a2be364e2921857c3e1415e1e9e74e5628a02318662a25da27a23da90929c84a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "blueID": {
+                    "ttl": 31536004,
+                    "length": 36,
+                    "prevalence": 0.0005023106288929073,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gardenersdream.co.uk",
+                "www.latamairlines.com",
+                "www.ldmountaincentre.com",
+                "www.outdooraction.co.uk",
+                "www.rieker.co.uk"
+            ]
+        },
+        {
+            "rule": "getblue\\.io\\/p\\/",
+            "cookies": 0.000502,
+            "fingerprinting": 0,
+            "subdomains": [
+                "event"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "94a5527ecacc6a7c7f41d2f4bb45e3885922b16aa55b815769257d3e79b85929",
+                "e535951d6fe81a88ce164fa4464f5d23c4cc673a0608f41c67ffe879fc70f93a",
+                "f281ad72a1169d316f0d519500dbf2afd913a36be5b98dc7a14c5930466a647c",
+                "80a6112cc83c4fbb7c8c821ffc6435ebf528c5eedc52abd99faef605f2fb8e79"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "blueID": 0.0005023106288929073
+            },
+            "exampleSites": [
+                "gardenersdream.co.uk",
+                "www.latamairlines.com",
+                "www.ldmountaincentre.com",
+                "www.outdooraction.co.uk",
+                "www.rieker.co.uk"
+            ]
+        },
+        {
+            "rule": "getblue\\.io\\/event\\/",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "Screen.prototype.colorDepth": 4
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "5b92a408bbe994550b7055a07066d79ec13a646062d36f046dbd84a9d59e86e1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "blueID": 0.0005023106288929073
+            },
+            "exampleSites": [
+                "gardenersdream.co.uk",
+                "www.latamairlines.com",
+                "www.ldmountaincentre.com",
+                "www.outdooraction.co.uk",
+                "www.rieker.co.uk"
+            ]
+        },
+        {
+            "rule": "getblue\\.io\\/cm\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cms"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "blueID": 0.0005023106288929073
+            },
+            "exampleSites": [
+                "gardenersdream.co.uk",
+                "www.latamairlines.com",
+                "www.ldmountaincentre.com",
+                "www.outdooraction.co.uk",
+                "www.rieker.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.42857142857142855
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Document": 5,
+        "Image": 5
+    },
+    "nameservers": [
+        "ns-1053.awsdns-03.org",
+        "ns-1752.awsdns-27.co.uk",
+        "ns-48.awsdns-06.com",
+        "ns-730.awsdns-27.net"
+    ]
+}

@@ -1,0 +1,321 @@
+{
+    "domain": "zdbb.net",
+    "owner": {
+        "name": "Ziff Davis LLC",
+        "displayName": "Ziff Davis"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000804,
+    "sites": 8,
+    "subdomains": [
+        "cdn.static",
+        "gurgle"
+    ],
+    "cnames": [
+        {
+            "original": "gurgle.babycenter.com",
+            "resolved": "gurgle.zdbb.net"
+        },
+        {
+            "original": "gurgle.retailmenot.com",
+            "resolved": "gurgle.zdbb.net"
+        },
+        {
+            "original": "gurgle.spiceworks.com",
+            "resolved": "gurgle.zdbb.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "zdbb\\.net\\/js\\/z0WVjCBSEeGLoxIxOQVEwQ\\.min\\.js",
+            "cookies": 0.000703,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.static"
+            ],
+            "apis": {
+                "Document.cookie getter": 7,
+                "Date.prototype.getTime": 7,
+                "Document.cookie setter": 7,
+                "window.localStorage": 1
+            },
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "324de72b0ff65f55a2fe541a584abcdad164356642377fe54a54f163277a78c2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "zd_session_id": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.0006026516673362796,
+                    "uniqueness": 1
+                },
+                "fu": {
+                    "ttl": 2592004,
+                    "length": 1,
+                    "prevalence": 0.0007030936118923262,
+                    "uniqueness": 0.14285714285714285
+                },
+                "zpack": {
+                    "ttl": null,
+                    "length": 315,
+                    "prevalence": 0.0006026516673362796,
+                    "uniqueness": 1
+                },
+                "h_zdbb": {
+                    "ttl": 15552006,
+                    "length": 32,
+                    "prevalence": 0.0003013258336681398,
+                    "uniqueness": 1
+                },
+                "lrswap": {
+                    "ttl": 15552011,
+                    "length": 1,
+                    "prevalence": 0.0001004419445560466,
+                    "uniqueness": 1
+                },
+                "_li_dcdm_c": {
+                    "ttl": null,
+                    "length": 16,
+                    "prevalence": 0.0001004419445560466,
+                    "uniqueness": 1
+                },
+                "_lc2_fpi": {
+                    "ttl": 63072011,
+                    "length": 40,
+                    "prevalence": 0.0001004419445560466,
+                    "uniqueness": 1
+                },
+                "__li_idex_cache_eyJyZXNvbHZlIjoic2hhMiJ9": {
+                    "ttl": 3618,
+                    "length": 2,
+                    "prevalence": 0.0001004419445560466,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifehacker.com",
+                "community.spiceworks.com",
+                "www.babycenter.com.au",
+                "www.babycenter.com",
+                "www.cnet.com",
+                "www.retailmenot.com",
+                "www.zdnet.com"
+            ]
+        },
+        {
+            "rule": "zdbb\\.net\\/check_c",
+            "cookies": 0.000703,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifehacker.com",
+                "community.spiceworks.com",
+                "www.babycenter.com.au",
+                "www.babycenter.com",
+                "www.cnet.com",
+                "www.retailmenot.com",
+                "www.zdnet.com"
+            ]
+        },
+        {
+            "rule": "zdbb\\.net\\/info",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gurgle"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [
+                {
+                    "original": "gurgle.spiceworks.com",
+                    "resolved": "gurgle.zdbb.net"
+                },
+                {
+                    "original": "gurgle.babycenter.com",
+                    "resolved": "gurgle.zdbb.net"
+                },
+                {
+                    "original": "gurgle.retailmenot.com",
+                    "resolved": "gurgle.zdbb.net"
+                }
+            ],
+            "responseHashes": [
+                "27327424fbe08dd286e7ed665c6fdb9e84b49fc0328d64eeec67fabd98a935aa",
+                "77a0e0aa11c6667e9097da5ba5cf302dca8ea713cb1f99ba30a57dd5dc315355",
+                "185b5414c30e58e2c1e557199fd6bd2ce2e8dd8d6c3da37d12df90ac488b2488"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000502209722780233,
+                "lotame_domain_check": 0.0001004419445560466
+            },
+            "exampleSites": [
+                "lifehacker.com",
+                "community.spiceworks.com",
+                "www.babycenter.com.au",
+                "www.babycenter.com",
+                "www.cnet.com",
+                "www.retailmenot.com",
+                "www.zdnet.com"
+            ]
+        },
+        {
+            "rule": "zdbb\\.net\\/l\\/z0WVjCBSEeGLoxIxOQVEwQ",
+            "cookies": 0.000603,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "zd_session_id": 0.0007030936118923262,
+                "_li_dcdm_c": 0.000502209722780233,
+                "lotame_domain_check": 0.0001004419445560466,
+                "h_zdbb": 0.0002008838891120932
+            },
+            "exampleSites": [
+                "lifehacker.com",
+                "community.spiceworks.com",
+                "www.babycenter.com.au",
+                "www.babycenter.com",
+                "www.cnet.com",
+                "www.retailmenot.com",
+                "www.zdnet.com"
+            ]
+        },
+        {
+            "rule": "zdbb\\.net\\/l\\/qI109lRAEeGCiBIxORcFRw\\/",
+            "cookies": 0.000603,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifehacker.com",
+                "au.lifehacker.com",
+                "www.babycenter.com.au",
+                "www.babycenter.com",
+                "www.retailmenot.com",
+                "www.zdnet.com"
+            ]
+        },
+        {
+            "rule": "zdbb\\.net\\/set_fpid\\/babycenter\\.com\\/c\\/6edc2cbdd73f4685b72cc52d9abdf16b",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gurgle"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "gurgle.babycenter.com",
+                    "resolved": "gurgle.zdbb.net"
+                }
+            ],
+            "responseHashes": [
+                "b9ca2bc95015805ba242dfae036ae0d7a8bc12be3d91da0f5f53e456bd7463e2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "h_zdbb": 0.0002008838891120932
+            },
+            "exampleSites": [
+                "babycenter.com",
+                "www.babycenter.com"
+            ]
+        },
+        {
+            "rule": "zdbb\\.net\\/l\\/RKxdUqEhIpfGFepvvpLhhs",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "zd_session_id": 0.0002008838891120932,
+                "_li_dcdm_c": 0.0002008838891120932,
+                "h_zdbb": 0.0002008838891120932
+            },
+            "exampleSites": [
+                "babycenter.com",
+                "www.babycenter.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000804,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "zdbb.net",
+            "prevalence": 0.22857142857142856
+        },
+        {
+            "domain": "babycenter.com",
+            "prevalence": 0.11428571428571428
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.05714285714285714
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.02857142857142857
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "XHR": 16,
+        "Image": 15
+    },
+    "nameservers": [
+        "ns-1353.awsdns-41.org",
+        "ns-1537.awsdns-00.co.uk",
+        "ns-164.awsdns-20.com",
+        "ns-982.awsdns-58.net"
+    ]
+}

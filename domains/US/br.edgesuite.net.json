@@ -1,0 +1,169 @@
+{
+    "domain": "br.edgesuite.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [
+        "conta.uol.com",
+        "lambda.belezanaweb.com",
+        "p1-cloud.trrsf.com"
+    ],
+    "cnames": [
+        {
+            "original": "conta.uol.com.br",
+            "resolved": "conta.uol.com.br.edgesuite.net"
+        },
+        {
+            "original": "lambda.belezanaweb.com.br",
+            "resolved": "lambda.belezanaweb.com.br.edgesuite.net"
+        },
+        {
+            "original": "p1-cloud.trrsf.com.br",
+            "resolved": "p1-cloud.trrsf.com.br.edgesuite.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "br\\.edgesuite\\.net\\/sot\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "conta.uol.com"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "conta.uol.com.br",
+                    "resolved": "conta.uol.com.br.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "cfb56b4358dc643cfb3e83e8ae61cf286235368cab0015343d39c8b1f3536cfc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uol.com.br",
+                "noticias.uol.com.br",
+                "www.uol.com.br"
+            ]
+        },
+        {
+            "rule": "br\\.edgesuite\\.net\\/events",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lambda.belezanaweb.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "lambda.belezanaweb.com.br",
+                    "resolved": "lambda.belezanaweb.com.br.edgesuite.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belezanaweb.com.br",
+                "www.belezanaweb.com.br"
+            ]
+        },
+        {
+            "rule": "br\\.edgesuite\\.net\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lambda.belezanaweb.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "lambda.belezanaweb.com.br",
+                    "resolved": "lambda.belezanaweb.com.br.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belezanaweb.com.br",
+                "www.belezanaweb.com.br"
+            ]
+        },
+        {
+            "rule": "br\\.edgesuite\\.net\\/api\\/includer\\/include",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "p1-cloud.trrsf.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "p1-cloud.trrsf.com.br",
+                    "resolved": "p1-cloud.trrsf.com.br.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "5b90f2d9edb5b6658084ef599ddef76cd98175387010abd93d1e047983ef059e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "terra.com.br",
+                "www.terra.com.br"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "trrsf.com",
+            "prevalence": 0.625
+        },
+        {
+            "domain": "cloudinary.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "static-p111452-e1142340.adobeaemcloud.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Preflight": 2,
+        "Ping": 2,
+        "Fetch": 2
+    },
+    "nameservers": []
+}

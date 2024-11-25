@@ -1,0 +1,240 @@
+{
+    "domain": "datadome.co",
+    "owner": {
+        "name": "DataDome",
+        "displayName": "DataDome"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.001,
+    "sites": 10,
+    "subdomains": [
+        "js",
+        "dwt.soundcloud.com.first-party-js",
+        "sslgen-nyt",
+        "dd.seloger.com.first-party-js",
+        "dd.thetrainline.com.first-party-js",
+        "api-js"
+    ],
+    "cnames": [
+        {
+            "original": "dd.nytimes.com",
+            "resolved": "sslgen-nyt.datadome.co"
+        },
+        {
+            "original": "dd.seloger.com",
+            "resolved": "dd.seloger.com.first-party-js.datadome.co"
+        },
+        {
+            "original": "dd.thetrainline.com",
+            "resolved": "dd.thetrainline.com.first-party-js.datadome.co"
+        },
+        {
+            "original": "dwt.soundcloud.com",
+            "resolved": "dwt.soundcloud.com.first-party-js.datadome.co"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "datadome\\.co\\/tags\\.js",
+            "cookies": 0.000803,
+            "fingerprinting": 3,
+            "subdomains": [
+                "js",
+                "dwt.soundcloud.com.first-party-js",
+                "sslgen-nyt",
+                "dd.seloger.com.first-party-js",
+                "dd.thetrainline.com.first-party-js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "window.outerHeight": 6,
+                "window.outerWidth": 6,
+                "Navigator.prototype.hardwareConcurrency": 6,
+                "Navigator.prototype.webdriver": 6,
+                "Navigator.prototype.platform": 6,
+                "Navigator.prototype.languages": 6,
+                "Navigator.prototype.maxTouchPoints": 6,
+                "Navigator.prototype.onLine": 6,
+                "URL.createObjectURL": 6,
+                "Navigator.prototype.deviceMemory": 6,
+                "Navigator.prototype.plugins": 6,
+                "Navigator.prototype.mediaDevices": 6,
+                "MediaDevices.prototype.enumerateDevices": 6,
+                "window.innerHeight": 6,
+                "window.innerWidth": 6,
+                "Document.cookie getter": 4,
+                "Screen.prototype.height": 6,
+                "Screen.prototype.width": 6,
+                "Screen.prototype.colorDepth": 6,
+                "Navigator.prototype.language": 6,
+                "window.devicePixelRatio": 6,
+                "Screen.prototype.availHeight": 6,
+                "Screen.prototype.availWidth": 6,
+                "Date.prototype.getTimezoneOffset": 6,
+                "window.sessionStorage": 6,
+                "window.localStorage": 6,
+                "window.indexedDB": 6,
+                "Navigator.prototype.productSub": 6,
+                "Navigator.prototype.vendor": 6,
+                "Navigator.prototype.mimeTypes": 6,
+                "HTMLMediaElement.prototype.canPlayType": 6,
+                "MediaSource.isTypeSupported": 6,
+                "Screen.prototype.orientation": 6,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.permissions": 6,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 6,
+                "Notification.permission": 6,
+                "WebGLRenderingContext.prototype.getExtension": 6,
+                "WebGLRenderingContext.prototype.getParameter": 6
+            },
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [
+                {
+                    "original": "dwt.soundcloud.com",
+                    "resolved": "dwt.soundcloud.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd.nytimes.com",
+                    "resolved": "sslgen-nyt.datadome.co"
+                },
+                {
+                    "original": "dd.seloger.com",
+                    "resolved": "dd.seloger.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd.thetrainline.com",
+                    "resolved": "dd.thetrainline.com.first-party-js.datadome.co"
+                }
+            ],
+            "responseHashes": [
+                "44b5896f4a4360bc08c70cf6e5890aa872e50f9d65d0597013c8565752277a82"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "datadome": {
+                    "ttl": 31536000,
+                    "length": 128,
+                    "prevalence": 0.00040172742794014263,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "premierleague.com",
+                "soundcloud.com",
+                "www.alltrails.com",
+                "www.byttdekk.com",
+                "www.hoka.com",
+                "www.nytimes.com",
+                "www.seloger.com",
+                "www.shutterstock.com",
+                "www.spectator.co.uk",
+                "www.thetrainline.com"
+            ]
+        },
+        {
+            "rule": "datadome\\.co\\/js\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-js",
+                "dwt.soundcloud.com.first-party-js",
+                "sslgen-nyt",
+                "dd.seloger.com.first-party-js",
+                "dd.thetrainline.com.first-party-js"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [
+                {
+                    "original": "dwt.soundcloud.com",
+                    "resolved": "dwt.soundcloud.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd.nytimes.com",
+                    "resolved": "sslgen-nyt.datadome.co"
+                },
+                {
+                    "original": "dd.seloger.com",
+                    "resolved": "dd.seloger.com.first-party-js.datadome.co"
+                },
+                {
+                    "original": "dd.thetrainline.com",
+                    "resolved": "dd.thetrainline.com.first-party-js.datadome.co"
+                }
+            ],
+            "responseHashes": [
+                "5304baf5650ab91dfae0802a65a29fb119ed665a7d722c216961c9e8e2a57829",
+                "3d459b64e255f25533356b81d3f19532791a486aed8c76a70373a66919d0d312",
+                "dfec900e967b7ac6412e1cd381d69e43b1b2b3e0d4e0ee56e5f10e277cc94417",
+                "5bc33b2757fd71be5b698be4baf35b299067464719f4a8cb81ada2aeb949974e",
+                "c8825b8124c55b42ceae18f09cf524d515250a5895a09dae3a7a94f0a8b815d8",
+                "4b89a1811b77291cfb770b67554e576a8a91292ff9ed7ce539614515fa909d29",
+                "5df91340c66f1168e3630410677444e308ba77bcbd6c063fdd055e54a3eb1f90",
+                "60045f8f43c944ab3d3cc8b9a2a124ba0840f7018edb2cf7a922d105e8be559d",
+                "580d12730d9ea37a0bd0006653c036ebae5581097bfcae6d6b870d6b889fc10f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "premierleague.com",
+                "soundcloud.com",
+                "www.alltrails.com",
+                "www.byttdekk.com",
+                "www.hoka.com",
+                "www.nytimes.com",
+                "www.seloger.com",
+                "www.shutterstock.com",
+                "www.spectator.co.uk",
+                "www.thetrainline.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Fraud Prevention"
+    ],
+    "performance": {},
+    "cookies": 0.000803,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.14285714285714285
+        },
+        {
+            "domain": "sndcdn.com",
+            "prevalence": 0.07142857142857142
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.07142857142857142
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.07142857142857142
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.07142857142857142
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "XHR": 10
+    },
+    "nameservers": [
+        "ns-1139.awsdns-14.org",
+        "ns-1801.awsdns-33.co.uk",
+        "ns-359.awsdns-44.com",
+        "ns-888.awsdns-47.net"
+    ]
+}

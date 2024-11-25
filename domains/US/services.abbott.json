@@ -1,0 +1,100 @@
+{
+    "domain": "services.abbott",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000478,
+    "sites": 7,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "services\\.abbott\\/api\\/public\\/lookup\\/geolocation",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cardiovascular.abbott",
+                "www.cardiovascular.abbott",
+                "www.ensure.com",
+                "www.freestyle.abbott"
+            ]
+        },
+        {
+            "rule": "services\\.abbott\\/api\\/public\\/lookup\\/geolocation",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "06cee8d272492f2bb46fe888cc72f3666f427472db61325b5c4667ed3311507c",
+                "f71b36b4d9d63289b61b7b9289513bc6289c1fdc92c167da2426bb4d492579c1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cardiovascular.abbott",
+                "www.cardiovascular.abbott",
+                "www.ensure.com",
+                "www.freestyle.abbott"
+            ]
+        },
+        {
+            "rule": "services\\.abbott\\/api\\/proxy\\/graphql-proxy-api-prod\\/guest",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "592bbd60415f61e0082e67b9b208fcf1ccabd20375a0d56fa7a800060d572f21"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "freestylelibre.de",
+                "www.freestylelibre.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000683,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 4,
+        "Fetch": 6
+    },
+    "nameservers": [
+        "ns-808.awsdns-37.net",
+        "ns-373.awsdns-46.com",
+        "ns-1632.awsdns-12.co.uk",
+        "ns-1514.awsdns-61.org"
+    ]
+}

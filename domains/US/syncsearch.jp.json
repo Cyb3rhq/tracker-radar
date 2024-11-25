@@ -1,0 +1,122 @@
+{
+    "domain": "syncsearch.jp",
+    "owner": {
+        "name": "SyncThought, Inc.",
+        "displayName": "SyncThought"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000888,
+    "sites": 13,
+    "subdomains": [
+        "cdn",
+        "pro",
+        "ssl"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "syncsearch\\.jp\\/libs\\/suggest_version\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "5bd8e67ef3505ce700d8c4cca2c473e550aa5131ffe8bc7ab7ed70be7a1bafa2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "global.toyota",
+                "www.fmworld.net",
+                "www.kuronekoyamato.co.jp"
+            ]
+        },
+        {
+            "rule": "syncsearch\\.jp\\/libs\\/suggest_1\\.3\\.0\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "71a5e1ed6aba5665b1400e8f9ca54cbdd652df76227dbbab7e60c5a6c87cf972"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "global.toyota",
+                "www.fmworld.net",
+                "www.kuronekoyamato.co.jp"
+            ]
+        },
+        {
+            "rule": "syncsearch\\.jp\\/common\\/js\\/sync_suggest\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pro",
+                "ssl"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 9,
+                "Navigator.prototype.appVersion": 8
+            },
+            "sites": 9,
+            "prevalence": 0.0000615,
+            "cnames": [],
+            "responseHashes": [
+                "ddd1d5fe0f1ab51c4b45780ef012230ee513d976ac9ac3471c90b0fabe378a23",
+                "8c1ac0c62322f5f7514fe5b4990039a92a8165b6b9f870d34d2f9e5269f585a5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iodata.jp",
+                "www.kewpie.co.jp",
+                "www.mizuhobank.co.jp",
+                "www.netbk.co.jp",
+                "www.shinchosha.co.jp",
+                "www.smbc-card.com",
+                "www.smbc.co.jp",
+                "www.takaratomy.co.jp",
+                "www.tiger-corporation.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 3,
+        "Script": 12
+    },
+    "nameservers": [
+        "ns-1370.awsdns-43.org",
+        "ns-658.awsdns-18.net",
+        "ns-1712.awsdns-22.co.uk",
+        "ns-239.awsdns-29.com"
+    ]
+}

@@ -1,0 +1,201 @@
+{
+    "domain": "microsoft.com",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000804,
+    "sites": 8,
+    "subdomains": [
+        "browser.pipe.aria",
+        "wcpstatic",
+        "browser.events.data",
+        "customervoice",
+        "c1"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "microsoft\\.com\\/Collector\\/3\\.0\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "browser.pipe.aria"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clevelandclinic.org",
+                "my.clevelandclinic.org"
+            ]
+        },
+        {
+            "rule": "microsoft\\.com\\/mscc\\/lib\\/v2\\/wcp-consent\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "wcpstatic"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c688d3f2135b6b51617a306a0b1a665324402a00a6bceba475881af281503ad9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flightsimulator.com",
+                "www.minecraft.net"
+            ]
+        },
+        {
+            "rule": "microsoft\\.com\\/OneCollector\\/1\\.0\\/",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "browser.events.data"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "665783aeb77dc3dd8ad3f8ad3a8355cb8c9aa1406820c14eecca9a70c1bc07e0",
+                "afd588d7d1c94d797ef932006d524de973f6fc54556e62f0f340412c87f99d58"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "minecraft.net",
+                "www.minecraft.net",
+                "www.trekbikes.com"
+            ]
+        },
+        {
+            "rule": "microsoft\\.com\\/OneCollector\\/1\\.0\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "browser.events.data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "minecraft.net",
+                "www.minecraft.net"
+            ]
+        },
+        {
+            "rule": "microsoft\\.com\\/formapi\\/api\\/420c37ce-ca55-4745-85dc-c9d1fab7ce60\\/users\\/d8e7a8c6-294b-439f-9620-c3897c93a269\\/light\\/runtimeForms\\('zjcMQlXKRUeF3MnR-rfOYMao59hLKZ9DliDDiXyTomlUQUZFVjlDSTFPS1VWUEpVTlZJN0VXVDg1My4u'\\)",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "customervoice"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ed2a6a2228b9f918544ed149ef03d8d33bd04eb4425704657690ddfe61ccf235"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "odlo.com",
+                "www.odlo.com"
+            ]
+        },
+        {
+            "rule": "microsoft\\.com\\/c\\.gif",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8f84c4ced509262009163e45994b45ed7ee9d4dbac88674be5f2db5c9e5be38e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "odlo.com",
+                "www.odlo.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.3
+        },
+        {
+            "domain": "azureedge.net",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "office.net",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.15
+        },
+        {
+            "domain": "dynamics.com",
+            "prevalence": 0.05
+        }
+    ],
+    "types": {
+        "XHR": 7,
+        "Script": 2,
+        "Preflight": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns1-39.azure-dns.com",
+        "ns2-39.azure-dns.net",
+        "ns3-39.azure-dns.org",
+        "ns4-39.azure-dns.info"
+    ]
+}

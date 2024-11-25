@@ -1,0 +1,143 @@
+{
+    "domain": "vigo.one",
+    "owner": {
+        "name": "Vigo Software Ltd.",
+        "displayName": "Vigo Software"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "api",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "vigo\\.one\\/html5\\/Vigo\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "02b04272689be105272c13cc212d07c62673b906519983586183b71a9cafe450"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "v_did": {
+                    "ttl": null,
+                    "length": 32,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gdz.ru",
+                "rutube.ru",
+                "yapolitic.ru"
+            ]
+        },
+        {
+            "rule": "vigo\\.one\\/html5\\/cgi-bin\\/vigoUrandId\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b79681c93b5f8a8fee3c22ef6e83ac04831cc045cb64f1fb34f5f04a8c6108ae"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rutube.ru",
+                "yapolitic.ru"
+            ]
+        },
+        {
+            "rule": "vigo\\.one\\/1\\/balancer",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7aebae0a6d934b12270dafdbcfcebe9072ed131411783b16f82691b503021e3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rutube.ru",
+                "yapolitic.ru"
+            ]
+        },
+        {
+            "rule": "vigo\\.one\\/uxzoom\\/1\\/notify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rutube.ru",
+                "yapolitic.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "rutube.ru",
+            "prevalence": 0.5384615384615384
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.46153846153846156
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Document": 2,
+        "XHR": 4
+    },
+    "nameservers": [
+        "dns1.yandex.net",
+        "dns2.yandex.net"
+    ]
+}

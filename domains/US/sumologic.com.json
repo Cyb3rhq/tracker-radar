@@ -1,0 +1,258 @@
+{
+    "domain": "sumologic.com",
+    "owner": {
+        "name": "Sumo Logic Inc.",
+        "displayName": "Sumo Logic"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000157,
+    "sites": 23,
+    "subdomains": [
+        "endpoint2.collection",
+        "rum",
+        "rum-collectors.us1",
+        "endpoint3.collection.us2"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sumologic\\.com\\/receiver\\/v1\\/http\\/ZaVnC4dhaV05dXKg-ftsbZhjjaoiYhpfts5n5f3ruGcT-AZCsbOYJ7calna6fMOf2ibLDqDqoIHv919SNA5ATvRZPq3bb8TfV0-1z7WLtwamRPUUhdA8Ww==",
+            "cookies": 0.000109,
+            "fingerprinting": 0,
+            "subdomains": [
+                "endpoint2.collection"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.000109,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ana.co.jp",
+                "flights.ana.co.jp",
+                "flights.flyfrontier.com",
+                "flights.cathaypacific.com",
+                "flights.philippineairlines.com",
+                "flights.virginatlantic.com",
+                "www.aeromexico.com",
+                "www.china-airlines.com",
+                "www.elal.com",
+                "www.etihad.com",
+                "www.fijiairways.com",
+                "www.flyairlink.com",
+                "www.flytap.com",
+                "www.loganair.co.uk",
+                "www.skyairline.com",
+                "www.turkishairlines.com"
+            ]
+        },
+        {
+            "rule": "sumologic\\.com\\/receiver\\/v1\\/http\\/ZaVnC4dhaV0e4W6NSr1S9hQYYaa-pm4rXaOTkjRyP-SQlDoz9jeTvDNBqXoa2TvIMUgibFDglld3_2xNzUD_4FPLpU44cvPugvzIqkwvjfZ_qqqrMQg2lQ==",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "endpoint2.collection"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flyfrontier.com",
+                "www.avianca.com"
+            ]
+        },
+        {
+            "rule": "sumologic\\.com\\/sumologic-rum\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "rum"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9dddbb4a39cb504f4bbb627a2da3c07b975d18ce4ef41c4143b3f74656401bed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sumoLogicOpenTelemetryRumSessionId": {
+                    "ttl": null,
+                    "length": 46,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lambdatest.com",
+                "www.parchment.com"
+            ]
+        },
+        {
+            "rule": "sumologic\\.com\\/receiver\\/v1\\/rum\\/ZaVnC4dhaV2fXT3NH8B7HLFsdkDV0jvlPUskEIcGyI8UV6j9xFLmbn8jfa8HsIwa3CNoD73OuuDT3XvgOWecmiTIAWofEx50JHP3wZO2gXz5lmU1Eug07g==\\/v1\\/traces",
+            "cookies": 0.00000683,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rum-collectors.us1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lambdatest.com",
+                "www.lambdatest.com"
+            ]
+        },
+        {
+            "rule": "sumologic\\.com\\/receiver\\/v1\\/rum\\/ZaVnC4dhaV2fXT3NH8B7HLFsdkDV0jvlPUskEIcGyI8UV6j9xFLmbn8jfa8HsIwa3CNoD73OuuDT3XvgOWecmiTIAWofEx50JHP3wZO2gXz5lmU1Eug07g==\\/v1\\/logs",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rum-collectors.us1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lambdatest.com",
+                "www.lambdatest.com"
+            ]
+        },
+        {
+            "rule": "sumologic\\.com\\/receiver\\/v1\\/rum\\/ZaVnC4dhaV2fXT3NH8B7HLFsdkDV0jvlPUskEIcGyI8UV6j9xFLmbn8jfa8HsIwa3CNoD73OuuDT3XvgOWecmiTIAWofEx50JHP3wZO2gXz5lmU1Eug07g==\\/v1\\/traces",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rum-collectors.us1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lambdatest.com",
+                "www.lambdatest.com"
+            ]
+        },
+        {
+            "rule": "sumologic\\.com\\/receiver\\/v1\\/http\\/ZaVnC4dhaV0pj58WrfkBcC5VQ4vTcxgw-PutS_dSDd0B6ZC_gIt8-AXyuWFXhaS1h0ciJdVq6_CZWNOC5NIAj1we5LbOJahacwjPqUh9ZEsUoFgWxT8jOA==",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "endpoint3.collection.us2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mooresclothing.ca",
+                "www.mooresclothing.ca"
+            ]
+        },
+        {
+            "rule": "sumologic\\.com\\/receiver\\/v1\\/http\\/ZaVnC4dhaV0pj58WrfkBcC5VQ4vTcxgw-PutS_dSDd0B6ZC_gIt8-AXyuWFXhaS1h0ciJdVq6_CZWNOC5NIAj1we5LbOJahacwjPqUh9ZEsUoFgWxT8jOA==",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "endpoint3.collection.us2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mooresclothing.ca",
+                "www.mooresclothing.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000157,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7692307692307693
+        },
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.1346153846153846
+        },
+        {
+            "domain": "dmc1acwvwny3.cloudfront.net",
+            "prevalence": 0.0673076923076923
+        },
+        {
+            "domain": "seedtag.com",
+            "prevalence": 0.009615384615384616
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.009615384615384616
+        },
+        {
+            "domain": "amplitude.com",
+            "prevalence": 0.009615384615384616
+        }
+    ],
+    "types": {
+        "XHR": 22,
+        "Script": 2,
+        "Ping": 4,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "beau.ns.cloudflare.com",
+        "nena.ns.cloudflare.com"
+    ]
+}

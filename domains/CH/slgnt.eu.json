@@ -1,0 +1,135 @@
+{
+    "domain": "slgnt.eu",
+    "owner": {
+        "name": "Selligent",
+        "displayName": "Selligent"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [
+        "site-azp",
+        "cgn",
+        "unhcr"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "slgnt\\.eu\\/frontend\\/api\\/track",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "site-azp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "5756b8b8f1efb798b604bad0e16200e1fb17a5634778d301cd0ff9a056662fb3",
+                "7c38c10e00e21caca0b44748e3bd40d9837da56548ae581c773205fd92f8e6e7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drouot.com",
+                "www.cucchiaio.it",
+                "www.quattroruote.it"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/frontend\\/api\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "site-azp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drouot.com",
+                "www.cucchiaio.it",
+                "www.quattroruote.it"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/optiext\\/webtracker\\.dll",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cgn",
+                "unhcr"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5d83cfb31a025b3ae91eddacf41ad4569c0cefd9c69e71b52c9d5e137d8a9eed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "m_ses": {
+                    "ttl": null,
+                    "length": 14,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 1
+                },
+                "m_cnt": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cgn.ch",
+                "www.unhcr.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000603,
+    "topInitiators": [
+        {
+            "domain": "windows.net",
+            "prevalence": 0.42857142857142855
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.42857142857142855
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Fetch": 3,
+        "Preflight": 3,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns15.dnsmadeeasy.com",
+        "ns12.dnsmadeeasy.com",
+        "ns13.dnsmadeeasy.com",
+        "ns10.dnsmadeeasy.com",
+        "ns11.dnsmadeeasy.com",
+        "ns14.dnsmadeeasy.com"
+    ]
+}

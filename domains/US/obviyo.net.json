@@ -1,0 +1,390 @@
+{
+    "domain": "obviyo.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000205,
+    "sites": 30,
+    "subdomains": [
+        "api",
+        "h30-deploy",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "obviyo\\.net\\/edge",
+            "cookies": 0.000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 21,
+            "prevalence": 0.000143,
+            "cnames": [],
+            "responseHashes": [
+                "87392097503acc81ccb70fd5e872e83c4bfa8746aeb5583504628d347214ea86"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "medalsofamerica.com",
+                "briantooleyracing.com",
+                "evryjewels.com",
+                "chefschoice.com",
+                "treperformance.com",
+                "www.strandbags.com.au",
+                "www.autonationusa.com",
+                "westbend.com",
+                "republicoftea.com",
+                "easyspirit.com",
+                "www.republicoftea.com",
+                "www.medalsofamerica.com",
+                "www.altardstate.com",
+                "ninewest.com",
+                "www.rockport.com",
+                "shop.spacex.com",
+                "earthshoes.com",
+                "hunterboots.com",
+                "www.uptontea.com",
+                "www.preciousmoments.com"
+            ]
+        },
+        {
+            "rule": "obviyo\\.net\\/origin\\/__hic_post",
+            "cookies": 0.0000752,
+            "fingerprinting": 0,
+            "subdomains": [
+                "h30-deploy"
+            ],
+            "apis": {},
+            "sites": 22,
+            "prevalence": 0.00015,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_obv_a_vid": 0.00007515201202432193,
+                "_li_dcdm_c": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "treperformance.com",
+                "chefschoice.com",
+                "www.factorydirectfilters.com",
+                "republicoftea.com",
+                "www.rockport.com",
+                "www.republicoftea.com",
+                "hunterboots.com",
+                "www.strandbags.com.au",
+                "www.ruohonjuuri.fi",
+                "briantooleyracing.com",
+                "evryjewels.com",
+                "earthshoes.com",
+                "easyspirit.com",
+                "www.preciousmoments.com",
+                "ninewest.com",
+                "www.uptontea.com",
+                "westbend.com",
+                "shop.spacex.com",
+                "medalsofamerica.com",
+                "www.medalsofamerica.com"
+            ]
+        },
+        {
+            "rule": "obviyo\\.net\\/origin\\/personalize\\/static\\/core\\.js",
+            "cookies": 0.0000273,
+            "fingerprinting": 1,
+            "subdomains": [
+                "h30-deploy"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Navigator.prototype.userAgent": 4,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "6267f7596df3583d9010b6322a4beb7dbdcf2bc64ab9560d16c5a618a1306916"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chefschoice.com",
+                "westbend.com",
+                "www.ruohonjuuri.fi",
+                "www.strandbags.com.au"
+            ]
+        },
+        {
+            "rule": "obviyo\\.net\\/lib\\/hyper\\/obv-components\\.esm\\.js",
+            "cookies": 0.0000752,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 11,
+                "window.indexedDB": 11,
+                "Date.prototype.getTime": 11,
+                "Document.cookie getter": 10,
+                "Document.cookie setter": 10,
+                "Screen.prototype.height": 9,
+                "Screen.prototype.width": 9,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 11,
+            "prevalence": 0.0000752,
+            "cnames": [],
+            "responseHashes": [
+                "4e9b074e54bc63582d4d633a05a18a4c470af6d3b0c9c683703e6694988d043f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_obv_a_vid": {
+                    "ttl": 31536009,
+                    "length": 36,
+                    "prevalence": 0.00006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chefschoice.com",
+                "earthshoes.com",
+                "easyspirit.com",
+                "evryjewels.com",
+                "hunterboots.com",
+                "ninewest.com",
+                "westbend.com",
+                "www.altardstate.com",
+                "www.rockport.com",
+                "www.ruohonjuuri.fi",
+                "www.strandbags.com.au"
+            ]
+        },
+        {
+            "rule": "obviyo\\.net\\/origin\\/personalize\\/static\\/swiper-bundle\\.min\\.js",
+            "cookies": 0.00000683,
+            "fingerprinting": 1,
+            "subdomains": [
+                "h30-deploy"
+            ],
+            "apis": {
+                "Navigator.prototype.maxTouchPoints": 1,
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "fb40e9e8d491646064c4daf7e5e57d9e3bf35c239348ecfeb68623559fe00f67"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chefschoice.com",
+                "westbend.com",
+                "www.factorydirectfilters.com",
+                "www.ruohonjuuri.fi",
+                "www.strandbags.com.au"
+            ]
+        },
+        {
+            "rule": "obviyo\\.net\\/origin\\/personalize\\/static\\/core\\.css",
+            "cookies": 0.00000683,
+            "fingerprinting": 0,
+            "subdomains": [
+                "h30-deploy"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "32f5d57e79d382c40f1b4605e565e0fb9eb21bdfe7c9a01e8c8554e4f950d19f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chefschoice.com",
+                "westbend.com",
+                "www.factorydirectfilters.com",
+                "www.ruohonjuuri.fi",
+                "www.strandbags.com.au"
+            ]
+        },
+        {
+            "rule": "obviyo\\.net\\/lib\\/hyper\\/obv-components\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000752,
+            "cnames": [],
+            "responseHashes": [
+                "6622fa319890efbdbf987cbe79d443916a8d6ccf8da5010a127fb5b6098e67e6"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chefschoice.com",
+                "earthshoes.com",
+                "easyspirit.com",
+                "evryjewels.com",
+                "hunterboots.com",
+                "ninewest.com",
+                "westbend.com",
+                "www.altardstate.com",
+                "www.rockport.com",
+                "www.ruohonjuuri.fi",
+                "www.strandbags.com.au"
+            ]
+        },
+        {
+            "rule": "obviyo\\.net\\/recommend\\/qn",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dbdaada87ee5561fefc1bd817281cfccc007bf36e90e57a1a51d257f67632a68"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_obv_a_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "evryjewels.com",
+                "www.strandbags.com.au"
+            ]
+        },
+        {
+            "rule": "obviyo\\.net\\/dynamic\\/loader\\/prod\\/s2NTgvey",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7caa6feb650558afdccafedce544777dac80857712e216cca435d41dc0a23f93"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rockport.com",
+                "www.rockport.com"
+            ]
+        },
+        {
+            "rule": "obviyo\\.net\\/origin\\/personalize\\/prod\\/s2NTgvey",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "h30-deploy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "228b9d8c63a82c2d59313913b038d187c6c338cc6ac2b0c62c179c60cd1466e5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rockport.com",
+                "www.rockport.com"
+            ]
+        },
+        {
+            "rule": "obviyo\\.net\\/dynamic\\/loader\\/prod\\/cxq0l4IB",
+            "cookies": 0.00000683,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c35b534445012dcf116130d0f794ace0881e55f77fc7c0c0011340d083fd9628"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "strandbags.com.au",
+                "www.strandbags.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000205,
+    "topInitiators": [
+        {
+            "domain": "hiconversion.com",
+            "prevalence": 0.4806201550387597
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4728682170542636
+        },
+        {
+            "domain": "minmaxify.com",
+            "prevalence": 0.031007751937984496
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.015503875968992248
+        }
+    ],
+    "types": {
+        "Fetch": 25,
+        "Ping": 22,
+        "Script": 24,
+        "Stylesheet": 16
+    },
+    "nameservers": [
+        "damian.ns.cloudflare.com",
+        "virginia.ns.cloudflare.com"
+    ]
+}

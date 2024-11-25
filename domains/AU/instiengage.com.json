@@ -1,0 +1,337 @@
+{
+    "domain": "instiengage.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "auth",
+        "geoip",
+        "eua",
+        "core-commenting",
+        "event",
+        "product"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "instiengage\\.com\\/auth\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "auth"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "32dcb7b5d0e79583353a56225e4d8097e004103102d584e245d1b96547f9948d"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allkpop.com",
+                "www.allfreeknitting.com",
+                "www.dailywire.com",
+                "www.discovermagazine.com",
+                "www.justjared.com",
+                "www.sherdog.com",
+                "www.typingtest.com"
+            ]
+        },
+        {
+            "rule": "instiengage\\.com\\/json\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geoip"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "8dfa42b91545f4b7c65982933b596290f07b21b03cf557c65e4cf730367a95a0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allkpop.com",
+                "www.allkpop.com",
+                "www.allfreeknitting.com",
+                "www.discovermagazine.com",
+                "www.justjared.com",
+                "www.sherdog.com",
+                "www.typingtest.com"
+            ]
+        },
+        {
+            "rule": "instiengage\\.com\\/auth\\/authIframe\\.js",
+            "cookies": 0.000502,
+            "fingerprinting": 1,
+            "subdomains": [
+                "auth"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "window.localStorage": 5,
+                "Navigator.prototype.cookieEnabled": 5,
+                "Document.cookie setter": 5,
+                "Document.cookie getter": 5,
+                "window.name": 5,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "d986ac10210e65ce35ce408c2c6900dfb4c02ebe7710fa27b0dd09b86ebdcd2b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allkpop.com",
+                "www.allfreeknitting.com",
+                "www.dailywire.com",
+                "www.discovermagazine.com",
+                "www.sherdog.com",
+                "www.typingtest.com"
+            ]
+        },
+        {
+            "rule": "instiengage\\.com\\/v1\\/auth\\/token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eua"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allkpop.com",
+                "www.allfreeknitting.com",
+                "www.dailywire.com",
+                "www.discovermagazine.com",
+                "www.sherdog.com"
+            ]
+        },
+        {
+            "rule": "instiengage\\.com\\/v1\\/auth\\/token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eua"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "a67322a5fd900d8f2072f24fff6e89e77722403c218299e091f33c3e7d95fb54",
+                "fff0a30855d66dc54b1ed4729ec6d22904bc80c441573f10bd283d07f176cf7a",
+                "60536cca5107b8af6b5d04e499121d87b0752e45dca64d457285e1fed291dbf7",
+                "a6110ac88ff60eaf9349bec0d1d5fa330489c061a6578ba34c77e855e28fa29d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allkpop.com",
+                "www.allfreeknitting.com",
+                "www.dailywire.com",
+                "www.discovermagazine.com",
+                "www.sherdog.com"
+            ]
+        },
+        {
+            "rule": "instiengage\\.com\\/core-commenting\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "core-commenting"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "981e1f215a2d5633688a8cf59f8315f7265e79e2ada9bc3180d7f965e5c6387e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allkpop.com",
+                "www.dailywire.com"
+            ]
+        },
+        {
+            "rule": "instiengage\\.com\\/v1\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "event"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allkpop.com",
+                "www.allkpop.com"
+            ]
+        },
+        {
+            "rule": "instiengage\\.com\\/v1\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "event"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allkpop.com",
+                "www.allkpop.com"
+            ]
+        },
+        {
+            "rule": "instiengage\\.com\\/core-commenting\\/app\\/2ab3c6fba8c01b6c317b\\/counter\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "core-commenting"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0b6b65fca251485014b937d55bdd7339662d20c4d85ad1d3d72ade3f21b452a1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allkpop.com",
+                "www.dailywire.com"
+            ]
+        },
+        {
+            "rule": "instiengage\\.com\\/product-loader-code\\/2cdf4c71-ad6c-487e-b43a-8f1af912284a\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "product"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "justjared.com",
+                "www.justjared.com"
+            ]
+        },
+        {
+            "rule": "instiengage\\.com\\/product-loader-code\\/d3750b8c-9a27-4d1d-b94f-af6b8e048b78\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "product"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cc008c63ff7d6af99a50d816049951a82df71389607baac3195394c86419206c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "plsVisitorGeo": {
+                    "ttl": 86421,
+                    "length": 2,
+                    "prevalence": 0.0002008838891120932,
+                    "uniqueness": 0.5
+                },
+                "plsVisitorCity": {
+                    "ttl": 86421,
+                    "length": 15,
+                    "prevalence": 0.0002008838891120932,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "typingtest.com",
+                "www.typingtest.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000603,
+    "topInitiators": [
+        {
+            "domain": "d3lcz8vpax4lo2.cloudfront.net",
+            "prevalence": 0.6333333333333333
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "script.ac",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "geoedge.be",
+            "prevalence": 0.03333333333333333
+        }
+    ],
+    "types": {
+        "Document": 7,
+        "XHR": 9,
+        "Script": 14,
+        "Preflight": 7,
+        "Fetch": 5
+    },
+    "nameservers": [
+        "carl.ns.cloudflare.com",
+        "lola.ns.cloudflare.com"
+    ]
+}

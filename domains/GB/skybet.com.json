@@ -1,0 +1,96 @@
+{
+    "domain": "skybet.com",
+    "owner": {
+        "name": "Hestview Limited",
+        "displayName": "Hestview"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "st1",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "skybet\\.com\\/static\\/identity\\/SkyBetAccount\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "st1"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1,
+                "window.sessionStorage": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "20938d90c3d62bb99509caf3d9a4ad81c0f9012ab17114fd3aa1775646ed7aeb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__SBA_POLLTIME": {
+                    "ttl": null,
+                    "length": 28,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "itv.com",
+                "itv7.itv.com",
+                "www.skyvegas.com"
+            ]
+        },
+        {
+            "rule": "skybet\\.com\\/secure\\/identity\\/authorization",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "86122f3344b785ca31ae88608dd7a464a1852460d4029b5047b2df052e4af3de"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "itv.com",
+                "itv7.itv.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Document": 2
+    },
+    "nameservers": [
+        "rajeev.ns.cloudflare.com",
+        "sunny.ns.cloudflare.com"
+    ]
+}

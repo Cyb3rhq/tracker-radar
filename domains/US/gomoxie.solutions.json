@@ -1,0 +1,575 @@
+{
+    "domain": "gomoxie.solutions",
+    "owner": {
+        "name": "Moxie Software Inc.",
+        "displayName": "Moxie Software"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000888,
+    "sites": 13,
+    "subdomains": [
+        "asset",
+        "location",
+        "events-jjillecp",
+        "events-lifetimefitness",
+        "events-vitacost",
+        "events-sandals",
+        "connector-lifetimefitness"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "gomoxie\\.solutions\\/concierge\\/jjillecp\\/client\\/concierge-client\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "asset"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "beabdd0662eaeb6b360611cda5feb10501c22be99a49d8af08a021454dd823d3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jjill.com",
+                "www.jjill.com"
+            ]
+        },
+        {
+            "rule": "gomoxie\\.solutions\\/concierge\\/jjillecp\\/config\\/latest\\/2\\/web\\/configuration\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "asset"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c7a4b8d796dc1a5add4e470466511f3a9933c5a45bf5297a5fd437fcceaad69b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jjill.com",
+                "www.jjill.com"
+            ]
+        },
+        {
+            "rule": "gomoxie\\.solutions\\/concierge\\/jjillecp\\/client\\/storage_bridge\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "asset"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2d372e697328665dc46755beda470cbdcf41f2c2cbb777c845ee122e9a3a02a7"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jjill.com",
+                "www.jjill.com"
+            ]
+        },
+        {
+            "rule": "gomoxie\\.solutions\\/concierge\\/jjillecp\\/widgets\\/1719972388521\\/desktop\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "asset"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1eaa51eb6913c617b38e6e21eb0374a7bbbd6af53174875efb861e08459bcfc4"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jjill.com",
+                "www.jjill.com"
+            ]
+        },
+        {
+            "rule": "gomoxie\\.solutions\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "location"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "f42cd9eb4869c8937fa5555a87740b3079bb86d6a8a483beb61978ecd5a04095"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jjill.com",
+                "my.lifetime.life",
+                "vitacost.com",
+                "www.beaches.com",
+                "www.jjill.com",
+                "www.lifetime.life",
+                "www.sandals.com",
+                "www.vitacost.com"
+            ]
+        },
+        {
+            "rule": "gomoxie\\.solutions\\/1\\.1\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events-jjillecp",
+                "events-lifetimefitness",
+                "events-vitacost",
+                "events-sandals"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jjill.com",
+                "my.lifetime.life",
+                "vitacost.com",
+                "www.beaches.com",
+                "www.jjill.com",
+                "www.lifetime.life",
+                "www.sandals.com",
+                "www.vitacost.com"
+            ]
+        },
+        {
+            "rule": "gomoxie\\.solutions\\/1\\.1\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events-jjillecp",
+                "events-lifetimefitness",
+                "events-vitacost",
+                "events-sandals"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jjill.com",
+                "my.lifetime.life",
+                "vitacost.com",
+                "www.beaches.com",
+                "www.jjill.com",
+                "www.lifetime.life",
+                "www.sandals.com",
+                "www.vitacost.com"
+            ]
+        },
+        {
+            "rule": "gomoxie\\.solutions\\/concierge\\/lifetimefitness\\/client\\/concierge-client\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "asset"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.appName": 3,
+                "window.localStorage": 3,
+                "window.sessionStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.appVersion": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "beabdd0662eaeb6b360611cda5feb10501c22be99a49d8af08a021454dd823d3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifetime.life",
+                "my.lifetime.life",
+                "www.lifetime.life"
+            ]
+        },
+        {
+            "rule": "gomoxie\\.solutions\\/concierge\\/lifetimefitness\\/client\\/storage_bridge\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "asset"
+            ],
+            "apis": {
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "2d372e697328665dc46755beda470cbdcf41f2c2cbb777c845ee122e9a3a02a7"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifetime.life",
+                "my.lifetime.life",
+                "www.lifetime.life"
+            ]
+        },
+        {
+            "rule": "gomoxie\\.solutions\\/concierge\\/lifetimefitness\\/config\\/latest\\/2\\/web\\/configuration\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "asset"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "a1e738c7e05196d95f69f9088c3f5c8ccaf329de0f673714737ec11c8582a05a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifetime.life",
+                "my.lifetime.life",
+                "www.lifetime.life"
+            ]
+        },
+        {
+            "rule": "gomoxie\\.solutions\\/concierge\\/lifetimefitness\\/widgets\\/1719972626381\\/desktop\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "asset"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "a98d59fcab99c8ff308dc6f4c146ad38e24aff2480de3a5b813c7a426b95189e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifetime.life",
+                "my.lifetime.life",
+                "www.lifetime.life"
+            ]
+        },
+        {
+            "rule": "gomoxie\\.solutions\\/connector\\/channels\\/portals_with_queue_status\\/88\\/device\\/3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "connector-lifetimefitness"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "08f66222a2260fd076f694a78e8efc23d055d2c9a20a3db2b9632be51b2b4b98",
+                "661ef2ed445189a54e00e4c5423afce5fa518b66fb83ba75bd7459cb909c70c6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifetime.life",
+                "my.lifetime.life",
+                "www.lifetime.life"
+            ]
+        },
+        {
+            "rule": "gomoxie\\.solutions\\/concierge\\/vitacost\\/client\\/concierge-client\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "asset"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "beabdd0662eaeb6b360611cda5feb10501c22be99a49d8af08a021454dd823d3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vitacost.com",
+                "www.vitacost.com"
+            ]
+        },
+        {
+            "rule": "gomoxie\\.solutions\\/concierge\\/vitacost\\/client\\/storage_bridge\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "asset"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2d372e697328665dc46755beda470cbdcf41f2c2cbb777c845ee122e9a3a02a7"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vitacost.com",
+                "www.vitacost.com"
+            ]
+        },
+        {
+            "rule": "gomoxie\\.solutions\\/concierge\\/vitacost\\/config\\/latest\\/2\\/web\\/configuration\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "asset"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9d65b3baa0befb5eb4455dfae676222b80974da8d6ecc78e66f8259a20f19711"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vitacost.com",
+                "www.vitacost.com"
+            ]
+        },
+        {
+            "rule": "gomoxie\\.solutions\\/concierge\\/vitacost\\/widgets\\/1719974972904\\/desktop\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "asset"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7e6741c554f530d8ff5da85349e88dafc9cc33d1d660dc6c34fe1967f5f12c31"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vitacost.com",
+                "www.vitacost.com"
+            ]
+        },
+        {
+            "rule": "gomoxie\\.solutions\\/concierge\\/sandals\\/client\\/concierge-client\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "asset"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.appVersion": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "beabdd0662eaeb6b360611cda5feb10501c22be99a49d8af08a021454dd823d3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beaches.com",
+                "www.sandals.com"
+            ]
+        },
+        {
+            "rule": "gomoxie\\.solutions\\/concierge\\/sandals\\/client\\/storage_bridge\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "asset"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2d372e697328665dc46755beda470cbdcf41f2c2cbb777c845ee122e9a3a02a7"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beaches.com",
+                "www.sandals.com"
+            ]
+        },
+        {
+            "rule": "gomoxie\\.solutions\\/concierge\\/sandals\\/config\\/latest\\/2\\/web\\/configuration\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "asset"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "64bce9d4deeb69d084341725186919daaf686ce72cc58eac72724b405e9ca2a6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beaches.com",
+                "www.sandals.com"
+            ]
+        },
+        {
+            "rule": "gomoxie\\.solutions\\/concierge\\/sandals\\/widgets\\/1719973057869\\/desktop\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "asset"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0b63140e9fd1afe8d2b2429983edd955a7cd88ccd6e7f432592ba2ad93dbd7fa"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beaches.com",
+                "www.sandals.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.39344262295081966
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.18032786885245902
+        },
+        {
+            "domain": "securedvisit.com",
+            "prevalence": 0.14754098360655737
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.09836065573770492
+        },
+        {
+            "domain": "contentsquare.net",
+            "prevalence": 0.09836065573770492
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.08196721311475409
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "XHR": 28,
+        "Document": 9,
+        "Stylesheet": 9,
+        "Preflight": 8
+    },
+    "nameservers": [
+        "ns-1060.awsdns-04.org",
+        "ns-195.awsdns-24.com",
+        "ns-2001.awsdns-58.co.uk",
+        "ns-811.awsdns-37.net"
+    ]
+}

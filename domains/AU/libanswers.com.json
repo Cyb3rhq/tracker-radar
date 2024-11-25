@@ -1,0 +1,98 @@
+{
+    "domain": "libanswers.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "usyd",
+        "region-au",
+        "unswlibrary",
+        "chat-au"
+    ],
+    "cnames": [
+        {
+            "original": "faq.lib.uts.edu.au",
+            "resolved": "region-au.libanswers.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "libanswers\\.com\\/load_chat\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "usyd",
+                "region-au",
+                "unswlibrary"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "faq.lib.uts.edu.au",
+                    "resolved": "region-au.libanswers.com"
+                }
+            ],
+            "responseHashes": [
+                "60087553c1e780c04b4a11513273dc257d042a11ec434494ae7a9f50eb505298",
+                "fef2d4ee9e62379474d40f520ccabcbc3af71dbd93791284660d3e708859f1bc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sydney.edu.au",
+                "www.lib.uts.edu.au",
+                "www.library.unsw.edu.au"
+            ]
+        },
+        {
+            "rule": "libanswers\\.com\\/widget_status",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat-au"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "3a9a829a2d6d3cb512e940e516485c8f750496193b0c487a5101a2f57d953e68",
+                "f5ff1b2189014d2c88abd4ca40e062174b530beae75615673e46266115b4f16b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sydney.edu.au",
+                "www.lib.uts.edu.au",
+                "www.library.unsw.edu.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns-591.awsdns-09.net",
+        "ns-1830.awsdns-36.co.uk",
+        "ns-1474.awsdns-56.org",
+        "ns-140.awsdns-17.com"
+    ]
+}

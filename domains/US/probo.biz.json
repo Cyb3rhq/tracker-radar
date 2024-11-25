@@ -1,0 +1,135 @@
+{
+    "domain": "probo.biz",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "popfind",
+        "poplink-f"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "probo\\.biz\\/current\\/js\\/popfind\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "popfind"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.name": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cd8869da2058bf84944cad049fe3b4fb534c9f477c3df98092adffa3cf1c582d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "bst.sid.0": {
+                    "ttl": 1808,
+                    "length": 36,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "global.sharp",
+                "workman.jp"
+            ]
+        },
+        {
+            "rule": "probo\\.biz\\/pl3\\/poplink3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "poplink-f"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "window.sessionStorage": 4,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "ff815c6d211bc7ae3e2da43f5ff6e3ed9f9b7a6e1697a6926fc8a5aba3a9a948"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "global.sharp",
+                "p-bandai.jp",
+                "workman.jp",
+                "www.suntory-kenko.com"
+            ]
+        },
+        {
+            "rule": "probo\\.biz\\/pl3\\/images\\/close\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "poplink-f"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "d821a661431b312a5284dba84762096bab149972b277e21ddfaba930c1e6ccae"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "global.sharp",
+                "p-bandai.jp",
+                "workman.jp",
+                "www.suntory-kenko.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.625
+        },
+        {
+            "domain": "poplink.jp",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "onetrust.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Image": 4
+    },
+    "nameservers": [
+        "c00soz01.probo.biz",
+        "c00sil01.probo.biz",
+        "c00sih01.probo.biz",
+        "c00stz01.probo.biz",
+        "c00stl01.probo.biz"
+    ]
+}

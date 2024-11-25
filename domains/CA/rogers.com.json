@@ -1,0 +1,124 @@
+{
+    "domain": "rogers.com",
+    "owner": {
+        "name": "Rogers Communications Inc.",
+        "displayName": "Rogers Communications"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000503,
+    "sites": 5,
+    "subdomains": [
+        "stracking",
+        "chat",
+        "stquebeccitywireless",
+        "sttrois-riviereswireless"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "rogers\\.com\\/id",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stracking"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "249e3fef8a841b7b020762cbea43a6c7df5cb5b52d0c111caa6ad70eca1b77f3",
+                "93c7fe239ee4697bf5dd8c28d24d899da40c24ae075ce592f1b8478cb6dc669e",
+                "aee0ee285308dbbbfadd10d1e4be980b33e98e27ec4a79a102cc8c64d32eb6d1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rogersbank.com",
+                "www.rogersmembercentre.com",
+                "www.shaw.ca",
+                "www.shawdirect.ca"
+            ]
+        },
+        {
+            "rule": "rogers\\.com\\/assets\\/shaw-chat-icon\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f1d1036106ecf5bbb196a1f2fe67b5ae1c233b0dad4de891adb305f746e95f36"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shaw.ca",
+                "www.shaw.ca"
+            ]
+        },
+        {
+            "rule": "rogers\\.com\\/ws",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stquebeccitywireless",
+                "sttrois-riviereswireless"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "speedtest.net",
+                "www.speedtest.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "cdnst.net",
+            "prevalence": 0.26666666666666666
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.13333333333333333
+        }
+    ],
+    "types": {
+        "XHR": 4,
+        "Image": 2,
+        "WebSocket": 2
+    },
+    "nameservers": [
+        "ns-a6.rogers.com",
+        "ns3.ym.rnc.net.cable.rogers.com",
+        "ns2.wlfdle.rnc.net.cable.rogers.com",
+        "ns-a1.rogers.com",
+        "ns-a3.rogers.com",
+        "ns2.ym.rnc.net.cable.rogers.com",
+        "ns-a8.rogers.com",
+        "ns3.wlfdle.rnc.net.cable.rogers.com",
+        "ns-a9.rogers.com"
+    ]
+}

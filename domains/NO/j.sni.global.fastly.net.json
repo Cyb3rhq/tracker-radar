@@ -1,0 +1,154 @@
+{
+    "domain": "j.sni.global.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00251,
+    "sites": 25,
+    "subdomains": [
+        "dualstack"
+    ],
+    "cnames": [
+        {
+            "original": "api.hackster.io",
+            "resolved": "dualstack.j.sni.global.fastly.net"
+        },
+        {
+            "original": "cm.aftenposten.no",
+            "resolved": "j.sni.global.fastly.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "j\\.sni\\.global\\.fastly\\.net\\/v2\\/aftenposten\\/coreheader",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "cm.aftenposten.no",
+                    "resolved": "j.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "a0e003c3fc085134367f80c6d90f9d3fd27054946487026eeea9455d8870adea"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aftenposten.no",
+                "www.aftenposten.no"
+            ]
+        },
+        {
+            "rule": "j\\.sni\\.global\\.fastly\\.net\\/graphql\\/query",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.hackster.io",
+                    "resolved": "dualstack.j.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hackster.io",
+                "www.hackster.io"
+            ]
+        },
+        {
+            "rule": "j\\.sni\\.global\\.fastly\\.net\\/graphql\\/query",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.hackster.io",
+                    "resolved": "dualstack.j.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "3cda948fdd7ccacc9e5dffdaf78a97ff6f4b03bfb11be9a19ab26724b811aa6c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hackster.io",
+                "www.hackster.io"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0.000603,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7419354838709677
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.12903225806451613
+        },
+        {
+            "domain": "hackster-cdn.online",
+            "prevalence": 0.04838709677419355
+        },
+        {
+            "domain": "googlesyndication.com",
+            "prevalence": 0.03225806451612903
+        },
+        {
+            "domain": "vgc.no",
+            "prevalence": 0.016129032258064516
+        },
+        {
+            "domain": "privacy-center.org",
+            "prevalence": 0.016129032258064516
+        },
+        {
+            "domain": "webcontentassessor.global.ssl.fastly.net",
+            "prevalence": 0.016129032258064516
+        }
+    ],
+    "types": {
+        "XHR": 4,
+        "Preflight": 2
+    },
+    "nameservers": []
+}

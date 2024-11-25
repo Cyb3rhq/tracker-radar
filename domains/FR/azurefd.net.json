@@ -1,0 +1,103 @@
+{
+    "domain": "azurefd.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.00141,
+    "sites": 14,
+    "subdomains": [
+        "prod-afd-endpoint-maiffr-gxashhh0eufxfpb0.a02",
+        "afd-b2c-iibozyiouoyi4.z01"
+    ],
+    "cnames": [
+        {
+            "original": "consumer.intel.com",
+            "resolved": "afd-b2c-iibozyiouoyi4.z01.azurefd.net"
+        },
+        {
+            "original": "static.maif.fr",
+            "resolved": "prod-afd-endpoint-maiffr-gxashhh0eufxfpb0.a02.azurefd.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "azurefd\\.net\\/resources\\/img\\/logo-maif\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-afd-endpoint-maiffr-gxashhh0eufxfpb0.a02"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [
+                {
+                    "original": "static.maif.fr",
+                    "resolved": "prod-afd-endpoint-maiffr-gxashhh0eufxfpb0.a02.azurefd.net"
+                }
+            ],
+            "responseHashes": [
+                "d3a6c5e6c05811d1627d6f9da4c34f5ce4073f690f37c85207c410caee2b36d3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maif.fr",
+                "connect.maif.fr",
+                "www.maif.fr"
+            ]
+        },
+        {
+            "rule": "azurefd\\.net\\/intelcorpb2c\\.onmicrosoft\\.com\\/B2C_1A_UNIFIEDLOGIN_SISU_STD_OIDC\\/oauth2\\/v2\\.0\\/authorize",
+            "cookies": 0.000202,
+            "fingerprinting": 0,
+            "subdomains": [
+                "afd-b2c-iibozyiouoyi4.z01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [
+                {
+                    "original": "consumer.intel.com",
+                    "resolved": "afd-b2c-iibozyiouoyi4.z01.azurefd.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intel.com",
+                "community.intel.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000705,
+    "topInitiators": [
+        {
+            "domain": "trustcommander.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 3,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns1-37.azure-dns.com",
+        "ns3-37.azure-dns.org",
+        "ns4-37.azure-dns.info",
+        "ns2-37.azure-dns.net"
+    ]
+}

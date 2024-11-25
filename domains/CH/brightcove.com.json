@@ -1,0 +1,373 @@
+{
+    "domain": "brightcove.com",
+    "owner": {
+        "name": "Brightcove, Inc.",
+        "displayName": "Brightcove",
+        "privacyPolicy": "https://www.brightcove.com/en/legal/privacy",
+        "url": "http://brightcove.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00251,
+    "sites": 25,
+    "subdomains": [
+        "sadmin",
+        "metrics",
+        "assets.map",
+        "map",
+        "edge.api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "brightcove\\.com\\/js\\/BrightcoveExperiences\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sadmin"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.plugins": 1,
+                "HTMLMediaElement.prototype.canPlayType": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c9408cf5d8e0d12fb2b1d5ad6b4489be392384a4687962a0fc2a2877a57775c8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intersystems.com",
+                "www.nga.gov"
+            ]
+        },
+        {
+            "rule": "brightcove\\.com\\/v2\\/tracker",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "metrics"
+            ],
+            "apis": {},
+            "sites": 21,
+            "prevalence": 0.00211,
+            "cnames": [],
+            "responseHashes": [
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "gpv_v9": 0.00010046212577858148,
+                "gpv_Purl": 0.00010046212577858148
+            },
+            "exampleSites": [
+                "www.consumerreports.org",
+                "www.roche.com",
+                "www.bfmtv.com",
+                "www.federalreserve.gov",
+                "www.cisco.com",
+                "www.cartier.com",
+                "www.paloaltonetworks.com",
+                "www.i24news.tv",
+                "www.vmware.com",
+                "www.lonza.com",
+                "www.montblanc.com",
+                "www.fitchratings.com",
+                "www.webex.com",
+                "www.blueplus.ch",
+                "www.msf.ch",
+                "www.nittoatpfinals.com",
+                "www.thetimes.com",
+                "support.sas.com",
+                "www.longchamp.com",
+                "www.christies.com"
+            ]
+        },
+        {
+            "rule": "brightcove\\.com\\/plugin\\/dist\\/videojs-bc-map-core\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets.map"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 5,
+                "Document.cookie getter": 3
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "be941e0dd84fbead04815b276a1a777e0ed994b7fd59f07f3f6054bd086e3d28"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sas.com",
+                "www.fitchratings.com",
+                "www.lonza.com",
+                "www.vmware.com",
+                "www.webex.com"
+            ]
+        },
+        {
+            "rule": "brightcove\\.com\\/config",
+            "cookies": 0.000502,
+            "fingerprinting": 0,
+            "subdomains": [
+                "map"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "d6559266b37270ab721e7eb923616b62dc5d1b78844a0632d214969bd44b9e36",
+                "9bdabb7e377a2b71017021e9125f2ee89282d1d8db0aace100e3ce9ddaca4390",
+                "fd76da145cf325be1c601ed35baeba420feadc07fbe99b9c94a6704c7e5cff96",
+                "ed0f9d4cb12ad1fe1825ac87d690047c33452a4eb410248151098c8a80c7cfbe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sas.com",
+                "www.fitchratings.com",
+                "www.lonza.com",
+                "www.vmware.com",
+                "www.webex.com"
+            ]
+        },
+        {
+            "rule": "brightcove\\.com\\/playback\\/v1\\/accounts\\/1078702682\\/videos\\/6341490702112",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b00b4d72276e90e82bd4d26771d088b310d45488ce3a1391edc5ffed0630c3a2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "consumerreports.org",
+                "www.consumerreports.org"
+            ]
+        },
+        {
+            "rule": "brightcove\\.com\\/playback\\/v1\\/accounts\\/1078702682\\/videos\\/6359619214112",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5321451d7ceca06391030bab3e9b42725771579c07e91f5c5db3eaf22039c1fe"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "consumerreports.org",
+                "www.consumerreports.org"
+            ]
+        },
+        {
+            "rule": "brightcove\\.com\\/playback\\/v1\\/accounts\\/1078702682\\/videos\\/6346305816112",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "30a22323174f9fec9359467f3c6e36c492570d73ec20db77e919df812be77dc8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "consumerreports.org",
+                "www.consumerreports.org"
+            ]
+        },
+        {
+            "rule": "brightcove\\.com\\/playback\\/v1\\/accounts\\/1532789042001\\/videos\\/6346294020112\\/high\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ptc.com",
+                "www.ptc.com"
+            ]
+        },
+        {
+            "rule": "brightcove\\.com\\/playback\\/v1\\/accounts\\/1532789042001\\/videos\\/6354453834112\\/high\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ptc.com",
+                "www.ptc.com"
+            ]
+        },
+        {
+            "rule": "brightcove\\.com\\/playback\\/v1\\/accounts\\/1532789042001\\/videos\\/6354453531112\\/high\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ptc.com",
+                "www.ptc.com"
+            ]
+        },
+        {
+            "rule": "brightcove\\.com\\/playback\\/v1\\/accounts\\/1532789042001\\/videos\\/6354453062112\\/high\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ptc.com",
+                "www.ptc.com"
+            ]
+        },
+        {
+            "rule": "brightcove\\.com\\/playback\\/v1\\/accounts\\/6205269558001\\/videos\\/6362393901112",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "roche.com",
+                "www.roche.com"
+            ]
+        },
+        {
+            "rule": "brightcove\\.com\\/playback\\/v1\\/accounts\\/6205269558001\\/videos\\/6362393901112",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "010f70dffe37dcdddee2a0545a25db49c6029a0cd71f3b6e020c4b61281b1200"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "roche.com",
+                "www.roche.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Advertising",
+        "Analytics",
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "brightcove.net",
+            "prevalence": 0.8773006134969326
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.1196319018404908
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.003067484662576687
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Image": 21,
+        "XHR": 8,
+        "Media": 8,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-1426.awsdns-50.org",
+        "ns-1868.awsdns-41.co.uk",
+        "ns-359.awsdns-44.com",
+        "ns-668.awsdns-19.net"
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "domain": "bf-cname-adsrv.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "target"
+    ],
+    "cnames": [
+        {
+            "original": "intern.finansavisen.no",
+            "resolved": "target.bf-cname-adsrv.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "bf-cname-adsrv\\.net\\/tr\\/v2\\/pixel\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "target"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "intern.finansavisen.no",
+                    "resolved": "target.bf-cname-adsrv.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "finansavisen.no",
+                "www.finansavisen.no"
+            ]
+        },
+        {
+            "rule": "bf-cname-adsrv\\.net\\/io\\/api\\/image\\/optimize",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "target"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "intern.finansavisen.no",
+                    "resolved": "target.bf-cname-adsrv.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "finansavisen.no",
+                "www.finansavisen.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Ping": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ulla.ns.cloudflare.com",
+        "hank.ns.cloudflare.com"
+    ]
+}

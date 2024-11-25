@@ -1,0 +1,134 @@
+{
+    "domain": "shop.pe",
+    "owner": {
+        "name": "Add Shoppers",
+        "displayName": "Add Shoppers"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "shopper",
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "shop\\.pe\\/widget\\/widget_async\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dbjourney.com",
+                "www.ancient-origins.net",
+                "www.routledge.com"
+            ]
+        },
+        {
+            "rule": "shop\\.pe\\/widget\\/main\\/init\\/params",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "7271a4c61761aa323220ac216b21b20006a62f5a342532ec9faaead54c5b4670",
+                "cea151cc4cdf95ef2c621f2be92c805f98d731a6fdcac05fc1b231abc7b55ae7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dbjourney.com",
+                "www.ancient-origins.net",
+                "www.routledge.com"
+            ]
+        },
+        {
+            "rule": "shop\\.pe\\/input\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "shopper"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 3,
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "620a97911c6964bfc7cfacf4df74b3ba598ef728f2117675d171e4c62d500add"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dbjourney.com",
+                "www.ancient-origins.net",
+                "www.routledge.com"
+            ]
+        },
+        {
+            "rule": "shop\\.pe\\/app\\/datapartners\\/status",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "b4435b5ac2f1916ed1135fb1738a1cef87cb666f4356a6678fb1c77e1273f9e1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dbjourney.com",
+                "www.ancient-origins.net",
+                "www.routledge.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "d2mjzob2nc713b.cloudfront.net",
+            "prevalence": 0.5238095238095238
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.47619047619047616
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns-1375.awsdns-43.org",
+        "ns-1678.awsdns-17.co.uk",
+        "ns-482.awsdns-60.com",
+        "ns-601.awsdns-11.net"
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "domain": "jobvite.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "jobs",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "jobvite\\.com\\/__assets__\\/scripts\\/careersite\\/public\\/iframe\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jobs"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "b3147a124ca8ac7c2285c712749f9a0316a3d9aca519421badfb19c7f6256a05"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gcpat.com",
+                "glidewelldental.com",
+                "www.qpublic.net"
+            ]
+        },
+        {
+            "rule": "jobvite\\.com\\/api\\/v2\\/job",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "eaf6b39cf41ed0f4ce1ee6b984a8168e10d908b195ee54da0d9787882dcd82d7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ou.org",
+                "www.ou.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000683,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8888888888888888
+        },
+        {
+            "domain": "schneidergis.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-231.awsdns-28.com",
+        "ns-849.awsdns-42.net",
+        "ns-1085.awsdns-07.org",
+        "ns-1989.awsdns-56.co.uk"
+    ]
+}

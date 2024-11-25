@@ -1,0 +1,1612 @@
+{
+    "domain": "eu-west-1.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.0129,
+    "sites": 128,
+    "subdomains": [
+        "production-klarna-il-shopify-osm.s3",
+        "289r1hnfc9.execute-api",
+        "carwow-photos.s3",
+        "o9tt6h08li.execute-api",
+        "cognito-identity",
+        "hob-amazon-s3-bucket.s3",
+        "comms-mat.s3",
+        "savills-auth-redirect-prod.s3",
+        "dataplane.rum",
+        "prometheus-prod-media.s3",
+        "site-tenant-configuration.s3",
+        "prod-ses-proxy-ext-lb-9287c7c2cf3220a1.elb",
+        "s3",
+        "coop-fonts.s3",
+        "a06f023f058ed440c819e858713077ff-3e1b685b37db9832.elb",
+        "sqs",
+        "cbsquared-shopware.s3"
+    ],
+    "cnames": [
+        {
+            "original": "api-v3.easyfundraising.org.uk",
+            "resolved": "a06f023f058ed440c819e858713077ff-3e1b685b37db9832.elb.eu-west-1.amazonaws.com"
+        },
+        {
+            "original": "mediaweb.musicradio.com",
+            "resolved": "prod-ses-proxy-ext-lb-9287c7c2cf3220a1.elb.eu-west-1.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/a6c5e37d3b587ca7438f15aa90b429b47085a035\\/258\\.index\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "production-klarna-il-shopify-osm.s3"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "329173b311eb02ebad5191d3b7314d7ffaeb93d00504f46009f4392bbad28e8d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alpkit.com",
+                "ledhut.co.uk",
+                "www.mamasandpapas.com",
+                "www.planetorganic.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/a6c5e37d3b587ca7438f15aa90b429b47085a035\\/3\\.index\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "production-klarna-il-shopify-osm.s3"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "530842f2e4e38417232ca2675795d4befe2ed44a56ffca48ab07716a5044de82"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alpkit.com",
+                "ledhut.co.uk",
+                "www.mamasandpapas.com",
+                "www.planetorganic.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/prod\\/bonmarch-cspdata",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "289r1hnfc9.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bonmarche.co.uk",
+                "www.bonmarche.co.uk"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/Carwow_Lockup_Black\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "carwow-photos.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bf513a315840a9f3a81d404e52c86471b282680ef1a57379e060a9e73eff3ff7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carwow.co.uk",
+                "www.carwow.co.uk"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/v1\\/event\\/setup",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "o9tt6h08li.execute-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "a690bc190481578d7b52acdb0b0ccd9b460defd969ddd138d07e1545589fe932",
+                "8e5c9e0eaee45715de96cdf7b36ae3ccffa8d922e566279d3c84394fa92dd7ae"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "idmobile.co.uk",
+                "en.community.sonos.com",
+                "forum.ovoenergy.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/v1\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "o9tt6h08li.execute-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "idmobile.co.uk",
+                "en.community.sonos.com",
+                "forum.ovoenergy.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/v1\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "o9tt6h08li.execute-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "idmobile.co.uk",
+                "en.community.sonos.com",
+                "forum.ovoenergy.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cognito-identity"
+            ],
+            "apis": {},
+            "sites": 23,
+            "prevalence": 0.00231,
+            "cnames": [],
+            "responseHashes": [
+                "7ad7e82ede620b5ebb59836197b55f8b62cc52d8a5594b89da78f3df1bea90e3",
+                "d8458051a883ae62ff66c2ab04507c33f3569dd383525ed462da2160973c01b6",
+                "cc31cb8d8e7017b975082cce68207035b0e046dc0d56b06648b90573d743282e",
+                "b19e63868353a103396bf99b61b75774d8686511a64c5ca5fef7e413334013ab",
+                "34ce0edb38bbc6aa0768006222c781453a3979be67dca4b505159c97acb706d0",
+                "642dc259352edf6795fb21965f59f4178b6f0fb9884848db2fc8992ddd8d3f00",
+                "7032220938c59b748cf68d207523066dda9562a235ad6687e389c363c92e51c0",
+                "3a7faf64ce40ac43e92eb81da5e08dda05b3af4504338dbaf8f040c9f8caf0d7",
+                "67c20c169fe826bf1bae3b872a91c25f74f3e51868d1dd0dac21f7e684aa3968",
+                "7539e45941a60f4d265a9f239bc4dfbbde487036845b2de62c582fb890e096e0",
+                "a881879e8a45ba0103f6f9311df6ad1409772a38d0c40606c0940e69e5be6730",
+                "9f1f8ee903ad540b29bb6d314a235bfe50b40b5e6a1b9e869b6e0a6e5908aea6",
+                "44f17a1793b3d1fa5c39cddfc894b9df9c448ababe750dacbbb78358945bd131",
+                "f9ace5f473fd42f8b922a20b105e0cffdd82b97839cb4c371747c5c455f0a74d",
+                "d349ec830d0564d3712e3ad2555c3fde3004560bf4a16223c04642bb0bc1908a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.jessops.com",
+                "www.parcel2go.com",
+                "www.dormeo.co.uk",
+                "www.broadband.co.uk",
+                "notonthehighstreet.com",
+                "www.eufy.com",
+                "www.notonthehighstreet.com",
+                "www.sky.com",
+                "www.emmabridgewater.co.uk",
+                "instantpot.co.uk",
+                "www.preloved.co.uk",
+                "www.penshop.co.uk",
+                "www.lelo.com",
+                "www.protyre.co.uk",
+                "www.coolstays.com",
+                "smarty.co.uk",
+                "hyundaipowerequipment.co.uk",
+                "www.greatlittlebreaks.com",
+                "www.rac.co.uk",
+                "www.britishgas.co.uk"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cognito-identity"
+            ],
+            "apis": {},
+            "sites": 29,
+            "prevalence": 0.00291,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.lelo.com",
+                "sky.com",
+                "www.britishgas.co.uk",
+                "hyundaipowerequipment.co.uk",
+                "smarty.co.uk",
+                "www.barnet.gov.uk",
+                "www.nevisport.com",
+                "www.digitalbanking.rbs.co.uk",
+                "www.sportsshoes.com",
+                "www.onlinebanking.natwest.com",
+                "www.coolstays.com",
+                "www.parcel2go.com",
+                "www.pdsa.org.uk",
+                "www.penshop.co.uk",
+                "www.sky.com",
+                "www.preloved.co.uk",
+                "www.jessops.com",
+                "www.eufy.com",
+                "www.emmabridgewater.co.uk",
+                "notonthehighstreet.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/2024\\/aw24_homepage_mockup\\/winter\\/xmasjumpers_kimedit\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hob-amazon-s3-bucket.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8fd63ad13ee486cd8d3097aa132be70de628f06f1bc70b456121b50e0b7bd648"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "houseofbruar.com",
+                "www.houseofbruar.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/2024\\/aw24_homepage_mockup\\/winter\\/final\\/knitwear_winter_home_final\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hob-amazon-s3-bucket.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7787e804ec4e63f2c15b75b59a8f148357896fe57e1a0df4df8f3f9c01ebac35"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "houseofbruar.com",
+                "www.houseofbruar.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/2024\\/aw24_homepage_mockup\\/winter\\/final\\/catalogue_home_winter_final\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hob-amazon-s3-bucket.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "92eb4ec2b7d5be07e3d1dd9e6cba755de54e000a85e278fd2952d18085575048"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "houseofbruar.com",
+                "www.houseofbruar.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/2024\\/aw24_homepage_mockup\\/winter\\/final\\/sporting_home_winter_final\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hob-amazon-s3-bucket.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e20e93773f03377d9b9f30b0f5c1f99fecd3000623f29d15830a69f1b974841f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "houseofbruar.com",
+                "www.houseofbruar.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/2024\\/aw24_homepage_mockup\\/winter\\/countrygifts_2\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hob-amazon-s3-bucket.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f83bba1b82bcf93ec31e9fdbe973e1fb47d7e01a0dde40b973071608c35901ea"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "houseofbruar.com",
+                "www.houseofbruar.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/2024\\/aw24_homepage_mockup\\/winter\\/winter_food_1\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hob-amazon-s3-bucket.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "be053860b8f4a2c28449744dc159d47f3d47fbcd2f8c6d67ee29780b4c40554e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "houseofbruar.com",
+                "www.houseofbruar.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/2024\\/aw24_homepage_mockup\\/winter\\/final\\/winter_home_gift_card_final\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hob-amazon-s3-bucket.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9d85c4853dc1b56c66db54f688cfadbaa0573f647bf08bb7191fce602fb92a4f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "houseofbruar.com",
+                "www.houseofbruar.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/2024\\/aw24_homepage_mockup\\/winter\\/christmas%20hamper%20\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hob-amazon-s3-bucket.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "102f577c48c6fbe2f0f12986fdabb9847380801e5acb3c568249215e7861a350"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "houseofbruar.com",
+                "www.houseofbruar.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/2024\\/aw24_homepage_mockup\\/gift\\/other\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hob-amazon-s3-bucket.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "df7ddcc0d6f47935b6d3f88dd1a744219b8be1cbb0ccf3ec602788097f6d9594"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "houseofbruar.com",
+                "www.houseofbruar.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/2024\\/aw24_homepage_mockup\\/winter\\/giftbox_new\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hob-amazon-s3-bucket.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4115bcfc23eff45b26f2684b899fb5b1bbce8cf993517717c649a3628e848a58"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "houseofbruar.com",
+                "www.houseofbruar.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/prem\\/logos\\/hollandcopper24\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hob-amazon-s3-bucket.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fb54dbddef0450667da0b469e2afc6340e23ade8c66a45851ee9ce827ca80423"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "houseofbruar.com",
+                "www.houseofbruar.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/prem\\/logos\\/barbour2\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hob-amazon-s3-bucket.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e35df73e6142771039c9ea38b83ec0c05c3bac5d84937cb8e8aaeae1677242d8"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "houseofbruar.com",
+                "www.houseofbruar.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/prem\\/logos\\/tommyhilfiger\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hob-amazon-s3-bucket.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f77b8068ca4b8369e9c438a81daed3cead3208aacbf9fcd09bc1700120d3f77e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "houseofbruar.com",
+                "www.houseofbruar.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/prem\\/logos\\/seasalt\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hob-amazon-s3-bucket.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "526966608b88cde21206fdb24888bf538f85f8eda8f6df532889a112b2a3b1d0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "houseofbruar.com",
+                "www.houseofbruar.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/prem\\/logos\\/marble\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hob-amazon-s3-bucket.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e61ef547d4b15a6d6459021204a3cd1dc4cb26aeaacee74673dc7d2239514ea2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "houseofbruar.com",
+                "www.houseofbruar.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/prem\\/logos\\/lily&me\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hob-amazon-s3-bucket.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "78e594bdd528637608b85c481a0562623fb6a5b80cc05cb94910dc4936193550"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "houseofbruar.com",
+                "www.houseofbruar.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/prem\\/logos\\/gant\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hob-amazon-s3-bucket.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b30515d2d1c43626097307a6a6491adf24cff8769c237381410653566c81f2a9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "houseofbruar.com",
+                "www.houseofbruar.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/prem\\/logos\\/crewclothing\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hob-amazon-s3-bucket.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1c254b3ae1fab875c9cecd57060711af37606a191fe9f2235295e3b847c703ad"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "houseofbruar.com",
+                "www.houseofbruar.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/prem\\/logos\\/patagonia\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hob-amazon-s3-bucket.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "918b0d32a3471e5d3eb0076bbee868c96ddfebda0cf6b50735627f4c57eb8814"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "houseofbruar.com",
+                "www.houseofbruar.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/prem\\/logos\\/pomodoro\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hob-amazon-s3-bucket.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d1ac302d3d36306ccac15ec3859d08689b99910a9e8190729721831b37b988cc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "houseofbruar.com",
+                "www.houseofbruar.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/2024\\/aw24_homepage_mockup\\/winter\\/xmasgiftguide\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hob-amazon-s3-bucket.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c62eb1942601ab101b8eb5d6498eaf319791424a18f26fdaaf0a0cca5bbd941d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "houseofbruar.com",
+                "www.houseofbruar.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/2024\\/aw24_homepage_mockup\\/winter\\/tartan_blog\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hob-amazon-s3-bucket.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "21ee96ec6f107946cb173eb3b8244cd866bdea738c83f82958f87f550b84b009"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "houseofbruar.com",
+                "www.houseofbruar.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/2024\\/aw24_homepage_mockup\\/winter\\/hobwinter\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hob-amazon-s3-bucket.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fe7cc00dc3f4230cd889458a0d1586f48f0b7f83367ba82aded0a9ba26e38206"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "houseofbruar.com",
+                "www.houseofbruar.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/Training-Materials\\/Carousels\\/Carousel_Images\\/MFA2\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "comms-mat.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f65719e8484af981fa525e57318f49200cace7f6a3aec3c2191684d0d3efaad4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nhs.net",
+                "www.nhs.net"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/Training-Materials\\/Carousels\\/Carousel_Images\\/teams-premium\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "comms-mat.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f1c91f1b9afab56a96e1f857f1db405d342f1d7bd59b85b059f4fb621c5a1ff6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nhs.net",
+                "www.nhs.net"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/Training-Materials\\/Carousels\\/Carousel_Images\\/shared-channels\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "comms-mat.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "35a977c325ec083795b0ab944b0061331fe38856887d76675b50a145948afd7b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nhs.net",
+                "www.nhs.net"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/Training-Materials\\/Carousels\\/Carousel_Images\\/phone-system\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "comms-mat.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3ece75c96ed6865cf341e1b584013b14f5450027b0b8c58ce419f2a978025599"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nhs.net",
+                "www.nhs.net"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/Training-Materials\\/Carousels\\/Carousel_Images\\/Carousel-MicrosoftTeams-image\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "comms-mat.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "39532ac07e68fe2aec4d490195d1041f97b46480bb60fd52f59b074cbecafbcf"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nhs.net",
+                "www.nhs.net"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/Training-Materials\\/Carousels\\/Carousel_Images\\/securitygroups_carousel\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "comms-mat.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b6327c0c5ee05519eda435e003e0ca33c535533290ec3a97b115e6a593e7218b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nhs.net",
+                "www.nhs.net"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/Training-Materials\\/Carousels\\/Carousel_Images\\/CIS2_Carousel_Img_Final\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "comms-mat.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "db551e530f33877cde155d0d10317d66c34c09a029fa39a83081b37516b006c0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nhs.net",
+                "www.nhs.net"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/Training-Materials\\/Carousels\\/Carousel_Images\\/teams-privacy-slide\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "comms-mat.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4832482d088884b840d394e8d08bf5ad6ccf8a448d896b6b71c781b2f7e1032e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nhs.net",
+                "www.nhs.net"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/auth-redirect\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "savills-auth-redirect-prod.s3"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d20d2acce0a3ced785b756bc366a74083371d7be28384c4bac2562ab86640616"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "savills.com",
+                "www.savills.co.uk"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cognito-identity"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "5b2421a5473b13d5fb48a8388d506448d54735354eec15a7072e59b4bca2143b",
+                "36a070eefc68cc58a7b3423a4729dc99bdde88f458bb1abc3c66e7d0b96bae19",
+                "69c6f6429ff2a7b691a15eca4945ac66f2afaf9ee0e443e1f63545c07bdc6fb8",
+                "79bd5fadd2f68b53427dc5936d5b6aa3089e130c96166c2b49f9a7a8a5fa6ed2",
+                "fb07f227aaf568448ae9eb182a24020e0b8fa41bb6cadbb198f82716a74be9cf"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportsshoes.com",
+                "www.barnet.gov.uk",
+                "www.digitalbanking.rbs.co.uk",
+                "www.hendy.co.uk",
+                "www.onlinebanking.natwest.com",
+                "www.sportsshoes.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/appmonitors\\/f854ab62-003d-4413-bb48-1a10ccada6e6",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dataplane.rum"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportsshoes.com",
+                "www.sportsshoes.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/appmonitors\\/f854ab62-003d-4413-bb48-1a10ccada6e6",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dataplane.rum"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportsshoes.com",
+                "www.sportsshoes.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/2024\\/11\\/longline_nov_desktop\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prometheus-prod-media.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "superdry.com",
+                "www.superdry.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/index\\/production\\/vistaprint\\/en-GB",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "site-tenant-configuration.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d8760f21cb627d681a6288af35e088cd915babc5beb65030a71c704b2b5d0ae7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vistaprint.co.uk",
+                "www.vistaprint.co.uk"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/site-configurations\\/VP-GB",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "site-tenant-configuration.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "873fa26cc243a8965fc41c3434146b86b5f59fd6834c926a0f6d5008afb6a536"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vistaprint.co.uk",
+                "www.vistaprint.co.uk"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/player\\/image\\.aspx",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-ses-proxy-ext-lb-9287c7c2cf3220a1.elb"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [
+                {
+                    "original": "mediaweb.musicradio.com",
+                    "resolved": "prod-ses-proxy-ext-lb-9287c7c2cf3220a1.elb.eu-west-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "4df5cb721cfa6fc37b29d4feae9abe5d10630fbd2f2671a7510e8a6d66d05edb",
+                "906e9f1c2924f6db4c6e7e13057d73d506b8fe69d99074c8e68ca6241a23e072",
+                "05bd520d28b325b7f002afa8b9b503e690a4fbe7ac158b6eaecc35ac82d00fa8",
+                "e442318d9e58c63e79852d0602e52453d0af624e31e4f288a6ada673653246ad"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "capitalfm.com",
+                "www.classicfm.com",
+                "www.heart.co.uk",
+                "www.lbc.co.uk",
+                "www.smoothradio.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/mint\\.assets\\/img\\/2023+Merch\\/10+Oct\\/C%26C\\/Click-and-collect_Icon\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c891e08d1729c636a4faf61170c4a2e7b3f9c94a6ff6d807b8997eecab2e458c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chemistdirect.co.uk",
+                "www.chemistdirect.co.uk"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/prod\\/chw-cspdata",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "289r1hnfc9.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "christopherward.com",
+                "www.christopherward.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/AvenirNext\\/AvenirNextRegular_normal_normal\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "coop-fonts.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "699c3f303a5f3b305f8310a027a9aad099567d073ed30a7b6d9340b897d3f7b4"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "co-oplegalservices.co.uk",
+                "www.coop.co.uk"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/AvenirNext\\/AvenirNextMedium_normal_normal\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "coop-fonts.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "acd2da9f7b0397dfc5030a767b2d2fc59c0997e8b2d2edba5e75a0d18b8f5d8b"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "co-oplegalservices.co.uk",
+                "www.coop.co.uk"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/Co-opHeadline\\/Co-opHeadline-Bold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "coop-fonts.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "454f07a17a89dd959041390988583806e3b8b01a7bb2548f2376232a4e4ecde4"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "co-oplegalservices.co.uk",
+                "www.coop.co.uk"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/AvenirNext\\/AvenirNextDemi_normal_normal\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "coop-fonts.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e68d0ff4b67465017d017355670d9cff40ecbee9edf94ea32e80abc366611322"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "co-oplegalservices.co.uk",
+                "www.coop.co.uk"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/appmonitors\\/a06d971f-c93d-4983-89aa-8dc48507cdaa",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dataplane.rum"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2a1bc78766d05ce5d8003adb0e7f255a50e52f0c92aba3db48c3d3c07117271c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rbs.co.uk",
+                "www.digitalbanking.rbs.co.uk"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/analytics\\/event\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a06f023f058ed440c819e858713077ff-3e1b685b37db9832.elb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api-v3.easyfundraising.org.uk",
+                    "resolved": "a06f023f058ed440c819e858713077ff-3e1b685b37db9832.elb.eu-west-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "a2db4da197cc75821c14169340f00ebb5826014c19eaf82860738e61d8b5c0e1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "easyfundraising.org.uk",
+                "www.easyfundraising.org.uk"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/analytics\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a06f023f058ed440c819e858713077ff-3e1b685b37db9832.elb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api-v3.easyfundraising.org.uk",
+                    "resolved": "a06f023f058ed440c819e858713077ff-3e1b685b37db9832.elb.eu-west-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "cf3fb5af1146ed32abb36289c1c92b6539460236f997776969fb471101b2d637"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "easyfundraising.org.uk",
+                "www.easyfundraising.org.uk"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/logs\\/js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a06f023f058ed440c819e858713077ff-3e1b685b37db9832.elb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api-v3.easyfundraising.org.uk",
+                    "resolved": "a06f023f058ed440c819e858713077ff-3e1b685b37db9832.elb.eu-west-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "ee26a84d10ca6cb15ec182f8887e8d2883d6e7dfd5429bd8839cf7e0012d9c5e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "easyfundraising.org.uk",
+                "www.easyfundraising.org.uk"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/505055843994\\/prod_analytics_eu",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sqs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hendy.co.uk",
+                "www.hendy.co.uk"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/sw6-asp0028-shared\\/media\\/d7\\/f4\\/ca\\/1660741755\\/price-promise\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cbsquared-shopware.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7dae63569b66fdf7433bc764985cc64dbf1e59f10125363fcf6ba63b2b745988"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hughes.co.uk",
+                "www.hughes.co.uk"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/sw6-asp0028-shared\\/media\\/28\\/91\\/cc\\/1660741755\\/trustpilot\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cbsquared-shopware.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7c63907fb1c8baa7bc423be4b3aad7e053f0eba33b427561ae8347851acf4de9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hughes.co.uk",
+                "www.hughes.co.uk"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/sw6-asp0028-shared\\/media\\/8a\\/60\\/27\\/1660741755\\/Flexi-Pay\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cbsquared-shopware.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ac0f84b832f2a3b890a2ec154e01c6d1cd5c1d1d48d11915b7318753de17def2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hughes.co.uk",
+                "www.hughes.co.uk"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/sw6-asp0028-shared\\/media\\/f3\\/94\\/05\\/1660726809\\/reviews\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cbsquared-shopware.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3446730ff0acf95e657d59505adbebc56192c3ffd79dc8b4131fd0a923217669"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hughes.co.uk",
+                "www.hughes.co.uk"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/appmonitors\\/1e5ff96c-df02-4ec7-8c78-3eb6de0d8a99",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dataplane.rum"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b188fb8743064939c8a866e248b7cb155bb059241ac9cfbd7ce2e0ca708ec115"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natwest.com",
+                "www.onlinebanking.natwest.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7090592334494773
+        },
+        {
+            "domain": "global-e.com",
+            "prevalence": 0.08013937282229965
+        },
+        {
+            "domain": "pagesuite.com",
+            "prevalence": 0.047038327526132406
+        },
+        {
+            "domain": "smct.io",
+            "prevalence": 0.029616724738675958
+        },
+        {
+            "domain": "reviews.io",
+            "prevalence": 0.024390243902439025
+        },
+        {
+            "domain": "jquery.com",
+            "prevalence": 0.02264808362369338
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.020905923344947737
+        },
+        {
+            "domain": "d3odp2r1osuwn0.cloudfront.net",
+            "prevalence": 0.010452961672473868
+        },
+        {
+            "domain": "tryzens-analytics.com",
+            "prevalence": 0.005226480836236934
+        },
+        {
+            "domain": "rum.us-east-1.amazonaws.com",
+            "prevalence": 0.005226480836236934
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Other": 4,
+        "Image": 79,
+        "XHR": 39,
+        "Preflight": 34,
+        "Fetch": 12,
+        "Media": 2,
+        "Font": 8,
+        "Ping": 2
+    },
+    "nameservers": [
+        "ns1.amzndns.net",
+        "ns1.amzndns.co.uk",
+        "ns2.amzndns.org",
+        "ns2.amzndns.com",
+        "ns1.amzndns.com",
+        "ns1.amzndns.org",
+        "ns2.amzndns.net",
+        "ns2.amzndns.co.uk"
+    ]
+}

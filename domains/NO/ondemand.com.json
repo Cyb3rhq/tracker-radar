@@ -1,0 +1,82 @@
+{
+    "domain": "ondemand.com",
+    "owner": {
+        "name": "SAP SE",
+        "displayName": "SAP"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "api.c9lwb2zwhz-travelret1-p1-public.model-t.cc.commerce"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "ondemand\\.com\\/occ\\/v2\\/trnSite\\/cms\\/brands",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.c9lwb2zwhz-travelret1-p1-public.model-t.cc.commerce"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tax-free.no",
+                "www.tax-free.no"
+            ]
+        },
+        {
+            "rule": "ondemand\\.com\\/occ\\/v2\\/trnSite\\/cms\\/brands",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.c9lwb2zwhz-travelret1-p1-public.model-t.cc.commerce"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "659a34a458334d01d443d44940721618b3db2682b2b65b66e8a19e474bc463f6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tax-free.no",
+                "www.tax-free.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns5.sap.com",
+        "ns3.sap.com",
+        "ns4.sap-ag.de",
+        "ns.sap-ag.de",
+        "ns3.sap-ag.de",
+        "ns2.sap.de"
+    ]
+}

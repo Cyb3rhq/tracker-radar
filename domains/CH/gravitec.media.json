@@ -1,0 +1,110 @@
+{
+    "domain": "gravitec.media",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "gravitec\\.media\\/track\\.min\\.js",
+            "cookies": 0.000703,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 7,
+                "Date.prototype.getTime": 7,
+                "Document.cookie setter": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "7d55d36ab7029a3ac11096692671cdfc36fa8446e8cf7584fc23de06074b0f85"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "GN_USER_ID_KEY": {
+                    "ttl": 63072005,
+                    "length": 36,
+                    "prevalence": 0.0007032348804500703,
+                    "uniqueness": 1
+                },
+                "GN_SESSION_ID_KEY": {
+                    "ttl": 1805,
+                    "length": 36,
+                    "prevalence": 0.0007032348804500703,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bessergesundleben.de",
+                "www.addictivetips.com",
+                "www.ecranlarge.com",
+                "www.mybasel.ch",
+                "www.pravda.com.ua",
+                "www.tameteo.com",
+                "www.worldhistory.org"
+            ]
+        },
+        {
+            "rule": "gravitec\\.media\\/api\\/stats\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "GN_USER_ID_KEY": 0.0007032348804500703,
+                "GN_SESSION_ID_KEY": 0.0007032348804500703
+            },
+            "exampleSites": [
+                "bessergesundleben.de",
+                "www.addictivetips.com",
+                "www.ecranlarge.com",
+                "www.mybasel.ch",
+                "www.pravda.com.ua",
+                "www.tameteo.com",
+                "www.worldhistory.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000703,
+    "topInitiators": [
+        {
+            "domain": "gravitec.net",
+            "prevalence": 0.8571428571428571
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Fetch": 7
+    },
+    "nameservers": [
+        "thomas.ns.cloudflare.com",
+        "chan.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,131 @@
+{
+    "domain": "juspay.in",
+    "owner": {
+        "name": "Juspay Technologies Pvt. Ltd.",
+        "displayName": "Juspay"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "payments",
+        "logs",
+        "public.releases"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "juspay\\.in\\/web\\/PIL\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "payments"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "131ef6adf709c93d8e0ecea4e0d802d38054f1ee6fc33b2f1c0183b720b07864"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myvi.in",
+                "www.zee5.com"
+            ]
+        },
+        {
+            "rule": "juspay\\.in\\/godel\\/analytics",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logs"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myvi.in",
+                "www.myvi.in",
+                "www.zee5.com"
+            ]
+        },
+        {
+            "rule": "juspay\\.in\\/hyper-sdk-web\\/JuspayPaymentsInterface\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public.releases"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "528c84c9f06dee1ea572bcd4b43eb160fc10dae40561b17174ffe5f45f7bc718"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myvi.in",
+                "www.zee5.com"
+            ]
+        },
+        {
+            "rule": "juspay\\.in\\/hyper-sdk-web\\/HyperServices\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public.releases"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ed13be0f4e753d2aa7aa01ad07358124d7b62d8df16b9d1a22a8bfaabb33363f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tajhotels.com",
+                "www.tajhotels.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Ping": 3
+    },
+    "nameservers": [
+        "ns-362.awsdns-45.com",
+        "ns-1165.awsdns-17.org",
+        "ns-1997.awsdns-57.co.uk",
+        "ns-633.awsdns-15.net"
+    ]
+}

@@ -1,0 +1,3563 @@
+{
+    "domain": "usercentrics.eu",
+    "owner": {
+        "name": "Usercentrics GmbH",
+        "displayName": "Usercentrics"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.0172,
+    "sites": 171,
+    "subdomains": [
+        "app",
+        "api",
+        "app.eu",
+        "config.eu",
+        "consent-api.service.consent",
+        "consent-api.service.consent.eu1",
+        "uct.service",
+        "uct.eu",
+        "img.sct.eu1",
+        "aggregator.service",
+        "privacy-proxy",
+        "01.itp",
+        "web.cmp",
+        "v1.api.service.cmp",
+        "graphql"
+    ],
+    "cnames": [
+        {
+            "original": "itp.steinberg.net",
+            "resolved": "01.itp.usercentrics.eu"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/latest\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "window.localStorage": 95,
+                "Navigator.prototype.userAgent": 96
+            },
+            "sites": 96,
+            "prevalence": 0.00963,
+            "cnames": [],
+            "responseHashes": [
+                "863dbc06b0d5790bc466a02383e69aeea3be6836976d46c2681460e671a63a18"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "genietvantgoede.postcodeloterij.nl",
+                "www.autouncle.nl",
+                "www.q-park.nl",
+                "www.netgear.com",
+                "www.rewe.de",
+                "www.zwerfkei.nl",
+                "www.lampdirect.nl",
+                "www.gerryweber.com",
+                "9292.nl",
+                "www.shop-apotheke.com",
+                "www.immobilienscout24.de",
+                "www.trivago.nl",
+                "www.schiesser.com",
+                "www.binnenlandsbestuur.nl",
+                "www.festool.nl",
+                "www.postcodeloterij.nl",
+                "www.9292.nl",
+                "www.immoweb.be",
+                "www.villeroy-boch.nl",
+                "www.emma-sleep.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/index\\.module\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 95,
+                "window.localStorage": 94,
+                "window.sessionStorage": 94,
+                "window.innerHeight": 95,
+                "window.innerWidth": 95,
+                "Date.prototype.getTime": 93,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.language": 1,
+                "Document.cookie setter": 2
+            },
+            "sites": 96,
+            "prevalence": 0.00963,
+            "cnames": [],
+            "responseHashes": [
+                "72ecc7e775323f5ac062964918696ed1eb8cd9b350bbb7a0bd2c0b9978d713a4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "GDL_CONSENT": {
+                    "ttl": 31536006,
+                    "length": 29,
+                    "prevalence": 0.00020070245860511792,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.geberit.nl",
+                "www.binnenlandsbestuur.nl",
+                "www.vitra.com",
+                "foto.kruidvat.nl",
+                "www.gerryweber.com",
+                "www.dirkzwager.nl",
+                "www.wago.com",
+                "www.zalando.nl",
+                "www.q-park.nl",
+                "www.bike-discount.de",
+                "www.kicker.de",
+                "www.na-kd.com",
+                "www.immoweb.be",
+                "www.immobilienscout24.de",
+                "www.vaneck.com",
+                "www.9292.nl",
+                "9292.nl",
+                "www.marklin.nl",
+                "www.vriendenloterij.nl",
+                "www.noordhoff.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/lL1Eer9peXWqyj\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9292.nl",
+                "www.9292.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/lL1Eer9peXWqyj\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "298a51a5adf75ef4bae24179354fc4491be08f502ed5e92c1b3c75a35ac86da2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9292.nl",
+                "www.9292.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/lL1Eer9peXWqyj\\/latest\\/nl\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "50eef3c92884b3ecdea80ba0967967de74ce37b3513b092cb698229fc5cc96ed"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9292.nl",
+                "www.9292.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/lL1Eer9peXWqyj\\/latest\\/nl\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9292.nl",
+                "www.9292.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/session\\/1px\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 113,
+            "prevalence": 0.0113,
+            "cnames": [],
+            "responseHashes": [
+                "be92266076786f167441375941bb69c5484e182f48925b723a5efc43a1f6086c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.idealo.de",
+                "www.baldur-nederland.nl",
+                "www.haufe.de",
+                "www.kaufda.de",
+                "www.immobilienscout24.de",
+                "hobbii.nl",
+                "www.avogel.be",
+                "falke.com",
+                "www.falke.com",
+                "www.gerryweber.com",
+                "www.conrad.nl",
+                "nl.bauhaus",
+                "www.gabor.com",
+                "www.arag.nl",
+                "www.na-kd.com",
+                "www.dm.de",
+                "www.q-park.nl",
+                "www.luxaflex.nl",
+                "support.industry.siemens.com",
+                "www.9292.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/TcfData-b3b33efa-a444715a\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0012,
+            "cnames": [],
+            "responseHashes": [
+                "ae5903447d25886faae78518c309a1220fbb7699967c18c3acfed450925ecee8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9292.nl",
+                "www.9292.nl",
+                "www.autouncle.nl",
+                "www.binnenlandsbestuur.nl",
+                "www.haufe.de",
+                "www.immobilienscout24.de",
+                "www.immoweb.be",
+                "www.immowelt.de",
+                "www.justwatch.com",
+                "www.kaufda.de",
+                "www.kicker.de",
+                "www.rewe.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/DefaultData-2ccda9a9-816cb078\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 95,
+            "prevalence": 0.00953,
+            "cnames": [],
+            "responseHashes": [
+                "fcf4ad57046af8b44b9f85d4398ca15757c54cdbdecfdfdf438266ff0bd996f8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.falke.com",
+                "www.limango.nl",
+                "www.bauhaus.info",
+                "www.luxaflex.nl",
+                "www.lampdirect.nl",
+                "www.vaneck.com",
+                "www.na-kd.com",
+                "zalando.com",
+                "www.festool.nl",
+                "www.raisin.nl",
+                "www.phoenixcontact.com",
+                "www.emma-sleep.nl",
+                "www.zwilling.com",
+                "www.bader.nl",
+                "preply.com",
+                "www.haufe.de",
+                "www.immowelt.de",
+                "9292.nl",
+                "genietvantgoede.postcodeloterij.nl",
+                "www.arag.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/translations\\/translations-nl\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "config.eu"
+            ],
+            "apis": {},
+            "sites": 67,
+            "prevalence": 0.00672,
+            "cnames": [],
+            "responseHashes": [
+                "152b001b1e50defad7b7d7c370b300deb769de7cb9e13a51d6e936190cf8342a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.fotofabriek.nl",
+                "www.farmaline.be",
+                "www.zwilling.com",
+                "www.phoenixcontact.com",
+                "boodschappen.postcodeloterij.nl",
+                "www.sunnycars.nl",
+                "www.cewe.nl",
+                "www.conrad.nl",
+                "www.bader.nl",
+                "www.autouncle.nl",
+                "www.bitdefender.com",
+                "www.medion.com",
+                "www.hugoboss.com",
+                "foto.kruidvat.nl",
+                "genietvantgoede.postcodeloterij.nl",
+                "www.alternate.nl",
+                "www.zalando-lounge.nl",
+                "www.aldi.nl",
+                "www.postcodeloterij.nl",
+                "www.oetker.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/translations\\/translations-nl\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "config.eu"
+            ],
+            "apis": {},
+            "sites": 67,
+            "prevalence": 0.00672,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.villeroy-boch.nl",
+                "www.flixbus.nl",
+                "www.limango.nl",
+                "www.dirkzwager.nl",
+                "www.marklin.nl",
+                "www.homedeal.nl",
+                "nl.bauhaus",
+                "www.cube.eu",
+                "foto.kruidvat.nl",
+                "www.noordhoff.nl",
+                "zalando.com",
+                "support.industry.siemens.com",
+                "www.medion.com",
+                "www.hugoboss.com",
+                "www.postcodeloterij.nl",
+                "www.zalando.nl",
+                "www.lampdirect.nl",
+                "9292.nl",
+                "www.zalando-lounge.nl",
+                "www.personio.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/gvl\\/v3\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0012,
+            "cnames": [],
+            "responseHashes": [
+                "827c3f6cb653b89d728ab8ace0f5bb65a11a34d8baaa3e4ae5937a6c169eddb1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9292.nl",
+                "www.9292.nl",
+                "www.autouncle.nl",
+                "www.binnenlandsbestuur.nl",
+                "www.haufe.de",
+                "www.immobilienscout24.de",
+                "www.immoweb.be",
+                "www.immowelt.de",
+                "www.justwatch.com",
+                "www.kaufda.de",
+                "www.kicker.de",
+                "www.rewe.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/gvl\\/v3\\/nl\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "5dc076af20380fb97421a20cf75c54563c95f44f4b968f4e124ee34ab9a80f98"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9292.nl",
+                "www.9292.nl",
+                "www.autouncle.nl",
+                "www.binnenlandsbestuur.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/TcfUI-56b5f2b0-56c817a5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0012,
+            "cnames": [],
+            "responseHashes": [
+                "d9221da5610586996752b8c6364ea2ce641f4a399920a47206e746f73de09f39"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9292.nl",
+                "www.9292.nl",
+                "www.autouncle.nl",
+                "www.binnenlandsbestuur.nl",
+                "www.haufe.de",
+                "www.immobilienscout24.de",
+                "www.immoweb.be",
+                "www.immowelt.de",
+                "www.justwatch.com",
+                "www.kaufda.de",
+                "www.kicker.de",
+                "www.rewe.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/FirstLayerCustomization-35b64167-a008f13b\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 95,
+            "prevalence": 0.00953,
+            "cnames": [],
+            "responseHashes": [
+                "1a639c6b443b17ec6c6f50d2de9487ec53d78fd91adec25c8d84f4668be31242"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.farmaline.be",
+                "www.avogel.nl",
+                "www.cube.eu",
+                "www.hugoboss.com",
+                "falke.com",
+                "www.goethe.de",
+                "www.fotofabriek.nl",
+                "www.immobilienscout24.de",
+                "www.zalando-lounge.nl",
+                "www.shop-apotheke.com",
+                "www.douglas.nl",
+                "www.emma-sleep.nl",
+                "www.personio.nl",
+                "rensa.nl",
+                "www.vaneck.com",
+                "www.gerryweber.com",
+                "www.noordhoff.nl",
+                "www.homedeal.nl",
+                "9292.nl",
+                "www.aevitae.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/ButtonsCustomization-bcc02a82-80187b8e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 95,
+            "prevalence": 0.00953,
+            "cnames": [],
+            "responseHashes": [
+                "ebbf51132ac80c2070995d82e1b1237526521386eaced499d94c36a05804141f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.stoffen.net",
+                "www.haufe.de",
+                "www.gerryweber.com",
+                "www.avogel.nl",
+                "www.goethe.de",
+                "boodschappen.postcodeloterij.nl",
+                "www.lampdirect.nl",
+                "www.vaneck.com",
+                "www.hugoboss.com",
+                "www.jack-wolfskin.nl",
+                "www.justwatch.com",
+                "www.rewe.de",
+                "online-accu.nl",
+                "www.arag.nl",
+                "www.dirkzwager.nl",
+                "www.vriendenloterij.nl",
+                "www.cube.eu",
+                "www.autouncle.nl",
+                "www.cewe.nl",
+                "douglas.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/Taglogger-5c796780-b4dae676\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 91,
+            "prevalence": 0.00913,
+            "cnames": [],
+            "responseHashes": [
+                "fab5cda5682da8425e7110db62aa4c2163e2bbd8e2eec76139e3b1451520fa92"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nl.bauhaus",
+                "www.trivago.nl",
+                "www.compart.com",
+                "boodschappen.postcodeloterij.nl",
+                "mall.industry.siemens.com",
+                "lampdirect.nl",
+                "www.fender.com",
+                "www.postcodeloterij.nl",
+                "www.rewe.de",
+                "www.zwerfkei.nl",
+                "www.na-kd.com",
+                "www.schiesser.com",
+                "www.falke.com",
+                "hobbii.nl",
+                "www.immoweb.be",
+                "preply.com",
+                "foto.kruidvat.nl",
+                "www.shop-apotheke.com",
+                "talk.plesk.com",
+                "www.geberit.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/consent\\/uw\\/3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent-api.service.consent",
+                "consent-api.service.consent.eu1"
+            ],
+            "apis": {},
+            "sites": 110,
+            "prevalence": 0.011,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.idealo.de",
+                "www.farmaline.be",
+                "www.phoenixcontact.com",
+                "www.shop-apotheke.com",
+                "www.vaneck.com",
+                "www.emma-sleep.nl",
+                "www.binnenlandsbestuur.nl",
+                "readingeggs.com",
+                "www.kaufda.de",
+                "www.na-kd.com",
+                "www.hugoboss.com",
+                "www.bike-discount.de",
+                "www.realo.be",
+                "www.zalando.nl",
+                "www.geberit.nl",
+                "www.lampdirect.nl",
+                "lampdirect.nl",
+                "nl.bauhaus",
+                "snyk.io",
+                "www.haufe.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/consent\\/uw\\/3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent-api.service.consent",
+                "consent-api.service.consent.eu1"
+            ],
+            "apis": {},
+            "sites": 110,
+            "prevalence": 0.011,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.idealo.de",
+                "www.luxaflex.nl",
+                "support.industry.siemens.com",
+                "www.bauhaus.info",
+                "www.marklin.nl",
+                "www.bitdefender.com",
+                "www.kaufda.de",
+                "zalando.com",
+                "www.justwatch.com",
+                "www.avogel.nl",
+                "www.compart.com",
+                "www.stylight.nl",
+                "www.immowelt.de",
+                "www.gabor.com",
+                "www.home24.nl",
+                "forums.steinberg.net",
+                "readingeggs.com",
+                "www.9292.nl",
+                "www.zalando-lounge.nl",
+                "www.schiesser.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/PrivacyButton-fb130cad\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 94,
+            "prevalence": 0.00943,
+            "cnames": [],
+            "responseHashes": [
+                "b9d5cb60efaca3c6eae5d3b497e5e81d30325da6951286b161b89335d3e1f1f4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.hugoboss.com",
+                "www.personio.nl",
+                "www.flixbus.nl",
+                "www.avogel.be",
+                "zalando.com",
+                "boodschappen.postcodeloterij.nl",
+                "www.jack-wolfskin.nl",
+                "www.festool.nl",
+                "online-accu.nl",
+                "www.cube.eu",
+                "readingeggs.com",
+                "preply.com",
+                "www.villeroy-boch.nl",
+                "www.wago.com",
+                "www.rewe.de",
+                "www.bader.nl",
+                "www.bauhaus.info",
+                "www.stoffen.net",
+                "nl.bauhaus",
+                "www.vaneck.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/index-9a187bec\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 94,
+            "prevalence": 0.00943,
+            "cnames": [],
+            "responseHashes": [
+                "0027eb2e17348426c11398948ab76961e8cb16ec6e0e7f5bcf90760cad58dc4b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.immoweb.be",
+                "www.haufe.de",
+                "douglas.nl",
+                "www.phoenixcontact.com",
+                "www.wago.com",
+                "www.zwerfkei.nl",
+                "www.dirkzwager.nl",
+                "hobbii.nl",
+                "nl.bauhaus",
+                "www.jack-wolfskin.nl",
+                "www.lampdirect.nl",
+                "www.cewe.nl",
+                "www.compart.com",
+                "www.peterhahn.nl",
+                "www.ullapopken.nl",
+                "www.flixbus.nl",
+                "www.bike-discount.de",
+                "www.gerryweber.com",
+                "www.autouncle.nl",
+                "www.avogel.be"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/uct",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uct.service",
+                "uct.eu"
+            ],
+            "apis": {},
+            "sites": 109,
+            "prevalence": 0.0109,
+            "cnames": [],
+            "responseHashes": [
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.idealo.de",
+                "www.steinberg.net",
+                "9292.nl",
+                "www.na-kd.com",
+                "www.schiesser.com",
+                "readingeggs.com",
+                "www.zalando-lounge.nl",
+                "www.gerryweber.com",
+                "www.srf.ch",
+                "www.limango.nl",
+                "www.wetter.com",
+                "www.farmaline.be",
+                "www.p1.nl",
+                "www.jack-wolfskin.nl",
+                "www.binnenlandsbestuur.nl",
+                "www.oetker.nl",
+                "www.home24.nl",
+                "www.conrad.nl",
+                "www.bader.nl",
+                "www.stylight.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/index-416e42d9\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "adb9813cd1596576c9452069580e587c8cdb20c3dcf25be9b5c2b0a15ce3ad80"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9292.nl",
+                "www.9292.nl",
+                "www.autouncle.nl",
+                "www.binnenlandsbestuur.nl",
+                "www.haufe.de",
+                "www.immobilienscout24.de",
+                "www.immoweb.be",
+                "www.immowelt.de",
+                "www.justwatch.com",
+                "www.kaufda.de",
+                "www.rewe.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/SaveButton-91cbe52a\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 94,
+            "prevalence": 0.00943,
+            "cnames": [],
+            "responseHashes": [
+                "9ac49e6813c9880b6e3d41bd548399c66fabc27f0665bb5befc500c96b2fa893"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.fender.com",
+                "www.bauhaus.info",
+                "www.na-kd.com",
+                "foto.kruidvat.nl",
+                "www.vaneck.com",
+                "www.peterhahn.nl",
+                "support.industry.siemens.com",
+                "www.hugoboss.com",
+                "www.bike-discount.de",
+                "www.immowelt.de",
+                "www.oetker.nl",
+                "www.zalando-lounge.nl",
+                "www.schiesser.com",
+                "www.haufe.de",
+                "www.srf.ch",
+                "www.festool.nl",
+                "rensa.nl",
+                "www.aevitae.com",
+                "www.sunnycars.nl",
+                "readingeggs.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/VirtualServiceItem-6b2884ca\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 94,
+                "window.devicePixelRatio": 45,
+                "window.innerWidth": 44,
+                "Event.prototype.timeStamp": 1
+            },
+            "sites": 94,
+            "prevalence": 0.00943,
+            "cnames": [],
+            "responseHashes": [
+                "fde462cd0f4b704d779f2e827fc8bc57557c74b7497468b01cc290bc799d2fc8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.vaneck.com",
+                "www.immoweb.be",
+                "foto.kruidvat.nl",
+                "www.geberit.nl",
+                "www.villeroy-boch.nl",
+                "www.siemens.com",
+                "nl.bauhaus",
+                "www.luxaflex.nl",
+                "www.goethe.de",
+                "www.netgear.com",
+                "www.alternate.nl",
+                "www.postcodeloterij.nl",
+                "www.peterhahn.nl",
+                "readingeggs.com",
+                "www.oetker.nl",
+                "www.raisin.nl",
+                "www.sixt.nl",
+                "www.vitra.com",
+                "www.lampdirect.nl",
+                "lampdirect.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/sort-c42e380d\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "5d763433c13a2217b06bd2bdccd33c84127262dadd91e25562a4d3274117c590"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9292.nl",
+                "www.9292.nl",
+                "www.autouncle.nl",
+                "www.binnenlandsbestuur.nl",
+                "www.haufe.de",
+                "www.immobilienscout24.de",
+                "www.immoweb.be",
+                "www.immowelt.de",
+                "www.justwatch.com",
+                "www.kaufda.de",
+                "www.rewe.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/1\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img.sct.eu1"
+            ],
+            "apis": {},
+            "sites": 56,
+            "prevalence": 0.00562,
+            "cnames": [],
+            "responseHashes": [
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.degiro.nl",
+                "www.casio.com",
+                "www.hedinautomotive.nl",
+                "www.natuurmonumenten.nl",
+                "www.sliponline.nl",
+                "www.dnk.nl",
+                "www.superfoodstore.nl",
+                "www.theperfectwedding.nl",
+                "www.lucardi.nl",
+                "www.atagverwarming.nl",
+                "filmhuisalkmaar.nl",
+                "www.howtoforge.com",
+                "devulpenwereld.nl",
+                "www.groenehoedduurzaam.nl",
+                "newsbit.nl",
+                "www.sandervunderink.nl",
+                "www.beeksebergen.nl",
+                "lampenlicht.nl",
+                "emojiterra.com",
+                "www.adrz.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/2NUC5khCo\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "postcodeloterij.nl",
+                "genietvantgoede.postcodeloterij.nl",
+                "www.postcodeloterij.nl",
+                "www.vriendenloterij.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/2NUC5khCo\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "bb915b0db2d7c50c5cf7e22b55aab3d2bca62bc5ee2e0ebc1404a92893a56ca0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "postcodeloterij.nl",
+                "genietvantgoede.postcodeloterij.nl",
+                "www.postcodeloterij.nl",
+                "www.vriendenloterij.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/2NUC5khCo\\/latest\\/nl\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "55b5b3ee18b77ff85c993e0ff1d721ce9f2d732def6eb564becd32a1a941756a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "postcodeloterij.nl",
+                "genietvantgoede.postcodeloterij.nl",
+                "www.postcodeloterij.nl",
+                "www.vriendenloterij.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/2NUC5khCo\\/latest\\/nl\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "postcodeloterij.nl",
+                "genietvantgoede.postcodeloterij.nl",
+                "www.postcodeloterij.nl",
+                "www.vriendenloterij.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-sdk\\/4\\.38\\.6\\/cross-domain-bridge\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {
+                "window.localStorage": 53
+            },
+            "sites": 53,
+            "prevalence": 0.00532,
+            "cnames": [],
+            "responseHashes": [
+                "d0567b9438c397bef64d821cb403bf392261458814af7a5309f70d605b680b60"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.flixbus.nl",
+                "www.villeroy-boch.nl",
+                "snyk.io",
+                "www.bauhaus.info",
+                "www.postcodeloterij.nl",
+                "preply.com",
+                "www.haufe.de",
+                "www.dm.de",
+                "nl.bauhaus",
+                "www.compart.com",
+                "www.schiesser.com",
+                "www.personio.nl",
+                "www.geberit.nl",
+                "foto.kruidvat.nl",
+                "www.luxaflex.nl",
+                "www.vriendenloterij.nl",
+                "www.jack-wolfskin.nl",
+                "zalando.com",
+                "www.uaudio.com",
+                "www.p1.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/aggregate\\/nl",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aggregator.service"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0013,
+            "cnames": [],
+            "responseHashes": [
+                "796017b425036865ee8ba0633a5f47dd167b997ea8df0635aa29901e7d9cde15",
+                "3e801da0b10648ff0b97cfa8e9bb9fba87670a0fbcc5f66bb81a0720229db041",
+                "782eed41894eecfc370840b2c459057f050e902e978be1761e144cdc32a7c452",
+                "7a5a993ae048fea10cbe77f6a2e7c2688ab06497328caa97aa251cc95c0eb4ea",
+                "3beb12cc199605262f9aebec8cfbe69848d1bdb7e3887ae40d508209613f2729",
+                "b620fe9a5421ec8513539181f92902a49cfdefce00de7ef8a1af47a2f500fc7d",
+                "488b19a5dfda4c267a48add05032e5e1561405eb4f293578874fed03ccf31762",
+                "6bff49f01e88ae819008ce08d3721fcd7c5cf48c5c69af0eb010e3e5b764601b",
+                "c516f347c90a8f8e0c7845d436928fce630555d5ef0206350a2c507876e43d03",
+                "3913d7c10f91372d882765899032059c7ec6c812bc60d141b05e710a9e27cb12"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "postcodeloterij.nl",
+                "foto.kruidvat.nl",
+                "genietvantgoede.postcodeloterij.nl",
+                "hobbii.nl",
+                "www.aldi.nl",
+                "www.avogel.nl",
+                "www.binnenlandsbestuur.nl",
+                "www.fotofabriek.nl",
+                "www.homedeal.nl",
+                "www.luxaflex.nl",
+                "www.postcodeloterij.nl",
+                "www.vriendenloterij.nl",
+                "www.zwerfkei.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/aggregate\\/nl",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aggregator.service"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0013,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "postcodeloterij.nl",
+                "foto.kruidvat.nl",
+                "genietvantgoede.postcodeloterij.nl",
+                "hobbii.nl",
+                "www.aldi.nl",
+                "www.avogel.nl",
+                "www.binnenlandsbestuur.nl",
+                "www.fotofabriek.nl",
+                "www.homedeal.nl",
+                "www.luxaflex.nl",
+                "www.postcodeloterij.nl",
+                "www.vriendenloterij.nl",
+                "www.zwerfkei.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/DefaultUI-497e2874-28e200af\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 83,
+            "prevalence": 0.00833,
+            "cnames": [],
+            "responseHashes": [
+                "f172ba7c054305dc83278c1e347b2a3048c319fd41a21384aedb27689ee1ca7a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "online-accu.nl",
+                "foto.kruidvat.nl",
+                "www.avogel.be",
+                "www.goethe.de",
+                "www.aevitae.com",
+                "www.fotofabriek.nl",
+                "www.fender.com",
+                "garantibank.nl",
+                "www.personio.nl",
+                "hobbii.nl",
+                "www.zalando-lounge.nl",
+                "zalando.com",
+                "falke.com",
+                "www.bader.nl",
+                "readingeggs.com",
+                "www.zwerfkei.nl",
+                "www.geberit.nl",
+                "www.sunnycars.nl",
+                "www.cewe.nl",
+                "www.emma-sleep.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/SecondLayerUI-e5edf032-b4340c38\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 83,
+            "prevalence": 0.00833,
+            "cnames": [],
+            "responseHashes": [
+                "8395d72ab340a6fb7923d93b019bffa5570553f6762dc56eeb4e5ee603ae3dda"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.vitra.com",
+                "www.fender.com",
+                "www.alternate.nl",
+                "www.falke.com",
+                "zalando.com",
+                "readingeggs.com",
+                "postcodeloterij.nl",
+                "www.bike-discount.de",
+                "www.sixt.nl",
+                "www.gerryweber.com",
+                "www.marklin.nl",
+                "www.farmaline.be",
+                "www.trivago.nl",
+                "preply.com",
+                "www.zalando.nl",
+                "www.geberit.nl",
+                "www.zwerfkei.nl",
+                "www.jack-wolfskin.nl",
+                "www.luxaflex.nl",
+                "douglas.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/index-261ab0c1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 83,
+            "prevalence": 0.00833,
+            "cnames": [],
+            "responseHashes": [
+                "e91937ce7d98ef6d66f8630b5ea185801b4b220a5c0ae4ca774901ce6c5b9ace"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.hugoboss.com",
+                "www.douglas.nl",
+                "www.na-kd.com",
+                "www.bike-discount.de",
+                "www.baldur-nederland.nl",
+                "www.noordhoff.nl",
+                "www.srf.ch",
+                "www.dirkzwager.nl",
+                "www.zwilling.com",
+                "www.geberit.nl",
+                "rensa.nl",
+                "online-accu.nl",
+                "www.fotofabriek.nl",
+                "www.ullapopken.nl",
+                "www.alternate.nl",
+                "www.vriendenloterij.nl",
+                "www.oetker.nl",
+                "garantibank.nl",
+                "talk.plesk.com",
+                "www.marklin.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/DefaultTabs-2931f8e4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 83,
+            "prevalence": 0.00833,
+            "cnames": [],
+            "responseHashes": [
+                "86906ae2df1ef048180bfddef248ddfaca8c3aed7251ce63cafc2e41bf772927"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.bauhaus.info",
+                "www.jack-wolfskin.nl",
+                "www.luxaflex.nl",
+                "online-accu.nl",
+                "www.na-kd.com",
+                "www.zalando.nl",
+                "www.limango.nl",
+                "support.industry.siemens.com",
+                "postcodeloterij.nl",
+                "www.siemens.com",
+                "www.bike-discount.de",
+                "www.baldur-nederland.nl",
+                "www.zwerfkei.nl",
+                "www.falke.com",
+                "www.uaudio.com",
+                "zalando.com",
+                "www.villeroy-boch.nl",
+                "www.bader.nl",
+                "www.netgear.com",
+                "preply.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/translations\\/translations-en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 26,
+            "prevalence": 0.00261,
+            "cnames": [],
+            "responseHashes": [
+                "293c213205cd107ec18a50ae1f8a7b79915117d162cc58701a575def7c295d39"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.cyberghostvpn.com",
+                "www.siemens.com",
+                "www.netgear.com",
+                "www.steinberg.net",
+                "www.privateinternetaccess.com",
+                "www.justwatch.com",
+                "mendix.com",
+                "preply.com",
+                "o.steinberg.net",
+                "mall.industry.siemens.com",
+                "falke.com",
+                "www.conrad.com",
+                "www.fender.com",
+                "www.expressvpn.com",
+                "www.na-kd.com",
+                "talk.plesk.com",
+                "www.compart.com",
+                "www.vaneck.com",
+                "www.falke.com",
+                "www.uaudio.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/translations\\/translations-en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 26,
+            "prevalence": 0.00261,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.immoweb.be",
+                "preply.com",
+                "readingeggs.com",
+                "www.steinberg.net",
+                "www.conrad.com",
+                "mendix.com",
+                "www.fender.com",
+                "www.compart.com",
+                "snyk.io",
+                "www.privateinternetaccess.com",
+                "www.expressvpn.com",
+                "falke.com",
+                "www.na-kd.com",
+                "www.flixbus.com",
+                "www.siemens.com",
+                "o.steinberg.net",
+                "www.netgear.com",
+                "www.uaudio.com",
+                "mall.industry.siemens.com",
+                "talk.plesk.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/BWUjDSdF3\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "douglas.nl",
+                "www.douglas.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/BWUjDSdF3\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f734d2e8ac0317196dd4c3e817664f7481d726208077ae062ba4afcdfcf59323"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "douglas.nl",
+                "www.douglas.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/BWUjDSdF3\\/latest\\/nl\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d60f108e7ad6f84d9d306bceb22bd56330b766c7fabef92f55fb241e717ee61a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "douglas.nl",
+                "www.douglas.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/BWUjDSdF3\\/latest\\/nl\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "douglas.nl",
+                "www.douglas.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/latest\\/uc-block\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "privacy-proxy"
+            ],
+            "apis": {
+                "window.localStorage": 13
+            },
+            "sites": 14,
+            "prevalence": 0.0014,
+            "cnames": [],
+            "responseHashes": [
+                "89af5e8cfe5115cde98e4174a2f95a0400bcdb41c8cb3b1c3749634a19bb0936"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "falke.com",
+                "o.steinberg.net",
+                "www.avogel.be",
+                "www.bike-discount.de",
+                "www.cube.eu",
+                "www.dirkzwager.nl",
+                "www.falke.com",
+                "www.festool.nl",
+                "www.goethe.de",
+                "www.personio.nl",
+                "www.phoenixcontact.com",
+                "www.raisin.nl",
+                "www.steinberg.net",
+                "www.sunnycars.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/latest\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "privacy-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7627ddab9b4d854dd4e0c32c1a086df86a5575d43e9684b1e2c0b3aa19c5ff20"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "falke.com",
+                "www.falke.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/Rn1O2ZKNn8j__T\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "falke.com",
+                "www.falke.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/Rn1O2ZKNn8j__T\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a75d094caba33ac05120819a5fd16b225bcd6ceda6d4b507d6dac56d3bbd4320"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "falke.com",
+                "www.falke.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/Rn1O2ZKNn8j__T\\/latest\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "166268508cd0a3188f2173960b0038c2d5557534965b9229ae33e937f4d7066b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "falke.com",
+                "www.falke.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/Rn1O2ZKNn8j__T\\/latest\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "falke.com",
+                "www.falke.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "01.itp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "itp.steinberg.net",
+                    "resolved": "01.itp.usercentrics.eu"
+                }
+            ],
+            "responseHashes": [
+                "751201af3787cb625ad0f3cfec4a788a4a105c93290cbb7bab6520166a6f68de"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "steinberg.net",
+                "o.steinberg.net",
+                "www.steinberg.net"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/latest\\/bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 6,
+                "window.sessionStorage": 6,
+                "window.innerHeight": 6,
+                "window.innerWidth": 6,
+                "Date.prototype.getTime": 6,
+                "window.devicePixelRatio": 4
+            },
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "9ab8856fd50b3896e3ac4704f85a5e9e9d0b7ef83c9bf1d7078fed4147c570cf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "steinberg.net",
+                "o.steinberg.net",
+                "snyk.io",
+                "www.dm.de",
+                "www.gabor.com",
+                "www.steinberg.net"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/RBVlDF2ny\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "steinberg.net",
+                "o.steinberg.net",
+                "www.steinberg.net"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/RBVlDF2ny\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "659836450a76707e61365dbf1b74359dd2963ab7393c516c06ff67f6e99e1edc"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "steinberg.net",
+                "o.steinberg.net",
+                "www.steinberg.net"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/RBVlDF2ny\\/latest\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "6935a60018b9e0dcda5a5620096d891306074d48a718d342271e8ee7e655296e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "steinberg.net",
+                "o.steinberg.net",
+                "www.steinberg.net"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/RBVlDF2ny\\/latest\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "steinberg.net",
+                "o.steinberg.net",
+                "www.steinberg.net"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/aggregate\\/en",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aggregator.service"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "1876a633f1df422f63d3d2e8acb015fffe423f1e70b137498c1991d4f1f05fd5",
+                "91a2f2734b33f9e67bd6f543252588f669c69269ac871d446a3ced85ea8bc4b8",
+                "26adf317f77c67864c490e350cd749ee6a6b270cd955cd00bcdc1c77dceefa87",
+                "d14243ba5b63eb4641f7a4a8bcde0f91fe91503062217772771abd4cec1d81dc",
+                "fbf117ed6b0129b6bf480fba4f95d732bbaeef53815927cb6a17e059962a53e2",
+                "8a42c811cd129835b08ab9d00c76a21fe1bfd8bcbd2d613cde14c4302fe0132c",
+                "a2020dd7918fb713a7b9bc3aeef8a8fb6e8d4c3377e49c6bef5830597e8bba08",
+                "66367f98c7be9d19df3e3a0b2dae2d3ea663b23e8b59560fac70bd8321112f16"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "steinberg.net",
+                "o.steinberg.net",
+                "preply.com",
+                "readingeggs.com",
+                "snyk.io",
+                "talk.plesk.com",
+                "www.cyberghostvpn.com",
+                "www.expressvpn.com",
+                "www.privateinternetaccess.com",
+                "www.steinberg.net"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/aggregate\\/en",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aggregator.service"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "steinberg.net",
+                "o.steinberg.net",
+                "preply.com",
+                "readingeggs.com",
+                "snyk.io",
+                "talk.plesk.com",
+                "www.cyberghostvpn.com",
+                "www.expressvpn.com",
+                "www.privateinternetaccess.com",
+                "www.steinberg.net"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/ui\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "web.cmp"
+            ],
+            "apis": {
+                "window.innerWidth": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "d8a58e6a031712e0d282b161d467b2a1e78dc30312b926653f8e1f831bdda6cc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "home24.nl",
+                "www.home24.nl",
+                "www.idealo.de",
+                "www.realo.be",
+                "www.stylight.nl",
+                "www.zlm.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/ui\\/v\\/3\\.26\\.0\\/BrowserSdk\\.lib\\.d3e929fc\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "web.cmp"
+            ],
+            "apis": {
+                "window.localStorage": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "f89bc240c2482c730a03cd773661748a5f0acccf4597f4f127b54f2936734cda"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "UserCentricsConsent": {
+                    "ttl": 31536004,
+                    "length": 17,
+                    "prevalence": 0.00020070245860511792,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "home24.nl",
+                "www.home24.nl",
+                "www.idealo.de",
+                "www.realo.be",
+                "www.stylight.nl",
+                "www.zlm.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/latest\\/ruleSetData",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "v1.api.service.cmp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0912e3d49b7085673c0ed0a2ff5023c819a3a94acef2b097dae369708970a51d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "home24.nl",
+                "www.home24.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/latest\\/core\\/g5zO5hEBBgBWzl",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "v1.api.service.cmp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "776dabb485a77fa52fe487d5cc92133bfd1e9f85256ef80376911de5dbe70c22"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "home24.nl",
+                "www.home24.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/cdcs\\/v\\/1\\.0\\.0\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "web.cmp"
+            ],
+            "apis": {
+                "window.localStorage": 4
+            },
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "8cc881d11d03882784c5c8ae9b4fff2d57aa4b9b1bbfc5242b4959a18958839c"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "home24.nl",
+                "www.home24.nl",
+                "www.idealo.de",
+                "www.realo.be",
+                "www.stylight.nl",
+                "www.zlm.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/latest\\/1\\/cmp\\/nl\\/GDPR\\/g5zO5hEBBgBWzl\\/73\\.29\\.254\\/73\\.29\\.254",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "v1.api.service.cmp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1e37f7319a84e119bc6c3ed7f60cf9bef75b52dc2fa2ed41935cc6d788b8d2e9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "home24.nl",
+                "www.home24.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/ui\\/v\\/3\\.26\\.0\\/GdprCmpController\\.6873cb85\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "web.cmp"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "9c9ddc21132aa642b554dc6478752f7e0ae1bab78395f857f5a2a60a0591d34e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "home24.nl",
+                "www.home24.nl",
+                "www.idealo.de",
+                "www.stylight.nl",
+                "www.zlm.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/ui\\/v\\/3\\.26\\.0\\/UcGdprCmpView\\.d93577ec\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web.cmp"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "5bd470028bd719f773a0a7277c4ef39f911d0e1dbfdf68f570a00e947122ba8c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "home24.nl",
+                "www.home24.nl",
+                "www.idealo.de",
+                "www.stylight.nl",
+                "www.zlm.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/3VIcrjgvc\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lampdirect.nl",
+                "www.lampdirect.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/3VIcrjgvc\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bb915b0db2d7c50c5cf7e22b55aab3d2bca62bc5ee2e0ebc1404a92893a56ca0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lampdirect.nl",
+                "www.lampdirect.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/3VIcrjgvc\\/latest\\/nl\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "38f55c2f81738315719af8319700384f1469b0529eabd7b0a21b407b3ddb86ef"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lampdirect.nl",
+                "www.lampdirect.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/3VIcrjgvc\\/latest\\/nl\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lampdirect.nl",
+                "www.lampdirect.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/GXj83XOdm\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ea9590c6141e4b99e1f871fd23e5e800bcbf886779039130c957821d20d513ea"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "siemens.com",
+                "support.industry.siemens.com",
+                "www.siemens.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/GXj83XOdm\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "siemens.com",
+                "support.industry.siemens.com",
+                "www.siemens.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/GXj83XOdm\\/latest\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3a50d1463d63db00f0f518813841f5599f6f7732f6cc105c9785a61b0e951f42"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "siemens.com",
+                "www.siemens.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/GXj83XOdm\\/latest\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "siemens.com",
+                "www.siemens.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/tcfac\\/acp\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autouncle.nl",
+                "www.kicker.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/tcfac\\/acp\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "44fb6af0c5b3a8ce5fcbc0139bfea5bc2b3d58c64808326e048ca207c491b69f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autouncle.nl",
+                "www.kicker.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/latest\\/nl\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "privacy-proxy"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "c156ef564471f9f1b343fd8c217a7341f6de55464987de889d8d9efed4118005"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "avogel.be",
+                "www.cube.eu",
+                "www.dirkzwager.nl",
+                "www.personio.nl",
+                "www.phoenixcontact.com",
+                "www.raisin.nl",
+                "www.sunnycars.nl",
+                "www.villeroy-boch.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/translations\\/translations-de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.00151,
+            "cnames": [],
+            "responseHashes": [
+                "d798ef91a6ad855999b0bb052edf6a6eef008b01443a33614ad8e8c4713fa32e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bauhaus.info",
+                "www.bike-discount.de",
+                "www.dm.de",
+                "www.gabor.com",
+                "www.goethe.de",
+                "www.haufe.de",
+                "www.immobilienscout24.de",
+                "www.immowelt.de",
+                "www.kaufda.de",
+                "www.kicker.de",
+                "www.rewe.de",
+                "www.schiesser.com",
+                "www.shop-apotheke.com",
+                "www.srf.ch",
+                "www.wetter.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/translations\\/translations-de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.00151,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bauhaus.info",
+                "www.bike-discount.de",
+                "www.dm.de",
+                "www.gabor.com",
+                "www.goethe.de",
+                "www.haufe.de",
+                "www.immobilienscout24.de",
+                "www.immowelt.de",
+                "www.kaufda.de",
+                "www.kicker.de",
+                "www.rewe.de",
+                "www.schiesser.com",
+                "www.shop-apotheke.com",
+                "www.srf.ch",
+                "www.wetter.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "privacy-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b28b050e82519288328bbfa6aeb5f05ce52b5854b032d444d3b5fa3a8df3058b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bike-discount.de",
+                "www.goethe.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "222c6a6e4b84110dc96baa6d6c1711278d887dbd3c6b74e763834474421037a9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.com",
+                "www.conrad.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/index\\.module\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "97121e0b2be0e9db9bd0ba5fdc33b21820943ebff48f6c8992afce23b46ba4f5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.com",
+                "www.conrad.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-sdk\\/4\\.37\\.4\\/cross-domain-bridge\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d0567b9438c397bef64d821cb403bf392261458814af7a5309f70d605b680b60"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.com",
+                "www.conrad.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/DefaultData-d00127a3-6bf3d31a\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7e2472bd1f232c3d68ed4772d3c325f4a700133dc26901fb83cfbb86e32781ef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.com",
+                "www.conrad.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/DefaultUI-93f82132-74bb0f6d\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b0fb971150c2648f434530c43940ab05e42283a5487fa4805de32ae532526187"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.com",
+                "www.conrad.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/FirstLayerCustomization-3660def5-e9841303\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "78986c80bc7dab6173f3a57fd63086a6e46e58aae6f6b988a9ceac66d7503009"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.com",
+                "www.conrad.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/ButtonsCustomization-26072404-0ac5d5e4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7d1ffc76bba4dfe1b48e8ef5192e5f54e54b0a4206a9445c70f5a33b25fc9e95"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.com",
+                "www.conrad.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/SecondLayerUI-d3f79250-37637b61\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7d1231db395b79b095e4592679e6cf96da5048ea13c6e162a0bfb58557c25565"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.com",
+                "www.conrad.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/Taglogger-dbcfe06b-f2aa9244\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "846e95bdc7e94fb5877f9ecc9636594eeac05c10798a0c3fe1435e44c6ef3e42"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.com",
+                "www.conrad.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/PrivacyButton-424771a3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "916d7072bc55f9f78640da47220b0af32cbbf15d78ce8e2d778b056d84e69d33"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.com",
+                "www.conrad.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/index-edbe4c91\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a4d5bca843401471dbda3ee7fe80c5fd24d960e7a0a098eea73f729783e660e7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.com",
+                "www.conrad.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/index-151c6d6d\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8bdd800bc92f19f91b3596b18939d9c0919ca9ba4b0ae9aaa82a8c9e62e8e394"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.com",
+                "www.conrad.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/SaveButton-781ac3df\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4412e6ebd666f6204ddac3f0b95bfc4777f5fbae13d24bb100cc2a33c5ab5ef2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.com",
+                "www.conrad.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/VirtualServiceItem-ea9deb71\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b148c330626c7ea64a19725ff6c20e1aa3878a38f182c035941e44560ffe72be"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.com",
+                "www.conrad.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/DefaultTabs-634437e5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "47faa20050a18d7914b64c5023ca662552dcd16a0e03bcebdbc4fd6e65b0091d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.com",
+                "www.conrad.nl"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "graphql"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyberghostvpn.com",
+                "www.expressvpn.com",
+                "www.privateinternetaccess.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "graphql"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "efb9a3230c546de0315687af38100c1e2bb238c8663fe83cd143204a8af6c8d8",
+                "3cf00c18ab30088cc95769ec3812e15e92ddbf015728683dddb555e679f67155"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyberghostvpn.com",
+                "www.expressvpn.com",
+                "www.privateinternetaccess.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/aggregate\\/de",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aggregator.service"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "7ad84964031681b950b5bc799883f8358cfd2aa38b8773d5e9ed52dd622b0545",
+                "bdb83570052054e32db84fa2a9483f122eb04f8a3d7123e9efa80fc33e0f20d1",
+                "03e951d519b7ab6f6ec081eb7664e197c4b1134d55865cd068738a1f2c750a5b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dm.de",
+                "www.gabor.com",
+                "www.haufe.de",
+                "www.wetter.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/aggregate\\/de",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aggregator.service"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dm.de",
+                "www.gabor.com",
+                "www.haufe.de",
+                "www.wetter.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/session\\/1px\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "be92266076786f167441375941bb69c5484e182f48925b723a5efc43a1f6086c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expressvpn.com",
+                "www.gerryweber.com",
+                "www.zwilling.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/consent\\/uw\\/2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent-api.service.consent"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expressvpn.com",
+                "www.wetter.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/consent\\/uw\\/2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent-api.service.consent"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expressvpn.com",
+                "www.wetter.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/uct",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uct.service"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expressvpn.com",
+                "www.gerryweber.com",
+                "www.jack-wolfskin.nl",
+                "www.zwilling.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/ruleSet\\/v-zUXK991bK4rF\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flixbus.nl",
+                "www.flixbus.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/ruleSet\\/v-zUXK991bK4rF\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "26f137387fb1b4cba00baa2b788b707258cfc5c0b65aba3887531af7d9cfe664"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flixbus.nl",
+                "www.flixbus.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/Cw0rbv9tt\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a039b4777b9d7b969de183cb83cd3794da04ee7951bb6045f149e1801328b3a8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flixbus.nl",
+                "www.flixbus.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/Cw0rbv9tt\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flixbus.nl",
+                "www.flixbus.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/D4UEk0CeS\\/latest\\/nl\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gerryweber.com",
+                "www.gerryweber.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/DefaultData-2ccda9a9-816cb078\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gerryweber.com",
+                "www.zwilling.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/DefaultUI-497e2874-28e200af\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gerryweber.com",
+                "www.zwilling.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/FirstLayerCustomization-35b64167-a008f13b\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gerryweber.com",
+                "www.zwilling.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/ButtonsCustomization-bcc02a82-80187b8e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gerryweber.com",
+                "www.zwilling.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/SecondLayerUI-e5edf032-b4340c38\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gerryweber.com",
+                "www.zwilling.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/Taglogger-5c796780-b4dae676\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gerryweber.com",
+                "www.zwilling.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/PrivacyButton-fb130cad\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gerryweber.com",
+                "www.zwilling.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/index-9a187bec\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gerryweber.com",
+                "www.zwilling.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/index-261ab0c1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gerryweber.com",
+                "www.zwilling.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/SaveButton-91cbe52a\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gerryweber.com",
+                "www.zwilling.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/VirtualServiceItem-6b2884ca\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gerryweber.com",
+                "www.zwilling.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/DefaultTabs-2931f8e4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gerryweber.com",
+                "www.zwilling.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/gvl\\/v3\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "config.eu"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000702,
+            "cnames": [],
+            "responseHashes": [
+                "b495df3793d0101a10f7771a41facd6007a05890cd8c7e70d23f5f09c2661f4f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "haufe.de",
+                "www.immobilienscout24.de",
+                "www.immowelt.de",
+                "www.kaufda.de",
+                "www.kicker.de",
+                "www.rewe.de",
+                "www.wetter.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/Jq_Vycyzq\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "73c53f8f6d87773e070db9a633d1d789bd0122adfd88f6e1effad1ed5aa3a234"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "na-kd.com",
+                "www.na-kd.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/arL_G7jv7\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "config.eu"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zalando-lounge.nl",
+                "www.zalando.be",
+                "www.zalando.nl",
+                "zalando.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/arL_G7jv7\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "config.eu"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "f0e860ce7b0e3a8185e422240604cdde2a4b634454b0857bf97ed356e0e4727f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zalando-lounge.nl",
+                "www.zalando.be",
+                "www.zalando.nl",
+                "zalando.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/arL_G7jv7\\/latest\\/nl\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "config.eu"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "30807120da3040ffcfc0effa8740f2aedd15c6c4038992da0efa20c08696e82e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zalando-lounge.nl",
+                "www.zalando.be",
+                "www.zalando.nl",
+                "zalando.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/arL_G7jv7\\/latest\\/nl\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "config.eu"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zalando-lounge.nl",
+                "www.zalando.be",
+                "www.zalando.nl",
+                "zalando.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/x2hcq7JpJrudRT\\/latest\\/nl\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zwilling.com",
+                "www.zwilling.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Consent Management Platform"
+    ],
+    "performance": {},
+    "cookies": 0.000401,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5598377281947262
+        },
+        {
+            "domain": "cookiebot.eu",
+            "prevalence": 0.1075050709939148
+        },
+        {
+            "domain": "baqend.com",
+            "prevalence": 0.07707910750507099
+        },
+        {
+            "domain": "ztat.net",
+            "prevalence": 0.032454361054766734
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.030425963488843813
+        },
+        {
+            "domain": "trackjs.com",
+            "prevalence": 0.028397565922920892
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.02028397565922921
+        },
+        {
+            "domain": "autouncle.com",
+            "prevalence": 0.018255578093306288
+        },
+        {
+            "domain": "sdiapi.com",
+            "prevalence": 0.018255578093306288
+        },
+        {
+            "domain": "sa-tech.de",
+            "prevalence": 0.016227180527383367
+        }
+    ],
+    "types": {
+        "Script": 1395,
+        "Preflight": 299,
+        "Fetch": 366,
+        "Image": 278,
+        "XHR": 11,
+        "Document": 61
+    },
+    "nameservers": [
+        "ns1.nic53.net",
+        "ns2.nic53.de"
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "domain": "shopifyapps.com",
+    "owner": {
+        "name": "Shopify Inc.",
+        "displayName": "Shopify",
+        "privacyPolicy": "https://www.shopify.com/legal/privacy",
+        "url": "http://shopify.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00111,
+    "sites": 11,
+    "subdomains": [
+        "geolocation-recommendations",
+        "forms"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "shopifyapps\\.com\\/locale_bar\\/script\\.js",
+            "cookies": 0.000804,
+            "fingerprinting": 1,
+            "subdomains": [
+                "geolocation-recommendations"
+            ],
+            "apis": {
+                "Document.cookie getter": 8,
+                "Document.cookie setter": 8
+            },
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [
+                "160d71e0b4cd54c82e1a4c6ca3027d40681b2b8687519841f2eec7ca3d2d7430",
+                "a73801e1171b639aa1f7ee2e5c77ba2f2719a79add5613eef642400a61b22044",
+                "ddaaee8e670ef1b8916c7cb61d39573b5d1e4a52c7f34779444dbe37c2aac05e",
+                "37705cfbbaaec811d29cdd1c2ce3d4a75ba3b598e6776caa9eff56b0fe010997",
+                "5cfd3ce4f5668faeb4552936cfcfa56c697ab3b435fcdf9b8215544ed9362912",
+                "42f95babb876937b259b31d6c737ed112843fdf0d5924e3833e5a17a725fd25f",
+                "c3eb72474120d6eab4a2307c4893da3b7056b53b238b5c307ed8713d1b4dd733"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "locale_bar_accepted": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000803939302582655,
+                    "uniqueness": 0.125
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arktis.de",
+                "de.roborock.com",
+                "eu.store.bambulab.com",
+                "kalendersale.de",
+                "loeschner.de",
+                "purelei.com",
+                "snocks.com",
+                "www.motelamiio.com"
+            ]
+        },
+        {
+            "rule": "shopifyapps\\.com\\/api\\/v2\\/form_instances",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "forms"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e86b2f4b5c694554f7d68238cbc299a3454f0229a9e2703df6ed3ea3fb77de7f",
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wunschgutschein.de",
+                "www.az-delivery.de",
+                "www.wunschgutschein.de"
+            ]
+        },
+        {
+            "rule": "shopifyapps\\.com\\/api\\/v2\\/form_instances",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "forms"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wunschgutschein.de",
+                "www.az-delivery.de",
+                "www.wunschgutschein.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000804,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9090909090909091
+        },
+        {
+            "domain": "minmaxify.com",
+            "prevalence": 0.09090909090909091
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Fetch": 3,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "ns1.dnsimple.com",
+        "ns2.dnsimple.com",
+        "ns3.dnsimple.com",
+        "ns4.dnsimple.com",
+        "dns1.p06.nsone.net",
+        "dns2.p06.nsone.net",
+        "dns3.p06.nsone.net",
+        "dns4.p06.nsone.net"
+    ]
+}

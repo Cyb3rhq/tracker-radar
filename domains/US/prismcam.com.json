@@ -1,0 +1,131 @@
+{
+    "domain": "prismcam.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [
+        "app",
+        "js",
+        "php"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "prismcam\\.com\\/public\\/helpers\\/realtime_preview\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c1db94efc08e9dcf12c18cf55a7a94d8bffac5adbae55f3b536deb743476b01e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alta.com",
+                "www.alta.com"
+            ]
+        },
+        {
+            "rule": "prismcam\\.com\\/luma\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b5bcd52ba8b392c4ac4f3033cfe5302f84edbf537d22ae76fd146484e014ed6a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "snowbasin.com",
+                "www.sunvalley.com"
+            ]
+        },
+        {
+            "rule": "prismcam\\.com\\/luma\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "58966fbcb310ca03358f6f46c11c1bbcbfd8ac407ce5032f6e0c56e3100e2f19"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "snowbasin.com",
+                "www.sunvalley.com"
+            ]
+        },
+        {
+            "rule": "prismcam\\.com\\/public\\/helpers\\/cam_init\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "php"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "34a10b3baefe59f10d6273125dac96a7701f1931779247ec14459034cdc534a2",
+                "d2b43e497742b15699685855d7ff7d24cfe9480b116f8e37b5283aa373d88d21"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "snowbasin.com",
+                "www.sundanceresort.com",
+                "www.sunvalley.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "Stylesheet": 2,
+        "Script": 5
+    },
+    "nameservers": [
+        "ns1.vultr.com",
+        "ns2.vultr.com"
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "domain": "vercel-dns.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "cname"
+    ],
+    "cnames": [
+        {
+            "original": "profile.theartnewspaper.com",
+            "resolved": "cname.vercel-dns.com"
+        },
+        {
+            "original": "thebmj-frontend.bmj.com",
+            "resolved": "cname.vercel-dns.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "vercel-dns\\.com\\/_next\\/image",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cname"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "thebmj-frontend.bmj.com",
+                    "resolved": "cname.vercel-dns.com"
+                }
+            ],
+            "responseHashes": [
+                "f307224a00647a8c595031548266f0956a87f9acbab3041ae08da4219cb91476"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bmj.com",
+                "www.bmj.com"
+            ]
+        },
+        {
+            "rule": "vercel-dns\\.com\\/sso",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cname"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "profile.theartnewspaper.com",
+                    "resolved": "cname.vercel-dns.com"
+                }
+            ],
+            "responseHashes": [
+                "807d8df8fcccbfa1253edc8a15d2c7761c3b201d66d55363f4a62227011eed30"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theartnewspaper.com",
+                "www.theartnewspaper.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "types": {
+        "Image": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns2.vercel-dns.com",
+        "ns1.vercel-dns.com"
+    ]
+}

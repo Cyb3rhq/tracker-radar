@@ -1,0 +1,157 @@
+{
+    "domain": "wootric.com",
+    "owner": {
+        "name": "Wootric",
+        "displayName": "Wootric"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000804,
+    "sites": 8,
+    "subdomains": [
+        "cdn",
+        "eligibility"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "wootric\\.com\\/wootric-sdk\\.js",
+            "cookies": 0.000502,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 6,
+                "Document.cookie setter": 5
+            },
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "fe7f7a5dc1fb43aa9a22f4b5b1198370b13daddcafa0c9bef3e45d7f16372a31"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "NPS_496d0c79_last_seen": {
+                    "ttl": 7776005,
+                    "length": 13,
+                    "prevalence": 0.0001004419445560466,
+                    "uniqueness": 1
+                },
+                "NPS_9ebad065_last_seen": {
+                    "ttl": 7776007,
+                    "length": 13,
+                    "prevalence": 0.0001004419445560466,
+                    "uniqueness": 1
+                },
+                "NPS_88f9d834_last_seen": {
+                    "ttl": 7776004,
+                    "length": 13,
+                    "prevalence": 0.0001004419445560466,
+                    "uniqueness": 1
+                },
+                "NPS_1f1ec90f_last_seen": {
+                    "ttl": 7776006,
+                    "length": 13,
+                    "prevalence": 0.0001004419445560466,
+                    "uniqueness": 1
+                },
+                "NPS_bc24fa74_last_seen": {
+                    "ttl": 7776007,
+                    "length": 13,
+                    "prevalence": 0.0001004419445560466,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "logrocket.com",
+                "bluethumb.com.au",
+                "hub.docker.com",
+                "www.boq.com.au",
+                "www.comptia.org",
+                "www.onsemi.com",
+                "www.wine-searcher.com"
+            ]
+        },
+        {
+            "rule": "wootric\\.com\\/eligible\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eligibility"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "994590870d26e1a3d0ed09a379db64fa826e339695a093be1f2fae97450cca24",
+                "5afb84958ce951808f0e167e124cd59c901089ddbbe302f66d48a4043ded9f6e",
+                "6c50fb8d9572f2e29b02cc5f96fa56fb347afdda2b4bd91e4f6e4d7ce708a488",
+                "4e3cb49a57f3135c33d50cc4e1a454d07b3be3a02c9cc136586cf6a30268d856"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "NPS_496d0c79_last_seen": 0.0001004419445560466,
+                "NPS_9ebad065_last_seen": 0.0001004419445560466,
+                "NPS_88f9d834_last_seen": 0.0001004419445560466,
+                "NPS_1f1ec90f_last_seen": 0.0001004419445560466,
+                "NPS_bc24fa74_last_seen": 0.0001004419445560466
+            },
+            "exampleSites": [
+                "bluethumb.com.au",
+                "www.boq.com.au",
+                "www.comptia.org",
+                "www.onsemi.com",
+                "www.wine-searcher.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.14285714285714285
+        },
+        {
+            "domain": "lr-wa.com",
+            "prevalence": 0.07142857142857142
+        },
+        {
+            "domain": "segment.com",
+            "prevalence": 0.07142857142857142
+        },
+        {
+            "domain": "d36jcksde1wxzq.cloudfront.net",
+            "prevalence": 0.07142857142857142
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.07142857142857142
+        },
+        {
+            "domain": "d27j601g4x0gd5.cloudfront.net",
+            "prevalence": 0.07142857142857142
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "XHR": 5
+    },
+    "nameservers": [
+        "dns1.registrar-servers.com",
+        "dns2.registrar-servers.com"
+    ]
+}

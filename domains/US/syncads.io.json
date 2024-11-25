@@ -1,0 +1,83 @@
+{
+    "domain": "syncads.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "syncads\\.io\\/tag\\/js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.language": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "NavigatorUAData.prototype.getHighEntropyValues": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "e073661086a5287e65b18b04f810e41d951597fb2fcdf95248e6ca8d45eb0512"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kto.com",
+                "www.loveherfeet.com",
+                "www.mrskin.com",
+                "www.mrman.com"
+            ]
+        },
+        {
+            "rule": "syncads\\.io\\/wmetrics",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "loveherfeet.com",
+                "www.mrskin.com",
+                "www.mrman.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.8333333333333334
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Ping": 3
+    },
+    "nameservers": [
+        "garret.ns.cloudflare.com",
+        "riya.ns.cloudflare.com"
+    ]
+}

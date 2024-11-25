@@ -1,0 +1,193 @@
+{
+    "domain": "behamics.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000102,
+    "sites": 15,
+    "subdomains": [
+        "cdn",
+        "engine5"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "behamics\\.com\\/giesswein\\/behamics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "194b6f3a503a2fd66fb127cb130d5d9554439d0864ed8c44551a8f2577a42a84"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "giesswein.com",
+                "www.giesswein.com"
+            ]
+        },
+        {
+            "rule": "behamics\\.com\\/api\\/getmessage",
+            "cookies": 0.0000478,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engine5"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [
+                "499836ffc1fbc5f8f96439fdd4564a70e4fb0f80efa289c59595653cefbc7ccb",
+                "1c6cca72d15d9a0d954c2156988c100c7fd92d58021748a72c3ff895ba1a4cfb",
+                "9cfb8d4b85223ee14d72de38e9899cc35992683e81ab5b729091a7bc955fff8a",
+                "924605c509fd7bbc7f48dde0450e3a49b58827d505a304703c185c8fc4179eaf",
+                "36f5d5c78e410a8540647e58785d0b5e8fbc2a9fe3888b3eb6182cc4d9c51728",
+                "2f2531bacfc296d0c8216133d03d010c3688e6bcc22b1949d6facd7c9a0a2263"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amorelie.de",
+                "www.bauhaus.ch",
+                "www.gerryweber.com",
+                "www.micasa.ch",
+                "www.oneupcomponents.com",
+                "www.petinsurance.com",
+                "www.sportx.ch"
+            ]
+        },
+        {
+            "rule": "behamics\\.com\\/api\\/analytics",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engine5"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bauhaus.ch",
+                "www.oneupcomponents.com",
+                "www.petinsurance.com"
+            ]
+        },
+        {
+            "rule": "behamics\\.com\\/petinsurance\\/behamics\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.innerWidth": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.connection": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "655f763c022839dcd20b23ccd57cd029f98971ba3cc0583240fec0c6788f3748"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "bhm_user": {
+                    "ttl": null,
+                    "length": 124,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "tempSession": {
+                    "ttl": null,
+                    "length": 102,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "petinsurance.com",
+                "www.petinsurance.com"
+            ]
+        },
+        {
+            "rule": "behamics\\.com\\/petinsurance\\/behamics\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8c25c19d81400fc7f929e54cb821622649996115d0f515ece041b038dd244187"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "petinsurance.com",
+                "www.petinsurance.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000547,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8275862068965517
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.10344827586206896
+        },
+        {
+            "domain": "global-e.com",
+            "prevalence": 0.034482758620689655
+        },
+        {
+            "domain": "baqend.com",
+            "prevalence": 0.034482758620689655
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 7,
+        "Ping": 3,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns.udag.net",
+        "ns.udag.org",
+        "ns.udag.de"
+    ]
+}

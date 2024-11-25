@@ -1,0 +1,129 @@
+{
+    "domain": "richrelevance.com",
+    "owner": {
+        "name": "RichRelevance",
+        "displayName": "RichRelevance",
+        "privacyPolicy": "https://www.richrelevance.com/privacy/",
+        "url": "http://richrelevance.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "media",
+        "recs"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "richrelevance\\.com\\/rrserver\\/js\\/1\\.2\\/p13n\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 1,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 5,
+                "window.localStorage": 5,
+                "Document.cookie setter": 4
+            },
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "fe2a7a08d6eb68125e7417e12d1eac77fbb6597b2d6dda96f35b5905573cb3ab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rr_rcs": {
+                    "ttl": 31449607,
+                    "length": 85,
+                    "prevalence": 0.00030129557095510696,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jernia.no",
+                "www.atea.no",
+                "www.jernia.no",
+                "www.miinto.no",
+                "www.solarnorge.no",
+                "www.swarovski.com"
+            ]
+        },
+        {
+            "rule": "richrelevance\\.com\\/rrserver\\/p13n_generated\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recs"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "20d9b335c673f08e923c7ccc60abeff47ea40770140cceba46fc76cd40613473",
+                "78632477cbc21f7048aa88310ae40bc0ad3a8026ca4d3e241ffde16e444c2445",
+                "325fcf51062ccb2d5403d942d2df37cebaa414a633136d999d07a1c9c1d3e4ab",
+                "203d55cf07d8b65274aa7d2387a11d73bba1e4ccce0213725d31f5ec2b8330c0",
+                "22344d2c6f6d452d0bb95c926f7b0cb726792ef93aedd5e07d21a382839d3aa5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jernia.no",
+                "www.atea.no",
+                "www.jernia.no",
+                "www.miinto.no",
+                "www.rei.com",
+                "www.swarovski.com"
+            ]
+        },
+        {
+            "rule": "richrelevance\\.com\\/rrserver\\/api\\/personalize",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ebfd9f658559f5fd9a4c84c41bd02c0ae0a26d2ec254bf376c696e4c01e8f10a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "swarovski.com",
+                "www.swarovski.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "nicole.ns.cloudflare.com",
+        "otto.ns.cloudflare.com"
+    ]
+}

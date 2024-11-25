@@ -1,0 +1,272 @@
+{
+    "domain": "screeb.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000403,
+    "sites": 4,
+    "subdomains": [
+        "t",
+        "rpc.idfm",
+        "rpc"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "screeb\\.app\\/tag\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4,
+                "window.name": 4,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000403,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iledefrance-mobilites.fr",
+                "www.helloasso.com",
+                "www.iledefrance-mobilites.fr",
+                "www.qare.fr"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/v0\\.2\\.238\\/tag\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000403,
+            "cnames": [],
+            "responseHashes": [
+                "94a800c3b48e456aa213cab1dcdbccfc68534199a31e8d682490540b4835bc51"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iledefrance-mobilites.fr",
+                "www.helloasso.com",
+                "www.iledefrance-mobilites.fr",
+                "www.qare.fr"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/v0\\.2\\.238\\/core\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.language": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "window.devicePixelRatio": 4,
+                "Navigator.prototype.languages": 4,
+                "Date.prototype.getTimezoneOffset": 4,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 4,
+                "NavigatorUAData.prototype.brands": 4,
+                "NavigatorUAData.prototype.platform": 4,
+                "NavigatorUAData.prototype.getHighEntropyValues": 4,
+                "window.sessionStorage": 4,
+                "Date.prototype.getTime": 4,
+                "window.name": 4,
+                "window.localStorage": 4,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 4,
+            "prevalence": 0.000403,
+            "cnames": [],
+            "responseHashes": [
+                "30383998a852ae10a446177b667fc771bcee38a9b6852740c04684ec856ddaf1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iledefrance-mobilites.fr",
+                "www.helloasso.com",
+                "www.iledefrance-mobilites.fr",
+                "www.qare.fr"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/v0\\.2\\.238\\/tag\\.ps\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000403,
+            "cnames": [],
+            "responseHashes": [
+                "b3b19923b030b27b8706c5c921d9c95a107d43bcc7f68da6bb9d5a1ddba050b1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iledefrance-mobilites.fr",
+                "www.helloasso.com",
+                "www.iledefrance-mobilites.fr",
+                "www.qare.fr"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/rpc\\/1\\.3\\.0\\/channel\\/2ccdd17e-c383-4609-9a62-b40ed19f6aef",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rpc.idfm"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "d41626902c8ea14234bc0fd414f245ae728b0a29ff6546c7bba984e5d86235f4",
+                "5b05f1ced5629576f051e457ae7fe46cad84f6c2c4c9307b6ea135f7e86b8810"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iledefrance-mobilites.fr",
+                "me-deplacer.iledefrance-mobilites.fr",
+                "www.iledefrance-mobilites.fr"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/rpc\\/1\\.3\\.0\\/channel\\/2ccdd17e-c383-4609-9a62-b40ed19f6aef\\/respondent",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rpc.idfm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "896752cb69b9813784a542a1988511014710d47e396ff369a21aa0792b3614b3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iledefrance-mobilites.fr",
+                "www.iledefrance-mobilites.fr"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/rpc\\/1\\.3\\.0\\/channel\\/8f9bc0df-991c-4b35-a06e-a423e790d821",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rpc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "fa98977dcc890d2de088baeab40b25a64c639a6da8576c00488e27dc3431249d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "helloasso.com",
+                "www.helloasso.com"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/rpc\\/1\\.3\\.0\\/channel\\/8f9bc0df-991c-4b35-a06e-a423e790d821\\/respondent",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rpc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "e7f08220eeb944ca9937da9aa8519a42d670e32ddd36e2b4ed5e8bd6e38f00dc"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "helloasso.com",
+                "www.helloasso.com"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/rpc\\/1\\.3\\.0\\/channel\\/253d331e-aa15-42ae-848d-091dfc42d254",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rpc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "dfbfc8a31e7d605de86dc140f30658435fdfb0f8aeeb5da26ac8142013994826"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "qare.fr",
+                "www.qare.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6923076923076923
+        },
+        {
+            "domain": "segment.com",
+            "prevalence": 0.15384615384615385
+        },
+        {
+            "domain": "matomo.cloud",
+            "prevalence": 0.15384615384615385
+        }
+    ],
+    "types": {
+        "Script": 16,
+        "Fetch": 11
+    },
+    "nameservers": [
+        "aleena.ns.cloudflare.com",
+        "elias.ns.cloudflare.com"
+    ]
+}

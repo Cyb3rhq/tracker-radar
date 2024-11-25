@@ -1,0 +1,5316 @@
+{
+    "domain": "usercentrics.eu",
+    "owner": {
+        "name": "Usercentrics GmbH",
+        "displayName": "Usercentrics"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.0337,
+    "sites": 335,
+    "subdomains": [
+        "web.cmp",
+        "app",
+        "v1.api.service.cmp",
+        "app.eu",
+        "consent-api.service.consent",
+        "consent-api.service.consent.eu1",
+        "uct.service",
+        "uct.eu",
+        "api",
+        "config.eu",
+        "aggregator.service",
+        "aggregator.eu",
+        "privacy-proxy",
+        "sdp.eu",
+        "img.sct.eu1",
+        "01.itp",
+        "graphql",
+        "privacy-proxy-server"
+    ],
+    "cnames": [
+        {
+            "original": "itp.steinberg.net",
+            "resolved": "01.itp.usercentrics.eu"
+        },
+        {
+            "original": "uc.srgd.ch",
+            "resolved": "01.itp.usercentrics.eu"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "usercentrics\\.eu\\/ui\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "web.cmp",
+                "app"
+            ],
+            "apis": {
+                "window.innerWidth": 25
+            },
+            "sites": 29,
+            "prevalence": 0.00291,
+            "cnames": [],
+            "responseHashes": [
+                "d8a58e6a031712e0d282b161d467b2a1e78dc30312b926653f8e1f831bdda6cc",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.idealo.de",
+                "rehashop.ch",
+                "hub.hslu.ch",
+                "www.street-one.ch",
+                "kartenliebe.ch",
+                "www.sport-thieme.ch",
+                "www.vitaminexpress.org",
+                "www.mueller.de",
+                "www.reifen.com",
+                "www.motel-one.com",
+                "www.home24.ch",
+                "www.marc-o-polo.com",
+                "www.fairtoner.de",
+                "www.home24.de",
+                "www.mueller.ch",
+                "flaschenpost.ch",
+                "neho.ch",
+                "www.kununu.com",
+                "www.calida.com",
+                "www.fressnapf.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/ui\\/v\\/3\\.26\\.0\\/BrowserSdk\\.lib\\.d3e929fc\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "web.cmp"
+            ],
+            "apis": {
+                "window.localStorage": 28,
+                "Navigator.prototype.userAgent": 20,
+                "Document.cookie setter": 2
+            },
+            "sites": 28,
+            "prevalence": 0.00281,
+            "cnames": [],
+            "responseHashes": [
+                "f89bc240c2482c730a03cd773661748a5f0acccf4597f4f127b54f2936734cda"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "UserCentricsConsent": {
+                    "ttl": 31536004,
+                    "length": 30,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.idealo.de",
+                "www.calida.com",
+                "www.fressnapf.de",
+                "kartenliebe.ch",
+                "www.mueller.ch",
+                "www.sport-thieme.ch",
+                "rehashop.ch",
+                "www.intersport.ch",
+                "www.marc-o-polo.com",
+                "hub.hslu.ch",
+                "www.home24.ch",
+                "www.zurzachcare.ch",
+                "www.jimdo.com",
+                "www.vitaminexpress.org",
+                "www.home24.de",
+                "jimdo.com",
+                "flaschenpost.ch",
+                "www.fressnapf.ch",
+                "www.pilatus-aircraft.com",
+                "www.motel-one.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/latest\\/core\\/k1JwB2Dk_",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "v1.api.service.cmp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f861afbd9a33e362c43adbc5db5554d87f4b7bd776d4bab208b74e56481012db"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jimdo.com",
+                "www.jimdo.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/cdcs\\/v\\/1\\.0\\.0\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "web.cmp"
+            ],
+            "apis": {
+                "window.localStorage": 16
+            },
+            "sites": 19,
+            "prevalence": 0.00191,
+            "cnames": [],
+            "responseHashes": [
+                "8cc881d11d03882784c5c8ae9b4fff2d57aa4b9b1bbfc5242b4959a18958839c"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jimdo.com",
+                "hub.hslu.ch",
+                "kartenliebe.ch",
+                "neho.ch",
+                "rehashop.ch",
+                "www.calida.com",
+                "www.fairtoner.de",
+                "www.fressnapf.de",
+                "www.fressnapf.ch",
+                "www.home24.ch",
+                "www.home24.de",
+                "www.idealo.de",
+                "www.idealo.fr",
+                "www.jimdo.com",
+                "www.motel-one.com",
+                "www.reifen.com",
+                "www.sport-thieme.ch",
+                "www.stylight.ch",
+                "www.vitaminexpress.org"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/session\\/1px\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 299,
+            "prevalence": 0.03,
+            "cnames": [],
+            "responseHashes": [
+                "be92266076786f167441375941bb69c5484e182f48925b723a5efc43a1f6086c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.idealo.de",
+                "ch.wetter.com",
+                "www.muenchen.de",
+                "www.gabor.com",
+                "angela-bruderer.ch",
+                "mystrom.ch",
+                "www.kastner-oehler.ch",
+                "fr.zalando-lounge.ch",
+                "www.sportscheck.com",
+                "preply.com",
+                "ch.erwinmueller.com",
+                "rehashop.ch",
+                "www.viessmann.de",
+                "www.motel-one.com",
+                "www.redcross-edu.ch",
+                "www.mueller.de",
+                "www.radioswissjazz.ch",
+                "www.stmoritz.com",
+                "www.hifisound.de",
+                "www.misterspex.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/ui\\/v\\/3\\.26\\.0\\/GdprCmpController\\.6873cb85\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "web.cmp"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 8
+            },
+            "sites": 24,
+            "prevalence": 0.00241,
+            "cnames": [],
+            "responseHashes": [
+                "9c9ddc21132aa642b554dc6478752f7e0ae1bab78395f857f5a2a60a0591d34e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.idealo.de",
+                "kartenliebe.ch",
+                "jimdo.com",
+                "www.idealo.fr",
+                "www.mueller.de",
+                "www.pilatus-aircraft.com",
+                "kaffeezentrale.ch",
+                "rehashop.ch",
+                "www.marc-o-polo.com",
+                "www.calida.com",
+                "neho.ch",
+                "hub.hslu.ch",
+                "www.reifen.com",
+                "flaschenpost.ch",
+                "www.motel-one.com",
+                "www.mueller.ch",
+                "www.zurzachcare.ch",
+                "www.vitaminexpress.org",
+                "www.fairtoner.de",
+                "www.intersport.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/consent\\/uw\\/3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent-api.service.consent",
+                "consent-api.service.consent.eu1"
+            ],
+            "apis": {},
+            "sites": 292,
+            "prevalence": 0.0293,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.idealo.de",
+                "www.herder.de",
+                "szkb.ch",
+                "www.vaude.com",
+                "www.gigasport.ch",
+                "www.shop-apotheke.com",
+                "www.bike-discount.de",
+                "www.solothurnerspitaeler.ch",
+                "www.myhermes.de",
+                "www.immobilienscout24.de",
+                "www.angela-bruderer.ch",
+                "benuta.ch",
+                "www.beleuchtungdirekt.ch",
+                "www.redcross.ch",
+                "www.spar.ch",
+                "www.beck-shop.de",
+                "www.adesso-online.de",
+                "www.hifisound.de",
+                "www.sportscheck.com",
+                "www.huesler-nest.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/consent\\/uw\\/3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent-api.service.consent",
+                "consent-api.service.consent.eu1"
+            ],
+            "apis": {},
+            "sites": 292,
+            "prevalence": 0.0293,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.idealo.de",
+                "www.huesler-nest.ch",
+                "angela-bruderer.ch",
+                "wohnglueck.de",
+                "www.christ.de",
+                "www.sportscheck.ch",
+                "www.topcc.ch",
+                "www.coopzeitung.ch",
+                "www.sixt.com",
+                "www.vitra.com",
+                "www.viessmann.ch",
+                "r2-bike.com",
+                "lohncheck.ch",
+                "neho.ch",
+                "www.swisspearl.com",
+                "www.postbank.de",
+                "electronica.de",
+                "www.maerklin.de",
+                "www.autouncle.ch",
+                "www.vitaminexpress.org"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/ui\\/v\\/3\\.26\\.0\\/UcGdprCmpView\\.d93577ec\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web.cmp"
+            ],
+            "apis": {},
+            "sites": 23,
+            "prevalence": 0.00231,
+            "cnames": [],
+            "responseHashes": [
+                "5bd470028bd719f773a0a7277c4ef39f911d0e1dbfdf68f570a00e947122ba8c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.idealo.de",
+                "www.motel-one.com",
+                "jimdo.com",
+                "www.street-one.ch",
+                "www.calida.com",
+                "www.mueller.ch",
+                "flaschenpost.ch",
+                "www.reifen.com",
+                "www.vitaminexpress.org",
+                "neho.ch",
+                "www.pilatus-aircraft.com",
+                "kartenliebe.ch",
+                "rehashop.ch",
+                "kaffeezentrale.ch",
+                "www.marc-o-polo.com",
+                "www.zurzachcare.ch",
+                "www.intersport.ch",
+                "www.fairtoner.de",
+                "www.mueller.de",
+                "www.idealo.fr"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/uct",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uct.service",
+                "uct.eu"
+            ],
+            "apis": {},
+            "sites": 259,
+            "prevalence": 0.026,
+            "cnames": [],
+            "responseHashes": [
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.idealo.de",
+                "www.calida.com",
+                "lohncheck.ch",
+                "www.misterspex.ch",
+                "www.projuventute.ch",
+                "www.zfv.ch",
+                "www.compart.com",
+                "www.maerklin.de",
+                "www.trustedshops.ch",
+                "ch.erwinmueller.com",
+                "www.avogel-company.ch",
+                "www.beck-shop.de",
+                "www.verkehrshaus.ch",
+                "www.blum.com",
+                "www.montafon.at",
+                "www.srgd.ch",
+                "mall.industry.siemens.com",
+                "www.calumetphoto.de",
+                "www.rowohlt.de",
+                "www.betzold.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/latest\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {
+                "window.localStorage": 242,
+                "Navigator.prototype.userAgent": 243
+            },
+            "sites": 250,
+            "prevalence": 0.0251,
+            "cnames": [],
+            "responseHashes": [
+                "863dbc06b0d5790bc466a02383e69aeea3be6836976d46c2681460e671a63a18"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.zalando.fr",
+                "mx3.ch",
+                "www.mobilezone.ch",
+                "www.onlineprinters.de",
+                "www.kampajobs.ch",
+                "www.myhermes.de",
+                "www.immowelt.de",
+                "my.sympany.ch",
+                "www.flixbus.ch",
+                "www.condor.com",
+                "www.blum.com",
+                "www.rosebikes.de",
+                "support.industry.siemens.com",
+                "www.betzold.ch",
+                "www.wwf.ch",
+                "www.montafon.at",
+                "www.post.ch",
+                "www.rewe.de",
+                "www.venta-air.com",
+                "www.srgd.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/index\\.module\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 244,
+                "window.localStorage": 243,
+                "window.sessionStorage": 243,
+                "window.innerHeight": 242,
+                "window.innerWidth": 242,
+                "Date.prototype.getTime": 214,
+                "Navigator.prototype.languages": 9,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 1,
+                "Navigator.prototype.language": 1
+            },
+            "sites": 246,
+            "prevalence": 0.0247,
+            "cnames": [],
+            "responseHashes": [
+                "72ecc7e775323f5ac062964918696ed1eb8cd9b350bbb7a0bd2c0b9978d713a4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.kosmos.de",
+                "www.party.ch",
+                "mall.industry.siemens.com",
+                "www.sportscheck.com",
+                "glkb.ch",
+                "www.aldi-onlineshop.de",
+                "www.maerklin.de",
+                "www.kastner-oehler.ch",
+                "www.zuerich.com",
+                "www.ckw.ch",
+                "www.saemereien.ch",
+                "www.carlsen.de",
+                "www.siemens.com",
+                "www.baby-markt.ch",
+                "www.deutsche-bank.de",
+                "digitalrepublic.ch",
+                "www.gigasport.ch",
+                "www.einhell.ch",
+                "www.glastroesch.com",
+                "www.kampajobs.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/JQ3WdqKDDHtEgM\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "angela-bruderer.ch",
+                "www.angela-bruderer.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/JQ3WdqKDDHtEgM\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "dfa33bb330bf6cc80105190019ac48f4b4c140597ad530e4ecc19398a2c42349"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "angela-bruderer.ch",
+                "www.angela-bruderer.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/JQ3WdqKDDHtEgM\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4b2abc7e6cd866cf7deda5a57f3a89533cd133301703c3fae219f0c779988290"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "angela-bruderer.ch",
+                "www.angela-bruderer.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/JQ3WdqKDDHtEgM\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "angela-bruderer.ch",
+                "www.angela-bruderer.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/DefaultData-2ccda9a9-816cb078\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 243,
+            "prevalence": 0.0244,
+            "cnames": [],
+            "responseHashes": [
+                "fcf4ad57046af8b44b9f85d4398ca15757c54cdbdecfdfdf438266ff0bd996f8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.bitdefender.com",
+                "www.verkehrshaus.ch",
+                "www.cewe.ch",
+                "www.kosmos.de",
+                "www.opitec.ch",
+                "archive.steinberg.help",
+                "www.hugoboss.com",
+                "www.douglas.ch",
+                "www.bettybossi.ch",
+                "gutex.ch",
+                "www.siemens.com",
+                "www.blum.com",
+                "www.deutschland.de",
+                "www.glastroesch.com",
+                "www.redcross.ch",
+                "blog.deinhandy.de",
+                "auto-motor.at",
+                "kuhnrikon.com",
+                "www.douglas.de",
+                "www.outletcity.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/translations\\/translations-de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "config.eu"
+            ],
+            "apis": {},
+            "sites": 230,
+            "prevalence": 0.0231,
+            "cnames": [],
+            "responseHashes": [
+                "d798ef91a6ad855999b0bb052edf6a6eef008b01443a33614ad8e8c4713fa32e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.hugendubel.de",
+                "www.andermatt-swissalps.ch",
+                "www.gebana.com",
+                "www.goethe.de",
+                "www.rosebikes.ch",
+                "bvk.ch",
+                "www.shop-apotheke.com",
+                "kaiserkraft.ch",
+                "www.avogel.ch",
+                "www.scott-sports.com",
+                "www.leifiphysik.de",
+                "www.eis.de",
+                "www.christ.de",
+                "www.villeroy-boch.ch",
+                "www.glastroesch.com",
+                "www.badische-zeitung.de",
+                "www.sennheiser.com",
+                "www.mobilezone.ch",
+                "www.solothurnerspitaeler.ch",
+                "www.adesso-online.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/translations\\/translations-de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "config.eu"
+            ],
+            "apis": {},
+            "sites": 230,
+            "prevalence": 0.0231,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "szkb.ch",
+                "www.hammer-fitness.ch",
+                "www.frankfurt-airport.com",
+                "www.kampajobs.ch",
+                "digitalrepublic.ch",
+                "www.gigasport.ch",
+                "www.huesler-nest.ch",
+                "www.zalando.de",
+                "www.herder.de",
+                "www.maerklin.de",
+                "wohnglueck.de",
+                "www.trustedshops.de",
+                "ch.erwinmueller.com",
+                "www.jungheinrich-profishop.ch",
+                "www.szkb.ch",
+                "www.baldur-garten.ch",
+                "www.immowelt.de",
+                "www.mobilezone.ch",
+                "www.connox.ch",
+                "www.rowohlt.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/aggregate\\/de",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aggregator.service",
+                "aggregator.eu"
+            ],
+            "apis": {},
+            "sites": 35,
+            "prevalence": 0.00352,
+            "cnames": [],
+            "responseHashes": [
+                "03e951d519b7ab6f6ec081eb7664e197c4b1134d55865cd068738a1f2c750a5b",
+                "17d8fc301dc34982c9bc275a641fd5c03d81e35a9c3aab9250460ecd76115b3b",
+                "513884831cac5ebe18b918f98ace9970ad3a6df21c0f7b5e2c05dc00768d99ae",
+                "308cf7557c54b7554252c4c6c1fd45999d1be2431c95638bf0fd7a874e104937",
+                "d96c6a4e2fb05ff7f3dfe3ce86054766ad6353b6601ad3e7d9c8e00c1d216151",
+                "1b7c71317adcd74b0bee8ad6530e71d3c49f323a5305df464695f1fad50414f0",
+                "7a9a71f05eac628474e69571384bdff99f275a82a809e60e9fb111dffea1ce0c",
+                "6eab498a2234e572c381e64799af3c38891ce83e93d3af317b12c183794066fc",
+                "d04b8adef64ab3ca235f888b71ec8b314ea11fef3b22ae40250e22da4c4bbe1e",
+                "3d73aa81e7239068eea6b68b73df1c8506a7343b95c94499eeb109ccfa7c2729",
+                "33c03c22e1aef4808c5a5f76253115afa8e033bb360bfd4444a662ed259f62e7",
+                "598bb3f3c52dd00851fd43b2d60bbb4e5f92e0ebce805c9dbfb766afb1574a34",
+                "7ad84964031681b950b5bc799883f8358cfd2aa38b8773d5e9ed52dd622b0545",
+                "bdb83570052054e32db84fa2a9483f122eb04f8a3d7123e9efa80fc33e0f20d1",
+                "800f3fbe07764e1240629eceddb149e165aacf18b13e2d4a7a430333206cace5",
+                "d9a94c97cb3466b62885ce13f5266600f75adbe683e4a6a7421d03db9c0be25b",
+                "0ee018bd0ddcc3e0d6e465bd4010fce1d8b6d214e60cc709b78cc30fe1611000",
+                "e1f6880752dcbec7fea95814e6233b98bff6d45fe414fb6c4e04c06757e2216f",
+                "f73f69aee837c1e669d7aef9bafe4fa16d829daa7cc449a652b8e44e734e5422",
+                "88df6da957447d4da8cbc917b2af7681bd964d78381bbef63a766ecc6b7919ae",
+                "b4b02393272b0f6515603e9063724893df5e49e65f0572cf887d2795a21f58f4",
+                "e44988cd0ed945c5fa0a748a86bdf76084009af562f2f2dc13eaf2c76bb11f1d",
+                "60f865a1be8644947680a190ac1872888f369fcc9797e6456016ff19b6777f92",
+                "ca76b4901f0c2610dd267779ba86b1b42d0da2ad6c25a084cbb4312489516773",
+                "9c988da58d8ebc9883026d31357d8840eab99678932c2859c7571343365d1c95",
+                "40a859e7ac132c210ca7460ef6b47aa51806d084c47942fd33bcb36196c2a8af",
+                "125b6c1f7cf2b7757d53d44fa77f434fd8cfc3d2708190a98424d2ea0a03ad84",
+                "66aed9a6b346346c1b8d25337b67a7d1a6d91be27ac30f3508ffbc3654db9bb9",
+                "1c8795ce6869cbdd78da730b24e135a0d4ded78edad5189c9d73213649e5865c",
+                "1349d95202156a7f7b9b39c873760e14d86851dd5c64c077e748c5e3d3726f6b",
+                "6e5a71403e6bc92e1cb6e212d6e277dc3d956d244244e67ca7a791d3ac3decd3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.vier-pfoten.ch",
+                "www.mcdrogerie.ch",
+                "www.angela-bruderer.ch",
+                "www.swisspearl.com",
+                "angela-bruderer.ch",
+                "www.loberon.ch",
+                "www.ing.de",
+                "www.deindeal.ch",
+                "www.verivox.de",
+                "www.porsche.com",
+                "www.prosieben.de",
+                "www.holzland.ch",
+                "www.misterspex.ch",
+                "www.szkb.ch",
+                "www.haufe.de",
+                "www.rowohlt.de",
+                "www.dm.de",
+                "www.uniklinik-freiburg.de",
+                "lohncheck.ch",
+                "www.wimo.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/aggregate\\/de",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aggregator.service",
+                "aggregator.eu"
+            ],
+            "apis": {},
+            "sites": 35,
+            "prevalence": 0.00352,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.wetter.com",
+                "www.verivox.de",
+                "www.fischerverlage.de",
+                "www.rowohlt.de",
+                "www.calumetphoto.de",
+                "www.carlsen.de",
+                "www.ran.de",
+                "www.vier-pfoten.ch",
+                "www.uniklinik-freiburg.de",
+                "angela-bruderer.ch",
+                "www.mcdrogerie.ch",
+                "ch.wetter.com",
+                "www.haufe.de",
+                "www.dm.de",
+                "www.spaeter.ch",
+                "www.vaude.com",
+                "www.wimo.com",
+                "www.prosieben.de",
+                "simpleclub.com",
+                "www.dak.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/DefaultUI-497e2874-28e200af\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 217,
+            "prevalence": 0.0218,
+            "cnames": [],
+            "responseHashes": [
+                "f172ba7c054305dc83278c1e347b2a3048c319fd41a21384aedb27689ee1ca7a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.rts.ch",
+                "zalando.com",
+                "lohncheck.ch",
+                "www.swisspearl.com",
+                "deutsch.heute-lernen.de",
+                "www.mobilezone.ch",
+                "www.zalando-lounge.ch",
+                "www.stmoritz.com",
+                "www.villeroy-boch.ch",
+                "www.muenchen.de",
+                "www.aha.ch",
+                "www.sixt.com",
+                "www.gitarrebass.de",
+                "www.trustedshops.ch",
+                "www.zalando.ch",
+                "www.swissinfo.ch",
+                "www.sennheiser.com",
+                "www.maerklin.de",
+                "www.srk-zuerich.ch",
+                "www.ifolor.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/FirstLayerCustomization-35b64167-a008f13b\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 242,
+            "prevalence": 0.0243,
+            "cnames": [],
+            "responseHashes": [
+                "1a639c6b443b17ec6c6f50d2de9487ec53d78fd91adec25c8d84f4668be31242"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.gute-weine.de",
+                "www.bettybossi.ch",
+                "www.lastminute.ch",
+                "www.uaudio.com",
+                "www.einhell.ch",
+                "www.myclimate.org",
+                "www.trustedshops.de",
+                "www.medgate.ch",
+                "www.flixbus.com",
+                "photoservice.migros.ch",
+                "www.srf.ch",
+                "www.immowelt.de",
+                "beleuchtungdirekt.ch",
+                "shop.rewe.de",
+                "www.ifolor.ch",
+                "www.zalando.fr",
+                "www.kicker.ch",
+                "www.carlsen.de",
+                "www.postbank.de",
+                "www.huesler-nest.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/ButtonsCustomization-bcc02a82-80187b8e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 241,
+            "prevalence": 0.0242,
+            "cnames": [],
+            "responseHashes": [
+                "ebbf51132ac80c2070995d82e1b1237526521386eaced499d94c36a05804141f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.immobilienscout24.de",
+                "www.bike-discount.de",
+                "toom.de",
+                "www.coopzeitung.ch",
+                "www.usi.ch",
+                "www.baby-markt.ch",
+                "www.connox.ch",
+                "www.oetker.de",
+                "www.bitdefender.de",
+                "www.viessmann.de",
+                "www.projuventute.ch",
+                "www.leifiphysik.de",
+                "www.bexio.com",
+                "www.huesler-nest.ch",
+                "fr.zalando.ch",
+                "www.schiesser.ch",
+                "tonies.com",
+                "preply.com",
+                "www.kuoni.ch",
+                "www.friedrich-verlag.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/SecondLayerUI-e5edf032-b4340c38\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 218,
+            "prevalence": 0.0219,
+            "cnames": [],
+            "responseHashes": [
+                "8395d72ab340a6fb7923d93b019bffa5570553f6762dc56eeb4e5ee603ae3dda"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.kampajobs.ch",
+                "www.skatepro.ch",
+                "www.deutschland.de",
+                "www.alternate.de",
+                "r2-bike.com",
+                "gastro-held.ch",
+                "www.devolo.de",
+                "www.viessmann.de",
+                "preply.com",
+                "www.retraitespopulaires.ch",
+                "www.bitdefender.de",
+                "www.siemens.com",
+                "www.baldur-garten.ch",
+                "www.transkribus.org",
+                "electronica.de",
+                "www.eis.de",
+                "www.saemereien.ch",
+                "www.redcross-edu.ch",
+                "sorellhotels.com",
+                "www.ekz.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/Taglogger-5c796780-b4dae676\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 235,
+            "prevalence": 0.0236,
+            "cnames": [],
+            "responseHashes": [
+                "fab5cda5682da8425e7110db62aa4c2163e2bbd8e2eec76139e3b1451520fa92"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.glastroesch.com",
+                "www.srk-zuerich.ch",
+                "www.herder.de",
+                "www.opitec.ch",
+                "www.maerklin.de",
+                "www.kastner-oehler.ch",
+                "de.onlineprinters.ch",
+                "www.party.ch",
+                "beleuchtungdirekt.ch",
+                "www.siemens.com",
+                "www.douglas.ch",
+                "www.leifiphysik.de",
+                "www.projuventute.ch",
+                "www.geberit.ch",
+                "eduki.com",
+                "www.verkehrshaus.ch",
+                "blog.deinhandy.de",
+                "www.mcdrogerie.ch",
+                "www.rsi.ch",
+                "www.suisa.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/PrivacyButton-fb130cad\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 217,
+            "prevalence": 0.0218,
+            "cnames": [],
+            "responseHashes": [
+                "b9d5cb60efaca3c6eae5d3b497e5e81d30325da6951286b161b89335d3e1f1f4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.postauto.ch",
+                "www.leifichemie.de",
+                "de.rolandschmid.ch",
+                "search.usi.ch",
+                "www.calumetphoto.de",
+                "betzold.ch",
+                "sorellhotels.com",
+                "www.douglas.ch",
+                "www.cewe.ch",
+                "www.gute-weine.de",
+                "www.mobilezone.ch",
+                "www.justwatch.com",
+                "www.avogel-company.ch",
+                "www.baumschule-horstmann.de",
+                "www.talktalk.ch",
+                "mx3.ch",
+                "www.gebana.com",
+                "www.kuoni.ch",
+                "www.kosmos.de",
+                "de.onlineprinters.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/index-9a187bec\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 217,
+            "prevalence": 0.0218,
+            "cnames": [],
+            "responseHashes": [
+                "0027eb2e17348426c11398948ab76961e8cb16ec6e0e7f5bcf90760cad58dc4b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blog.deinhandy.de",
+                "ifolor.ch",
+                "www.alternate.de",
+                "ch.erwinmueller.com",
+                "www.saemereien.ch",
+                "www.devolo.de",
+                "www.sixt.com",
+                "www.wwf.de",
+                "www.holzland.ch",
+                "www.biogarten.ch",
+                "www.zalando.fr",
+                "www.srgssr.ch",
+                "www.postauto.ch",
+                "www.radioswissclassic.ch",
+                "www.connox.ch",
+                "www.avogel.ch",
+                "www.redcross.ch",
+                "mall.industry.siemens.com",
+                "www.clienia.ch",
+                "www.herder.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/index-261ab0c1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 209,
+            "prevalence": 0.021,
+            "cnames": [],
+            "responseHashes": [
+                "e91937ce7d98ef6d66f8630b5ea185801b4b220a5c0ae4ca774901ce6c5b9ace"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.crb.ch",
+                "www.eis.de",
+                "www.viessmann.ch",
+                "www.alditalk.de",
+                "www.maerklin.de",
+                "deutsch.heute-lernen.de",
+                "www.avogel-company.ch",
+                "www.calumetphoto.de",
+                "www.saemereien.ch",
+                "www.condor.com",
+                "www.srgssr.ch",
+                "www.peterhahn.ch",
+                "benuta.ch",
+                "www.viessmann.de",
+                "betzold.ch",
+                "www.hugendubel.de",
+                "www.blum.com",
+                "www.deutsche-bank.de",
+                "de.rolandschmid.ch",
+                "www.bike-discount.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/SaveButton-91cbe52a\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 217,
+            "prevalence": 0.0218,
+            "cnames": [],
+            "responseHashes": [
+                "9ac49e6813c9880b6e3d41bd548399c66fabc27f0665bb5befc500c96b2fa893"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deutsch.heute-lernen.de",
+                "www.heizung.de",
+                "www.bike-discount.de",
+                "www.alternate.de",
+                "www.postbank.de",
+                "www.gute-weine.de",
+                "de.rolandschmid.ch",
+                "www.crb.ch",
+                "www.cewe.ch",
+                "www.hugendubel.de",
+                "www.privera.ch",
+                "www.avogel.ch",
+                "www.swisspearl.com",
+                "gutex.ch",
+                "www.avogel-company.ch",
+                "www.wago.com",
+                "fr.zalando.ch",
+                "www.blum.com",
+                "www.saemereien.ch",
+                "www.talktalk.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/VirtualServiceItem-6b2884ca\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 217,
+                "window.devicePixelRatio": 124,
+                "window.innerWidth": 123,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 217,
+            "prevalence": 0.0218,
+            "cnames": [],
+            "responseHashes": [
+                "fde462cd0f4b704d779f2e827fc8bc57557c74b7497468b01cc290bc799d2fc8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "support.industry.siemens.com",
+                "eduki.com",
+                "www.radioswisspop.ch",
+                "www.adesso-online.de",
+                "www.srgd.ch",
+                "www.upk.ch",
+                "www.parfumdreams.ch",
+                "www.topcc.ch",
+                "www.rapperswil-zuerichsee.ch",
+                "www.sympany.ch",
+                "www.sixt.ch",
+                "www.pctipp.ch",
+                "www.friedrich-verlag.de",
+                "de.onlineprinters.ch",
+                "www.bechtle.com",
+                "www.bexio.com",
+                "www.deutsche-bank.de",
+                "www.angela-bruderer.ch",
+                "www.condor.com",
+                "www.zfv.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/DefaultTabs-2931f8e4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 209,
+            "prevalence": 0.021,
+            "cnames": [],
+            "responseHashes": [
+                "86906ae2df1ef048180bfddef248ddfaca8c3aed7251ce63cafc2e41bf772927"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.peterhahn.ch",
+                "www.radioswissjazz.ch",
+                "de.rolandschmid.ch",
+                "www.kampajobs.ch",
+                "shop.post.ch",
+                "www.pbswisstools.com",
+                "fr.zalando-lounge.ch",
+                "www.rapperswil-zuerichsee.ch",
+                "www.bitdefender.com",
+                "www.crb.ch",
+                "www.ekz.ch",
+                "blog.deinhandy.de",
+                "www.gitarrebass.de",
+                "www.lastminute.ch",
+                "www.kaiserkraft.ch",
+                "www.technisat.com",
+                "www.avogel-company.ch",
+                "www.viessmann.ch",
+                "www.topcc.ch",
+                "www.opitec.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/latest\\/uc-block\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "privacy-proxy",
+                "sdp.eu"
+            ],
+            "apis": {
+                "window.localStorage": 80,
+                "Navigator.prototype.language": 3
+            },
+            "sites": 81,
+            "prevalence": 0.00814,
+            "cnames": [],
+            "responseHashes": [
+                "89af5e8cfe5115cde98e4174a2f95a0400bcdb41c8cb3b1c3749634a19bb0936"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.andermatt-swissalps.ch",
+                "www.wwf.de",
+                "www.rowohlt.de",
+                "www.sympany.ch",
+                "www.muenchen.de",
+                "www.phoenixcontact.com",
+                "www.kununu.com",
+                "blog.deinhandy.de",
+                "bvk.ch",
+                "www.ckw.ch",
+                "www.stmoritz.com",
+                "www.intersport.ch",
+                "betzold.ch",
+                "www.swissinfo.ch",
+                "www.szkb.ch",
+                "www.liebscher-bracht.com",
+                "www.swissbanking.ch",
+                "www.cube.eu",
+                "eduki.com",
+                "www.leifiphysik.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/RBVlDF2ny\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "steinberg.help",
+                "forums.steinberg.net",
+                "www.steinberg.net"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/RBVlDF2ny\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "659836450a76707e61365dbf1b74359dd2963ab7393c516c06ff67f6e99e1edc"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "steinberg.help",
+                "forums.steinberg.net",
+                "www.steinberg.net"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/RBVlDF2ny\\/latest\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "6935a60018b9e0dcda5a5620096d891306074d48a718d342271e8ee7e655296e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "steinberg.help",
+                "forums.steinberg.net",
+                "www.steinberg.net"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/RBVlDF2ny\\/latest\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "steinberg.help",
+                "forums.steinberg.net",
+                "www.steinberg.net"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-sdk\\/4\\.38\\.6\\/cross-domain-bridge\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {
+                "window.localStorage": 139
+            },
+            "sites": 143,
+            "prevalence": 0.0144,
+            "cnames": [],
+            "responseHashes": [
+                "d0567b9438c397bef64d821cb403bf392261458814af7a5309f70d605b680b60"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.rosebikes.ch",
+                "www.medgate.ch",
+                "www.spaeter.ch",
+                "www.geberit.ch",
+                "www.mcdrogerie.ch",
+                "www.dm.de",
+                "www.frankonia.de",
+                "www.steinberg.net",
+                "www.retraitespopulaires.ch",
+                "www.immobilienscout24.de",
+                "www.skatepro.ch",
+                "www.goethe.de",
+                "www.immowelt.de",
+                "www.badische-zeitung.de",
+                "www.coopzeitung.ch",
+                "www.aldi-onlineshop.de",
+                "www.usi.ch",
+                "www.technisat.com",
+                "www.engadin.ch",
+                "www.uaudio.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/translations\\/translations-en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 33,
+            "prevalence": 0.00332,
+            "cnames": [],
+            "responseHashes": [
+                "293c213205cd107ec18a50ae1f8a7b79915117d162cc58701a575def7c295d39"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "search.usi.ch",
+                "www.netgear.com",
+                "steinberg.help",
+                "www.cyberghostvpn.com",
+                "www.muenchen.de",
+                "www.sixt.com",
+                "www.uaudio.com",
+                "electronica.de",
+                "mystrom.ch",
+                "www.wwf.ch",
+                "help.bexio.com",
+                "www.siemens.com",
+                "www.steinberg.net",
+                "www.deutschland.de",
+                "www.myclimate.org",
+                "mall.industry.siemens.com",
+                "www.fender.com",
+                "www.sympany.ch",
+                "www.gigaset.com",
+                "www.wago.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/translations\\/translations-en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 33,
+            "prevalence": 0.00332,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mall.industry.siemens.com",
+                "www.bestsecret.com",
+                "www.muenchen.de",
+                "help.bexio.com",
+                "www.swissinfo.ch",
+                "www.siemens.com",
+                "www.wago.com",
+                "search.usi.ch",
+                "mystrom.ch",
+                "www.transkribus.org",
+                "steinberg.help",
+                "www.myclimate.org",
+                "www.gigaset.com",
+                "www.baumer.com",
+                "www.uaudio.com",
+                "www.expressvpn.com",
+                "www.wwf.ch",
+                "www.sympany.ch",
+                "www.zuerich.com",
+                "forums.steinberg.net"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/Zj3Me6gb1\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "immobilienscout24.de",
+                "www.immobilienscout24.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/Zj3Me6gb1\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "dc8343dae24291634bf1aec40cb6794f860bc2b1d28f0ab683854cced24619a0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "immobilienscout24.de",
+                "www.immobilienscout24.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/Zj3Me6gb1\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ffc3808ec2a3292b734a4a7e539c8a1b25231b8e7b37272db1d92c0d4906c056"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "immobilienscout24.de",
+                "www.immobilienscout24.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/Zj3Me6gb1\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "immobilienscout24.de",
+                "www.immobilienscout24.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/TcfData-b3b33efa-a444715a\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 24,
+            "prevalence": 0.00241,
+            "cnames": [],
+            "responseHashes": [
+                "ae5903447d25886faae78518c309a1220fbb7699967c18c3acfed450925ecee8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "immobilienscout24.de",
+                "www.computerworld.ch",
+                "www.haufe.de",
+                "www.cooperation.ch",
+                "www.alpin.de",
+                "www.autouncle.ch",
+                "www.justwatch.com",
+                "www.kribbelbunt.de",
+                "www.kicker.ch",
+                "simpleclub.com",
+                "www.immobilienscout24.de",
+                "www.bettybossi.ch",
+                "www.kaufda.de",
+                "www.spaeter.ch",
+                "www.coopzeitung.ch",
+                "www.pctipp.ch",
+                "www.kicker.de",
+                "www.suedkurier.de",
+                "auto-motor.at",
+                "www.baumer.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/gvl\\/v3\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "config.eu"
+            ],
+            "apis": {},
+            "sites": 29,
+            "prevalence": 0.00291,
+            "cnames": [],
+            "responseHashes": [
+                "827c3f6cb653b89d728ab8ace0f5bb65a11a34d8baaa3e4ae5937a6c169eddb1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "immobilienscout24.de",
+                "www.kaufda.de",
+                "www.coopzeitung.ch",
+                "www.prosieben.de",
+                "auto-motor.at",
+                "www.justwatch.com",
+                "www.computerworld.ch",
+                "www.kribbelbunt.de",
+                "www.spaeter.ch",
+                "www.suedkurier.de",
+                "www.alpin.de",
+                "www.kicker.de",
+                "www.sat1.de",
+                "www.baumer.com",
+                "www.autouncle.ch",
+                "www.cooperation.ch",
+                "www.conrad.de",
+                "www.bettybossi.ch",
+                "www.conrad.ch",
+                "www.pctipp.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/gvl\\/v3\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "config.eu"
+            ],
+            "apis": {},
+            "sites": 29,
+            "prevalence": 0.00291,
+            "cnames": [],
+            "responseHashes": [
+                "b495df3793d0101a10f7771a41facd6007a05890cd8c7e70d23f5f09c2661f4f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "immobilienscout24.de",
+                "www.haufe.de",
+                "www.kaufda.de",
+                "www.justwatch.com",
+                "www.conrad.ch",
+                "www.sat1.de",
+                "www.conrad.de",
+                "www.prosieben.de",
+                "www.suedkurier.de",
+                "www.autouncle.ch",
+                "simpleclub.com",
+                "www.wetter.com",
+                "www.coopzeitung.ch",
+                "www.kicker.ch",
+                "www.spaeter.ch",
+                "auto-motor.at",
+                "www.badische-zeitung.de",
+                "www.ran.de",
+                "www.alpin.de",
+                "ch.wetter.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/TcfUI-56b5f2b0-56c817a5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 24,
+            "prevalence": 0.00241,
+            "cnames": [],
+            "responseHashes": [
+                "d9221da5610586996752b8c6364ea2ce641f4a399920a47206e746f73de09f39"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "immobilienscout24.de",
+                "simpleclub.com",
+                "www.kicker.ch",
+                "www.alpin.de",
+                "www.haufe.de",
+                "www.autouncle.ch",
+                "www.badische-zeitung.de",
+                "www.suedkurier.de",
+                "www.baumer.com",
+                "www.kribbelbunt.de",
+                "www.kaufda.de",
+                "www.computerworld.ch",
+                "auto-motor.at",
+                "www.kicker.de",
+                "shop.rewe.de",
+                "www.bettybossi.ch",
+                "www.spaeter.ch",
+                "www.cooperation.ch",
+                "www.immowelt.de",
+                "www.immobilienscout24.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/index-416e42d9\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [
+                "adb9813cd1596576c9452069580e587c8cdb20c3dcf25be9b5c2b0a15ce3ad80"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "immobilienscout24.de",
+                "www.alpin.de",
+                "www.computerworld.ch",
+                "www.immobilienscout24.de",
+                "www.immowelt.de",
+                "www.justwatch.com",
+                "www.pctipp.ch",
+                "www.spaeter.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/sort-c42e380d\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [
+                "5d763433c13a2217b06bd2bdccd33c84127262dadd91e25562a4d3274117c590"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "immobilienscout24.de",
+                "www.alpin.de",
+                "www.computerworld.ch",
+                "www.immobilienscout24.de",
+                "www.immowelt.de",
+                "www.justwatch.com",
+                "www.pctipp.ch",
+                "www.spaeter.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/tcfac\\/acp\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "44fb6af0c5b3a8ce5fcbc0139bfea5bc2b3d58c64808326e048ca207c491b69f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auto-motor.at",
+                "simpleclub.com",
+                "www.autouncle.ch",
+                "www.bettybossi.ch",
+                "www.cooperation.ch",
+                "www.coopzeitung.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/tcfac\\/acp\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auto-motor.at",
+                "simpleclub.com",
+                "www.autouncle.ch",
+                "www.bettybossi.ch",
+                "www.cooperation.ch",
+                "www.coopzeitung.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/-lRlCy1WI\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beleuchtungdirekt.ch",
+                "www.beleuchtungdirekt.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/-lRlCy1WI\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2aff3b94a13f48b63a55f6c7a192fe351dcd3c32439e9c3c6f964410bb3a02c5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beleuchtungdirekt.ch",
+                "www.beleuchtungdirekt.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/-lRlCy1WI\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "708ff9ba7dffe8c25294c7368b597438af21ec6dd8de7b50b9f1a6c3be3f9520"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beleuchtungdirekt.ch",
+                "www.beleuchtungdirekt.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/-lRlCy1WI\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beleuchtungdirekt.ch",
+                "www.beleuchtungdirekt.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "privacy-proxy",
+                "sdp.eu"
+            ],
+            "apis": {},
+            "sites": 70,
+            "prevalence": 0.00703,
+            "cnames": [],
+            "responseHashes": [
+                "b28b050e82519288328bbfa6aeb5f05ce52b5854b032d444d3b5fa3a8df3058b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.verkehrshaus.ch",
+                "www.sat1.de",
+                "www.suisa.ch",
+                "www.kontiki.ch",
+                "www.phoenixcontact.com",
+                "www.szkb.ch",
+                "www.clienia.ch",
+                "eduki.com",
+                "www.prosieben.de",
+                "www.pbswisstools.com",
+                "betzold.ch",
+                "www.redcross.ch",
+                "www.gitarrebass.de",
+                "hub.hslu.ch",
+                "www.cube.eu",
+                "toom.de",
+                "www.stmoritz.com",
+                "www.solothurnerspitaeler.ch",
+                "www.wwf.de",
+                "glkb.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/UiSEP9ksB\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "betzold.ch",
+                "www.betzold.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/UiSEP9ksB\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "eb3f4cf387fca0337770c0919834536dca1fc6c95ec5d142c46537a0f20ec14b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "betzold.ch",
+                "www.betzold.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/UiSEP9ksB\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "betzold.ch",
+                "www.betzold.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/UiSEP9ksB\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a5864c85dc08ca54531b3bedca647d6a7c813f57e4ea8b0a69275cc1b9f055bf"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "betzold.ch",
+                "www.betzold.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/-tQcJ4HR2\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wetter.com",
+                "www.wetter.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/-tQcJ4HR2\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "dc8343dae24291634bf1aec40cb6794f860bc2b1d28f0ab683854cced24619a0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wetter.com",
+                "www.wetter.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/-tQcJ4HR2\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f6c44a0e0fde0e107ac213b6781c0ce8d41fdbd6bd280b946da344878d47a91d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wetter.com",
+                "www.wetter.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/-tQcJ4HR2\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wetter.com",
+                "www.wetter.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/gvl\\/v3\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "config.eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "827c3f6cb653b89d728ab8ace0f5bb65a11a34d8baaa3e4ae5937a6c169eddb1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wetter.com",
+                "www.wetter.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/consent\\/uw\\/2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent-api.service.consent"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wetter.com",
+                "www.expressvpn.com",
+                "www.wetter.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/consent\\/uw\\/2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent-api.service.consent"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wetter.com",
+                "www.expressvpn.com",
+                "www.wetter.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/rmqZSv8V-\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "onlineprinters.ch",
+                "www.onlineprinters.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/rmqZSv8V-\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "23c2b0994aaa3cc15e3132979b35b09e61886700b725ce8286c6fda51b611eb6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "onlineprinters.ch",
+                "www.onlineprinters.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/rmqZSv8V-\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "65844bd5674a685a7046a12d638ef9ec4754e20c9df66694edaed24c72fa8974"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "onlineprinters.ch",
+                "www.onlineprinters.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/rmqZSv8V-\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "onlineprinters.ch",
+                "www.onlineprinters.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/1keH00Qc\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heute-lernen.de",
+                "www.adesso-online.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/1keH00Qc\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "dc8343dae24291634bf1aec40cb6794f860bc2b1d28f0ab683854cced24619a0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heute-lernen.de",
+                "www.adesso-online.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/1keH00Qc\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0aafdf7b5ec8f739538c5a1a8f154a9bf3a0db78d1505c80d963d612cef54557"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heute-lernen.de",
+                "www.adesso-online.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/1keH00Qc\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heute-lernen.de",
+                "www.adesso-online.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/1\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img.sct.eu1"
+            ],
+            "apis": {},
+            "sites": 27,
+            "prevalence": 0.00271,
+            "cnames": [],
+            "responseHashes": [
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zauberpark.ch",
+                "www.braendi.ch",
+                "www.isabodywear.ch",
+                "www.bibleserver.com",
+                "www.flyer-bikes.com",
+                "www.geschenkidee.ch",
+                "www.blockchain.com",
+                "www.rhonefm.ch",
+                "www.militaershop.ch",
+                "www.degiro.ch",
+                "www.erf.de",
+                "www.suhrkamp.de",
+                "www.sonepar.ch",
+                "www.elektra.ch",
+                "www.zehnder-systems.ch",
+                "emojiterra.com",
+                "www.simplyscience.ch",
+                "www.ihk.de",
+                "www.howtoforge.com",
+                "geschenkidee.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "01.itp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "itp.steinberg.net",
+                    "resolved": "01.itp.usercentrics.eu"
+                },
+                {
+                    "original": "uc.srgd.ch",
+                    "resolved": "01.itp.usercentrics.eu"
+                }
+            ],
+            "responseHashes": [
+                "afa0ce49faf04787a6ff1c64bab00d6c637e3d3811c7461ff8eac1c0e2e8cec6",
+                "751201af3787cb625ad0f3cfec4a788a4a105c93290cbb7bab6520166a6f68de"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "steinberg.net",
+                "www.srgd.ch",
+                "www.steinberg.net"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/latest\\/bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 12,
+                "window.localStorage": 12,
+                "window.sessionStorage": 12,
+                "window.innerHeight": 12,
+                "window.innerWidth": 12,
+                "Date.prototype.getTime": 12,
+                "window.devicePixelRatio": 5
+            },
+            "sites": 12,
+            "prevalence": 0.00121,
+            "cnames": [],
+            "responseHashes": [
+                "9ab8856fd50b3896e3ac4704f85a5e9e9d0b7ef83c9bf1d7078fed4147c570cf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "steinberg.net",
+                "szkb.ch",
+                "www.dm.de",
+                "www.fcz.ch",
+                "www.fischerverlage.de",
+                "www.gabor.com",
+                "www.loberon.ch",
+                "www.rowohlt.de",
+                "www.steinberg.net",
+                "www.szkb.ch",
+                "www.vaude.com",
+                "www.wimo.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/aggregate\\/en",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aggregator.service"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [
+                "57a252d911422d46f6f06a000dce77e47856ab8d1688b059d910e9aef8714c6c",
+                "abe303bbbf6b238f668280d03b7ec77985d80878e2bf4dca1fa42d2a1e5bf5e6",
+                "a57757be7a37320f03d5a6d0dffc57c7d81b6147610abce78040156aa903feb6",
+                "8a42c811cd129835b08ab9d00c76a21fe1bfd8bcbd2d613cde14c4302fe0132c",
+                "a2020dd7918fb713a7b9bc3aeef8a8fb6e8d4c3377e49c6bef5830597e8bba08",
+                "1876a633f1df422f63d3d2e8acb015fffe423f1e70b137498c1991d4f1f05fd5",
+                "98b90aa914bfbae20ef728a3053df5068ed8b7686559a96dc2237738717b2985"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "steinberg.net",
+                "preply.com",
+                "search.usi.ch",
+                "www.bestsecret.com",
+                "www.cyberghostvpn.com",
+                "www.expressvpn.com",
+                "www.steinberg.net",
+                "www.wwf.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/aggregate\\/en",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aggregator.service"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "steinberg.net",
+                "preply.com",
+                "search.usi.ch",
+                "www.bestsecret.com",
+                "www.cyberghostvpn.com",
+                "www.expressvpn.com",
+                "www.steinberg.net",
+                "www.wwf.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/arL_G7jv7\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "config.eu"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zalando-lounge.ch",
+                "fr.zalando.ch",
+                "www.zalando-lounge.ch",
+                "www.zalando.ch",
+                "www.zalando.de",
+                "www.zalando.fr",
+                "zalando.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/arL_G7jv7\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "config.eu"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "f0e860ce7b0e3a8185e422240604cdde2a4b634454b0857bf97ed356e0e4727f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zalando-lounge.ch",
+                "fr.zalando.ch",
+                "www.zalando-lounge.ch",
+                "www.zalando.ch",
+                "www.zalando.de",
+                "www.zalando.fr",
+                "zalando.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/arL_G7jv7\\/latest\\/fr\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "config.eu"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "523761f45486955d5130ed686155dc3d440baff8945967c5b7237c72e2fa148d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zalando-lounge.ch",
+                "fr.zalando.ch",
+                "www.zalando.fr"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/arL_G7jv7\\/latest\\/fr\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "config.eu"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zalando-lounge.ch",
+                "fr.zalando.ch",
+                "www.zalando.fr"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/translations\\/translations-fr\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "config.eu",
+                "api"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [
+                "0d3fd7bd4a4f19ef275e3e7142db94e6063000d23446cc87e3f694af1f6caba4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zalando-lounge.ch",
+                "fr.zalando.ch",
+                "www.cooperation.ch",
+                "www.longines.com",
+                "www.qoqa.ch",
+                "www.retraitespopulaires.ch",
+                "www.rts.ch",
+                "www.zalando.fr"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/translations\\/translations-fr\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "config.eu",
+                "api"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zalando-lounge.ch",
+                "fr.zalando.ch",
+                "www.cooperation.ch",
+                "www.longines.com",
+                "www.qoqa.ch",
+                "www.retraitespopulaires.ch",
+                "www.rts.ch",
+                "www.zalando.fr"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/ruleSet\\/fQ4BTKAKCQ5CQ0\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bexio.com",
+                "www.bexio.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/ruleSet\\/fQ4BTKAKCQ5CQ0\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0a7e197392e63a422613ecaf77b3a96e3ef25f75009ac7fbcdbbeb6d988676a4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bexio.com",
+                "www.bexio.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/JSLslVXwvjIkKo\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "21e60804854c8e92d313b0cbff843907c8874b806242a78f94f87ce4d5eacaf6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bexio.com",
+                "www.bexio.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/JSLslVXwvjIkKo\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bexio.com",
+                "www.bexio.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/64F038t2\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d7a803d2be0846cb299d66bb1950fa2c950b67a35255c4a8970dab84faba41bf"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifolor.ch",
+                "www.ifolor.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/64F038t2\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifolor.ch",
+                "www.ifolor.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/64F038t2\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6e4497913a3e8e357b5994e943ca17c4078a78dfa6fedb2b105375d214a32196"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifolor.ch",
+                "www.ifolor.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/64F038t2\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifolor.ch",
+                "www.ifolor.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/session\\/1px\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "be92266076786f167441375941bb69c5484e182f48925b723a5efc43a1f6086c",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifolor.ch",
+                "www.expressvpn.com",
+                "www.ifolor.ch",
+                "www.o2online.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/DefaultData-2ccda9a9-816cb078\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifolor.ch",
+                "www.ifolor.ch",
+                "www.o2online.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/DefaultUI-497e2874-28e200af\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifolor.ch",
+                "www.ifolor.ch",
+                "www.o2online.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/FirstLayerCustomization-35b64167-a008f13b\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifolor.ch",
+                "www.ifolor.ch",
+                "www.o2online.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/ButtonsCustomization-bcc02a82-80187b8e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifolor.ch",
+                "www.ifolor.ch",
+                "www.o2online.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/SecondLayerUI-e5edf032-b4340c38\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifolor.ch",
+                "www.ifolor.ch",
+                "www.o2online.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/Taglogger-5c796780-b4dae676\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifolor.ch",
+                "www.ifolor.ch",
+                "www.o2online.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/PrivacyButton-fb130cad\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifolor.ch",
+                "www.ifolor.ch",
+                "www.o2online.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/index-9a187bec\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifolor.ch",
+                "www.ifolor.ch",
+                "www.o2online.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/uct",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uct.service",
+                "uct.eu"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifolor.ch",
+                "www.expressvpn.com",
+                "www.ifolor.ch",
+                "www.jack-wolfskin.ch",
+                "www.liebherr.com",
+                "www.o2online.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/index-261ab0c1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifolor.ch",
+                "www.ifolor.ch",
+                "www.o2online.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/SaveButton-91cbe52a\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifolor.ch",
+                "www.ifolor.ch",
+                "www.o2online.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/VirtualServiceItem-6b2884ca\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.devicePixelRatio": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifolor.ch",
+                "www.ifolor.ch",
+                "www.o2online.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.58\\.0\\/DefaultTabs-2931f8e4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ifolor.ch",
+                "www.ifolor.ch",
+                "www.o2online.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/UqR6jos3_\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kaiserkraft.ch",
+                "www.kaiserkraft.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/UqR6jos3_\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "dd4dde3cc51a2b600cc58de51b9526479fd7ab5dae1cd2ca48e7a2e16e912260"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kaiserkraft.ch",
+                "www.kaiserkraft.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/UqR6jos3_\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a53a625c76c70716c086165800798e64767d65bfb741ac4a4a77a30f85694541"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kaiserkraft.ch",
+                "www.kaiserkraft.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/UqR6jos3_\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kaiserkraft.ch",
+                "www.kaiserkraft.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/GXj83XOdm\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "siemens.com",
+                "support.industry.siemens.com",
+                "www.siemens.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/GXj83XOdm\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ea9590c6141e4b99e1f871fd23e5e800bcbf886779039130c957821d20d513ea"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "siemens.com",
+                "support.industry.siemens.com",
+                "www.siemens.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/GXj83XOdm\\/latest\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3a50d1463d63db00f0f518813841f5599f6f7732f6cc105c9785a61b0e951f42"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "siemens.com",
+                "www.siemens.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/GXj83XOdm\\/latest\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "siemens.com",
+                "www.siemens.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/a9jBZkAshDYtHT\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "post.ch",
+                "shop.post.ch",
+                "www.post.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/a9jBZkAshDYtHT\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "f29aec28da0d38e29870e055c6216390d58a7cf7661a9396d7a3632add91db5e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "post.ch",
+                "shop.post.ch",
+                "www.post.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/a9jBZkAshDYtHT\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "1ac2ab1ec8e8939d7d1b909f06bba7dfa3dfbc2114f14bfb6fb8304ba27fcc81"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "post.ch",
+                "shop.post.ch",
+                "www.post.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/a9jBZkAshDYtHT\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "post.ch",
+                "shop.post.ch",
+                "www.post.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/k9u3jMNqjkODB1\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1df7df1622442224ed1100d7d3c708a5f5eb51e9c5ff013556c314003c6a4a66"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rewe.de",
+                "www.rewe.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/k9u3jMNqjkODB1\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rewe.de",
+                "www.rewe.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/k9u3jMNqjkODB1\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "28ae659edd52ec899c5316c5706642daa6779bda717fbc90c9ec71d96b623f2f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rewe.de",
+                "www.rewe.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/k9u3jMNqjkODB1\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rewe.de",
+                "www.rewe.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/o5k9vXQCV0Lnnf\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "szkb.ch",
+                "www.szkb.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/o5k9vXQCV0Lnnf\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2d2c7f6b6e6d6fd1a5be5a272dc73a28844515fc5a5fab019ec06bc52f42a681"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "szkb.ch",
+                "www.szkb.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/o5k9vXQCV0Lnnf\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "31e546a2f9f5ddc4d97fdfc7649bbb7d5c6141391c75e0de53f4ea41a12942a9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "szkb.ch",
+                "www.szkb.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/o5k9vXQCV0Lnnf\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "szkb.ch",
+                "www.szkb.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/latest\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "privacy-proxy"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "7627ddab9b4d854dd4e0c32c1a086df86a5575d43e9684b1e2c0b3aa19c5ff20"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toom.de",
+                "www.einhell.ch",
+                "www.leifiphysik.de",
+                "www.leifichemie.de",
+                "www.solothurnerspitaeler.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/ruleSet\\/SD1TKlYyWO4GcB\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitdefender.com",
+                "www.bitdefender.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/ruleSet\\/SD1TKlYyWO4GcB\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a1aa30b8c2998ad91b6d0cd88fa7fa3a4c2a3e79df019cbc504e380f0aef6c47"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitdefender.com",
+                "www.bitdefender.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/kwvEyHMjYRQG-x\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0a25589501a065c71010f4b685f20a2a283ba910b374e2ce8148c4fcd623e9a5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitdefender.com",
+                "www.bitdefender.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/kwvEyHMjYRQG-x\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitdefender.com",
+                "www.bitdefender.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/kwvEyHMjYRQG-x\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0e0b3285d47d150dfa8bacd97e21ee8e3cf8372ef68412cccd5615fd2fdd71d4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitdefender.com",
+                "www.bitdefender.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/kwvEyHMjYRQG-x\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bitdefender.com",
+                "www.bitdefender.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "222c6a6e4b84110dc96baa6d6c1711278d887dbd3c6b74e763834474421037a9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.ch",
+                "www.conrad.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/index\\.module\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "97121e0b2be0e9db9bd0ba5fdc33b21820943ebff48f6c8992afce23b46ba4f5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.ch",
+                "www.conrad.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-sdk\\/4\\.37\\.4\\/cross-domain-bridge\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d0567b9438c397bef64d821cb403bf392261458814af7a5309f70d605b680b60"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.ch",
+                "www.conrad.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/TcfData-e5de604c-61503f76\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3d9bef165b772414d353a5007e7bf195ece1687588bdfb660b7dd24ae4e77911"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.ch",
+                "www.conrad.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/DefaultData-d00127a3-6bf3d31a\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7e2472bd1f232c3d68ed4772d3c325f4a700133dc26901fb83cfbb86e32781ef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.ch",
+                "www.conrad.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/TcfUI-f982885f-4d4a68d0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "23872b79f8e926f972a61c9e5c7c18ca64cc96ebfb3b69425f82cde4ec1c81d5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.ch",
+                "www.conrad.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/FirstLayerCustomization-3660def5-e9841303\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "78986c80bc7dab6173f3a57fd63086a6e46e58aae6f6b988a9ceac66d7503009"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.ch",
+                "www.conrad.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/ButtonsCustomization-26072404-0ac5d5e4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7d1ffc76bba4dfe1b48e8ef5192e5f54e54b0a4206a9445c70f5a33b25fc9e95"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.ch",
+                "www.conrad.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/Taglogger-dbcfe06b-f2aa9244\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "846e95bdc7e94fb5877f9ecc9636594eeac05c10798a0c3fe1435e44c6ef3e42"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.ch",
+                "www.conrad.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/PrivacyButton-424771a3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "916d7072bc55f9f78640da47220b0af32cbbf15d78ce8e2d778b056d84e69d33"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.ch",
+                "www.conrad.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/index-edbe4c91\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a4d5bca843401471dbda3ee7fe80c5fd24d960e7a0a098eea73f729783e660e7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.ch",
+                "www.conrad.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/index-8e902c38\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "12ef3d93c92375eab1a92c2252abfaf03f315b1da8d1960d2409d1c2a7035451"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.ch",
+                "www.conrad.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/SaveButton-781ac3df\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4412e6ebd666f6204ddac3f0b95bfc4777f5fbae13d24bb100cc2a33c5ab5ef2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.ch",
+                "www.conrad.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/VirtualServiceItem-ea9deb71\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b148c330626c7ea64a19725ff6c20e1aa3878a38f182c035941e44560ffe72be"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.ch",
+                "www.conrad.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-ui\\/3\\.49\\.0\\/sort-c42e380d\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5d763433c13a2217b06bd2bdccd33c84127262dadd91e25562a4d3274117c590"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.ch",
+                "www.conrad.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/YF57yOio7xujsn\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cooperation.ch",
+                "www.coopzeitung.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/YF57yOio7xujsn\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c7db6a519b99acf3568692c0a321a229ab9dd05d2a80918ebd53aba12fdd9733"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cooperation.ch",
+                "www.coopzeitung.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/browser-sdk\\/4\\.38\\.3\\/cross-domain-bridge\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "window.localStorage": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "d0567b9438c397bef64d821cb403bf392261458814af7a5309f70d605b680b60"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dak.de",
+                "www.prosieben.de",
+                "www.ran.de",
+                "www.sat1.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "graphql"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyberghostvpn.com",
+                "www.expressvpn.com",
+                "www.srgssr.ch",
+                "www.vier-pfoten.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "graphql"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "9893b777a359e1913669baa162844a5c94f1e693e43e169d46018a6023b65767"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyberghostvpn.com",
+                "www.expressvpn.com",
+                "www.srgssr.ch",
+                "www.vier-pfoten.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/0uBNZDE2POdtbL\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b1fae8479bf753ce9af16d9d94191797f725794f6048c484d00c89ac198de55d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "engadin.ch",
+                "www.engadin.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/ruleSet\\/v-zUXK991bK4rF\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flixbus.ch",
+                "www.flixbus.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/ruleSet\\/v-zUXK991bK4rF\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "26f137387fb1b4cba00baa2b788b707258cfc5c0b65aba3887531af7d9cfe664"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flixbus.ch",
+                "www.flixbus.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/Cw0rbv9tt\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a039b4777b9d7b969de183cb83cd3794da04ee7951bb6045f149e1801328b3a8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flixbus.ch",
+                "www.flixbus.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/Cw0rbv9tt\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flixbus.ch",
+                "www.flixbus.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/latest\\/ruleSetData",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "v1.api.service.cmp"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "0912e3d49b7085673c0ed0a2ff5023c819a3a94acef2b097dae369708970a51d",
+                "eebf0bc2eeb32266cb1ab1e283f3e5ed97c71d6ede8963c0fcd0624440a34132"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "home24.ch",
+                "www.home24.de",
+                "www.mueller.ch",
+                "www.mueller.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/latest\\/core\\/1OmiYTTBYve0LG",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "v1.api.service.cmp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6e9c870c54c5ef76ec039bbb8f354b243715cc72ddec44069cb453c478f5c93a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "home24.ch",
+                "www.home24.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/latest\\/1\\/cmp\\/de\\/US\\/1OmiYTTBYve0LG\\/36\\.28\\.63\\/36\\.28\\.63",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "v1.api.service.cmp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5a26803e16c6c338846a5003bbaacaa99ce1607b97927aa724dc495e4545f43a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "home24.ch",
+                "www.home24.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/ui\\/v\\/3\\.26\\.0\\/UsCmpController\\.04c6dbb9\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "web.cmp"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2c92f0285b47305ac5777247281d0080300bb823df28f4b73b00e526b848a97f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "home24.ch",
+                "www.home24.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/ui\\/v\\/3\\.26\\.0\\/UcUsCmpView\\.04e08155\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web.cmp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ae68d855eecf614fc7fa8129165d334074ea720a4b62d396ed209ae462a99b30"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "home24.ch",
+                "www.home24.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/latest\\/core\\/oggppIDJJe8IF8",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "v1.api.service.cmp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0a028846c7518676d0fb76f4e74359d9147837030bc3881cc0ecdf7678c4fdc2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "idealo.de",
+                "www.idealo.fr"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/uGOj2JrVGe6qE4\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kicker.ch",
+                "www.kicker.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/uGOj2JrVGe6qE4\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "dc8343dae24291634bf1aec40cb6794f860bc2b1d28f0ab683854cced24619a0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kicker.ch",
+                "www.kicker.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/uGOj2JrVGe6qE4\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3ac90da846a933bbf94a1113de38736652f9c23f0850cb1af3dc7e75a8cfcfa"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kicker.ch",
+                "www.kicker.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/uGOj2JrVGe6qE4\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kicker.ch",
+                "www.kicker.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/latest\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mueller.ch",
+                "www.mueller.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/latest\\/core\\/R9qOBxy1U",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "v1.api.service.cmp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "068d04e4983cfa8767a5d7921b4a98cc6d25764d940bdd9967f6c03ccad81b4e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mueller.ch",
+                "www.mueller.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/latest\\/1\\/cmp\\/de\\/GDPR\\/R9qOBxy1U\\/39\\.11\\.108\\/39\\.11\\.108",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "v1.api.service.cmp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "424d6ee24784ece8a4a749c68c4c7b26a75eacf9d7e7d1ffb39f8176caa0a24f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mueller.ch",
+                "www.mueller.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/2BGLbVtv\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "config.eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "o2online.de",
+                "www.o2online.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/2BGLbVtv\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "config.eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "o2online.de",
+                "www.o2online.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/1g8U1BkFe\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "prosieben.de",
+                "www.sat1.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/1g8U1BkFe\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "eb3f4cf387fca0337770c0919834536dca1fc6c95ec5d142c46537a0f20ec14b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "prosieben.de",
+                "www.sat1.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/1g8U1BkFe\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a3692498c396623b9933288b2b765b6c90753c19e1186faa9edc0f8853f2f02e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "prosieben.de",
+                "www.sat1.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/1g8U1BkFe\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "prosieben.de",
+                "www.sat1.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/ruleSet\\/_7ca0dH7Q-M7Lr\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "radioswissclassic.ch",
+                "www.radioswissjazz.ch",
+                "www.radioswisspop.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/ruleSet\\/_7ca0dH7Q-M7Lr\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "435b337d2a75895bc05680b965799881deac990b29736477a357c566a75c617b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "radioswissclassic.ch",
+                "www.radioswissjazz.ch",
+                "www.radioswisspop.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/B7jCVqibRrpjAq\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "c7db6a519b99acf3568692c0a321a229ab9dd05d2a80918ebd53aba12fdd9733"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "radioswissclassic.ch",
+                "www.radioswissjazz.ch",
+                "www.radioswisspop.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/B7jCVqibRrpjAq\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "radioswissclassic.ch",
+                "www.radioswissjazz.ch",
+                "www.radioswisspop.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/B7jCVqibRrpjAq\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "06cc6ec01d2cc0e15990cc2f0fdc94a1797dcdbbd392ce862167560682ddb898"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "radioswissclassic.ch",
+                "www.radioswissjazz.ch",
+                "www.radioswisspop.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/B7jCVqibRrpjAq\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "radioswissclassic.ch",
+                "www.radioswissjazz.ch",
+                "www.radioswisspop.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/video\\/youtube\\/Ab56dXDIxzM-poster-image",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "privacy-proxy-server"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1be4aae2039a993c1913a4df243748e153c20136a5af514cd53a766147ad329f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rowohlt.de",
+                "www.rowohlt.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/translations\\/translations-it\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9c06fea7d995102fbdc9edd97fc1ecb75459d204e02d6ebfd93e9a838a5d63c4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rsi.ch",
+                "www.usi.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/translations\\/translations-it\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rsi.ch",
+                "www.usi.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/LHOLXat-d\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sixt.ch",
+                "www.sixt.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/LHOLXat-d\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "de2e67dd2f7b6eab350c565c0975e82b2c0e951595c79e459921c45077d0b944"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sixt.ch",
+                "www.sixt.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/ruleSet\\/bZdgWlUVnk7qoD\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8cd092393260d12946a9d609ce76b8d96be58c9dee2f4b127cef873637082e94"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "srgssr.ch",
+                "www.srgssr.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/s5U4vFx2o7xKwt\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4dd49b1c1ac50f9be8a6d010d3a564beb21679ba4c31a703de6cb35c20664189"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "srgssr.ch",
+                "www.srgssr.ch"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/HJqwBoKs4\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trustedshops.ch",
+                "www.trustedshops.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/HJqwBoKs4\\/latest\\/languages\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c14a787bb89ca529fe604b90e569fc485837bd8e9de6e89fa79ce37f6eea800b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trustedshops.ch",
+                "www.trustedshops.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/HJqwBoKs4\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "85a0f8f9a477915588c4c7e9798980c82072fc1b266c6247c8c4a0f866d4abe3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trustedshops.ch",
+                "www.trustedshops.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/HJqwBoKs4\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trustedshops.ch",
+                "www.trustedshops.de"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/arL_G7jv7\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "config.eu"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "9e4e39a60b4433453b7ca673e66e51f8219cfcf168fc3f663112e6bfe9a8c75b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zalando-lounge.ch",
+                "www.zalando.ch",
+                "www.zalando.de",
+                "zalando.com"
+            ]
+        },
+        {
+            "rule": "usercentrics\\.eu\\/settings\\/arL_G7jv7\\/latest\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "config.eu"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zalando-lounge.ch",
+                "www.zalando.ch",
+                "www.zalando.de",
+                "zalando.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Consent Management Platform"
+    ],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.693050193050193
+        },
+        {
+            "domain": "baqend.com",
+            "prevalence": 0.05501930501930502
+        },
+        {
+            "domain": "p7s1.io",
+            "prevalence": 0.03474903474903475
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.027992277992277992
+        },
+        {
+            "domain": "cookiebot.eu",
+            "prevalence": 0.026061776061776062
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.026061776061776062
+        },
+        {
+            "domain": "ztat.net",
+            "prevalence": 0.02413127413127413
+        },
+        {
+            "domain": "instana.io",
+            "prevalence": 0.011583011583011582
+        },
+        {
+            "domain": "deutsche-bank.de",
+            "prevalence": 0.010617760617760617
+        },
+        {
+            "domain": "trackjs.com",
+            "prevalence": 0.009652509652509652
+        }
+    ],
+    "types": {
+        "Script": 3474,
+        "Fetch": 911,
+        "Document": 168,
+        "Image": 587,
+        "Preflight": 735,
+        "XHR": 31,
+        "Other": 2
+    },
+    "nameservers": [
+        "ns1.nic53.net",
+        "ns2.nic53.de"
+    ]
+}

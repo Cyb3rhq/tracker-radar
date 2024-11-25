@@ -1,0 +1,134 @@
+{
+    "domain": "udmserve.net",
+    "owner": {
+        "name": "Underdog Media LLC",
+        "displayName": "Underdog Media"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "edge"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "udmserve\\.net\\/udm\\/img\\.fetch",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "b65bbee4768111a890ecd67379019ee48a1710ace4354698c95e38f42a53bdeb",
+                "b571626d3861f0ac8463a322b3e58bb00310ce51a10fea999ed64870fd20869b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thetvdb.com",
+                "www.spiked-online.com",
+                "www.thephoblographer.com"
+            ]
+        },
+        {
+            "rule": "udmserve\\.net\\/udm\\/fetch\\.pix",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thetvdb.com",
+                "www.payetteforward.com",
+                "www.thephoblographer.com",
+                "www.wikifeet.com"
+            ]
+        },
+        {
+            "rule": "udmserve\\.net\\/udm\\/img\\.fetch",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "94258369aad1da10d1a9b985d8a7f5ff1bfe82f1bcce5571444103494ad5c0cc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "udmsrc": 0.00010046212577858148
+            },
+            "exampleSites": [
+                "payetteforward.com",
+                "www.payetteforward.com",
+                "www.wikifeet.com"
+            ]
+        },
+        {
+            "rule": "udmserve\\.net\\/radApi",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "912d0c07da7bdb22cdae025b96da26d01523aaab7362edb28544e3949deb369d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "payetteforward.com",
+                "www.payetteforward.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "azureedge.net",
+            "prevalence": 0.5294117647058824
+        },
+        {
+            "domain": "underdog.media",
+            "prevalence": 0.35294117647058826
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.11764705882352941
+        }
+    ],
+    "types": {
+        "Fetch": 5,
+        "Image": 4,
+        "Script": 3
+    },
+    "nameservers": [
+        "pdns12.domaincontrol.com",
+        "pdns11.domaincontrol.com"
+    ]
+}

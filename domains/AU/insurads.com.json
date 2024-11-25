@@ -1,0 +1,257 @@
+{
+    "domain": "insurads.com",
+    "owner": {
+        "name": "InsurAds",
+        "displayName": "InsurAds"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "services",
+        "cdn",
+        "web-messaging"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "insurads\\.com\\/init",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "e82e4605e791c169f8572085110d5173a131f404845918133629438fbf7ce68c",
+                "55f9fa854e7cd56cb98088a3c081fbbeba3927d1f97506da9594de07b6b104d9",
+                "03d38dd87bcba34546ef33ef4fbd78e9b43ed9f9796e931242d4dbf8e2c2cc8a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0001004419445560466
+            },
+            "exampleSites": [
+                "motorcyclenews.com",
+                "www.news24.com",
+                "www.todays-golfer.com",
+                "www.translate.com"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/iat-realtime-8\\.0\\.7-ws\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "617cc54110a4ea4e6a55ebef041eb81208454046903fa8a2c0b565d5c502ae64"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "motorcyclenews.com",
+                "www.news24.com",
+                "www.todays-golfer.com",
+                "www.translate.com"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/iat-1\\.14\\.86\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "d0b6a223e41f6fb6c94e84bcd27aa88ccc31ef39fff314c342fb2224096348e0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "motorcyclenews.com",
+                "www.news24.com",
+                "www.todays-golfer.com",
+                "www.translate.com"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/initcb",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "b2be998af7bc5c3d0c2404d79aac315f7827ad228c20a2e282e5088b5d05d09a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "___iat_ses": 0.0004017677782241864,
+                "lotame_domain_check": 0.0001004419445560466
+            },
+            "exampleSites": [
+                "motorcyclenews.com",
+                "www.news24.com",
+                "www.todays-golfer.com",
+                "www.translate.com"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/rt-pub\\/node\\/hub",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-messaging"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0001004419445560466
+            },
+            "exampleSites": [
+                "motorcyclenews.com",
+                "www.news24.com",
+                "www.todays-golfer.com",
+                "www.translate.com"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/dfp\\/mapping\\/batch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "d60f63693481c66f2db8f0be4eeaf40ad2f7a42cffd2d9cda197edce2d6b5a6a",
+                "240d4a2fd8f8061710c35bcfe8aafda17ca59af5f64fc50201be67e6ad7d1285"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0001004419445560466
+            },
+            "exampleSites": [
+                "motorcyclenews.com",
+                "www.news24.com",
+                "www.todays-golfer.com"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/ad",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8b36692a8149a73d30a0aa5e4904354b36e93da7ea93a2bf2b4b1c36819f8f3f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0002008838891120932,
+                "___iat_ses": 0.0002008838891120932
+            },
+            "exampleSites": [
+                "news24.com",
+                "www.news24.com"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/lb",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "___iat_ses": 0.0002008838891120932
+            },
+            "exampleSites": [
+                "news24.com",
+                "www.news24.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 21,
+        "WebSocket": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-560.awsdns-06.net",
+        "ns-1779.awsdns-30.co.uk",
+        "ns-1070.awsdns-05.org",
+        "ns-196.awsdns-24.com"
+    ]
+}

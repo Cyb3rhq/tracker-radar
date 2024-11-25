@@ -1,0 +1,129 @@
+{
+    "domain": "thecontentserver.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "cd",
+        "tr",
+        "cds"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "thecontentserver\\.com\\/player\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cd"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a0206fc93132d3760f503031f43d667a3dd3478f5d862551d0cacaed0160ff23"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "huffingtonpost.co.uk",
+                "www.huffpost.com"
+            ]
+        },
+        {
+            "rule": "thecontentserver\\.com\\/tr\\/si",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "huffingtonpost.co.uk",
+                "www.huffpost.com"
+            ]
+        },
+        {
+            "rule": "thecontentserver\\.com\\/p\\/544200\\/elLoader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cds"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c2d2cb5e64e2d1fdbd312d724e5d49359a55a2d90373099d56d83853e2e5385a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "huffpost.com",
+                "www.huffingtonpost.co.uk"
+            ]
+        },
+        {
+            "rule": "thecontentserver\\.com\\/p\\/544200\\/player\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cds"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b3d6399fc815488c5f1beea19a011d45c0f21a692ce1e21c2ac33e3968995012"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "huffingtonpost.co.uk",
+                "www.huffpost.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-1513.awsdns-61.org",
+        "ns-592.awsdns-10.net",
+        "ns-52.awsdns-06.com",
+        "ns-1602.awsdns-08.co.uk"
+    ]
+}

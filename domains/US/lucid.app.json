@@ -1,0 +1,180 @@
+{
+    "domain": "lucid.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "cdn",
+        "iceberg"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "lucid\\.app\\/js\\/bacon",
+            "cookies": 0.00000683,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.appVersion": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Navigator.prototype.onLine": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.language": 3,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "window.indexedDB": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "351ae9c1d546ddbce148aaaf6d12243cf88287f34c4f98516aa1255879ba9bb7",
+                "d9f7671bfaab3d44fea4a24bea6b638a1ff9d177e720746daa5c53e264aaf392"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lucid.co",
+                "help.lucid.co",
+                "www.lucidchart.com"
+            ]
+        },
+        {
+            "rule": "lucid\\.app\\/sessionActions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "iceberg"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lucid.co",
+                "community.lucid.co",
+                "help.lucid.co",
+                "www.lucidchart.com"
+            ]
+        },
+        {
+            "rule": "lucid\\.app\\/sessionActions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "iceberg"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lucid.co",
+                "community.lucid.co",
+                "help.lucid.co",
+                "www.lucidchart.com"
+            ]
+        },
+        {
+            "rule": "lucid\\.app\\/js\\/cookieSyncClient",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bc6a8eb9bd43d5d21e20ba5cd3fed88ee2f5c543d05258a425a19e4761cf46ca"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lucidchart.com",
+                "www.lucidchart.com"
+            ]
+        },
+        {
+            "rule": "lucid\\.app\\/synchronizeCookies",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c6fabd5983e7ed12914724bb66a39020f55f0b88c18be9a9f1999a8825014663"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lucidchart.com",
+                "www.lucidchart.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "lucidchart.com",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Preflight": 4,
+        "XHR": 4,
+        "Document": 2
+    },
+    "nameservers": [
+        "a22-67.akam.net",
+        "a11-64.akam.net",
+        "a1-179.akam.net",
+        "a28-67.akam.net",
+        "a20-65.akam.net",
+        "a7-65.akam.net"
+    ]
+}

@@ -1,0 +1,211 @@
+{
+    "domain": "spectrum.net",
+    "owner": {
+        "name": "Charter Communications, Inc.",
+        "displayName": "Charter Communications"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "apis",
+        "cdn.pi",
+        "collector.pi"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "spectrum\\.net\\/tdcs\\/public\\/inform",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apis"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spectrumbusiness.net",
+                "www.spectrumbusiness.net"
+            ]
+        },
+        {
+            "rule": "spectrum\\.net\\/tdcs\\/public\\/inform",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apis"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5e790898eb7c63632136a784b23eb9241f167a9138ac44c41f22a9d3b4e692a7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spectrumbusiness.net",
+                "www.spectrumbusiness.net"
+            ]
+        },
+        {
+            "rule": "spectrum\\.net\\/tdcs\\/public\\/errors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apis"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spectrumbusiness.net",
+                "www.spectrumbusiness.net"
+            ]
+        },
+        {
+            "rule": "spectrum\\.net\\/tdcs\\/public\\/errors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apis"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f905476d8ca0f2fb892988443eac01d0c333d07839c23133d90c0429e8105f0b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spectrumbusiness.net",
+                "www.spectrumbusiness.net"
+            ]
+        },
+        {
+            "rule": "spectrum\\.net\\/SMB\\/Web\\/v3\\/cfg_2\\.2369\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.pi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "266c1763926e1b174f01f5c510d6efeb52c3462125260d0f9e9806f94f25f1af"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spectrumbusiness.net",
+                "www.spectrumbusiness.net"
+            ]
+        },
+        {
+            "rule": "spectrum\\.net\\/SMB\\/Web\\/v3\\/2\\.2369\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.pi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9399661bf93352abf69652cb2f98661d02256adf1ef9c19742a11a93141f918d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spectrumbusiness.net",
+                "www.spectrumbusiness.net"
+            ]
+        },
+        {
+            "rule": "spectrum\\.net\\/topics\\/sspp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collector.pi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spectrumbusiness.net",
+                "www.spectrumbusiness.net"
+            ]
+        },
+        {
+            "rule": "spectrum\\.net\\/topics\\/sspp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collector.pi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spectrumbusiness.net",
+                "www.spectrumbusiness.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000683,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 6,
+        "XHR": 4,
+        "Fetch": 6
+    },
+    "nameservers": [
+        "ns-151.awsdns-18.com",
+        "ns-1336.awsdns-39.org",
+        "ns-1572.awsdns-04.co.uk",
+        "ns-960.awsdns-56.net"
+    ]
+}

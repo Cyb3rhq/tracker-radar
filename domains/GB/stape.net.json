@@ -1,0 +1,113 @@
+{
+    "domain": "stape.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000904,
+    "sites": 9,
+    "subdomains": [
+        "euc",
+        "leuf",
+        "eux"
+    ],
+    "cnames": [
+        {
+            "original": "data.communityclothing.co.uk",
+            "resolved": "euc.stape.net"
+        },
+        {
+            "original": "fyzlfpjn.cclonline.com",
+            "resolved": "eux.stape.net"
+        },
+        {
+            "original": "load.gtm.emma-sleep.co.uk",
+            "resolved": "leuf.stape.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "stape\\.net\\/gtm\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "euc",
+                "leuf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "data.communityclothing.co.uk",
+                    "resolved": "euc.stape.net"
+                },
+                {
+                    "original": "load.gtm.emma-sleep.co.uk",
+                    "resolved": "leuf.stape.net"
+                }
+            ],
+            "responseHashes": [
+                "ea314564f737856e08530d1c0221ba2e0ca4ad0029ff49eb4997375510f64d28"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "communityclothing.co.uk",
+                "www.emma-sleep.co.uk"
+            ]
+        },
+        {
+            "rule": "stape\\.net\\/ngtfyzlfpjn",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eux"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "fyzlfpjn.cclonline.com",
+                    "resolved": "eux.stape.net"
+                }
+            ],
+            "responseHashes": [
+                "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.00020092425155716296
+            },
+            "exampleSites": [
+                "cclonline.com",
+                "www.cclonline.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "prismic.io",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "june.ns.cloudflare.com",
+        "eric.ns.cloudflare.com"
+    ]
+}

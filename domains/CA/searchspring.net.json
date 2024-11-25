@@ -1,0 +1,440 @@
+{
+    "domain": "searchspring.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00131,
+    "sites": 13,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "searchspring\\.net\\/intellisuggest\\/is\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "c9c8cc97ac6f29263d16db4753c724b50ad1fe56716d2a6a5c08950614afd008"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ssUserId": {
+                    "ttl": 31536003,
+                    "length": 36,
+                    "prevalence": 0.00020122748767481639,
+                    "uniqueness": 1
+                },
+                "_isuid": {
+                    "ttl": 31536003,
+                    "length": 36,
+                    "prevalence": 0.00020122748767481639,
+                    "uniqueness": 1
+                },
+                "ssSessionIdNamespace": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.00020122748767481639,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "knix.ca",
+                "www.deserres.ca",
+                "www.rockler.com"
+            ]
+        },
+        {
+            "rule": "searchspring\\.net\\/search\\/v3\\/lts\\/searchspring\\.catalog\\.js",
+            "cookies": 0.000604,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 7,
+                "Navigator.prototype.userAgent": 9,
+                "Navigator.prototype.cookieEnabled": 8,
+                "Date.prototype.getTime": 9,
+                "Document.cookie setter": 6,
+                "window.localStorage": 8,
+                "window.sessionStorage": 7,
+                "window.name": 9
+            },
+            "sites": 9,
+            "prevalence": 0.000906,
+            "cnames": [],
+            "responseHashes": [
+                "bd9d6be0773d1b3d1252a10199eea539c2fe778a63e6720e70ba019d1ad44898"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ssUserId": {
+                    "ttl": 31536004,
+                    "length": 36,
+                    "prevalence": 0.0006036824630244491,
+                    "uniqueness": 0.8333333333333334
+                },
+                "_isuid": {
+                    "ttl": 31536004,
+                    "length": 36,
+                    "prevalence": 0.0006036824630244491,
+                    "uniqueness": 0.8333333333333334
+                },
+                "ssSessionIdNamespace": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.0006036824630244491,
+                    "uniqueness": 0.8333333333333334
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geappliances.com",
+                "products.geappliances.com",
+                "www.atlas-machinery.com",
+                "www.chefsupplies.ca",
+                "www.geappliances.com",
+                "www.hockeymonkey.com",
+                "www.jmbullion.com",
+                "www.kmstools.com",
+                "www.thehockeyshop.com"
+            ]
+        },
+        {
+            "rule": "searchspring\\.net\\/ajax_search\\/sites\\/q7rntw\\/js\\/angular\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d7f2e93d0bd4391583fa068214ce50d7ea29074ecacd4e57474be22d5099663a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geappliances.com",
+                "www.geappliances.com"
+            ]
+        },
+        {
+            "rule": "searchspring\\.net\\/search\\/v3\\/lts\\/modules\\/autocomplete2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 8,
+                "window.localStorage": 7
+            },
+            "sites": 8,
+            "prevalence": 0.000805,
+            "cnames": [],
+            "responseHashes": [
+                "b77c5d67b74e078b42716dbbd71e75d841666f714028df56b80b66786d8e0dc9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geappliances.com",
+                "www.atlas-machinery.com",
+                "www.chefsupplies.ca",
+                "www.geappliances.com",
+                "www.hockeymonkey.com",
+                "www.jmbullion.com",
+                "www.kmstools.com",
+                "www.thehockeyshop.com"
+            ]
+        },
+        {
+            "rule": "searchspring\\.net\\/search\\/v3\\/lts\\/modules\\/slideout\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.innerWidth": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000704,
+            "cnames": [],
+            "responseHashes": [
+                "c41204f04764686e915b15afb912fdabbbe35fc64e5248bb37ec74eb4584c1a2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geappliances.com",
+                "www.atlas-machinery.com",
+                "www.chefsupplies.ca",
+                "www.geappliances.com",
+                "www.hockeymonkey.com",
+                "www.kmstools.com",
+                "www.thehockeyshop.com"
+            ]
+        },
+        {
+            "rule": "searchspring\\.net\\/search\\/v3\\/lts\\/modules\\/spatial-navigation\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000805,
+            "cnames": [],
+            "responseHashes": [
+                "9b37557d0892486d0d0f563d1377aaaa8e54caa663b80d4ad46067f11409286c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geappliances.com",
+                "www.atlas-machinery.com",
+                "www.chefsupplies.ca",
+                "www.geappliances.com",
+                "www.hockeymonkey.com",
+                "www.jmbullion.com",
+                "www.kmstools.com",
+                "www.thehockeyshop.com"
+            ]
+        },
+        {
+            "rule": "searchspring\\.net\\/ajax_search\\/sites\\/q7rntw\\/css\\/q7rntw\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "27f034ebc5a1820ba19393d98e20c2b4996d93aa85dc9f49506bf3a776305e8b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geappliances.com",
+                "www.geappliances.com"
+            ]
+        },
+        {
+            "rule": "searchspring\\.net\\/search\\/v3\\/lts\\/modules\\/facet-slider\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "7c478791dcd28e48634c8bb7bdb46dd3f60869d00afa1aa8c101f81958a84fca"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chefsupplies.ca",
+                "www.hockeymonkey.com",
+                "www.thehockeyshop.com"
+            ]
+        },
+        {
+            "rule": "searchspring\\.net\\/search\\/v3\\/lts\\/modules\\/personalized-recommendations\\.js",
+            "cookies": 0.000302,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "window.localStorage": 3,
+                "window.sessionStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "2fee628fd016376d2665f0266f5bae27ecc22f1391add32a2cf4a01555a6ce07"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ssUserId": {
+                    "ttl": 31536011,
+                    "length": 36,
+                    "prevalence": 0.00030184123151222455,
+                    "uniqueness": 1
+                },
+                "_isuid": {
+                    "ttl": 31536011,
+                    "length": 36,
+                    "prevalence": 0.00030184123151222455,
+                    "uniqueness": 1
+                },
+                "ssSessionIdNamespace": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.00030184123151222455,
+                    "uniqueness": 1
+                },
+                "ssShopperId": {
+                    "ttl": null,
+                    "length": 11,
+                    "prevalence": 0.00010061374383740819,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chefsupplies.ca",
+                "www.kmstools.com",
+                "www.thehockeyshop.com"
+            ]
+        },
+        {
+            "rule": "searchspring\\.net\\/search\\/v3\\/lts\\/modules\\/templates\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "36a9b74ce173fc5f706b7472d649f49f6b0ee1cfbbcd6debef80685069f391a1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chefsupplies.ca",
+                "www.kmstools.com",
+                "www.thehockeyshop.com"
+            ]
+        },
+        {
+            "rule": "searchspring\\.net\\/search\\/v3\\/lts\\/modules\\/tiny-slider\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "91d6c63691b39ed57763293ccc0cfd0a32b71230a47bc72a8a6ab082bef50c68"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chefsupplies.ca",
+                "www.kmstools.com"
+            ]
+        },
+        {
+            "rule": "searchspring\\.net\\/api\\/search\\/search\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e23b9c6ded00fbc897c9e6056e42352f667f193924084248b1219b4f913a108f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lolelife.com",
+                "www.lolelife.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00101,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "sdiapi.com",
+            "prevalence": 0.21212121212121213
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.06060606060606061
+        },
+        {
+            "domain": "azureedge.net",
+            "prevalence": 0.06060606060606061
+        }
+    ],
+    "types": {
+        "Script": 48,
+        "Stylesheet": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-39.awsdns-04.com",
+        "ns-726.awsdns-26.net",
+        "ns-1482.awsdns-57.org",
+        "ns-1808.awsdns-34.co.uk"
+    ]
+}

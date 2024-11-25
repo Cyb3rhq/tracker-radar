@@ -1,0 +1,186 @@
+{
+    "domain": "retailrocket.net",
+    "owner": {
+        "name": "Retail Rocket",
+        "displayName": "Retail Rocket"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "cdn",
+        "rrstatic",
+        "tracking",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "retailrocket\\.net\\/content\\/javascript\\/tracking\\.js",
+            "cookies": 0.0000273,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "Navigator.prototype.cookieEnabled": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "474afb0308fdc52f12bb2fee70a3d8ba64d09e5cba5e61342f9aa4acd634469a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rr-testCookie": {
+                    "ttl": 17,
+                    "length": 9,
+                    "prevalence": 0.0000273280043724807,
+                    "uniqueness": 0.25
+                },
+                "rrpvid": {
+                    "ttl": 31536010,
+                    "length": 15,
+                    "prevalence": 0.0000273280043724807,
+                    "uniqueness": 1
+                },
+                "rcuid": {
+                    "ttl": 31536009,
+                    "length": 24,
+                    "prevalence": 0.0000273280043724807,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nutricionyfarmacia.com",
+                "www.a-alvarez.com",
+                "www.decathlon.ie",
+                "www.welkoop.nl"
+            ]
+        },
+        {
+            "rule": "retailrocket\\.net\\/api\\/markupblocks\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c7f027cd66deda25d93f706ab68cb5641a4fa22d79a15cda8ae00bf5f2103fa3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "rrpvid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "nutricionyfarmacia.com",
+                "www.welkoop.nl"
+            ]
+        },
+        {
+            "rule": "retailrocket\\.net\\/widget\\/retailrocket\\.widget\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rrstatic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "968f3857a7da66f5d707881e84dba3b07cf0e631aee0771a7e16da62f5d2fd73"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nutricionyfarmacia.com",
+                "www.welkoop.nl"
+            ]
+        },
+        {
+            "rule": "retailrocket\\.net\\/1\\.0\\/event\\/markuprendered\\/5abca3cd97a5253460a24e76",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "rrpvid": 0.00001366400218624035,
+                "rcuid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "welkoop.nl",
+                "www.welkoop.nl"
+            ]
+        },
+        {
+            "rule": "retailrocket\\.net\\/api\\/1\\.0\\/partner\\/5abca3cd97a5253460a24e76\\/items\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "welkoop.nl",
+                "www.welkoop.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6428571428571429
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.35714285714285715
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 6,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ullis.ns.cloudflare.com",
+        "alaric.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,167 @@
+{
+    "domain": "bstatic.com",
+    "owner": {
+        "name": "Booking.com B.V.",
+        "displayName": "Booking.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000704,
+    "sites": 7,
+    "subdomains": [
+        "q",
+        "aff",
+        "cf"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "bstatic\\.com\\/static\\/affiliate_base\\/js\\/search_extension\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "q"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3f148774841fe6b8d51614fb3f060141fe72241d0ea3fb220dc2fff96db66306"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flyflair.com",
+                "www.icelandair.com"
+            ]
+        },
+        {
+            "rule": "bstatic\\.com\\/static\\/affiliate_base\\/js\\/booking_sp_widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "aff",
+                "cf"
+            ],
+            "apis": {
+                "window.outerWidth": 3,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "cb8a843782faa212ca8c1aa256a867420faa60cde898aa381432726d279b77c6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "evaair.com",
+                "www.pacificcoastal.com",
+                "www.southwest.com"
+            ]
+        },
+        {
+            "rule": "bstatic\\.com\\/static\\/affiliate_base\\/css\\/affiliatewidget_cloudfront_sd\\/7bcf8555734ec3b767f0bb9d081c780342da154e\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cf"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "b44380c486eef7e46130dd4604c742d4be7560f584fe18f8e78ec722682b4689"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "evaair.com",
+                "www.pacificcoastal.com",
+                "www.southwest.com"
+            ]
+        },
+        {
+            "rule": "bstatic\\.com\\/static\\/js\\/affiliatewidget_cloudfront_sd\\/d39c70256f8a30d6c41c1278ed74ceb959c47078\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cf"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "b79f48f226c4f8f96f7aab5919a9b1d75c863e7b83c711758b124bf22205e637"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "evaair.com",
+                "www.pacificcoastal.com",
+                "www.southwest.com"
+            ]
+        },
+        {
+            "rule": "bstatic\\.com\\/static\\/js\\/error_catcher_bec_cloudfront_sd\\/c40c55637440286271899bb4294fd743b387ac07\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4352beeb6d75e0b1e6bfcfd2b156c5404176e62b6459c09a9cad2c3ef43069f4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "evaair.com",
+                "www.pacificcoastal.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "booking.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Stylesheet": 3
+    },
+    "nameservers": [
+        "ns-716.awsdns-25.net",
+        "ns-1288.awsdns-33.org",
+        "ns-1959.awsdns-52.co.uk",
+        "ns-508.awsdns-63.com"
+    ]
+}

@@ -1,0 +1,167 @@
+{
+    "domain": "zi-scripts.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00121,
+    "sites": 12,
+    "subdomains": [
+        "js"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "zi-scripts\\.com\\/zi-tag\\.js",
+            "cookies": 0.000904,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Document.cookie getter": 9,
+                "Document.cookie setter": 9,
+                "Date.prototype.getTime": 11,
+                "URL.createObjectURL": 10
+            },
+            "sites": 12,
+            "prevalence": 0.00121,
+            "cnames": [],
+            "responseHashes": [
+                "e779904e434d50e426e79dfac680cdb8a04564e67121c257974278a02979e407"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_zitok": {
+                    "ttl": 31536009,
+                    "length": 30,
+                    "prevalence": 0.0009044317154054868,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "esri.com",
+                "community.plotly.com",
+                "ieeexplore.ieee.org",
+                "mariadb.com",
+                "plotly.com",
+                "pytorch.org",
+                "www.brevo.com",
+                "www.keysight.com",
+                "www.postman.com",
+                "www.techrepublic.com",
+                "www.truenas.com",
+                "www.zoominfo.com"
+            ]
+        },
+        {
+            "rule": "zi-scripts\\.com\\/unified\\/v1\\/master\\/getSubscriptions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.00111,
+            "cnames": [],
+            "responseHashes": [
+                "60d3aa7867c82b0e6bda3d2cdbe3c8e3ccf6976b66084f3beade35f75dda7993",
+                "293925f9d478fb31c98d61adb137a7754f8e1bd1c9796e61781b3aa9afbc4ebe",
+                "8f8ad1a4430f4eb6b4629a6cec4849c44f2e70b0b247c85317b12db1dffd34fb",
+                "aa17ba169993ae2339f654f7a45a823429dd3130d91acc94a1e81ce7d92f6069",
+                "9b0798a5bd7693ae18ea14e747d006c47b600d3a4bbf65acb2ff21440bc1bd92",
+                "1366de8bd617a326ce7ea8f70e4c5173df434b643e57b4e848d22fce7ecccdbb",
+                "1797aa9311eed4dc9c5b58e56abda3dbe51337862b22c211dce0b7f7ab926158",
+                "ec84a1fb09a6a61ea3206b1a994a75c2a805ba01479c7734f8bce12d15d4f4b2",
+                "7847f7e2deb08c53463eed60eb2b205724881b24dba2d86a9e743e2c823323d7",
+                "d82459801563db3ec41157595f55ee063951e887eb83c9e507a12423e17852a0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "esri.com",
+                "community.plotly.com",
+                "ieeexplore.ieee.org",
+                "mariadb.com",
+                "plotly.com",
+                "pytorch.org",
+                "www.brevo.com",
+                "www.keysight.com",
+                "www.postman.com",
+                "www.techrepublic.com",
+                "www.truenas.com"
+            ]
+        },
+        {
+            "rule": "zi-scripts\\.com\\/unified\\/v1\\/master\\/getSubscriptions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.00111,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "esri.com",
+                "community.plotly.com",
+                "ieeexplore.ieee.org",
+                "mariadb.com",
+                "plotly.com",
+                "pytorch.org",
+                "www.brevo.com",
+                "www.keysight.com",
+                "www.postman.com",
+                "www.techrepublic.com",
+                "www.truenas.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000904,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.26666666666666666
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.13333333333333333
+        },
+        {
+            "domain": "discourse-cdn.com",
+            "prevalence": 0.06666666666666667
+        },
+        {
+            "domain": "prismic.io",
+            "prevalence": 0.06666666666666667
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.06666666666666667
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Fetch": 11,
+        "Preflight": 11
+    },
+    "nameservers": [
+        "rita.ns.cloudflare.com",
+        "tim.ns.cloudflare.com"
+    ]
+}

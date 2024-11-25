@@ -1,0 +1,106 @@
+{
+    "domain": "gravitec.media",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "gravitec\\.media\\/track\\.min\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "7d55d36ab7029a3ac11096692671cdfc36fa8446e8cf7584fc23de06074b0f85"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "GN_USER_ID_KEY": {
+                    "ttl": 63072009,
+                    "length": 36,
+                    "prevalence": 0.00040245497534963277,
+                    "uniqueness": 1
+                },
+                "GN_SESSION_ID_KEY": {
+                    "ttl": 1809,
+                    "length": 36,
+                    "prevalence": 0.00040245497534963277,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "addictivetips.com",
+                "www.kyivpost.com",
+                "www.pravda.com.ua",
+                "www.worldhistory.org"
+            ]
+        },
+        {
+            "rule": "gravitec\\.media\\/api\\/stats\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "GN_USER_ID_KEY": 0.00040245497534963277,
+                "GN_SESSION_ID_KEY": 0.00040245497534963277,
+                "lotame_domain_check": 0.00010061374383740819,
+                "_li_dcdm_c": 0.00010061374383740819
+            },
+            "exampleSites": [
+                "addictivetips.com",
+                "www.kyivpost.com",
+                "www.pravda.com.ua",
+                "www.worldhistory.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "gravitec.net",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "thomas.ns.cloudflare.com",
+        "chan.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,647 @@
+{
+    "domain": "bazaarvoice.com",
+    "owner": {
+        "name": "Bazaarvoice, Inc.",
+        "displayName": "Bazaarvoice",
+        "privacyPolicy": "https://www.bazaarvoice.com/legal/privacy-policy/",
+        "url": "http://bazaarvoice.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00261,
+    "sites": 26,
+    "subdomains": [
+        "apps",
+        "network-eu-a",
+        "network-a",
+        "api",
+        "network-eu"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "bazaarvoice\\.com\\/analytics\\/bv-analytics\\.js",
+            "cookies": 0.00231,
+            "fingerprinting": 2,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {
+                "Screen.prototype.width": 25,
+                "Screen.prototype.height": 25,
+                "Navigator.prototype.language": 25,
+                "Navigator.prototype.cookieEnabled": 25,
+                "Date.prototype.getTimezoneOffset": 25,
+                "Date.prototype.getTime": 25,
+                "Document.cookie getter": 23,
+                "Document.cookie setter": 23,
+                "PerformanceTiming.prototype.navigationStart": 10
+            },
+            "sites": 25,
+            "prevalence": 0.00251,
+            "cnames": [],
+            "responseHashes": [
+                "7d22f48243f28ae0d3cfbbc0ec1919450e5249f32645dfdf104c83d0b5cfd00c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shop.sandisk.com",
+                "store.brother.de",
+                "www.landsend.de",
+                "www.barnesandnoble.com",
+                "hisense.de",
+                "www.stihl.de",
+                "www.bauknecht.de",
+                "www.asus.com",
+                "ecco.com",
+                "www.leifheit.de",
+                "www.yves-rocher.de",
+                "mueller.de",
+                "www.brother.de",
+                "www.elgato.com",
+                "landsend.de",
+                "www.kitchenaid.de",
+                "www.oralb.de",
+                "www.jack-wolfskin.de",
+                "www.ninjakitchen.de",
+                "ninjakitchen.de"
+            ]
+        },
+        {
+            "rule": "bazaarvoice\\.com\\/a\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "network-eu-a",
+                "network-a"
+            ],
+            "apis": {},
+            "sites": 25,
+            "prevalence": 0.00251,
+            "cnames": [],
+            "responseHashes": [
+                "07383c96980710a04144e5a39ae59e7f9f74bcfd6462a6932ded48efe6d73bce"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "crl8.fpcuid": 0.0004019696512913275,
+                "BVBRANDID": 0.0014068937795196463,
+                "BVBRANDSID": 0.0014068937795196463,
+                "IR_gbd": 0.00010049241282283188
+            },
+            "exampleSites": [
+                "www.sephora.de",
+                "www.oralb.de",
+                "mueller.de",
+                "landsend.de",
+                "www.barnesandnoble.com",
+                "shop.sandisk.com",
+                "ecco.com",
+                "store.brother.de",
+                "www.jack-wolfskin.de",
+                "www.westerndigital.com",
+                "www.netgear.com",
+                "ninjakitchen.de",
+                "www.bauknecht.de",
+                "store.canon.de",
+                "www.elgato.com",
+                "hisense.de",
+                "www.stihl.de",
+                "www.asus.com",
+                "www.mueller.de",
+                "www.kitchenaid.de"
+            ]
+        },
+        {
+            "rule": "bazaarvoice\\.com\\/deployments\\/lands_end\\/landsend_de\\/production\\/de_DE\\/bv\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ea238506370c2077e35c4c07e7f2527c004a8ac3fa563d6fe8df66153532166f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "NoCookie": {
+                    "ttl": -86395,
+                    "length": 4,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 0.5
+                },
+                "BVBRANDID": {
+                    "ttl": 31536005,
+                    "length": 36,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 1
+                },
+                "BVBRANDSID": {
+                    "ttl": 1805,
+                    "length": 36,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "landsend.de",
+                "www.landsend.de"
+            ]
+        },
+        {
+            "rule": "bazaarvoice\\.com\\/apps\\/api\\/api-0\\.8\\.2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {},
+            "sites": 21,
+            "prevalence": 0.00211,
+            "cnames": [],
+            "responseHashes": [
+                "dccfc3418e69f6ca37f92a3459c360d871b36744be9a4e2b96bbe3ae4e45e4fd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.oralb.de",
+                "www.barnesandnoble.com",
+                "www.yves-rocher.de",
+                "www.leifheit.de",
+                "www.brother.de",
+                "ninjakitchen.de",
+                "www.elgato.com",
+                "www.westerndigital.com",
+                "store.brother.de",
+                "www.bauknecht.de",
+                "www.landsend.de",
+                "www.ninjakitchen.de",
+                "www.stihl.de",
+                "shop.sandisk.com",
+                "landsend.de",
+                "www.kitchenaid.de",
+                "www.asus.com",
+                "www.sephora.de",
+                "www.netgear.com",
+                "www.jack-wolfskin.de"
+            ]
+        },
+        {
+            "rule": "bazaarvoice\\.com\\/deployments\\/lands_end\\/landsend_de\\/production\\/de_DE\\/api-config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a549ace13c058f4c08276125d1558ceaf25ec6126eaefa44ddb023dd233b2aa1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "landsend.de",
+                "www.landsend.de"
+            ]
+        },
+        {
+            "rule": "bazaarvoice\\.com\\/deployments\\/sharkninja-eu\\/main_site\\/production\\/de_DE\\/bv\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "65318bc1041785988cc919f901ddb3d17815f57bd2efc46baf36b61ebc0e9390"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "NoCookie": {
+                    "ttl": 630720003,
+                    "length": 4,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 0.5
+                },
+                "BVBRANDID": {
+                    "ttl": -86398,
+                    "length": 4,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 0.5
+                },
+                "BVBRANDSID": {
+                    "ttl": -86398,
+                    "length": 4,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ninjakitchen.de",
+                "www.ninjakitchen.de"
+            ]
+        },
+        {
+            "rule": "bazaarvoice\\.com\\/deployments\\/sharkninja-eu\\/main_site\\/production\\/de_DE\\/api-config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e31529dba962ad40681dfb2c26f60725804027f9731e94b55e24b8e47f49d92b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ninjakitchen.de",
+                "www.ninjakitchen.de"
+            ]
+        },
+        {
+            "rule": "bazaarvoice\\.com\\/deployments\\/mueller-emea\\/main_site\\/production\\/de_DE\\/bv\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "afdcbdcc04eb84909a65248948393ab25d0ef98210cf78519b5d9f8f4b38942f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "NoCookie": {
+                    "ttl": 630720004,
+                    "length": 4,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 0.5
+                },
+                "BVBRANDID": {
+                    "ttl": -86396,
+                    "length": 4,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 0.5
+                },
+                "BVBRANDSID": {
+                    "ttl": -86396,
+                    "length": 4,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mueller.de",
+                "www.mueller.de"
+            ]
+        },
+        {
+            "rule": "bazaarvoice\\.com\\/apps\\/inline_ratings\\/inline_ratings-2\\.6\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a42f09b7ff3ec63e57b7aa0125cd00c88c257eca65604a3dd2eecbd96958605f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mueller.de",
+                "www.mueller.de"
+            ]
+        },
+        {
+            "rule": "bazaarvoice\\.com\\/deployments\\/mueller-emea\\/main_site\\/production\\/de_DE\\/inline_ratings-config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fc7e7f8e7fb1f2043aa945f42e35f7f57fd4a4a3c379b306e36a87bb7b7745c6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mueller.de",
+                "www.mueller.de"
+            ]
+        },
+        {
+            "rule": "bazaarvoice\\.com\\/data\\/statistics\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "3be59017c03230e1e05ad52013ff1deae478e28b48613b68c85da29767c003d1",
+                "f1a442424e047af3ea015ced104c5f571a2b1bff4444e83e6d295e4385daff86",
+                "17cfbc0248e1bf2bf6184c5c1c8c317a1e29925b324bfadfa414054a3297b125",
+                "97d2141f2e8f9a25da6802192ed42cfcbfb3f4e398ade0bd1af3aaff2f11fd17",
+                "2b147f418468c3acd95dccbcda584ef162e1169894e7d91a1a6e230e5e1770b7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mueller.de",
+                "shop.sandisk.com",
+                "www.barnesandnoble.com",
+                "www.jack-wolfskin.de",
+                "www.mueller.de",
+                "www.oralb.de"
+            ]
+        },
+        {
+            "rule": "bazaarvoice\\.com\\/apps\\/inline_ratings\\/inline_ratings-2\\.6\\.2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 3,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ea8e387c68dd4e2c96baa25130c2decede390115fa8de99e333bb2f551f0ad84"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sandisk.com",
+                "www.leifheit.de",
+                "www.westerndigital.com"
+            ]
+        },
+        {
+            "rule": "bazaarvoice\\.com\\/apps\\/inline_ratings\\/inline_ratings-2\\.7\\.2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1a803a937487cd0a6970769ac668cc875507e1fd59c249328400a6764ce8efbe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canon.de",
+                "www.kitchenaid.de"
+            ]
+        },
+        {
+            "rule": "bazaarvoice\\.com\\/data\\/statistics\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "8ad8889184d0a2135ba51076aa6f3c84645ec1a32b4ced9e0773947dbb93ce57",
+                "2ccf58f4010a4e0fed9c1d654daaa2f216666da49844bff670f81d1914edd94d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canon.de",
+                "store.canon.de",
+                "www.kitchenaid.de"
+            ]
+        },
+        {
+            "rule": "bazaarvoice\\.com\\/deployments\\/barnesandnoble\\/local_implementation\\/production\\/en_US\\/bv\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 2,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 1,
+                "Document.cookie getter": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "807e90cb26006df48ae1e8f781f7deb066b035c55ee349a7bd258e76e5c6b792"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "NoCookie": {
+                    "ttl": 630720016,
+                    "length": 4,
+                    "prevalence": 0.00010049241282283188,
+                    "uniqueness": 1
+                },
+                "BVBRANDID": {
+                    "ttl": -86384,
+                    "length": 4,
+                    "prevalence": 0.00010049241282283188,
+                    "uniqueness": 1
+                },
+                "BVBRANDSID": {
+                    "ttl": -86384,
+                    "length": 4,
+                    "prevalence": 0.00010049241282283188,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barnesandnoble.com",
+                "www.barnesandnoble.com"
+            ]
+        },
+        {
+            "rule": "bazaarvoice\\.com\\/st\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "network-eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "07383c96980710a04144e5a39ae59e7f9f74bcfd6462a6932ded48efe6d73bce"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "BVImplmain_site_plp": 0.00020098482564566376,
+                "BVBRANDID": 0.00020098482564566376,
+                "BVBRANDSID": 0.00020098482564566376
+            },
+            "exampleSites": [
+                "gigaset.com",
+                "www.gigaset.com"
+            ]
+        },
+        {
+            "rule": "bazaarvoice\\.com\\/api\\/data\\/statistics\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "11208f5b97adb8a773a28a2d3a842c0e8ab3595248e83b39d032f3537f776008"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "leifheit.de",
+                "www.westerndigital.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Audience Measurement",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.00241,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6527777777777778
+        },
+        {
+            "domain": "sdiapi.com",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.1111111111111111
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.08333333333333333
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.027777777777777776
+        }
+    ],
+    "types": {
+        "Script": 67,
+        "Image": 27,
+        "Fetch": 8,
+        "XHR": 3
+    },
+    "nameservers": [
+        "a13-66.akam.net",
+        "a10-64.akam.net",
+        "a11-65.akam.net",
+        "a2-67.akam.net",
+        "a1-191.akam.net",
+        "a6-64.akam.net"
+    ]
+}

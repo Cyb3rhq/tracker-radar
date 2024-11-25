@@ -1,0 +1,88 @@
+{
+    "domain": "rumble.com",
+    "owner": {
+        "name": "Rumble Inc.",
+        "displayName": "Rumble"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "rumble\\.com\\/j\\/p\\/ui\\.r2\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.orientation": 2,
+                "window.innerHeight": 1,
+                "Screen.prototype.height": 1,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cb36cc252072945a05d6423917100884ec6e481f782c8e44e0defefb51312c49"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paulbrandenburg.com",
+                "terraherz.wordpress.com"
+            ]
+        },
+        {
+            "rule": "rumble\\.com\\/l\\/a\\.\\.4\\.1tnjuw\\.5nn3n8\\.\\.ka\\.thprub",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cbd100d7cdab80ff21d2b11415e4d289beb2560bf07960915286afbeb5460c12"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wordpress.com",
+                "terraherz.wordpress.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "wpcomstaging.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Ping": 2
+    },
+    "nameservers": [
+        "ns-640.awsdns-16.net",
+        "ns-479.awsdns-59.com",
+        "ns-1594.awsdns-07.co.uk",
+        "ns-1404.awsdns-47.org"
+    ]
+}

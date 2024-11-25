@@ -1,0 +1,136 @@
+{
+    "domain": "klarnaservices.com",
+    "owner": {
+        "name": "Klarna Bank AB",
+        "displayName": "Klarna Bank"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.000803,
+    "sites": 8,
+    "subdomains": [
+        "osm",
+        "eu-library",
+        "na-library"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "klarnaservices\\.com\\/lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "osm",
+                "eu-library",
+                "na-library"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "window.localStorage": 8
+            },
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "36ca8964159d74ae7eb131387189485398509cee17eabb8a7ef48ba9157ec4fb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ninjakitchen.nl",
+                "www.delonghi.com",
+                "www.fender.com",
+                "www.haardcenter.nl",
+                "www.jabra.com",
+                "www.intertoys.nl",
+                "www.sageappliances.com",
+                "www.specialized.com"
+            ]
+        },
+        {
+            "rule": "klarnaservices\\.com\\/config\\/runtime-config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "na-library"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "b63089d8d317caf764104d335fd122421953bd3a8429fb95977e737441beb47c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ninjakitchen.nl",
+                "www.delonghi.com",
+                "www.fender.com",
+                "www.haardcenter.nl",
+                "www.jabra.com",
+                "www.intertoys.nl",
+                "www.sageappliances.com",
+                "www.specialized.com"
+            ]
+        },
+        {
+            "rule": "klarnaservices\\.com\\/v1\\/0\\.0\\.349\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "na-library"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "window.sessionStorage": 8,
+                "window.localStorage": 8,
+                "Navigator.prototype.language": 8,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 8,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "9781cf5b9b9ee1d56bdef41316c12bebafbf6501d26c500436344c2988c997ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ninjakitchen.nl",
+                "www.delonghi.com",
+                "www.fender.com",
+                "www.haardcenter.nl",
+                "www.jabra.com",
+                "www.intertoys.nl",
+                "www.sageappliances.com",
+                "www.specialized.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 16,
+        "Fetch": 8
+    },
+    "nameservers": [
+        "ns-1262.awsdns-29.org",
+        "ns-1786.awsdns-31.co.uk",
+        "ns-334.awsdns-41.com",
+        "ns-745.awsdns-29.net"
+    ]
+}

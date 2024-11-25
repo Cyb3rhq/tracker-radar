@@ -1,0 +1,123 @@
+{
+    "domain": "clic2buy.com",
+    "owner": {
+        "name": "Market Connect",
+        "displayName": "Market Connect"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000956,
+    "sites": 14,
+    "subdomains": [
+        "michelin",
+        "analytics",
+        "widget"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "clic2buy\\.com\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "michelin"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [
+                "c739ef5c9eb2ee7215601e5e9c40f8cc31a4117f3ffb8188a5aded66fa4246af"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bfgoodrichtires.com",
+                "www.bfgoodrichtires.com",
+                "www.michelin.ca",
+                "www.michelin.co.uk",
+                "www.michelin.de",
+                "www.michelinman.com",
+                "www.michelin.fr"
+            ]
+        },
+        {
+            "rule": "clic2buy\\.com\\/c2b-analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 10
+            },
+            "sites": 10,
+            "prevalence": 0.0000683,
+            "cnames": [],
+            "responseHashes": [
+                "8ce7b2d675eae36745d537c189803638c1789c38054ad3d520cac25fc27240d4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bfgoodrichtires.com",
+                "www.bfgoodrichtires.com",
+                "www.continental-reifen.de",
+                "www.continental-tires.com",
+                "www.kiwicare.com",
+                "www.michelin.co.uk",
+                "www.michelin.de",
+                "www.michelin.ca",
+                "www.michelinman.com",
+                "www.michelin.fr"
+            ]
+        },
+        {
+            "rule": "clic2buy\\.com\\/c2b\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "8b77c693555e876102f609038626df0df559b6b9632e544a720ddd748dfeb69c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "continental-reifen.de",
+                "www.continental-tires.com",
+                "www.kiwicare.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7857142857142857
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.21428571428571427
+        }
+    ],
+    "types": {
+        "Script": 20
+    },
+    "nameservers": [
+        "dns200.anycast.me",
+        "ns200.anycast.me"
+    ]
+}

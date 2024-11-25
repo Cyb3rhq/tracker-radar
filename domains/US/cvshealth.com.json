@@ -1,0 +1,87 @@
+{
+    "domain": "cvshealth.com",
+    "owner": {
+        "name": "CVS Pharmacy Inc",
+        "displayName": "CVS Pharmacy"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "api10"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "cvshealth\\.com\\/healthcare\\/prod\\/v7\\/auth\\/oauth2\\/token",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api10"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "74ad5c0c1db29a94dda883b0e52f6c9ed5392654fb5cf4ab7826f489bdd84cbc"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thinkagent.com",
+                "app.thinkagent.com"
+            ]
+        },
+        {
+            "rule": "cvshealth\\.com\\/identitymanagement\\/prod\\/v3\\/auth\\/oauth2\\/ngaapp\\/token",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api10"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ac7765dffcfd0175413b31858565c29ea3a7e7abe650ca785c68a8bc4e774276"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thinkagent.com",
+                "app.thinkagent.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000683,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "XHR": 4
+    },
+    "nameservers": [
+        "a14-66.akam.net",
+        "a18-67.akam.net",
+        "a13-65.akam.net",
+        "a1-84.akam.net",
+        "a7-64.akam.net",
+        "a8-65.akam.net"
+    ]
+}

@@ -1,0 +1,125 @@
+{
+    "domain": "rcsmetrics.it",
+    "owner": {
+        "name": "RCS Mediagroup S.p.A",
+        "displayName": "RCS Mediagroup"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000683,
+    "sites": 10,
+    "subdomains": [
+        "smetrics",
+        "dmpmetrics"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "rcsmetrics\\.it\\/id",
+            "cookies": 0.0000615,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smetrics"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000615,
+            "cnames": [],
+            "responseHashes": [
+                "9030ad53f83064e70e4777c900e692ae5bc5e53719e8d3e7ea911b58eb813e5d",
+                "72675afbc32a72af45ef2bbb2464094ce6716e4faf8f7cbe37d98ac204b33e0a",
+                "ca61cb9c45244c4da9f4b4a236fca714b170184b2dba533e121fc87dee19549e",
+                "ca2998062ab74df8f2419c6ca41b42c1a186c83cc49d5149df678fb7ab7b2e09",
+                "a7521f3d35061d814812cdd77e239abe3df1ec830731ce86ae4f56e9c7881228",
+                "355ca908f41ee971254454ea47b43b3851a9292022fda3b3f17ac8f8d3acd8ec",
+                "5be8d2bb9a9f42d178360a1594984d3cffcad489e60f8db01ab8c562801bff79",
+                "c52f1d3706779d09e1a1784551990e7dce3187b5c2249e365a08c9a94c2cd134"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "s_fid": 0.000047824007651841225,
+                "s_fid_old": 0.000047824007651841225,
+                "UESeg": 0.00004099200655872105
+            },
+            "exampleSites": [
+                "la7.it",
+                "www.amica.it",
+                "www.fcinter1908.it",
+                "www.forzaroma.info",
+                "www.gazzetta.it",
+                "www.iodonna.it",
+                "www.la7.it",
+                "www.open.online",
+                "www.unionesarda.it"
+            ]
+        },
+        {
+            "rule": "rcsmetrics\\.it\\/",
+            "cookies": 0.000041,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmpmetrics"
+            ],
+            "apis": {
+                "Document.cookie getter": 6,
+                "Document.cookie setter": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "a0c8dda5521b14ea824a013a2ad53abb5cfdfaf78ba1dbc2aaf55793763b9fd3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "UESeg": {
+                    "ttl": 31104000,
+                    "length": 38,
+                    "prevalence": 0.00004099200655872105,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amica.it",
+                "www.fcinter1908.it",
+                "www.forzaroma.info",
+                "www.gazzetta.it",
+                "www.iodonna.it",
+                "www.la7.it"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000683,
+    "topInitiators": [
+        {
+            "domain": "gazzettaobjects.it",
+            "prevalence": 0.48
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.28
+        },
+        {
+            "domain": "rcsobjects.it",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "rum.us-east-1.amazonaws.com",
+            "prevalence": 0.04
+        }
+    ],
+    "types": {
+        "XHR": 9,
+        "Script": 6
+    },
+    "nameservers": [
+        "dnsgeo5.tuonomeregistrar.com",
+        "dnsgeo6.tuonomeregistrar.net"
+    ]
+}

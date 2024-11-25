@@ -1,0 +1,87 @@
+{
+    "domain": "google.cn",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [
+        "www",
+        "maps"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "google\\.cn\\/maps\\/vt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "70878a113dd01c6dc089e7fa6e93deb0d216ddfad5599d1cc94c93e7b6835eff",
+                "6d572b7d4395ed1df8bb3c2a68f7645cf96c4f9add55d97cbd7288a9afca1b1d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "raindrop.farm",
+                "app.raindrop.farm",
+                "www.raindrop.farm"
+            ]
+        },
+        {
+            "rule": "google\\.cn\\/maps\\/api\\/js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "maps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espressif.com",
+                "www.espressif.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 3,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns3.google.com",
+        "ns4.google.com",
+        "ns1.google.com",
+        "ns2.google.com"
+    ]
+}

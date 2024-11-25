@@ -1,0 +1,309 @@
+{
+    "domain": "mixcloud.com",
+    "owner": {
+        "name": "Mixcloud",
+        "displayName": "Mixcloud"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "player-widget",
+        "app",
+        "widget"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "mixcloud\\.com\\/widget\\/iframe\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player-widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0a8013ae06d152c501e6346b7c63745af18cc767eed2819f4f4c6d95aad385b5"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mixmag.net",
+                "sciencehistory.org"
+            ]
+        },
+        {
+            "rule": "mixcloud\\.com\\/assets\\/polyfills-Cdi0HWGP\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player-widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "db639a097e99299546adb1dbfd2e367563e881a97303995263830521b6d45e79"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mixmag.net",
+                "sciencehistory.org"
+            ]
+        },
+        {
+            "rule": "mixcloud\\.com\\/ch\\/challenge\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d6aa7e8f38881293cbe1397b7191d23fe272cab0004c31c556cb13718c5f5798"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mixmag.net",
+                "sciencehistory.org"
+            ]
+        },
+        {
+            "rule": "mixcloud\\.com\\/csrf\\/refresh\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mixmag.net",
+                "sciencehistory.org"
+            ]
+        },
+        {
+            "rule": "mixcloud\\.com\\/csrf\\/refresh\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mixmag.net",
+                "sciencehistory.org"
+            ]
+        },
+        {
+            "rule": "mixcloud\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mixmag.net",
+                "sciencehistory.org"
+            ]
+        },
+        {
+            "rule": "mixcloud\\.com\\/graphql",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "15d7b3006a66e75d78f90f4e6a21582902e6831a3f0741bf5efbed9160a0163f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mixmag.net",
+                "sciencehistory.org"
+            ]
+        },
+        {
+            "rule": "mixcloud\\.com\\/ch\\/challenge\\/response\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mixmag.net",
+                "sciencehistory.org"
+            ]
+        },
+        {
+            "rule": "mixcloud\\.com\\/ch\\/challenge\\/response\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mixmag.net",
+                "sciencehistory.org"
+            ]
+        },
+        {
+            "rule": "mixcloud\\.com\\/cdn-cgi\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player-widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mixmag.net",
+                "sciencehistory.org"
+            ]
+        },
+        {
+            "rule": "mixcloud\\.com\\/assets\\/mx-69wy3-lQ-widget-sprite-8\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player-widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4846e729c6a670ddf7d161933b61ec3fb64ef31529f35e6f87fabc2928c27566"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mixmag.net",
+                "sciencehistory.org"
+            ]
+        },
+        {
+            "rule": "mixcloud\\.com\\/media\\/js\\/widgetApi\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3c83eff53b045e99667e208b60cb5cbae8881c5e19417e5c06543b13f615d610"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nts.live",
+                "www.nts.live"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.625
+        },
+        {
+            "domain": "cloudflareinsights.com",
+            "prevalence": 0.375
+        }
+    ],
+    "types": {
+        "Document": 2,
+        "Script": 6,
+        "Preflight": 6,
+        "Fetch": 4,
+        "XHR": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "tegan.ns.cloudflare.com",
+        "miles.ns.cloudflare.com"
+    ]
+}

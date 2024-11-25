@@ -1,0 +1,158 @@
+{
+    "domain": "adzerk.net",
+    "owner": {
+        "name": "Adzerk",
+        "displayName": "Adzerk"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000805,
+    "sites": 8,
+    "subdomains": [
+        "e-10875",
+        "e-10953",
+        "static",
+        "engine",
+        "e-11492",
+        "e-10457"
+    ],
+    "cnames": [
+        {
+            "original": "upstream.shopyourway.com",
+            "resolved": "e-10953.adzerk.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "adzerk\\.net\\/api\\/v2",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "e-10875",
+                "e-10953"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "upstream.shopyourway.com",
+                    "resolved": "e-10953.adzerk.net"
+                }
+            ],
+            "responseHashes": [
+                "9d592614288a9d8834dc107489f113a3723d680b8228e84631f73a39b39a9ea4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coinmarketcap.com",
+                "www.searspartsdirect.com"
+            ]
+        },
+        {
+            "rule": "adzerk\\.net\\/ados\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static",
+                "engine"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c88b748226e610c650313f48af58dac4f3c0d4b75a5364efabc3119648771f3f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aip.org",
+                "www.eros.com"
+            ]
+        },
+        {
+            "rule": "adzerk\\.net\\/i\\.gif",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "e-11492",
+                "e-10457"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aip.org",
+                "unsplash.com"
+            ]
+        },
+        {
+            "rule": "adzerk\\.net\\/i\\.gif",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "e-10953"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "upstream.shopyourway.com",
+                    "resolved": "e-10953.adzerk.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "searspartsdirect.com",
+                "www.searspartsdirect.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "nitrocdn.com",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-106.awsdns-13.com",
+        "ns-1272.awsdns-31.org",
+        "ns-1608.awsdns-09.co.uk",
+        "ns-817.awsdns-38.net"
+    ]
+}

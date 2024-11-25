@@ -1,0 +1,196 @@
+{
+    "domain": "impervadns.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00151,
+    "sites": 15,
+    "subdomains": [
+        "naouzqe",
+        "l5f5hp7.ng",
+        "xa62pwj.ng",
+        "c58ssel",
+        "qhvzvlb"
+    ],
+    "cnames": [
+        {
+            "original": "analytics.australianretirementtrust.com.au",
+            "resolved": "xa62pwj.ng.impervadns.net"
+        },
+        {
+            "original": "analytics.qsuper.qld.gov.au",
+            "resolved": "l5f5hp7.ng.impervadns.net"
+        },
+        {
+            "original": "api.kmart.co.nz",
+            "resolved": "c58ssel.impervadns.net"
+        },
+        {
+            "original": "api.kmart.com.au",
+            "resolved": "qhvzvlb.impervadns.net"
+        },
+        {
+            "original": "login.accor.com",
+            "resolved": "naouzqe.impervadns.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "impervadns\\.net\\/as\\/authorization\\.oauth2",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "naouzqe"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "login.accor.com",
+                    "resolved": "naouzqe.impervadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "accor.com",
+                "all.accor.com"
+            ]
+        },
+        {
+            "rule": "impervadns\\.net\\/geo\\/geo\\.gif",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "l5f5hp7.ng",
+                "xa62pwj.ng"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "analytics.qsuper.qld.gov.au",
+                    "resolved": "l5f5hp7.ng.impervadns.net"
+                },
+                {
+                    "original": "analytics.australianretirementtrust.com.au",
+                    "resolved": "xa62pwj.ng.impervadns.net"
+                }
+            ],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "qsuper.qld.gov.au",
+                "www.australianretirementtrust.com.au"
+            ]
+        },
+        {
+            "rule": "impervadns\\.net\\/gateway\\/graphql",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c58ssel",
+                "qhvzvlb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.kmart.co.nz",
+                    "resolved": "c58ssel.impervadns.net"
+                },
+                {
+                    "original": "api.kmart.com.au",
+                    "resolved": "qhvzvlb.impervadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kmart.co.nz",
+                "www.kmart.com.au"
+            ]
+        },
+        {
+            "rule": "impervadns\\.net\\/gateway\\/graphql",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c58ssel",
+                "qhvzvlb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.kmart.co.nz",
+                    "resolved": "c58ssel.impervadns.net"
+                },
+                {
+                    "original": "api.kmart.com.au",
+                    "resolved": "qhvzvlb.impervadns.net"
+                }
+            ],
+            "responseHashes": [
+                "7139aec287efa3b63a3992f097f19a717da344dbace034a4c2c348d9750c29b3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kmart.co.nz",
+                "www.kmart.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00151,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.42857142857142855
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.14285714285714285
+        },
+        {
+            "domain": "msecnd.net",
+            "prevalence": 0.14285714285714285
+        },
+        {
+            "domain": "kmart.com.au",
+            "prevalence": 0.14285714285714285
+        },
+        {
+            "domain": "jsdelivr.net",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Document": 2,
+        "Image": 2,
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns1.impervadns.net",
+        "ns2.impervadns.net",
+        "ns3.impervadns.net"
+    ]
+}

@@ -1,0 +1,262 @@
+{
+    "domain": "m32.media",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000683,
+    "sites": 10,
+    "subdomains": [
+        "rdc",
+        "fastlygeo",
+        "seg"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "m32\\.media\\/m32pixel\\.min\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "rdc"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "22de6e4042c182513a5612e20d9c7f41c6ef8b7829912a4eab0895dd3dea05a6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "m32_pubgeo": {
+                    "ttl": 305,
+                    "length": 376,
+                    "prevalence": 0.000020496003279360526,
+                    "uniqueness": 0.3333333333333333
+                },
+                "m32_sStorage": {
+                    "ttl": 1803,
+                    "length": 36,
+                    "prevalence": 0.000020496003279360526,
+                    "uniqueness": 1
+                },
+                "m32_uDepot": {
+                    "ttl": 31536003,
+                    "length": 36,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drummondhouseplans.com",
+                "www.joseedistasio.ca",
+                "www.ledevoir.com"
+            ]
+        },
+        {
+            "rule": "m32\\.media\\/madops\\.min\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "rdc"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Date.prototype.getTime": 6,
+                "window.innerWidth": 5,
+                "window.innerHeight": 5,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "1c916f14b273797dc164fce9800eacfd2591d6e599de60eac112857db7452a50"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "m32_pubgeo": {
+                    "ttl": 7267,
+                    "length": 376,
+                    "prevalence": 0.000020496003279360526,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drummondhouseplans.com",
+                "forum.canadianwoodworking.com",
+                "medimap.ca",
+                "www.iga.net",
+                "www.joseedistasio.ca",
+                "www.ricardocuisine.com"
+            ]
+        },
+        {
+            "rule": "m32\\.media\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fastlygeo"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "60a6f719bc529fe5f57fa5e0244baa549c129c2b6bdc00fe842910a4b47e0284"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drummondhouseplans.com",
+                "forum.canadianwoodworking.com",
+                "medimap.ca",
+                "www.iga.net",
+                "www.joseedistasio.ca",
+                "www.ledevoir.com"
+            ]
+        },
+        {
+            "rule": "m32\\.media\\/page_view",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "seg"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drummondhouseplans.com",
+                "www.joseedistasio.ca",
+                "www.ledevoir.com"
+            ]
+        },
+        {
+            "rule": "m32\\.media\\/adops\\/custom_files\\/ricardocuisine\\.com\\/custom\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rdc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "404cfe879ffa6e7110075ff8eeeb21682a97599a0edff5d1cabb5d7ab0573c16"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ricardocuisine.com",
+                "www.ricardocuisine.com"
+            ]
+        },
+        {
+            "rule": "m32\\.media\\/prebid\\/ricardocuisine\\.com\\/prebid\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "rdc"
+            ],
+            "apis": {
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Navigator.prototype.connection": 2,
+                "Screen.prototype.orientation": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Navigator.prototype.deviceMemory": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f4033239eee45fb9e880d539f37379faa9fed3d0ee6b894576ccd19d5a6309e8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_sharedID": {
+                    "ttl": 2592025,
+                    "length": 36,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "_sharedID_cst": {
+                    "ttl": 2592025,
+                    "length": 16,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ricardocuisine.com",
+                "www.ricardocuisine.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000683,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7931034482758621
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.10344827586206896
+        },
+        {
+            "domain": "privacy-center.org",
+            "prevalence": 0.06896551724137931
+        },
+        {
+            "domain": "inmobi.com",
+            "prevalence": 0.034482758620689655
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "XHR": 11
+    },
+    "nameservers": [
+        "ns-cloud-c4.googledomains.com",
+        "ns-cloud-c3.googledomains.com",
+        "ns-cloud-c2.googledomains.com",
+        "ns-cloud-c1.googledomains.com"
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "domain": "scrippsnetworks.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "secure-api"
+    ],
+    "cnames": [
+        {
+            "original": "food.fnr.sndimg.com",
+            "resolved": "secure-api.scrippsnetworks.com.edgekey.net"
+        },
+        {
+            "original": "hgtvhome.sndimg.com",
+            "resolved": "secure-api.scrippsnetworks.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "scrippsnetworks\\.com\\.edgekey\\.net\\/etc\\/clientlibs\\/ad-specific\\.min\\.md5-dda32edf6775cddc7beeaaeb28a54a11\\.css",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "food.fnr.sndimg.com",
+                    "resolved": "secure-api.scrippsnetworks.com.edgekey.net"
+                },
+                {
+                    "original": "hgtvhome.sndimg.com",
+                    "resolved": "secure-api.scrippsnetworks.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "f9f32e2f46027d46bba57f04e3144928977c0fa1352adff30090339b77da68fe"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foodnetwork.com",
+                "www.hgtv.com"
+            ]
+        },
+        {
+            "rule": "scrippsnetworks\\.com\\.edgekey\\.net\\/etc\\/clientlibs\\/user-consent-iab\\.md5-65baeb193aab463b0059ee005794b926\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "food.fnr.sndimg.com",
+                    "resolved": "secure-api.scrippsnetworks.com.edgekey.net"
+                },
+                {
+                    "original": "hgtvhome.sndimg.com",
+                    "resolved": "secure-api.scrippsnetworks.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "394759d79efa5004d7034e726756f9a1798ad6f937c87787732123c023e021e3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "usprivacy": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.00010061374383740819,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foodnetwork.com",
+                "www.hgtv.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 2
+    },
+    "nameservers": []
+}

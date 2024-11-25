@@ -1,0 +1,93 @@
+{
+    "domain": "mdgms.com",
+    "owner": {
+        "name": "FactSet Digital Solutions GmbH",
+        "displayName": "FactSet Digital Solutions"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "charts.comdirect",
+        "php5.s-broker"
+    ],
+    "cnames": [
+        {
+            "original": "charts.comdirect.de",
+            "resolved": "charts.comdirect.mdgms.com"
+        },
+        {
+            "original": "idms.sbroker.de",
+            "resolved": "php5.s-broker.mdgms.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "mdgms\\.com\\/charts\\/rebrush\\/homepage_resp\\.chart",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "charts.comdirect"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "charts.comdirect.de",
+                    "resolved": "charts.comdirect.mdgms.com"
+                }
+            ],
+            "responseHashes": [
+                "abf1526dcffa4c102c0a8f76f5475ac6651bc8948ae73b3831e1eba97b47bf82"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comdirect.de",
+                "www.comdirect.de"
+            ]
+        },
+        {
+            "rule": "mdgms\\.com\\/charts\\/homepage\\.chart\\.small_neu",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "php5.s-broker"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "idms.sbroker.de",
+                    "resolved": "php5.s-broker.mdgms.com"
+                }
+            ],
+            "responseHashes": [
+                "e4e94820603895e307dc42df4c9035e5d42339a6ef6b003880b0b118660d8967"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sbroker.de",
+                "www.sbroker.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Image": 4
+    },
+    "nameservers": [
+        "ns0243.secondary.cloudflare.com",
+        "ns0033.secondary.cloudflare.com"
+    ]
+}

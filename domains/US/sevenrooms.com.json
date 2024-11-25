@@ -1,0 +1,106 @@
+{
+    "domain": "sevenrooms.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sevenrooms\\.com\\/widget\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.onLine": 3,
+                "Date.prototype.getTime": 3,
+                "window.localStorage": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "8c28f79cb6ebd5566e91ed59a026d0ee5631358f4dcad49129c5208e39b25b43"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "giordanos.com",
+                "www.pimpbangkok.com",
+                "www.scottsdaleprincess.com"
+            ]
+        },
+        {
+            "rule": "sevenrooms\\.com\\/api-yoa\\/availability\\/dates",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c2f8f25f81f47af13dce0b4dbffeda3ea87c638c915c6a67f84bf24463d6ff21"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brunningandprice.co.uk",
+                "www.brunningandprice.co.uk"
+            ]
+        },
+        {
+            "rule": "sevenrooms\\.com\\/direct\\/vvip\\/reservation_widget_hijack_status",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "384f151d6bf1ca4f6ee2f08e1330a8fb7fc880dee4c128ea868367e3a82d7e48"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pimpbangkok.com",
+                "www.pimpbangkok.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000683,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "serena.ns.cloudflare.com",
+        "damon.ns.cloudflare.com"
+    ]
+}

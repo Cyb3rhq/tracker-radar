@@ -1,0 +1,163 @@
+{
+    "domain": "smarthint.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "static",
+        "recs"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "smarthint\\.co\\/Scripts\\/i\\/SmartHintTrack\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f71232e5f3b7afeb1563ef043efd9c5ead3b56e364c880e01b597ffc84d9d607"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "estantevirtual.com.br",
+                "www.netshoes.com.br"
+            ]
+        },
+        {
+            "rule": "smarthint\\.co\\/box\\/checkActiveAccount",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "894226c070cb293c32675a8df5d9a2dbd05e77c51b74218c836426ac9b87e940"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "estantevirtual.com.br",
+                "www.netshoes.com.br"
+            ]
+        },
+        {
+            "rule": "smarthint\\.co\\/Scripts\\/i\\/SmartHintTrack\\.Full\\.min\\.js",
+            "cookies": 0.00000683,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "37f5b54c49dd88a23b1958987aa6d678ad1772313f5af522be249e185777602e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "SmartHint-Session": {
+                    "ttl": 1803,
+                    "length": 36,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "estantevirtual.com.br",
+                "www.netshoes.com.br"
+            ]
+        },
+        {
+            "rule": "smarthint\\.co\\/track\\/createSession",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bf06dc8f4f6ff75112c6ae47ab0a99d4f707f0b0b6ed334d763d15dcabc492a8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "estantevirtual.com.br",
+                "www.netshoes.com.br"
+            ]
+        },
+        {
+            "rule": "smarthint\\.co\\/track\\/pageView",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "13ecedf5d789ce415d84a148ecb0a0511fd185efedd0fbab4b02e53bd246c677"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "SmartHint-Session": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "estantevirtual.com.br",
+                "www.netshoes.com.br"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000683,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "netshoes.com.br",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns-1017.awsdns-63.net",
+        "ns-53.awsdns-06.com",
+        "ns-1490.awsdns-58.org",
+        "ns-2007.awsdns-58.co.uk"
+    ]
+}

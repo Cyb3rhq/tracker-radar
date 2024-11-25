@@ -1,0 +1,195 @@
+{
+    "domain": "baqend.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "bmw.app",
+        "canyon.app",
+        "swarovski.app",
+        "zwilling.app"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "baqend\\.com\\/v1\\/speedkit\\/install\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "bmw.app",
+                "canyon.app",
+                "swarovski.app",
+                "zwilling.app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "PerformanceTiming.prototype.navigationStart": 4,
+                "Screen.prototype.width": 2,
+                "window.devicePixelRatio": 4,
+                "Screen.prototype.height": 2,
+                "window.indexedDB": 3,
+                "Navigator.prototype.connection": 4,
+                "Navigator.prototype.hardwareConcurrency": 4,
+                "Navigator.prototype.deviceMemory": 3,
+                "Navigator.prototype.getBattery": 4,
+                "window.sessionStorage": 2
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "5c52dfe3b51673f1d9cc5603d905323d9bf59ab0c652855fef83a71757df7eb5",
+                "b9e745370ff4656ca6277b47232fff15f67efb39d87a2eac03f153270e9f0ed6",
+                "2513939488607fbab5b6f1c998e644bafbb68ff784d602207f3ff0e5f00f07aa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "baqend-speedkit-config": {
+                    "ttl": 15552005,
+                    "length": 57,
+                    "prevalence": 0.00010061374383740819,
+                    "uniqueness": 1
+                },
+                "baqend-speedkit-user-id": {
+                    "ttl": 15552005,
+                    "length": 25,
+                    "prevalence": 0.00010061374383740819,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bmw.ca",
+                "www.canyon.com",
+                "www.swarovski.com",
+                "www.zwilling.com"
+            ]
+        },
+        {
+            "rule": "baqend\\.com\\/v1\\/speedkit\\/sw\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bmw.app",
+                "zwilling.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4cb3ba9a6a9529482945be056fa32864a95e5b2e0e4cdd1968c8333a4bf87d52"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bmw.ca",
+                "www.zwilling.com"
+            ]
+        },
+        {
+            "rule": "baqend\\.com\\/v1\\/bloomfilter",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bmw.app",
+                "zwilling.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7077d4c0bb11bc899545b50c56cada5e557dd404b67ec0104ae93bdc6fa36021"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bmw.ca",
+                "www.zwilling.com"
+            ]
+        },
+        {
+            "rule": "baqend\\.com\\/v1\\/rum\\/pi",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "canyon.app",
+                "swarovski.app",
+                "zwilling.app"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canyon.com",
+                "www.canyon.com",
+                "www.swarovski.com",
+                "www.zwilling.com"
+            ]
+        },
+        {
+            "rule": "baqend\\.com\\/v1\\/rum\\/pi",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zwilling.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zwilling.com",
+                "www.zwilling.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "bmw.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Other": 2,
+        "Fetch": 4,
+        "Ping": 4
+    },
+    "nameservers": [
+        "ns-224.awsdns-28.com",
+        "ns-839.awsdns-40.net",
+        "ns-1037.awsdns-01.org",
+        "ns-2024.awsdns-61.co.uk"
+    ]
+}

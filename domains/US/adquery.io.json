@@ -1,0 +1,149 @@
+{
+    "domain": "adquery.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000615,
+    "sites": 9,
+    "subdomains": [
+        "bidder",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "adquery\\.io\\/prebid\\/bid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bidder"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eszkola.pl",
+                "gol24.pl",
+                "placowki.mp.pl",
+                "www.mp.pl",
+                "www.sennik.biz",
+                "www.telemagazyn.pl",
+                "www.wyborkierowcow.pl"
+            ]
+        },
+        {
+            "rule": "adquery\\.io\\/user-sync-iframe\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "window.localStorage": 3
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "74fc3afe48001f28660b9a5391bf48a16a2ce8c61305b5838523a4ce0fee34ea"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eszkola.pl",
+                "placowki.mp.pl",
+                "www.mp.pl",
+                "www.sennik.biz",
+                "www.wyborkierowcow.pl"
+            ]
+        },
+        {
+            "rule": "adquery\\.io\\/prebid\\/eventTimeout",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bidder"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "13f86bd1a6d578ee82ca0c54a9a634e03d8d7db09380d72590b158f173f53790"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mp.pl",
+                "www.mp.pl",
+                "www.sennik.biz"
+            ]
+        },
+        {
+            "rule": "adquery\\.io\\/prebid\\/qid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bidder"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "dcab09db915af337a8bddf69c2d9d4a97ae36d2987fac227298928fcb4c4e94d",
+                "f002a190b4f7c324f3d1c9254ad033f8dddca146e0a0929242fdd9f74808aa72"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvrepublika.pl",
+                "www.cinoche.com",
+                "www.sennik.biz",
+                "www.wyborkierowcow.pl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "wtg-ads.com",
+            "prevalence": 0.6296296296296297
+        },
+        {
+            "domain": "ppstatic.pl",
+            "prevalence": 0.25925925925925924
+        },
+        {
+            "domain": "spolecznosci.net",
+            "prevalence": 0.07407407407407407
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.037037037037037035
+        }
+    ],
+    "types": {
+        "Fetch": 11,
+        "Document": 5,
+        "Image": 3
+    },
+    "nameservers": [
+        "cash.ns.cloudflare.com",
+        "katja.ns.cloudflare.com"
+    ]
+}

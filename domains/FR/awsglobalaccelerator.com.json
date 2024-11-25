@@ -1,0 +1,159 @@
+{
+    "domain": "awsglobalaccelerator.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000705,
+    "sites": 7,
+    "subdomains": [
+        "a80a9201ee101bbc3",
+        "ab50c11a81c4fa41b",
+        "ae6b5a65c402225de"
+    ],
+    "cnames": [
+        {
+            "original": "analytics.ableton.com",
+            "resolved": "ab50c11a81c4fa41b.awsglobalaccelerator.com"
+        },
+        {
+            "original": "collector.cdp.cnn.com",
+            "resolved": "a80a9201ee101bbc3.awsglobalaccelerator.com"
+        },
+        {
+            "original": "data-feed.flightradar24.com",
+            "resolved": "ae6b5a65c402225de.awsglobalaccelerator.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "awsglobalaccelerator\\.com\\/com\\.snowplowanalytics\\.snowplow\\/tp2",
+            "cookies": 0.000302,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a80a9201ee101bbc3"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [
+                {
+                    "original": "collector.cdp.cnn.com",
+                    "resolved": "a80a9201ee101bbc3.awsglobalaccelerator.com"
+                }
+            ],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnn.com",
+                "edition.cnn.com",
+                "www.cnn.com"
+            ]
+        },
+        {
+            "rule": "awsglobalaccelerator\\.com\\/com\\.snowplowanalytics\\.snowplow\\/tp2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a80a9201ee101bbc3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [
+                {
+                    "original": "collector.cdp.cnn.com",
+                    "resolved": "a80a9201ee101bbc3.awsglobalaccelerator.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnn.com",
+                "www.cnn.com"
+            ]
+        },
+        {
+            "rule": "awsglobalaccelerator\\.com\\/js\\/container_R5JVetMm\\.js",
+            "cookies": 0.000302,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ab50c11a81c4fa41b"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [
+                {
+                    "original": "analytics.ableton.com",
+                    "resolved": "ab50c11a81c4fa41b.awsglobalaccelerator.com"
+                }
+            ],
+            "responseHashes": [
+                "196786cb73ca4d93372eb5a7e552ad0e970ab33d765fc0dd1bdae966540e7293"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ableton.com",
+                "help.ableton.com",
+                "www.ableton.com"
+            ]
+        },
+        {
+            "rule": "awsglobalaccelerator\\.com\\/fr24\\.feed\\.api\\.v1\\.Feed\\/LiveFeed",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ae6b5a65c402225de"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [
+                {
+                    "original": "data-feed.flightradar24.com",
+                    "resolved": "ae6b5a65c402225de.awsglobalaccelerator.com"
+                }
+            ],
+            "responseHashes": [
+                "c615f71819b8e01158471a5df16223f47b11ccfc46df90ac32fbeb22a843f235"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flightradar24.com",
+                "www.flightradar24.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000504,
+    "topInitiators": [
+        {
+            "domain": "google.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 5,
+        "Preflight": 2,
+        "Script": 3
+    },
+    "nameservers": [
+        "ns-1484.awsdns-57.org",
+        "ns-1949.awsdns-51.co.uk",
+        "ns-409.awsdns-51.com",
+        "ns-609.awsdns-12.net"
+    ]
+}

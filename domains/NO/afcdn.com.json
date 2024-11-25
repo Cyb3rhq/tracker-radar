@@ -1,0 +1,75 @@
+{
+    "domain": "afcdn.com",
+    "owner": {
+        "name": "auFeminin.com SA",
+        "displayName": "auFeminin.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "afcdn\\.com\\/relmrtn\\/concat\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Document.cookie getter": 1,
+                "window.localStorage": 1,
+                "window.devicePixelRatio": 1,
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.connection": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "PerformanceTiming.prototype.navigationStart": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1cee5fa6d1d4151641c4380dc16e457c6f8022c31ed3ca1173285f8cc605439f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marmiton.org",
+                "www.marmiton.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.64
+        },
+        {
+            "domain": "mrf.io",
+            "prevalence": 0.32
+        },
+        {
+            "domain": "privacy-center.org",
+            "prevalence": 0.04
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ram.ns.cloudflare.com",
+        "pat.ns.cloudflare.com"
+    ]
+}

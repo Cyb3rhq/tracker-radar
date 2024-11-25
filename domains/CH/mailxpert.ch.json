@@ -1,0 +1,99 @@
+{
+    "domain": "mailxpert.ch",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [
+        "nl",
+        "api"
+    ],
+    "cnames": [
+        {
+            "original": "newsletter.planzer.ch",
+            "resolved": "nl.mailxpert.ch"
+        },
+        {
+            "original": "newsletter.svazurich.ch",
+            "resolved": "nl.mailxpert.ch"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "mailxpert\\.ch\\/bundles\\/mailxpertcore\\/form\\/5_0\\/validation\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nl"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "newsletter.svazurich.ch",
+                    "resolved": "nl.mailxpert.ch"
+                },
+                {
+                    "original": "newsletter.planzer.ch",
+                    "resolved": "nl.mailxpert.ch"
+                }
+            ],
+            "responseHashes": [
+                "2e799b8e45548b2b897cff55a3a75a4080ee563edbc011666fc2088c8935d792",
+                "da6871bd4044af4b0a1f90cda1bcfcb82370956a4366285bada8e95ff579e24e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "svazurich.ch",
+                "swissrecycle.ch",
+                "www.planzer.ch"
+            ]
+        },
+        {
+            "rule": "mailxpert\\.ch\\/forms\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "dc95597340a0eaa65941032522c970e4314ff82f1aac3d4a3ac78a62ca0811c5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "museums.ch",
+                "www.swissid.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "ns-cloud-c1.googledomains.com",
+        "ns-cloud-c4.googledomains.com",
+        "ns-cloud-c3.googledomains.com",
+        "ns-cloud-c2.googledomains.com"
+    ]
+}

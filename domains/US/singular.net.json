@@ -1,0 +1,311 @@
+{
+    "domain": "singular.net",
+    "owner": {
+        "name": "Singular Labs, Inc.",
+        "displayName": "Singular"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000417,
+    "sites": 61,
+    "subdomains": [
+        "web-sdk-cdn",
+        "sdk-api-v1"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "singular\\.net\\/singular-gtm-interface\\/latest\\/singular-gtm-interface\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-sdk-cdn"
+            ],
+            "apis": {},
+            "sites": 30,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "63f11d1dfb1dd2cfd334094ddad0c1f3c43f5b28b6f90e7db147094db29e33ee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vimeo.com",
+                "www.1mg.com",
+                "universe.leagueoflegends.com",
+                "www.doordash.com",
+                "dasher.doordash.com",
+                "help.clickup.com",
+                "www.timhortons.com",
+                "www.timhortons.ca",
+                "www.ayahealthcare.com",
+                "www.truemeds.in",
+                "player.vimeo.com",
+                "www.vive.com",
+                "www.doximity.com",
+                "clickup.com",
+                "doordash.com",
+                "www.rocketmoney.com",
+                "help.doordash.com",
+                "newageproducts.com",
+                "www.astropay.com",
+                "www.lyft.com"
+            ]
+        },
+        {
+            "rule": "singular\\.net\\/singular-sdk\\/latest\\/singular-sdk\\.js",
+            "cookies": 0.000116,
+            "fingerprinting": 2,
+            "subdomains": [
+                "web-sdk-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 37,
+                "window.localStorage": 35,
+                "Date.prototype.getTime": 35,
+                "Document.cookie getter": 17,
+                "Document.cookie setter": 17,
+                "window.sessionStorage": 35,
+                "Screen.prototype.height": 35,
+                "Screen.prototype.width": 35,
+                "Navigator.prototype.platform": 35,
+                "NavigatorUAData.prototype.getHighEntropyValues": 35,
+                "Navigator.prototype.language": 35
+            },
+            "sites": 37,
+            "prevalence": 0.000253,
+            "cnames": [],
+            "responseHashes": [
+                "a5f20e9b821bed653ca955a4f1a07f3ccb774616234e9b74f1d604c81b7a84a0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "singular_device_id": {
+                    "ttl": 31536006,
+                    "length": 36,
+                    "prevalence": 0.00008881601421056228,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vimeo.com",
+                "www.1mg.com",
+                "www.leagueoflegends.com",
+                "www.astropay.com",
+                "universe.leagueoflegends.com",
+                "www.doximity.com",
+                "www.superpharm.pl",
+                "playvalorant.com",
+                "matterport.com",
+                "sportsbook.draftkings.com",
+                "www.timhortons.com",
+                "www.timhortons.ca",
+                "www.rocketmoney.com",
+                "www.lyft.com",
+                "doordash.com",
+                "www.self.inc",
+                "dasher.doordash.com",
+                "clickup.com",
+                "nike.com",
+                "podimo.com"
+            ]
+        },
+        {
+            "rule": "singular\\.net\\/api\\/v1\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-v1"
+            ],
+            "apis": {},
+            "sites": 39,
+            "prevalence": 0.000266,
+            "cnames": [],
+            "responseHashes": [
+                "8a49ea5083c8030f058182dcd6ae7da0960e68a0d762f71e8e8375f5732fb2fb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "singular_device_id": 0.00012980802076928332,
+                "IR_gbd": 0.00001366400218624035,
+                "_ga": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "vimeo.com",
+                "universe.leagueoflegends.com",
+                "home.personalcapital.com",
+                "www.monarchmoney.com",
+                "www.self.inc",
+                "help.clickup.com",
+                "modo.us",
+                "www.nike.com",
+                "www.doximity.com",
+                "matterport.com",
+                "skims.com",
+                "help.vimeo.com",
+                "newageproducts.com",
+                "www.timhortons.ca",
+                "www.truemeds.in",
+                "player.vimeo.com",
+                "www.ayahealthcare.com",
+                "www.vive.com",
+                "sportsbook.draftkings.com",
+                "www.draftkings.com"
+            ]
+        },
+        {
+            "rule": "singular\\.net\\/api\\/v1\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-v1"
+            ],
+            "apis": {},
+            "sites": 39,
+            "prevalence": 0.000266,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "singular_device_id": 0.00012980802076928332,
+                "IR_gbd": 0.00001366400218624035,
+                "_ga": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "vimeo.com",
+                "nike.com",
+                "www.timhortons.ca",
+                "www.vive.com",
+                "www.superpharm.pl",
+                "sportsbook.draftkings.com",
+                "modo.us",
+                "www.rockethomes.com",
+                "www.self.inc",
+                "www.nike.com",
+                "dasher.doordash.com",
+                "help.clickup.com",
+                "skims.com",
+                "vimeopro.com",
+                "home.personalcapital.com",
+                "www.monarchmoney.com",
+                "www.draftkings.com",
+                "podimo.com",
+                "public.com",
+                "clickup.com"
+            ]
+        },
+        {
+            "rule": "singular\\.net\\/api\\/banners",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-v1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000006832001093120175,
+                "lotame_domain_check": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "nike.com",
+                "www.boredpanda.com",
+                "www.nike.com"
+            ]
+        },
+        {
+            "rule": "singular\\.net\\/api\\/banners",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-v1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000006832001093120175,
+                "lotame_domain_check": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "nike.com",
+                "www.boredpanda.com",
+                "www.nike.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000164,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.37606837606837606
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3418803418803419
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.11965811965811966
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.03418803418803419
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.03418803418803419
+        },
+        {
+            "domain": "vimeocdn.com",
+            "prevalence": 0.02564102564102564
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.02564102564102564
+        },
+        {
+            "domain": "superpharm.eu",
+            "prevalence": 0.017094017094017096
+        },
+        {
+            "domain": "tatadigital.com",
+            "prevalence": 0.008547008547008548
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.008547008547008548
+        }
+    ],
+    "types": {
+        "Script": 67,
+        "XHR": 42,
+        "Preflight": 42
+    },
+    "nameservers": [
+        "ns-1422.awsdns-49.org",
+        "ns-1710.awsdns-21.co.uk",
+        "ns-26.awsdns-03.com",
+        "ns-887.awsdns-46.net"
+    ]
+}

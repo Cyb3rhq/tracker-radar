@@ -1,0 +1,118 @@
+{
+    "domain": "naiadsystems.com",
+    "owner": {
+        "name": "ICF Technology, Inc",
+        "displayName": "ICF"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000302,
+    "sites": 3,
+    "subdomains": [
+        "hybridclient",
+        "cdn.hybridclient"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "naiadsystems\\.com\\/purecam",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hybridclient"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "4cdb2f0442edce9d9caf83b5979a91a40c77af55f01abc4ca7496b4c35ac4a8f",
+                "60711525cf5b26c9442dd27e19694efbd77ecdfe3ad3243ba9c87064310a3395"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mym-db.com",
+                "www.cambro.io",
+                "www.cambro.video"
+            ]
+        },
+        {
+            "rule": "naiadsystems\\.com\\/dist\\/pure\\/pure\\.3\\.1\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "cdn.hybridclient"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 3,
+                "NavigatorUAData.prototype.getHighEntropyValues": 3,
+                "Navigator.prototype.storage": 3,
+                "NavigatorUAData.prototype.brands": 2,
+                "Navigator.prototype.connection": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.mediaDevices": 2,
+                "RTCPeerConnection.prototype.constructor": 2,
+                "MediaSource.isTypeSupported": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "f555ccf73a99a4a3317de67de7b5d0b959928cb1f6bf75e57ef39e2468b13ce1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mym-db.com",
+                "www.cambro.io",
+                "www.cambro.video"
+            ]
+        },
+        {
+            "rule": "naiadsystems\\.com\\/api\\/v1\\/performerstatus",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hybridclient"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "b63f76e7a4333c00091c4d25b746eab62664cbaa2f66d49db7950a17ad74f85a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mym-db.com",
+                "www.cambro.video"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "cemiocw.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 3,
+        "Script": 3,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns1.flyingcroc.net",
+        "ns2.flyingcroc.net"
+    ]
+}

@@ -1,0 +1,196 @@
+{
+    "domain": "planetnine.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [
+        "go",
+        "resources",
+        "config"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "planetnine\\.com\\/geo",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "go"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "e56ea1aa38fbe787ebf64752c904eab53fa136c04f336b2e99d206ac35da473a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "filmkrant.nl",
+                "topgear.nl",
+                "www.filmladder.nl",
+                "www.hancinema.net",
+                "www.podiuminfo.nl"
+            ]
+        },
+        {
+            "rule": "planetnine\\.com\\/regtag\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "go"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "5b528695bfdfee3853f2a54b82d6284baebe40968a2bcd1678c4f5d836502e2c",
+                "9f02ba98cf99b6aed62c4c7c9d62e3d3ca285b888f086ec8dd088b2063865135",
+                "d87ec3784cbaea3e8a791f54be0be430e25b1cb22fb4bf282455b0e3a82f0b08"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "filmkrant.nl",
+                "www.filmladder.nl",
+                "www.hancinema.net",
+                "www.podiuminfo.nl"
+            ]
+        },
+        {
+            "rule": "planetnine\\.com\\/player\\/latest\\/Pnvp\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "resources"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.product": 3,
+                "window.localStorage": 3,
+                "window.innerHeight": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "85a1d478516da40411a4a8aebcb275af1e168a05dcd4ebe8bbab1914567781ae"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "filmkrant.nl",
+                "www.filmladder.nl",
+                "www.hancinema.net"
+            ]
+        },
+        {
+            "rule": "planetnine\\.com\\/log\\/display",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "go"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "topgear.nl",
+                "www.podiuminfo.nl"
+            ]
+        },
+        {
+            "rule": "planetnine\\.com\\/scripts\\/hancinema\\.net\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "resources"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d9b2deb4a8b849e199dadd567545c305011e91855f0861e2586740c6bb2035f9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hancinema.net",
+                "www.hancinema.net"
+            ]
+        },
+        {
+            "rule": "planetnine\\.com\\/api\\/config\\/hancinema\\.net",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "config"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a73baaf83f113d69e5fca15c2b8a657e9729f91c45c3e95f7d89259c0363ed12"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hancinema.net",
+                "www.hancinema.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000683,
+    "topInitiators": [
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.7777777777777778
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.14814814814814814
+        },
+        {
+            "domain": "d1tbj6eaenapdy.cloudfront.net",
+            "prevalence": 0.07407407407407407
+        }
+    ],
+    "types": {
+        "Fetch": 11,
+        "Script": 5,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns01.hostnet.nl",
+        "ns02.hostnet.nl"
+    ]
+}

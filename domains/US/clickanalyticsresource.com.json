@@ -1,0 +1,117 @@
+{
+    "domain": "clickanalyticsresource.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "clickanalyticsresource\\.com\\/analytics\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "679a65c9e90581508b07cf8c50a7038456e95a5384ae6c0c8583616ba965f0aa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "clickanalyticsresource": {
+                    "ttl": 2592021,
+                    "length": 36,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "banggood.com",
+                "www.banggood.com",
+                "www.dhgate.com"
+            ]
+        },
+        {
+            "rule": "clickanalyticsresource\\.com\\/adretag",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "banggood.com",
+                "www.banggood.com",
+                "www.dhgate.com"
+            ]
+        },
+        {
+            "rule": "clickanalyticsresource\\.com\\/adretag",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "banggood.com",
+                "www.banggood.com",
+                "www.dhgate.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "trmit.com",
+            "prevalence": 0.5555555555555556
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.2222222222222222
+        },
+        {
+            "domain": "dhresource.com",
+            "prevalence": 0.2222222222222222
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 3,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "melinda.ns.cloudflare.com",
+        "jack.ns.cloudflare.com"
+    ]
+}

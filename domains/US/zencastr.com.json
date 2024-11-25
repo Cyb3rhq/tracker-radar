@@ -1,0 +1,78 @@
+{
+    "domain": "zencastr.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "media"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "zencastr\\.com\\/zpix\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 2,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.maxTouchPoints": 3,
+                "Date.prototype.getTimezoneOffset": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "61f676c4df763c06a3e13e963014d2609fef2063cec60a1fef229bb64753506f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__zpix_uid": {
+                    "ttl": 63072010,
+                    "length": 19,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blendjet.com",
+                "lairdsuperfood.com",
+                "www.neweracap.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000273,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.42857142857142855
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "ned.ns.cloudflare.com",
+        "ali.ns.cloudflare.com"
+    ]
+}

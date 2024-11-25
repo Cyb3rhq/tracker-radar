@@ -1,0 +1,211 @@
+{
+    "domain": "j.sni.global.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00231,
+    "sites": 23,
+    "subdomains": [
+        "dualstack"
+    ],
+    "cnames": [
+        {
+            "original": "api.fox.com",
+            "resolved": "j.sni.global.fastly.net"
+        },
+        {
+            "original": "api.hackster.io",
+            "resolved": "dualstack.j.sni.global.fastly.net"
+        },
+        {
+            "original": "sid.nordstrom.com",
+            "resolved": "j.sni.global.fastly.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "j\\.sni\\.global\\.fastly\\.net\\/fs\\/product\\/curated\\/v1\\/sporting\\/keystone\\/detail\\/by_filters",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.fox.com",
+                    "resolved": "j.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "4ac041c038bc2c75e17293cb22e4447b716a126de1217428b3c84b33fb009f56"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foxsports.com",
+                "www.foxsports.com"
+            ]
+        },
+        {
+            "rule": "j\\.sni\\.global\\.fastly\\.net\\/fs\\/product\\/curated\\/v1\\/sporting\\/keystone\\/detail\\/by_filters",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.fox.com",
+                    "resolved": "j.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foxsports.com",
+                "www.foxsports.com"
+            ]
+        },
+        {
+            "rule": "j\\.sni\\.global\\.fastly\\.net\\/graphql\\/query",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.hackster.io",
+                    "resolved": "dualstack.j.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hackster.io",
+                "www.hackster.io"
+            ]
+        },
+        {
+            "rule": "j\\.sni\\.global\\.fastly\\.net\\/graphql\\/query",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.hackster.io",
+                    "resolved": "dualstack.j.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "eec76fb949d4d6cb17504c3cabd08c594b23ee914613d7ff5a97793ceec1d716"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hackster.io",
+                "www.hackster.io"
+            ]
+        },
+        {
+            "rule": "j\\.sni\\.global\\.fastly\\.net\\/v1\\/log",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "sid.nordstrom.com",
+                    "resolved": "j.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "3c88e3c57f69e3a02a1c89ddad501cd370fae7012bf522ee4632d4852e7f5c4b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nordstromrack.com",
+                "www.nordstromrack.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0.000604,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9330143540669856
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.019138755980861243
+        },
+        {
+            "domain": "hackster-cdn.online",
+            "prevalence": 0.014354066985645933
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.009569377990430622
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.009569377990430622
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.004784688995215311
+        },
+        {
+            "domain": "webcontentassessor.global.ssl.fastly.net",
+            "prevalence": 0.004784688995215311
+        },
+        {
+            "domain": "hockeycanada.vercel.app",
+            "prevalence": 0.004784688995215311
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "Preflight": 4,
+        "XHR": 2
+    },
+    "nameservers": []
+}

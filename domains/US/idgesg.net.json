@@ -1,0 +1,182 @@
+{
+    "domain": "idgesg.net",
+    "owner": {
+        "name": "International Data Group, Inc.",
+        "displayName": "International Data Group"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000615,
+    "sites": 9,
+    "subdomains": [
+        "mau"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "idgesg\\.net\\/mtc\\.js",
+            "cookies": 0.0000547,
+            "fingerprinting": 2,
+            "subdomains": [
+                "mau"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 8,
+                "Date.prototype.getTimezoneOffset": 8,
+                "Screen.prototype.width": 8,
+                "Screen.prototype.height": 8,
+                "Navigator.prototype.appVersion": 8,
+                "Navigator.prototype.doNotTrack": 8,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 8,
+                "window.localStorage": 8,
+                "Document.cookie setter": 8
+            },
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "d4cd80375caaade4a7c0b34f24f201bfbf728bc07cc862a90aeb638a8834e8f6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mtc_id": {
+                    "ttl": null,
+                    "length": 8,
+                    "prevalence": 0.0000546560087449614,
+                    "uniqueness": 1
+                },
+                "mtc_sid": {
+                    "ttl": null,
+                    "length": 23,
+                    "prevalence": 0.0000546560087449614,
+                    "uniqueness": 1
+                },
+                "mautic_device_id": {
+                    "ttl": null,
+                    "length": 23,
+                    "prevalence": 0.0000546560087449614,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "csoonline.com",
+                "www.csoonline.com",
+                "www.m3.se",
+                "www.macwelt.de",
+                "www.macworld.se",
+                "www.pcforalla.se",
+                "www.pcwelt.de",
+                "www.techadvisor.com"
+            ]
+        },
+        {
+            "rule": "idgesg\\.net\\/mtc\\/event",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mau"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "96cc3733de62a6592bae9b288e6aaa1ba4fea9e1bef00fa87ac60bd6f3c9de10",
+                "5ecaaea48a40020a02ff7dcbf5479f701f766c82d3483f106344ca7eb9e15aab",
+                "def959d66010d123a79ffbe54fadfdd55f216ed59631b9bfa72fe9373274f84a",
+                "7bcd08f350e793b4ae61fee37f601a91bcf60f1d16bac53cb6ca0231b187c720",
+                "ae59b48cdc7ae8384d383581abb8af8618d7e29a8130e1433f9a9edd2a45d016",
+                "6eebaad9c847f5fd4a3a3ed3cd14072719610e9dcba333e364926c1e15ae4f99",
+                "78f879203c17727264e0939fab4df14c6ffb4ed84222cd736b1af1a405698f39"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "csoonline.com",
+                "www.csoonline.com",
+                "www.m3.se",
+                "www.macwelt.de",
+                "www.macworld.se",
+                "www.pcforalla.se",
+                "www.pcwelt.de",
+                "www.techadvisor.com"
+            ]
+        },
+        {
+            "rule": "idgesg\\.net\\/mtc\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mau"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "csoonline.com",
+                "www.csoonline.com",
+                "www.m3.se",
+                "www.macwelt.de",
+                "www.macworld.se",
+                "www.pcforalla.se",
+                "www.pcwelt.de",
+                "www.techadvisor.com"
+            ]
+        },
+        {
+            "rule": "idgesg\\.net\\/focus\\/38\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mau"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fc4e0c5a67cf3021201c5a6db8c149c06ec38c32333f73f9605fc9ed209a1d1b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "techadvisor.com",
+                "www.techadvisor.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000615,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "geoedge.be",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "XHR": 8,
+        "Preflight": 8
+    },
+    "nameservers": [
+        "ns-821.awsdns-38.net",
+        "ns-67.awsdns-08.com",
+        "ns-1555.awsdns-02.co.uk",
+        "ns-1222.awsdns-24.org"
+    ]
+}

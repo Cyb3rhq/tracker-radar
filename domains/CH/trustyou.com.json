@@ -1,0 +1,108 @@
+{
+    "domain": "trustyou.com",
+    "owner": {
+        "name": "Trustyou GmbH",
+        "displayName": "Trustyou"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "cdn",
+        "analytics"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "trustyou\\.com\\/v2\\/hotel\\/widget-ui\\/trustscore\\/trustscore\\.umd\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a673b1daa1a99ccbfdeac10136efa4ed9c5cbc1531db9b84c74597365f76b00c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adleradelboden.ch",
+                "www.pilatus.ch"
+            ]
+        },
+        {
+            "rule": "trustyou\\.com\\/v2\\/hotel\\/widget-ui\\/shared\\/assets\\/css\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9a501abf06929cc8f85ebedad9e388e6efce8cf5d7595c3b9fd2845c7b75a9af"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adleradelboden.ch",
+                "www.pilatus.ch"
+            ]
+        },
+        {
+            "rule": "trustyou\\.com\\/i18n\\/bundles\\/widget_seal\\/de",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "00d93843ebeb6152b837291a9a62613e78fea317a98b50efd788a6d2a2cd9199"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adleradelboden.ch",
+                "www.pilatus.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Stylesheet": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1437.awsdns-51.org",
+        "ns-1886.awsdns-43.co.uk",
+        "ns-71.awsdns-08.com",
+        "ns-931.awsdns-52.net"
+    ]
+}

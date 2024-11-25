@@ -1,0 +1,184 @@
+{
+    "domain": "billetten.no",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "halogalandteater",
+        "rogalandteater"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "billetten\\.no\\/basm\\/sbasm-script",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "halogalandteater",
+                "rogalandteater"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "Event.prototype.timeStamp": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "68ff68abdd130ee314ba9a95715b7e51d6e9b44ac479287d14a74472ff265b21"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "second_basm_shop_tokens": {
+                    "ttl": null,
+                    "length": 73,
+                    "prevalence": 0.00010043185698503566,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "halogalandteater.no",
+                "rogaland-teater.no"
+            ]
+        },
+        {
+            "rule": "billetten\\.no\\/basm\\/get-config",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halogalandteater",
+                "rogalandteater"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a6b3fe8dbf24ee097499e682c13ad2ea7682b2392070f8e5e022b58bbcc5bec3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "halogalandteater.no",
+                "rogaland-teater.no"
+            ]
+        },
+        {
+            "rule": "billetten\\.no\\/basm\\/get-basket",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halogalandteater",
+                "rogalandteater"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f1a7085ed17d6404d2014ef8d7a5794b1c9adfb7a02f71b9f8de1d02f30a2182"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "halogalandteater.no",
+                "rogaland-teater.no"
+            ]
+        },
+        {
+            "rule": "billetten\\.no\\/basm\\/get-profile\\/includeorders\\/1",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halogalandteater",
+                "rogalandteater"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "452a70a2b605d1b665b4847f18e6e670a367526de16dfb532a47ca1a129d8113"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "halogalandteater.no",
+                "rogaland-teater.no"
+            ]
+        },
+        {
+            "rule": "billetten\\.no\\/basm\\/get-session-state",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halogalandteater",
+                "rogalandteater"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "506a7d1ce0037d4766ce882584dbf94cd55296cd660c82db6c7b8079740cbeb2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "halogalandteater.no",
+                "rogaland-teater.no"
+            ]
+        },
+        {
+            "rule": "billetten\\.no\\/basm\\/get-basket-timeout",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halogalandteater",
+                "rogalandteater"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "63c0034f474b6cf515e4637fa04a6a97528a6b77ab39e1a4707db78bd6d52a2b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "halogalandteater.no",
+                "rogaland-teater.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 10
+    },
+    "nameservers": [
+        "jewel.ns.cloudflare.com",
+        "wells.ns.cloudflare.com"
+    ]
+}

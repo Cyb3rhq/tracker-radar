@@ -1,0 +1,147 @@
+{
+    "domain": "askmediagroup.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000615,
+    "sites": 9,
+    "subdomains": [
+        "parallax",
+        "dabu"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "askmediagroup\\.com\\/post",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "parallax"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "81b2bd4ea98c8db66554fbc8d7637a1a69a130f331feb732b75caab4c4868fd5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ask.com",
+                "www.ask.com",
+                "www.consumersearch.com",
+                "www.reference.com",
+                "www.simpli.com",
+                "www.smarter.com"
+            ]
+        },
+        {
+            "rule": "askmediagroup\\.com\\/s\\/v2\\.3\\.86\\/initiator\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dabu"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "17f9d464c10bcf367aa779dce3c7ac2db51bfc21f03de70205eeeb4851b368ff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ask.com",
+                "www.consumersearch.com",
+                "www.simpli.com",
+                "www.smarter.com"
+            ]
+        },
+        {
+            "rule": "askmediagroup\\.com\\/post",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "parallax"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ask.com",
+                "www.ask.com",
+                "www.consumersearch.com",
+                "www.reference.com",
+                "www.simpli.com",
+                "www.smarter.com"
+            ]
+        },
+        {
+            "rule": "askmediagroup\\.com\\/api\\/v2\\/ta\\/google",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dabu"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "0843493f3e9ef08298778a6210e687c42a6e6ef3b372d3c6ce21bab69449a533",
+                "05763a9bb778e9b3f01d8748c26356c72230ece1b3e73550dcba13e6f2200dfa",
+                "b25324739ef8df7875d86af6470b4b1bb38e169700001721267aa06a6994bda1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ask.com",
+                "www.consumersearch.com",
+                "www.simpli.com",
+                "www.smarter.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7647058823529411
+        },
+        {
+            "domain": "script.ac",
+            "prevalence": 0.23529411764705882
+        }
+    ],
+    "types": {
+        "XHR": 6,
+        "Script": 4,
+        "Preflight": 6,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "dns1.p08.nsone.net",
+        "dns2.p08.nsone.net",
+        "dns3.p08.nsone.net",
+        "dns4.p08.nsone.net"
+    ]
+}

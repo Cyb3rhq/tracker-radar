@@ -1,0 +1,307 @@
+{
+    "domain": "mayoclinic.org",
+    "owner": {
+        "name": "Mayo Foundation for Medical Education and Research",
+        "displayName": "Mayo Foundation for Medical Education and Research"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "webmetrics",
+        "tagdelivery"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mayoclinic\\.org\\/mc\\/main\\/2\\/i\\.gif",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webmetrics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayoclinic.com",
+                "www.mayocliniclabs.com"
+            ]
+        },
+        {
+            "rule": "mayoclinic\\.org\\/mclabs\\/prod\\/utag\\.sync\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagdelivery"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b004ed197e2d83b815994eb653560f2c4ebc70270863f2f828c98843a61731af"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayocliniclabs.com",
+                "www.mayocliniclabs.com"
+            ]
+        },
+        {
+            "rule": "mayoclinic\\.org\\/mclabs\\/prod\\/utag\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tagdelivery"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 1,
+                "window.sessionStorage": 1,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1,
+                "Navigator.prototype.plugins": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.appVersion": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.colorDepth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "256ef13a755d25c5f0ceeba70fdea321074ab5006961efff667a5b423f7dea3c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "utag_main__sn": {
+                    "ttl": 31536003,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "utag_main_ses_id": {
+                    "ttl": 1803,
+                    "length": 27,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "utag_main__pn": {
+                    "ttl": 1803,
+                    "length": 15,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "utag_main_v_id": {
+                    "ttl": 31536003,
+                    "length": 45,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "utag_main_dc_visit": {
+                    "ttl": 31536003,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "utag_main__se": {
+                    "ttl": 1803,
+                    "length": 15,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "utag_main__ss": {
+                    "ttl": 1803,
+                    "length": 15,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "utag_main__st": {
+                    "ttl": 1803,
+                    "length": 27,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "utag_main_dc_event": {
+                    "ttl": 1803,
+                    "length": 15,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "utag_main_dc_region": {
+                    "ttl": 1803,
+                    "length": 23,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayocliniclabs.com",
+                "www.mayocliniclabs.com"
+            ]
+        },
+        {
+            "rule": "mayoclinic\\.org\\/mclabs\\/prod\\/utag\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tagdelivery"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.localStorage": 2,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.width": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1ec4c743569f1db0b9bd0b0bb21cd41c218fd8fd587b582e4c74068b85835d25"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayocliniclabs.com",
+                "www.mayocliniclabs.com"
+            ]
+        },
+        {
+            "rule": "mayoclinic\\.org\\/mclabs\\/prod\\/utag\\.12\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagdelivery"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4d97c938206b289d753c5c99e5bc1078da2689482d7fc88a7065aee85aa5e575"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayocliniclabs.com",
+                "www.mayocliniclabs.com"
+            ]
+        },
+        {
+            "rule": "mayoclinic\\.org\\/mclabs\\/prod\\/utag\\.13\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagdelivery"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1e545cb1b12dc49f15c01936e2189f72d95ae8046358df6a35cf505bbcb09cc1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayocliniclabs.com",
+                "www.mayocliniclabs.com"
+            ]
+        },
+        {
+            "rule": "mayoclinic\\.org\\/mclabs\\/prod\\/utag\\.21\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagdelivery"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e083ef68b8efd64ee6b96ef7849637d37a88e402f0e66c657657256fcfe1cd41"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayocliniclabs.com",
+                "www.mayocliniclabs.com"
+            ]
+        },
+        {
+            "rule": "mayoclinic\\.org\\/mclabs\\/prod\\/utag\\.23\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagdelivery"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f6443c881622b109dc0ccf9e7db2066d7dace88a275501ffcaa88681b272f84d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayocliniclabs.com",
+                "www.mayocliniclabs.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.7272727272727273
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2727272727272727
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Script": 14
+    },
+    "nameservers": [
+        "a18-66.akam.net",
+        "dns2.mayo.edu",
+        "a1-70.akam.net",
+        "dns1.mayo.edu",
+        "a13-66.akam.net",
+        "a3-66.akam.net",
+        "a10-66.akam.net",
+        "a14-64.akam.net"
+    ]
+}

@@ -1,0 +1,170 @@
+{
+    "domain": "rdtk.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [
+        "hnbow",
+        "vpfsf",
+        "wvvml",
+        "cevkn"
+    ],
+    "cnames": [
+        {
+            "original": "rdt.mackeeper.com",
+            "resolved": "vpfsf.rdtk.io"
+        },
+        {
+            "original": "redtrack.vidaselect.com",
+            "resolved": "cevkn.rdtk.io"
+        },
+        {
+            "original": "track.hukitchen.com",
+            "resolved": "hnbow.rdtk.io"
+        },
+        {
+            "original": "track.pimpbangkok.com",
+            "resolved": "wvvml.rdtk.io"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "rdtk\\.io\\/uniclick\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "hnbow",
+                "vpfsf",
+                "wvvml",
+                "cevkn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [
+                {
+                    "original": "track.hukitchen.com",
+                    "resolved": "hnbow.rdtk.io"
+                },
+                {
+                    "original": "rdt.mackeeper.com",
+                    "resolved": "vpfsf.rdtk.io"
+                },
+                {
+                    "original": "track.pimpbangkok.com",
+                    "resolved": "wvvml.rdtk.io"
+                },
+                {
+                    "original": "redtrack.vidaselect.com",
+                    "resolved": "cevkn.rdtk.io"
+                }
+            ],
+            "responseHashes": [
+                "3d89d247f1f79633d5abf8b8a6498b79eaa29a562b2972eed34ce59bf593697e",
+                "ecd6072b6e9716e3eaa68fe45f61e3bdee7bc2a7340f9cc4bd2f79a9c2783890",
+                "390d9abe7da469ccdc98cefa94c759f6e053cb1ff3eb0805f8690dfa3fd492b4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hukitchen.com",
+                "mackeeper.com",
+                "www.pimpbangkok.com",
+                "www.vidaselect.com"
+            ]
+        },
+        {
+            "rule": "rdtk\\.io\\/view",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vpfsf",
+                "wvvml",
+                "cevkn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "rdt.mackeeper.com",
+                    "resolved": "vpfsf.rdtk.io"
+                },
+                {
+                    "original": "track.pimpbangkok.com",
+                    "resolved": "wvvml.rdtk.io"
+                },
+                {
+                    "original": "redtrack.vidaselect.com",
+                    "resolved": "cevkn.rdtk.io"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mackeeper.com",
+                "www.pimpbangkok.com",
+                "www.vidaselect.com"
+            ]
+        },
+        {
+            "rule": "rdtk\\.io\\/66143e8b84f93b0001c225ac",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cevkn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "redtrack.vidaselect.com",
+                    "resolved": "cevkn.rdtk.io"
+                }
+            ],
+            "responseHashes": [
+                "233e35ef6a7f50e46d499ebe5f66b4cf736a184c3de23a35d72c82da1700647c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vidaselect.com",
+                "www.vidaselect.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 5
+    },
+    "nameservers": [
+        "ns-1870.awsdns-41.co.uk",
+        "ns-239.awsdns-29.com",
+        "ns-732.awsdns-27.net",
+        "ns-1452.awsdns-53.org"
+    ]
+}

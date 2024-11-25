@@ -1,0 +1,64 @@
+{
+    "domain": "lb-cms-application-1313595828.eu-west-2.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "booking.citylink.co.uk",
+            "resolved": "lb-cms-application-1313595828.eu-west-2.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "lb-cms-application-1313595828\\.eu-west-2\\.elb\\.amazonaws\\.com\\/api\\/Search\\/stops",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "booking.citylink.co.uk",
+                    "resolved": "lb-cms-application-1313595828.eu-west-2.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "8fde843ea58e584bb6d18e59c20e14db25d4b6d7ace4c0bab19099c941173e91"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "citylink.co.uk",
+                "www.citylink.co.uk"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2
+    },
+    "nameservers": []
+}

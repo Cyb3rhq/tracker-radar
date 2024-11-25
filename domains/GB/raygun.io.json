@@ -1,0 +1,212 @@
+{
+    "domain": "raygun.io",
+    "owner": {
+        "name": "Mindscape Limited",
+        "displayName": "Mindscape"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000804,
+    "sites": 8,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "raygun\\.io\\/raygun4js\\/raygun\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "NavigatorUAData.prototype.getHighEntropyValues": 8,
+                "Date.prototype.getTime": 8,
+                "window.localStorage": 8,
+                "Document.cookie getter": 5,
+                "window.sessionStorage": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.colorDepth": 1,
+                "Navigator.prototype.appCodeName": 1,
+                "Navigator.prototype.appName": 1,
+                "Navigator.prototype.appVersion": 1,
+                "Navigator.prototype.platform": 1
+            },
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [
+                "ed642c6b25aa07aac326cf44d71e974c830e68a7b67c0546859f5294f17e93aa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "farrow-ball.com",
+                "www.giant-bicycles.com",
+                "www.mrporter.com",
+                "www.sohohouse.com",
+                "www.spabreaks.com",
+                "www.theoutnet.com",
+                "www.virginatlantic.com",
+                "www.virginholidays.co.uk"
+            ]
+        },
+        {
+            "rule": "raygun\\.io\\/ping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "df9da4e2149dae9b4c709d4f1c778eedd8b72a3767efd142297936307ad3cd73"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "farrow-ball.com",
+                "www.spabreaks.com"
+            ]
+        },
+        {
+            "rule": "raygun\\.io\\/ping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "farrow-ball.com",
+                "www.giant-bicycles.com",
+                "www.mrporter.com",
+                "www.sohohouse.com",
+                "www.spabreaks.com",
+                "www.theoutnet.com",
+                "www.virginatlantic.com",
+                "www.virginholidays.co.uk"
+            ]
+        },
+        {
+            "rule": "raygun\\.io\\/ping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "giant-bicycles.com",
+                "www.mrporter.com",
+                "www.sohohouse.com",
+                "www.theoutnet.com",
+                "www.virginatlantic.com",
+                "www.virginholidays.co.uk"
+            ]
+        },
+        {
+            "rule": "raygun\\.io\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mrporter.com",
+                "www.mrporter.com",
+                "www.theoutnet.com",
+                "www.virginatlantic.com"
+            ]
+        },
+        {
+            "rule": "raygun\\.io\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mrporter.com",
+                "www.theoutnet.com",
+                "www.virginatlantic.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.84
+        },
+        {
+            "domain": "niceincontact.com",
+            "prevalence": 0.16
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "XHR": 5,
+        "Preflight": 8,
+        "Fetch": 6,
+        "Ping": 4
+    },
+    "nameservers": [
+        "ns-619.awsdns-13.net",
+        "ns-1953.awsdns-52.co.uk",
+        "ns-240.awsdns-30.com",
+        "ns-1358.awsdns-41.org"
+    ]
+}

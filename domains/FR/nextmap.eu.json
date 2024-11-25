@@ -1,0 +1,93 @@
+{
+    "domain": "nextmap.eu",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000202,
+    "sites": 2,
+    "subdomains": [
+        "sso.ffr"
+    ],
+    "cnames": [
+        {
+            "original": "connexion.ffr.fr",
+            "resolved": "sso.ffr.nextmap.eu"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "nextmap\\.eu\\/auth\\/realms\\/FFR\\/protocol\\/openid-connect\\/3p-cookies\\/step1\\.html",
+            "cookies": 0.000101,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sso.ffr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [
+                {
+                    "original": "connexion.ffr.fr",
+                    "resolved": "sso.ffr.nextmap.eu"
+                }
+            ],
+            "responseHashes": [
+                "17ad90bed3afd556e1685a5e3bd6cbc087e519614b78ac2eaf2edb426544132b"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ffr.fr",
+                "www.ffr.fr"
+            ]
+        },
+        {
+            "rule": "nextmap\\.eu\\/auth\\/realms\\/FFR\\/protocol\\/openid-connect\\/3p-cookies\\/step2\\.html",
+            "cookies": 0.000202,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sso.ffr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [
+                {
+                    "original": "connexion.ffr.fr",
+                    "resolved": "sso.ffr.nextmap.eu"
+                }
+            ],
+            "responseHashes": [
+                "27abff3edf4192d73c66f42fe9a773358b54c46a38afaa5f1cfe1753f68415eb"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ffr.fr",
+                "www.ffr.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000202,
+    "topInitiators": [
+        {
+            "domain": "privacy-center.org",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 4
+    },
+    "nameservers": [
+        "ns-254.awsdns-31.com",
+        "ns-879.awsdns-45.net",
+        "ns-1422.awsdns-49.org",
+        "ns-1970.awsdns-54.co.uk"
+    ]
+}

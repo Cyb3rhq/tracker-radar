@@ -1,0 +1,118 @@
+{
+    "domain": "auth0.com",
+    "owner": {
+        "name": "Auth0, Inc.",
+        "displayName": "Auth0"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [
+        "cdn",
+        "fs24-prod-cd-al9x7xt8mi4bfn23.edge.tenants.eu",
+        "smg-re-hg-prod-cd-3vgtjlmddg0chobv.edge.tenants.eu",
+        "smg-re-is24-prod-cd-rxz2zytmegdd5syg.edge.tenants.eu"
+    ],
+    "cnames": [
+        {
+            "original": "auth.homegate.ch",
+            "resolved": "smg-re-hg-prod-cd-3vgtjlmddg0chobv.edge.tenants.eu.auth0.com"
+        },
+        {
+            "original": "auth.immoscout24.ch",
+            "resolved": "smg-re-is24-prod-cd-rxz2zytmegdd5syg.edge.tenants.eu.auth0.com"
+        },
+        {
+            "original": "login.financescout24.ch",
+            "resolved": "fs24-prod-cd-al9x7xt8mi4bfn23.edge.tenants.eu.auth0.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "auth0\\.com\\/js\\/auth0-spa-js\\/1\\.20\\/auth0-spa-js\\.production\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ebf5fe084506fa53aecb68bc4d315b1e1b149b56a0465d7bc7e584ca9711c6dc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bunte.de",
+                "www.focus.de"
+            ]
+        },
+        {
+            "rule": "auth0\\.com\\/authorize",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fs24-prod-cd-al9x7xt8mi4bfn23.edge.tenants.eu",
+                "smg-re-hg-prod-cd-3vgtjlmddg0chobv.edge.tenants.eu",
+                "smg-re-is24-prod-cd-rxz2zytmegdd5syg.edge.tenants.eu"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "login.financescout24.ch",
+                    "resolved": "fs24-prod-cd-al9x7xt8mi4bfn23.edge.tenants.eu.auth0.com"
+                },
+                {
+                    "original": "auth.homegate.ch",
+                    "resolved": "smg-re-hg-prod-cd-3vgtjlmddg0chobv.edge.tenants.eu.auth0.com"
+                },
+                {
+                    "original": "auth.immoscout24.ch",
+                    "resolved": "smg-re-is24-prod-cd-rxz2zytmegdd5syg.edge.tenants.eu.auth0.com"
+                }
+            ],
+            "responseHashes": [
+                "dfec26b90fe7d5baf30a2f7bdee324de635ecc461455f234904969a591309731",
+                "13b26a14809d2cdb5500f01273fc5a88f6458b30fa4c7a8da877af9d79821d4a"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "financescout24.ch",
+                "www.homegate.ch",
+                "www.immoscout24.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 3
+    },
+    "nameservers": [
+        "kolton.ns.cloudflare.com",
+        "monroe.ns.cloudflare.com"
+    ]
+}

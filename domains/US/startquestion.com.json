@@ -1,0 +1,196 @@
+{
+    "domain": "startquestion.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000547,
+    "sites": 8,
+    "subdomains": [
+        "files",
+        "app",
+        "library"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "startquestion\\.com\\/dist\\/widget\\/embeddable\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "files"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.innerHeight": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "60c8d6a0004905c985a0059459e390a21ed73850fe2e8a75bd9ed06e54e62729"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "startquestion-session": {
+                    "ttl": 15552015,
+                    "length": 116,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "8a.pl",
+                "enel.pl"
+            ]
+        },
+        {
+            "rule": "startquestion\\.com\\/widget-filling\\/instance-configuration",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "bd28e42bb4d261479dd18704c8e5e29ef3cdad6727bf9a465c958781c135d08c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "8a.pl",
+                "enel.pl",
+                "serwisy.gazetaprawna.pl",
+                "www.arukereso.hu",
+                "www.compari.ro",
+                "www.gazetaprawna.pl",
+                "www.meczyki.pl",
+                "www.taniaksiazka.pl"
+            ]
+        },
+        {
+            "rule": "startquestion\\.com\\/current\\/startquestion\\.js",
+            "cookies": 0.000041,
+            "fingerprinting": 1,
+            "subdomains": [
+                "library"
+            ],
+            "apis": {
+                "window.localStorage": 6,
+                "window.innerHeight": 6,
+                "Document.cookie getter": 6,
+                "Document.cookie setter": 6,
+                "Date.prototype.getTime": 6,
+                "Navigator.prototype.userAgent": 6,
+                "window.innerWidth": 6,
+                "Navigator.prototype.language": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "60c8d6a0004905c985a0059459e390a21ed73850fe2e8a75bd9ed06e54e62729"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "startquestion-session": {
+                    "ttl": 15552017,
+                    "length": 116,
+                    "prevalence": 0.00004099200655872105,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gazetaprawna.pl",
+                "www.arukereso.hu",
+                "www.compari.ro",
+                "www.gazetaprawna.pl",
+                "www.meczyki.pl",
+                "www.taniaksiazka.pl"
+            ]
+        },
+        {
+            "rule": "startquestion\\.com\\/widget-filling\\/configuration\\/ef6cb9c1-40ec-11ec-8d09-00505685cca8",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6bf0768f339305bc7047c0633f974be8474760e50ae19eb9a47f602057614a72"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gazetaprawna.pl",
+                "www.gazetaprawna.pl"
+            ]
+        },
+        {
+            "rule": "startquestion\\.com\\/widget-filling\\/configuration\\/f132f3da-40ec-11ec-8d09-00505685cca8",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d41f3a5ccc0da0f5c74a806c0927579dfb0470ecc8065e6b92c0b9507cc87361"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arukereso.hu",
+                "www.compari.ro"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000547,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "ocdn.eu",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Fetch": 8,
+        "XHR": 4
+    },
+    "nameservers": [
+        "sara.ns.cloudflare.com",
+        "amit.ns.cloudflare.com"
+    ]
+}

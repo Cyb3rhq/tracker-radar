@@ -1,0 +1,132 @@
+{
+    "domain": "auth0.com",
+    "owner": {
+        "name": "Auth0, Inc.",
+        "displayName": "Auth0"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [
+        "cdn",
+        "finder-us-prod-cd-ewaqufuvygc5rgwq.edge.tenants",
+        "gb-visionexpress-production-cd-kzxbrkbacflvzqzk.edge.tenants.eu"
+    ],
+    "cnames": [
+        {
+            "original": "auth.visionexpress.com",
+            "resolved": "gb-visionexpress-production-cd-kzxbrkbacflvzqzk.edge.tenants.eu.auth0.com"
+        },
+        {
+            "original": "login.finder.com",
+            "resolved": "finder-us-prod-cd-ewaqufuvygc5rgwq.edge.tenants.auth0.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "auth0\\.com\\/js\\/polyfills\\/1\\.0\\/object-assign\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2e3281ce824bc83f86243254926e320d7a51fd34e310d76f38ddf5ca4430bcd8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "three.co.uk",
+                "secure.vanguardinvestor.co.uk"
+            ]
+        },
+        {
+            "rule": "auth0\\.com\\/js\\/auth0\\/9\\.10\\.4\\/auth0\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c0d6b64bfbad44b071a08b23499a4490148c6c5821db36d77a257c96bfd4d90f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carsguide.com.au",
+                "www.carsguide.com.au"
+            ]
+        },
+        {
+            "rule": "auth0\\.com\\/authorize",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "finder-us-prod-cd-ewaqufuvygc5rgwq.edge.tenants",
+                "gb-visionexpress-production-cd-kzxbrkbacflvzqzk.edge.tenants.eu"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "login.finder.com",
+                    "resolved": "finder-us-prod-cd-ewaqufuvygc5rgwq.edge.tenants.auth0.com"
+                },
+                {
+                    "original": "auth.visionexpress.com",
+                    "resolved": "gb-visionexpress-production-cd-kzxbrkbacflvzqzk.edge.tenants.eu.auth0.com"
+                }
+            ],
+            "responseHashes": [
+                "32554790293e341bc7a287a5518df1c415ec9ba234530c102dbd15db57878a6b"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "finder.com",
+                "www.finder.com",
+                "www.visionexpress.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9
+        },
+        {
+            "domain": "grandvision.io",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Document": 3
+    },
+    "nameservers": [
+        "kolton.ns.cloudflare.com",
+        "monroe.ns.cloudflare.com"
+    ]
+}

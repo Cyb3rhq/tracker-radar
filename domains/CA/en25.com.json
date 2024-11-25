@@ -1,0 +1,146 @@
+{
+    "domain": "en25.com",
+    "owner": {
+        "name": "Oracle Corporation",
+        "displayName": "Oracle",
+        "privacyPolicy": "https://www.oracle.com/legal/privacy/privacy-policy.html",
+        "url": "http://oracle.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00413,
+    "sites": 41,
+    "subdomains": [
+        "s3805888.sc",
+        "img",
+        "img03",
+        "img04"
+    ],
+    "cnames": [
+        {
+            "original": "images.sw.broadcom.com",
+            "resolved": "s3805888.sc.en25.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "en25\\.com\\/Web\\/CAInc2\\/%7B58429d82-f905-426a-9ac4-f3449d253fe0%7D_blocked-emails\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3805888.sc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "images.sw.broadcom.com",
+                    "resolved": "s3805888.sc.en25.com"
+                }
+            ],
+            "responseHashes": [
+                "6219d74dbb3ff418c030ea5ad950e0aa678a8eac5ad02e86518b4030efa5ca83"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "broadcom.com",
+                "knowledge.broadcom.com"
+            ]
+        },
+        {
+            "rule": "en25\\.com\\/i\\/elqCfg\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "img",
+                "img03",
+                "img04"
+            ],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 39,
+                "Document.cookie getter": 25
+            },
+            "sites": 39,
+            "prevalence": 0.00392,
+            "cnames": [],
+            "responseHashes": [
+                "3346de8e2ae1bfde250c7ac5c06f79a0a60c7faef8e5e08a2c9e8fbf5ec2c9e8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cisco.com",
+                "www.telerik.com",
+                "www.senecapolytechnic.ca",
+                "www.onshape.com",
+                "www.istockphoto.com",
+                "www.ti.com",
+                "www.emerson.com",
+                "newsnetwork.mayoclinic.org",
+                "mcpress.mayoclinic.org",
+                "www.ridgid.com",
+                "www.bdc.ca",
+                "opensource.com",
+                "www.gettyimages.ca",
+                "www.flightstats.com",
+                "kubota.ca",
+                "www.gettyimages.com.au",
+                "www.te.com",
+                "www.morningstar.com",
+                "www.redhat.com",
+                "www.build.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.4090909090909091
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2727272727272727
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.1590909090909091
+        },
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.045454545454545456
+        },
+        {
+            "domain": "redhat.com",
+            "prevalence": 0.045454545454545456
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.045454545454545456
+        },
+        {
+            "domain": "appdynamics.com",
+            "prevalence": 0.022727272727272728
+        }
+    ],
+    "types": {
+        "Script": 41
+    },
+    "nameservers": [
+        "ns1.p201.dns.oraclecloud.net",
+        "ns2.p201.dns.oraclecloud.net",
+        "ns3.p201.dns.oraclecloud.net",
+        "ns4.p201.dns.oraclecloud.net"
+    ]
+}

@@ -1,0 +1,182 @@
+{
+    "domain": "aimtell.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "cdn",
+        "signals",
+        "beacon"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "aimtell\\.com\\/trackpush\\/trackpush\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "Document.cookie getter": 2,
+                "Notification.permission": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8748c254ec2d6e4dfb917cf999a09683b63519ba1270379a4cfc715420ec1643"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_aimtellSubscriberID": {
+                    "ttl": 31536010,
+                    "length": 36,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whitefoxboutique.co.uk",
+                "www.fleetnews.co.uk"
+            ]
+        },
+        {
+            "rule": "aimtell\\.com\\/pageview",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "signals"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "e963e7196beb9123059ec3534b042ebcd1ef0a470fa568bfbebfeab2f33c4fda"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whitefoxboutique.co.uk",
+                "www.fleetnews.co.uk",
+                "www.gramophone.co.uk",
+                "www.onbuy.com",
+                "www.reference.com"
+            ]
+        },
+        {
+            "rule": "aimtell\\.com\\/sdk\\/aimtell-worker-sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "7d3d28080108de33bf07340c365765f1a463f284fc23cb9b43be9b6f4b019bbf"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whitefoxboutique.co.uk",
+                "www.fleetnews.co.uk",
+                "www.gramophone.co.uk",
+                "www.reference.com"
+            ]
+        },
+        {
+            "rule": "aimtell\\.com\\/suppression",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beacon"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fleetnews.co.uk",
+                "www.gramophone.co.uk"
+            ]
+        },
+        {
+            "rule": "aimtell\\.com\\/suppression",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beacon"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fleetnews.co.uk",
+                "www.gramophone.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6153846153846154
+        },
+        {
+            "domain": "azure.com",
+            "prevalence": 0.15384615384615385
+        },
+        {
+            "domain": "msecnd.net",
+            "prevalence": 0.15384615384615385
+        },
+        {
+            "domain": "script.ac",
+            "prevalence": 0.07692307692307693
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 7,
+        "Other": 4,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-1356.awsdns-41.org",
+        "ns-1687.awsdns-18.co.uk",
+        "ns-52.awsdns-06.com",
+        "ns-914.awsdns-50.net"
+    ]
+}

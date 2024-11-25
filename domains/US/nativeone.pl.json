@@ -1,0 +1,102 @@
+{
+    "domain": "nativeone.pl",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "n1"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "nativeone\\.pl\\/widget\\/widget\\.recommendation\\.1\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "n1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2a2e46256e0dc378ad8b36558b565302910b1b01bf92669854f9c5a0de45209c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__no_l": {
+                    "ttl": 8,
+                    "length": 58,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "__no_ws": {
+                    "ttl": null,
+                    "length": 52,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rmf24.pl",
+                "www.tvp.info"
+            ]
+        },
+        {
+            "rule": "nativeone\\.pl\\/widget\\/core\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "n1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4bd8809d770a2e8d3f2c47c52493a5f9f7eddeb0babd1644d195742a5a07890c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rmf24.pl",
+                "www.tvp.info"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "nextclick.pl",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "arch.ns.cloudflare.com",
+        "leah.ns.cloudflare.com"
+    ]
+}

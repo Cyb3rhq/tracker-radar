@@ -1,0 +1,335 @@
+{
+    "domain": "sendbird.com",
+    "owner": {
+        "name": "SendBird, Inc.",
+        "displayName": "SendBird"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "aichatbot",
+        "ws-113dd094-0f69-44f6-bd2a-bd9dcdb1f48a",
+        "ws-5c489ae0-5704-4fe4-b603-dc6d6a8a3e02",
+        "api-cf-us-3",
+        "static.dashboard",
+        "file-us-3"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sendbird\\.com\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aichatbot"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3bd85ad706ade952ddf26b43409d4646e92f48bbf570e19732a3ce4504214672"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hlrbo.com",
+                "www.traillifeusa.com"
+            ]
+        },
+        {
+            "rule": "sendbird\\.com\\/v1\\.8\\.6\\/output\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "aichatbot"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.onLine": 2,
+                "Date.prototype.getTime": 2,
+                "window.indexedDB": 2,
+                "Navigator.prototype.product": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0596ad96008de7df0a34fbf0b3fb0be8e03b83798fc407412e961e6f10ade208"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hlrbo.com",
+                "www.traillifeusa.com"
+            ]
+        },
+        {
+            "rule": "sendbird\\.com\\/v1\\.8\\.6\\/j9M5zNi3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aichatbot"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f83a60115c0672b4d7ac903f91836df3e6ab1e6f6c824c740ef0a583009123aa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hlrbo.com",
+                "www.traillifeusa.com"
+            ]
+        },
+        {
+            "rule": "sendbird\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws-113dd094-0f69-44f6-bd2a-bd9dcdb1f48a",
+                "ws-5c489ae0-5704-4fe4-b603-dc6d6a8a3e02"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hlrbo.com",
+                "www.traillifeusa.com"
+            ]
+        },
+        {
+            "rule": "sendbird\\.com\\/v3\\/group_channels\\/sendbird_group_channel_278507056_8e181d7c2686578758c27ba24d3baa99a366f7ab\\/messages",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cf-us-3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hlrbo.com",
+                "www.hlrbo.com"
+            ]
+        },
+        {
+            "rule": "sendbird\\.com\\/v3\\/group_channels\\/sendbird_group_channel_278507056_8e181d7c2686578758c27ba24d3baa99a366f7ab\\/messages",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cf-us-3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5e4ce7b36ba37b78a5d5f9fd08e6b7b54ba6879d651aa46ec9e1d6fa24ebe30a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hlrbo.com",
+                "www.hlrbo.com"
+            ]
+        },
+        {
+            "rule": "sendbird\\.com\\/v3\\/bots\\/DsPR9bFYtALrM3X373xmP\\/5C489AE0-5704-4FE4-B603-DC6D6A8A3E02\\/widget_setting",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cf-us-3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "99add9fb9ab9514486acc58be839a8a772f3b702b74f13d7b57ea54891e05765"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "traillifeusa.com",
+                "www.traillifeusa.com"
+            ]
+        },
+        {
+            "rule": "sendbird\\.com\\/assets\\/app\\/aibots\\/icon-question-mark-filled\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.dashboard"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "25cbb4036b57d04990b1c4b4b3153c907efc431545ed63f3bdafd2286e20178d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "traillifeusa.com",
+                "www.traillifeusa.com"
+            ]
+        },
+        {
+            "rule": "sendbird\\.com\\/0866bd8bc5bb4d1c84765ca7c41fd505\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "file-us-3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "traillifeusa.com",
+                "www.traillifeusa.com"
+            ]
+        },
+        {
+            "rule": "sendbird\\.com\\/v3\\/group_channels\\/sendbird_group_channel_290240534_8cf940f571f90b1c4dcb2834a6d43d65a5fdbcce\\/messages",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cf-us-3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "traillifeusa.com",
+                "www.traillifeusa.com"
+            ]
+        },
+        {
+            "rule": "sendbird\\.com\\/v3\\/group_channels\\/sendbird_group_channel_290240534_8cf940f571f90b1c4dcb2834a6d43d65a5fdbcce\\/messages",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cf-us-3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5e4ce7b36ba37b78a5d5f9fd08e6b7b54ba6879d651aa46ec9e1d6fa24ebe30a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "traillifeusa.com",
+                "www.traillifeusa.com"
+            ]
+        },
+        {
+            "rule": "sendbird\\.com\\/v3\\/group_channels\\/sendbird_group_channel_290123899_71b4e1c52d49a4660a945c91f08cd2a90bb05219\\/messages",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cf-us-3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5e4ce7b36ba37b78a5d5f9fd08e6b7b54ba6879d651aa46ec9e1d6fa24ebe30a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "traillifeusa.com",
+                "www.traillifeusa.com"
+            ]
+        },
+        {
+            "rule": "sendbird\\.com\\/v3\\/group_channels\\/sendbird_group_channel_290123899_71b4e1c52d49a4660a945c91f08cd2a90bb05219\\/messages",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cf-us-3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "traillifeusa.com",
+                "www.traillifeusa.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "segment.com",
+            "prevalence": 0.8125
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.1875
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "WebSocket": 2,
+        "Preflight": 6,
+        "Fetch": 8,
+        "Image": 4
+    },
+    "nameservers": [
+        "ns-1064.awsdns-05.org",
+        "ns-139.awsdns-17.com",
+        "ns-1692.awsdns-19.co.uk",
+        "ns-568.awsdns-07.net"
+    ]
+}

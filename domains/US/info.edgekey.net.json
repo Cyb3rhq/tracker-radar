@@ -1,0 +1,119 @@
+{
+    "domain": "info.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "new.mta",
+        "consist.mta"
+    ],
+    "cnames": [
+        {
+            "original": "consist.mta.info",
+            "resolved": "consist.mta.info.edgekey.net"
+        },
+        {
+            "original": "new.mta.info",
+            "resolved": "new.mta.info.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "info\\.edgekey\\.net\\/rest\\/emergency",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "new.mta"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "new.mta.info",
+                    "resolved": "new.mta.info.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mta.info",
+                "map.mta.info"
+            ]
+        },
+        {
+            "rule": "info\\.edgekey\\.net\\/search-icon\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consist.mta"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "consist.mta.info",
+                    "resolved": "consist.mta.info.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "484110fb2b46b0a2254ca8e93486192dd9f4a324387a981e7cf871766f708729"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mta.info",
+                "new.mta.info"
+            ]
+        },
+        {
+            "rule": "info\\.edgekey\\.net\\/search-icon\\/assets\\/index\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consist.mta"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "consist.mta.info",
+                    "resolved": "consist.mta.info.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "3f4ab8ed7e33dc16df3c31e273542ee0e6d7b269171e72f41d1d47d70b86aa2e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mta.info",
+                "new.mta.info"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Fetch": 2,
+        "Script": 2,
+        "Stylesheet": 2
+    },
+    "nameservers": []
+}

@@ -1,0 +1,88 @@
+{
+    "domain": "engagebud.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "widget",
+        "dev"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "engagebud\\.co\\/js\\/v1\\/bundle\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b403a482711f557a0eadc0ec4dfba8c5982af6c9e7eb632bd1fde1c9dd2340ba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shokz.com",
+                "www.boat-lifestyle.com"
+            ]
+        },
+        {
+            "rule": "engagebud\\.co\\/ib\\/api\\/widget\\/v1\\/details",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dev"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8360416854a76f4c2959dadb2c68eb30c972c9827300cd4ca177cc5d49d34d4a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ebDomainName": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "shokz.com",
+                "www.boat-lifestyle.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8333333333333334
+        },
+        {
+            "domain": "influencerbit.com",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "watson.ns.cloudflare.com",
+        "davina.ns.cloudflare.com"
+    ]
+}

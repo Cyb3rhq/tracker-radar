@@ -1,0 +1,118 @@
+{
+    "domain": "shoptelligence.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "apps"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "shoptelligence\\.com\\/service\\/latest\\/shoptelligence-cui-widget-scripts\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "d50c4fe65d5c3e12fa730ecb1ae28bbc112362570fadebdd5bfcaacbbd92a7f0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "afw.com",
+                "www.coasterfurniture.com",
+                "www.homfurniture.com",
+                "www.kanesfurniture.com"
+            ]
+        },
+        {
+            "rule": "shoptelligence\\.com\\/service\\/latest\\/shoptelligence-cui-widget\\.js",
+            "cookies": 0.00000683,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "9a81d676a47ab3b6650bbab425f29b52f2c046e9d7ba100395573636c4f59697"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ST_UUID": {
+                    "ttl": 31536000006,
+                    "length": 36,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "afw.com",
+                "www.coasterfurniture.com",
+                "www.homfurniture.com",
+                "www.kanesfurniture.com"
+            ]
+        },
+        {
+            "rule": "shoptelligence\\.com\\/ui\\/latest\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "69b0ea65f107a29eae8b6f38142769d6518cd7ec9a539bc3173f534da4636da0"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ST_UUID": 0.0000273280043724807
+            },
+            "exampleSites": [
+                "afw.com",
+                "www.afw.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000683,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns17.domaincontrol.com",
+        "ns18.domaincontrol.com"
+    ]
+}

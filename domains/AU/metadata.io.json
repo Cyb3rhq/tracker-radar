@@ -1,0 +1,112 @@
+{
+    "domain": "metadata.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "metadata\\.io\\/site-insights\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 4
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "476cda2bde7910a58186b7b58d2be6d22d3cfacdfeda3354134b84e43d76ac98"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "Metadata_visitor_id": {
+                    "ttl": 31536009,
+                    "length": 19,
+                    "prevalence": 0.0004017677782241864,
+                    "uniqueness": 1
+                },
+                "Metadata_session_id": {
+                    "ttl": 1809,
+                    "length": 19,
+                    "prevalence": 0.0004017677782241864,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canva.com",
+                "www.kjc-gold-silver-bullion.com.au",
+                "www.lucidchart.com",
+                "www.notion.so",
+                "www.westlab.com.au"
+            ]
+        },
+        {
+            "rule": "metadata\\.io\\/pixel\\/config\\/1721\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ccc37c837397d66fd8e0facfe001ce7fc9f87e48089d73540ad2c2dd95716d04"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canva.com",
+                "www.kjc-gold-silver-bullion.com.au",
+                "www.westlab.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "canva.com",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns-477.awsdns-59.com",
+        "ns-1375.awsdns-43.org",
+        "ns-825.awsdns-39.net",
+        "ns-1614.awsdns-09.co.uk"
+    ]
+}

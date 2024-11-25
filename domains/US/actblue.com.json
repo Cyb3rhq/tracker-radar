@@ -1,0 +1,169 @@
+{
+    "domain": "actblue.com",
+    "owner": {
+        "name": "ActBlue LLC",
+        "displayName": "ActBlue"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [
+        "secure",
+        "proxy-service"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "actblue\\.com\\/cf\\/assets\\/actblue\\.js",
+            "cookies": 0.0000342,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "e4b97feee6043acb5d1cc0cf7db189678e171b4a509ad0e41fe3611dd5af8413"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balloon-juice.com",
+                "berniesanders.com",
+                "grist.org",
+                "surj.org",
+                "www.dailykos.com"
+            ]
+        },
+        {
+            "rule": "actblue\\.com\\/cf\\/assets\\/embedButton\\/27a16c8625da6c1f3db2\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "68bdf29bf9aa6e251dd837231e4c992c71764647650a23b4be9a0eb18777a8c8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "berniesanders.com",
+                "www.dailykos.com"
+            ]
+        },
+        {
+            "rule": "actblue\\.com\\/lib\\.min\\.js",
+            "cookies": 0.00000683,
+            "fingerprinting": 2,
+            "subdomains": [
+                "proxy-service"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.localStorage": 1,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.width": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bc94ac4cf8c40825ad44690336b1de510a0b5dd6428a5759b0cc5284dcdc7e08"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "berniesanders.com",
+                "www.dailykos.com"
+            ]
+        },
+        {
+            "rule": "actblue\\.com\\/track\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "proxy-service"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e39a8118ec6cdf6ac33e6961518e9fe6ba3f6caf099aeeaec1389c2108ba90ba"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "berniesanders.com",
+                "www.dailykos.com"
+            ]
+        },
+        {
+            "rule": "actblue\\.com\\/cf\\/embed\\/button\\/tuNGTBRipcdEZ8VvyRcMBDet",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7da3c5fbd6c3da9ee8c004d81c20adbccfadd67c7e876802865d9aced4a0d596"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "dailykos.com",
+                "www.dailykos.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000041,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "XHR": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns-1517.awsdns-61.org",
+        "ns-956.awsdns-55.net",
+        "ns-1760.awsdns-28.co.uk",
+        "ns-382.awsdns-47.com"
+    ]
+}

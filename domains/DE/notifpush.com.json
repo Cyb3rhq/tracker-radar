@@ -1,0 +1,140 @@
+{
+    "domain": "notifpush.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "notifpush\\.com\\/scripts\\/nadz-sdk\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Notification.permission": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.platform": 3,
+                "Document.cookie setter": 3,
+                "window.indexedDB": 3,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "50c71f069b28c3390b24282658fd09d6f350297cecf5678c184f67e70e2faf07"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "nadz_dailyVisits": {
+                    "ttl": 137337,
+                    "length": 1,
+                    "prevalence": 0.00030147723846849563,
+                    "uniqueness": 0.3333333333333333
+                },
+                "SA": {
+                    "ttl": 86405,
+                    "length": 1,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reitschuster.de",
+                "report24.news",
+                "www.aerotelegraph.com"
+            ]
+        },
+        {
+            "rule": "notifpush\\.com\\/serviceworker\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "86c8375cf82365cff06351a88b44f692cf3db415760ae8662c2522d043df041d"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "report24.news",
+                "reitschuster.de",
+                "www.aerotelegraph.com"
+            ]
+        },
+        {
+            "rule": "notifpush\\.com\\/templates\\/templateoptinboxperso\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.matchMedia(\"prefers-color-scheme\")": 2,
+                "Navigator.prototype.appName": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cf681c5a93aa2f99a2eb71b5fbc2de50cf976d57203a196f9c6420286899238f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "report24.news",
+                "reitschuster.de"
+            ]
+        },
+        {
+            "rule": "notifpush\\.com\\/scripts\\/wpn2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Notification.permission": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7e15785134388b41b7e2be82c9e098193ba3fce2b09ed2b367244a8a1c2588bc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "report24.news",
+                "reitschuster.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Other": 3
+    },
+    "nameservers": [
+        "bob.ns.cloudflare.com",
+        "melinda.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "domain": "fbwebprogram.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "staticaws"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "fbwebprogram\\.com\\/accor_tracking_decorator\\/decorator\\.js",
+            "cookies": 0.00000683,
+            "fingerprinting": 1,
+            "subdomains": [
+                "staticaws"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Navigator.prototype.language": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "d1007f6ece17c1c2d7ca38dc62317c7a164a392358b64cae392d2f2d5681c7d1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_AccorTrackingDecoratorData": {
+                    "ttl": 2592003,
+                    "length": 82,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fairmont.com",
+                "www.fairmont.com",
+                "www.orient-express.com"
+            ]
+        },
+        {
+            "rule": "fbwebprogram\\.com\\/FBServicesWebfonts\\/css\\/services_webfont\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "staticaws"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c7522fbf44465a7d86f605d85140e83e9992b66fa34adae93f38405799f15b6b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orient-express.com",
+                "www.orient-express.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000683,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "pdns01.domaincontrol.com",
+        "pdns02.domaincontrol.com"
+    ]
+}

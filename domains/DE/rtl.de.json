@@ -1,0 +1,101 @@
+{
+    "domain": "rtl.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "session-bugs-fra1",
+        "sourcepoint"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "rtl\\.de\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "session-bugs-fra1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvnow.de",
+                "www.wetter.de"
+            ]
+        },
+        {
+            "rule": "rtl\\.de\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "session-bugs-fra1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0ba7c0356149946bf0642fab4ef85b95e7090f6f785d0fb84323d0c442e5190a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvnow.de",
+                "www.wetter.de"
+            ]
+        },
+        {
+            "rule": "rtl\\.de\\/consent\\/tcfv2\\/vendor-list\\/categories",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sourcepoint"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "41c0d2611366a25c9ea5544bea952ba41ca2772da1f4151b9104d700a7adbda4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvnow.de",
+                "www.tvnow.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-a.eurodns.com",
+        "ns-b.eurodns.org",
+        "ns-c.eurodns.eu",
+        "ns-d.eurodns.biz"
+    ]
+}

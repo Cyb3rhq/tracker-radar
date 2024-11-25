@@ -1,0 +1,104 @@
+{
+    "domain": "cdn-expoints.nl",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "anwb1"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "cdn-expoints\\.nl\\/m\\/Scripts\\/dist\\/expoints-external-loader\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "anwb1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "32380c39d984e84f85bdb04cafa61819606739a81b74b3d66aae43b82fd7bbb9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anwb.nl",
+                "www.anwb.nl"
+            ]
+        },
+        {
+            "rule": "cdn-expoints\\.nl\\/m\\/Scripts\\/dist\\/expoints-external\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "anwb1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ee0c31d58152b60911b4afb41a9023848f63a89b303fcb8fa6597101491bf935"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anwb.nl",
+                "www.anwb.nl"
+            ]
+        },
+        {
+            "rule": "cdn-expoints\\.nl\\/m\\/external-configs\\/cd322f87-656d-4d9e-a92a-4ff66b8b5e6d\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "anwb1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "042f2028018602f6197492de9f8a5dfcae67a40560e29cb89b9244d48b4eebd9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anwb.nl",
+                "www.anwb.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "destiny.ns.cloudflare.com",
+        "alaric.ns.cloudflare.com"
+    ]
+}

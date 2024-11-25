@@ -1,0 +1,304 @@
+{
+    "domain": "nnmtools.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000888,
+    "sites": 13,
+    "subdomains": [
+        "cdnhorizon",
+        "apihorizon",
+        "api.horizon"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "nnmtools\\.com\\/dist\\/manifest\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnhorizon"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "df70e7eefae82c85fb92917b6cb8d6cf2aad234833ac2b98275a14abdc003d0f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pcgamebenchmark.com",
+                "www.pcgamebenchmark.com",
+                "www.pcgamesn.com",
+                "www.pockettactics.com",
+                "www.steamidfinder.com",
+                "www.wargamer.com"
+            ]
+        },
+        {
+            "rule": "nnmtools\\.com\\/dist\\/js\\/app\\.7c3e0c50\\.min\\.js",
+            "cookies": 0.000041,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdnhorizon"
+            ],
+            "apis": {
+                "Document.cookie getter": 6,
+                "window.localStorage": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Date.prototype.getTime": 6,
+                "Document.cookie setter": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "e8188e1794465f629654445a19a17aca7288e3ca05fca4d47aaaefa0b20ea5ad"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "horizon_session": {
+                    "ttl": 2592002,
+                    "length": 32,
+                    "prevalence": 0.00004099200655872105,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pcgamebenchmark.com",
+                "www.pcgamebenchmark.com",
+                "www.pcgamesn.com",
+                "www.pockettactics.com",
+                "www.steamidfinder.com",
+                "www.wargamer.com"
+            ]
+        },
+        {
+            "rule": "nnmtools\\.com\\/api\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apihorizon",
+                "api.horizon"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pcgamebenchmark.com",
+                "www.pcgamebenchmark.com",
+                "www.pcgamesn.com",
+                "www.pockettactics.com",
+                "www.steamidfinder.com",
+                "www.thedigitalfix.com",
+                "www.theloadout.com",
+                "www.wargamer.com"
+            ]
+        },
+        {
+            "rule": "nnmtools\\.com\\/api\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apihorizon",
+                "api.horizon"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "1ee2c0bf909dcf1c4cb7fe6f9189cb048795c9a735f7edf05bc1ee09ac608544",
+                "cbd2c083173dc6388739ea0106e05973d0c3182d17243c7c09ddacafead130da",
+                "1c140e025c0aa2d089906c7a004c2e0a74048e8271899fb0cfe8c587d1e086f8",
+                "9cabf5a15021156b560a04b7be9eea5b156dbec3efcbe808061257b90c6751c9",
+                "d86a61e4a707c7236346d05f746c9c6a234a6adc770a13671accdfa830e73a3d",
+                "0f3dbee30dacf6c0ecfda77e0a2e8efc4cfcf5b6d31025568b84c25f13dcfb7b",
+                "58946744d80e48565565aa9ff4c7bdb5e3e169e0da5be36928278051210bd9e9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pcgamebenchmark.com",
+                "www.pcgamebenchmark.com",
+                "www.pcgamesn.com",
+                "www.pockettactics.com",
+                "www.steamidfinder.com",
+                "www.thedigitalfix.com",
+                "www.theloadout.com",
+                "www.wargamer.com"
+            ]
+        },
+        {
+            "rule": "nnmtools\\.com\\/cdn-cgi\\/trace",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnhorizon"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "3acfa96051258888f57218ee771317ee94a14131d676ec7acb6498f19eae34b5",
+                "1a4f09599e809622c3ede719035066ad12ddefe1bc2903629e7af5b41447dbad",
+                "faad682a4f056b8ea4442a455e17df88be6a8ff52da4b89c5110a67f6617154a",
+                "781e58c178306a2a4b4ebcdc786d5411a5b629896e1e8754441d7ca2de0adc71",
+                "ac21cb79317090929ea8951501b9b0e8a487996ab4b1566c0e1fafe138dd8e94",
+                "e9a8676d3d5132964060824fb9602f4dd80bf2896b43ce68c1d609554ef15fb3",
+                "78bef43732f9238ed96eff8ad92c3ed52450090348383c6eef20b40cf49fa0d7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pcgamebenchmark.com",
+                "www.pcgamebenchmark.com",
+                "www.pcgamesn.com",
+                "www.pockettactics.com",
+                "www.steamidfinder.com",
+                "www.thedigitalfix.com",
+                "www.theloadout.com",
+                "www.wargamer.com"
+            ]
+        },
+        {
+            "rule": "nnmtools\\.com\\/api\\/pulse",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apihorizon",
+                "api.horizon"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "cfc30517d47b0aa91fcca10dc10282f32eb9da1c8f293d9c7de1054844e706cf",
+                "869000cf0a57de77549e9e528edaf33aa8a3365f7e7292f3ceea6fa0f95824a2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pockettactics.com",
+                "www.thedigitalfix.com",
+                "www.theloadout.com"
+            ]
+        },
+        {
+            "rule": "nnmtools\\.com\\/api\\/pulse",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apihorizon",
+                "api.horizon"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pockettactics.com",
+                "www.thedigitalfix.com",
+                "www.theloadout.com"
+            ]
+        },
+        {
+            "rule": "nnmtools\\.com\\/cdn\\/dist\\/manifest\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.horizon"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "df70e7eefae82c85fb92917b6cb8d6cf2aad234833ac2b98275a14abdc003d0f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thedigitalfix.com",
+                "www.thedigitalfix.com",
+                "www.theloadout.com"
+            ]
+        },
+        {
+            "rule": "nnmtools\\.com\\/cdn\\/dist\\/js\\/app\\.7c3e0c50\\.min\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api.horizon"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "window.localStorage": 3,
+                "Document.cookie getter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e8188e1794465f629654445a19a17aca7288e3ca05fca4d47aaaefa0b20ea5ad"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "horizon_session": {
+                    "ttl": 2592002,
+                    "length": 32,
+                    "prevalence": 0.000020496003279360526,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thedigitalfix.com",
+                "www.thedigitalfix.com",
+                "www.theloadout.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000888,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 9,
+        "Script": 9,
+        "Preflight": 11,
+        "XHR": 19
+    },
+    "nameservers": [
+        "vita.ns.cloudflare.com",
+        "mitch.ns.cloudflare.com"
+    ]
+}

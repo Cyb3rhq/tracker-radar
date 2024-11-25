@@ -1,0 +1,168 @@
+{
+    "domain": "hsbc.com",
+    "owner": {
+        "name": "HSBC Holdings plc",
+        "displayName": "HSBC Holdings"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "comshub-msb.marksandspencer.com.gslb-uk1",
+        "www.mcm-prod.hsbc.com.au.gslb-hk1",
+        "www.issthk.hsbc.com.hk.gslb-hk1"
+    ],
+    "cnames": [
+        {
+            "original": "comshub-msb.marksandspencer.com",
+            "resolved": "comshub-msb.marksandspencer.com.gslb-uk1.hsbc.com"
+        },
+        {
+            "original": "www.issthk.hsbc.com.hk",
+            "resolved": "www.issthk.hsbc.com.hk.gslb-hk1.hsbc.com"
+        },
+        {
+            "original": "www.mcm-prod.hsbc.com.au",
+            "resolved": "www.mcm-prod.hsbc.com.au.gslb-hk1.hsbc.com"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "hsbc\\.com\\/JavascriptInsert\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "comshub-msb.marksandspencer.com.gslb-uk1",
+                "www.mcm-prod.hsbc.com.au.gslb-hk1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "comshub-msb.marksandspencer.com",
+                    "resolved": "comshub-msb.marksandspencer.com.gslb-uk1.hsbc.com"
+                },
+                {
+                    "original": "www.mcm-prod.hsbc.com.au",
+                    "resolved": "www.mcm-prod.hsbc.com.au.gslb-hk1.hsbc.com"
+                }
+            ],
+            "responseHashes": [
+                "46f0be83d1e7bee56ebfbaa6de7d6fd7429ba443ecdabb1b8ebc99e07d6d66dd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marksandspencer.com",
+                "www.hsbc.com.au"
+            ]
+        },
+        {
+            "rule": "hsbc\\.com\\/5059\\/1342872013\\/XBW09WEA78JG\\/jsEvent\\.json",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "comshub-msb.marksandspencer.com.gslb-uk1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "comshub-msb.marksandspencer.com",
+                    "resolved": "comshub-msb.marksandspencer.com.gslb-uk1.hsbc.com"
+                }
+            ],
+            "responseHashes": [
+                "d9c88f79a073d20b95c45373e616360392969c85df8915c8c00431d9b344dd8b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marksandspencer.com",
+                "bank.marksandspencer.com"
+            ]
+        },
+        {
+            "rule": "hsbc\\.com\\/4159\\/1089101398\\/XBW09WEA78JG\\/jsEvent\\.json",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www.mcm-prod.hsbc.com.au.gslb-hk1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "www.mcm-prod.hsbc.com.au",
+                    "resolved": "www.mcm-prod.hsbc.com.au.gslb-hk1.hsbc.com"
+                }
+            ],
+            "responseHashes": [
+                "90b2959fba2dc89410295e1aa79e68715cf8de0b267cfe4370bb62d67f41d67e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hsbc.com.au",
+                "www.hsbc.com.au"
+            ]
+        },
+        {
+            "rule": "hsbc\\.com\\/2801\\/18014399258546495\\/js\\/events\\/v10\\/jsEvent\\.json",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www.issthk.hsbc.com.hk.gslb-hk1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "www.issthk.hsbc.com.hk",
+                    "resolved": "www.issthk.hsbc.com.hk.gslb-hk1.hsbc.com"
+                }
+            ],
+            "responseHashes": [
+                "3dc99a7d0895019bfb15342f2b6e768934e4304a6c99f9ef3caebcba516ccfd2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hsbc.com.hk",
+                "www.hsbc.com.hk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 6
+    },
+    "nameservers": [
+        "ns20.hsbc.uk",
+        "ns20.hsbc.net",
+        "ns3.hsbc.com",
+        "ns6.hsbc.com",
+        "ns21.hsbc.net",
+        "ns21.hsbc.uk"
+    ]
+}

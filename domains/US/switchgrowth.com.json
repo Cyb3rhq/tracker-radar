@@ -1,0 +1,86 @@
+{
+    "domain": "switchgrowth.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000683,
+    "sites": 10,
+    "subdomains": [
+        "pixel"
+    ],
+    "cnames": [
+        {
+            "original": "switch.rates.ca",
+            "resolved": "pixel.switchgrowth.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "switchgrowth\\.com\\/pixel\\.js",
+            "cookies": 0.0000478,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {
+                "Document.cookie getter": 6,
+                "Date.prototype.getTime": 6,
+                "Document.cookie setter": 6,
+                "window.localStorage": 6,
+                "Navigator.prototype.userAgent": 6
+            },
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [
+                {
+                    "original": "switch.rates.ca",
+                    "resolved": "pixel.switchgrowth.com"
+                }
+            ],
+            "responseHashes": [
+                "5242da280ecd0664d76cc8c7be9fccb3f2bebe758c04d6e700dfe7b4f1eef605"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_switch_session_id": {
+                    "ttl": 604810,
+                    "length": 36,
+                    "prevalence": 0.00004099200655872105,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1800gotjunk.com",
+                "rates.ca",
+                "www.1800gotjunk.com",
+                "www.autohebdo.net",
+                "www.autotrader.ca",
+                "www.bathfitter.com",
+                "www.koho.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000683,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 7
+    },
+    "nameservers": [
+        "trey.ns.cloudflare.com",
+        "wren.ns.cloudflare.com"
+    ]
+}

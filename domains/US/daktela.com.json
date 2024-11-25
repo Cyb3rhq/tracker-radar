@@ -1,0 +1,90 @@
+{
+    "domain": "daktela.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "belenka",
+        "knihydobrovsky"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "daktela\\.com\\/external\\/web\\/web\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "belenka",
+                "knihydobrovsky"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.storage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "657e4eda1df1d5de81e6d26af8a4175fd8952ab03e2dca3fa29b5eea1b6f6260"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belenka.com",
+                "www.knihydobrovsky.cz"
+            ]
+        },
+        {
+            "rule": "daktela\\.com\\/external\\/web\\/api\\/settings\\.jsonp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "belenka",
+                "knihydobrovsky"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fdd2eb95d138585a7808aaa9578406d618adc9c09582840925bf0fc8355e25b6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belenka.com",
+                "www.knihydobrovsky.cz"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "sns.dialtelecom.cz",
+        "ns10.dnsmadeeasy.com",
+        "ns13.dnsmadeeasy.com",
+        "ns15.dnsmadeeasy.com",
+        "ns11.dnsmadeeasy.com",
+        "ns14.dnsmadeeasy.com",
+        "ns12.dnsmadeeasy.com"
+    ]
+}

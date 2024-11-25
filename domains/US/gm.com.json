@@ -1,0 +1,487 @@
+{
+    "domain": "gm.com",
+    "owner": {
+        "name": "General Motors LLC",
+        "displayName": "General Motors"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000478,
+    "sites": 7,
+    "subdomains": [
+        "dynaapmsg.ext",
+        "custlogin",
+        "accounts",
+        "video2.marketing"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "gm\\.com\\/bf\\/b1a9b19e-f5e3-4d7e-94d9-747a79ef4898\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dynaapmsg.ext"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "74d37636a0fbbbb57377902418744d04ae208d06e43be2eecb6c7320eb2af645",
+                "b5c31a0374f648a48d02bd0982b3b9fe6f667b16034841188f8f60a4c5451290",
+                "9f06e6c6aa284edf2fcd10ac9663daba0ac9a98dd36d778e1b6715b0d783e9dc"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmccanada.ca",
+                "www.gmccanada.ca",
+                "www.gmparts.com",
+                "www.onstar.com"
+            ]
+        },
+        {
+            "rule": "gm\\.com\\/gmb2cprod\\.onmicrosoft\\.com\\/oauth2\\/v2\\.0\\/authorize",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "custlogin"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Event.prototype.timeStamp": 2,
+                "Navigator.prototype.connection": 2,
+                "Navigator.prototype.onLine": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "80806001cf4cf5812a90519b9cb8d56e9240cc85229266378e4514c3fcf39455"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmfamilyfirst.com",
+                "www.gmfamilyfirst.com"
+            ]
+        },
+        {
+            "rule": "gm\\.com\\/common\\/login\\/index\\.html",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "accounts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "204d8109bb92fb3d8952fd83d529845fe4f27da91179d26244a0f85680e780db"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmfamilyfirst.com",
+                "www.gmfamilyfirst.com"
+            ]
+        },
+        {
+            "rule": "gm\\.com\\/jstag\\/managed\\/b1a9b19e-f5e3-4d7e-94d9-747a79ef4898\\/d663619a864e8ee3_complete\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "dynaapmsg.ext"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.connection": 2,
+                "Event.prototype.timeStamp": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.doNotTrack": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2801758749d2a36fbdb3af6022ac4057232ede0c08ee319484ebe0e28636d8ca"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmfamilyfirst.com",
+                "www.gmfamilyfirst.com"
+            ]
+        },
+        {
+            "rule": "gm\\.com\\/common\\/login\\/runtime\\.70ea1a5ae9fe34fd\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "accounts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "942bc02c8d0bc7356c3e94ccd1e10ba73d708490dd4122e89f390ff387a92e72"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmfamilyfirst.com",
+                "www.gmfamilyfirst.com"
+            ]
+        },
+        {
+            "rule": "gm\\.com\\/common\\/login\\/polyfills\\.23af5eff421dc868\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "accounts"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "82cb03bf4090b61592696a864f0c6e0eb957df1f13e10f61e11dc4072678280b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmfamilyfirst.com",
+                "www.gmfamilyfirst.com"
+            ]
+        },
+        {
+            "rule": "gm\\.com\\/common\\/login\\/vendor\\.6247267980f33508\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "accounts"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c7d351edd051c3d85d438674331f8cdfd6e8523f865ff7aea3b2f7fbb2ea7dd3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmfamilyfirst.com",
+                "www.gmfamilyfirst.com"
+            ]
+        },
+        {
+            "rule": "gm\\.com\\/common\\/login\\/main\\.db94f2e85f55eb50\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "accounts"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3d6c209c5dffc3802eac5e4b1ee00571231a5ae7a096ca17d1e5dd4a6912e965"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmfamilyfirst.com",
+                "www.gmfamilyfirst.com"
+            ]
+        },
+        {
+            "rule": "gm\\.com\\/gmb2cprod\\.onmicrosoft\\.com\\/B2C_1A_SeamlessMigration_SignUpOrSignIn\\/client\\/perftrace",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "custlogin"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmfamilyfirst.com",
+                "www.gmfamilyfirst.com"
+            ]
+        },
+        {
+            "rule": "gm\\.com\\/common\\/login\\/ui\\/config",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "accounts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "95256c430a2eaf476309127df8acf09ef1caebc4a1568b1b59eb91d8c656a749"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmfamilyfirst.com",
+                "www.gmfamilyfirst.com"
+            ]
+        },
+        {
+            "rule": "gm\\.com\\/common\\/login\\/channel",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "accounts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmfamilyfirst.com",
+                "www.gmfamilyfirst.com"
+            ]
+        },
+        {
+            "rule": "gm\\.com\\/common\\/login\\/assets\\/scripts\\/v2-tracking\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "accounts"
+            ],
+            "apis": {
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmfamilyfirst.com",
+                "www.gmfamilyfirst.com"
+            ]
+        },
+        {
+            "rule": "gm\\.com\\/common\\/login\\/cms\\/en-US\\/translations",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "accounts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmfamilyfirst.com",
+                "www.gmfamilyfirst.com"
+            ]
+        },
+        {
+            "rule": "gm\\.com\\/bf\\/b1a9b19e-f5e3-4d7e-94d9-747a79ef4898\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dynaapmsg.ext"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "dtCookie": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "gmfamilyfirst.com",
+                "www.gmfamilyfirst.com"
+            ]
+        },
+        {
+            "rule": "gm\\.com\\/common\\/login\\/assets\\/styles\\/passwordless-gbds-override\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "accounts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmfamilyfirst.com",
+                "www.gmfamilyfirst.com"
+            ]
+        },
+        {
+            "rule": "gm\\.com\\/common\\/login\\/assets\\/styles\\/passwordless-api\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "accounts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmfamilyfirst.com",
+                "www.gmfamilyfirst.com"
+            ]
+        },
+        {
+            "rule": "gm\\.com\\/_cdn\\/global\\/v2\\/gm\\/gm-generic-header-logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "accounts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmfamilyfirst.com",
+                "www.gmfamilyfirst.com"
+            ]
+        },
+        {
+            "rule": "gm\\.com\\/ruxitagentjs_D_10299241001084140\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "custlogin"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "90b2d35cd5e08370ed20db81197dd9da1a4dbb421f71293fd5733ea49eb7b3e1"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmfamilyfirst.com",
+                "www.gmfamilyfirst.com"
+            ]
+        },
+        {
+            "rule": "gm\\.com\\/media\\/v1\\/pmp4\\/static\\/clear\\/811634291001\\/8b762894-56dc-4f25-8b9b-846c0a8d911f\\/0d958311-7cd9-4877-936d-396fdc5de168\\/main\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "video2.marketing"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmparts.com",
+                "www.gmparts.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "Document": 2,
+        "XHR": 10,
+        "Script": 12,
+        "Ping": 2,
+        "Stylesheet": 4,
+        "Image": 2,
+        "Other": 2,
+        "Media": 2
+    },
+    "nameservers": [
+        "nsx3.gm.com",
+        "nsx4.gm.com",
+        "nsx2.gm.com",
+        "nsx1.gm.com"
+    ]
+}

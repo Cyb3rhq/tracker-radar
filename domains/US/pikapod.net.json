@@ -1,0 +1,131 @@
+{
+    "domain": "pikapod.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000683,
+    "sites": 10,
+    "subdomains": [
+        "groovy-manul",
+        "handsome-heron"
+    ],
+    "cnames": [
+        {
+            "original": "analytics.noypigeeks.com",
+            "resolved": "handsome-heron.pikapod.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "pikapod\\.net\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "groovy-manul",
+                "handsome-heron"
+            ],
+            "apis": {
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Navigator.prototype.language": 3,
+                "window.localStorage": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [
+                {
+                    "original": "analytics.noypigeeks.com",
+                    "resolved": "handsome-heron.pikapod.net"
+                }
+            ],
+            "responseHashes": [
+                "023d8e20a6dc800a6415a305418e11c27484c01ab373778d26d87e8b020961c4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "itsfoss.com",
+                "linuxhandbook.com",
+                "news.itsfoss.com",
+                "www.noypigeeks.com"
+            ]
+        },
+        {
+            "rule": "pikapod\\.net\\/api\\/send",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "groovy-manul",
+                "handsome-heron"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "analytics.noypigeeks.com",
+                    "resolved": "handsome-heron.pikapod.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "linuxhandbook.com",
+                "www.noypigeeks.com"
+            ]
+        },
+        {
+            "rule": "pikapod\\.net\\/api\\/send",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "groovy-manul",
+                "handsome-heron"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "analytics.noypigeeks.com",
+                    "resolved": "handsome-heron.pikapod.net"
+                }
+            ],
+            "responseHashes": [
+                "e00bccfe8ac4dd3aebf12671f5abac05a84ff2d01eef856a18a955e37dfd82ab"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "linuxhandbook.com",
+                "www.noypigeeks.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000683,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns1.dnsimple.com",
+        "ns3.dnsimple.com",
+        "ns2.dnsimple.com",
+        "ns4.dnsimple.com"
+    ]
+}

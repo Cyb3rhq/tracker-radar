@@ -1,0 +1,104 @@
+{
+    "domain": "americanexpress.com.akadns.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "functions",
+        "dynatracepsg"
+    ],
+    "cnames": [
+        {
+            "original": "dynatracepsg.americanexpress.com",
+            "resolved": "dynatracepsg.americanexpress.com.akadns.net"
+        },
+        {
+            "original": "functions.americanexpress.com",
+            "resolved": "functions.americanexpress.com.akadns.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "americanexpress\\.com\\.akadns\\.net\\/ReadScriptRegistry\\.v1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "functions"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "functions.americanexpress.com",
+                    "resolved": "functions.americanexpress.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "e586121e607c7d7a8d7277f14a5b3043406dc1f140b85e30e601336b15f0e824"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanexpress.com",
+                "www.americanexpress.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\.akadns\\.net\\/bf\\/8264482b-dee3-4f6d-be79-c4d3fee1d8c7",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dynatracepsg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "dynatracepsg.americanexpress.com",
+                    "resolved": "dynatracepsg.americanexpress.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "1cba9b0caa3fcdebe376afa2115f845177079ff6915e55d7a4978f0411440032"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanexpress.com",
+                "www.americanexpress.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "aexp-static.com",
+            "prevalence": 0.9333333333333333
+        },
+        {
+            "domain": "contentsquare.net",
+            "prevalence": 0.06666666666666667
+        }
+    ],
+    "types": {
+        "Fetch": 4
+    },
+    "nameservers": []
+}

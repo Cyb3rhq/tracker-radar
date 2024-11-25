@@ -1,0 +1,128 @@
+{
+    "domain": "stape.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [
+        "coikcyfn.euh",
+        "eub",
+        "leuh"
+    ],
+    "cnames": [
+        {
+            "original": "gtm.treningspartner.no",
+            "resolved": "eub.stape.net"
+        },
+        {
+            "original": "load.sst.watski.no",
+            "resolved": "leuh.stape.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "stape\\.net\\/g\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "coikcyfn.euh",
+                "eub"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "gtm.treningspartner.no",
+                    "resolved": "eub.stape.net"
+                }
+            ],
+            "responseHashes": [
+                "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.00020086371397007131
+            },
+            "exampleSites": [
+                "toi.no",
+                "www.treningspartner.no"
+            ]
+        },
+        {
+            "rule": "stape\\.net\\/pllhbidm\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "leuh"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "load.sst.watski.no",
+                    "resolved": "leuh.stape.net"
+                }
+            ],
+            "responseHashes": [
+                "2cd161bdde864c9c95b4769aa6ee60c1583eb251a6f1070e0db42d5cf7537bcc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "watski.no",
+                "www.watski.no"
+            ]
+        },
+        {
+            "rule": "stape\\.net\\/gtpllhbidm\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "leuh"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "load.sst.watski.no",
+                    "resolved": "leuh.stape.net"
+                }
+            ],
+            "responseHashes": [
+                "fb8e075c2f02304660f9865e99e753df382ca7079266f383dab4931a5c60036f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "watski.no",
+                "www.watski.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Script": 4
+    },
+    "nameservers": [
+        "june.ns.cloudflare.com",
+        "eric.ns.cloudflare.com"
+    ]
+}

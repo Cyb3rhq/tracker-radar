@@ -1,0 +1,558 @@
+{
+    "domain": "azure.com",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00713,
+    "sites": 71,
+    "subdomains": [
+        "js.monitor",
+        "eastus-2.in.applicationinsights",
+        "australiaeast-1.in.applicationinsights",
+        "eastus-8.in.applicationinsights",
+        "eastus-3.in.applicationinsights",
+        "australiasoutheast-0.in.applicationinsights",
+        "australiaeast-0.in.applicationinsights",
+        "westeurope-5.in.applicationinsights",
+        "uksouth-1.in.applicationinsights",
+        "eastus-5.in.applicationinsights",
+        "eastus-0.in.applicationinsights",
+        "agw-pubip-rxlau-prd-caas.australiaeast.cloudapp"
+    ],
+    "cnames": [
+        {
+            "original": "analytics.rexel.com.au",
+            "resolved": "agw-pubip-rxlau-prd-caas.australiaeast.cloudapp.azure.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "azure\\.com\\/scripts\\/b\\/ai\\.2\\.min\\.js",
+            "cookies": 0.00251,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js.monitor"
+            ],
+            "apis": {
+                "Navigator.prototype.onLine": 29,
+                "window.sessionStorage": 29,
+                "Document.cookie getter": 25,
+                "Navigator.prototype.userAgent": 29,
+                "Document.cookie setter": 25,
+                "window.localStorage": 29,
+                "PerformanceTiming.prototype.navigationStart": 29
+            },
+            "sites": 30,
+            "prevalence": 0.00301,
+            "cnames": [],
+            "responseHashes": [
+                "bde9be4cbe799089a419225f87c2a9986043f6c7cb55853aaadab7200713f136"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ai_user": {
+                    "ttl": 31536000,
+                    "length": 47,
+                    "prevalence": 0.0025110486139011652,
+                    "uniqueness": 1
+                },
+                "ai_session": {
+                    "ttl": 1800,
+                    "length": 50,
+                    "prevalence": 0.0025110486139011652,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.volunteer.com.au",
+                "www.zipwater.com",
+                "keyton.com.au",
+                "www.bnd.com.au",
+                "www.secureparking.com.au",
+                "www.qatarairways.com",
+                "www.cleancruising.com.au",
+                "www.icruise.com",
+                "twitch.facepunch.com",
+                "www.escortsandbabes.com.au",
+                "www.thriftbooks.com",
+                "www.trafalgar.com",
+                "www.aria.com.au",
+                "www.oneworld.com",
+                "www.packsend.com.au",
+                "www.next.com.au",
+                "biblia.com",
+                "www.cabots.com.au",
+                "www.tenantapp.com.au",
+                "cleanenergycouncil.org.au"
+            ]
+        },
+        {
+            "rule": "azure\\.com\\/\\/v2\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eastus-2.in.applicationinsights",
+                "australiaeast-1.in.applicationinsights",
+                "eastus-8.in.applicationinsights",
+                "eastus-3.in.applicationinsights",
+                "australiasoutheast-0.in.applicationinsights",
+                "australiaeast-0.in.applicationinsights",
+                "westeurope-5.in.applicationinsights"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.00191,
+            "cnames": [],
+            "responseHashes": [
+                "b5a6b8f8dced09bf18920a311f765abe1ee41b3153a14ac76cad8e42e7b8a563",
+                "b77934d05bdd2a58f476814325af7edfccad6f36b47247c3f10c6250891bafd2",
+                "5e5fbeccb2c4426dbdd4d70dac039d69223ab935c9a43226b24b3ca75a32b637",
+                "dcedc71969d6334e3d6e59c89192507e4c243453fb7f5c1bb26613c16df86a0e",
+                "e4fa1df5a5a536fe568b31a0d4916ce5b432cc7b480e5ce6edc0967aaee5e231",
+                "ac74449d16bf031c9eec46ce91ec978c1147cd60e04fd96273e44703ea5689f6",
+                "138c8fb0bf2f4706c3baff12f8c2164663a282c5b057e221604dcc6a1073f08b",
+                "c81e0192ba8effd8a330480a50503c9d559fb277a7411ec2ed4ddfe2123f03e1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auctionsplus.com.au",
+                "cleanenergycouncil.org.au",
+                "keyton.com.au",
+                "pacfa.org.au",
+                "twitch.facepunch.com",
+                "www.acma.gov.au",
+                "www.bnd.com.au",
+                "www.cabots.com.au",
+                "www.escortsandbabes.com.au",
+                "www.kennards.com.au",
+                "www.lexus.com.au",
+                "www.mdanderson.org",
+                "www.packsend.com.au",
+                "www.penguin.com.au",
+                "www.qatarairways.com",
+                "www.rbg.vic.gov.au",
+                "www.tenantapp.com.au",
+                "www.toyota.com.au",
+                "www.volunteer.com.au"
+            ]
+        },
+        {
+            "rule": "azure\\.com\\/\\/v2\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eastus-2.in.applicationinsights",
+                "australiaeast-1.in.applicationinsights",
+                "eastus-8.in.applicationinsights",
+                "eastus-3.in.applicationinsights",
+                "australiasoutheast-0.in.applicationinsights",
+                "australiaeast-0.in.applicationinsights"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.00161,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auctionsplus.com.au",
+                "cleanenergycouncil.org.au",
+                "keyton.com.au",
+                "pacfa.org.au",
+                "twitch.facepunch.com",
+                "www.acma.gov.au",
+                "www.escortsandbabes.com.au",
+                "www.kennards.com.au",
+                "www.lexus.com.au",
+                "www.mdanderson.org",
+                "www.packsend.com.au",
+                "www.penguin.com.au",
+                "www.rbg.vic.gov.au",
+                "www.tenantapp.com.au",
+                "www.toyota.com.au",
+                "www.volunteer.com.au"
+            ]
+        },
+        {
+            "rule": "azure\\.com\\/scripts\\/b\\/ai\\.3\\.gbl\\.min\\.js",
+            "cookies": 0.000603,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js.monitor"
+            ],
+            "apis": {
+                "Navigator.prototype.onLine": 6,
+                "window.sessionStorage": 6,
+                "Document.cookie getter": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Document.cookie setter": 6,
+                "window.localStorage": 6,
+                "PerformanceTiming.prototype.navigationStart": 5
+            },
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "600d578752ad2581b1b8576ce45d75b7e2517c7ff146900e65aa416eb6da14f1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ai_user": {
+                    "ttl": 31536000,
+                    "length": 47,
+                    "prevalence": 0.0006026516673362796,
+                    "uniqueness": 1
+                },
+                "ai_session": {
+                    "ttl": 1800,
+                    "length": 50,
+                    "prevalence": 0.0006026516673362796,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "business.gov.au",
+                "www.cirquedusoleil.com",
+                "www.husqvarna.com",
+                "www.jbhifi.com.au",
+                "www.jbhifi.co.nz",
+                "www.middys.com.au"
+            ]
+        },
+        {
+            "rule": "azure\\.com\\/scripts\\/b\\/ai\\.config\\.1\\.cfg\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js.monitor"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.00141,
+            "cnames": [],
+            "responseHashes": [
+                "64ac278a67256ae70d462c23307e75416d4e5a0a060f95e124be57772ee5b43f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "business.gov.au",
+                "training.gov.au",
+                "www.alintaenergy.com.au",
+                "www.cirquedusoleil.com",
+                "www.heartfoundation.org.au",
+                "www.husqvarna.com",
+                "www.jbhifi.com.au",
+                "www.jbhifi.co.nz",
+                "www.letsbemates.com.au",
+                "www.middys.com.au",
+                "www.pressreader.com",
+                "www.rubbermonkey.com.au",
+                "www.skoda.com.au",
+                "www.uefa.com"
+            ]
+        },
+        {
+            "rule": "azure\\.com\\/v2\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "australiaeast-0.in.applicationinsights",
+                "australiaeast-1.in.applicationinsights",
+                "uksouth-1.in.applicationinsights",
+                "eastus-5.in.applicationinsights",
+                "australiasoutheast-0.in.applicationinsights",
+                "eastus-0.in.applicationinsights"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "business.gov.au",
+                "jp.translink.com.au",
+                "patient.info",
+                "training.gov.au",
+                "www.cirquedusoleil.com",
+                "www.heartfoundation.org.au",
+                "www.jbhifi.com.au",
+                "www.jbhifi.co.nz",
+                "www.letsbemates.com.au",
+                "www.middys.com.au",
+                "www.rubbermonkey.com.au"
+            ]
+        },
+        {
+            "rule": "azure\\.com\\/v2\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "australiaeast-0.in.applicationinsights",
+                "australiaeast-1.in.applicationinsights",
+                "uksouth-1.in.applicationinsights",
+                "eastus-5.in.applicationinsights",
+                "australiasoutheast-0.in.applicationinsights",
+                "eastus-0.in.applicationinsights"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00121,
+            "cnames": [],
+            "responseHashes": [
+                "5e5fbeccb2c4426dbdd4d70dac039d69223ab935c9a43226b24b3ca75a32b637",
+                "b5a6b8f8dced09bf18920a311f765abe1ee41b3153a14ac76cad8e42e7b8a563",
+                "b77934d05bdd2a58f476814325af7edfccad6f36b47247c3f10c6250891bafd2",
+                "c81e0192ba8effd8a330480a50503c9d559fb277a7411ec2ed4ddfe2123f03e1",
+                "0c529f33569b5961a3cbf6845eddd3163672ccace67f8fd843aa645204c0218a",
+                "fb5dc806f720d272a53b3e41f0eaf28c3f0fef5c895cafb73a9641c919db4f93",
+                "138c8fb0bf2f4706c3baff12f8c2164663a282c5b057e221604dcc6a1073f08b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "business.gov.au",
+                "jp.translink.com.au",
+                "patient.info",
+                "training.gov.au",
+                "www.cirquedusoleil.com",
+                "www.heartfoundation.org.au",
+                "www.jbhifi.com.au",
+                "www.jbhifi.co.nz",
+                "www.letsbemates.com.au",
+                "www.lifeblood.com.au",
+                "www.middys.com.au",
+                "www.rubbermonkey.com.au"
+            ]
+        },
+        {
+            "rule": "azure\\.com\\/scripts\\/c\\/ms\\.analytics-web-3\\.gbl\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js.monitor"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.appVersion": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3f179359dc1864bc3b859ce74b859f18a94dd691cd56054b2eb9b9fc39d0dd59"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "MicrosoftApplicationsTelemetryDeviceId": {
+                    "ttl": 31536000,
+                    "length": 36,
+                    "prevalence": 0.0002008838891120932,
+                    "uniqueness": 1
+                },
+                "ai_session": {
+                    "ttl": 1809,
+                    "length": 50,
+                    "prevalence": 0.0002008838891120932,
+                    "uniqueness": 1
+                },
+                "MSFPC": {
+                    "ttl": 31536000,
+                    "length": 4,
+                    "prevalence": 0.0002008838891120932,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "minecraft.net",
+                "www.minecraft.net"
+            ]
+        },
+        {
+            "rule": "azure\\.com\\/scripts\\/b\\/ai\\.2\\.gbl\\.min\\.js",
+            "cookies": 0.00141,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js.monitor"
+            ],
+            "apis": {
+                "Navigator.prototype.onLine": 14,
+                "window.sessionStorage": 14,
+                "Document.cookie getter": 14,
+                "Navigator.prototype.userAgent": 14,
+                "Document.cookie setter": 14,
+                "window.localStorage": 14,
+                "PerformanceTiming.prototype.navigationStart": 14
+            },
+            "sites": 14,
+            "prevalence": 0.00141,
+            "cnames": [],
+            "responseHashes": [
+                "12e7192855d64b8867e792c9e0359a8e0b5ae2e2c9286007c9e4b881d86e7e07"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ai_user": {
+                    "ttl": 31536000,
+                    "length": 47,
+                    "prevalence": 0.0014061872237846524,
+                    "uniqueness": 1
+                },
+                "ai_session": {
+                    "ttl": 1800,
+                    "length": 50,
+                    "prevalence": 0.0014061872237846524,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ausimm.com",
+                "www.bcu.com.au",
+                "www.beyondbank.com.au",
+                "www.boltonclarke.com.au",
+                "www.cashconverters.com.au",
+                "www.jaxtyres.com.au",
+                "www.landgate.wa.gov.au",
+                "www.mainroads.wa.gov.au",
+                "www.perpetual.com.au",
+                "www.perthmint.com",
+                "www.pnbank.com.au",
+                "www.queenslandcountry.bank",
+                "www.stockland.com.au",
+                "www.westernpower.com.au"
+            ]
+        },
+        {
+            "rule": "azure\\.com\\/\\/v2\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "australiaeast-1.in.applicationinsights",
+                "australiasoutheast-0.in.applicationinsights",
+                "westeurope-5.in.applicationinsights"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bnd.com.au",
+                "www.cabots.com.au",
+                "www.qatarairways.com"
+            ]
+        },
+        {
+            "rule": "azure\\.com\\/g\\/collect",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "agw-pubip-rxlau-prd-caas.australiaeast.cloudapp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "analytics.rexel.com.au",
+                    "resolved": "agw-pubip-rxlau-prd-caas.australiaeast.cloudapp.azure.com"
+                }
+            ],
+            "responseHashes": [
+                "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.0004017677782241864
+            },
+            "exampleSites": [
+                "rexel.com.au",
+                "www.rexel.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00502,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8736842105263158
+        },
+        {
+            "domain": "clevertar.app",
+            "prevalence": 0.031578947368421054
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.031578947368421054
+        },
+        {
+            "domain": "google-analytics.com",
+            "prevalence": 0.021052631578947368
+        },
+        {
+            "domain": "cvly.app",
+            "prevalence": 0.010526315789473684
+        },
+        {
+            "domain": "prcdn.co",
+            "prevalence": 0.010526315789473684
+        },
+        {
+            "domain": "skoda-auto.com",
+            "prevalence": 0.010526315789473684
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.010526315789473684
+        }
+    ],
+    "types": {
+        "Script": 52,
+        "XHR": 31,
+        "Preflight": 27,
+        "Fetch": 16,
+        "Other": 3
+    },
+    "nameservers": [
+        "ns4-39.azure-dns.info",
+        "ns3-39.azure-dns.org",
+        "ns2-39.azure-dns.net",
+        "ns1-39.azure-dns.com"
+    ]
+}

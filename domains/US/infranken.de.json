@@ -1,0 +1,90 @@
+{
+    "domain": "infranken.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000683,
+    "sites": 1,
+    "subdomains": [
+        "dynamic"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "infranken\\.de\\/delivery\\/cmp\\.php",
+            "cookies": 0.00000683,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dynamic"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9f81d0274e506bab4e94e573af81cbcd533112fe1c9ae7dba82c06f9f82fe5e9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__cmpcc": {
+                    "ttl": 34128002,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fraenkische-rezepte.de",
+                "www.fraenkische-rezepte.de"
+            ]
+        },
+        {
+            "rule": "infranken\\.de\\/delivery\\/info\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dynamic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1cfaf533b9965b7d9cf11f372b0eecdc7839642d73db9971d7533b9ad4cbc54c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fraenkische-rezepte.de",
+                "www.fraenkische-rezepte.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000683,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "a.ns14.net",
+        "b.ns14.net",
+        "c.ns14.net",
+        "d.ns14.net"
+    ]
+}

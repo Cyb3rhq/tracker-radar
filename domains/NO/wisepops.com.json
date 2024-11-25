@@ -1,0 +1,187 @@
+{
+    "domain": "wisepops.com",
+    "owner": {
+        "name": "Benjamin Cahen",
+        "displayName": "Benjamin Cahen"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "activity",
+        "loader",
+        "tracking"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "wisepops\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "activity"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dbjourney.com",
+                "haynes.com",
+                "satechi.net",
+                "www.dailywire.com",
+                "www.platekompaniet.no",
+                "www.vl.no"
+            ]
+        },
+        {
+            "rule": "wisepops\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "activity"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dbjourney.com",
+                "haynes.com",
+                "satechi.net",
+                "www.dailywire.com",
+                "www.platekompaniet.no",
+                "www.vl.no"
+            ]
+        },
+        {
+            "rule": "wisepops\\.com\\/get-loader\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "loader"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__tld__": {
+                    "ttl": 5,
+                    "length": 1,
+                    "prevalence": 0.00020086371397007131,
+                    "uniqueness": 0.5
+                },
+                "wisepops_visitor": {
+                    "ttl": 63072000,
+                    "length": 67,
+                    "prevalence": 0.00020086371397007131,
+                    "uniqueness": 1
+                },
+                "wisepops": {
+                    "ttl": 63072000,
+                    "length": 145,
+                    "prevalence": 0.00010043185698503566,
+                    "uniqueness": 1
+                },
+                "wisepops_session": {
+                    "ttl": null,
+                    "length": 274,
+                    "prevalence": 0.00010043185698503566,
+                    "uniqueness": 1
+                },
+                "wisepops_visits": {
+                    "ttl": 63072000,
+                    "length": 40,
+                    "prevalence": 0.00010043185698503566,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "haynes.com",
+                "www.machinelearningplus.com",
+                "www.platekompaniet.no",
+                "www.vl.no"
+            ]
+        },
+        {
+            "rule": "wisepops\\.com\\/_\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.00010043185698503566
+            },
+            "exampleSites": [
+                "haynes.com",
+                "www.dailywire.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.46153846153846156
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.23076923076923078
+        },
+        {
+            "domain": "wisepops.net",
+            "prevalence": 0.23076923076923078
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.07692307692307693
+        }
+    ],
+    "types": {
+        "Fetch": 6,
+        "Preflight": 6,
+        "Script": 4,
+        "Ping": 2
+    },
+    "nameservers": [
+        "wally.ns.cloudflare.com",
+        "marek.ns.cloudflare.com"
+    ]
+}

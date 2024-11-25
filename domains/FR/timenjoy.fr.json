@@ -1,0 +1,101 @@
+{
+    "domain": "timenjoy.fr",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000202,
+    "sites": 2,
+    "subdomains": [
+        "widget",
+        "konnectz"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "timenjoy\\.fr\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "59b338d53a86dcbb1c761e505defb4f58ecb051ec0959e114ca3b02ab8cf7fae"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nicematin.com",
+                "www.varmatin.com"
+            ]
+        },
+        {
+            "rule": "timenjoy\\.fr\\/selection\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "konnectz"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nicematin.com",
+                "www.varmatin.com"
+            ]
+        },
+        {
+            "rule": "timenjoy\\.fr\\/selection\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "konnectz"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "0451ca765184ccba8cc46367fed72ea20bdd242ab964e3a6652ae4f2ab19b96d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nicematin.com",
+                "www.varmatin.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns200.anycast.me",
+        "dns200.anycast.me"
+    ]
+}

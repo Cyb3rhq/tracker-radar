@@ -1,0 +1,137 @@
+{
+    "domain": "flipsnack.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "player",
+        "content-private"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "flipsnack\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "61f64e62fa642447ce684b53042f7ece3934b56d4f3f2cb8d9621dd6b7142c4c"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "purdey.nl",
+                "www.purdey.nl"
+            ]
+        },
+        {
+            "rule": "flipsnack\\.com\\/reader\\.gz\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.platform": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6b9d93cac4f9ecdb740d85f7c9c64fb4e88013eadf009c6fbd71f0e310543479"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "purdey.nl",
+                "www.purdey.nl"
+            ]
+        },
+        {
+            "rule": "flipsnack\\.com\\/handleUnsupportedBrowsers\\.gz\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3364f0b3a8390239ce287a57e41103afef8e8294cc90ae79402f500f391233d4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "purdey.nl",
+                "www.purdey.nl"
+            ]
+        },
+        {
+            "rule": "flipsnack\\.com\\/authorization",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content-private"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3729b91e3d4759dc3e279a4ff8bd9f44fb33e8ec53caf4cacc3ceb168c2adc3f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "purdey.nl",
+                "www.purdey.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 2,
+        "Script": 4,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1438.awsdns-51.org",
+        "ns-788.awsdns-34.net",
+        "ns-249.awsdns-31.com",
+        "ns-1616.awsdns-10.co.uk"
+    ]
+}

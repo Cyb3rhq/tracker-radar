@@ -1,0 +1,89 @@
+{
+    "domain": "neverbounce.com",
+    "owner": {
+        "name": "Metrics Delivered LLC",
+        "displayName": "Metrics Delivered"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "neverbounce\\.com\\/widget\\/dist\\/NeverBounce\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 3,
+                "console.memory": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "c99d11cb4960d6e1918ed55d5bcbb316d38b51098e2efc1201904d7274d3273e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "resmed.com.au",
+                "www.kingarthurbaking.com",
+                "www.resmed.com.au"
+            ]
+        },
+        {
+            "rule": "neverbounce\\.com\\/v4\\/poe\\/notify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "d37066f2e763ca46f72d7a57841a16d580d2d966c0e7bb288a010b19c478048e",
+                "11ce9a1079bfb4054a17feb7c24f9d7f99addb7688354ddfa5c58a87e997c108",
+                "b9e9f650e1f5b4642d0542b392dded26467dbffd2c97b4acb153b904aae91211"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "resmed.com.au",
+                "www.resmed.com.au",
+                "www.sportsgirl.com.au",
+                "www.suzannegrae.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 7
+    },
+    "nameservers": [
+        "pat.ns.cloudflare.com",
+        "jacob.ns.cloudflare.com"
+    ]
+}

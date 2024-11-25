@@ -1,0 +1,785 @@
+{
+    "domain": "vee24.com",
+    "owner": {
+        "name": "Vee24",
+        "displayName": "Vee24"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "cdn",
+        "gds",
+        "static",
+        "web",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "vee24\\.com\\/disco\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.appVersion": 3,
+                "window.sessionStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "b3448f2661d40fe59f84015fd4fecf5763b34a7b78984935fd2e1f73cc2d1899"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/api\\/disco",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gds"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "51464dcb253bd1b0b93b083347212cb4cc20606bf4adfb0fb8261c1dfc705f39"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/api\\/disco",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gds"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/v2\\/js\\/v24Embedded\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 3,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.appVersion": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "window.sessionStorage": 3,
+                "Navigator.prototype.platform": 3,
+                "window.name": 3,
+                "Document.cookie getter": 3,
+                "window.localStorage": 3,
+                "window.devicePixelRatio": 3,
+                "Navigator.prototype.mediaDevices": 3,
+                "MediaDevices.prototype.enumerateDevices": 3,
+                "Document.cookie setter": 3,
+                "window.innerHeight": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "56b5bab8f458d04530b6cd005bbd6b3dd87edfc1efda5ec95904484e923b0ba9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "v24u_goldsmiths": {
+                    "ttl": 315569268,
+                    "length": 36,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 1
+                },
+                "v24s_goldsmiths": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 1
+                },
+                "v24u_watchesofswitzerland": {
+                    "ttl": 315569267,
+                    "length": 36,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                },
+                "v24s_watchesofswitzerland": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/v2\\/js\\/modules\\/209\\.5b6c17715f86e956002f\\.mjs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "b37d4381ffacf391e2a2c1004e64e0a083f37c6edc451ef024d44038cc74e93c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/api\\/c\\/pagebehaviour",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "26720bbedd678dd6777ca907bce6bd1da40ec47e2f01852621b207af044f5394",
+                "3e33e87af372d738e873652f81d502d328d04d5fafe88cbfeac53b81e647da6f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/api\\/availability\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "7175acc2902900d38df0d2c9cf1fedd032d82a3ca60174f0a329db0ae75bdc1e",
+                "6f89b70f8adb630603383113e8624abe534b59f5c072bcce0fbd4aa0eff66420"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/api\\/n\\/loggerpage",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "1c0e38d229de2ebad0ee233dea89f72fb9f86637baa2a1bdea2e164fe3f2fd92",
+                "17f85bb56ef2f34cd21dffbb927c734431ee05a838c51005d708d0dade4f875b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/api\\/n\\/loggerpage",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/api\\/n\\/capabilities",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/api\\/n\\/capabilities",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/api\\/n\\/cookiesenabled",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "5acf3ff77b4420677b5923071f303facaba7a9273a346284a667a275df325146"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/api\\/c\\/domainsuffix",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ae8cc00cdf2f48adecd2064407161dc862aa6420ccba8af618dd21e30e43fa2d",
+                "1468672d4df5ddd3153215b5d15da9b72c3749c44aae85886b6352e43a3d7789"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/api\\/c\\/resources",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "c7531e0bfd32d204f64d7140baae32a76549732e077934be0ca927bb4495b380",
+                "db4d498f9b7d4905c7a56e1d08a69f00668b3eec41eaf47888c92bcb53540a95"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/v2\\/js\\/modules\\/993\\.532a0132e8a3b51e22c3\\.mjs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "415cf9632ae7aff8f55b5e8553e871f89f2d907aa06e3d5dad0045b80df5bb2d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/v2\\/js\\/modules\\/309\\.3c85569181611779cfcc\\.mjs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "14f89e8a8d9e2b37eacd188d78804b41e387c522e96bfd908b74d54f493e9bbc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/v2\\/js\\/modules\\/21\\.ad1b422f6589c6b3c3d7\\.mjs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "8ddeef721d27a93a9f9c5ba5e2c7d337522765088bbd4e6bd4019ee260aed15b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/v2\\/js\\/modules\\/vee24_assistance\\.component\\.f8cf657b93526063522e\\.mjs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "bb7b0448de6f2cf69f35819fd913de474714b19598f008cac5a1b2ecc41c7098"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/v2\\/js\\/modules\\/vee24_container\\.component\\.863916e539b98615bdcc\\.mjs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ec64d88ff380b96e635793e0a0cca8fa39a6bb96b8a13454ad16bc16ec15293a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/v2\\/js\\/modules\\/vee24_components_pre-engagement-form\\.component\\.780115fdc7a5ea32b1f2\\.mjs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "d4dd462eb1fafff9dd9f31fbaa7387b48b721d1318f81c2d6f7697712f174436"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/v2\\/css\\/global\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "2f72d51dd9b2ba390040621ae6359fb9f5865486660fdacb72bb10a173a8d40f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/v2\\/css\\/engagement\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "370bc8b3f8b984f573f1019c3dad9b0c0a0258c70da46f790cd2083f9212deac"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/v2\\/clients\\/goldsmiths\\/theme\\/fonts\\/fonts\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0697c5e84440208c27b1d482b63b30d27cf04553ea2172aa3c833c6e18b9dec0"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/v2\\/js\\/modules\\/vee24_features_panel\\.component\\.7a0378465694ebab3bef\\.mjs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "21cee29c8f927778fed2e6942f428203a46ec740524bc67f8f4769e154e7ea07"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/v2\\/js\\/modules\\/vee24-controllers-nudges-controller\\.262b40b753e508e87cfa\\.mjs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "0125e2e6daccfa975d80bc22757ca22cdfa83ab4e8ed2ec11535d1fb8426ea2e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/v24\\/veedesk\\/themes\\/master\\/images\\/logo-black\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "7c3ef637995642966cc38885452c39c7f5172a90a60984131af6dce45eac6b1a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/v24\\/clients\\/master\\/pages\\/legal\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "972a031c7cffa2b71e8d9ce021c34aca282989b44433c15fb52a9f0869e2fa0b"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/v2\\/css\\/fonts\\/v24-modern-icons\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "56f940c965564c93676491cc5eb38b87e4395566e7e93e8a577b3f9bef79a21f"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/v24\\/clients\\/master\\/pages\\/reset\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "2bd61fab7dd5e62af38b232183d441e2ab0b790f2e46c9626cda6c189d5be69e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        },
+        {
+            "rule": "vee24\\.com\\/v24\\/clients\\/master\\/pages\\/iframe\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "98e786e67c4436f57bc907e6b2c79cd3e2fb99ee53b5e7cbe0c0a45a3cf50ba5"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldsmiths.co.uk",
+                "www.goldsmiths.co.uk",
+                "www.watches-of-switzerland.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 36,
+        "XHR": 3,
+        "Preflight": 9,
+        "Fetch": 18,
+        "Stylesheet": 14,
+        "Image": 3,
+        "Document": 3,
+        "Font": 3
+    },
+    "nameservers": [
+        "ns2.vee24.com",
+        "ns4.vee24.com",
+        "ns1.vee24.com",
+        "ns3.vee24.com"
+    ]
+}

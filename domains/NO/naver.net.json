@@ -1,0 +1,92 @@
+{
+    "domain": "naver.net",
+    "owner": {
+        "name": "Naver Corporation",
+        "displayName": "Naver"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [
+        "wcs"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "naver\\.net\\/wcslog\\.js",
+            "cookies": 0.000603,
+            "fingerprinting": 2,
+            "subdomains": [
+                "wcs"
+            ],
+            "apis": {
+                "Document.cookie getter": 6,
+                "Date.prototype.getTime": 6,
+                "Document.cookie setter": 6,
+                "Navigator.prototype.platform": 6,
+                "Navigator.prototype.language": 6,
+                "Screen.prototype.width": 6,
+                "Screen.prototype.height": 6,
+                "Screen.prototype.colorDepth": 6,
+                "Navigator.prototype.javaEnabled": 6,
+                "Navigator.prototype.appVersion": 6,
+                "Navigator.prototype.appName": 6,
+                "Navigator.prototype.cookieEnabled": 6,
+                "window.localStorage": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "0f2e9075f767fd375e10c4ec5a07f3c6b5ca3e81bf9bc7f748b3127bfceb7e0b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_fwb": {
+                    "ttl": 6307196408,
+                    "length": 37,
+                    "prevalence": 0.0006025911419102139,
+                    "uniqueness": 1
+                },
+                "wcs_bt": {
+                    "ttl": 6307196408,
+                    "length": 25,
+                    "prevalence": 0.0006025911419102139,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "roborock.com",
+                "www.bybit.com",
+                "www.figma.com",
+                "www.jlindeberg.com",
+                "www.movavi.com",
+                "www.trip.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000603,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.42857142857142855
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns2.naver.com",
+        "ns1.naver.com"
+    ]
+}

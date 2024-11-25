@@ -1,0 +1,412 @@
+{
+    "domain": "mktoweb.com",
+    "owner": {
+        "name": "Adobe Inc.",
+        "displayName": "Adobe",
+        "privacyPolicy": "https://www.adobe.com/privacy/marketing-cloud.html",
+        "url": "http://adobe.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.001,
+    "sites": 10,
+    "subdomains": [
+        "logrocket",
+        "clickup",
+        "datadoginc",
+        "mariadb",
+        "altium",
+        "bydproduction",
+        "digikey",
+        "influxdata",
+        "486-nhr-463",
+        "elasticsearch"
+    ],
+    "cnames": [
+        {
+            "original": "edm.byd.com",
+            "resolved": "bydproduction.mktoweb.com"
+        },
+        {
+            "original": "get.influxdata.com",
+            "resolved": "influxdata.mktoweb.com"
+        },
+        {
+            "original": "go.altium.com",
+            "resolved": "altium.mktoweb.com"
+        },
+        {
+            "original": "go.mariadb.com",
+            "resolved": "mariadb.mktoweb.com"
+        },
+        {
+            "original": "info.digikey.com",
+            "resolved": "digikey.mktoweb.com"
+        },
+        {
+            "original": "info.elastic.co",
+            "resolved": "elasticsearch.mktoweb.com"
+        },
+        {
+            "original": "lp.datadoghq.com",
+            "resolved": "datadoginc.mktoweb.com"
+        },
+        {
+            "original": "pages.clickup.com",
+            "resolved": "clickup.mktoweb.com"
+        },
+        {
+            "original": "www2.logrocket.com",
+            "resolved": "logrocket.mktoweb.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mktoweb\\.com\\/js\\/forms2\\/js\\/forms2\\.min\\.js",
+            "cookies": 0.000904,
+            "fingerprinting": 1,
+            "subdomains": [
+                "logrocket",
+                "clickup",
+                "datadoginc",
+                "mariadb",
+                "altium",
+                "bydproduction",
+                "digikey",
+                "influxdata",
+                "486-nhr-463"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Event.prototype.timeStamp": 1,
+                "Element.prototype.getClientRects": 1
+            },
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [
+                {
+                    "original": "www2.logrocket.com",
+                    "resolved": "logrocket.mktoweb.com"
+                },
+                {
+                    "original": "pages.clickup.com",
+                    "resolved": "clickup.mktoweb.com"
+                },
+                {
+                    "original": "lp.datadoghq.com",
+                    "resolved": "datadoginc.mktoweb.com"
+                },
+                {
+                    "original": "go.mariadb.com",
+                    "resolved": "mariadb.mktoweb.com"
+                },
+                {
+                    "original": "go.altium.com",
+                    "resolved": "altium.mktoweb.com"
+                },
+                {
+                    "original": "edm.byd.com",
+                    "resolved": "bydproduction.mktoweb.com"
+                },
+                {
+                    "original": "info.digikey.com",
+                    "resolved": "digikey.mktoweb.com"
+                },
+                {
+                    "original": "get.influxdata.com",
+                    "resolved": "influxdata.mktoweb.com"
+                }
+            ],
+            "responseHashes": [
+                "0e1bfe53260b5fa35318df2850a20f74c97d41af88b7d233d331811d842f26d3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "logrocket.com",
+                "blog.logrocket.com",
+                "clickup.com",
+                "docs.datadoghq.com",
+                "mariadb.com",
+                "resources.altium.com",
+                "www.byd.com",
+                "www.digikey.com",
+                "www.influxdata.com",
+                "www.yubico.com"
+            ]
+        },
+        {
+            "rule": "mktoweb\\.com\\/index\\.php\\/form\\/getForm",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logrocket",
+                "datadoginc",
+                "mariadb",
+                "bydproduction",
+                "influxdata",
+                "486-nhr-463"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [
+                {
+                    "original": "www2.logrocket.com",
+                    "resolved": "logrocket.mktoweb.com"
+                },
+                {
+                    "original": "lp.datadoghq.com",
+                    "resolved": "datadoginc.mktoweb.com"
+                },
+                {
+                    "original": "go.mariadb.com",
+                    "resolved": "mariadb.mktoweb.com"
+                },
+                {
+                    "original": "edm.byd.com",
+                    "resolved": "bydproduction.mktoweb.com"
+                },
+                {
+                    "original": "get.influxdata.com",
+                    "resolved": "influxdata.mktoweb.com"
+                }
+            ],
+            "responseHashes": [
+                "12dae410374bee4dfe12b087848f5128bd296e01baee6ff1ef61afe08540d140",
+                "70469f6fdad256149ad5cccd535dfa848d276a4c1c51ad30a1f285d51895f1c8",
+                "6f7689480687473fbea75ca3a6735e68f199729e19e37f22177d73c77522f5cd",
+                "fd5558bceee4ca87511a6c9ec4297a82b9e641bf9244cb9e909e7bb55acc8920",
+                "31e78af4410542bf0af92854a5708c0418919b7a5b346c948100bcfed77fba2d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "logrocket.com",
+                "docs.datadoghq.com",
+                "mariadb.com",
+                "www.byd.com",
+                "www.influxdata.com",
+                "www.yubico.com"
+            ]
+        },
+        {
+            "rule": "mktoweb\\.com\\/js\\/forms2\\/css\\/forms2\\.css",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logrocket",
+                "datadoginc",
+                "mariadb",
+                "bydproduction",
+                "elasticsearch",
+                "influxdata",
+                "486-nhr-463"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [
+                {
+                    "original": "www2.logrocket.com",
+                    "resolved": "logrocket.mktoweb.com"
+                },
+                {
+                    "original": "lp.datadoghq.com",
+                    "resolved": "datadoginc.mktoweb.com"
+                },
+                {
+                    "original": "go.mariadb.com",
+                    "resolved": "mariadb.mktoweb.com"
+                },
+                {
+                    "original": "edm.byd.com",
+                    "resolved": "bydproduction.mktoweb.com"
+                },
+                {
+                    "original": "info.elastic.co",
+                    "resolved": "elasticsearch.mktoweb.com"
+                },
+                {
+                    "original": "get.influxdata.com",
+                    "resolved": "influxdata.mktoweb.com"
+                }
+            ],
+            "responseHashes": [
+                "256e42104f48a5fa80b031da12dc56acde224fba3f9810f8f8192b39136d365a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "logrocket.com",
+                "docs.datadoghq.com",
+                "mariadb.com",
+                "www.byd.com",
+                "www.elastic.co",
+                "www.influxdata.com",
+                "www.yubico.com"
+            ]
+        },
+        {
+            "rule": "mktoweb\\.com\\/index\\.php\\/form\\/XDFrame",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logrocket",
+                "datadoginc",
+                "mariadb",
+                "bydproduction",
+                "digikey",
+                "486-nhr-463"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [
+                {
+                    "original": "www2.logrocket.com",
+                    "resolved": "logrocket.mktoweb.com"
+                },
+                {
+                    "original": "lp.datadoghq.com",
+                    "resolved": "datadoginc.mktoweb.com"
+                },
+                {
+                    "original": "go.mariadb.com",
+                    "resolved": "mariadb.mktoweb.com"
+                },
+                {
+                    "original": "edm.byd.com",
+                    "resolved": "bydproduction.mktoweb.com"
+                },
+                {
+                    "original": "info.digikey.com",
+                    "resolved": "digikey.mktoweb.com"
+                }
+            ],
+            "responseHashes": [
+                "7c0edea4f809b478da9b88fb33fe91f2339753c453692bbe1e5496075a517dfc",
+                "da41f0cdd4b5ade71b54e80b62e2718718d1e5d94516fc21089b3037e74433ef",
+                "b5a1062cd04b855e625ae8fe14e840c01ba459697a2bfb262f4bef30f1dd4f7a",
+                "fce0bbcc333dd9bc1dd01acdeb493179103567b0732b5712629f2f5dd8f77e73",
+                "2d9c5f298809b3415df701822e9c2b998a468baf9faa21ed3c40bba8e7fd7e7a"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "logrocket.com",
+                "docs.datadoghq.com",
+                "mariadb.com",
+                "www.byd.com",
+                "www.digikey.com",
+                "www.yubico.com"
+            ]
+        },
+        {
+            "rule": "mktoweb\\.com\\/js\\/forms2\\/css\\/forms2-theme-inset\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bydproduction",
+                "486-nhr-463"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "edm.byd.com",
+                    "resolved": "bydproduction.mktoweb.com"
+                }
+            ],
+            "responseHashes": [
+                "53386b51cdacd99baec553808a51cb6964b2a6e4b9db4c73d977c3d7311c76b6"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "byd.com",
+                "www.yubico.com"
+            ]
+        },
+        {
+            "rule": "mktoweb\\.com\\/js\\/forms2\\/css\\/forms2-theme-plain\\.css",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "elasticsearch",
+                "influxdata"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "info.elastic.co",
+                    "resolved": "elasticsearch.mktoweb.com"
+                },
+                {
+                    "original": "get.influxdata.com",
+                    "resolved": "influxdata.mktoweb.com"
+                }
+            ],
+            "responseHashes": [
+                "57cd46adbabd6c40823602b4513aecbe89320a769572255272abe9f008de69fa"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elastic.co",
+                "www.influxdata.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.001,
+    "topInitiators": [
+        {
+            "domain": "wistia.com",
+            "prevalence": 0.2631578947368421
+        },
+        {
+            "domain": "lr-wa.com",
+            "prevalence": 0.21052631578947367
+        },
+        {
+            "domain": "digikeyassets.com",
+            "prevalence": 0.21052631578947367
+        },
+        {
+            "domain": "jquery.com",
+            "prevalence": 0.21052631578947367
+        },
+        {
+            "domain": "trustarc.com",
+            "prevalence": 0.05263157894736842
+        },
+        {
+            "domain": "consentmanager.net",
+            "prevalence": 0.05263157894736842
+        }
+    ],
+    "types": {
+        "Script": 16,
+        "Stylesheet": 11,
+        "Document": 6
+    },
+    "nameservers": [
+        "ns3.marketo.co.uk",
+        "ns2.mktdns.com",
+        "ns1.marketo.com"
+    ]
+}

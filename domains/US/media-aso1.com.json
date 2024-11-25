@@ -1,0 +1,118 @@
+{
+    "domain": "media-aso1.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "cid"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "media-aso1\\.com\\/l\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "7dea1819a3c7d698f2d5e59bac1b3d9a68cde2b186c02eb8aa5c6f4469ed5c99"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lotterypost.com",
+                "www.lotterypost.com",
+                "www.usamega.com"
+            ]
+        },
+        {
+            "rule": "media-aso1\\.com\\/lotterypost-com\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3808d1a1304fb27714ae64ee13cbd6a16bf5e431d7735c98828523ce8375669d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lotterypost.com",
+                "www.lotterypost.com"
+            ]
+        },
+        {
+            "rule": "media-aso1\\.com\\/sa\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [],
+            "apis": {
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.colorDepth": 2,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.indexedDB": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.plugins": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "window.outerWidth": 1,
+                "window.innerWidth": 1,
+                "window.outerHeight": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fb854d6577e7a0974a66e04f6cb91e8a2efac149cc6b120ea8b652f543182fb9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lotterypost.com",
+                "www.lotterypost.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "bidgx.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "dorthy.ns.cloudflare.com",
+        "margo.ns.cloudflare.com"
+    ]
+}

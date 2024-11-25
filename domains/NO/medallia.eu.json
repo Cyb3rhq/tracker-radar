@@ -1,0 +1,165 @@
+{
+    "domain": "medallia.eu",
+    "owner": {
+        "name": "Medallia Inc.",
+        "displayName": "Medallia",
+        "privacyPolicy": "https://www.medallia.com/privacy-policy/",
+        "url": "http://medallia.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "analytics-fe.digital-cloud",
+        "resources.digital-cloud"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "medallia\\.eu\\/api\\/web\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics-fe.digital-cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obs.no",
+                "www.obsbygg.no"
+            ]
+        },
+        {
+            "rule": "medallia\\.eu\\/api\\/web\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics-fe.digital-cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "obs.no",
+                "www.obsbygg.no"
+            ]
+        },
+        {
+            "rule": "medallia\\.eu\\/wdceu\\/401265\\/onsite\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "resources.digital-cloud"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a3be3fd06726c44e15fbe037ca66fdfc5353bef3ec17acdb09e30d412b3aa8ac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "teliaplay.no",
+                "www.teliaplay.se"
+            ]
+        },
+        {
+            "rule": "medallia\\.eu\\/wdceu\\/401265\\/onsite\\/generic1731517593546\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "resources.digital-cloud"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2a35c2f342fc7f5eed11c4fe2e767eb1f2357f2a343bad34f0d2df05a8955526"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "kampyle_userid": {
+                    "ttl": 31536008,
+                    "length": 39,
+                    "prevalence": 0.00020086371397007131,
+                    "uniqueness": 1
+                },
+                "kampyleUserSession": {
+                    "ttl": 31536008,
+                    "length": 13,
+                    "prevalence": 0.00020086371397007131,
+                    "uniqueness": 1
+                },
+                "kampyleSessionPageCounter": {
+                    "ttl": 31536008,
+                    "length": 1,
+                    "prevalence": 0.00020086371397007131,
+                    "uniqueness": 0.5
+                },
+                "kampyleUserSessionsCount": {
+                    "ttl": 31536008,
+                    "length": 1,
+                    "prevalence": 0.00020086371397007131,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "teliaplay.no",
+                "www.teliaplay.se"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Preflight": 2,
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-1002.awsdns-61.net",
+        "ns-1113.awsdns-11.org",
+        "ns-1666.awsdns-16.co.uk",
+        "ns-269.awsdns-33.com"
+    ]
+}

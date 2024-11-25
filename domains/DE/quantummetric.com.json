@@ -1,0 +1,456 @@
+{
+    "domain": "quantummetric.com",
+    "owner": {
+        "name": "Quantum Metric Inc.",
+        "displayName": "Quantum Metric"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00121,
+    "sites": 12,
+    "subdomains": [
+        "ingest",
+        "cdn",
+        "ingesteu",
+        "telegraph-sync",
+        "united-sync",
+        "rl"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "quantummetric\\.com\\/horizon\\/norton",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingest"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "QuantumMetricSessionID": 0.00010049241282283188
+            },
+            "exampleSites": [
+                "norton.com",
+                "de.norton.com"
+            ]
+        },
+        {
+            "rule": "quantummetric\\.com\\/qscripts\\/quantum-lenovosupport\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "URL.createObjectURL": 1,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.webkitTemporaryStorage": 2,
+                "Performance.prototype.memory": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.connection": 2,
+                "Screen.prototype.orientation": 2,
+                "Navigator.prototype.doNotTrack": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d345902fd5b674b3aeecaf641a2124d1dc470bdedde44b392c3e74744391e8ff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "qm-ssc": {
+                    "ttl": -1731771097,
+                    "length": 4,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 0.5
+                },
+                "QuantumMetricSessionID": {
+                    "ttl": 1809,
+                    "length": 32,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 1
+                },
+                "QuantumMetricUserID": {
+                    "ttl": 31536009,
+                    "length": 32,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lenovo.com",
+                "support.lenovo.com"
+            ]
+        },
+        {
+            "rule": "quantummetric\\.com\\/horizon\\/lenovosupport",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingest"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "1e2b12592dd3d78f26d3d49a50afa11fd55e709f21bbdd529bd699cbd44362a1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "QuantumMetricSessionID": 0.00010049241282283188,
+                "QuantumMetricUserID": 0.00010049241282283188
+            },
+            "exampleSites": [
+                "lenovo.com",
+                "pcsupport.lenovo.com",
+                "support.lenovo.com"
+            ]
+        },
+        {
+            "rule": "quantummetric\\.com\\/horizon\\/beatport",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingest"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "QuantumMetricSessionID": 0.00010049241282283188,
+                "QuantumMetricUserID": 0.00010049241282283188
+            },
+            "exampleSites": [
+                "beatport.com",
+                "www.beatport.com"
+            ]
+        },
+        {
+            "rule": "quantummetric\\.com\\/horizon\\/pluginboutique",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingest"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "QuantumMetricSessionID": 0.00010049241282283188,
+                "QuantumMetricUserID": 0.00010049241282283188
+            },
+            "exampleSites": [
+                "pluginboutique.com",
+                "www.pluginboutique.com"
+            ]
+        },
+        {
+            "rule": "quantummetric\\.com\\/qscripts\\/quantum-sunexpress\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "URL.createObjectURL": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.vendor": 2,
+                "Animation.prototype.currentTime": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.connection": 2,
+                "Screen.prototype.orientation": 2,
+                "Navigator.prototype.doNotTrack": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7a5d8fcccfd8077aa5cb8daffa4f6c89572f7f8e33a0e9bfeacab5a46d3091fd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "qm-ssc": {
+                    "ttl": -1731770830,
+                    "length": 4,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 0.5
+                },
+                "QuantumMetricSessionID": {
+                    "ttl": 1814,
+                    "length": 32,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 0.5
+                },
+                "QuantumMetricUserID": {
+                    "ttl": 31536014,
+                    "length": 32,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sunexpress.com",
+                "www.sunexpress.com"
+            ]
+        },
+        {
+            "rule": "quantummetric\\.com\\/horizon\\/sunexpress",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingesteu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sunexpress.com",
+                "www.sunexpress.com"
+            ]
+        },
+        {
+            "rule": "quantummetric\\.com\\/horizon\\/telegraph",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingesteu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8d79183648ddb4c788d144751ef5bebec6431aa63c4e14f0dab12ccf622787ce"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "dnsDisplayed": 0.00010049241282283188,
+                "signedLspa": 0.00010049241282283188
+            },
+            "exampleSites": [
+                "telegraph.co.uk",
+                "www.telegraph.co.uk"
+            ]
+        },
+        {
+            "rule": "quantummetric\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "telegraph-sync",
+                "united-sync"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "QuantumMetricSessionID": 0.00020098482564566376
+            },
+            "exampleSites": [
+                "telegraph.co.uk",
+                "www.united.com"
+            ]
+        },
+        {
+            "rule": "quantummetric\\.com\\/horizon\\/united",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingest"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "QuantumMetricSessionID": 0.00010049241282283188,
+                "QuantumMetricUserID": 0.00010049241282283188
+            },
+            "exampleSites": [
+                "united.com",
+                "www.united.com"
+            ]
+        },
+        {
+            "rule": "quantummetric\\.com\\/horizon\\/vistaprint",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingest"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "QuantumMetricSessionID": 0.00010049241282283188,
+                "QuantumMetricUserID": 0.00010049241282283188
+            },
+            "exampleSites": [
+                "vistaprint.de",
+                "www.vistaprint.de"
+            ]
+        },
+        {
+            "rule": "quantummetric\\.com\\/horizon\\/wu",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingest"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "QuantumMetricSessionID": 0.00010049241282283188
+            },
+            "exampleSites": [
+                "westernunion.com",
+                "www.westernunion.com"
+            ]
+        },
+        {
+            "rule": "quantummetric\\.com\\/wu\\/hash-check",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "westernunion.com",
+                "www.westernunion.com"
+            ]
+        },
+        {
+            "rule": "quantummetric\\.com\\/horizon\\/ylo",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingest"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "QuantumMetricSessionID": 0.00010049241282283188
+            },
+            "exampleSites": [
+                "youngliving.com",
+                "www.youngliving.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00121,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5535714285714286
+        },
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.23214285714285715
+        },
+        {
+            "domain": "figpii.com",
+            "prevalence": 0.10714285714285714
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.05357142857142857
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.017857142857142856
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.017857142857142856
+        },
+        {
+            "domain": "evergage.com",
+            "prevalence": 0.017857142857142856
+        }
+    ],
+    "types": {
+        "Fetch": 25,
+        "Script": 4
+    },
+    "nameservers": [
+        "ian.ns.cloudflare.com",
+        "mary.ns.cloudflare.com"
+    ]
+}

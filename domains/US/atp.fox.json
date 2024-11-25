@@ -1,0 +1,402 @@
+{
+    "domain": "atp.fox",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000403,
+    "sites": 59,
+    "subdomains": [
+        "prod.fennec",
+        "prod.pyxis",
+        "prod.xid"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "atp\\.fox\\/js\\/fennec\\.js",
+            "cookies": 0.000082,
+            "fingerprinting": 2,
+            "subdomains": [
+                "prod.fennec"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "Document.cookie getter": 29,
+                "window.localStorage": 29,
+                "Navigator.prototype.userAgent": 25,
+                "window.outerWidth": 25,
+                "window.outerHeight": 25,
+                "window.innerHeight": 25,
+                "window.innerWidth": 25,
+                "Document.cookie setter": 12
+            },
+            "sites": 31,
+            "prevalence": 0.000212,
+            "cnames": [],
+            "responseHashes": [
+                "3ff3c5a4680bea779a88a819574d6efd5320ae14f7e3c1ffa8368db4eaeedf62"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "xid": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.0000819840131174421,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.breitbart.com",
+                "www.foxnews.com",
+                "www.fox10phoenix.com",
+                "nation.foxnews.com",
+                "www.foxsports.com",
+                "www.fox4news.com",
+                "www.fox2detroit.com",
+                "www.fox6now.com",
+                "www.fox5atlanta.com",
+                "homelandstrategic.com",
+                "www.livenowfox.com",
+                "try.nation.foxnews.com",
+                "www.fox26houston.com",
+                "www.fox5ny.com",
+                "www.ktvu.com",
+                "www.fox.com",
+                "www.fox13news.com",
+                "www.fox9.com",
+                "www.fox35orlando.com",
+                "www.foxweather.com"
+            ]
+        },
+        {
+            "rule": "atp\\.fox\\/config\\/v2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.fennec"
+            ],
+            "apis": {},
+            "sites": 31,
+            "prevalence": 0.000212,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.breitbart.com",
+                "www.foxnews.com",
+                "www.livenowfox.com",
+                "www.fox13news.com",
+                "www.fox.com",
+                "www.foxla.com",
+                "www.fox2detroit.com",
+                "www.fox4news.com",
+                "www.outkick.com",
+                "toofab.com",
+                "www.fox26houston.com",
+                "homelandstrategic.com",
+                "www.foxweather.com",
+                "www.fox6now.com",
+                "www.fox32chicago.com",
+                "www.foxbusiness.com",
+                "www.fox9.com",
+                "my.foxnews.com",
+                "nation.foxnews.com",
+                "www.fox13seattle.com"
+            ]
+        },
+        {
+            "rule": "atp\\.fox\\/config\\/v2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.fennec"
+            ],
+            "apis": {},
+            "sites": 31,
+            "prevalence": 0.000212,
+            "cnames": [],
+            "responseHashes": [
+                "29588fd20246af5426a9d8a79f50250a2ee4fab6d6dd9926b7aeafd5f064f7e1",
+                "7e6dc7f654db96b9547b3628b223387ef73e2ca17e7255eb1d0e4b7ffe2e41e4",
+                "81b011da48a8ab287bf494d3d6489db8300458eff03fa4f01d5afa2a01ff56fa",
+                "78686b9337a095996dbf5108fdd46128be45cd39bfb6fd647f7ada813ce54c43",
+                "c2d2fb2d1755a7c4b448b103f9a3e8574bf2d3d9c8ec45bc8f875bd5c818f288",
+                "a3ffe016a173099dd44afcf6e63123269c85f37675864c0cc90a0d315426f33a",
+                "7078c49328499e056d49ec4dab0157a74e84f8da71b7366256d1a76ce80b9ff8",
+                "7a9e2ea2976245772a115c1adc14137879339ec226e8591fc57da563071e7304",
+                "e42d1033e6b537afeb642b545909996b7d6e1cc0977eeeeaecfa8e9ff1f62155"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.breitbart.com",
+                "www.foxnews.com",
+                "www.fox32chicago.com",
+                "www.fox2detroit.com",
+                "www.fox13news.com",
+                "www.foxweather.com",
+                "www.outkick.com",
+                "www.fox6now.com",
+                "www.fox13seattle.com",
+                "www.fox9.com",
+                "www.foxsports.com",
+                "www.fox5dc.com",
+                "my.foxnews.com",
+                "try.nation.foxnews.com",
+                "noticias.foxnews.com",
+                "www.fox5ny.com",
+                "www.fox.com",
+                "www.fox10phoenix.com",
+                "www.foxla.com",
+                "www.foxbusiness.com"
+            ]
+        },
+        {
+            "rule": "atp\\.fox\\/pyxis\\/submit",
+            "cookies": 0.000212,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.pyxis"
+            ],
+            "apis": {},
+            "sites": 32,
+            "prevalence": 0.000219,
+            "cnames": [],
+            "responseHashes": [
+                "4cff6f447fd11c6ff1ef6f8b895f0573c807903dc402373501166681f28f7bcc",
+                "e9eb08883839ec74ddae3c097ed57a8f791a7f63b63462768b6f29d6a18905b5",
+                "cfd529a3432cb9f5b6b061415e279be7dbce52d467598d8825980a59feae4d56",
+                "5f52c3f721c8006d0f1aaef829a30e883191ebe98e466472f857b45aadbe0b16",
+                "3a22f6dbfea25a898ca512508099706bc3203f9ea30be152cc8b55f83e84e43b",
+                "f0fde13b114e8a1cffb3ec16722ce518b19d68bfac41cbf3eaf38ec0df083e6d",
+                "9ec22a5eb64d076fe3ff5430e62e884ade7819309663a05d1a10f63828597931",
+                "b89b4b088e503ee8e325d91cb47d766b5251978f7a137eaf989835d5d4049c48",
+                "c6e631ecb63fbf5071220adb5601df7c3a50ab46534a8dac38fa2b3280ad3191",
+                "e8963343e134ed9d5d8229f6a8a04525dbadcbb7b870d7ae6a5f9984efeab9bf",
+                "adb3cacb84e3a339b8cdfb2788ae67e93d72a39da9bb32726a724c7bae3f2d88",
+                "fdaa700154492670a9498fef4ead596f9396ee49da8746253a3a726ad4b50d09",
+                "df6adf10c10c6e28735d772b063251c93147f63b3d4a345c8dc53b993e501e90",
+                "0326390d4b326c185b2eac919c83ffe90b3ddc9d6b97e46c860035ac7e31f4f9",
+                "036145e411df081ed207a562fda9ecf7e639b81d7c1814a361bb6958df444173",
+                "7f162505039eab5b9439bc40cfbfc326256f911082520a5d36cc577ce77fbd3c",
+                "689ffadd87e379e9265af55afeed9ef96d6203eca273d430822d4ea47f1c06f9",
+                "4891de40fe40a3851b0adb64502bf94cb079bdbfdba2c462f6c667b8afb1e9dc",
+                "29ff141c82866321f9d4430c8916798a1fc6bca34ae678cb8a291e983c1da432",
+                "69cd262bafbd2b9230758f370d239f7ac9ce74a5b223906ac9492ff17d13a5e0",
+                "4fe19809ce2901bfff7b149bffeef03640338e33b5f31ce2bd821606d37a3334",
+                "1b45f45afb50834999e0244ec13e49dfedc0beb66d685b946119546aeef2f5cb",
+                "a42936634e544317bf45ea0ee431ce004d8d45d3c3b5643b44e13b583b04f993",
+                "5d82441cfc79ec26924835b37e2718e579916bee8afcc0225558ac2e03753b36",
+                "17cb30ef42898b0b76694f049d598af5161bd1977e1097aaca2d8ba29534e811",
+                "1f79c13d62eadeca9033d637307ccb34ae22be6f2cfc199c87cfcbefe476b68e",
+                "04a4355132f677f071ba077bf661f56097241dc8fee03076d5a61a33c7f6e9bf",
+                "7d9980f06c6e13bbd34b42cdf5135426d27a5432ee632876f1949f1a6c04e44b",
+                "017ce9cd724b44ce91206570ed1404615d7dd006da03fac4fa876eecb2dd4aa1",
+                "108017659aa406a83e413005777f199bec39c302a3cfedaf853700deda965e81"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.breitbart.com",
+                "www.foxnews.com",
+                "www.fox32chicago.com",
+                "www.fox29.com",
+                "www.fox4news.com",
+                "www.fox5dc.com",
+                "www.foxweather.com",
+                "nation.foxnews.com",
+                "www.foxbusiness.com",
+                "www.fox7austin.com",
+                "www.fox13seattle.com",
+                "www.fox9.com",
+                "www.fox13news.com",
+                "homelandstrategic.com",
+                "www.fox10phoenix.com",
+                "www.foxla.com",
+                "www.fox.com",
+                "www.ktvu.com",
+                "www.fox5ny.com",
+                "noticias.foxnews.com"
+            ]
+        },
+        {
+            "rule": "atp\\.fox\\/pyxis\\/submit",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.pyxis"
+            ],
+            "apis": {},
+            "sites": 32,
+            "prevalence": 0.000219,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.breitbart.com",
+                "www.foxnews.com",
+                "www.foxbusiness.com",
+                "www.outkick.com",
+                "www.fox2detroit.com",
+                "www.fox35orlando.com",
+                "www.fox5atlanta.com",
+                "www.fox5dc.com",
+                "toofab.com",
+                "nation.foxnews.com",
+                "www.fox26houston.com",
+                "try.nation.foxnews.com",
+                "www.fox4news.com",
+                "www.fox7austin.com",
+                "noticias.foxnews.com",
+                "www.ktvu.com",
+                "www.tmz.com",
+                "www.fox6now.com",
+                "www.fox9.com",
+                "www.foxsports.com"
+            ]
+        },
+        {
+            "rule": "atp\\.fox\\/v2\\/xid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.xid"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.000102,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fox10phoenix.com",
+                "www.fox13seattle.com",
+                "www.fox26houston.com",
+                "www.fox2detroit.com",
+                "www.fox32chicago.com",
+                "www.fox35orlando.com",
+                "www.fox4news.com",
+                "www.fox5atlanta.com",
+                "www.fox5dc.com",
+                "www.fox5ny.com",
+                "www.fox6now.com",
+                "www.fox9.com",
+                "www.foxla.com",
+                "www.ktvu.com",
+                "www.livenowfox.com"
+            ]
+        },
+        {
+            "rule": "atp\\.fox\\/v2\\/xid",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.xid"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.000102,
+            "cnames": [],
+            "responseHashes": [
+                "0955b1afaa35862ec37931f54c2ce8e8883450dd68f11137831f4972ca848f21",
+                "79bad99a11849c8c9927596602a690aac698f2280308f809de3c90f11d5b4ae0",
+                "6cf3e0fa9415103fe0249393d041f1a8c4fd1b8225d383e9fa8cf81890817908",
+                "3b77b68a647d8ed9f8b9ddab8a411f6a6c3bdf45b748d28a4da4c428b7dcde31",
+                "3cc94602b71f9e55c20701edf9a77f9f95bc99e102ef3ccf2c489f0aafe33322",
+                "e1ed32b968b5da9e3caa8df4470b437e569d76982efbef7b69b9d88739db9011",
+                "67d85c875f593633a0e5022ea5820a882b959e1c94dfc8191147be750952cda7",
+                "4fcdc0a81a5df7dd225d400cf8b727da07adaa58e0eb92b6830f93c6f50ac447",
+                "7039349b7e4a97f530442a88c4e477e0315e2f4a75ff1c68b79def4da181dbf0",
+                "10525b9213d6ab2d5d09b1dc71935ac3163b1ef57ac0fe5e5236f60a69ae3564",
+                "9f4f2b862ff2dc45e7fc6bc482293f5cc1a3a7bc7458cb7d65bbaa095f71a7c0",
+                "f5a29d2c687c753020ce60a0ddc08222f4876d7bff995072213532bf38ee5395",
+                "c0ba7a58dd3e0c89bace89641e5cfebc25b6940a50dfc12c3261e88a9f28faa6",
+                "4ba83d3132181ab9d7df0bae0aed76dd68cf8ba402a20153ac7ec4a59f682e63"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fox10phoenix.com",
+                "www.fox13seattle.com",
+                "www.fox26houston.com",
+                "www.fox2detroit.com",
+                "www.fox32chicago.com",
+                "www.fox35orlando.com",
+                "www.fox4news.com",
+                "www.fox5atlanta.com",
+                "www.fox5dc.com",
+                "www.fox5ny.com",
+                "www.fox6now.com",
+                "www.fox9.com",
+                "www.foxla.com",
+                "www.ktvu.com",
+                "www.livenowfox.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000403,
+    "topInitiators": [
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.425531914893617
+        },
+        {
+            "domain": "webcontentassessor.com",
+            "prevalence": 0.1574468085106383
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.14893617021276595
+        },
+        {
+            "domain": "foxnews.com",
+            "prevalence": 0.1148936170212766
+        },
+        {
+            "domain": "fox.com",
+            "prevalence": 0.1148936170212766
+        },
+        {
+            "domain": "webcontentassessor.global.ssl.fastly.net",
+            "prevalence": 0.02553191489361702
+        },
+        {
+            "domain": "foxbusiness.com",
+            "prevalence": 0.00851063829787234
+        },
+        {
+            "domain": "foxsports.com",
+            "prevalence": 0.00425531914893617
+        }
+    ],
+    "types": {
+        "Script": 31,
+        "Preflight": 78,
+        "XHR": 31,
+        "Fetch": 47
+    },
+    "nameservers": [
+        "ns01.foxdoua.com",
+        "ns01.dns.fox",
+        "ns04.dns.fox",
+        "ns03.dns.fox",
+        "ns03.foxdoua.com",
+        "ns04.foxdoua.com",
+        "ns02.dns.fox",
+        "ns02.foxdoua.com"
+    ]
+}

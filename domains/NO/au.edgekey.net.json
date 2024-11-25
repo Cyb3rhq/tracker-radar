@@ -1,0 +1,130 @@
+{
+    "domain": "au.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "collector.abc.net",
+        "carsguide.com"
+    ],
+    "cnames": [
+        {
+            "original": "collector.abc.net.au",
+            "resolved": "collector.abc.net.au.edgekey.net"
+        },
+        {
+            "original": "resources.carsguide.com.au",
+            "resolved": "carsguide.com.au.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "au\\.edgekey\\.net\\/com\\.snowplowanalytics\\.snowplow\\/tp2",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collector.abc.net"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "collector.abc.net.au",
+                    "resolved": "collector.abc.net.au.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc.net.au",
+                "www.abc.net.au"
+            ]
+        },
+        {
+            "rule": "au\\.edgekey\\.net\\/gtm\\/dmp-visitor-script\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "carsguide.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "resources.carsguide.com.au",
+                    "resolved": "carsguide.com.au.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "99246eeebd879d6452ea98acc1ca3ed2c1e74eaa0ef1c977e0bf577777172eb7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carsguide.com.au",
+                "www.carsguide.com.au"
+            ]
+        },
+        {
+            "rule": "au\\.edgekey\\.net\\/gtm\\/dmp-dil-script\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "carsguide.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "resources.carsguide.com.au",
+                    "resolved": "carsguide.com.au.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "f8bca0dbc7009a3977e34282b5dd40139b5df81a2fc078ad927c40d911713a61"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carsguide.com.au",
+                "www.carsguide.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7916666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.20833333333333334
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Script": 4
+    },
+    "nameservers": []
+}

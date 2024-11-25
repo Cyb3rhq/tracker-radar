@@ -1,0 +1,199 @@
+{
+    "domain": "clustrmaps.com",
+    "owner": {
+        "name": "ClustrMaps",
+        "displayName": "ClustrMaps"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000547,
+    "sites": 8,
+    "subdomains": [
+        "www",
+        "cdn",
+        "www2"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "clustrmaps\\.com\\/map_v2\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clonezilla.org",
+                "crystalmark.info"
+            ]
+        },
+        {
+            "rule": "clustrmaps\\.com\\/map_v2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "executableoutlines.com",
+                "www.executableoutlines.com",
+                "www.jmri.org"
+            ]
+        },
+        {
+            "rule": "clustrmaps\\.com\\/widget_call_home\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "d1895af70b12d1878b321f5d1ef1081e7947db97031ab6c926cab8176b5163cb",
+                "16e8f1ce0db920d86681f6735bddc14f5cc731a1cee46eef48b856a1333ff5e6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "executableoutlines.com",
+                "www.executableoutlines.com",
+                "www.jmri.org"
+            ]
+        },
+        {
+            "rule": "clustrmaps\\.com\\/generated_content\\/backs\\/bg-w_300\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "58dad7f11cf05aba2e944be987c1187d38a1e8405c01bf34497e6eb99cbc2028"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "executableoutlines.com",
+                "www.executableoutlines.com",
+                "www.jmri.org"
+            ]
+        },
+        {
+            "rule": "clustrmaps\\.com\\/ajax\\/map",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "7b1649fd0cec9003f9542c86f7a5bb7284f4e44d7dd0ba27891297a2813376df",
+                "c3adabcdcf03b139fb43cefdb5b54c7abf4f0354692afb1274f73f09bde8c018"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "executableoutlines.com",
+                "www.executableoutlines.com",
+                "www.jmri.org"
+            ]
+        },
+        {
+            "rule": "clustrmaps\\.com\\/counter\\/index2\\.php",
+            "cookies": 0.00000683,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "01982bbb90bb9bd218d8ca35b0ad0650c9507c570918852719f9ba30e0d19286"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grasshopper3d.com",
+                "www.grasshopper3d.com"
+            ]
+        },
+        {
+            "rule": "clustrmaps\\.com\\/globe\\.js",
+            "cookies": 0.00000683,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7ef36cd47756cc86e4bf19014a079eb2beeb7cdf913c219013af84cd1475ccdd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "honeybeesuite.com",
+                "www.honeybeesuite.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000547,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7037037037037037
+        },
+        {
+            "domain": "jquery.com",
+            "prevalence": 0.2222222222222222
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.07407407407407407
+        }
+    ],
+    "types": {
+        "Image": 7,
+        "Script": 11
+    },
+    "nameservers": [
+        "aurora.ns.cloudflare.com",
+        "decker.ns.cloudflare.com"
+    ]
+}

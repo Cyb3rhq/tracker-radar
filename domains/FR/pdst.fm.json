@@ -1,0 +1,86 @@
+{
+    "domain": "pdst.fm",
+    "owner": {
+        "name": "Podsights",
+        "displayName": "Podsights"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000504,
+    "sites": 5,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "pdst\\.fm\\/ping\\.min\\.js",
+            "cookies": 0.000403,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 4,
+                "window.sessionStorage": 5,
+                "window.innerWidth": 5,
+                "window.innerHeight": 5,
+                "Date.prototype.getTimezoneOffset": 5,
+                "window.localStorage": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000504,
+            "cnames": [],
+            "responseHashes": [
+                "42e2dd427dd9f9d45367c880c68289114b7de56373ff8bdc664ea0fa3ce77880"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__pdst": {
+                    "ttl": 31536007,
+                    "length": 32,
+                    "prevalence": 0.00040306328093510683,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hbr.org",
+                "www.fiverr.com",
+                "www.redfin.com",
+                "www.unicef.org",
+                "www.vogue.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000403,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "px-cdn.net",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "ns-cloud-e1.googledomains.com",
+        "ns-cloud-e2.googledomains.com",
+        "ns-cloud-e3.googledomains.com",
+        "ns-cloud-e4.googledomains.com"
+    ]
+}

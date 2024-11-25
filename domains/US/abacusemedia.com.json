@@ -1,0 +1,90 @@
+{
+    "domain": "abacusemedia.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [
+        "emeapi-staging",
+        "emeapi"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "abacusemedia\\.com\\/scripts\\/eme\\.js",
+            "cookies": 0.0000342,
+            "fingerprinting": 2,
+            "subdomains": [
+                "emeapi-staging",
+                "emeapi"
+            ],
+            "apis": {
+                "window.sessionStorage": 1,
+                "Screen.prototype.width": 5,
+                "window.devicePixelRatio": 5,
+                "Screen.prototype.height": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "572d78fd77ecef2be13caf8bb432d27cd99b569dedcdf2cebecc5dfcd7fad8b7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rsc.org",
+                "www.chemistryworld.com",
+                "www.flightglobal.com",
+                "www.personneltoday.com",
+                "www.thegrocer.co.uk"
+            ]
+        },
+        {
+            "rule": "abacusemedia\\.com\\/api\\/message\\/DVVFG\\/FG\\/GlobalSlideUp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "emeapi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flightglobal.com",
+                "www.flightglobal.com",
+                "www.personneltoday.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000041,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns-291.awsdns-36.com",
+        "ns-1731.awsdns-24.co.uk",
+        "ns-945.awsdns-54.net",
+        "ns-1082.awsdns-07.org"
+    ]
+}

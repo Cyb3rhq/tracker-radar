@@ -1,0 +1,150 @@
+{
+    "domain": "kleekr.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000302,
+    "sites": 3,
+    "subdomains": [
+        "advapi",
+        "sdk"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "kleekr\\.com\\/v3\\/delivery\\/start",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "advapi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "fe16897fe6e2a099ee1d788a27242704f5ba1cd6f5b02ba50f1c5ab1d9f66acb",
+                "2bd9f5946b45d84aefdc89bab61075b594fb521fb4e3ff30eaadf6f8dc617a79"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "astucesdegrandmere.net",
+                "dailygeekshow.com",
+                "www.programme-tv.com"
+            ]
+        },
+        {
+            "rule": "kleekr\\.com\\/mediation\\/ptmpb\\.js",
+            "cookies": 0.000202,
+            "fingerprinting": 2,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.appName": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "0df45c7921c1bc21c9dcd0ab29fe979962ed152ff890238e7aa945cbf0e4894b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_sharedid": {
+                    "ttl": 31536021,
+                    "length": 36,
+                    "prevalence": 0.00020153164046755341,
+                    "uniqueness": 1
+                },
+                "_sharedid_cst": {
+                    "ttl": 31536021,
+                    "length": 16,
+                    "prevalence": 0.00020153164046755341,
+                    "uniqueness": 1
+                },
+                "cto_bundle": {
+                    "ttl": 33696015,
+                    "length": 282,
+                    "prevalence": 0.00010076582023377671,
+                    "uniqueness": 1
+                },
+                "cto_bidid": {
+                    "ttl": 33696015,
+                    "length": 180,
+                    "prevalence": 0.00010076582023377671,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "astucesdegrandmere.net",
+                "www.programme-tv.com"
+            ]
+        },
+        {
+            "rule": "kleekr\\.com\\/v3\\/tracking\\/provider",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "advapi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "fcf31f6f5e7645da7e671537d68c2adf290b396fdc43bbf04228c4e4c32dd918"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "astucesdegrandmere.net",
+                "dailygeekshow.com",
+                "www.programme-tv.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000202,
+    "topInitiators": [
+        {
+            "domain": "playtem.com",
+            "prevalence": 0.8076923076923077
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.19230769230769232
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Image": 3
+    },
+    "nameservers": [
+        "ns19.ovh.net",
+        "dns19.ovh.net"
+    ]
+}

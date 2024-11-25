@@ -1,0 +1,101 @@
+{
+    "domain": "aoscdn.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000478,
+    "sites": 7,
+    "subdomains": [
+        "cdnweb",
+        "cfcdnweb",
+        "gw"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "aoscdn\\.com\\/wxhawk\\.js",
+            "cookies": 0.0000273,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdnweb",
+                "cfcdnweb"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 3,
+                "Document.cookie getter": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "1604ed42f7c8b6101826d4ab355c91934e51709ad727ac307ff056b306a112da",
+                "2dd8146563e02769b1e1ec727ffd1f2526158418f4989ee85ed7b54c5bedef7c",
+                "98747df94e2541863a90a80fd3074c5389dc0e02e01db2b9ba080575c449a214"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "apptype": {
+                    "ttl": 259203,
+                    "length": 10,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gitmind.com",
+                "letsview.com",
+                "picwish.com",
+                "www.apowersoft.com"
+            ]
+        },
+        {
+            "rule": "aoscdn\\.com\\/base\\/passport\\/v1\\/api\\/apps\\/name",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gw"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fe6474199f4bd7d3b8bf04249b754b795f3bb7ff26336a94cfcec1ce18bd7148"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "letsview.com",
+                "www.apowersoft.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000478,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "apowersoft.info",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 2
+    },
+    "nameservers": [
+        "vip3.alidns.com",
+        "vip4.alidns.com"
+    ]
+}

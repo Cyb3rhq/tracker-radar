@@ -1,0 +1,171 @@
+{
+    "domain": "schibsted.io",
+    "owner": {
+        "name": "Schibsted Media Group",
+        "displayName": "Schibsted Media Group"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000082,
+    "sites": 12,
+    "subdomains": [
+        "sdkconfig.pulse",
+        "dc",
+        "cogwheel.inventory"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "schibsted\\.io\\/js\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdkconfig.pulse"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000683,
+            "cnames": [],
+            "responseHashes": [
+                "83cb5d20753048ddc679e625bfe75f45b17d373d50713a76b9a304f79823d377"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "e24.no",
+                "omni.se",
+                "www.adressa.no",
+                "www.aftenbladet.no",
+                "www.aftenposten.no",
+                "www.bt.no",
+                "www.godare.se",
+                "www.godt.no",
+                "www.tek.no",
+                "www.tv.nu"
+            ]
+        },
+        {
+            "rule": "schibsted\\.io\\/api\\/v1\\/track\\/sdrn:schibsted:client:stavangeraftenblad",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aftenbladet.no",
+                "www.aftenbladet.no"
+            ]
+        },
+        {
+            "rule": "schibsted\\.io\\/api\\/v1\\/track\\/sdrn:schibsted:client:aftenposten",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aftenposten.no",
+                "www.aftenposten.no"
+            ]
+        },
+        {
+            "rule": "schibsted\\.io\\/prod\\/latest\\/gdpr-bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cogwheel.inventory"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "93dcf95fa98d312dc5635747e4ea2d3dd74c68564a84e1fcbc24457068eb7284"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blocket.se",
+                "www.bytbil.com"
+            ]
+        },
+        {
+            "rule": "schibsted\\.io\\/api\\/v1\\/track\\/sdrn:schibsted:client:bt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bt.no",
+                "www.bt.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "schibsted.com",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.08333333333333333
+        },
+        {
+            "domain": "blocketcdn.se",
+            "prevalence": 0.041666666666666664
+        }
+    ],
+    "types": {
+        "Fetch": 10,
+        "Ping": 6,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-1082.awsdns-07.org",
+        "ns-791.awsdns-34.net",
+        "ns-182.awsdns-22.com",
+        "ns-2019.awsdns-60.co.uk"
+    ]
+}

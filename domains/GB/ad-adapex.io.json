@@ -1,0 +1,141 @@
+{
+    "domain": "ad-adapex.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "tg1",
+        "player",
+        "serv"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ad-adapex\\.io\\/api\\/adserver\\/spt",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tg1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "41568402a7dac36c670669de1fa50b7d9887a07a2e459e62ea0a958db2f4a0d2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "slippedisc.com",
+                "www.whatfontis.com"
+            ]
+        },
+        {
+            "rule": "ad-adapex\\.io\\/script\\/6\\.1\\/player\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1a7a6e0c51b2aca5a9136d051fd3930a9b9d5341d7fe936ee9493d22f1602314"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "slippedisc.com",
+                "www.whatfontis.com"
+            ]
+        },
+        {
+            "rule": "ad-adapex\\.io\\/script\\/6\\.1\\/AVmanager\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Screen.prototype.orientation": 1,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.vendor": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.language": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "70a96a855a8ff5b7b0a945ffc272492110f8883646f333660d826e7b518ae5f6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "slippedisc.com",
+                "www.whatfontis.com"
+            ]
+        },
+        {
+            "rule": "ad-adapex\\.io\\/api\\/adserver\\/tag\\/",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "serv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bed54a5723274682cf8513c685f3344b7d0f8ae44edc0aaf2943f265a076aa60"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "slippedisc.com",
+                "www.whatfontis.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "XHR": 2
+    },
+    "nameservers": [
+        "dns1.registrar-servers.com",
+        "dns2.registrar-servers.com"
+    ]
+}

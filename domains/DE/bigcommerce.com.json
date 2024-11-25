@@ -1,0 +1,65 @@
+{
+    "domain": "bigcommerce.com",
+    "owner": {
+        "name": "Bigcommerce Pty Ltd",
+        "displayName": "Bigcommerce"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "checkout-sdk"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "bigcommerce\\.com\\/v1\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "checkout-sdk"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e148a027a11fb3e00227444dac203170a7b73110f615f425810151d105a1efd0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "muji.eu",
+                "zumnorde.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9938271604938271
+        },
+        {
+            "domain": "shgcdn3.com",
+            "prevalence": 0.006172839506172839
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "dns2.p01.nsone.net",
+        "ns-cloud-d1.googledomains.com",
+        "ns-cloud-d2.googledomains.com",
+        "ns-cloud-d3.googledomains.com"
+    ]
+}

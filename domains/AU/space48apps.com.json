@@ -1,0 +1,92 @@
+{
+    "domain": "space48apps.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "hypersearch",
+        "backinstockalerts"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "space48apps\\.com\\/hyper-search\\/js\\/index\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "hypersearch"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.connection": 2,
+                "window.innerWidth": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4778ff85671c662004d83ade8eefc15ad0bd28e0f40784c3860b09df767abecf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "hsa_uuid": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.0002008838891120932,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bikebug.com",
+                "www.pushys.com.au"
+            ]
+        },
+        {
+            "rule": "space48apps\\.com\\/back-in-stock-alerts\\/js\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "backinstockalerts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d84a6ca0cdf735df18623e5003961318828dd7ab135b65e5804c9ac5bd4cc407"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bikebug.com",
+                "www.pushys.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "glen.ns.cloudflare.com",
+        "wally.ns.cloudflare.com"
+    ]
+}

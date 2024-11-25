@@ -1,0 +1,119 @@
+{
+    "domain": "bp.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "analytics",
+        "apps"
+    ],
+    "cnames": [
+        {
+            "original": "analytics.bp.com",
+            "resolved": "analytics.bp.com.edgekey.net"
+        },
+        {
+            "original": "apps.bp.com",
+            "resolved": "apps.bp.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bp\\.com\\.edgekey\\.net\\/gtm\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "analytics.bp.com",
+                    "resolved": "analytics.bp.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "3b2e04d9ca5a270a3fdfdab2026282bf0ab19fc3cbd0c78f5a9e63ed51c44615"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bp.com",
+                "www.bp.com"
+            ]
+        },
+        {
+            "rule": "bp\\.com\\.edgekey\\.net\\/SharePriceFeed",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "apps.bp.com",
+                    "resolved": "apps.bp.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bp.com",
+                "www.bp.com"
+            ]
+        },
+        {
+            "rule": "bp\\.com\\.edgekey\\.net\\/SharePriceFeed",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "apps.bp.com",
+                    "resolved": "apps.bp.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "087f24bf18eb62637b7cdd1eb70ef890298b92b63bea015d75ca22e5eb81fa48"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bp.com",
+                "www.bp.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "types": {
+        "Script": 2,
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

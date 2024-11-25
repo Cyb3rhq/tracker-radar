@@ -1,0 +1,777 @@
+{
+    "domain": "swymrelay.com",
+    "owner": {
+        "name": "Swym Corporation",
+        "displayName": "Swym"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.00181,
+    "sites": 18,
+    "subdomains": [
+        "procdn",
+        "freecdn",
+        "swymstore-v3pro-01",
+        "swymstore-v3premium-01",
+        "swymstore-v3free-01",
+        "swymstore-v3starter-01",
+        "swymstore-v3enterprise-01",
+        "premcdn",
+        "startercdn",
+        "entcdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "swymrelay\\.com\\/code\\/swym-shopify\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "procdn",
+                "freecdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3d05c09454f4d954d79b10e6cff0205167521165bffe901285186d3ea8216207"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__verify": {
+                    "ttl": -1520094118,
+                    "length": 1,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 0.5
+                },
+                "swym-session-id": {
+                    "ttl": 1806,
+                    "length": 66,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 1
+                },
+                "swym-pid": {
+                    "ttl": 31536004,
+                    "length": 44,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 1
+                },
+                "swym-v-ckd": {
+                    "ttl": 1804,
+                    "length": 1,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                },
+                "swym-swymRegid": {
+                    "ttl": 31536005,
+                    "length": 173,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                },
+                "swym-email": {
+                    "ttl": 31536004,
+                    "length": 4,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                },
+                "swym-instrumentMap": {
+                    "ttl": 31536005,
+                    "length": 2,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jeanstore.co.uk",
+                "www.meaco.com"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/api\\/v3\\/provider\\/checkAndGet",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "swymstore-v3pro-01",
+                "swymstore-v3premium-01",
+                "swymstore-v3free-01",
+                "swymstore-v3starter-01",
+                "swymstore-v3enterprise-01"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00171,
+            "cnames": [],
+            "responseHashes": [
+                "edbf33664fd1589c0ef034ccd109c0e387029f8919ddfe3e4213f934a38f745f",
+                "ffdfba552dfbff0b59c586d1c6644a1ccd370ff52bdf56919e44c2640ba66dbf",
+                "0946040772de4171b8aee11522108b0794e6a009bb09380c6bb692a2f740e4b9",
+                "8fead52d282178d0a9bf420a6b9584ba9a5ed78568f88fa0fd2cd3bdb658a92e",
+                "24a40c46b94a2f15cccd6ee0cfd8f0eed90f3c1533e839bb10540a37ddb95afc",
+                "7dcd9cca886df5fba70f31bdf80398bb44880c241caba5306e0794268511bd9a",
+                "7d249b198dff085deea32003378fa4ebb06dc8e972747c885fcfac99c96b8e84",
+                "21f1c9bfa6f2b70f984b4fc2fd26d0604ad850c62555770846fcb53eac6f307e",
+                "a03febc5bf5d7b22dad7d25493e0f0875417fe1506dce18fd91bc9c2b808941f",
+                "abb1b6e1c26d074fabad2885ba1c4e31e741a59a30e2654b2c0a1b7ea82d7cd2",
+                "64a643fa453b9b27b85528bfdc67c0d15ca1a69d0c4a0cab01d4fb52980e614c",
+                "8426040a6b27d6a2cf399634e8666f00bc0a42346b5dff31ede71f1b94a6f41b",
+                "874b8ad9974a501d76f4d1892f51999916f3579cb107f91e7dc34e6a3f7e2299",
+                "a981e1e3f7a8f5a04a2a8765af56521265d848a5e2f20d58c925b30eb0d64ad7",
+                "5d2aa53134e895a704a77f33d80f15526e54c70c37a01892e697232e08ba0417",
+                "568aaaab00ae6dd06b800bf8abab0310441617f6e96a3bfc39a16d602498bc75"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jeanstore.co.uk",
+                "lucyandyak.com",
+                "mintvelvet.com",
+                "railsofsheffield.com",
+                "www.biketart.com",
+                "www.dtbrownseeds.co.uk",
+                "www.fabricsgalore.co.uk",
+                "www.farmergracy.co.uk",
+                "www.golfclubs4cash.co.uk",
+                "www.ohpolly.com",
+                "www.pooky.com",
+                "www.silvermans.co.uk",
+                "www.thejournalshop.com",
+                "www.thesewingstudio.co.uk",
+                "www.thewoolcompany.co.uk",
+                "www.wob.com",
+                "www.worldofbooks.com"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/code\\/v3\\/apps\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "procdn",
+                "premcdn",
+                "freecdn",
+                "startercdn",
+                "entcdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 17,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 17,
+            "prevalence": 0.00171,
+            "cnames": [],
+            "responseHashes": [
+                "2c92e95f65d5d18fdf10c1c111a3d8c3346c99f6646adedad3da6a226de7b2f9",
+                "a9c4970a77cf6f49c0c88fcfec3a9e63417c20fe8eeb8ef02f5053d03aa8a627",
+                "f13dfe628e17acd8281a4c1572e8558ce8319f41cbc7b1121c02478e86ffb131",
+                "776524dc5b36bc891a45eb163783228529c15c81891a1795d4ea9f7748b76731",
+                "64fba8b411086d8141cce4fc709e327ab12bdc5c46f5c3ae116eb12ce5fff933"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jeanstore.co.uk",
+                "lucyandyak.com",
+                "mintvelvet.com",
+                "railsofsheffield.com",
+                "www.biketart.com",
+                "www.dtbrownseeds.co.uk",
+                "www.fabricsgalore.co.uk",
+                "www.farmergracy.co.uk",
+                "www.golfclubs4cash.co.uk",
+                "www.ohpolly.com",
+                "www.pooky.com",
+                "www.silvermans.co.uk",
+                "www.thejournalshop.com",
+                "www.thesewingstudio.co.uk",
+                "www.thewoolcompany.co.uk",
+                "www.wob.com",
+                "www.worldofbooks.com"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/code\\/v3\\/loadStrings1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "procdn",
+                "premcdn",
+                "freecdn",
+                "startercdn",
+                "entcdn"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00171,
+            "cnames": [],
+            "responseHashes": [
+                "aada0cad242f7ab0afd6124d1f81a1693bd37391380334bd46d99ce3fb737e2d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jeanstore.co.uk",
+                "lucyandyak.com",
+                "mintvelvet.com",
+                "railsofsheffield.com",
+                "www.biketart.com",
+                "www.dtbrownseeds.co.uk",
+                "www.fabricsgalore.co.uk",
+                "www.farmergracy.co.uk",
+                "www.golfclubs4cash.co.uk",
+                "www.ohpolly.com",
+                "www.pooky.com",
+                "www.silvermans.co.uk",
+                "www.thejournalshop.com",
+                "www.thesewingstudio.co.uk",
+                "www.thewoolcompany.co.uk",
+                "www.wob.com",
+                "www.worldofbooks.com"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/code\\/v3\\/5905\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "procdn",
+                "premcdn",
+                "freecdn",
+                "startercdn",
+                "entcdn"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.00151,
+            "cnames": [],
+            "responseHashes": [
+                "a720caef21d5ec4bd61a29f535c9d8d43e8d6fa63347755f4784cf9dcafeeb76"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jeanstore.co.uk",
+                "lucyandyak.com",
+                "mintvelvet.com",
+                "railsofsheffield.com",
+                "www.biketart.com",
+                "www.fabricsgalore.co.uk",
+                "www.farmergracy.co.uk",
+                "www.golfclubs4cash.co.uk",
+                "www.ohpolly.com",
+                "www.pooky.com",
+                "www.thejournalshop.com",
+                "www.thesewingstudio.co.uk",
+                "www.thewoolcompany.co.uk",
+                "www.wob.com",
+                "www.worldofbooks.com"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/code\\/v3\\/4980\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "procdn",
+                "premcdn",
+                "freecdn",
+                "startercdn",
+                "entcdn"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.00151,
+            "cnames": [],
+            "responseHashes": [
+                "96b8cb3670a0403cdc305a9549ab639877ca6933b37654179e6c5e15f31b3e42"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jeanstore.co.uk",
+                "lucyandyak.com",
+                "mintvelvet.com",
+                "railsofsheffield.com",
+                "www.biketart.com",
+                "www.fabricsgalore.co.uk",
+                "www.farmergracy.co.uk",
+                "www.golfclubs4cash.co.uk",
+                "www.ohpolly.com",
+                "www.pooky.com",
+                "www.thejournalshop.com",
+                "www.thesewingstudio.co.uk",
+                "www.thewoolcompany.co.uk",
+                "www.wob.com",
+                "www.worldofbooks.com"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/code\\/v3\\/secondaryStyles\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "procdn",
+                "premcdn",
+                "freecdn",
+                "startercdn",
+                "entcdn"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00171,
+            "cnames": [],
+            "responseHashes": [
+                "08f8a333323941ee908839c18cb1fe5eb98049b5f74f2880879824317afc4331",
+                "8fd5fedc5c0560b68aff420dd5caa2e3c1962acd8e7b0c39a34f334d888af233",
+                "8cb35b556a9fb8335f1fa4072121e7b192aa96b3d93dd14b9695b25b46668417",
+                "ea175ec9727162965643fc22ac601ba1a922de3cb143d00bef93133edcd91e1b",
+                "be1e78a80b9c226f56aecb6684502885596911b4bfd125df9707ddd69b5045a6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jeanstore.co.uk",
+                "lucyandyak.com",
+                "mintvelvet.com",
+                "railsofsheffield.com",
+                "www.biketart.com",
+                "www.dtbrownseeds.co.uk",
+                "www.fabricsgalore.co.uk",
+                "www.farmergracy.co.uk",
+                "www.golfclubs4cash.co.uk",
+                "www.ohpolly.com",
+                "www.pooky.com",
+                "www.silvermans.co.uk",
+                "www.thejournalshop.com",
+                "www.thesewingstudio.co.uk",
+                "www.thewoolcompany.co.uk",
+                "www.wob.com",
+                "www.worldofbooks.com"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/api\\/v2\\/provider\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "swymstore-v3pro-01",
+                "swymstore-v3premium-01",
+                "swymstore-v3free-01",
+                "swymstore-v3starter-01",
+                "swymstore-v3enterprise-01"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00171,
+            "cnames": [],
+            "responseHashes": [
+                "a4626ceac61ce164c09e3e016fde0d59d2dbd3928b94649b7761949005ac3be7",
+                "c65c049e0258eee50455650be5190c439ea20f80e8f5c814b51999b684ec7fcb",
+                "24e39db38a544600cd701084a6e23aceaab35e24b047770d4bd8f8db3aa7cf14",
+                "996c4befe9c2272047c22be8ce6289695d4270b2b79fb620529a1c03f49aed2a",
+                "262b983ac9050265f20e3f798eb2019c73b4345aeb2e5d6ba7b9d7821b38d1e5",
+                "b908d17d07ad89e2e4b7927112bc2d13f0bca3ebc46f9af11cb282218b1743ce",
+                "aca562fb702c31eb7314450094534215f6cb06918620801f79f91931de1d1251",
+                "375f14c94e46f3d09c9a35c065d085ce2950334feac8b4bf73e6fb923910fc5b",
+                "be25bf306cdd48425512b11f0e6cf600c4c10c50251f171450aef5ab8c815d97",
+                "e3ddfcaaaa33c379638fe55bdcb3399f97aaa81c038ff698b4f17918b65eaaeb",
+                "222aa0f03bfea076f1e1aa25c5453d981e9f997e7b03492d9460604bb9e7af24",
+                "c3c2316174e72ebcbe5e6cfaf1a2d028e522a86bb32d7dd634c79ed10c3a343e",
+                "b918c155607934d8fa2214beb78d0740c9979be3b29023f16357e81686caa838",
+                "7b41be447e8e65369d90c83f8ebfd1fabd9b5ceb94bfcd710e3c666c0be4fa1e",
+                "47e9df53e0a349c0c3c6aedc7739508a7217a4432855afec02bd29eeb66a2eb2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jeanstore.co.uk",
+                "lucyandyak.com",
+                "mintvelvet.com",
+                "railsofsheffield.com",
+                "www.biketart.com",
+                "www.dtbrownseeds.co.uk",
+                "www.fabricsgalore.co.uk",
+                "www.farmergracy.co.uk",
+                "www.golfclubs4cash.co.uk",
+                "www.ohpolly.com",
+                "www.pooky.com",
+                "www.silvermans.co.uk",
+                "www.thejournalshop.com",
+                "www.thesewingstudio.co.uk",
+                "www.thewoolcompany.co.uk",
+                "www.wob.com",
+                "www.worldofbooks.com"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/code\\/v3\\/3233\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "premcdn",
+                "startercdn",
+                "entcdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "6b2ece01c57d788d109b46f2833a9a28c432346211229c57e494e57804b330b1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lucyandyak.com",
+                "www.thewoolcompany.co.uk",
+                "www.wob.com",
+                "www.worldofbooks.com"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/code\\/swym-ext-shopify\\.js",
+            "cookies": 0.000502,
+            "fingerprinting": 1,
+            "subdomains": [
+                "procdn",
+                "freecdn",
+                "startercdn",
+                "entcdn"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "Document.cookie setter": 5,
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 5,
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "3d05c09454f4d954d79b10e6cff0205167521165bffe901285186d3ea8216207",
+                "1c28626586eeb237c957ced79825283a19e36cafb8e8605f6e98a00dc0e183a7",
+                "e042a8cd0bb9cf54a76059710677e7e3231bb7fd5876b3d3787275b85870d637"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__verify": {
+                    "ttl": -1520092950,
+                    "length": 1,
+                    "prevalence": 0.0005023106288929073,
+                    "uniqueness": 0.2
+                },
+                "swym-session-id": {
+                    "ttl": 1811,
+                    "length": 66,
+                    "prevalence": 0.0004018485031143259,
+                    "uniqueness": 1
+                },
+                "swym-pid": {
+                    "ttl": 31536007,
+                    "length": 44,
+                    "prevalence": 0.0004018485031143259,
+                    "uniqueness": 1
+                },
+                "swym-v-ckd": {
+                    "ttl": 1808,
+                    "length": 1,
+                    "prevalence": 0.0004018485031143259,
+                    "uniqueness": 0.25
+                },
+                "swym-swymRegid": {
+                    "ttl": 31536009,
+                    "length": 173,
+                    "prevalence": 0.0004018485031143259,
+                    "uniqueness": 1
+                },
+                "swym-email": {
+                    "ttl": 31536008,
+                    "length": 4,
+                    "prevalence": 0.0004018485031143259,
+                    "uniqueness": 0.25
+                },
+                "swym-instrumentMap": {
+                    "ttl": 31536009,
+                    "length": 2,
+                    "prevalence": 0.0004018485031143259,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "railsofsheffield.com",
+                "www.fabricsgalore.co.uk",
+                "www.thewoolcompany.co.uk",
+                "www.wob.com",
+                "www.worldofbooks.com"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/code\\/swym-ext-shopify\\.js",
+            "cookies": 0.000502,
+            "fingerprinting": 1,
+            "subdomains": [
+                "procdn",
+                "freecdn",
+                "startercdn",
+                "entcdn"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "Document.cookie setter": 5,
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 5,
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "3d05c09454f4d954d79b10e6cff0205167521165bffe901285186d3ea8216207",
+                "1c28626586eeb237c957ced79825283a19e36cafb8e8605f6e98a00dc0e183a7",
+                "e042a8cd0bb9cf54a76059710677e7e3231bb7fd5876b3d3787275b85870d637"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {
+                "__verify": {
+                    "ttl": -1520092950,
+                    "length": 1,
+                    "prevalence": 0.0005023106288929073,
+                    "uniqueness": 0.2
+                },
+                "swym-session-id": {
+                    "ttl": 1811,
+                    "length": 66,
+                    "prevalence": 0.0004018485031143259,
+                    "uniqueness": 1
+                },
+                "swym-pid": {
+                    "ttl": 31536007,
+                    "length": 44,
+                    "prevalence": 0.0004018485031143259,
+                    "uniqueness": 1
+                },
+                "swym-v-ckd": {
+                    "ttl": 1808,
+                    "length": 1,
+                    "prevalence": 0.0004018485031143259,
+                    "uniqueness": 0.25
+                },
+                "swym-swymRegid": {
+                    "ttl": 31536009,
+                    "length": 173,
+                    "prevalence": 0.0004018485031143259,
+                    "uniqueness": 1
+                },
+                "swym-email": {
+                    "ttl": 31536008,
+                    "length": 4,
+                    "prevalence": 0.0004018485031143259,
+                    "uniqueness": 0.25
+                },
+                "swym-instrumentMap": {
+                    "ttl": 31536009,
+                    "length": 2,
+                    "prevalence": 0.0004018485031143259,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "railsofsheffield.com",
+                "www.fabricsgalore.co.uk",
+                "www.thewoolcompany.co.uk",
+                "www.wob.com",
+                "www.worldofbooks.com"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/code\\/swym-ext-shopify\\.js",
+            "cookies": 0.000502,
+            "fingerprinting": 1,
+            "subdomains": [
+                "procdn",
+                "freecdn",
+                "startercdn",
+                "entcdn"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "Document.cookie setter": 5,
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 5,
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {
+                "__verify": {
+                    "ttl": -1520092950,
+                    "length": 1,
+                    "prevalence": 0.0005023106288929073,
+                    "uniqueness": 0.2
+                },
+                "swym-session-id": {
+                    "ttl": 1811,
+                    "length": 66,
+                    "prevalence": 0.0004018485031143259,
+                    "uniqueness": 1
+                },
+                "swym-pid": {
+                    "ttl": 31536007,
+                    "length": 44,
+                    "prevalence": 0.0004018485031143259,
+                    "uniqueness": 1
+                },
+                "swym-v-ckd": {
+                    "ttl": 1808,
+                    "length": 1,
+                    "prevalence": 0.0004018485031143259,
+                    "uniqueness": 0.25
+                },
+                "swym-swymRegid": {
+                    "ttl": 31536009,
+                    "length": 173,
+                    "prevalence": 0.0004018485031143259,
+                    "uniqueness": 1
+                },
+                "swym-email": {
+                    "ttl": 31536008,
+                    "length": 4,
+                    "prevalence": 0.0004018485031143259,
+                    "uniqueness": 0.25
+                },
+                "swym-instrumentMap": {
+                    "ttl": 31536009,
+                    "length": 2,
+                    "prevalence": 0.0004018485031143259,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "railsofsheffield.com",
+                "www.fabricsgalore.co.uk",
+                "www.thewoolcompany.co.uk",
+                "www.wob.com",
+                "www.worldofbooks.com"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/code\\/v3\\/swym_fonts\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "freecdn",
+                "startercdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "eec39015505be5c8f43e0bea54219f165ce607be9c07ce433f9c79a6ac3c2c01"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fabricsgalore.co.uk",
+                "www.thewoolcompany.co.uk"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/code\\/v3\\/938\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "entcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a2f90737d5c301b71e2a416fe52c2483ac7315145ff7673e330784d8a7860015"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wob.com",
+                "www.worldofbooks.com"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/config\\/themes\\/887",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "swymstore-v3enterprise-01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c5689c0d0cca74b560a25d3accc8830bc6f9f21892b914f6db69fd7a067936c7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wob.com",
+                "www.worldofbooks.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000703,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5428571428571428
+        },
+        {
+            "domain": "azureedge.net",
+            "prevalence": 0.37142857142857144
+        },
+        {
+            "domain": "worldofbooks.com",
+            "prevalence": 0.08571428571428572
+        }
+    ],
+    "types": {
+        "Script": 94,
+        "XHR": 41,
+        "Preflight": 5,
+        "Font": 2
+    },
+    "nameservers": [
+        "ns66.domaincontrol.com",
+        "ns65.domaincontrol.com"
+    ]
+}

@@ -1,0 +1,801 @@
+{
+    "domain": "holmesmind.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [
+        "cdn",
+        "c",
+        "ad",
+        "cft",
+        "fcm2",
+        "t",
+        "cm-dev-poc",
+        "fcm",
+        "m"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "holmesmind\\.com\\/js\\/rtid\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "19c3b9515d29e24bd4db3a9edb807411a88c419d7bfc583e2dd6c6a3cc07ad82"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CFFPCKUUID": {
+                    "ttl": 2592006,
+                    "length": 37,
+                    "prevalence": 0.000020496003279360526,
+                    "uniqueness": 1
+                },
+                "CFFPCKUUIDMAIN": {
+                    "ttl": 2592006,
+                    "length": 37,
+                    "prevalence": 0.000020496003279360526,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "callofduty.com",
+                "profile.callofduty.com",
+                "www.callofduty.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/cm",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "callofduty.com",
+                "profile.callofduty.com",
+                "tw.manhuagui.com",
+                "www.callofduty.com",
+                "www.thenewslens.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/dmp\\/cft\\/triggerTracker\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "16aef7083f7b70d1cfc10efcda10befa5f2149343318d118ab446a43d35a8752"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "callofduty.com",
+                "profile.callofduty.com",
+                "www.callofduty.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/dmp\\/cft\\/tracker\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 3,
+                "Document.cookie setter": 3,
+                "Document.cookie getter": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.pixelDepth": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Navigator.prototype.language": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "1512f04c4b133530c41203f8a7089d7d3b18075d9c17de70be8f9e9318718762"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_cft_uid": {
+                    "ttl": 7776000,
+                    "length": 36,
+                    "prevalence": 0.000020496003279360526,
+                    "uniqueness": 1
+                },
+                "_cft_P": {
+                    "ttl": 7776000,
+                    "length": 39,
+                    "prevalence": 0.000020496003279360526,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "callofduty.com",
+                "profile.callofduty.com",
+                "www.callofduty.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/js\\/getP\\.htm",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "5941ff070d3ed6be45cd7d5407c70f4dd94ba3984c7fee1ec5b58485b904ff72"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "callofduty.com",
+                "profile.callofduty.com",
+                "www.callofduty.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/js\\/capmapping_dmp\\.htm",
+            "cookies": 0.00000683,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 1,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "11f5814d05b56c070a4022babe1f79c5ae8f3faed7bcbd463fa9978411dffc4b"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "CFFPCKUUIDMAIN": 0.000020496003279360526,
+                "RL": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "callofduty.com",
+                "profile.callofduty.com",
+                "www.callofduty.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/adserver\\/cs",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "callofduty.com",
+                "profile.callofduty.com",
+                "www.callofduty.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/dmp\\/analytics",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cft"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "CFFPCKUUIDMAIN": 0.000020496003279360526,
+                "_cft_uid": 0.000020496003279360526
+            },
+            "exampleSites": [
+                "callofduty.com",
+                "profile.callofduty.com",
+                "www.callofduty.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/cm\\.js",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fcm2"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "c205c874491530a4288b8f643e5da8fbcf7c54bee71bb787f4444e77de90e821"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "callofduty.com",
+                "profile.callofduty.com",
+                "tw.manhuagui.com",
+                "www.callofduty.com",
+                "www.thenewslens.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/rt\\/rl",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "CFFPCKUUIDMAIN": 0.000020496003279360526,
+                "RL": 0.000006832001093120175,
+                "_cft_P": 0.000020496003279360526
+            },
+            "exampleSites": [
+                "callofduty.com",
+                "profile.callofduty.com",
+                "www.callofduty.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/js\\/init\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ba17ede1117181a80c53cd062b8888bccf458b5d39978b5078172431c3325a22"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/js\\/capmapping\\.htm",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 1,
+                "window.sessionStorage": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "569cde2a2d9c46b8a90a8c4296aa45d9f52a146d7b075f9e5dba7fcc2f03ce2c"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com",
+                "www.thenewslens.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/js\\/presetfn\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1a9a5d577628840b4692dd02d31e4a8e7f146d5ec2d080d710f4ca656bbf6413"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "FPUUID": {
+                    "ttl": 2592014,
+                    "length": 37,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "ISMD5VERSION": {
+                    "ttl": 2592004,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "CFFPCKUUID": {
+                    "ttl": 2592014,
+                    "length": 37,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "CFFPCKUUIDMAIN": {
+                    "ttl": 2592014,
+                    "length": 37,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/fp",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cm-dev-poc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com",
+                "www.thenewslens.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/cm\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fcm"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "d51ae4a1096fac36fe9055d5c3f4daa85de0120b567636c89327b544a2a6a795"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com",
+                "www.thenewslens.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/fp",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cm-dev-poc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com",
+                "www.thenewslens.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/adserver\\/Preset\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ab7d96910cd3ee5d5f37ebfa586cdc1da711100fd042a0e00c83d49d23a92ae8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/js\\/js-md5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0efa8291235243ad1438d266932112aecf4e7dca1963545a22d118cbe5d5d6e2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/ml\\/google",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "m"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com",
+                "www.thenewslens.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/adserver\\/ads\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "703fdabc9e23b534d8918b2ca0a04643ba8ff652197046c7eb0c59ead513a122"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "CFFPCKUUIDMAIN": 0.00001366400218624035,
+                "FPUUID": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/js\\/rtbhouseV2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b97b6a79b734e9323aa8c3847d0b2a1bb5db32fc6a7df92ac69653d1c8ba13c5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/js\\/criteoV2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cef005a7925817203365e696b47631a1bb7741d6b22f19399f5b958069a09eda"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/js\\/bridgewellV3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f3c5e5a0064eec4419f514718f35b3eb4ff163a77ebf16445041f5498a84638b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/js\\/appier_mainV3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8f73a10773dae7dadd7ca1e735ae7da6028aca748f9d01cff8aeebb462767c6e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/js\\/drawV2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "31b4d2ac4928b0129a5a969594be92783dbbb13112dd350f128de1b8d7215f30"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/js\\/teads_mainV3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Screen.prototype.width": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6d4c444108925dc2ec8fe761f55a6760241c123740591e1348f0f94a653a3985"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/js\\/ucfunnel\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6215cea030001547475bd19ec624e50c85af367309e115d7813ae4eaff664d32"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com"
+            ]
+        },
+        {
+            "rule": "holmesmind\\.com\\/adserver\\/prebid\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thenewslens.com",
+                "www.thenewslens.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000041,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.7777777777777778
+        },
+        {
+            "domain": "flux-cdn.com",
+            "prevalence": 0.1111111111111111
+        },
+        {
+            "domain": "sitemaji.com",
+            "prevalence": 0.08333333333333333
+        },
+        {
+            "domain": "aralego.com",
+            "prevalence": 0.027777777777777776
+        }
+    ],
+    "types": {
+        "Script": 38,
+        "Image": 17,
+        "Document": 18,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns13.domaincontrol.com",
+        "ns14.domaincontrol.com"
+    ]
+}

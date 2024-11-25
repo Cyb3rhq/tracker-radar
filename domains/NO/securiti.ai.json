@@ -1,0 +1,586 @@
+{
+    "domain": "securiti.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.001,
+    "sites": 10,
+    "subdomains": [
+        "cdn-prod",
+        "cdn-prod.eu",
+        "app",
+        "app.eu"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "securiti\\.ai\\/consent\\/cookie-consent-sdk-loader-strict-csp\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-prod",
+                "cdn-prod.eu"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "550f31b5cf4f90a0810e5aa2d104098994a98533c290e25b17836eea4fe32588"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clickhouse.com",
+                "i.dell.com",
+                "www.dell.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/consent\\/cookie-consent-latest\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-prod",
+                "cdn-prod.eu"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "d19345402a80151ddd1caa1ed515d15bf5a016639f9e91daf172f7967f8c4a98"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clickhouse.com",
+                "i.dell.com",
+                "www.3mnorge.no",
+                "www.3m.com",
+                "www.dell.com",
+                "www.yogajournal.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/consent\\/cookie-consent-sdk-strict-csp-latest\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-prod",
+                "cdn-prod.eu"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "fc354f338def892c74a7981d65d0b73c2ba7eb37fa22839661303a67bb93c801"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookieCategory": {
+                    "ttl": 31536005,
+                    "length": 9,
+                    "prevalence": 0.00010043185698503566,
+                    "uniqueness": 1
+                },
+                "__privaci_cookie_consent_uuid": {
+                    "ttl": 31536008,
+                    "length": 39,
+                    "prevalence": 0.00020086371397007131,
+                    "uniqueness": 1
+                },
+                "__privaci_cookie_consent_generated": {
+                    "ttl": 31536008,
+                    "length": 39,
+                    "prevalence": 0.00020086371397007131,
+                    "uniqueness": 1
+                },
+                "__privaci_cookie_no_action": {
+                    "ttl": 29565,
+                    "length": 30,
+                    "prevalence": 0.00020086371397007131,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clickhouse.com",
+                "i.dell.com",
+                "www.dell.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/core\\/v1\\/utils\\/geo\\/location",
+            "cookies": 0.001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "a01bcbbba60239814c91d678fac76c2ccea6d707e200ed1d361fe0e6da8e3c6a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clickhouse.com",
+                "i.dell.com",
+                "kajabi.com",
+                "www.3mnorge.no",
+                "www.3m.com",
+                "www.dell.com",
+                "www.hertz.no",
+                "www.hertz.com",
+                "www.skimag.com",
+                "www.yogajournal.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/consent\\/auto_blocking\\/c2d13f10-990f-429e-8c66-f83d6907e9fc\\/b1e50479-0943-4b05-9b08-2f5f77c82102\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-prod.eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "33bc5b16afa83ce55025c3e8cdd5b93a2addf1b8d38ed70801768609d8c0e12c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "www.dell.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/consent\\/cookie-consent\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-prod.eu",
+                "cdn-prod"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "6eebacb4467fcf863339daac6eb21e851dabb9ee73cd7c038e5cd7f5e9e375dc",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "kajabi.com",
+                "www.dell.com",
+                "www.skimag.com",
+                "www.yogajournal.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/consent\\/styles\\/c2d13f10-990f-429e-8c66-f83d6907e9fc\\/b1e50479-0943-4b05-9b08-2f5f77c82102\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-prod.eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "635d266c4c55beed1796cbd4d1d9ce09c15567423d6ee7ca1d71144c5a91c460"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "www.dell.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/consent\\/cookie_banner\\/c2d13f10-990f-429e-8c66-f83d6907e9fc\\/b1e50479-0943-4b05-9b08-2f5f77c82102\\/config_active\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-prod.eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "dc483ce8a52e0e55d9d395c6dbe96b1e371091279ef2670ba833ff4561c3ad55"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "www.dell.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/consent\\/cookie_banner\\/c2d13f10-990f-429e-8c66-f83d6907e9fc\\/b1e50479-0943-4b05-9b08-2f5f77c82102\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-prod.eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3e9203055c47209c3bcd01ed281e3ffd768c5828bcfc293b9485227fba2bcfbf"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "www.dell.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/consent\\/cookie_banner\\/c2d13f10-990f-429e-8c66-f83d6907e9fc\\/b1e50479-0943-4b05-9b08-2f5f77c82102\\/no\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-prod.eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4a3a9fc4c646790717e42323b3febfdcaafba1728aa206496e35b2f52e0c60f7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "www.dell.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/privaci\\/v1\\/consent\\/cookie\\/singleupload",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app.eu",
+                "app"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "kajabi.com",
+                "www.3mnorge.no",
+                "www.3m.com",
+                "www.dell.com",
+                "www.hertz.no",
+                "www.hertz.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/privaci\\/v1\\/consent\\/cookie\\/singleupload",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app.eu",
+                "app"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "f1e25328be62ee5aca4777d33ecfbaf64a502f80dac2008bd7197e236cac8dc7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dell.com",
+                "kajabi.com",
+                "www.3mnorge.no",
+                "www.3m.com",
+                "www.dell.com",
+                "www.hertz.no",
+                "www.hertz.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/consent\\/cookie-consent-sdk-loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-prod"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "71d645772f2e68e129b9094cf238e5bdbde1a9031be3567ff3b7e080a0255721"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kajabi.com",
+                "www.3mnorge.no",
+                "www.3m.com",
+                "www.skimag.com",
+                "www.yogajournal.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/core\\/v1\\/utils\\/geo\\/location",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "a01bcbbba60239814c91d678fac76c2ccea6d707e200ed1d361fe0e6da8e3c6a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "3mnorge.no",
+                "www.3m.com",
+                "www.skimag.com",
+                "www.yogajournal.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/consent\\/cookie-consent-sdk-latest\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-prod"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.cookieEnabled": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "8d84e23f12c187077cc57a11639b086fb0f579878e8275f4f0442dcb58a17bed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__privaci_cookie_consent_uuid": {
+                    "ttl": 31536004,
+                    "length": 38,
+                    "prevalence": 0.00020086371397007131,
+                    "uniqueness": 1
+                },
+                "__privaci_cookie_consent_generated": {
+                    "ttl": 31536004,
+                    "length": 38,
+                    "prevalence": 0.00020086371397007131,
+                    "uniqueness": 1
+                },
+                "__privaci_cookie_no_action": {
+                    "ttl": 27344,
+                    "length": 30,
+                    "prevalence": 0.00020086371397007131,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "3mnorge.no",
+                "www.3m.com",
+                "www.yogajournal.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/consent\\/sdk-stub\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-prod.eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "64a85922dc5eac73185d746e62adabd6282b8b80ca5f14fad69ebf4f936fb324"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hertz.no",
+                "www.hertz.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/consent\\/cookie-consent-sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-prod.eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "398c47dcb5fd4f5c6044bbcf13a1124079ad669e84a4438b03846501effd35ef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hertz.no",
+                "www.hertz.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/consent\\/cookie-consent-1\\.99\\.0\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-prod.eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f151605d72ebb524288d4812044195e4e0cb2e0762060592e12db760869a0a47"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hertz.no",
+                "www.hertz.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/consent\\/cookie-consent-sdk-1\\.99\\.0\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-prod.eu"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.cookieEnabled": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e242a3e46b65c80fdfdca871a4a54375fb25a4f1a18003a703658c8a09b8cc77"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__privaci_cookie_consent_uuid": {
+                    "ttl": 31536008,
+                    "length": 39,
+                    "prevalence": 0.00020086371397007131,
+                    "uniqueness": 1
+                },
+                "__privaci_cookie_consent_generated": {
+                    "ttl": 31536008,
+                    "length": 39,
+                    "prevalence": 0.00020086371397007131,
+                    "uniqueness": 1
+                },
+                "__privaci_cookie_no_action": {
+                    "ttl": 26808,
+                    "length": 30,
+                    "prevalence": 0.00020086371397007131,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hertz.no",
+                "www.hertz.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.847457627118644
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.06779661016949153
+        },
+        {
+            "domain": "hertz.io",
+            "prevalence": 0.05084745762711865
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.03389830508474576
+        }
+    ],
+    "types": {
+        "Script": 20,
+        "Stylesheet": 15,
+        "XHR": 25,
+        "Preflight": 7,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "elly.ns.cloudflare.com",
+        "matt.ns.cloudflare.com"
+    ]
+}

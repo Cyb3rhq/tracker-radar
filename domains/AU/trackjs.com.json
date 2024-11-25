@@ -1,0 +1,167 @@
+{
+    "domain": "trackjs.com",
+    "owner": {
+        "name": "TrackJS LLC",
+        "displayName": "TrackJS"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00201,
+    "sites": 20,
+    "subdomains": [
+        "usage",
+        "cdn",
+        "capture"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "trackjs\\.com\\/usage\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "usage"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.00191,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "10play.com.au",
+                "alternativeto.net",
+                "smallpdf.com",
+                "www.adulttime.com",
+                "www.beaconlighting.com.au",
+                "www.beaurepaires.com.au",
+                "www.bettermusic.com.au",
+                "www.blundstone.com.au",
+                "www.camerahouse.com.au",
+                "www.delta.com",
+                "www.drive.com.au",
+                "www.evilangel.com",
+                "www.moonpig.com",
+                "www.pelicanparts.com",
+                "www.saba.com.au",
+                "www.seekbusiness.com.au",
+                "www.theglen.com.au",
+                "www.urban.com.au",
+                "www.wicked.com"
+            ]
+        },
+        {
+            "rule": "trackjs\\.com\\/agent\\/v3\\/latest\\/t\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 8,
+                "Navigator.prototype.userAgent": 8,
+                "window.name": 5,
+                "window.innerWidth": 5,
+                "window.innerHeight": 5,
+                "window.screenX": 5,
+                "window.screenY": 5,
+                "window.outerWidth": 5,
+                "window.outerHeight": 5,
+                "window.devicePixelRatio": 5,
+                "window.screenLeft": 5,
+                "window.screenTop": 5,
+                "window.indexedDB": 5,
+                "window.sessionStorage": 5,
+                "window.localStorage": 5,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Document.cookie getter": 1
+            },
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "3169a71c8da47b07411a0edd846dde35975f54102b8b75c3b4563194e84ff506"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "omegle.cc",
+                "www.beaconlighting.com.au",
+                "www.beaurepaires.com.au",
+                "www.bettermusic.com.au",
+                "www.blundstone.com.au",
+                "www.camerahouse.com.au",
+                "www.pelicanparts.com",
+                "www.seekbusiness.com.au",
+                "www.urban.com.au"
+            ]
+        },
+        {
+            "rule": "trackjs\\.com\\/capture",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "capture"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beaconlighting.com.au",
+                "www.beaurepaires.com.au",
+                "www.camerahouse.com.au",
+                "www.drive.com.au",
+                "www.pelicanparts.com",
+                "www.seekbusiness.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8461538461538461
+        },
+        {
+            "domain": "gammacdn.com",
+            "prevalence": 0.07692307692307693
+        },
+        {
+            "domain": "coomeet.com",
+            "prevalence": 0.02564102564102564
+        },
+        {
+            "domain": "acsbapp.com",
+            "prevalence": 0.02564102564102564
+        },
+        {
+            "domain": "moonpig.net",
+            "prevalence": 0.02564102564102564
+        }
+    ],
+    "types": {
+        "Image": 19,
+        "Script": 9,
+        "XHR": 6
+    },
+    "nameservers": [
+        "dns1.registrar-servers.com",
+        "dns2.registrar-servers.com"
+    ]
+}

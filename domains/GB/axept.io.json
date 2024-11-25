@@ -1,0 +1,111 @@
+{
+    "domain": "axept.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "static",
+        "client"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "axept\\.io\\/sdk\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4,
+                "window.localStorage": 4,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "049065e62f5e4d82049cd1bd0e2fe3e8e6b92f5f9f47ed79b476ce96d5bf95ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "axeptio_cookies": {
+                    "ttl": 16416003,
+                    "length": 144,
+                    "prevalence": 0.0004018485031143259,
+                    "uniqueness": 1
+                },
+                "axeptio_authorized_vendors": {
+                    "ttl": 16416003,
+                    "length": 6,
+                    "prevalence": 0.0004018485031143259,
+                    "uniqueness": 0.25
+                },
+                "axeptio_all_vendors": {
+                    "ttl": 16416003,
+                    "length": 6,
+                    "prevalence": 0.0004018485031143259,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dxo.com",
+                "www.mountain-equipment.com",
+                "www.naimaudio.com",
+                "www.submagic.co"
+            ]
+        },
+        {
+            "rule": "axept\\.io\\/pack\\/en-EU",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "41a2a9e967b98aa4d52d224d9011c6b7469920fd868e269b5ccd77515a724040"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "naimaudio.com",
+                "www.submagic.co"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2857142857142857
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1395.awsdns-46.org",
+        "ns-2044.awsdns-63.co.uk",
+        "ns-319.awsdns-39.com",
+        "ns-883.awsdns-46.net"
+    ]
+}

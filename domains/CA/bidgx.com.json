@@ -1,0 +1,158 @@
+{
+    "domain": "bidgx.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "srv",
+        "media",
+        "track"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bidgx\\.com\\/prebid\\/bidder",
+            "cookies": 0.000302,
+            "fingerprinting": 0,
+            "subdomains": [
+                "srv"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "7ced588c43bec46ba2d716859dedfe539ae7e31e3eb0f908cad8182ff78b1c70",
+                "0200e13964c58e7f591e0e7876d67bd9a81ee9961eb13ff09f9bfc32b6341f4e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lotterypost.com",
+                "www.lotterypost.com",
+                "www.ndtv.com"
+            ]
+        },
+        {
+            "rule": "bidgx\\.com\\/js\\/code\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d5c797c585a98a654884751c0d479b7f73dade4188ee106c6146a6a92eef79d1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lotterypost.com",
+                "www.lotterypost.com"
+            ]
+        },
+        {
+            "rule": "bidgx\\.com\\/wtf\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lotterypost.com",
+                "www.lotterypost.com"
+            ]
+        },
+        {
+            "rule": "bidgx\\.com\\/won",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lotterypost.com",
+                "www.lotterypost.com"
+            ]
+        },
+        {
+            "rule": "bidgx\\.com\\/rotor",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "srv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "490477d5761598be5238307c1b038a0ccd6bfd7b0bc2652916f23e9c12769a08"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lotterypost.com",
+                "www.lotterypost.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "pubmatic.com",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "media-aso1.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Fetch": 3,
+        "Script": 6,
+        "Image": 2
+    },
+    "nameservers": [
+        "dorthy.ns.cloudflare.com",
+        "margo.ns.cloudflare.com"
+    ]
+}

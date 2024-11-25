@@ -1,0 +1,704 @@
+{
+    "domain": "coveo.com",
+    "owner": {
+        "name": "Coveo Solutions Inc.",
+        "displayName": "Coveo Solutions"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00301,
+    "sites": 30,
+    "subdomains": [
+        "analytics.cloud",
+        "unitytechnologiesproductionmkahteav.org",
+        "static.cloud",
+        "platform-au.cloud",
+        "staticdev.cloud",
+        "org62salesforce.analytics.org",
+        "paloaltonetworksintranet.analytics.org",
+        "dropboxproductionpmlw0l3v.analytics.org",
+        "analytics-au.cloud",
+        "platform.cloud",
+        "smartsheetproductionh5772tp8.analytics.org"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "coveo\\.com\\/rest\\/ua\\/v15\\/analytics\\/visit",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics.cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unity.com",
+                "assetstore.unity.com"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/rest\\/ua\\/v15\\/analytics\\/visit",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics.cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unity.com",
+                "assetstore.unity.com"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/rest\\/search\\/v2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "unitytechnologiesproductionmkahteav.org"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unity.com",
+                "assetstore.unity.com"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/rest\\/search\\/v2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "unitytechnologiesproductionmkahteav.org"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bfab3c8f6c5474ab9acacaacdcf9992db4a5f43f705ec16d0dbf3a4cd51e3127"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unity.com",
+                "assetstore.unity.com"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/searchui\\/v2\\.10089\\/js\\/CoveoJsSearch\\.Lazy\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static.cloud"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.language": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6eb2e85d0c02488e09c8e6ae8ef0b551f8a19ee1cbcdda973b28a070d34284cc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "business.gov.au",
+                "www.watercorporation.com.au"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/searchui\\/v2\\.10089\\/js\\/cultures\\/en\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8888d483a6374a2589e38d5854c08f95eb46d674dfdfc243c18763757e6c931c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "business.gov.au",
+                "www.watercorporation.com.au"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/searchui\\/v2\\.10089\\/js\\/Searchbox\\.min__87a2f876e355bf8ecbd9\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "034f9fdae1e9b90dd3ef5ae7cb73a30a4a0523342e681563376bf4f098262143"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "business.gov.au",
+                "www.watercorporation.com.au"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/coveo\\.analytics\\.js\\/2\\/coveoua\\.js",
+            "cookies": 0.000904,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static.cloud"
+            ],
+            "apis": {
+                "Navigator.prototype.doNotTrack": 10,
+                "window.localStorage": 10,
+                "Navigator.prototype.cookieEnabled": 10,
+                "Document.cookie getter": 7,
+                "Date.prototype.getTime": 9,
+                "Document.cookie setter": 9,
+                "Navigator.prototype.userAgent": 9,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Navigator.prototype.language": 3
+            },
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "00adc15dfe01e7a201431d1e023e09e44bc182170db131388579cf43f61a433d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "coveo_visitorId": {
+                    "ttl": 31556939,
+                    "length": 36,
+                    "prevalence": 0.000502209722780233,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bunnings.com.au",
+                "central.xero.com",
+                "help.dropbox.com",
+                "trade.bunnings.com.au",
+                "www.bunnings.com.au",
+                "www.bunnings.co.nz",
+                "www.imf.org",
+                "www.lifeextension.com",
+                "www.nespresso.com",
+                "www.paloaltonetworks.com",
+                "www.smartsheet.com"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/rest\\/ua\\/v15\\/analytics\\/search",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-au.cloud"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "coveo_visitorId": 0.0004017677782241864
+            },
+            "exampleSites": [
+                "bunnings.com.au",
+                "trade.bunnings.com.au",
+                "www.bunnings.com.au",
+                "www.bunnings.co.nz"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/rest\\/ua\\/v15\\/analytics\\/search",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-au.cloud"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "9986076225f27ba1893956e44723b6d771ccf026eb45b416284ac6d9d8da3ad5",
+                "1913d6040d141ceaa33d1c53e9a52ddb31ca309eb3f3dbe20fa8ac74faa81c97",
+                "e1574ad8117b4e5713c66b6663c2732f0934bbba84aa28bba236e2c57ca7fbe7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "coveo_visitorId": 0.0004017677782241864
+            },
+            "exampleSites": [
+                "bunnings.com.au",
+                "trade.bunnings.com.au",
+                "www.bunnings.com.au",
+                "www.bunnings.co.nz"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/searchui\\/v2\\.10114\\/1\\/fonts\\/lato\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.cloud",
+                "staticdev.cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xero.com",
+                "central.xero.com"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/searchui\\/v2\\.10114\\/1\\/fonts\\/lato\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.cloud",
+                "staticdev.cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xero.com",
+                "central.xero.com"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/searchui\\/v2\\.9856\\/js\\/CoveoJsSearch\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static.cloud"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7acd2caeaa28c768fbb6ca3785c56b55fb5d480e7da53fe36e32096a846a0ff3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intel.com",
+                "community.intel.com"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/searchui\\/v2\\.9856\\/js\\/cultures\\/en\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "87dbe6aceda21df339b98d24afeb9975282b52f292b2ef863577329946ba2645"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intel.com",
+                "community.intel.com"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/searchui\\/v2\\.9856\\/js\\/templates\\/templatesNew\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bd059a0388080c7addf35341757cc304208bb3dd4c7f7d9fd3e45c9dfd893fa8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intel.com",
+                "community.intel.com"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/searchui\\/v2\\.9856\\/css\\/CoveoFullSearch\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3bf63fac8f2d5ec52b3fc54e5032b8c05013084cf42d8ea0f43ec9fabfd4ae91"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intel.com",
+                "community.intel.com"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/rest\\/v15\\/analytics\\/view",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "org62salesforce.analytics.org",
+                "paloaltonetworksintranet.analytics.org"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "67925dc3aa1a4510c28a56a38d4763e815f072c14533300c4aa0d74115cc81df"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "coveo_visitorId": 0.0001004419445560466
+            },
+            "exampleSites": [
+                "salesforce.com",
+                "www.paloaltonetworks.com"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/rest\\/v15\\/analytics\\/view",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "org62salesforce.analytics.org",
+                "paloaltonetworksintranet.analytics.org"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "coveo_visitorId": 0.0001004419445560466
+            },
+            "exampleSites": [
+                "salesforce.com",
+                "www.paloaltonetworks.com"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/searchui\\/v2\\.10107\\/css\\/CoveoFullSearch\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f9724205011bbc44cc09891e049ba3d26fa41ad57b8f42d8a15d2d5fb9e06493"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dropbox.com",
+                "www.cancercenter.com"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/searchui\\/v2\\.10107\\/js\\/CoveoJsSearch\\.Lazy\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static.cloud"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.language": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fec93d0d72c0e4b0db77eaaf8d97f9808a7e7c7f5ba1e43c2d2d1df26de2d4a0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dropbox.com",
+                "www.cancercenter.com"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/rest\\/ua\\/v15\\/analytics\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dropboxproductionpmlw0l3v.analytics.org",
+                "analytics.cloud",
+                "analytics-au.cloud",
+                "platform-au.cloud"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "6480c71b5e1163e7bb6a05664d1dca016a9a36b8448e74034e5be38454ddf3d1",
+                "b85fcbe4b5ce92d546268d67201ab310df38822ca2fb176b8c4041df529df492",
+                "bc6f9d0e67ca901f8a8cc1e21a8b229d968f70fee8ae61e327b9156d892f1c36",
+                "045279e47b538f42b744f0cf1cae76f568907bb8b198dc6697f7d18d77179de1",
+                "6120a06ccddf973ef017cdcb40798625df90240ec3204e338f0fb905f7ccb0da"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dropbox.com",
+                "help.dropbox.com",
+                "www.blackwoods.com.au",
+                "www.bunnings.co.nz",
+                "www.kmart.com.au",
+                "www.lifeextension.com"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/rest\\/ua\\/v15\\/analytics\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dropboxproductionpmlw0l3v.analytics.org",
+                "analytics.cloud",
+                "analytics-au.cloud",
+                "platform-au.cloud"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dropbox.com",
+                "help.dropbox.com",
+                "www.blackwoods.com.au",
+                "www.bunnings.co.nz",
+                "www.kmart.com.au",
+                "www.lifeextension.com"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/rest\\/search\\/v2\\/querySuggest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform.cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salesforce.com",
+                "help.salesforce.com"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/rest\\/search\\/v2\\/querySuggest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform.cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "329401ffa3f20226bbe3d28281e5a09088cb6b7fb87512c6346475388f72b59e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salesforce.com",
+                "help.salesforce.com"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/rest\\/ua\\/v15\\/analytics\\/view",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics-au.cloud",
+                "smartsheetproductionh5772tp8.analytics.org"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "894c776874723be61db8b5926f6f94359c88fa09f0ddaaacaea83592b77fedb6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "coveo_visitorId": 0.0003013258336681398,
+                "CBeaconClientId": 0.0001004419445560466
+            },
+            "exampleSites": [
+                "kmart.com.au",
+                "www.smartsheet.com"
+            ]
+        },
+        {
+            "rule": "coveo\\.com\\/rest\\/ua\\/v15\\/analytics\\/view",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics-au.cloud",
+                "smartsheetproductionh5772tp8.analytics.org"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "coveo_visitorId": 0.0003013258336681398,
+                "CBeaconClientId": 0.0001004419445560466
+            },
+            "exampleSites": [
+                "kmart.com.au",
+                "www.smartsheet.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9328859060402684
+        },
+        {
+            "domain": "storage.googleapis.com",
+            "prevalence": 0.04697986577181208
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.013422818791946308
+        },
+        {
+            "domain": "d2h31hkjive6y1.cloudfront.net",
+            "prevalence": 0.006711409395973154
+        }
+    ],
+    "types": {
+        "Preflight": 20,
+        "Fetch": 20,
+        "Script": 25,
+        "Font": 4,
+        "Stylesheet": 4
+    },
+    "nameservers": [
+        "ns-1245.awsdns-27.org",
+        "ns-1562.awsdns-03.co.uk",
+        "ns-412.awsdns-51.com",
+        "ns-790.awsdns-34.net"
+    ]
+}

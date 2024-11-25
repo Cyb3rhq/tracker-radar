@@ -1,0 +1,132 @@
+{
+    "domain": "weborama.fr",
+    "owner": {
+        "name": "Weborama",
+        "displayName": "Weborama",
+        "privacyPolicy": "https://weborama.com/en/privacy_en/",
+        "url": "http://weborama.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "redirect.frontend",
+        "wf.frontend",
+        "rd.frontend",
+        "idsync.frontend"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "weborama\\.fr\\/redirect\\/standard",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "redirect.frontend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cryptonews.com",
+                "www.flypgs.com"
+            ]
+        },
+        {
+            "rule": "weborama\\.fr\\/stream\\/",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wf.frontend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rbc.ru",
+                "www.rbc.ru"
+            ]
+        },
+        {
+            "rule": "weborama\\.fr\\/rd",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rd.frontend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rbc.ru",
+                "www.rbc.ru"
+            ]
+        },
+        {
+            "rule": "weborama\\.fr\\/ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "idsync.frontend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rbc.ru",
+                "www.rbc.ru"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics"
+    ],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "adform.net",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.42857142857142855
+        }
+    ],
+    "types": {
+        "Image": 8
+    },
+    "nameservers": [
+        "aub-dns.weborama.fr",
+        "std-dns.weborama.fr"
+    ]
+}

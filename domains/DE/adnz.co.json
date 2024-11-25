@@ -1,0 +1,446 @@
+{
+    "domain": "adnz.co",
+    "owner": {
+        "name": "audienzz AG",
+        "displayName": "NZZ Management"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00131,
+    "sites": 13,
+    "subdomains": [
+        "api",
+        "cdn",
+        "pbjs"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "adnz\\.co\\/semantiq\\/semantiq\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4b5f9759590c82207e02e2255208a238d87c60c0aec6f8730728bc3364f55b6f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orf.at",
+                "www.kreuzwortraetsel.de"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/api\\/ws-events-sink\\/batch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orf.at",
+                "search.ch",
+                "stadtleben.de",
+                "www.archdaily.com",
+                "www.handelszeitung.ch",
+                "www.kreuzwortraetsel.de",
+                "www.pctipp.ch"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/api\\/ws-semantiq\\/page-keywords",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [
+                "948fab6eee81556cb2d7301dc23823c0edff682f44462eb18c18295f5b6c8077",
+                "dc908fdb9f745c0d4394bae5d07a0db5399eb90349cfe0606c8f5d81e787e2ed",
+                "cabf5609dd3ca129d4a52f774801221dd9715298f4d99d36959ce24dc3c716ad"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orf.at",
+                "stadtleben.de",
+                "weltwoche.ch",
+                "weltwoche.de",
+                "www.archdaily.com",
+                "www.finanzen.ch",
+                "www.pctipp.ch",
+                "www.wildeisen.ch"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/convey-scripts\\/contextual_10\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ca69b779ab1899f923d55d0a8b9205afaa3ba0c7c172eb91b54eedd3728c9186"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "search.ch",
+                "www.handelszeitung.ch"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/api\\/ws-contextual\\/page-keywords",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "05b3b22ff6b9cf897e8bef996da36614077a65007f312b17f7cb2862993b8642"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "search.ch",
+                "www.handelszeitung.ch"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/api\\/ws-convey\\/visitor-id",
+            "cookies": 0.000703,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "c9e3c7b156e4a9ffc07cac08126316cdcdf5c46f12995860bd707e1bc130cce4",
+                "f943f739376444c8224028cc5d7aba7cd0211442492f955d8afc578b0ee825c1",
+                "ce5d37db214262dcde8b7ee8dcba0ac3f9344f6be0076845bc7b31e138b9a75e",
+                "afeee2c70cc799a7148373145bd44ee6ab446612d87e02cd1621793500577cde",
+                "b776a851f88e6ee4c7a47086aa22ee89943bee56a774ec791e832aef562a2d28",
+                "19d65bd9ffe84c9505438b2b206ab95fac27e0572852a675de04e3b685e8db14"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stadtleben.de",
+                "weltwoche.ch",
+                "weltwoche.de",
+                "www.archdaily.com",
+                "www.finanzen.ch",
+                "www.pctipp.ch",
+                "www.wildeisen.ch"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/header\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 6,
+                "URL.createObjectURL": 6,
+                "Navigator.prototype.language": 4,
+                "Date.prototype.getTimezoneOffset": 4,
+                "Screen.prototype.height": 4,
+                "Screen.prototype.width": 4,
+                "window.innerHeight": 5,
+                "window.innerWidth": 5
+            },
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "264f17b216be336f31665d9d0e6f38c122e254907f85260f33fbc8ced57b22b3",
+                "fe701d3919ba6ec031e8d684ce8a2a59033a15ed4b64102ff38acc159c09f3de",
+                "e581d9c3e33b0b1c54c3f232058ab84c48a6f836f3b1808d050069799c96207a",
+                "4fdc7cff78cfc88082a30331796011a369ac87238d328cdf4c2279e380cc5289",
+                "44a68ecc0333dd4f70514dbbe7f8ecb6d1fe490fea44b8bdb81300b45e547c84"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weltwoche.ch",
+                "weltwoche.de",
+                "www.archdaily.com",
+                "www.finanzen.ch",
+                "www.pctipp.ch",
+                "www.wildeisen.ch"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/app-bta-feed\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.matchMedia(\"prefers-color-scheme\")": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "68fb57f8c30d7a1eef477b414ea43c1f2931d8abccd3589910418265f562e35c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weltwoche.ch",
+                "www.finanzen.ch"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/prebid\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 3,
+            "subdomains": [
+                "pbjs"
+            ],
+            "apis": {
+                "NavigatorUAData.prototype.brands": 3,
+                "NavigatorUAData.prototype.platform": 3,
+                "window.sessionStorage": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "window.outerWidth": 2,
+                "window.outerHeight": 2,
+                "window.devicePixelRatio": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.connection": 1,
+                "Screen.prototype.orientation": 1,
+                "Navigator.prototype.hardwareConcurrency": 1,
+                "Navigator.prototype.deviceMemory": 1,
+                "window.name": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "4fa38e2c65b309298277087379d680c55a8ddbe95f8c70eae80aae1a14bef703",
+                "947eeaa606a25a0d8b78f681d47abf12495ffdc15ab85aa3122c15e3573b711c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__vads": {
+                    "ttl": 2592013,
+                    "length": 25,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weltwoche.ch",
+                "weltwoche.de",
+                "www.finanzen.ch"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/api\\/ws-appnexus-proxy\\/creatives\\/mediation-excluded",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "7521be9b53d8dd90214c01916749f101602181d43fee0fb431d8153f5496512c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weltwoche.ch",
+                "weltwoche.de",
+                "www.finanzen.ch",
+                "www.wildeisen.ch"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/api\\/ws-geodata\\/country",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "9685eb765661ea3b95f31e1bb3c3b5501d0c2acdf353feeaa4d8fe32f95f77fb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weltwoche.ch",
+                "weltwoche.de",
+                "www.archdaily.com",
+                "www.finanzen.ch",
+                "www.pctipp.ch",
+                "www.wildeisen.ch"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/api\\/ws-clickstream-collector\\/submit\\/batch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weltwoche.ch",
+                "weltwoche.de",
+                "www.finanzen.ch",
+                "www.wildeisen.ch"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/api\\/ws-clickstream-collector\\/submit\\/batch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weltwoche.ch",
+                "weltwoche.de",
+                "www.finanzen.ch",
+                "www.wildeisen.ch"
+            ]
+        },
+        {
+            "rule": "adnz\\.co\\/dmp\\/publisher\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d140cb3c2874f8c61827b8948165c46b9e74c1e146c62da60283b8dba23f332c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "archdaily.com",
+                "www.pctipp.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000703,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7368421052631579
+        },
+        {
+            "domain": "ringier-advertising.ch",
+            "prevalence": 0.15789473684210525
+        },
+        {
+            "domain": "netpoint-media.de",
+            "prevalence": 0.10526315789473684
+        }
+    ],
+    "types": {
+        "Script": 17,
+        "Ping": 11,
+        "Fetch": 25,
+        "XHR": 2,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "cheryl.ns.cloudflare.com",
+        "charles.ns.cloudflare.com"
+    ]
+}

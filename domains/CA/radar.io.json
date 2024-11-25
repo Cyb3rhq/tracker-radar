@@ -1,0 +1,81 @@
+{
+    "domain": "radar.io",
+    "owner": {
+        "name": "Radar Labs, Inc.",
+        "displayName": "Radar Labs"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000302,
+    "sites": 3,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "radar\\.io\\/v1\\/geocode\\/ip",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "bd62f3d90ed1e2780684266648630f813f6463c9a4958f243f1622f8203e06c3",
+                "054dc252b02a733292e4b61b41cf961b325375aa955db27e231c3ad6648fa9af"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "michaels.com",
+                "www.michaels.com",
+                "www.peaveymart.com"
+            ]
+        },
+        {
+            "rule": "radar\\.io\\/v1\\/geocode\\/ip",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "michaels.com",
+                "www.michaels.com",
+                "www.peaveymart.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 3,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "melinda.ns.cloudflare.com",
+        "greg.ns.cloudflare.com"
+    ]
+}

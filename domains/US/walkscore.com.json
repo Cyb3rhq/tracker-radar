@@ -1,0 +1,113 @@
+{
+    "domain": "walkscore.com",
+    "owner": {
+        "name": "Redfin Corporation",
+        "displayName": "Redfin"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "walkscore\\.com\\/tile\\/show-walkscore-tile\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0178afab8d637ec978485b1bfb973ac33a18cfa67aad488bfc64de09a5daec99"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "edinarealty.com",
+                "www.raveis.com"
+            ]
+        },
+        {
+            "rule": "walkscore\\.com\\/serve-walkscore-tile\\.php",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.appVersion": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bb0c999fa4ac567a700d21182b74ceea0ea3e59333f4f838edec7538d0387a87"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "edinarealty.com",
+                "www.raveis.com"
+            ]
+        },
+        {
+            "rule": "walkscore\\.com\\/auth\\/amenity_map_auth",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "94b9e5ff9dcb0d4803aeebcaf76bca21c2fac8d49220242ca3ef8684b69b9d7a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "edinarealty.com",
+                "www.raveis.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-236.awsdns-29.com",
+        "ns-1116.awsdns-11.org",
+        "ns-1019.awsdns-63.net",
+        "ns-1893.awsdns-44.co.uk"
+    ]
+}

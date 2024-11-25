@@ -1,0 +1,105 @@
+{
+    "domain": "a-cast.jp",
+    "owner": {
+        "name": "activecore, Inc.",
+        "displayName": "activecore"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "tracer31",
+        "tracer21"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "a-cast\\.jp\\/entry\\.js",
+            "cookies": 0.00000683,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tracer31",
+                "tracer21"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7312eefd69ba6536efb14d041df21ef4c605d48197258762336fdefae2062bbe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ac": {
+                    "ttl": 161745117,
+                    "length": 14,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bookoff.co.jp",
+                "www.hankyu-travel.com"
+            ]
+        },
+        {
+            "rule": "a-cast\\.jp\\/actag",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracer31",
+                "tracer21"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1bd2aa0bb9f0a0fd919c42a18c81645bd6d9601f60086928b05db8a5be978689"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ac": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "bookoff.co.jp",
+                "www.hankyu-travel.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "04.dnsv.jp",
+        "01.dnsv.jp",
+        "02.dnsv.jp",
+        "03.dnsv.jp"
+    ]
+}

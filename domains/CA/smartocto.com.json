@@ -1,0 +1,223 @@
+{
+    "domain": "smartocto.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000503,
+    "sites": 5,
+    "subdomains": [
+        "tentacles",
+        "api",
+        "ingestion"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "smartocto\\.com\\/ten\\/tentacle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tentacles"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "Date.prototype.getTime": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000503,
+            "cnames": [],
+            "responseHashes": [
+                "35c0ba083bdf35cf6c5c7f575c63193fda7a79c9aaa46507b18656cb92d0dead"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theconversation.com",
+                "www.lapresse.ca",
+                "www.nzherald.co.nz",
+                "www.onet.pl",
+                "www.theepochtimes.com"
+            ]
+        },
+        {
+            "rule": "smartocto\\.com\\/ten\\/ingestion\\.js",
+            "cookies": 0.000503,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tentacles"
+            ],
+            "apis": {
+                "Screen.prototype.availWidth": 5,
+                "Screen.prototype.availHeight": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie getter": 5,
+                "window.devicePixelRatio": 5,
+                "window.innerWidth": 5,
+                "window.innerHeight": 5,
+                "Document.cookie setter": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000503,
+            "cnames": [],
+            "responseHashes": [
+                "9afdfda704f99ed3f26fecee7af6dc3cb9cb4b8327ab7563e84035293375decc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_sotmsid": {
+                    "ttl": 1800,
+                    "length": 43,
+                    "prevalence": 0.0005030687191870409,
+                    "uniqueness": 1
+                },
+                "_sotmpid": {
+                    "ttl": 63072000,
+                    "length": 43,
+                    "prevalence": 0.0005030687191870409,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theconversation.com",
+                "www.lapresse.ca",
+                "www.nzherald.co.nz",
+                "www.onet.pl",
+                "www.theepochtimes.com"
+            ]
+        },
+        {
+            "rule": "smartocto\\.com\\/api\\/brands\\/tentacles",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000503,
+            "cnames": [],
+            "responseHashes": [
+                "810fe3ffce2e39073c18c98768f7dc21b1cafcbe422784abc58aa339c0b43b3b",
+                "96d5e17aafedbf3038fbe53fdb2f1c6162d9bf01609cd5727e4ec4e0b914453b",
+                "9789127a24aa7d70df22b20e9d13b083a9b816fa4d4fb02add2b3c2125a270f8",
+                "17e34ec8e88c36b98cbdc454c278ed3416d89e3b5e21b8f4ab02582d792a96a0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theconversation.com",
+                "www.lapresse.ca",
+                "www.nzherald.co.nz",
+                "www.onet.pl",
+                "www.theepochtimes.com"
+            ]
+        },
+        {
+            "rule": "smartocto\\.com\\/t",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingestion"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000503,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00010061374383740819
+            },
+            "exampleSites": [
+                "theconversation.com",
+                "www.lapresse.ca",
+                "www.nzherald.co.nz",
+                "www.onet.pl",
+                "www.theepochtimes.com"
+            ]
+        },
+        {
+            "rule": "smartocto\\.com\\/ten\\/reading-time\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tentacles"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "672d5accb14b20c5610ea0afa8da1010106312dc2d00e9b0f0378fec28b2a58f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lapresse.ca",
+                "www.nzherald.co.nz"
+            ]
+        },
+        {
+            "rule": "smartocto\\.com\\/r",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingestion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00010061374383740819
+            },
+            "exampleSites": [
+                "lapresse.ca",
+                "www.nzherald.co.nz"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000503,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "geoedge.be",
+            "prevalence": 0.2222222222222222
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "XHR": 12
+    },
+    "nameservers": [
+        "ns-1238.awsdns-26.org",
+        "ns-1669.awsdns-16.co.uk",
+        "ns-49.awsdns-06.com",
+        "ns-937.awsdns-53.net"
+    ]
+}

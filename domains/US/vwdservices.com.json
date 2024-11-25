@@ -1,0 +1,153 @@
+{
+    "domain": "vwdservices.com",
+    "owner": {
+        "name": "vwd group Netherlands B.V.",
+        "displayName": "vwd group Netherlands"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "solutions",
+        "quotecast"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "vwdservices\\.com\\/products\\/quotecast\\/lib\\/vwd-streamer-1\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "solutions"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "02fc7ddb5fffaf5a236720d3cdf2f148cc3c7d0d9256bf28e73d09305d29de28"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beleggen.nl",
+                "www.iex.nl",
+                "www.tijd.be"
+            ]
+        },
+        {
+            "rule": "vwdservices\\.com\\/CORS\\/request_session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "quotecast"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "fb62fa989ce97e032b9300754f425179ba4c13a902f503273474c2910b10b9b9",
+                "998987024f2e43a314854a42a80b0cc1407b11986ff82e3b75e61951dd5ea63b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beleggen.nl",
+                "www.iex.nl",
+                "www.tijd.be"
+            ]
+        },
+        {
+            "rule": "vwdservices\\.com\\/CORS\\/a91602dc-a03e-4e79-aa7f-e8f27820124b",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "quotecast"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beleggen.nl",
+                "www.beleggen.nl"
+            ]
+        },
+        {
+            "rule": "vwdservices\\.com\\/CORS\\/9e43a759-b0f7-42cd-8ebd-e982509b6343",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "quotecast"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iex.nl",
+                "www.iex.nl"
+            ]
+        },
+        {
+            "rule": "vwdservices\\.com\\/CORS\\/0fec3abb-04b0-4879-8678-54cb8fff36bb",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "quotecast"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "85af113d2d2ba366977bb5050b631edc3d6a8e30c2f179759b6493571c2bf2bb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tijd.be",
+                "www.tijd.be"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 9
+    },
+    "nameservers": [
+        "ns2.tijdbeursmedia.nl",
+        "ns1.tijdbeursmedia.nl"
+    ]
+}

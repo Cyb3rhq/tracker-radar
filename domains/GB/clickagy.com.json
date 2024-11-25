@@ -1,0 +1,165 @@
+{
+    "domain": "clickagy.com",
+    "owner": {
+        "name": "Clickagy",
+        "displayName": "Clickagy",
+        "privacyPolicy": "https://www.clickagy.com/privacy/",
+        "url": "http://clickagy.com"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [
+        "aorta",
+        "tags",
+        "hemsync"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "clickagy\\.com\\/pixel\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aorta"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bustimes.org",
+                "www.christianpost.com",
+                "www.movieinsider.com",
+                "www.nvidia.com",
+                "www.techrepublic.com",
+                "www.vbforums.com"
+            ]
+        },
+        {
+            "rule": "clickagy\\.com\\/data\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tags"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Navigator.prototype.hardwareConcurrency": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.doNotTrack": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "429e6cab64539f15ca1c33984a782a42b43c0f02dba4cc4009f322f89fac9492"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nvidia.com",
+                "www.techrepublic.com",
+                "www.vbforums.com"
+            ]
+        },
+        {
+            "rule": "clickagy\\.com\\/data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aorta"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "7a98593344b00a737a6e1f416e0978267796a234dde788f68399a05401056156"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nvidia.com",
+                "www.techrepublic.com",
+                "www.vbforums.com"
+            ]
+        },
+        {
+            "rule": "clickagy\\.com\\/external\\/hasHashes",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hemsync"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nvidia.com",
+                "www.techrepublic.com",
+                "www.vbforums.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Audience Measurement",
+        "Third-Party Analytics Marketing"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "lijit.com",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "zoominfo.com",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Image": 6,
+        "Script": 3,
+        "XHR": 6
+    },
+    "nameservers": [
+        "ns-1114.awsdns-11.org",
+        "ns-551.awsdns-04.net",
+        "ns-1981.awsdns-55.co.uk",
+        "ns-393.awsdns-49.com"
+    ]
+}

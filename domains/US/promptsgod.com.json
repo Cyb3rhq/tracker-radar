@@ -1,0 +1,82 @@
+{
+    "domain": "promptsgod.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "promptsgod\\.com\\/api\\/v1\\/cool\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.innerWidth": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "0e158105c6d0a07fed9b99f0745f51539cde1b0d1f1e2912f5bc6323df6cb82e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "javmenu.com",
+                "www.avbasic.com",
+                "www.avfolder.com"
+            ]
+        },
+        {
+            "rule": "promptsgod\\.com\\/api\\/v1\\/pub\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "292236a05e03ff9c74d6ed806d2c9088d8c9057c6f262c5936ef991396f77b9b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "javmenu.com",
+                "www.avbasic.com",
+                "www.avfolder.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "rajeev.ns.cloudflare.com",
+        "june.ns.cloudflare.com"
+    ]
+}

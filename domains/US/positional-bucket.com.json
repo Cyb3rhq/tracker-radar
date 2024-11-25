@@ -1,0 +1,78 @@
+{
+    "domain": "positional-bucket.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "positional-bucket\\.com\\/positional\\.min\\.js",
+            "cookies": 0.0000342,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 5,
+                "window.sessionStorage": 5,
+                "window.localStorage": 5,
+                "Document.cookie setter": 5,
+                "Document.cookie getter": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "0c28eeda147a12524c5650a9d9f2b3113fbc2b6006a433f4b62dec2a0e0d3097"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "positional_visit": {
+                    "ttl": 14403,
+                    "length": 36,
+                    "prevalence": 0.00003416000546560088,
+                    "uniqueness": 1
+                },
+                "positional_visitor": {
+                    "ttl": 63072003,
+                    "length": 36,
+                    "prevalence": 0.00003416000546560088,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "counselstack.com",
+                "synder.com",
+                "www.adalo.com",
+                "www.levels.com",
+                "www.solosuit.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "patrick.ns.cloudflare.com",
+        "isla.ns.cloudflare.com"
+    ]
+}

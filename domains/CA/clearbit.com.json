@@ -1,0 +1,123 @@
+{
+    "domain": "clearbit.com",
+    "owner": {
+        "name": "APIHub, Inc.",
+        "displayName": "APIHub"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00141,
+    "sites": 14,
+    "subdomains": [
+        "reveal",
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "clearbit\\.com\\/v1\\/companies\\/reveal",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "reveal"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "4db28443e50dc073e181bf7651c1abcf57678338434dbf04984fdf5342f80c46",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "airtable.com",
+                "clickup.com",
+                "slack.com"
+            ]
+        },
+        {
+            "rule": "clearbit\\.com\\/v1\\/p",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.00101,
+            "cnames": [],
+            "responseHashes": [
+                "c955e57777ec0d73639dca6748560d00aa5eb8e12f13ebb2ed9656add3908f97"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calendly.com",
+                "clickup.com",
+                "craft.co",
+                "etcher.balena.io",
+                "grafana.com",
+                "laravel.com",
+                "webflow.com",
+                "www.backblaze.com",
+                "www.cbinsights.com",
+                "zapier.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4444444444444444
+        },
+        {
+            "domain": "clearbitjs.com",
+            "prevalence": 0.25925925925925924
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.1111111111111111
+        },
+        {
+            "domain": "fullstory.com",
+            "prevalence": 0.037037037037037035
+        },
+        {
+            "domain": "clearbitscripts.com",
+            "prevalence": 0.037037037037037035
+        },
+        {
+            "domain": "hubspot.net",
+            "prevalence": 0.037037037037037035
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.037037037037037035
+        },
+        {
+            "domain": "zapier-deployment.com",
+            "prevalence": 0.037037037037037035
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 10
+    },
+    "nameservers": [
+        "ns-1077.awsdns-06.org",
+        "ns-2027.awsdns-61.co.uk",
+        "ns-285.awsdns-35.com",
+        "ns-696.awsdns-23.net"
+    ]
+}

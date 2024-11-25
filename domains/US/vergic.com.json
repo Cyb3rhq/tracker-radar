@@ -1,0 +1,902 @@
+{
+    "domain": "vergic.com",
+    "owner": {
+        "name": "Vergic AB",
+        "displayName": "Vergic"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000212,
+    "sites": 31,
+    "subdomains": [
+        "us-content",
+        "us-jcpenney",
+        "us-aicpa",
+        "us-verabradley",
+        "us-choctaw",
+        "us-transcoremdta",
+        "us-xanterra",
+        "us-fastgrowingtreesllc",
+        "content"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "vergic\\.com\\/D76D189C-BCCF-4407-8055-632DD211C8E2\\/engage\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "us-content"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "URL.createObjectURL": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e2d427b3a415091d6f0e083ba0c576802b094790558f7072cf4d7e6c9a7c4f8f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "vngage.id": {
+                    "ttl": null,
+                    "length": 79,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "vngage.vid": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "vngage.lkvt": {
+                    "ttl": 7776014,
+                    "length": 36,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "psCurrentState": {
+                    "ttl": null,
+                    "length": 5,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jcpenney.com",
+                "www.jcpenney.com"
+            ]
+        },
+        {
+            "rule": "vergic\\.com\\/api\\/v1\\/register\\/d76d189c-bccf-4407-8055-632dd211c8e2",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us-jcpenney"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8d6a48f474f4b59ed6a9002dfc327b2d48b3ac17f50fbcf970838f08318b254a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jcpenney.com",
+                "www.jcpenney.com"
+            ]
+        },
+        {
+            "rule": "vergic\\.com\\/api\\/v1\\/session\\/bucket\\/visitor",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us-jcpenney",
+                "us-aicpa",
+                "us-verabradley",
+                "us-choctaw",
+                "us-transcoremdta",
+                "us-xanterra",
+                "us-fastgrowingtreesllc"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0000888,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jcpenney.com",
+                "us.aicpa.org",
+                "verabradleyoutlet.com",
+                "www.aicpa-cima.com",
+                "www.choctawcasinos.com",
+                "www.driveezmd.com",
+                "www.glaciernationalparklodges.com",
+                "www.grandcanyonlodges.com",
+                "www.jcpenney.com",
+                "www.plantingtree.com",
+                "www.thetrain.com",
+                "www.windstarcruises.com",
+                "www.yellowstonenationalparklodges.com"
+            ]
+        },
+        {
+            "rule": "vergic\\.com\\/api\\/v1\\/Group\\/Status\\/d76d189c-bccf-4407-8055-632dd211c8e2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us-jcpenney"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dfce18c4175386c34ece05d66d5bf74e3eaf372e85148d9d6ff902cbeb759816"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jcpenney.com",
+                "www.jcpenney.com"
+            ]
+        },
+        {
+            "rule": "vergic\\.com\\/api\\/v1\\/Batch\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us-jcpenney",
+                "us-aicpa",
+                "us-verabradley",
+                "us-choctaw",
+                "us-transcoremdta",
+                "us-xanterra",
+                "us-fastgrowingtreesllc"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0000888,
+            "cnames": [],
+            "responseHashes": [
+                "3ea83916659a2fdc71b7661ca4f1f847903caf3f98f0543474d7caa0f28d4676"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jcpenney.com",
+                "us.aicpa.org",
+                "verabradleyoutlet.com",
+                "www.aicpa-cima.com",
+                "www.choctawcasinos.com",
+                "www.driveezmd.com",
+                "www.glaciernationalparklodges.com",
+                "www.grandcanyonlodges.com",
+                "www.jcpenney.com",
+                "www.plantingtree.com",
+                "www.thetrain.com",
+                "www.windstarcruises.com",
+                "www.yellowstonenationalparklodges.com"
+            ]
+        },
+        {
+            "rule": "vergic\\.com\\/cdn\\/accounts\\/D76D189C-BCCF-4407-8055-632DD211C8E2\\/images\\/vngage-jcChatIcon\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us-content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "08025edfddad4f0f02ff7a1c06fae24c864118271c1c42ffd75da850eb2f0f09"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jcpenney.com",
+                "www.jcpenney.com"
+            ]
+        },
+        {
+            "rule": "vergic\\.com\\/58C49C39-1F72-47C6-873D-E6EFA16FBC2E\\/ps\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us-content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bjs.com",
+                "tires.bjs.com"
+            ]
+        },
+        {
+            "rule": "vergic\\.com\\/C684836E-2833-4669-875F-C54261C28192\\/engage\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "us-content"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "Document.cookie getter": 3,
+                "URL.createObjectURL": 3,
+                "window.sessionStorage": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "82881d69b622e5a742cb0223ccc76d7d34e90549aa6fa4e59c413a1a62ab354a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "vngage.id": {
+                    "ttl": null,
+                    "length": 79,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "vngage.vid": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "vngage.lkvt": {
+                    "ttl": 7776010,
+                    "length": 36,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "psCurrentState": {
+                    "ttl": null,
+                    "length": 5,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aicpa.org",
+                "us.aicpa.org",
+                "www.aicpa-cima.com"
+            ]
+        },
+        {
+            "rule": "vergic\\.com\\/api\\/v1\\/register\\/c684836e-2833-4669-875f-c54261c28192",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us-aicpa"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "d2b57ca2b5ab7e3d1443384d0942ec4cbee5a8975fd7ca61af8f9a73290a8c0b",
+                "3d3e70eccd4cdf08707e7192db8794ab0075d71fe0e0dcade35905e989d61cb1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aicpa.org",
+                "us.aicpa.org",
+                "www.aicpa-cima.com"
+            ]
+        },
+        {
+            "rule": "vergic\\.com\\/plugins\\/puzzelbot\\/puzzelbot\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {
+                "window.localStorage": 6,
+                "Document.cookie getter": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "d1d6d2d8cda3a558ffe43438e56431c7beeeb6a7ac16ad49a651c819d55f333a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aicpa.org",
+                "us.aicpa.org",
+                "www.aicpa-cima.com",
+                "www.davidaustinroses.co.uk",
+                "www.davidaustinroses.com",
+                "www.wpd.nl"
+            ]
+        },
+        {
+            "rule": "vergic\\.com\\/api\\/v1\\/Register\\/TransportToken\\/Create",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us-aicpa",
+                "us-xanterra"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "83c2907f221975440c6054e50ee7b8a8466e59bcda9e94a4ce462492bce2ab10",
+                "d148eca1b5729232754a5a69f2ac6669075be11ddb3818872ee82bfc8055fdd2",
+                "90a724c4d5919118e15d94c33639f846408bb483686328e8fe6c0c172e953a7d",
+                "9b5277d769e204c38c28f740ffadc9d25366975a13bb7d17cbb64312dd17232b",
+                "d3f6ba37aba343e769ba375823d0d558d8c4f75bceaf8bd5611db449c6c8fcb8",
+                "fd923a04265d3178ae33b451e9569e4dd8cf48c7364151047eec0e56232b6377",
+                "328defb99aea39aafdf2236427cca6d4f032784e473b08740bda9608716a2220"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aicpa.org",
+                "us.aicpa.org",
+                "www.aicpa-cima.com",
+                "www.glaciernationalparklodges.com",
+                "www.grandcanyonlodges.com",
+                "www.thetrain.com",
+                "www.windstarcruises.com",
+                "www.yellowstonenationalparklodges.com"
+            ]
+        },
+        {
+            "rule": "vergic\\.com\\/api\\/v1\\/Group\\/Status\\/c684836e-2833-4669-875f-c54261c28192",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us-aicpa"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "52814a84296548d9041085613898e2a45ac161a0290b622fc75b87fc927a775b",
+                "7b3719163ebe89bd1d9a616fec80337fd06fe64aa76f8b3ea765a117863d7bfc"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aicpa.org",
+                "us.aicpa.org",
+                "www.aicpa-cima.com"
+            ]
+        },
+        {
+            "rule": "vergic\\.com\\/4080BBE4-8F97-4E26-9AF8-616606AEA953\\/engage\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "us-content"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "URL.createObjectURL": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7688d26bacb582e0830d799f44e9a6ad463dddfc4f8df30b1bcbb0fb785d20aa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "vngage.id": {
+                    "ttl": null,
+                    "length": 79,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "vngage.vid": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "vngage.lkvt": {
+                    "ttl": 7776007,
+                    "length": 36,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "psCurrentState": {
+                    "ttl": null,
+                    "length": 5,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "choctawcasinos.com",
+                "www.choctawcasinos.com"
+            ]
+        },
+        {
+            "rule": "vergic\\.com\\/api\\/v1\\/register\\/4080bbe4-8f97-4e26-9af8-616606aea953",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us-choctaw"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e00934282e62b5d0d6fd46efda8064b1db927832a3ecd467c5f8196788d37e1b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "choctawcasinos.com",
+                "www.choctawcasinos.com"
+            ]
+        },
+        {
+            "rule": "vergic\\.com\\/api\\/v1\\/Group\\/Status\\/4080bbe4-8f97-4e26-9af8-616606aea953",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us-choctaw"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a1d19814e44fbb577ae8d78b4aed275d24fd051ef962c0e1cde32815c681ef85"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "choctawcasinos.com",
+                "www.choctawcasinos.com"
+            ]
+        },
+        {
+            "rule": "vergic\\.com\\/plugins\\/rating\\/rating\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "782e84f080a8237144a92135b6992a77dd73650342d819737e792144319472d9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "davidaustinroses.co.uk",
+                "www.davidaustinroses.com"
+            ]
+        },
+        {
+            "rule": "vergic\\.com\\/643DFA66-0DAF-45F7-B02A-5E2A0ACD593B\\/engage\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "us-content"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "URL.createObjectURL": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f225a278912e4809af6b0ecc8f3515bba9cc1899b42fb384399811a4dcccdcbc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "vngage.id": {
+                    "ttl": null,
+                    "length": 78,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "vngage.vid": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "vngage.lkvt": {
+                    "ttl": 7776003,
+                    "length": 36,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "psCurrentState": {
+                    "ttl": null,
+                    "length": 5,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "driveezmd.com",
+                "www.driveezmd.com"
+            ]
+        },
+        {
+            "rule": "vergic\\.com\\/api\\/v1\\/register\\/643dfa66-0daf-45f7-b02a-5e2a0acd593b",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us-transcoremdta"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2518572989037359b4472f1c3f4a9abfc8626f4c8878694e9644772f4918d3f4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "driveezmd.com",
+                "www.driveezmd.com"
+            ]
+        },
+        {
+            "rule": "vergic\\.com\\/api\\/v1\\/Group\\/Status\\/643dfa66-0daf-45f7-b02a-5e2a0acd593b",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us-transcoremdta"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "29ed6345948a96963c50fce98b030228c81c0c1a8158a414e26c76605b28a033"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "driveezmd.com",
+                "www.driveezmd.com"
+            ]
+        },
+        {
+            "rule": "vergic\\.com\\/966AFF34-10C0-4D5E-975D-4C5C3747A029\\/engage\\.js",
+            "cookies": 0.000041,
+            "fingerprinting": 1,
+            "subdomains": [
+                "us-content"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 6,
+                "Date.prototype.getTime": 6,
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 6,
+                "Document.cookie getter": 6,
+                "window.sessionStorage": 6,
+                "Document.cookie setter": 6,
+                "URL.createObjectURL": 4
+            },
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "ed322c679693fe6d46c65d9d8f8ff37858435b2fee7117f08be9166a44f0e433"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "vngage.id": {
+                    "ttl": null,
+                    "length": 79,
+                    "prevalence": 0.00004099200655872105,
+                    "uniqueness": 0.8333333333333334
+                },
+                "vngage.vid": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.00004099200655872105,
+                    "uniqueness": 0.8333333333333334
+                },
+                "vngage.lkvt": {
+                    "ttl": 7776008,
+                    "length": 36,
+                    "prevalence": 0.00004099200655872105,
+                    "uniqueness": 0.8333333333333334
+                },
+                "psCurrentState": {
+                    "ttl": null,
+                    "length": 5,
+                    "prevalence": 0.00004099200655872105,
+                    "uniqueness": 0.16666666666666666
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "glaciernationalparklodges.com",
+                "www.glaciernationalparklodges.com",
+                "www.grandcanyonlodges.com",
+                "www.thetrain.com",
+                "www.windstarcruises.com",
+                "www.yellowstonenationalparklodges.com"
+            ]
+        },
+        {
+            "rule": "vergic\\.com\\/api\\/v1\\/register\\/966aff34-10c0-4d5e-975d-4c5c3747a029",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us-xanterra"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "37c6d3a2af9d856ac0a0c90d6f064893243047a3034c4cbf9303c7ea4c1a1c91",
+                "06506d93a561098195e80a26cde70d5bb8958b43be4cea569accb69d6df16470",
+                "b9943758811e55f963709b35db7974222fba01050636a52e89b0ecd556cc575b",
+                "1bf9e4f97ec344b6ff06f8edcf27286a7779ab788d9b3e329a59a600a5973304"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "glaciernationalparklodges.com",
+                "www.grandcanyonlodges.com",
+                "www.thetrain.com",
+                "www.windstarcruises.com",
+                "www.yellowstonenationalparklodges.com"
+            ]
+        },
+        {
+            "rule": "vergic\\.com\\/api\\/v1\\/Group\\/Status\\/966aff34-10c0-4d5e-975d-4c5c3747a029",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us-xanterra"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "8fda768f048f78b91e790d30a3caef79fd897ac206afd33f5bb21beb6f1307b9",
+                "4fdc7ce416365cfee08290df3773e53d7d04401766c80c1fcc6721a67e8c39d7",
+                "475ca70975f2fb5bffdea1d9fbb55768f048cf1aa43eba8044a80f2bc6b22a01",
+                "aa7ce39ae44f5d7411f90be1a509dc766b6bbffec140f4c24fdeaab0f9d048c6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "glaciernationalparklodges.com",
+                "www.grandcanyonlodges.com",
+                "www.thetrain.com",
+                "www.windstarcruises.com",
+                "www.yellowstonenationalparklodges.com"
+            ]
+        },
+        {
+            "rule": "vergic\\.com\\/plugins\\/puzzelbot\\/boostbot2\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e2e65f5a85a3a009ecfe3e3aa90b56063d086a1cbee37504ded5af6ba0f4c505"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "vngage-bot": {
+                    "ttl": 86407,
+                    "length": 4,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "if.se",
+                "www.if.fi"
+            ]
+        },
+        {
+            "rule": "vergic\\.com\\/plugins\\/customerscript\\/if\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fa57bdcf3784f086902e40db38795f955b57e99ae41ad17c88a31354f87f5b53"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "if.se",
+                "www.if.fi"
+            ]
+        },
+        {
+            "rule": "vergic\\.com\\/images\\/966AFF34-10C0-4D5E-975D-4C5C3747A029\\/gc-logo-new-2x-Railway\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us-content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0b17573d312902438231d48378b0825cd3efb2deb86e9ca6c8a0e36bbf7e2667"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thetrain.com",
+                "www.thetrain.com"
+            ]
+        },
+        {
+            "rule": "vergic\\.com\\/images\\/966AFF34-10C0-4D5E-975D-4C5C3747A029\\/vngage-windstar-logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us-content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2ed0519fca3e3f70d342a86389f06c2b323748312d3f6f1ad80911699bd2e7d0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "windstarcruises.com",
+                "www.windstarcruises.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000171,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.45454545454545453
+        },
+        {
+            "domain": "aicpa-cima.com",
+            "prevalence": 0.19008264462809918
+        },
+        {
+            "domain": "quantummetric.com",
+            "prevalence": 0.12396694214876033
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.11570247933884298
+        },
+        {
+            "domain": "psplugin.com",
+            "prevalence": 0.0743801652892562
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.024793388429752067
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.01652892561983471
+        }
+    ],
+    "types": {
+        "Script": 29,
+        "XHR": 62,
+        "Image": 6
+    },
+    "nameservers": [
+        "ns-1725.awsdns-23.co.uk",
+        "ns-1530.awsdns-63.org",
+        "ns-290.awsdns-36.com",
+        "ns-521.awsdns-01.net"
+    ]
+}

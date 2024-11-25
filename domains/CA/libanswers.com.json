@@ -1,0 +1,106 @@
+{
+    "domain": "libanswers.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000503,
+    "sites": 5,
+    "subdomains": [
+        "region-ca",
+        "concordiauniversity",
+        "yorku",
+        "ualberta",
+        "chat-ca"
+    ],
+    "cnames": [
+        {
+            "original": "unequestion.bib.umontreal.ca",
+            "resolved": "region-ca.libanswers.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "libanswers\\.com\\/load_chat\\.php",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "region-ca",
+                "concordiauniversity",
+                "yorku",
+                "ualberta"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000503,
+            "cnames": [
+                {
+                    "original": "unequestion.bib.umontreal.ca",
+                    "resolved": "region-ca.libanswers.com"
+                }
+            ],
+            "responseHashes": [
+                "05acdba42b631eb755796899c2dba674db0790da13fd433bab85ddeab3ad27ee",
+                "88ee37b0d9dd4c30850c46e632376ceb24c60cb6cacd86924db5548d2786408e",
+                "516fcf3a65414c5e5887f7e20763c670e69b2e673db59996c747c43bf61b2bbb",
+                "8f8bbef014dfbb8d23ccfc6d30940998f4f7d04918cf8d48189e331b8d1b26c1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "umontreal.ca",
+                "library.concordia.ca",
+                "www.epl.ca",
+                "www.library.yorku.ca",
+                "www.library.ualberta.ca"
+            ]
+        },
+        {
+            "rule": "libanswers\\.com\\/widget_status",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat-ca"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "8515c47c56e6685a2c4f89f0a6b2f5c6f5dfd25b3d16c1d8958bf5e6a03ff402",
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+                "1a28d42816499ba42c751d679d9cca5fc255373b28d5cf1445817d2e186aef92"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "umontreal.ca",
+                "library.concordia.ca",
+                "www.epl.ca",
+                "www.library.ualberta.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns-140.awsdns-17.com",
+        "ns-591.awsdns-09.net",
+        "ns-1830.awsdns-36.co.uk",
+        "ns-1474.awsdns-56.org"
+    ]
+}

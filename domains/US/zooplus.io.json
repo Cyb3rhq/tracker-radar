@@ -1,0 +1,264 @@
+{
+    "domain": "zooplus.io",
+    "owner": {
+        "name": "zooplus AG",
+        "displayName": "zooplus"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "cdn-prod.shphdrp.ext.aws",
+        "login-zooplus-de.idpc-prod.ext.aws",
+        "login-zooplus-co-uk.idpc-prod.ext.aws",
+        "login-zooplus-nl.idpc-prod.ext.aws",
+        "login-zooplus-pl.idpc-prod.ext.aws"
+    ],
+    "cnames": [
+        {
+            "original": "login.zooplus.co.uk",
+            "resolved": "login-zooplus-co-uk.idpc-prod.ext.aws.zooplus.io"
+        },
+        {
+            "original": "login.zooplus.de",
+            "resolved": "login-zooplus-de.idpc-prod.ext.aws.zooplus.io"
+        },
+        {
+            "original": "login.zooplus.nl",
+            "resolved": "login-zooplus-nl.idpc-prod.ext.aws.zooplus.io"
+        },
+        {
+            "original": "login.zooplus.pl",
+            "resolved": "login-zooplus-pl.idpc-prod.ext.aws.zooplus.io"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "zooplus\\.io\\/3\\.28\\.0\\/images\\/zooplus\\/logo\\/2024\\/zooplus\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-prod.shphdrp.ext.aws"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "99ae6db140f65fccf6135637faaceb71fd9456dcd64d328fee991cebd5a74500"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zooplus.co.uk",
+                "www.zooplus.de",
+                "www.zooplus.nl",
+                "www.zooplus.pl"
+            ]
+        },
+        {
+            "rule": "zooplus\\.io\\/auth\\/realms\\/zooplus\\/protocol\\/openid-connect\\/3p-cookies\\/step1\\.html",
+            "cookies": 0.0000273,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login-zooplus-de.idpc-prod.ext.aws",
+                "login-zooplus-co-uk.idpc-prod.ext.aws",
+                "login-zooplus-nl.idpc-prod.ext.aws",
+                "login-zooplus-pl.idpc-prod.ext.aws"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [
+                {
+                    "original": "login.zooplus.de",
+                    "resolved": "login-zooplus-de.idpc-prod.ext.aws.zooplus.io"
+                },
+                {
+                    "original": "login.zooplus.co.uk",
+                    "resolved": "login-zooplus-co-uk.idpc-prod.ext.aws.zooplus.io"
+                },
+                {
+                    "original": "login.zooplus.nl",
+                    "resolved": "login-zooplus-nl.idpc-prod.ext.aws.zooplus.io"
+                },
+                {
+                    "original": "login.zooplus.pl",
+                    "resolved": "login-zooplus-pl.idpc-prod.ext.aws.zooplus.io"
+                }
+            ],
+            "responseHashes": [
+                "d4802ae05cb666b893715d6314124022f18d5326ff193e2ac3b78e4b6648ff3a"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zooplus.de",
+                "www.zooplus.co.uk",
+                "www.zooplus.nl",
+                "www.zooplus.pl"
+            ]
+        },
+        {
+            "rule": "zooplus\\.io\\/auth\\/realms\\/zooplus\\/protocol\\/openid-connect\\/3p-cookies\\/step2\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login-zooplus-de.idpc-prod.ext.aws",
+                "login-zooplus-co-uk.idpc-prod.ext.aws",
+                "login-zooplus-nl.idpc-prod.ext.aws",
+                "login-zooplus-pl.idpc-prod.ext.aws"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [
+                {
+                    "original": "login.zooplus.de",
+                    "resolved": "login-zooplus-de.idpc-prod.ext.aws.zooplus.io"
+                },
+                {
+                    "original": "login.zooplus.co.uk",
+                    "resolved": "login-zooplus-co-uk.idpc-prod.ext.aws.zooplus.io"
+                },
+                {
+                    "original": "login.zooplus.nl",
+                    "resolved": "login-zooplus-nl.idpc-prod.ext.aws.zooplus.io"
+                },
+                {
+                    "original": "login.zooplus.pl",
+                    "resolved": "login-zooplus-pl.idpc-prod.ext.aws.zooplus.io"
+                }
+            ],
+            "responseHashes": [
+                "7d95f5f9ca844e7b9f775ce11dabc539e76d205d22eeb6c91923045816f7549b"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zooplus.de",
+                "www.zooplus.co.uk",
+                "www.zooplus.nl",
+                "www.zooplus.pl"
+            ]
+        },
+        {
+            "rule": "zooplus\\.io\\/auth\\/realms\\/zooplus\\/protocol\\/openid-connect\\/login-status-iframe\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login-zooplus-de.idpc-prod.ext.aws",
+                "login-zooplus-co-uk.idpc-prod.ext.aws",
+                "login-zooplus-nl.idpc-prod.ext.aws",
+                "login-zooplus-pl.idpc-prod.ext.aws"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [
+                {
+                    "original": "login.zooplus.de",
+                    "resolved": "login-zooplus-de.idpc-prod.ext.aws.zooplus.io"
+                },
+                {
+                    "original": "login.zooplus.co.uk",
+                    "resolved": "login-zooplus-co-uk.idpc-prod.ext.aws.zooplus.io"
+                },
+                {
+                    "original": "login.zooplus.nl",
+                    "resolved": "login-zooplus-nl.idpc-prod.ext.aws.zooplus.io"
+                },
+                {
+                    "original": "login.zooplus.pl",
+                    "resolved": "login-zooplus-pl.idpc-prod.ext.aws.zooplus.io"
+                }
+            ],
+            "responseHashes": [
+                "a818a7bfbcd88b5cc01ce27fbde84124ca0fc4178ceca94f73028678a47a6941"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zooplus.de",
+                "www.zooplus.co.uk",
+                "www.zooplus.nl",
+                "www.zooplus.pl"
+            ]
+        },
+        {
+            "rule": "zooplus\\.io\\/auth\\/realms\\/zooplus\\/protocol\\/openid-connect\\/login-status-iframe\\.html\\/init",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login-zooplus-de.idpc-prod.ext.aws",
+                "login-zooplus-co-uk.idpc-prod.ext.aws",
+                "login-zooplus-nl.idpc-prod.ext.aws",
+                "login-zooplus-pl.idpc-prod.ext.aws"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [
+                {
+                    "original": "login.zooplus.de",
+                    "resolved": "login-zooplus-de.idpc-prod.ext.aws.zooplus.io"
+                },
+                {
+                    "original": "login.zooplus.co.uk",
+                    "resolved": "login-zooplus-co-uk.idpc-prod.ext.aws.zooplus.io"
+                },
+                {
+                    "original": "login.zooplus.nl",
+                    "resolved": "login-zooplus-nl.idpc-prod.ext.aws.zooplus.io"
+                },
+                {
+                    "original": "login.zooplus.pl",
+                    "resolved": "login-zooplus-pl.idpc-prod.ext.aws.zooplus.io"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zooplus.de",
+                "www.zooplus.co.uk",
+                "www.zooplus.nl",
+                "www.zooplus.pl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000273,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8461538461538461
+        },
+        {
+            "domain": "zooplus.net",
+            "prevalence": 0.15384615384615385
+        }
+    ],
+    "types": {
+        "Image": 4,
+        "Document": 12,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns-959.awsdns-55.net",
+        "ns-163.awsdns-20.com",
+        "ns-1384.awsdns-45.org",
+        "ns-1921.awsdns-48.co.uk"
+    ]
+}

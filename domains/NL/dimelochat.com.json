@@ -1,0 +1,90 @@
+{
+    "domain": "dimelochat.com",
+    "owner": {
+        "name": "dimelo sas",
+        "displayName": "dimelo"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "ziggo"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "dimelochat\\.com\\/chat\\/45e3db8a383eef4bbf58c336\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ziggo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a3a8534f82d57be801fbad20c095c0aabd8e853ee5d411cdea78c885f9d474b9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ziggo.nl",
+                "community.vodafone.nl"
+            ]
+        },
+        {
+            "rule": "dimelochat\\.com\\/assets\\/messaging-45d5060ee828133a403b159f5939889510e1137b28566e3bc43f9b2ee86400fe\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ziggo"
+            ],
+            "apis": {
+                "CanvasRenderingContext2D.prototype.getImageData": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Event.prototype.timeStamp": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0a899fa2add9199e90f3d3986cbdf2a6a5f2bc1c942a776b89d53f5a6132008b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ziggo.nl",
+                "community.vodafone.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns10.dnsmadeeasy.com",
+        "ns11.dnsmadeeasy.com",
+        "ns12.dnsmadeeasy.com",
+        "ns13.dnsmadeeasy.com",
+        "ns14.dnsmadeeasy.com",
+        "ns15.dnsmadeeasy.com"
+    ]
+}

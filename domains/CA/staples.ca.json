@@ -1,0 +1,129 @@
+{
+    "domain": "staples.ca",
+    "owner": {
+        "name": "Staples",
+        "displayName": "Staples"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000302,
+    "sites": 3,
+    "subdomains": [
+        "api.stores",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "staples\\.ca\\/api\\/locations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.stores"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "d5a2bfb5070f17b452b2900bc311b6cfcdc8af046f89710b325833fc815d3d4c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "staplescopyandprint.ca",
+                "shop.staplescopyandprint.ca",
+                "www.staplescopyandprint.ca"
+            ]
+        },
+        {
+            "rule": "staples\\.ca\\/ecommerce\\/inventory\\/v1\\.0\\/request",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "62b3d217abed664e5bc8c485e50101bb28392331b170e65cb1223008bcb75a74"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bureauengros.com",
+                "www.bureauengros.com"
+            ]
+        },
+        {
+            "rule": "staples\\.ca\\/ecommerce\\/inventory\\/v1\\.0\\/request",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bureauengros.com",
+                "www.bureauengros.com"
+            ]
+        },
+        {
+            "rule": "staples\\.ca\\/ecommerce\\/inventory\\/v1\\.0\\/request",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3bb6af2d4e511a919040927ef29b2d3c7e46d0b8dec9d9eddeb8ab2023c30723"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bureauengros.com",
+                "www.bureauengros.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 5,
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "a1-51.akam.net",
+        "a6-66.akam.net",
+        "a14-66.akam.net",
+        "a13-65.akam.net",
+        "a3-64.akam.net",
+        "a12-65.akam.net"
+    ]
+}

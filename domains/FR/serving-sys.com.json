@@ -1,0 +1,103 @@
+{
+    "domain": "serving-sys.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000705,
+    "sites": 7,
+    "subdomains": [
+        "secure-ds",
+        "ds",
+        "bs"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "serving-sys\\.com\\/SemiCachedScripts\\/ebOneTag\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds",
+                "ds"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "4c2e03d0e2d3f21d25a50ac39491f5124a03d778da219ccb65801c522201a370"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anker.com",
+                "www.sfu.ca",
+                "www.wwf.fr"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/Serving",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bs"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "804b10fe0fa9cd69960e51b20f06d67fc8e6ec88bd690efe42a082cb471fced3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anker.com",
+                "www.sfu.ca",
+                "www.wwf.fr"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {},
+    "cookies": 0.000101,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7857142857142857
+        },
+        {
+            "domain": "amazon-adsystem.com",
+            "prevalence": 0.14285714285714285
+        },
+        {
+            "domain": "demdex.net",
+            "prevalence": 0.07142857142857142
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns-131.awsdns-16.com",
+        "ns-1502.awsdns-59.org",
+        "ns-1867.awsdns-41.co.uk",
+        "ns-787.awsdns-34.net"
+    ]
+}

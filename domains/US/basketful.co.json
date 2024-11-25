@@ -1,0 +1,152 @@
+{
+    "domain": "basketful.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000478,
+    "sites": 7,
+    "subdomains": [
+        "bonsai",
+        "shop",
+        "bonsai-service",
+        "images"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "basketful\\.co\\/basketful\\.js",
+            "cookies": 0.0000273,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bonsai",
+                "shop"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "b614e72a23908c107d615e5ca5c5d29a08a684ad59de3a3f430399fd274d7b40"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "basketful_u": {
+                    "ttl": 31536002,
+                    "length": 101,
+                    "prevalence": 0.0000273280043724807,
+                    "uniqueness": 1
+                },
+                "basketful_s": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.0000273280043724807,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bushbeans.com",
+                "drinkolipop.com",
+                "www.bushbeans.com",
+                "www.butterball.com",
+                "www.goodnes.com"
+            ]
+        },
+        {
+            "rule": "basketful\\.co\\/DOM\\/https%3A%2F%2Fwww\\.bushbeans\\.com%2Fen_US%2F",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bonsai-service"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "126868576885e74d2937d112bbedf32ea07b9e8edbd6a5a2e2c76a07f05effac"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bushbeans.com",
+                "www.bushbeans.com"
+            ]
+        },
+        {
+            "rule": "basketful\\.co\\/ui-images\\/gif-load\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6363be93f6f42e3ebaad38ff92f4c381ab56da964751ba8e190a20e58cf79769"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "butterball.com",
+                "www.butterball.com"
+            ]
+        },
+        {
+            "rule": "basketful\\.co\\/1b160562-9b00-4ada-b475-175b0ea2c372",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "shop"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2cd5abb5e940200e8ed2ed1e4e5c1ec50b4833e66ea978b9e1238bbd875aa6cc"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "butterball.com",
+                "www.butterball.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000478,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8181818181818182
+        },
+        {
+            "domain": "intelligems.io",
+            "prevalence": 0.18181818181818182
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 2,
+        "Image": 2,
+        "Other": 2
+    },
+    "nameservers": [
+        "ns-cloud-c4.googledomains.com",
+        "ns-cloud-c2.googledomains.com",
+        "ns-cloud-c1.googledomains.com",
+        "ns-cloud-c3.googledomains.com"
+    ]
+}

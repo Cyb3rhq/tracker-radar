@@ -1,0 +1,147 @@
+{
+    "domain": "edx.org",
+    "owner": {
+        "name": "edX",
+        "displayName": "edX"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000683,
+    "sites": 1,
+    "subdomains": [
+        "www",
+        "beam"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "edx\\.org\\/cs50",
+            "cookies": 0.00000683,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "window.sessionStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "20fb62f7763fdfa1699a09cbbd78e40572ae2236bd441b86fdccd106cd587280"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "harvard.edu",
+                "cs50.harvard.edu"
+            ]
+        },
+        {
+            "rule": "edx\\.org\\/optimizelyjs\\/27831640741\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0d1df30a7a166221802ca928bbf8a8b1c992b327eb698a9591585cbfacd22e47"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "harvard.edu",
+                "cs50.harvard.edu"
+            ]
+        },
+        {
+            "rule": "edx\\.org\\/v2\\/t",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e9a3754e2f871a75a17af2e40d82d7201f040b0a6856f21b6ac354ade9b8064b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "harvard.edu",
+                "cs50.harvard.edu"
+            ]
+        },
+        {
+            "rule": "edx\\.org\\/v2\\/t",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "harvard.edu",
+                "cs50.harvard.edu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000683,
+    "topInitiators": [
+        {
+            "domain": "cohesionapps.com",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "cloudflareinsights.com",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "segment.io",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Document": 2,
+        "Script": 2,
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-73.awsdns-09.com",
+        "ns-1753.awsdns-27.co.uk",
+        "ns-828.awsdns-39.net",
+        "ns-1472.awsdns-56.org"
+    ]
+}

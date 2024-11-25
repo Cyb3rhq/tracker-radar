@@ -1,0 +1,80 @@
+{
+    "domain": "portal-services.ch",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "login"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "portal-services\\.ch\\/auth\\/js\\/keycloak\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "297b40b90a69c867227c15076edcc5ef89d8a885559619e96b462304778156c7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bkw.ch",
+                "my.bkw.ch"
+            ]
+        },
+        {
+            "rule": "portal-services\\.ch\\/auth\\/realms\\/oneportal\\/protocol\\/openid-connect\\/auth",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "441b41260440b687985da22a7fab4bb6087eef3f9db4f6dfc403ba03fc22e262"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bkw.ch",
+                "my.bkw.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns2.bkw.ch",
+        "ns1.bkw.ch"
+    ]
+}

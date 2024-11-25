@@ -1,0 +1,130 @@
+{
+    "domain": "inflection.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "wt"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "inflection\\.io\\/scripts\\/wt-script\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "wt"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Navigator.prototype.doNotTrack": 4,
+                "Date.prototype.getTime": 4,
+                "window.sessionStorage": 4,
+                "Navigator.prototype.cookieEnabled": 4,
+                "Document.cookie getter": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "94c520d8068fa422eff422ec1105e376e223d2b8de60ea667bcc3ae0d8ee610e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bill.com",
+                "www.bill.com",
+                "www.clay.com",
+                "www.formstack.com"
+            ]
+        },
+        {
+            "rule": "inflection\\.io\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wt"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "a86d61168ebd1f9d73cbc55a6cb0256c5c38ee508c5cd42642ffa730fac3135a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bill.com",
+                "www.bill.com",
+                "www.clay.com",
+                "www.formstack.com"
+            ]
+        },
+        {
+            "rule": "inflection\\.io\\/beacon",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wt"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "764e5f89c32c3220420edb1273c83649d1e056e090c6284de732700a924c4f8a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "inflection-anon-id": 0.0000273280043724807,
+                "inflection-session-id": 0.0000273280043724807
+            },
+            "exampleSites": [
+                "bill.com",
+                "www.bill.com",
+                "www.clay.com",
+                "www.formstack.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.26666666666666666
+        },
+        {
+            "domain": "transcend-cdn.com",
+            "prevalence": 0.26666666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.13333333333333333
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 4,
+        "Image": 4
+    },
+    "nameservers": [
+        "ns-1464.awsdns-55.org",
+        "ns-866.awsdns-44.net",
+        "ns-260.awsdns-32.com",
+        "ns-2037.awsdns-62.co.uk"
+    ]
+}

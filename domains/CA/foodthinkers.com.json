@@ -1,0 +1,82 @@
+{
+    "domain": "foodthinkers.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000101,
+    "sites": 1,
+    "subdomains": [
+        "api",
+        "web-assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "foodthinkers\\.com\\/algoliaProxy",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "54b67cd4fa7ed5a3be98349d004d848143014d67dda66658e66929b169cff45e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "breville.com",
+                "www.breville.com"
+            ]
+        },
+        {
+            "rule": "foodthinkers\\.com\\/decision-tool-widget\\.js",
+            "cookies": 0.000101,
+            "fingerprinting": 1,
+            "subdomains": [
+                "web-assets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c69ed625eb17bf5c2cd011228fd5f8a9b4b84a24e97409b0d926f6d0a313b3ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "breville.com",
+                "www.breville.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000101,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns.domainnetwork.se",
+        "ns2.domainnetwork.se",
+        "ns3.domainnetwork.com"
+    ]
+}

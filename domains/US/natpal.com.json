@@ -1,0 +1,150 @@
+{
+    "domain": "natpal.com",
+    "owner": {
+        "name": "Web.com Group, Inc.",
+        "displayName": "Web.com Group"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "labs"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "natpal\\.com\\/api\\/v1\\/client\\/ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "labs"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "81478bc6004fa05f8a09723e821d125c07c61dea5cb4b0974feb114953790ddf",
+                "620fe04848202c9cfa4da75bdd5d3bf635233d169671209fd7be764b4b1218bd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "budgetblinds.com",
+                "www.carpetone.com",
+                "www.flooringamerica.com"
+            ]
+        },
+        {
+            "rule": "natpal\\.com\\/trk\\/script",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "labs"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.availWidth": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "388f7e8d41f00e199f3b08da6d7025a14e266d6177fef73469c1be4cd2e3675f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "vt": {
+                    "ttl": 1209604,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "budgetblinds.com",
+                "www.flooringamerica.com"
+            ]
+        },
+        {
+            "rule": "natpal\\.com\\/trk\\/pixel",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "labs"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__ss_referrer": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "budgetblinds.com",
+                "dadsdivorce.com",
+                "www.flooringamerica.com"
+            ]
+        },
+        {
+            "rule": "natpal\\.com\\/trk\\/setuseridcookie",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "labs"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "2997354a0d78c44f6596a455fceb4923c986f564975b329259a290f663c47676"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "budgetblinds.com",
+                "dadsdivorce.com",
+                "www.flooringamerica.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000273,
+    "topInitiators": [
+        {
+            "domain": "ybn.io",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2857142857142857
+        }
+    ],
+    "types": {
+        "XHR": 3,
+        "Script": 5,
+        "Image": 3
+    },
+    "nameservers": [
+        "ns1.enspire4e.com",
+        "ns2.enspire4e.com"
+    ]
+}

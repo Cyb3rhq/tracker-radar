@@ -1,0 +1,137 @@
+{
+    "domain": "agechecker.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000102,
+    "sites": 15,
+    "subdomains": [
+        "cdn",
+        "sa"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "agechecker\\.net\\/static\\/age-gate\\/v1\\/age-gate\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "window.innerHeight": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "cbbe6e345eceb48e750e210344b5c12b96150d01ca9b0b380a81fd437d3b2a82"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "botach.com",
+                "charliescustomclones.com",
+                "everythingfor420.com",
+                "mayflowercigars.com",
+                "vapejuice.com",
+                "www.nicnac.com"
+            ]
+        },
+        {
+            "rule": "agechecker\\.net\\/get_key",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sa"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e6c9672faf2652735c9fa7d0de256f82727a41b2dd81a6b555a02e811d7a7521"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "everythingfor420.com",
+                "store.geekvape.com"
+            ]
+        },
+        {
+            "rule": "agechecker\\.net\\/static\\/popup\\/v1\\/popup\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.appVersion": 3,
+                "Navigator.prototype.mediaDevices": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "17922500346eb75a6443519800a6e91f3234a2814c121ebe61f4a143f26bcdfe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "everythingfor420.com",
+                "store.geekvape.com",
+                "www.roguenicotine.com"
+            ]
+        },
+        {
+            "rule": "agechecker\\.net\\/get_filters",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sa"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3edb6168d6504ecf6e61c1a038f9b3b5cb7a5a7c1a957bc80b26cac4a3ba510a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "everythingfor420.com",
+                "store.geekvape.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns-cloud-d1.googledomains.com",
+        "ns-cloud-d2.googledomains.com",
+        "ns-cloud-d3.googledomains.com",
+        "ns-cloud-d4.googledomains.com"
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "domain": "4tellcdn.azureedge.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "4tellcdn\\.azureedge\\.net\\/sites\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.sessionStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "da1cac716506a086f8cb2a5d41a63e34b51e035042f64542f845ac10234bf49e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mountaincrestgardens.com",
+                "www.dakine.com",
+                "www.musicdirect.com"
+            ]
+        },
+        {
+            "rule": "4tellcdn\\.azureedge\\.net\\/sites\\/musicdir\\/yourStore_j9s3fvbuxiog5e8thac647zdn1krwq2y\\.js",
+            "cookies": 0.00000683,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 1,
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1,
+                "Navigator.prototype.platform": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5e4924801548283146d8329c571a5b954575c68fa2364da6e2b36a9a6f63a045"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "4TellAll": {
+                    "ttl": 157766405,
+                    "length": 2,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "4TellProductIds": {
+                    "ttl": 157766405,
+                    "length": 2,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "musicdirect.com",
+                "www.musicdirect.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": []
+}

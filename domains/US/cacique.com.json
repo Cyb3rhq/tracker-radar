@@ -1,0 +1,93 @@
+{
+    "domain": "cacique.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "refer"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "cacique\\.com\\/core\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "refer"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5f4503408c9de64dbff86769cd56b35ff75cf12ea21d0a334612f355c9fa6e52"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "extole_access_token": {
+                    "ttl": 31536024,
+                    "length": 26,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lanebryant.com",
+                "www.lanebryant.com"
+            ]
+        },
+        {
+            "rule": "cacique\\.com\\/zones\\/global_footer",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "refer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "30d3faa9198653e1047d71cb422fbd0d24d5019edc3a858eb7c25d7d3a40905d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lanebryant.com",
+                "www.lanebryant.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "quantummetric.com",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "udns1.cscdns.net",
+        "udns2.cscdns.uk"
+    ]
+}

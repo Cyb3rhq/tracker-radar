@@ -1,0 +1,175 @@
+{
+    "domain": "linkconnector.com",
+    "owner": {
+        "name": "LinkConnector Corporation",
+        "displayName": "LinkConnector"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "linkconnector\\.com\\/uts_lp\\.php",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "7a4d0da64b87af29cac6616d98de8b34dacca4b742fe58fea821c0c67848d7d4",
+                "c86fd1d7ab036ac0261842b3399f1b6c45d8647901279fc66f1f32c7ae907d8c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "uts_id": {
+                    "ttl": 157680002,
+                    "length": 17,
+                    "prevalence": 0.0003013863773357444,
+                    "uniqueness": 1
+                },
+                "LCUTS_UID_902059": {
+                    "ttl": 3602,
+                    "length": 6,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                },
+                "LCUTS_UID_900133": {
+                    "ttl": 3604,
+                    "length": 6,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                },
+                "LCUTS_UID_901602": {
+                    "ttl": 3602,
+                    "length": 6,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {
+                "LCUTS_UID_902059": 0.00010046212577858148,
+                "LCUTS_UID_900133": 0.00010046212577858148,
+                "LCUTS_UID_901602": 0.00010046212577858148
+            },
+            "exampleSites": [
+                "learnsql.com",
+                "recoverit.wondershare.com",
+                "www.minitool.com"
+            ]
+        },
+        {
+            "rule": "linkconnector\\.com\\/uts_clickcounts\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LCUTS_UID_902059": 0.00010046212577858148,
+                "LCUTS_UID_901602": 0.00010046212577858148
+            },
+            "exampleSites": [
+                "learnsql.com",
+                "www.minitool.com"
+            ]
+        },
+        {
+            "rule": "linkconnector\\.com\\/tu\\.php",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "942fa519ebb6234f59c3d8c8c66c6b2671b69364c1c31a6788f722e4baca9a94"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_gcl_au": 0.00010046212577858148,
+                "_ga": 0.00010046212577858148,
+                "am_gpp_cmp_version": 0.00010046212577858148,
+                "_vwo_uuid": 0.00010046212577858148
+            },
+            "exampleSites": [
+                "learnsql.com",
+                "recoverit.wondershare.com"
+            ]
+        },
+        {
+            "rule": "linkconnector\\.com\\/js\\/uts_uid\\.php",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "942fa519ebb6234f59c3d8c8c66c6b2671b69364c1c31a6788f722e4baca9a94"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LCUTS_UID_902059": 0.00010046212577858148,
+                "LCUTS_UID_900133": 0.00010046212577858148
+            },
+            "exampleSites": [
+                "learnsql.com",
+                "recoverit.wondershare.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Image": 4
+    },
+    "nameservers": [
+        "edna.ns.cloudflare.com",
+        "sri.ns.cloudflare.com"
+    ]
+}

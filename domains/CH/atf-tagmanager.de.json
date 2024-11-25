@@ -1,0 +1,106 @@
+{
+    "domain": "atf-tagmanager.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00171,
+    "sites": 17,
+    "subdomains": [
+        "cdn",
+        "api.manager"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "atf-tagmanager\\.de\\/sdk\\/atf-sdk\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 17,
+                "Document.cookie setter": 1,
+                "window.localStorage": 1,
+                "Document.cookie getter": 1,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 17,
+            "prevalence": 0.00171,
+            "cnames": [],
+            "responseHashes": [
+                "d1fed9d671e79f782e5397159894426cbd2b6550657d221de84886f7e52a1584"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "daskochrezept.de",
+                "www.eatbetter.de",
+                "www.einfachkochen.de",
+                "www.einfachbacken.de",
+                "www.elle.de",
+                "www.esquire.de",
+                "www.freundin.de",
+                "www.fuersie.de",
+                "www.harpersbazaar.de",
+                "www.haus.de",
+                "www.instyle.de",
+                "www.leben-und-erziehen.de",
+                "www.mein-schoener-garten.de",
+                "www.ok-magazin.de",
+                "www.playboy.de",
+                "www.slowlyveggie.de",
+                "www.vital.de"
+            ]
+        },
+        {
+            "rule": "atf-tagmanager\\.de\\/ads-data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.manager"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playboy.de",
+                "www.playboy.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8095238095238095
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.19047619047619047
+        }
+    ],
+    "types": {
+        "Script": 17,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-307.awsdns-38.com",
+        "ns-695.awsdns-22.net",
+        "ns-1092.awsdns-08.org",
+        "ns-1539.awsdns-00.co.uk"
+    ]
+}

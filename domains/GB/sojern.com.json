@@ -1,0 +1,124 @@
+{
+    "domain": "sojern.com",
+    "owner": {
+        "name": "Sojern, Inc.",
+        "displayName": "Sojern",
+        "privacyPolicy": "https://www.sojern.com/privacy/",
+        "url": "http://sojern.com"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "static",
+        "pixel"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sojern\\.com\\/utils\\/sjrn_autocx\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9ebeb0070916f00d35da5bd027541d6bd9911942cd460b2c442ad069b9ef1d68"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thelowry.com",
+                "www.mcarthurglen.com"
+            ]
+        },
+        {
+            "rule": "sojern\\.com\\/cip\\/w\\/s",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.00020092425155716296
+            },
+            "exampleSites": [
+                "thelowry.com",
+                "www.mcarthurglen.com"
+            ]
+        },
+        {
+            "rule": "sojern\\.com\\/idsync\\/adf",
+            "cookies": 0.000502,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thelowry.com",
+                "www.amtrak.com",
+                "www.mcarthurglen.com",
+                "www.metmuseum.org",
+                "www.visitmanchester.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.8421052631578947
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.15789473684210525
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 2,
+        "Image": 5
+    },
+    "nameservers": [
+        "ns-cloud-a4.googledomains.com",
+        "ns-cloud-a2.googledomains.com",
+        "ns-cloud-a1.googledomains.com",
+        "ns-cloud-a3.googledomains.com"
+    ]
+}

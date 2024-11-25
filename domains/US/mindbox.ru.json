@@ -1,0 +1,722 @@
+{
+    "domain": "mindbox.ru",
+    "owner": {
+        "name": "Mindbox Ltd.",
+        "displayName": "Mindbox"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000225,
+    "sites": 33,
+    "subdomains": [
+        "api",
+        "web-static",
+        "web-static-no-content",
+        "personalization-web-stable",
+        "email-images",
+        "personalization-speedtest-stable"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mindbox\\.ru\\/scripts\\/v1\\/tracker\\.js",
+            "cookies": 0.000171,
+            "fingerprinting": 2,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "console.memory": 26,
+                "Navigator.prototype.userAgent": 25,
+                "Navigator.prototype.cookieEnabled": 25,
+                "Document.cookie setter": 25,
+                "Document.cookie getter": 25,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 25,
+                "window.localStorage": 25,
+                "Screen.prototype.width": 25,
+                "Screen.prototype.height": 25,
+                "Navigator.prototype.maxTouchPoints": 16,
+                "window.sessionStorage": 16,
+                "window.innerHeight": 9,
+                "window.innerWidth": 9,
+                "window.indexedDB": 9,
+                "Date.prototype.getTime": 9,
+                "Date.prototype.getTimezoneOffset": 9,
+                "Notification.permission": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 29,
+            "prevalence": 0.000198,
+            "cnames": [],
+            "responseHashes": [
+                "c13353beb48ac3a7539603a227a141a177061c954d90ac372140edcdb6b0bb4f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mindboxDeviceUUID": {
+                    "ttl": 418480649,
+                    "length": 36,
+                    "prevalence": 0.00017080002732800437,
+                    "uniqueness": 1
+                },
+                "directCrm-session": {
+                    "ttl": 63031049,
+                    "length": 67,
+                    "prevalence": 0.00017080002732800437,
+                    "uniqueness": 1
+                },
+                "popmechanic_sbjs_migrations": {
+                    "ttl": 15552007,
+                    "length": 81,
+                    "prevalence": 0.00006148800983808158,
+                    "uniqueness": 0.1111111111111111
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.rbc.ru",
+                "mangalib.org",
+                "litnet.com",
+                "goldapple.ru",
+                "www.sravni.ru",
+                "food.ru",
+                "domashniy.ru",
+                "ctc.ru",
+                "www.kaspersky.ru",
+                "msk.t2.ru",
+                "www.afisha.ru",
+                "www.chitai-gorod.ru",
+                "www.eldorado.ru",
+                "www.detmir.ru",
+                "fotostrana.ru",
+                "gemotest.ru",
+                "secrets.tinkoff.ru",
+                "base.garant.ru",
+                "petstory.ru",
+                "www.litres.ru"
+            ]
+        },
+        {
+            "rule": "mindbox\\.ru\\/v1\\.1\\/customer\\/track-visit",
+            "cookies": 0.000184,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 27,
+            "prevalence": 0.000184,
+            "cnames": [],
+            "responseHashes": [
+                "d72bfac7487b1a5788ef01d92153d23b9f1b3499cc97154039541eb68cd77a96",
+                "3c037d7dcf76f5ad5c80d7378fc581ab59cf7d15538744065954e6dc4c3809d2",
+                "f370070aa5a447db5acf41567470af24f9e088d9f2fce3e28865a25cd625bf2d",
+                "40d7dd39e43923b4fc7a7e2e914a2fe5de7fe92f8e691428b734799d66eed88c",
+                "b9448b0e8e4109bdfc0e35426e740e97370252aca2b1d87a77f05ecc633650de",
+                "def53c2b0e9f3ebbd470e9e6c5a106cd23bea95ca5fdf8ebe960efece3bb8c80",
+                "a0cf2a23065d390f8c99b95863cf50d4916ac45eabb409d756ad6aafb6b63861",
+                "0f411ed5a5ff2a8d27c1e7b9064a444a57ac8f3047431b08fed0b36f5c7b0123",
+                "b84685c162e978523ad0893b825ae1ad9b7d1ce9196ee301d23243ed1d7f0de9",
+                "00ee95be57acf596901d553912e58cc11b61f3ea39db519b034667598688d717",
+                "d9ae522359e58f1bd9d61f64d79bd41f320ede796eda893096db041d0266c591",
+                "196828598a70155988e669f3872ef3957e456133d961665a3b2fe025c0d5c93f",
+                "d8e645b051e381a2816cdc4d5c122ade8c6772f44ba7473b8a7117422c827256",
+                "9f334872e6c70b78300b178c8b5a6b419907248e6b8c3bf8dabd5d6e01594369",
+                "f6ffb36a5a02c221814ca350ac465e818ddb3227b966033d642ba0a8c4c8db2a",
+                "3c3c69caf5f14e1a52b32719c390c80a842d47063bbf50bc7ed6638218a8766d",
+                "e5da7051e4d4a14f2129854e6b39c0a133c4ed57a276d318f1dfa3e8a2b2ca14",
+                "8a6fa7b8f681f1d8f5f3561d6b1213a543642524d26ed4f5ae1354ee9c7bdba5",
+                "e67c7e1b3c9cf13432caf3e8e447615894ea3e3cb7a2f5de544a48c4f29b22d4",
+                "cd8f4e1f75a9e1529655e0e0f423513f6ee6ae6adc4fd17ac9e9a678b749b99a",
+                "66818556cf49c1154963c7b9852ddb85b58761b822a3dc3b173bb236707c9733",
+                "1c3a169e48aa263686a2c1e8d7816fe4fe0941a4f2466d49da8360d120fd4ec2",
+                "6efcec89eb9c4fdd34f5a7596787e4677eadbc895927e731beabd490a88828bf",
+                "ca80bbebf60c37f0f18160d438b1637ebe1d20ec56c5f6e444a4d12d7fabbf38",
+                "d311abc275725168dc206c474ac2e4fc25a8122fb13f3d7c94aa7c14da4f811c",
+                "27d5fd8342b8416df4e26522c0515b285d2c04c301acd50c1d51a174ba7c5c7c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tranio.com",
+                "www.invitro.ru",
+                "litnet.com",
+                "www.litres.ru",
+                "ctc.ru",
+                "www.chitai-gorod.ru",
+                "secrets.tinkoff.ru",
+                "aldebaran.ru",
+                "skillbox.ru",
+                "www.monetnik.ru",
+                "www.kaspersky.com",
+                "base.garant.ru",
+                "www.rbc.ru",
+                "goldapple.ru",
+                "daily.afisha.ru",
+                "www.detmir.ru",
+                "trends.rbc.ru",
+                "food.ru",
+                "domashniy.ru",
+                "journal.tinkoff.ru"
+            ]
+        },
+        {
+            "rule": "mindbox\\.ru\\/js\\/bydomain\\/www\\.litres\\.ru\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aldebaran.ru",
+                "www.litres.ru"
+            ]
+        },
+        {
+            "rule": "mindbox\\.ru\\/js\\/bydomain\\/*\\.litres\\.ru\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aldebaran.ru",
+                "www.litres.ru"
+            ]
+        },
+        {
+            "rule": "mindbox\\.ru\\/no-content",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-static-no-content"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aldebaran.ru",
+                "base.garant.ru",
+                "daily.afisha.ru",
+                "msk.t2.ru",
+                "secrets.tinkoff.ru",
+                "www.detmir.ru",
+                "www.litres.ru"
+            ]
+        },
+        {
+            "rule": "mindbox\\.ru\\/v3\\/js\\/operations\\/sync",
+            "cookies": 0.0000683,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000752,
+            "cnames": [],
+            "responseHashes": [
+                "6044437b3f941eadf5275b553cef788b321f93581f02b3bdd92a7b54293808c6",
+                "bf566637f0fad03722033196314521bd28054da529be9662cdb2cd749b3fc07c",
+                "9bd7ddcc865376148478ff53ac58326523bc559bde999243852e434a8fcf5eb7",
+                "eafe569ef800169147026ff2dcf85fdcca71bf6ff256f5d3377b43ee738229fb",
+                "790b04a2d13c99e7ee527b9dac5e63ef4021b72bf0e04b3f2faa6ab1c4c23ed6",
+                "69e2ffdd8418f82e03c75237d3cfae97e352d73408a7d745010c43c12ead8b06",
+                "53e8cba722f979b324de268cebb422848b42b5c3edbf54ef9fa2e1bbda6f4ff2",
+                "0575546a4f4ed81ccbd11cca500151afa13ac759889f8c42ffb0b91a2311ef06",
+                "51684fc2f47ba81649b61a4b81515c190448cd84019ab9126370ad62cbb08a2d",
+                "955e38ec2cf8683eb0ae3daf663a60e30d8808025b10fec6868778fbb6109baf"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "garant.ru",
+                "litnet.com",
+                "msk.t2.ru",
+                "petstory.ru",
+                "secrets.tinkoff.ru",
+                "tranio.com",
+                "www.afisha.ru",
+                "www.chitai-gorod.ru",
+                "www.detmir.ru",
+                "www.invitro.ru",
+                "www.rbc.ru"
+            ]
+        },
+        {
+            "rule": "mindbox\\.ru\\/scripts\\/modules\\/webpush_v2\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "window.indexedDB": 8,
+                "PerformanceTiming.prototype.navigationStart": 8,
+                "Navigator.prototype.userAgent": 8,
+                "Navigator.prototype.language": 8,
+                "NavigatorUAData.prototype.getHighEntropyValues": 8,
+                "Navigator.prototype.cookieEnabled": 8,
+                "Notification.permission": 7
+            },
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "f0e60627e398f90172fed4f64b58e37b882c4fd3a555c9e7ae1d9e78daea3563"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "afisha.ru",
+                "food.ru",
+                "journal.tinkoff.ru",
+                "msk.t2.ru",
+                "www.afisha.ru",
+                "www.chitai-gorod.ru",
+                "www.invitro.ru",
+                "www.sravni.ru"
+            ]
+        },
+        {
+            "rule": "mindbox\\.ru\\/init\\/29965\\/domain_and_endpoint\\/daily\\.afisha\\.ru:*daily\\.afisha\\.ru",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "personalization-web-stable"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0bb3c3a2f136b1c1be43ba502ce596f0b70218ec8191e22c163ca06ac62285ce"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "afisha.ru",
+                "daily.afisha.ru"
+            ]
+        },
+        {
+            "rule": "mindbox\\.ru\\/js\\/service\\/v2\\/forms\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "personalization-web-stable"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "window.localStorage": 2,
+                "window.indexedDB": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5ae3e56046812e7de2ad022e1c3b0ff5ce4643e642ffaa39c2da6e22b225cd94"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "popmechanic_sbjs_migrations": {
+                    "ttl": 15552018,
+                    "length": 81,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "afisha.ru",
+                "www.afisha.ru"
+            ]
+        },
+        {
+            "rule": "mindbox\\.ru\\/js\\/service\\/styles\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "personalization-web-stable"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ae6b6b81e1b48b95224a08434a6be43084cfce47826b4aae556b8b30bfca533a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "afisha.ru",
+                "www.afisha.ru"
+            ]
+        },
+        {
+            "rule": "mindbox\\.ru\\/Afisha\\/3394\\/ed6b92c6-a096-4616-a14d-4ed154d76747\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "email-images"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a78b5474663d9c4d0085e40a906376f24d0dc8f71832de32a604a64844db7325"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "afisha.ru",
+                "daily.afisha.ru"
+            ]
+        },
+        {
+            "rule": "mindbox\\.ru\\/Afisha\\/3394\\/0c347be1-15fe-4767-945a-ba0ccf17fd5e\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "email-images"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "92bce53a9f9f9b45703dce4c40a4b4cbae67700454a3a56b50b7ab4b4be66423"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "afisha.ru",
+                "daily.afisha.ru"
+            ]
+        },
+        {
+            "rule": "mindbox\\.ru\\/v3\\/js\\/operations\\/async",
+            "cookies": 0.000109,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.000109,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "afisha.ru",
+                "daily.afisha.ru",
+                "domashniy.ru",
+                "food.ru",
+                "goldapple.ru",
+                "journal.tinkoff.ru",
+                "msk.t2.ru",
+                "petstory.ru",
+                "secrets.tinkoff.ru",
+                "tranio.com",
+                "www.afisha.ru",
+                "www.chitai-gorod.ru",
+                "www.detmir.ru",
+                "www.invitro.ru",
+                "www.kaspersky.com",
+                "www.litres.ru"
+            ]
+        },
+        {
+            "rule": "mindbox\\.ru\\/scripts\\/service-worker\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "0bcd94ee11f2659bef535c13f1095f9ad4afc2ad880bb85335f2cfaceda24307"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "afisha.ru",
+                "food.ru",
+                "journal.tinkoff.ru",
+                "msk.t2.ru",
+                "www.afisha.ru",
+                "www.chitai-gorod.ru",
+                "www.invitro.ru",
+                "www.sravni.ru"
+            ]
+        },
+        {
+            "rule": "mindbox\\.ru\\/client-stats",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "personalization-speedtest-stable"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "afisha.ru",
+                "msk.t2.ru",
+                "www.afisha.ru",
+                "www.chitai-gorod.ru"
+            ]
+        },
+        {
+            "rule": "mindbox\\.ru\\/init\\/5263\\/domain_and_endpoint\\/tj\\.secrets\\.tinkoff\\.ru:*secrets\\.tinkoff\\.ru",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "personalization-web-stable"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4be3d259b42f9012b8c5a6a26c6999016f5c9756bf7c29581c613854d53ac750"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tinkoff.ru",
+                "secrets.tinkoff.ru"
+            ]
+        },
+        {
+            "rule": "mindbox\\.ru\\/scripts\\/v1\\/tracker\\.modern\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "console.memory": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.localStorage": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "window.sessionStorage": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "window.indexedDB": 2,
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "087128a6346f5007e607ff7f72f2b1bb0071f566e91873e9febf6bb30463b906"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mindboxDeviceUUID": {
+                    "ttl": 418471665,
+                    "length": 36,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "directCrm-session": {
+                    "ttl": 63050512,
+                    "length": 67,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rbc.ru",
+                "www.rbc.ru"
+            ]
+        },
+        {
+            "rule": "mindbox\\.ru\\/init\\/29965\\/domain_and_endpoint\\/afisha\\.ru:afisha\\.ru",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "personalization-web-stable"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "73a4b91f8d3750e5c83afdc2ef64d068dd84559ae1009084c0796372e497af6c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "afisha.ru",
+                "www.afisha.ru"
+            ]
+        },
+        {
+            "rule": "mindbox\\.ru\\/Afisha\\/4668\\/5aab92cf-56c3-4156-b545-5a7b9ac936bc\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "email-images"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "065a6d0539dec3d9700678070d123f0776ea92c6771eaa0b5acf0dc133bb0e66"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "afisha.ru",
+                "www.afisha.ru"
+            ]
+        },
+        {
+            "rule": "mindbox\\.ru\\/Afisha\\/4668\\/a1b207b3-7bcc-4270-8464-162ce41cccc8\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "email-images"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4d4cc3c8b3d1350cdb83d31de68e77d8166ef7a9a60380bc2e1321c08b16a18e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "afisha.ru",
+                "www.afisha.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000198,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6534653465346535
+        },
+        {
+            "domain": "tinkoffjournal.ru",
+            "prevalence": 0.13861386138613863
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.09900990099009901
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.039603960396039604
+        },
+        {
+            "domain": "detmir.st",
+            "prevalence": 0.019801980198019802
+        },
+        {
+            "domain": "gbqofs.com",
+            "prevalence": 0.019801980198019802
+        },
+        {
+            "domain": "static-food-2.ru",
+            "prevalence": 0.009900990099009901
+        },
+        {
+            "domain": "fotocdn.net",
+            "prevalence": 0.009900990099009901
+        },
+        {
+            "domain": "kaspersky.de",
+            "prevalence": 0.009900990099009901
+        }
+    ],
+    "types": {
+        "Script": 41,
+        "XHR": 44,
+        "Fetch": 11,
+        "Stylesheet": 2,
+        "Image": 12,
+        "Ping": 16,
+        "Other": 8
+    },
+    "nameservers": [
+        "ns2.yandexcloud.net",
+        "ns1.yandexcloud.net"
+    ]
+}

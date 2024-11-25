@@ -1,0 +1,111 @@
+{
+    "domain": "okendo.io",
+    "owner": {
+        "name": "VidTitan Pty Ltd",
+        "displayName": "VidTitan"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "surveys",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "okendo\\.io\\/js\\/okendo-connect\\.quizzes\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "surveys"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Event.prototype.timeStamp": 1,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "79915a4f037365a8d41e8d866aa72991ef3b841b87f03e3e4eda6343cf307bfa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bellsofsteel.com",
+                "duer.ca"
+            ]
+        },
+        {
+            "rule": "okendo\\.io\\/css\\/okendo-connect\\.quizzes\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surveys"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "32db86cba7baa51d94e96cdb214a21811be20e9538a6abc33c3a38be07d894b1"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bellsofsteel.com",
+                "duer.ca"
+            ]
+        },
+        {
+            "rule": "okendo\\.io\\/v1\\/stores\\/98b9962b-dcfc-47df-a68f-8b48cb0ea5df\\/products\\/shopify-7068524773447\\/review_aggregate",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "03f623be98b10192ff44ff2787ec232a5e7d69b6242e25a2039d49900e43be90"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manitobah.ca",
+                "www.manitobah.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Stylesheet": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-182.awsdns-22.com",
+        "ns-884.awsdns-46.net",
+        "ns-1196.awsdns-21.org",
+        "ns-1675.awsdns-17.co.uk"
+    ]
+}

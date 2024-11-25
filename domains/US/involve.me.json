@@ -1,0 +1,94 @@
+{
+    "domain": "involve.me",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "https-airconditionerlabcom",
+        "collabstr",
+        "fitnessfirst",
+        "sentry.admin"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "involve\\.me\\/embed",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "https-airconditionerlabcom",
+                "collabstr",
+                "fitnessfirst"
+            ],
+            "apis": {
+                "window.innerHeight": 2,
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "054d220d7c2007d07c6d5ff946f377e3600362b89ad0c8cd60547999c93ee549",
+                "8258205b0ce936c94a965c21811371d82e5aba2362694309d719cd974e67338e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "airconditionerlab.com",
+                "collabstr.com",
+                "www.fitnessfirst.de"
+            ]
+        },
+        {
+            "rule": "involve\\.me\\/api\\/4\\/envelope\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sentry.admin"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "airconditionerlab.com",
+                "www.fitnessfirst.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5454545454545454
+        },
+        {
+            "domain": "ivlv.me",
+            "prevalence": 0.45454545454545453
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-264.awsdns-33.com",
+        "ns-1788.awsdns-31.co.uk",
+        "ns-743.awsdns-28.net",
+        "ns-1336.awsdns-39.org"
+    ]
+}

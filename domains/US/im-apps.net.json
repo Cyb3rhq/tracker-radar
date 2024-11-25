@@ -1,0 +1,5416 @@
+{
+    "domain": "im-apps.net",
+    "owner": {
+        "name": "Intimate Merger, Inc.",
+        "displayName": "Intimate Merger"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00854,
+    "sites": 1250,
+    "subdomains": [
+        "dmp",
+        "audiencedata",
+        "sync-jp",
+        "sync",
+        "sync6",
+        "b",
+        "mtm",
+        "cf",
+        "atb",
+        "b6",
+        "m",
+        "m6",
+        "open",
+        "atm",
+        "score",
+        "ltb"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "im-apps\\.net\\/sdk\\/im-uid\\.js",
+            "cookies": 0.00232,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Document.cookie getter": 340,
+                "Date.prototype.getTime": 343,
+                "Document.cookie setter": 340,
+                "window.localStorage": 341
+            },
+            "sites": 390,
+            "prevalence": 0.00266,
+            "cnames": [],
+            "responseHashes": [
+                "2370c76adee9e3d88e1cca87b883cd4d2021f415af93383aa74f3a987d9ea097"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_im_vid": {
+                    "ttl": 34560009,
+                    "length": 26,
+                    "prevalence": 0.0022067363530778165,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ero-comic-hunter.net",
+                "metoree.com",
+                "hands.net",
+                "response.jp",
+                "nudefusion.com",
+                "pmall.gpoint.co.jp",
+                "store.united-arrows.co.jp",
+                "www.kohnan-eshop.com",
+                "magazine.cainz.com",
+                "hentaitokyo.com",
+                "business.nikkei.com",
+                "kakuyomu.jp",
+                "shiori-tabi.jp",
+                "fily.jp",
+                "mamastar.jp",
+                "eikaiwa.dmm.com",
+                "www.rakuten-sec.co.jp",
+                "dic.pixiv.net",
+                "www.s-b-c.net",
+                "www.twidouga.net"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/imuid\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "audiencedata"
+            ],
+            "apis": {},
+            "sites": 362,
+            "prevalence": 0.00247,
+            "cnames": [],
+            "responseHashes": [
+                "bb54369234516c2f2469a9989fce0f73145879defec57a2b276b5b1e0bf92336"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00234337637494022
+            },
+            "exampleSites": [
+                "bbs.kakaku.com",
+                "tenki.jp",
+                "search.rakuten.co.jp",
+                "minerva-clinic.or.jp",
+                "cc.minkabu.jp",
+                "limia.jp",
+                "hamusoku.com",
+                "agora-web.jp",
+                "u-note.me",
+                "find.5ch.net",
+                "www.s-b-c.net",
+                "www.oanda.jp",
+                "blog.livedoor.jp",
+                "wanchan.jp",
+                "www.nitori-net.jp",
+                "st.benesse.ne.jp",
+                "ero-gazou.jp",
+                "www.oricon.co.jp",
+                "www.storm.mg",
+                "hentaitokyo.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/imid\\/set",
+            "cookies": 0.00484,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync-jp",
+                "sync"
+            ],
+            "apis": {},
+            "sites": 774,
+            "prevalence": 0.00529,
+            "cnames": [],
+            "responseHashes": [
+                "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c",
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailycaller.com",
+                "fortune.com",
+                "globalnews.ca",
+                "hollywoodlife.com",
+                "money.cnn.com",
+                "news.com.au",
+                "nypost.com",
+                "www.cnn.com",
+                "www.foxnews.com",
+                "www.huffingtonpost.com",
+                "www.hdsports.de",
+                "news.abs-cbn.com",
+                "watcher.guru",
+                "www.ice.co.il",
+                "news.webike.net",
+                "www.asiaone.com",
+                "www.theboltonnews.co.uk",
+                "www.milehighreport.com",
+                "personals.oodle.com",
+                "erokan.net"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/scripts\\/im-uid-hook\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {},
+            "sites": 200,
+            "prevalence": 0.00137,
+            "cnames": [],
+            "responseHashes": [
+                "21bd977042a76480805895c3bc4371d79fe7da93c8cf7af08687e0b58f4e39ad",
+                "69fa4215009a4325ef2d8ed36a318853ec8597bfa8fc52197de529582b85a965",
+                "1b6c8f5fce9bf4ab6ba5e8c24fcc8205515bad3b2da9f86f9360eb9adacf7741",
+                "f28dc6f8bd3c883bce3135bdf059d1404b0ec24c581bc505a6d452b0e90b83ee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ichioshi.smt.docomo.ne.jp",
+                "www.daily.co.jp",
+                "eromanga-castle.com",
+                "www.all-senmonka.jp",
+                "www.fnn.jp",
+                "ferret-plus.com",
+                "rocketnews24.com",
+                "response.jp",
+                "www.biteki.com",
+                "souzoku.asahi.com",
+                "cancam.jp",
+                "appmedia.jp",
+                "www.cnn.co.jp",
+                "iphone-mania.jp",
+                "www.tokyo-sports.co.jp",
+                "www.storm.mg",
+                "altema.jp",
+                "www.anige-sokuhouvip.com",
+                "biz-journal.jp",
+                "www.walkerplus.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/pms\\/r7RdVKlj\\/pmt\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "window.localStorage": 36,
+                "window.sessionStorage": 36
+            },
+            "sites": 64,
+            "prevalence": 0.000437,
+            "cnames": [],
+            "responseHashes": [
+                "6c2c43612b9e53467fbe9f5ee67c29533bb78dddbd66842a01193114d1dccd65"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blog.goo.ne.jp",
+                "www.konest.com",
+                "kosodate.mynavi.jp",
+                "www.lettuceclub.net",
+                "sakidori.co",
+                "himasoku.com",
+                "tenkura.n-kishou.co.jp",
+                "www.navitime.co.jp",
+                "gakumado.mynavi.jp",
+                "www.zukan-bouz.com",
+                "mi-mollet.com",
+                "www.bikebros.co.jp",
+                "komachi.yomiuri.co.jp",
+                "full-count.jp",
+                "fily.jp",
+                "ejje.weblio.jp",
+                "news.cookpad.com",
+                "www.kyounoryouri.jp",
+                "japannews.yomiuri.co.jp",
+                "www.bellemaison.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/segment",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 51,
+            "prevalence": 0.000348,
+            "cnames": [],
+            "responseHashes": [
+                "16c53d5f9adafc9a00083e1cbd987e8087e7f1dcea1baf2867d9861c873bbd70",
+                "acf6395aa3bbd0c1b0323b6b872c409db5556a250386b944fc4a75fe88eacea2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "woman.mynavi.jp",
+                "myoji-yurai.net",
+                "www.nikkan-gendai.com",
+                "blog.goo.ne.jp",
+                "friday.kodansha.co.jp",
+                "woman.excite.co.jp",
+                "delishkitchen.tv",
+                "nikkei225jp.com",
+                "san-tatsu.jp",
+                "www.minkou.jp",
+                "mi-mollet.com",
+                "www.his-j.com",
+                "shiori-tabi.jp",
+                "www.dailyshincho.jp",
+                "ameblo.jp",
+                "www.konest.com",
+                "www.navitime.co.jp",
+                "qiita.com",
+                "www.bikebros.co.jp",
+                "kosodate.mynavi.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/tpc\\/client\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Document.cookie getter": 31
+            },
+            "sites": 33,
+            "prevalence": 0.000225,
+            "cnames": [],
+            "responseHashes": [
+                "ef88f1c8c3f3c7d20d448d3af22c925fcd3542f4ad45aaad566c39ce8a7005ae"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "booklive.jp",
+                "coconala.com",
+                "www.his-j.com",
+                "www.minnanokaigo.com",
+                "www.lezhin.jp",
+                "www.lixil.co.jp",
+                "response.jp",
+                "magazine.cartune.me",
+                "kimini.online",
+                "www.dospara.co.jp",
+                "www.berlitz.com",
+                "www.gamespark.jp",
+                "baycrews.jp",
+                "jp.mercari.com",
+                "www.hankyu-travel.com",
+                "www.baitoru.com",
+                "en-gage.net",
+                "www.asoview.com",
+                "zexy.net",
+                "manetatsu.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/tpc\\/frame\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {},
+            "sites": 32,
+            "prevalence": 0.000219,
+            "cnames": [],
+            "responseHashes": [
+                "aa24ce78bfb3a01d10923522af240d5dd6f4c7f4804289b9e6ae9250a0ec97ad"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.baitoru.com",
+                "www.berlitz.com",
+                "baycrews.jp",
+                "www.chintai.net",
+                "www.dospara.co.jp",
+                "www.sbishinseibank.co.jp",
+                "www.gamespark.jp",
+                "www.biccamera.com",
+                "booklive.jp",
+                "nativecamp.net",
+                "www.minnanokaigo.com",
+                "www.his-j.com",
+                "www.asoview.com",
+                "www.takarakuji-official.jp",
+                "cartune.me",
+                "221616.com",
+                "hikakaku.com",
+                "kimini.online",
+                "www.sbisec.co.jp",
+                "en-gage.net"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/sdk\\/log\\.2\\.js",
+            "cookies": 0.00028,
+            "fingerprinting": 2,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Document.cookie getter": 41,
+                "Date.prototype.getTime": 42,
+                "Navigator.prototype.cookieEnabled": 42,
+                "Navigator.prototype.userAgent": 42,
+                "Navigator.prototype.mimeTypes": 42,
+                "Navigator.prototype.javaEnabled": 42,
+                "Screen.prototype.width": 42,
+                "Screen.prototype.height": 42,
+                "Navigator.prototype.platform": 42,
+                "Document.cookie setter": 41,
+                "window.name": 42,
+                "window.devicePixelRatio": 48,
+                "Navigator.prototype.language": 48
+            },
+            "sites": 57,
+            "prevalence": 0.000389,
+            "cnames": [],
+            "responseHashes": [
+                "41a3a830e07e40cdbf135818a398d3b439a1b5e7a6d5b1e3c4112a06b5d63fb6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_im_id.1018650": {
+                    "ttl": 33955205,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1018650": {
+                    "ttl": 1805,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1018651": {
+                    "ttl": 33955205,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1018651": {
+                    "ttl": 1805,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1017483": {
+                    "ttl": 33955218,
+                    "length": 28,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "_im_ses.1017483": {
+                    "ttl": 1817,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "_im_id.1014350": {
+                    "ttl": 33955208,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1014350": {
+                    "ttl": 1808,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1020267": {
+                    "ttl": 33955214,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1020267": {
+                    "ttl": 1813,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1017218": {
+                    "ttl": 33955211,
+                    "length": 28,
+                    "prevalence": 0.000020496003279360526,
+                    "uniqueness": 1
+                },
+                "_im_ses.1017218": {
+                    "ttl": 1810,
+                    "length": 1,
+                    "prevalence": 0.000020496003279360526,
+                    "uniqueness": 0.3333333333333333
+                },
+                "_im_id.7341": {
+                    "ttl": 33955231,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.7341": {
+                    "ttl": 1831,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1018383": {
+                    "ttl": 33955206,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1018383": {
+                    "ttl": 1805,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1012292": {
+                    "ttl": 33955211,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1012292": {
+                    "ttl": 1810,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1016132": {
+                    "ttl": 33955210,
+                    "length": 28,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "_im_ses.1016132": {
+                    "ttl": 1809,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "_im_id.1014416": {
+                    "ttl": 33955223,
+                    "length": 28,
+                    "prevalence": 0.00007515201202432193,
+                    "uniqueness": 1
+                },
+                "_im_ses.1014416": {
+                    "ttl": 1822,
+                    "length": 1,
+                    "prevalence": 0.00007515201202432193,
+                    "uniqueness": 0.09090909090909091
+                },
+                "_im_id.1001114": {
+                    "ttl": 33955214,
+                    "length": 28,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "_im_ses.1001114": {
+                    "ttl": 1814,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "_im_id.1015256": {
+                    "ttl": 33955210,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1015256": {
+                    "ttl": 1809,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1014191": {
+                    "ttl": 33955206,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1014191": {
+                    "ttl": 1805,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1015441": {
+                    "ttl": 33955211,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1015441": {
+                    "ttl": 1810,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1016642": {
+                    "ttl": 33955219,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1016642": {
+                    "ttl": 1818,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1017659": {
+                    "ttl": 33955215,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1017659": {
+                    "ttl": 1815,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1017932": {
+                    "ttl": 33955210,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1017932": {
+                    "ttl": 1810,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1015095": {
+                    "ttl": 33955208,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1015095": {
+                    "ttl": 1807,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1016869": {
+                    "ttl": 33955207,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1016869": {
+                    "ttl": 1806,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1014424": {
+                    "ttl": 33955207,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1014424": {
+                    "ttl": 1806,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1018642": {
+                    "ttl": 33955216,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1018642": {
+                    "ttl": 1816,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1004908": {
+                    "ttl": 33955204,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1004908": {
+                    "ttl": 1804,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.8181": {
+                    "ttl": 33955205,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.8181": {
+                    "ttl": 1805,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1003042": {
+                    "ttl": 33955205,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1003042": {
+                    "ttl": 1805,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1012575": {
+                    "ttl": 33955229,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1012575": {
+                    "ttl": 1828,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1003688": {
+                    "ttl": 33955208,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1003688": {
+                    "ttl": 1808,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1018313": {
+                    "ttl": 33955209,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1018313": {
+                    "ttl": 1808,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1017729": {
+                    "ttl": 33955205,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1017729": {
+                    "ttl": 1805,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1020385": {
+                    "ttl": 33955210,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1020385": {
+                    "ttl": 1810,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.biccamera.com",
+                "www.yomiuri.co.jp",
+                "www.matsui.co.jp",
+                "game8.jp",
+                "monamona2525.com",
+                "tabizine.jp",
+                "www.sbisec.co.jp",
+                "gamewith.jp",
+                "www.hankyu-travel.com",
+                "www.famitsu.com",
+                "retty.me",
+                "www.dinos.co.jp",
+                "221616.com",
+                "pokemongo.gamewith.jp",
+                "av.jpn.support.panasonic.com",
+                "works.litalico.jp",
+                "www.chintai.net",
+                "www.his-j.com",
+                "panasonic.jp",
+                "dengekionline.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/tpc\\/frame\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {},
+            "sites": 30,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "7f4af7fe1dcc41abc60e83b3e90275a5dde4b6e86f68015b33d7620341e16855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.lezhin.jp",
+                "en-gage.net",
+                "www.biccamera.com",
+                "www.chintai.net",
+                "zexy.net",
+                "www.asoview.com",
+                "baycrews.jp",
+                "www.zeiri4.com",
+                "www.dospara.co.jp",
+                "www.lixil.co.jp",
+                "www.sbishinseibank.co.jp",
+                "kimini.online",
+                "magazine.cartune.me",
+                "booklive.jp",
+                "www.baitoru.com",
+                "cartune.me",
+                "www.berlitz.com",
+                "jp.mercari.com",
+                "221616.com",
+                "www.gamespark.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/tracker",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b",
+                "mtm"
+            ],
+            "apis": {},
+            "sites": 113,
+            "prevalence": 0.000772,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wanchan.jp",
+                "www.kusurinomadoguchi.com",
+                "withnews.jp",
+                "www.ozmall.co.jp",
+                "booklive.jp",
+                "eikaiwa.weblio.jp",
+                "www.unitedcinemas.jp",
+                "www.edion.com",
+                "works.litalico.jp",
+                "www.hankyu-travel.com",
+                "www.asahi.com",
+                "www.baitoru.com",
+                "www.his-j.com",
+                "www.oanda.jp",
+                "dengekionline.com",
+                "www.gamespark.jp",
+                "www.ymobile.jp",
+                "anond.hatelabo.jp",
+                "brand.taisho.co.jp",
+                "www.palcloset.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/sdk\\/rt\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.000123,
+            "cnames": [],
+            "responseHashes": [
+                "ce28a4ca77a107d737c54d6361ca190d02d0a3baa2399c4df762d45dc5a07203"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "221616.com",
+                "booklive.jp",
+                "comic.k-manga.jp",
+                "fuzoku.jp",
+                "mechacomic.jp",
+                "piccoma.com",
+                "purelovers.com",
+                "renta.papy.co.jp",
+                "store.united-arrows.co.jp",
+                "toptoon.jp",
+                "www.cmoa.jp",
+                "www.dlsite.com",
+                "www.dospara.co.jp",
+                "www.e-sogi.com",
+                "www.iijmio.jp",
+                "www.inter-edu.com",
+                "www.playojo.com",
+                "www.tokyo-np.co.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/imid\\/segment",
+            "cookies": 0.000663,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 104,
+            "prevalence": 0.000711,
+            "cnames": [],
+            "responseHashes": [
+                "1914735b40055e408c380cd2af440769bb292920181d3be2beac81107bf24cba",
+                "0636b137eb7079b02e522059771eb03ba0f3a701be5b8b6be1b12cebc293a707",
+                "a47972c24cd9a60948fc0119c9a04b35e6e6cfac5ac9070f8c3ca975318a6359",
+                "e4ba43c7e2cb5e0a5dc75bde6393c6ccef659495a18ddcf1792dc6d33246d07f",
+                "93516177cc08ad38e7463e80304abd7e1bfe878a7b5067a438c0a0bed6b67842",
+                "f1a112b5417507b701db7ad7927d799d75b106119162a4b7760c4407580c524f",
+                "bc58517c1ea15626c9af453fac88e2460e80d32e43331c2a9c7750c5e2e0ecf2",
+                "199e9161ba5d8abc69dffa6d3c5762698a11685417b77b4d9acaf5a09d41f0a8",
+                "e964bf6f6463347df2ca2e86fc9c016d4d52a3afd7e05719f0f7e18f2fc697b0",
+                "a4be5f79e5fc8b0825d225631ee70e27a245712c9366f32dcb9770369594d343",
+                "4397321774a6263bd9e65d18c02c91a499e757b8ead13c3efda3e0546c47ff5b",
+                "b3d67fbac1f06ce5fea653dc581c07d23f5990540b7d2ff6375a274b982e8908",
+                "449ae14f0920128e637e80bc844ef45d2595df0b67d2e11e3d4f6c465d7b373c",
+                "270a2b01e37471a7cf899cdcb8b873ad84cd25e7af96e6a8608ff129efd5154c",
+                "c1457eae718416aadc6a7eaa9bcc35b01ecccad995c15ab6c98e405512292854",
+                "041de39a39c3dd10362e77e40385b0328dd07ee1b990682f9c81f0ce685ca8fe",
+                "f9778e37853ae89342f5c9e3f402da892d9c61e8dbe4ac890ff407a507909895",
+                "6345f740ba8b8158adefb5986d6867aabe31fab9353004e5d0d0275de022c13e",
+                "4a4647f56599c4a3ad86d4c325caa8917395aafa323f1629e5fb75586670ae4c",
+                "7d54fbd900710de1e0750cacaae2bb85cc15b98d6de4f81d4a92ae9589900aa2",
+                "b75fe34060010f70bacde8949c05cdca00dff4183761f6b6ca0bfe347893557a",
+                "7eca2f31907af4db2e208a80f7f96df674fef1ce63626d01559bda4c8566397c",
+                "c9a96da4387185a28da453a20b222bda5f4c145f2b60825ade6ebebfb056a845",
+                "8349d3bbfd89e2a47782b8b427fe30be1446442a3b01d7d8e8b5a9295d025e2f",
+                "a5022cb021fb275417f231838a7755bf952ae6670e8422cb30aca619a5174cd5",
+                "74b5f00f31cf18857eea7554a7af833edc988ae196a33f2ec483e99429eac0b5",
+                "37d2e80e8e988e0c226ac381ca2d1fb76c4b6411aff26dd754ddd7998ffa1477",
+                "0386dca9e6a6acc9ce6916bba282883ea55dfd6082f6be35c5d1fd15ac41d3c2",
+                "9202d2bcd22d5a3275c81f11f876ac171adc0d13e92b0ef0de2b16046354bfdb",
+                "b58645b91302b3e3858f4e97c9d8bb4e599d14a62ea22b68b153047386507d94",
+                "163d553a040b37e1813673dbad759190648db49a2224f0aae849734cd5c3254a",
+                "329e74664e9d7a1064ed1710bca9614c21eb4fd48c38fcd12e50f845e5734076",
+                "df2052c5b0150053eb8698b4130fe5b2058feabda5a419691d134d8ae4e51a7b",
+                "77eab17177e3e2938ec65c68690ff49e8284f7ba5e4e925a346fcc7e12b8a41c",
+                "29765e4ad92e41ce20c72a7eacbcb91600744ddd244385bbc121f360b377a47e",
+                "db0293bb60d332664ac07c0f88d87f9ee9112141e4d15825abd0da0809d25ac3",
+                "acf385a36d3d2820b86adb7323c48167937ae5bd2fe8604e414fcaacd833276b",
+                "2aaec9a21bbae167172ff99032fe5395d275193cb4e2da05e0011895db5e5307",
+                "adc91b06d2b48a7cd7402517d505821639257a627a73ab62caad77043d367755",
+                "f520ede16007b195db36f90c9d867d2b9aa301658287f57e954cdd5951450f54",
+                "16231c19babeecd61c5e528a9c047868c12fffdafad6fdead438045b1fde5e1b",
+                "97bc0c2bebc8430970f30ecd5427b5afbb835da7231ae25ff9e749cb94821a5b",
+                "4278ae8990f523e14ce716556b00722a7776729b49367bb59106eed6ef796dc2",
+                "0e627bdbdfd5d07f663f7b83d921c301aec678b2c58a90cbd2be2184bc23ec3e",
+                "29f2f8237733392e5f992833fd0b57ca3d847dde550a423cfb0cce1e8c3a7c6a",
+                "8e9fca043f2c3eea65246220c4d6a3f5c339c02d4678ad87c87f8246b2885d01",
+                "2292c6bde22e11cad06401a6db92bf74b56c3b058bc9852ba4346252ee2882b6",
+                "c026687eb8ab1c88700204bc69ca91a3f2ce18ab4b97ad286fb7b2278742e30c",
+                "1ecb08477a6c6842098384cd867ea7884f2d1563840cbf61ab2a282e3404275d",
+                "310d2e5d7d0b655406bc0a2ceeffa45a99f0ab9d522f78d594b2a712fb897c06",
+                "8f606ea81f9f0c478fa8ccb8feb0e383b9fd8149a6ccf979214a8bde660582f2",
+                "91ba4908134aad06f6df6e7ec563ea32ddfc50ad6af30be12a7a7ab2aa3ef073",
+                "2ef2288bbc271b7f5bd72a050896948539a2ffaee4fd7f92e34f3634ebcef5ca",
+                "0df86c07128e37ed405fbde068fa59a862a7d05a774dbbd496fc9c3b95c3b887",
+                "55a95eb417bd7692ce16d5537836bb997ccb22dceb75dc7c5d0344f248417924",
+                "126ee67d09379fcb31dfa83f13ce8bb34b3405a50f3939cbd1f304a4707f930f",
+                "29c5c4c518c6702c944fe396feee82e06ae13e4487d13ac87459530191669b22",
+                "3209a9c63e3d1822c20b36677d4cc863abe5d6ce6d96c40a736c4aa5c0cb33db",
+                "cbe5fedc1ab59236af1c437299d4ce36fcd94a19a981a9f01f06088546622f13",
+                "19bc8e8510e4b0f939e0ee923d7bad619ac2e1107a994ceca9685e6eff77abde",
+                "980bd1e5342d56cadb7cd9b6262bfac7bf870fbe4f73dc3ad0fc83ecb2ebb78c",
+                "15787a80dbadc68e27cf2e6f25a054b2f0894d26ceb681993b86ba23ce13bbcb",
+                "aa772f5e5d39b2b20d5aa9274c1dc1073e48e3122c5240e7924fbba63e4adda6",
+                "83a6f37b763afdb9511ad01aa09dd37c0140c68a99546c412fcdcb2a62bc60ff",
+                "5a94928e042bb2947eefe51dc2e98022745c4a4c4cbf6c71e042d90957d5d5f7",
+                "4cdd18eed92cab351a6b2e2d074cbf9669c68785bd584683e91c9a23d05bec1c",
+                "401abc60e385ff52299eeb5e194b7c98048441015df616e15bf9aa1bcc5699e0",
+                "5cbf6d9190b45b84231d92a1a0a764557a0c0f26767c6adf4476ebf55fce4799",
+                "1761a151f4fc27a85404b7b5c5f9782b61b0a9d8c04a1d92c436237523fd3584",
+                "201ac608fc563fd36eeabf4aacdd47d8119394010225323b8882eeb629a6d13e",
+                "0612d2c61debe45fb8ded16500d9c4abbe8d52e298c8e591b00b9a8688a9ee08",
+                "0c5707f7d52b34c80b74653d2297c8ed4c73a6d41131072f304b6644b50b8e21",
+                "464c7327f328834e5a680f68575e7aa33ffa71daac5b4a617fae4937baabb6bc",
+                "aabe677d1e7dd3822f2b84554f51bb56607485d89d63120fc4d453cef225e161",
+                "382a5b914a2c54ebd0270239bbc143c7956de60c0462fb3502b746161e652ad5",
+                "255ae7c4e1cedbeb212e03c5630b8469956a38504530c641143f37d3a318e1b6",
+                "352660e2cf1995bccf93209b291c743f1fb7df17e4a6c784591620fbc3792c62",
+                "e752699946b38ebdc2f0ecfcbb6aa2c4263c53efe33a29451582acddce2ec419",
+                "a9962357056d578e8f719823fe939dbce135625c2d9ecfd7e4cb5046d8c90a0b",
+                "ed3953e786e1a17371609326227d8783b6b7b15acb2dd6811828b604e405b24f",
+                "440172b459f3b1527319b1d80c4400fbf8cea9306c33b4c4c49d0e4d270b8fc2",
+                "ed73cc1f5c8a5fa3f339a89ba228f2a88349e0008b346772a34b8705bd096fd8",
+                "4064dc24134b3512ad6a3422335a80be737ac58d3d7a27d15c5e97c496d5a2b0",
+                "6ff1eb11ba71c390adfb57f99d636f382f977a40dd1cc439f95b078258befba6",
+                "ee40af236e4fdf57184f5a56c6f530d7a32c6d9abb4afe80013a96ba45e16dd1",
+                "71a5f62e46ab2d370d68af6511e6f25e5e8b870a6649d23b6cceac4981fea7e4",
+                "0d191229a7d5c961df5c4c3a51d1c97f268553f97b3714eecc7d03d16893fdfe",
+                "930e8a3a3802981e6928baa3d2fb07eab669d7df4339407bf62d5165dda80222",
+                "4913f7ae6e6e979c33421da231ede95e13e7302ecadc2f6117aa29d064afc247",
+                "35d03289a0e2706f4c5d8b3968daacf4342104f9da53d2ca09c467df057a065e",
+                "f7171e87ac8bba05c7cb69b896f73a5ec4b056dbb99341f0bb0d698c5a2f87ec",
+                "8559dc68476273f8ba149d0bc4bd7a1d70a3ce54cdaf5e2379a0c111480aba0e",
+                "f254b918c80a83d36e40ba9e1648283eb39b93c6ecea938117d2731222f2078c",
+                "9dff49c303150a989f10c19f642fee33acfbda034322911f533e5bdacd60d12b",
+                "d77096d475c01f8b19f987087219b7940a75863906e2a8f80aad523db1a7e741",
+                "65c0ca2fd8a33dd4c9570d943225b862037163dcf578e91dbf22690c47721cb3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.dot-st.com",
+                "book.asahi.com",
+                "www.shuminoengei.jp",
+                "baby-calendar.jp",
+                "cancam.jp",
+                "www.ntv.co.jp",
+                "www.kobe-np.co.jp",
+                "www.ymobile.jp",
+                "nekochan.jp",
+                "mitsuraku.jp",
+                "icotto.jp",
+                "www.uta-net.com",
+                "www.mistore.jp",
+                "www.oanda.jp",
+                "www.bepal.net",
+                "withnews.jp",
+                "dot.asahi.com",
+                "www.suntory-kenko.com",
+                "www.kajitaku.com",
+                "eikaiwa.weblio.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1007220\\/pid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "f58284b627fbbc275e105632fbedb02202f73b0870f7709d7183101d720aca7a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9db.jp",
+                "agora-web.jp",
+                "newsee-media.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/pid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 32,
+            "prevalence": 0.000219,
+            "cnames": [],
+            "responseHashes": [
+                "f58284b627fbbc275e105632fbedb02202f73b0870f7709d7183101d720aca7a",
+                "c81df99a9d0469ce0ac085f840a0cfb0cd49733db326425b13a5a85b69c348eb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ncode.syosetu.com",
+                "www.sarthaks.com",
+                "syosetu.org",
+                "plaza.rakuten.co.jp",
+                "lovely-media.jp",
+                "agora-web.jp",
+                "u-note.me",
+                "filmarks.com",
+                "name-power.net",
+                "yutura.net",
+                "www.ufret.jp",
+                "9db.jp",
+                "www.fmworld.net",
+                "www.ekiten.jp",
+                "mypage.syosetu.com",
+                "recipe.rakuten.co.jp",
+                "appmedia.jp",
+                "macaro-ni.jp",
+                "fdoc.jp",
+                "select.mamastar.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1008868\\/pid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 27,
+            "prevalence": 0.000184,
+            "cnames": [],
+            "responseHashes": [
+                "c81df99a9d0469ce0ac085f840a0cfb0cd49733db326425b13a5a85b69c348eb",
+                "f58284b627fbbc275e105632fbedb02202f73b0870f7709d7183101d720aca7a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bunshun.jp",
+                "www.mbs.jp",
+                "agripick.com",
+                "zekamashi.net",
+                "response.jp",
+                "automaton-media.com",
+                "number.bunshun.jp",
+                "car.motor-fan.jp",
+                "esse-online.jp",
+                "newsdig.tbs.co.jp",
+                "iemone.jp",
+                "www.tvkingdom.jp",
+                "www.travel.co.jp",
+                "www.crank-in.net",
+                "car-moby.jp",
+                "gamepedia.jp",
+                "madamefigaro.jp",
+                "www.j-cast.com",
+                "autoc-one.jp",
+                "melos.media"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1008852\\/pid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 62,
+            "prevalence": 0.000424,
+            "cnames": [],
+            "responseHashes": [
+                "c81df99a9d0469ce0ac085f840a0cfb0cd49733db326425b13a5a85b69c348eb",
+                "f58284b627fbbc275e105632fbedb02202f73b0870f7709d7183101d720aca7a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fril.jp",
+                "magazine.cartune.me",
+                "natalie.mu",
+                "game.watch.impress.co.jp",
+                "internet.watch.impress.co.jp",
+                "www.ac-illust.com",
+                "mamastar.jp",
+                "jmty.jp",
+                "www.photo-ac.com",
+                "cartune.me",
+                "ameblo.jp",
+                "nikkei225jp.com",
+                "horti.jp",
+                "smart-flash.jp",
+                "www.afpbb.com",
+                "www.cinematoday.jp",
+                "www.jiji.com",
+                "mdpr.jp",
+                "allabout.co.jp",
+                "www.uta-net.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/imid\\/beacon\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cf"
+            ],
+            "apis": {
+                "Document.cookie getter": 66,
+                "window.localStorage": 45
+            },
+            "sites": 77,
+            "prevalence": 0.000526,
+            "cnames": [],
+            "responseHashes": [
+                "9809ac4ec7145428b3df3fb5c1f2c263902cfe0fd0149ff5975c46729899bdcb"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kimini.online",
+                "www.suntory-kenko.com",
+                "www.sejuku.net",
+                "souzoku.asahi.com",
+                "www.livable.co.jp",
+                "www.hmv.co.jp",
+                "booklive.jp",
+                "www.y-aoyama.jp",
+                "nanboya.com",
+                "sp.uta-net.com",
+                "www.asahi.com",
+                "www.s-b-c.net",
+                "hugkum.sho.jp",
+                "kufura.jp",
+                "trafficnews.jp",
+                "snkrdunk.com",
+                "www.oricon.co.jp",
+                "tvguide.myjcom.jp",
+                "tenki.jp",
+                "www.matsui.co.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/sdk\\/tdim-1\\.1\\.0\\.min\\.js",
+            "cookies": 0.0000956,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cf"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 14,
+                "Document.cookie getter": 14,
+                "Document.cookie setter": 14,
+                "Navigator.prototype.language": 14,
+                "Screen.prototype.colorDepth": 14,
+                "Screen.prototype.width": 14,
+                "Screen.prototype.height": 14,
+                "window.innerHeight": 14,
+                "window.innerWidth": 14,
+                "Navigator.prototype.userAgent": 14,
+                "Navigator.prototype.platform": 14
+            },
+            "sites": 14,
+            "prevalence": 0.0000956,
+            "cnames": [],
+            "responseHashes": [
+                "84e2f272052d386779f00694399d4dcbbad2def9c0e1f56e7ab16d133c2cef57"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_tdim": {
+                    "ttl": 31536009,
+                    "length": 36,
+                    "prevalence": 0.00009564801530368245,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allabout.co.jp",
+                "cancam.jp",
+                "dime.jp",
+                "domani.shogakukan.co.jp",
+                "hugkum.sho.jp",
+                "japantravel.navitime.com",
+                "kufura.jp",
+                "oggi.jp",
+                "precious.jp",
+                "serai.jp",
+                "travel.navitime.com",
+                "www.biteki.com",
+                "www.navitime.co.jp",
+                "www.news-postseven.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/bh\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b"
+            ],
+            "apis": {},
+            "sites": 29,
+            "prevalence": 0.000198,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00004099200655872105
+            },
+            "exampleSites": [
+                "www.y-aoyama.jp",
+                "game8.jp",
+                "www.e-earphone.jp",
+                "allabout.co.jp",
+                "metoree.com",
+                "www.hmv.co.jp",
+                "www.kajitaku.com",
+                "hentaitokyo.com",
+                "teratail.com",
+                "sp.uta-net.com",
+                "print.shop.post.japanpost.jp",
+                "kosodate.mynavi.jp",
+                "fashion.biglobe.ne.jp",
+                "food.biglobe.ne.jp",
+                "earthquake.tenki.jp",
+                "www.suruga-ya.jp",
+                "pmall.gpoint.co.jp",
+                "anond.hatelabo.jp",
+                "www.ozmall.co.jp",
+                "www.navitime.co.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/sdk\\/log\\.js",
+            "cookies": 0.000471,
+            "fingerprinting": 2,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Document.cookie getter": 69,
+                "Date.prototype.getTime": 69,
+                "Navigator.prototype.cookieEnabled": 69,
+                "Navigator.prototype.userAgent": 69,
+                "Navigator.prototype.mimeTypes": 69,
+                "Navigator.prototype.javaEnabled": 69,
+                "Screen.prototype.width": 69,
+                "Screen.prototype.height": 69,
+                "Navigator.prototype.platform": 69,
+                "Document.cookie setter": 69,
+                "window.name": 69,
+                "window.devicePixelRatio": 74,
+                "Navigator.prototype.language": 74
+            },
+            "sites": 83,
+            "prevalence": 0.000567,
+            "cnames": [],
+            "responseHashes": [
+                "e0fcccc60d9e199431efe12dc8a20650a2c8860a4e2e403f953e03c9a16ace6a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_im_id.6604": {
+                    "ttl": 33955206,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.6604": {
+                    "ttl": 1805,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1007492": {
+                    "ttl": 33955207,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1007492": {
+                    "ttl": 1807,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1003235": {
+                    "ttl": 33955213,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1003235": {
+                    "ttl": 1813,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1017728": {
+                    "ttl": 33955212,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1017728": {
+                    "ttl": 1811,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1013186": {
+                    "ttl": 33955212,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1013186": {
+                    "ttl": 1811,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1014788": {
+                    "ttl": 33955208,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1014788": {
+                    "ttl": 1807,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1007506": {
+                    "ttl": 33955208,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1007506": {
+                    "ttl": 1807,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.8235": {
+                    "ttl": 33955208,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.8235": {
+                    "ttl": 1808,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1006634": {
+                    "ttl": 33955216,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1006634": {
+                    "ttl": 1815,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1000812": {
+                    "ttl": 33955229,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1000812": {
+                    "ttl": 1829,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1002440": {
+                    "ttl": 33955210,
+                    "length": 28,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "_im_ses.1002440": {
+                    "ttl": 1811,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "_im_id.1004465": {
+                    "ttl": 33955209,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1004465": {
+                    "ttl": 1808,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1004421": {
+                    "ttl": 33955206,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1004421": {
+                    "ttl": 1805,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1002095": {
+                    "ttl": 33955204,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1002095": {
+                    "ttl": 1804,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1019999": {
+                    "ttl": 33955204,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1019999": {
+                    "ttl": 1804,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1014484": {
+                    "ttl": 33955212,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1014484": {
+                    "ttl": 1812,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1020264": {
+                    "ttl": 33955209,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1020264": {
+                    "ttl": 1808,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1015250": {
+                    "ttl": 33955208,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1015250": {
+                    "ttl": 1807,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1019989": {
+                    "ttl": 33955212,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1019989": {
+                    "ttl": 1811,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1012373": {
+                    "ttl": 33955206,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1012373": {
+                    "ttl": 1805,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1015123": {
+                    "ttl": 33955210,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1015123": {
+                    "ttl": 1810,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1013119": {
+                    "ttl": 33955212,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1013119": {
+                    "ttl": 1811,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1015558": {
+                    "ttl": 33955209,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1015558": {
+                    "ttl": 1809,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1010079": {
+                    "ttl": 33955212,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1010079": {
+                    "ttl": 1811,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1013149": {
+                    "ttl": 33955215,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1013149": {
+                    "ttl": 1814,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1014209": {
+                    "ttl": 33955210,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1014209": {
+                    "ttl": 1810,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1002892": {
+                    "ttl": 33955211,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1002892": {
+                    "ttl": 1811,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1014416": {
+                    "ttl": 33955228,
+                    "length": 28,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "_im_ses.1014416": {
+                    "ttl": 1827,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "_im_id.1011011": {
+                    "ttl": 33955221,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1011011": {
+                    "ttl": 1820,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1007055": {
+                    "ttl": 33955224,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1007055": {
+                    "ttl": 1823,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1003773": {
+                    "ttl": 33955207,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1003773": {
+                    "ttl": 1806,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1012764": {
+                    "ttl": 33955207,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1012764": {
+                    "ttl": 1806,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1014428": {
+                    "ttl": 33955206,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1014428": {
+                    "ttl": 1805,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1016382": {
+                    "ttl": 33955207,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1016382": {
+                    "ttl": 1807,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1012362": {
+                    "ttl": 33955211,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1012362": {
+                    "ttl": 1810,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1016427": {
+                    "ttl": 33955211,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1016427": {
+                    "ttl": 1811,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1015142": {
+                    "ttl": 33955216,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1015142": {
+                    "ttl": 1815,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1002557": {
+                    "ttl": 33955216,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1002557": {
+                    "ttl": 1815,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1012268": {
+                    "ttl": 33955206,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1012268": {
+                    "ttl": 1806,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1013184": {
+                    "ttl": 33955211,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1013184": {
+                    "ttl": 1810,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1012972": {
+                    "ttl": 33955208,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1012972": {
+                    "ttl": 1807,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1015954": {
+                    "ttl": 33955211,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1015954": {
+                    "ttl": 1811,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.14743": {
+                    "ttl": 33955211,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.14743": {
+                    "ttl": 1811,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1015122": {
+                    "ttl": 33955220,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1015122": {
+                    "ttl": 1819,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1001114": {
+                    "ttl": 33955220,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1001114": {
+                    "ttl": 1819,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1013240": {
+                    "ttl": 33955210,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1013240": {
+                    "ttl": 1809,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1016499": {
+                    "ttl": 33955214,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1016499": {
+                    "ttl": 1814,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1015247": {
+                    "ttl": 33955218,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1015247": {
+                    "ttl": 1817,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1011888": {
+                    "ttl": 33955208,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1011888": {
+                    "ttl": 1807,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1010292": {
+                    "ttl": 33955208,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1010292": {
+                    "ttl": 1807,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1010710": {
+                    "ttl": 33955203,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1010710": {
+                    "ttl": 1803,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1011490": {
+                    "ttl": 33955209,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1011490": {
+                    "ttl": 1809,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1020106": {
+                    "ttl": 33955205,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1020106": {
+                    "ttl": 1804,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1015144": {
+                    "ttl": 33955206,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1015144": {
+                    "ttl": 1805,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1014981": {
+                    "ttl": 33955205,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1014981": {
+                    "ttl": 1805,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1017670": {
+                    "ttl": 33955205,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1017670": {
+                    "ttl": 1805,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1012358": {
+                    "ttl": 33955209,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1012358": {
+                    "ttl": 1808,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1015819": {
+                    "ttl": 33955206,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1015819": {
+                    "ttl": 1805,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1017299": {
+                    "ttl": 33955207,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1017299": {
+                    "ttl": 1807,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1013900": {
+                    "ttl": 33955217,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1013900": {
+                    "ttl": 1817,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1004026": {
+                    "ttl": 33955210,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1004026": {
+                    "ttl": 1810,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1013955": {
+                    "ttl": 33955206,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1013955": {
+                    "ttl": 1805,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1012076": {
+                    "ttl": 33955209,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1012076": {
+                    "ttl": 1808,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1008971": {
+                    "ttl": 33955209,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1008971": {
+                    "ttl": 1808,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1012783": {
+                    "ttl": 33955213,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1012783": {
+                    "ttl": 1813,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1016502": {
+                    "ttl": 33955213,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1016502": {
+                    "ttl": 1813,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1000918": {
+                    "ttl": 33955211,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1000918": {
+                    "ttl": 1810,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1017500": {
+                    "ttl": 33955211,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1017500": {
+                    "ttl": 1810,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1006582": {
+                    "ttl": 33955211,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1006582": {
+                    "ttl": 1811,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.23": {
+                    "ttl": 33955203,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.23": {
+                    "ttl": 1802,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1002552": {
+                    "ttl": 33955207,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1002552": {
+                    "ttl": 1806,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.5082": {
+                    "ttl": 33955216,
+                    "length": 28,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "_im_ses.5082": {
+                    "ttl": 1816,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "_im_id.1004278": {
+                    "ttl": 33955220,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1004278": {
+                    "ttl": 1819,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_id.1005546": {
+                    "ttl": 33955221,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_im_ses.1005546": {
+                    "ttl": 1820,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allabout.co.jp",
+                "www.kikkoman.co.jp",
+                "crosset.onward.co.jp",
+                "kimini.online",
+                "www.pc-koubou.jp",
+                "www.suntory-kenko.com",
+                "mitsuraku.jp",
+                "www.suntory.co.jp",
+                "www.ozmall.co.jp",
+                "snkrdunk.com",
+                "kaigo.homes.co.jp",
+                "jp.mercari.com",
+                "www.cainz.com",
+                "www.netbk.co.jp",
+                "www.hmv.co.jp",
+                "www.asahi.com",
+                "www.lezhin.jp",
+                "www.y-aoyama.jp",
+                "book.asahi.com",
+                "trafficnews.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/mtm\\/tracker\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "6977087d300f577bdf43a3180b945ce734d523009e5bd4e882cfdc432b0c45e8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hatelabo.jp",
+                "www.navitime.co.jp",
+                "www.shufoo.net"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1011022\\/pid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "c81df99a9d0469ce0ac085f840a0cfb0cd49733db326425b13a5a85b69c348eb",
+                "f58284b627fbbc275e105632fbedb02202f73b0870f7709d7183101d720aca7a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ascii.jp",
+                "moviewalker.jp",
+                "www.lettuceclub.net",
+                "www.walkerplus.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/js\\/1017483\\/0001\\/itm\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4ed376fcfbc55c71cdfe8545581a824e489e31436b9ba986d17fbea7b98d9975"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "panasonic.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1017483\\/segment",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3181ad66ab231a3be4a502b1e2c285cdc76dfa1472a3e4e2ca814db3629d66e8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "panasonic.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/a\\/imsync\\/1017483\\/10101915\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "atb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "panasonic.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1017483\\/site\\/targeting",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "panasonic.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1004646\\/rtd",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "04daf646b8e60b6d5cc25f01cb2a037d27f98dce5a4496b44a48f7f3da47c63d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baby-calendar.jp",
+                "bunshun.jp",
+                "esse-online.jp",
+                "number.bunshun.jp",
+                "www.j-cast.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/js\\/1014416\\/0001\\/itm\\.js",
+            "cookies": 0.000219,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 26,
+                "Date.prototype.getTime": 21
+            },
+            "sites": 32,
+            "prevalence": 0.000219,
+            "cnames": [],
+            "responseHashes": [
+                "1ba9c0810aeec3ef1509d23b84c69d86137b3e69787ec80f42a662ba99cb47ab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grapee.jp",
+                "folk-media.com",
+                "kosodate.mynavi.jp",
+                "qiita.com",
+                "www.sponichi.co.jp",
+                "nekochan.jp",
+                "news.mynavi.jp",
+                "www.daily.co.jp",
+                "woman.mynavi.jp",
+                "baby-calendar.jp",
+                "car-me.jp",
+                "iemone.jp",
+                "rurubu.jp",
+                "www.chunichi.co.jp",
+                "www.ymobile.jp",
+                "vokka.jp",
+                "wanchan.jp",
+                "monamona2525.com",
+                "www.biccamera.com",
+                "www.yamada-denkiweb.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1017462\\/tpct\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.000109,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baycrews.jp",
+                "booklive.jp",
+                "coconala.com",
+                "hikakaku.com",
+                "www.asoview.com",
+                "www.baitoru.com",
+                "www.berlitz.com",
+                "www.biccamera.com",
+                "www.chintai.net",
+                "www.dospara.co.jp",
+                "www.his-j.com",
+                "www.livable.co.jp",
+                "www.minnanokaigo.com",
+                "www.sbishinseibank.co.jp",
+                "www.takarakuji-official.jp",
+                "www.zeiri4.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1003613\\/segment",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "cbcd6b9c87ae3def64e8477f9f4fad9db463edc0edeedb3d09a109e5e242adc9",
+                "482c6da31fa998e5b481f3714e027dcbf98598bcda18763bcdb69371ac0f2342",
+                "f58fef96350bd15287697de1dbcb4340efa1d539961e0a1fb0f1c5cea416fc3b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "review.kakaku.com",
+                "s.kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1016418\\/pid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "f58284b627fbbc275e105632fbedb02202f73b0870f7709d7183101d720aca7a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bestcarweb.jp",
+                "courrier.jp",
+                "friday.kodansha.co.jp",
+                "gendai.media",
+                "mi-mollet.com",
+                "web.gekisaka.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/livedoor",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "esuteru.com",
+                "blog.livedoor.jp",
+                "hamusoku.com",
+                "himasoku.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1011099\\/pid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "c81df99a9d0469ce0ac085f840a0cfb0cd49733db326425b13a5a85b69c348eb",
+                "f58284b627fbbc275e105632fbedb02202f73b0870f7709d7183101d720aca7a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goo.ne.jp",
+                "dictionary.goo.ne.jp",
+                "hitosara.com",
+                "oshiete.goo.ne.jp",
+                "savorjapan.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/pms\\/2ArykQrl\\/pmt\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "209da73a5ed9176d0b1962ecbb33af09eaefec50d8432b2f749cdf4fbb7e71c7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "globe.asahi.com",
+                "withnews.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1002892\\/segment",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "3181ad66ab231a3be4a502b1e2c285cdc76dfa1472a3e4e2ca814db3629d66e8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "book.asahi.com",
+                "globe.asahi.com",
+                "withnews.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/js\\/1002892\\/0001\\/itm\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "4953b61a43b6ce48e4d290237c842c5ed14855c94628b93f513bae6ba91cba48"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "globe.asahi.com",
+                "withnews.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1010178\\/pid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "c81df99a9d0469ce0ac085f840a0cfb0cd49733db326425b13a5a85b69c348eb",
+                "f58284b627fbbc275e105632fbedb02202f73b0870f7709d7183101d720aca7a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "globe.asahi.com",
+                "souzoku.asahi.com",
+                "withnews.jp",
+                "www.asahi.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/evaluate",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "m",
+                "m6",
+                "open"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000615,
+            "cnames": [],
+            "responseHashes": [
+                "62e85a8c483b17fde24d5531e8995565b87eb22dff0ec3ec37bc5a58101b4279",
+                "3100835506c4be5303c68b6b065fb88f8d40bf88b28efa52a46f324a6509f8c3",
+                "11d20832ccffef2b5afb0a96feee2124730ee652edaf8fc181991ae2b6539091"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "book.asahi.com",
+                "globe.asahi.com",
+                "kosodate.mynavi.jp",
+                "news.mynavi.jp",
+                "withnews.jp",
+                "woman.mynavi.jp",
+                "www.ntv.co.jp",
+                "www.sbishinseibank.co.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/a\\/imset\\/1002892\\/10059707\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "atb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "globe.asahi.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/a\\/imset\\/1002892\\/10062076\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "atb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "globe.asahi.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/a\\/beacon\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "atm"
+            ],
+            "apis": {},
+            "sites": 68,
+            "prevalence": 0.000465,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kaigo.homes.co.jp",
+                "www.fujisan.co.jp",
+                "www.kajitaku.com",
+                "www.sejuku.net",
+                "trafficnews.jp",
+                "earthquake.tenki.jp",
+                "tvguide.myjcom.jp",
+                "mitsuraku.jp",
+                "eikaiwa.weblio.jp",
+                "www.dot-st.com",
+                "jp.mercari.com",
+                "www.s-b-c.net",
+                "withnews.jp",
+                "www.iijmio.jp",
+                "booklive.jp",
+                "tenki.jp",
+                "www.lezhin.jp",
+                "www.ozmall.co.jp",
+                "www.mistore.jp",
+                "globe.asahi.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/v1\\/fraud",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "score",
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 48,
+            "prevalence": 0.000328,
+            "cnames": [],
+            "responseHashes": [
+                "8a666ce5698c7515e2d409d37720b514ce32e87342608469c24f1bd672301c08",
+                "bc1ba54569fcaeb6f61bea8b5919c24f1284ada343c7b40ee624472b17066bcf",
+                "bbf94c35da3fe7df0aec6bf3ac362541b52eedf84f95a44edbb35bf11dad829c",
+                "06948dfc3d59071c5f577a96495edba8c699224c87cf2bc6255be45c60e92768",
+                "c36fbc993f6fd97ead34232b5d7a43e3527e1b73298efcb07ba148da73ece266",
+                "32fee38bc1af3dbd29db560c0a1040d03a3eabbd628a5cdefefed2ce6f018eaa",
+                "0bee9b6652f3b1a148815e325f27ed944d1af9ffe0563f9bd3938d4dc0b01a1d",
+                "a898b5815aa29a011b6f33bb788b668bc8076c078d4de0d3cce0cabe173f337f",
+                "565c2c7d688c3be8a2f2004a4503b7995346c549509067bf4295292bf024c97b",
+                "11b54a6bc8726e8a2a1e950015bb1a24852b9b065e70c0bcdc14263e0b6274fe",
+                "e4e518cf06d10656ee232179e929e9cc7dd73d6b54d32cee52a8d5f48e481d90",
+                "6521c3c0e4543bc38b81ef35f6299ef4979870345f995a6a3c88db50d4a3226a",
+                "3798117f2d5e73636d551decb92f5dac98a9c610dc05dc21011f93d7ba75274c",
+                "4fcbda84701674e7c872df1c5d54a94a2843553b73b58317963d46f42d27b633",
+                "233d3cc37911deae0eaa6872f12c46045fe706d857285cde28b5e2f366ea1c9d",
+                "66eb5540e048a353c003eec9b6d4e620097c2cca5459605bc89491ba1f0db841",
+                "866b6ebe6daf09f9703da8a68418362cffd97663a7a3abd2ff75fc618a8bf799",
+                "553ba038126048b75dae7ba9e9ce3b3698d4ac3ee25ebd372a53548ca8995e13",
+                "ee0cc196a0ecd06fcef60b2ef1b6c46fd37e2802dfc96ef99f6ceb27ab78b8c6",
+                "a894ee55f8950e279b17be128bd07e6e25a61de6e17c6a19a9d8c72fdd06ba35",
+                "1c5816dbbfb7c27fc034fa79463c502c3d1594fa716fe2ce4fe82ee4b89b4504",
+                "aa5c5ec06d4bf7b859e5a52bd7507764bd99ffd34692c78440d77cfe8c78ccb2",
+                "7348703b77417ed72134ca883ad858f096f32cb1cbf266d37b43666990f307c0",
+                "61a565c340905ab1979938c6d897ae1c6411eb672fc3e6f251e3e6e0a4de3d4c",
+                "6e97c16ed282feb36bf4ccd6be23c84518d8419cb8526256d153b9a51709a285",
+                "cb44f619758267cd988157c460929008c880bf62d3a962efdf642d6b7d290c88",
+                "996383b4bf193de888b3ea9f241fde30afdcbf805add69827009967643443fd5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crosset.onward.co.jp",
+                "haisha-yoyaku.jp",
+                "tvguide.myjcom.jp",
+                "hikakaku.com",
+                "www.unitedcinemas.jp",
+                "www.kusurinomadoguchi.com",
+                "www.berlitz.com",
+                "www.dospara.co.jp",
+                "www.ozmall.co.jp",
+                "www.dcm-ekurashi.com",
+                "kaigo.homes.co.jp",
+                "eikaiwa.weblio.jp",
+                "www.netbk.co.jp",
+                "www.hmv.co.jp",
+                "www.dot-st.com",
+                "shop.aeon.com",
+                "www.dinos.co.jp",
+                "www.irisplaza.co.jp",
+                "l-tike.com",
+                "www.aeon.co.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/imid\\/get",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000752,
+            "cnames": [],
+            "responseHashes": [
+                "1883a26be1b0f8f3e31905c446d84a4b096fe82929e8ef8497cc6f3efce6be8b",
+                "ca4b871bdf505998105f973df76e47c4d61655632a66560a59ada3c77010f329",
+                "221381d6b5c1b6c9287283161b1a3fd0f9fd2fdc856096f94067bd8c8d4e53ab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bunshun.jp",
+                "car.motor-fan.jp",
+                "forbesjapan.com",
+                "gakumado.mynavi.jp",
+                "japan.cnet.com",
+                "mamastar.jp",
+                "mi-mollet.com",
+                "select.mamastar.jp",
+                "toyokeizai.net",
+                "trilltrill.jp",
+                "www.huffingtonpost.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/sdk\\/tdim-1\\.2\\.0\\.min\\.js",
+            "cookies": 0.000041,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cf"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 6,
+                "Document.cookie getter": 6,
+                "Document.cookie setter": 6,
+                "Navigator.prototype.language": 6,
+                "Screen.prototype.colorDepth": 6,
+                "Screen.prototype.width": 6,
+                "Screen.prototype.height": 6,
+                "window.innerHeight": 6,
+                "window.innerWidth": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.platform": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "84e2f272052d386779f00694399d4dcbbad2def9c0e1f56e7ab16d133c2cef57"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_tdim": {
+                    "ttl": 31536012,
+                    "length": 36,
+                    "prevalence": 0.00004099200655872105,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ntt-east.co.jp",
+                "grapee.jp",
+                "join.biglobe.ne.jp",
+                "kosodate.mynavi.jp",
+                "www.his-j.com",
+                "www.matsui.co.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 53,
+            "prevalence": 0.000362,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.irisplaza.co.jp",
+                "eikaiwa.weblio.jp",
+                "www.nissen.co.jp",
+                "mitsuraku.jp",
+                "www.sejuku.net",
+                "www.hmv.co.jp",
+                "haisha-yoyaku.jp",
+                "www.edion.com",
+                "www.dcm-ekurashi.com",
+                "crosset.onward.co.jp",
+                "www.his-j.com",
+                "www.suntory.co.jp",
+                "shop.aeon.com",
+                "www.dot-st.com",
+                "tvguide.myjcom.jp",
+                "www.nicosuma.com",
+                "www.aeon.co.jp",
+                "hikakaku.com",
+                "www.dinos.co.jp",
+                "www.netbk.co.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1012690\\/dv360\\/site",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ltb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nikkei.com",
+                "business.nikkei.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/js\\/9534\\/0001\\/itm\\.js",
+            "cookies": 0.0000752,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 10
+            },
+            "sites": 11,
+            "prevalence": 0.0000752,
+            "cnames": [],
+            "responseHashes": [
+                "7f141e0aadd367a659b4fc281b5237c61f8f31ca60ad711d64e7294ddc4bb9c8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cancam.jp",
+                "dime.jp",
+                "domani.shogakukan.co.jp",
+                "hugkum.sho.jp",
+                "kufura.jp",
+                "oggi.jp",
+                "precious.jp",
+                "serai.jp",
+                "www.bepal.net",
+                "www.biteki.com",
+                "www.news-postseven.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1014416\\/site\\/targeting",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.000123,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "car-me.jp",
+                "dot.asahi.com",
+                "gakumado.mynavi.jp",
+                "grapee.jp",
+                "iemone.jp",
+                "jp.ext.hp.com",
+                "kosodate.mynavi.jp",
+                "mainichi.jp",
+                "monamona2525.com",
+                "qiita.com",
+                "tabizine.jp",
+                "wanchan.jp",
+                "withnews.jp",
+                "woman.mynavi.jp",
+                "www.biccamera.com",
+                "www.sofmap.com",
+                "www.ymobile.jp",
+                "www.yomiuri.co.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/js\\/1017218\\/0001\\/itm\\.js",
+            "cookies": 0.0000342,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 5,
+                "window.sessionStorage": 5,
+                "Date.prototype.getTime": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "9d0107ceabbdd45313b1fdcca2218897bd6901b800d6ac200bb88524869f5710"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cartune.me",
+                "magazine.cartune.me",
+                "manetatsu.com",
+                "response.jp",
+                "www.gamespark.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1017218\\/segment",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "3181ad66ab231a3be4a502b1e2c285cdc76dfa1472a3e4e2ca814db3629d66e8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cartune.me",
+                "magazine.cartune.me",
+                "manetatsu.com",
+                "response.jp",
+                "www.gamespark.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1017462\\/tpct\\/1017218\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cartune.me",
+                "magazine.cartune.me",
+                "manetatsu.com",
+                "www.gamespark.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1017218\\/site\\/targeting",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cartune.me",
+                "magazine.cartune.me",
+                "manetatsu.com",
+                "www.gamespark.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/a\\/imsync\\/1017218\\/10104876\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "atb"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cartune.me",
+                "magazine.cartune.me",
+                "manetatsu.com",
+                "www.gamespark.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/v1\\/fraud",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "score"
+            ],
+            "apis": {
+                "window.sessionStorage": 18
+            },
+            "sites": 20,
+            "prevalence": 0.000137,
+            "cnames": [],
+            "responseHashes": [
+                "299dad9e1c6a76d1e1a1f4378676954f259607a327b5fbc7258e78f8e8f3dafb",
+                "9ecfad9591a5848767f2072f66b64f800047a34fb04ed3dd0e9cf0376595c592",
+                "8683450ef7358b32a22b0a142c8bae28b40d2226349b16fb3aa88bedff72d6bc",
+                "f34139891729e0ccd378fad6241faf51961b6db8532be630ae551d8bb37760a4",
+                "a9e043735be39cbdd21fa25e49d5629b0aa83817abf1e520148f182eb48e4913",
+                "6fc46676fa496ec9bcbcaa846b84249b15f639763918c36887ba665e67e4d134",
+                "35d84464fd44afec85d79241e13d95272b2a7ea917a34cb3c7f44eaab9b5a461",
+                "8136161ab7eb67abd6590001e4a8ba38c4438be0c54dc1bd7eafe938d06873b9",
+                "384dacc36690d31bb4a99219f31c0738e063c8d42e0e63b9086d28674077d2ff",
+                "d138618291fe6017d18a5482194314334b7456446cba258ac5b85962aeb8521a",
+                "2157561e7da29b8555bdf5bcc9fe42315794c4d64feb113299f4f02047934839",
+                "b2b3d3f9684d24ce1c342b9a43b771fd12519db74c3da21a062016be12060d6f",
+                "c646197d9f5fe9a9fa7680f546f87af158976e3c8197729be5c1cffc63c2fcdc",
+                "86dd331c4ccceaf8cc47dea3e2f2d73d4d51a815f732d3e0df6b2c6ce079ff6c",
+                "1a81095663fffa161e0f58d00c4ada64da4075c5a18b8a09e89284b9316fd5fb",
+                "5b459ed79a3301635b83941afc5898e1d71ca36aa78ea9dbc9093c99d07bc5c3",
+                "7f70ebd9238a58e73955ac92607663967a3fbba1aff07240a1adbf3be313dce7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coconala.com",
+                "game8.jp",
+                "jobtalk.jp",
+                "join.biglobe.ne.jp",
+                "jp.mercari.com",
+                "kimini.online",
+                "nanboya.com",
+                "nativecamp.net",
+                "snkrdunk.com",
+                "www.dot-st.com",
+                "www.fujisan.co.jp",
+                "www.his-j.com",
+                "www.iijmio.jp",
+                "www.lezhin.jp",
+                "www.livable.co.jp",
+                "www.matsui.co.jp",
+                "www.nicosuma.com",
+                "www.oricon.co.jp",
+                "www.palcloset.jp",
+                "www.shuminoengei.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/6837\\/pid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 26,
+            "prevalence": 0.000178,
+            "cnames": [],
+            "responseHashes": [
+                "f58284b627fbbc275e105632fbedb02202f73b0870f7709d7183101d720aca7a",
+                "c81df99a9d0469ce0ac085f840a0cfb0cd49733db326425b13a5a85b69c348eb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eigobu.jp",
+                "suika-game.app",
+                "tenkura.n-kishou.co.jp",
+                "sakidori.co",
+                "www.tokyo-np.co.jp",
+                "wanchan.jp",
+                "natgeo.nikkeibp.co.jp",
+                "kuruma-news.jp",
+                "grapee.jp",
+                "newsmatomedia.com",
+                "nekochan.jp",
+                "www.yomiuri.co.jp",
+                "www.yamakei-online.com",
+                "hitostat.com",
+                "news.kstyle.com",
+                "news.webike.net",
+                "www.zukan-bouz.com",
+                "san-tatsu.jp",
+                "fily.jp",
+                "www.nikkan-gendai.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/js\\/7341\\/0001\\/itm\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4ed06fd4cf16601154b9eeea0b97d8980c2984d4d49164a15e2869cf1c4398ff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dengekionline.com",
+                "www.famitsu.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/7341\\/segment",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3181ad66ab231a3be4a502b1e2c285cdc76dfa1472a3e4e2ca814db3629d66e8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dengekionline.com",
+                "www.famitsu.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/7341\\/site\\/targeting",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dengekionline.com",
+                "www.famitsu.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/js\\/1016377\\/0001\\/itm\\.js",
+            "cookies": 0.0000615,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 9,
+                "window.sessionStorage": 9,
+                "Date.prototype.getTime": 9
+            },
+            "sites": 9,
+            "prevalence": 0.0000615,
+            "cnames": [],
+            "responseHashes": [
+                "a38ed181af6e7d42d2412e34bc6efad16c595dae12a6e5dc1ad970ffa5218945"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dokusho-ojikan.jp",
+                "kaigo.homes.co.jp",
+                "store.alpen-group.jp",
+                "tvguide.myjcom.jp",
+                "www.aeon.co.jp",
+                "www.kajitaku.com",
+                "www.minnanokaigo.com",
+                "www.netbk.co.jp",
+                "www.oanda.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/a\\/imsync\\/1011671\\/10093364\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "atb"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000683,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dokusho-ojikan.jp",
+                "kaigo.homes.co.jp",
+                "store.alpen-group.jp",
+                "tvguide.myjcom.jp",
+                "www.aeon.co.jp",
+                "www.homes.co.jp",
+                "www.kajitaku.com",
+                "www.minnanokaigo.com",
+                "www.netbk.co.jp",
+                "www.oanda.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1016377\\/segment",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000615,
+            "cnames": [],
+            "responseHashes": [
+                "3181ad66ab231a3be4a502b1e2c285cdc76dfa1472a3e4e2ca814db3629d66e8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dokusho-ojikan.jp",
+                "kaigo.homes.co.jp",
+                "store.alpen-group.jp",
+                "tvguide.myjcom.jp",
+                "www.aeon.co.jp",
+                "www.kajitaku.com",
+                "www.minnanokaigo.com",
+                "www.netbk.co.jp",
+                "www.oanda.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/clients\\/rakuten\\/uid\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "window.localStorage": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "28b6e152a6c8230b46d3da5f366cb7c459c2dcb11eb036564919a7ce6ca3735e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "item.rakuten.co.jp",
+                "search.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/imid\\/redirect",
+            "cookies": 0.0000956,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.000123,
+            "cnames": [],
+            "responseHashes": [
+                "3706866c68bca8fab61afcddb91d9add521a08ef8e1ee65f14b4c5b7148a53e5",
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "fashion.biglobe.ne.jp",
+                "food.biglobe.ne.jp",
+                "hentaitokyo.com",
+                "item.rakuten.co.jp",
+                "kurashi.biglobe.ne.jp",
+                "metoree.com",
+                "pmall.gpoint.co.jp",
+                "print.shop.post.japanpost.jp",
+                "search.rakuten.co.jp",
+                "senshinkai-clinic.jp",
+                "www.e-earphone.jp",
+                "www.ehonnavi.net",
+                "www.kajitaku.com",
+                "www.nihontsushin.com",
+                "www.osohshiki.jp",
+                "www.suruga-ya.jp",
+                "www.y-aoyama.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/redirect\\/1000128\\/rktnid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "item.rakuten.co.jp",
+                "search.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/js\\/1016132\\/0001\\/itm\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "360dd9c84958fc329c4d29828139131f3d1cf877f138b523e2ef5e81d560ceeb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gamewith.jp",
+                "pokemongo.gamewith.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1016132\\/segment",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3181ad66ab231a3be4a502b1e2c285cdc76dfa1472a3e4e2ca814db3629d66e8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gamewith.jp",
+                "pokemongo.gamewith.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1016132\\/site\\/targeting",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gamewith.jp",
+                "pokemongo.gamewith.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1008852\\/pid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c81df99a9d0469ce0ac085f840a0cfb0cd49733db326425b13a5a85b69c348eb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gamewith.jp",
+                "pokemongo.gamewith.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/js\\/1002440\\/0001\\/itm\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "499648a62a57f2809a6f01ab562a4adf1c5110bdac562f1e89b2d44c4e5b8a52"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "haisha-yoyaku.jp",
+                "mitsuraku.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/a\\/imsync\\/1001555\\/10061516\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "atb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "haisha-yoyaku.jp",
+                "mitsuraku.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/sdk\\/beacon\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "eb65c0beef640a99d1b38736a821e91966f8b10fa417ccb9808262b51fd39be6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hands.net",
+                "magazine.cainz.com",
+                "tokubai.co.jp",
+                "www.cainz.com",
+                "www.enjoytokyo.jp",
+                "www.kohnan-eshop.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/pms\\/weKLoK1l\\/pmt\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "window.sessionStorage": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "29148a83b8d951b39fdd4520b8c1c3ef4491614fed9f581929fb8de6b920c219"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hochi.news",
+                "japannews.yomiuri.co.jp",
+                "komachi.yomiuri.co.jp",
+                "www.yomiuri.co.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1005085\\/segment",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "3181ad66ab231a3be4a502b1e2c285cdc76dfa1472a3e4e2ca814db3629d66e8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hochi.news",
+                "japannews.yomiuri.co.jp",
+                "komachi.yomiuri.co.jp",
+                "www.yomiuri.co.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1005085\\/idpair\\/\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hochi.news",
+                "japannews.yomiuri.co.jp",
+                "komachi.yomiuri.co.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/sdk\\/im-uid\\.ctp\\.js",
+            "cookies": 0.0000273,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "window.localStorage": 4
+            },
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "2370c76adee9e3d88e1cca87b883cd4d2021f415af93383aa74f3a987d9ea097"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_im_vid": {
+                    "ttl": 34560016,
+                    "length": 26,
+                    "prevalence": 0.0000273280043724807,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "job-medley.com",
+                "news.mynavi.jp",
+                "toptoon.jp",
+                "woman.mynavi.jp",
+                "www.agaroot.jp",
+                "www.baitoru.com",
+                "www.hankyu-travel.com",
+                "www.nitori-net.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/js\\/1019999\\/0001\\/itm\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b06a3cd4c8d83230b94567563681ddabdf5732342c6a6dfeacec329babf08b86"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mercari.com",
+                "jp.mercari.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1019999\\/segment",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3181ad66ab231a3be4a502b1e2c285cdc76dfa1472a3e4e2ca814db3629d66e8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mercari.com",
+                "jp.mercari.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1017462\\/tpct\\/1019999\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mercari.com",
+                "jp.mercari.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1019999\\/site\\/targeting",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mercari.com",
+                "jp.mercari.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/pms\\/X7mGzMrl\\/pmt\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "window.sessionStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e81a7ffb84d8e8ca2d18676a83ed940a26f14c827ba9e25e0b31d2af68cef55e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mynavi.jp",
+                "news.mynavi.jp",
+                "woman.mynavi.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/js\\/1000942\\/0001\\/itm\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "de631900a55445d1647fef9e31727225d060c326ad48eaeece0f8973ee01928d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mynavi.jp",
+                "news.mynavi.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1007486\\/rtd",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "04daf646b8e60b6d5cc25f01cb2a037d27f98dce5a4496b44a48f7f3da47c63d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.0000273280043724807
+            },
+            "exampleSites": [
+                "mynavi.jp",
+                "news.mynavi.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/js\\/11262\\/0001\\/itm\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9cb49fc389b5ce9a1c9a1da255030da8766b7cb658db4065a66d59dff8ccfa58"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "l-tike.com",
+                "www.hmv.co.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/js\\/1001114\\/0001\\/itm\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "window.sessionStorage": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "42231a59e05774ee8476d0d40d6e8c400d5c3f60e6c793743205fb14a650c594"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "l-tike.com",
+                "www.hmv.co.jp",
+                "www.unitedcinemas.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1001114\\/segment",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "b21c62a8696731dddb2103dbcc33e19d5a9144e64a5f5573b35f099f7b2e5497"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "l-tike.com",
+                "www.hmv.co.jp",
+                "www.unitedcinemas.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1001114\\/site\\/targeting",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "l-tike.com",
+                "www.hmv.co.jp",
+                "www.unitedcinemas.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/imid\\/convert",
+            "cookies": 0.0000273,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {
+                "Document.cookie setter": 4,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "836da01c67c4257212c73255a829ff265ddbe83b71e6fb1b745b0e2894a1d429",
+                "68b63778b20bc0f38989dc9806ddbfe8da4a903a2bb601d0012ff018559fbe4c",
+                "d1b82c90571d8b9b90fad9b9a0ea7f1cdbdfb775bc8682e74ee31e4a653de5cf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "l-tike.com",
+                "www.hmv.co.jp",
+                "www.ntv.co.jp",
+                "www.unitedcinemas.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/scripts\\/set\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "31861e94a0e95919304ac431543e2e25b143c8cb32e1fdcead8dda6969e9468f",
+                "287b8287433391ca69086b378434378e151f29adecd53978b41fac75dbc99f44"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kstyle.com",
+                "www.kajitaku.com",
+                "www.palcloset.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1010475\\/pid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f58284b627fbbc275e105632fbedb02202f73b0870f7709d7183101d720aca7a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rocketnews24.com",
+                "soranews24.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/js\\/1012373\\/0001\\/itm\\.js",
+            "cookies": 0.00000683,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aeon.com",
+                "shop.aeon.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/js\\/1016136\\/0001\\/itm\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6e06bef325484a7f88d5897724cbe3a317ea7f87a6ade821f3a9eb5981e38475"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "www.asahi.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/js\\/1015558\\/0001\\/itm\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a233e295b54a2c61d5a64473520534d682f0bb8908e0d5e7b949622c0e215949"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "www.asahi.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1015558\\/segment",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3181ad66ab231a3be4a502b1e2c285cdc76dfa1472a3e4e2ca814db3629d66e8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "www.asahi.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1016136\\/segment",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3181ad66ab231a3be4a502b1e2c285cdc76dfa1472a3e4e2ca814db3629d66e8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asahi.com",
+                "www.asahi.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/js\\/1000711\\/0001\\/itm\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e0d5aa7f01bc33eea4728ace5534f9018582766838d05560b43da1ca936a4f95"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uta-net.com",
+                "www.uta-net.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1012498\\/pid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f58284b627fbbc275e105632fbedb02202f73b0870f7709d7183101d720aca7a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.jp",
+                "www.roomie.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/65786\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "cmoa.jp",
+                "www.cmoa.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/57330\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "cmoa.jp",
+                "www.cmoa.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/56271\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "cmoa.jp",
+                "www.cmoa.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/51343\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "cmoa.jp",
+                "www.cmoa.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/65784\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "cmoa.jp",
+                "www.cmoa.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/65785\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "cmoa.jp",
+                "www.cmoa.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/65783\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "cmoa.jp",
+                "www.cmoa.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/65782\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "cmoa.jp",
+                "www.cmoa.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/65493\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "cmoa.jp",
+                "www.cmoa.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/65494\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "cmoa.jp",
+                "www.cmoa.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/65492\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "cmoa.jp",
+                "www.cmoa.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/65491\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "cmoa.jp",
+                "www.cmoa.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/65490\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "cmoa.jp",
+                "www.cmoa.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/57363\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "cmoa.jp",
+                "www.cmoa.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/57362\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "cmoa.jp",
+                "www.cmoa.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/57361\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "cmoa.jp",
+                "www.cmoa.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/56135\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "cmoa.jp",
+                "www.cmoa.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/53603\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "cmoa.jp",
+                "www.cmoa.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/53485\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "cmoa.jp",
+                "www.cmoa.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1014537\\/pid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "c81df99a9d0469ce0ac085f840a0cfb0cd49733db326425b13a5a85b69c348eb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "daily.co.jp",
+                "www.inter-edu.com",
+                "www.kobe-np.co.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/53023\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "dlsite.com",
+                "www.dlsite.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/56146\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "dlsite.com",
+                "www.dlsite.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/53764\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "dlsite.com",
+                "www.dlsite.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/53443\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "dlsite.com",
+                "www.dlsite.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/56963\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "dlsite.com",
+                "www.dlsite.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/56962\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "dlsite.com",
+                "www.dlsite.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/51697\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "dlsite.com",
+                "www.dlsite.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/51696\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "dlsite.com",
+                "www.dlsite.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/51695\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "dlsite.com",
+                "www.dlsite.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/51694\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "dlsite.com",
+                "www.dlsite.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/56343\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "dlsite.com",
+                "www.dlsite.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/56964\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "dlsite.com",
+                "www.dlsite.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/51698\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "dlsite.com",
+                "www.dlsite.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/sdk\\/tdim-1\\.2\\.3\\.min\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cf"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.language": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "window.innerHeight": 3,
+                "window.innerWidth": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.platform": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "84e2f272052d386779f00694399d4dcbbad2def9c0e1f56e7ab16d133c2cef57"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_tdim": {
+                    "ttl": 31536013,
+                    "length": 36,
+                    "prevalence": 0.000020496003279360526,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dot-st.com",
+                "www.suntory-kenko.com",
+                "www.suntory.co.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/7716\\/rtd",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "04daf646b8e60b6d5cc25f01cb2a037d27f98dce5a4496b44a48f7f3da47c63d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "navitime.co.jp",
+                "www.navitime.co.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/js\\/7716\\/0001\\/itm\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ec22d721da5c8591ebda28162efbfc03c715ec78e81a3ea131b921ba1af9e876"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "navitime.co.jp",
+                "www.navitime.co.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/7716\\/pid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c81df99a9d0469ce0ac085f840a0cfb0cd49733db326425b13a5a85b69c348eb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "navitime.co.jp",
+                "www.navitime.co.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/3929\\/rt\\/64571\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_im_vid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "playojo.com",
+                "www.playojo.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1008312\\/pid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sankei.com",
+                "www.sanspo.com"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/1011634\\/imp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "im-apps\\.net\\/js\\/5082\\/0001\\/itm\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "caa38372880541781c1781202a37cdd7bbe3bab3f6dbcd2cb9cf5f0f77c4703b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "suntory-kenko.com",
+                "www.suntory.co.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0076,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2457390765416796
+        },
+        {
+            "domain": "outbrain.com",
+            "prevalence": 0.20545398202665013
+        },
+        {
+            "domain": "logly.co.jp",
+            "prevalence": 0.050821196157421755
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.05051131081499845
+        },
+        {
+            "domain": "i-mobile.co.jp",
+            "prevalence": 0.042764177254415864
+        },
+        {
+            "domain": "waqool.com",
+            "prevalence": 0.03563681437867989
+        },
+        {
+            "domain": "gsspcln.jp",
+            "prevalence": 0.03315773163929346
+        },
+        {
+            "domain": "ad-stir.com",
+            "prevalence": 0.02665013944840409
+        },
+        {
+            "domain": "microad.net",
+            "prevalence": 0.026030368763557483
+        },
+        {
+            "domain": "adingo.jp",
+            "prevalence": 0.024171056709017664
+        }
+    ],
+    "types": {
+        "Script": 1163,
+        "XHR": 543,
+        "Image": 1013,
+        "Document": 109,
+        "Ping": 166,
+        "Fetch": 189
+    },
+    "nameservers": [
+        "a1-243.akam.net",
+        "a18-65.akam.net",
+        "a11-66.akam.net",
+        "a14-65.akam.net",
+        "a28-65.akam.net",
+        "a5-65.akam.net"
+    ]
+}

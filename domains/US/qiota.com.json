@@ -1,0 +1,424 @@
+{
+    "domain": "qiota.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00015,
+    "sites": 22,
+    "subdomains": [
+        "sso",
+        "static",
+        "www",
+        "data"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "qiota\\.com\\/api\\/v1\\/authorize",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sso"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auto-moto.com",
+                "www.autonews.fr"
+            ]
+        },
+        {
+            "rule": "qiota\\.com\\/api\\/v1\\/authorize",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sso"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0dbb635e919555cda09455270f5185b40f81a184b20f59ed36014eafd95c40b3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auto-moto.com",
+                "www.autonews.fr"
+            ]
+        },
+        {
+            "rule": "qiota\\.com\\/assets\\/getQiota\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 3,
+            "subdomains": [
+                "static",
+                "www"
+            ],
+            "apis": {
+                "window.localStorage": 16,
+                "Navigator.prototype.userAgent": 16,
+                "Navigator.prototype.language": 16,
+                "Screen.prototype.colorDepth": 16,
+                "window.devicePixelRatio": 16,
+                "Navigator.prototype.hardwareConcurrency": 16,
+                "Screen.prototype.height": 16,
+                "Screen.prototype.width": 16,
+                "Screen.prototype.availWidth": 16,
+                "Screen.prototype.availHeight": 16,
+                "Date.prototype.getTimezoneOffset": 16,
+                "window.sessionStorage": 16,
+                "window.indexedDB": 16,
+                "Navigator.prototype.platform": 16,
+                "Navigator.prototype.doNotTrack": 16,
+                "Navigator.prototype.appName": 16,
+                "Navigator.prototype.plugins": 16,
+                "Navigator.prototype.languages": 16,
+                "Navigator.prototype.maxTouchPoints": 16,
+                "Navigator.prototype.productSub": 16,
+                "Document.cookie getter": 16,
+                "Date.prototype.getTime": 11,
+                "Document.cookie setter": 1,
+                "Navigator.prototype.cookieEnabled": 1
+            },
+            "sites": 20,
+            "prevalence": 0.000137,
+            "cnames": [],
+            "responseHashes": [
+                "a55f51156a9a43d0a3b2066fa4f2cb1a76793dd275a0047897e062c07f38650e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "qiota_visits": {
+                    "ttl": 2592007,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "number_view_paywall": {
+                    "ttl": 2592007,
+                    "length": 14,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autoplus.fr",
+                "www.cosmopolitan.fr",
+                "www.ecodibergamo.it",
+                "www.ecranlarge.com",
+                "www.lanouvellerepublique.fr",
+                "www.larvf.com",
+                "www.lavoixdunord.fr",
+                "www.lerevenu.com",
+                "www.lesoir.be",
+                "www.lexpress.fr",
+                "www.lunion.fr",
+                "www.magicmaman.com",
+                "www.nicematin.com",
+                "www.notretemps.com",
+                "www.paris-normandie.fr",
+                "www.prenoms.com",
+                "www.science-et-vie.com",
+                "www.sudinfo.be",
+                "www.valeursactuelles.com",
+                "www.varmatin.com"
+            ]
+        },
+        {
+            "rule": "qiota\\.com\\/onboarding",
+            "cookies": 0.0000478,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [
+                "8c4568033c62c9a41e0f34ac38292f45403f8d6334a23f52853df8ef06b73fc9",
+                "469b89ed36d004ef27d4ab3aa215b0c640f9085078ecd0948cbb21b22a7bf82a",
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+                "882c0486a250b9f0b20a628f9627bfad83099670601164a519568f11b04eb3fa",
+                "5d862a8705e4573946152ad39d4bfa01d45e1f811f7daf612dadb1e85e0dc7e8",
+                "180de948617094784b908156156bfa797b4d2de995567d05527f75a7bb0ca779"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autoplus.fr",
+                "www.cosmopolitan.fr",
+                "www.larvf.com",
+                "www.lerevenu.com",
+                "www.magicmaman.com",
+                "www.prenoms.com",
+                "www.science-et-vie.com"
+            ]
+        },
+        {
+            "rule": "qiota\\.com\\/js\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {
+                "Navigator.prototype.webdriver": 8,
+                "window.localStorage": 8
+            },
+            "sites": 9,
+            "prevalence": 0.0000615,
+            "cnames": [],
+            "responseHashes": [
+                "965387ce9489d0167cf33444ab52d064bb3fab35e94b12082ff5eb00a34c070c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autoplus.fr",
+                "www.cosmopolitan.fr",
+                "www.larvf.com",
+                "www.lerevenu.com",
+                "www.lexpress.fr",
+                "www.magicmaman.com",
+                "www.notretemps.com",
+                "www.science-et-vie.com",
+                "www.valeursactuelles.com"
+            ]
+        },
+        {
+            "rule": "qiota\\.com\\/api\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autoplus.fr",
+                "www.larvf.com",
+                "www.lerevenu.com",
+                "www.lexpress.fr",
+                "www.magicmaman.com",
+                "www.notretemps.com",
+                "www.science-et-vie.com",
+                "www.valeursactuelles.com"
+            ]
+        },
+        {
+            "rule": "qiota\\.com\\/data",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "976f58b1c7fa4a1fb628d03dcacd76b840e7c89064a26123eeda74690291527e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ecodibergamo.it",
+                "www.ecranlarge.com",
+                "www.science-et-vie.com"
+            ]
+        },
+        {
+            "rule": "qiota\\.com\\/data",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ecodibergamo.it",
+                "www.ecranlarge.com",
+                "www.science-et-vie.com"
+            ]
+        },
+        {
+            "rule": "qiota\\.com\\/assets\\/qiotasession\\.gif",
+            "cookies": 0.0000478,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ecodibergamo.it",
+                "www.lunion.fr",
+                "www.nicematin.com",
+                "www.science-et-vie.com",
+                "www.sudinfo.be",
+                "www.valeursactuelles.com",
+                "www.varmatin.com"
+            ]
+        },
+        {
+            "rule": "qiota\\.com\\/data\\/0RtVHSouEp\\/data\\.json",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "valeursactuelles.com",
+                "www.valeursactuelles.com"
+            ]
+        },
+        {
+            "rule": "qiota\\.com\\/data\\/0RtVHSouEp\\/data\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1bd75db637ae64ab3093dc7786dcdc3fd80d5e93128dd4ce10d656b5eeee7bdd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "valeursactuelles.com",
+                "www.valeursactuelles.com"
+            ]
+        },
+        {
+            "rule": "qiota\\.com\\/api\\/v1\\/widget\\/get",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3276fd2446977d912a0317ef22c5cff8db69cdc6d71ed56ad9120bdd1abd5a69"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "valeursactuelles.com",
+                "www.valeursactuelles.com"
+            ]
+        },
+        {
+            "rule": "qiota\\.com\\/api\\/v1\\/widget\\/get",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "valeursactuelles.com",
+                "www.valeursactuelles.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000123,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8227848101265823
+        },
+        {
+            "domain": "privacy-center.org",
+            "prevalence": 0.05063291139240506
+        },
+        {
+            "domain": "nicematin.com",
+            "prevalence": 0.05063291139240506
+        },
+        {
+            "domain": "jquery.com",
+            "prevalence": 0.0379746835443038
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.0379746835443038
+        }
+    ],
+    "types": {
+        "Preflight": 9,
+        "Fetch": 2,
+        "Script": 29,
+        "XHR": 22,
+        "Image": 7
+    },
+    "nameservers": [
+        "ns-3-a.gandi.net",
+        "ns-63-c.gandi.net",
+        "ns-29-b.gandi.net"
+    ]
+}

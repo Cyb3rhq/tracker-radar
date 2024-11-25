@@ -1,0 +1,226 @@
+{
+    "domain": "eu-west-1.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00272,
+    "sites": 27,
+    "subdomains": [
+        "site-tenant-configuration.s3",
+        "cognito-identity",
+        "prod-ses-proxy-ext-lb-9287c7c2cf3220a1.elb"
+    ],
+    "cnames": [
+        {
+            "original": "mediaweb.musicradio.com",
+            "resolved": "prod-ses-proxy-ext-lb-9287c7c2cf3220a1.elb.eu-west-1.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/index\\/production\\/vistaprint\\/en-CA",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "site-tenant-configuration.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7552ab6538e4f3ac3f6a431421dfcb281687530281ee5bb51a820656d3334177"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vistaprint.ca",
+                "www.vistaprint.ca"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/site-configurations\\/VP-CA-EN",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "site-tenant-configuration.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "50d92134a91e86ad26c15eb5079c18f16a1b32037534874a05a3c246875ac3d5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vistaprint.ca",
+                "www.vistaprint.ca"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cognito-identity"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "19ffb9207629aad2fd9e05854f03902d68e13f22c3c767249475a16e86db972b",
+                "d8458051a883ae62ff66c2ab04507c33f3569dd383525ed462da2160973c01b6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coastappliances.ca",
+                "www.datacamp.com",
+                "www.eufy.com",
+                "www.trivago.ca"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cognito-identity"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000503,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coastappliances.ca",
+                "www.datacamp.com",
+                "www.eufy.com",
+                "www.mmfoodmarket.com",
+                "www.trivago.ca"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/player\\/image\\.aspx",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-ses-proxy-ext-lb-9287c7c2cf3220a1.elb"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [
+                {
+                    "original": "mediaweb.musicradio.com",
+                    "resolved": "prod-ses-proxy-ext-lb-9287c7c2cf3220a1.elb.eu-west-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "d78cb1fde747c6abad1aab0bc1518a961c7c949e5c03708e0f6dfbed6797cd48",
+                "c589abeaff64d336bc20ad2b65c9a41493c3d3b57bc3a856fb1e5f64f3b20985"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "capitalfm.com",
+                "www.classicfm.com",
+                "www.smoothradio.com"
+            ]
+        },
+        {
+            "rule": "eu-west-1\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cognito-identity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c2282d835c490b69d9814b163d61fed7d29978ac642805122e6f78ebeb5e4f6d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mmfoodmarket.com",
+                "www.mmfoodmarket.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000101,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7105263157894737
+        },
+        {
+            "domain": "webeyez.com",
+            "prevalence": 0.07894736842105263
+        },
+        {
+            "domain": "d3odp2r1osuwn0.cloudfront.net",
+            "prevalence": 0.05263157894736842
+        },
+        {
+            "domain": "smct.io",
+            "prevalence": 0.05263157894736842
+        },
+        {
+            "domain": "d5zu2f4xvqanl.cloudfront.net",
+            "prevalence": 0.02631578947368421
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.02631578947368421
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.02631578947368421
+        },
+        {
+            "domain": "uqd.io",
+            "prevalence": 0.02631578947368421
+        }
+    ],
+    "types": {
+        "XHR": 8,
+        "Preflight": 5,
+        "Image": 3,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns1.amzndns.co.uk",
+        "ns1.amzndns.com",
+        "ns1.amzndns.net",
+        "ns1.amzndns.org",
+        "ns2.amzndns.co.uk",
+        "ns2.amzndns.com",
+        "ns2.amzndns.net",
+        "ns2.amzndns.org"
+    ]
+}

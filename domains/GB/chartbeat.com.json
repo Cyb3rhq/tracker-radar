@@ -1,0 +1,552 @@
+{
+    "domain": "chartbeat.com",
+    "owner": {
+        "name": "Chartbeat",
+        "displayName": "Chartbeat",
+        "privacyPolicy": "https://chartbeat.com/privacy/",
+        "url": "http://chartbeat.com"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.0222,
+    "sites": 221,
+    "subdomains": [
+        "static",
+        "mab"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "chartbeat\\.com\\/js\\/chartbeat_video\\.js",
+            "cookies": 0.00171,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 17,
+                "Document.cookie setter": 17,
+                "Date.prototype.getTime": 17,
+                "window.localStorage": 17,
+                "Navigator.prototype.userAgent": 17,
+                "Navigator.prototype.platform": 17,
+                "Date.prototype.getTimezoneOffset": 17,
+                "Screen.prototype.width": 17,
+                "Screen.prototype.height": 17,
+                "Screen.prototype.colorDepth": 17,
+                "Navigator.prototype.plugins": 17,
+                "PerformanceTiming.prototype.navigationStart": 16,
+                "window.innerHeight": 17
+            },
+            "sites": 17,
+            "prevalence": 0.00171,
+            "cnames": [],
+            "responseHashes": [
+                "88c21e8752f97350e83ffe0610ab69e7d9aeb87b2507db99cc9ecb8419ee6ddf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_cb": {
+                    "ttl": 34128006,
+                    "length": 17,
+                    "prevalence": 0.001707856138235885,
+                    "uniqueness": 1
+                },
+                "_chartbeat2": {
+                    "ttl": 34128006,
+                    "length": 62,
+                    "prevalence": 0.001707856138235885,
+                    "uniqueness": 1
+                },
+                "_cb_svref": {
+                    "ttl": 1807,
+                    "length": 8,
+                    "prevalence": 0.001707856138235885,
+                    "uniqueness": 0.058823529411764705
+                },
+                "_v__chartbeat3": {
+                    "ttl": 34128008,
+                    "length": 18,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "go.com",
+                "lifehacker.com",
+                "mashable.com",
+                "uk.ign.com",
+                "www.abc.net.au",
+                "www.cbc.ca",
+                "www.eonline.com",
+                "www.ign.com",
+                "www.independent.co.uk",
+                "www.morningstar.com",
+                "www.nytimes.com",
+                "www.refinery29.com",
+                "www.skynews.com.au",
+                "www.smh.com.au",
+                "www.standard.co.uk",
+                "www.telegraph.co.uk",
+                "www.theglobeandmail.com"
+            ]
+        },
+        {
+            "rule": "chartbeat\\.com\\/js\\/chartbeat_mab\\.js",
+            "cookies": 0.0159,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 159,
+                "Document.cookie setter": 158,
+                "Date.prototype.getTime": 160,
+                "window.localStorage": 159
+            },
+            "sites": 163,
+            "prevalence": 0.0164,
+            "cnames": [],
+            "responseHashes": [
+                "28b614cc061632a0d8cb17953fc9342ce119ef471b3ff02c2379881a031a185b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_t_tests": {
+                    "ttl": 3605,
+                    "length": 385,
+                    "prevalence": 0.0008036970062286518,
+                    "uniqueness": 0.875
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thehill.com",
+                "twinfinite.net",
+                "www.cnn.com",
+                "www.dailydot.com",
+                "www.ign.com",
+                "www.independent.co.uk",
+                "www.mirror.co.uk",
+                "www.rottentomatoes.com",
+                "www.snopes.com",
+                "www.telegraph.co.uk",
+                "www.washingtonpost.com",
+                "thestreamable.com",
+                "www.dailypost.co.uk",
+                "www.glasgowlive.co.uk",
+                "www.bournemouthecho.co.uk",
+                "www.ok.co.uk",
+                "www.herefordtimes.com",
+                "www.washingtonexaminer.com",
+                "www.military.com",
+                "www.stokesentinel.co.uk"
+            ]
+        },
+        {
+            "rule": "chartbeat\\.com\\/mab_strategy\\/headline_testing\\/get_strategy\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mab"
+            ],
+            "apis": {},
+            "sites": 161,
+            "prevalence": 0.0162,
+            "cnames": [],
+            "responseHashes": [
+                "4881aa386019fce4fafe7a35d7980e6a01f8cfa3c9963ae671f25efcff37faa9",
+                "1fbfe6c6e458a82f7439310ccc1dfc4c620b8bbbbbe5b76d5c8c50ec514345b2",
+                "cbc6fdd990810923ce3df64be6a3081ec75f4f59c3d890f06b3d49fec6f921c7",
+                "765ee3ed107bce1a3f13d6e09cbb7f8aa10a1718d9449a76b240a48cf3f12015",
+                "c530a1149328b5f3ad480ebb053ca5906ca0537a90e90f0fda575a156098c4ed",
+                "721a3f574b5d161113645b5b92da6bd8fcc6a3bac3be385a80cd90a287efbb55",
+                "b834af7c84d7061177699faac10acd70f2c8c31aed56091a6c033ee81a262f31",
+                "ef679e1f11218f21e62f47008bf6de827283d8d08954666bd1aa65f358fb0b0a",
+                "f87cc7173c0d3afb9ae35acb69cad7f86a0f3b20f4575fc54b6b68f8e6efad6d",
+                "9947ebae6af05004fd680a655c0d786e4169e4d8228f4be602f89b6c6667e1ab",
+                "de1fea439ae3afda6097dde9454045daf3316acb77f1b91272e5ba7741f3e1db",
+                "449150ee3335213159891c83a101a5e60eba700ae9c27dc40e38c351268537a0",
+                "58df5fc7cc9bb4574c8293af20e05382777b4f81f3ee4c6ab827c172daa5e60e",
+                "0e376aa731deda9a76ee03a9ecc4b1059fbb284809c80a7a3d0deafa30b54c9f",
+                "d350d82a519c5fac452e82405846a81ec7a521c645567be99070ca8d613ac1ce",
+                "6b12ae53642c12645492bcd858f8008659afbd76e186692ec55662a49f711c37",
+                "e0be3dbde39e5ae02ea129b27e8d83248bc0cc8b91b29b556d54ae7728645acc",
+                "fcaa5ba6ec1259e75294dec13321d0a2ff50af1f49374c67220d8dbf58335438",
+                "9c82801cb3abd6a27f8370b5aeeb3545101f3d4d8fb3fbc55fec7268f102c475",
+                "e11834bda30f2e077e2473d53440b02b0e92f74a14bb7b58e6fbbc95f1da784a",
+                "c6da62a3f1db64a2ed18c3cc29bdb152d4c212770f076a34e72f253b4c21782f",
+                "dc7d6c1d5db99fc7ba038edaf1edef3e97b768b7fe132421b405f042edc40c7d",
+                "ae191663a39ac0dc09298c4f455d23f253d283bd4514d3ef4fe0bfbc2b05b930",
+                "93440f3312ab208ba83cf5fe378d2df08d91007a0a0cb94e390b641a4c985e9a",
+                "da9b28ba4e49845c5c152c8967a3bba58becbb07f1b276138f16f3e939eec069",
+                "d35270b1d4d0a8d800290a2391d31892a17794a62c88cd063d586e02c61b50a3",
+                "4a1042cbea081df37623877146ce874b46d6ecf1961be9ae172e1f6a1f0b6859",
+                "cac2486e55f183fa16991d7ff65990f0d0c1401140cc1b28079a579df127d324",
+                "eab115871ad1065af6395ef56d8a905e8d8f6f5e9813279ddc6c9dbef2c7fcf7",
+                "286554e39ac2f9c28eda39651d2b4e53864a9f67d9686134417033aa25c51b59",
+                "6fd3e23cfcddbc1e4e99dfc90d8865f67c95c5b1f74e8a4b98a96d8286c04854",
+                "c3c0637ea1739aa594aab770592de027275e7770f613b85639b0b909ab8ce18b",
+                "0f7b186dbed35c21cc52da5bdd12dc9580b2f47e2b50dbaea662ccbe59861793",
+                "21e7691df765e3896989e27272d56b630a9e1343c8fca3d7e7806b66dd434818",
+                "87b3b2d0d4a5535cb8dbc46280839bce6587f1f191e6c3cf5b2033fb1341749d",
+                "187138d76fea24b0ce311510df87240bf6b0f4ded536c6084efbda9a6cd4cd44",
+                "efc819725bb12fc2e919c703788f609b3249cf27c3a65a039e7f7e3a4ceaa17f",
+                "561e1a1721374837f79206c7e95b2adc423a8bbc31937437264e9b705ea634e1",
+                "8ea94589befcae9a5303b96f867130048f3804ccf783f175db5567f0a139e91a",
+                "d88ce81589d22dc5741cd168436d16ac9f53fff8d6153202215ed253c9fa278e",
+                "ce776ee1e8e44dfb7d9fa345f608c4fc64c45b3aa13c0102109e76edcc46fe8f",
+                "2fea32cb3f0acab1cbdb09c5b920f531b6b654b48a9ddf4bdc07af69601e5949",
+                "2bcb77b7508ed742ad04b5d2382fed85ad7caa5130303ba89ade6af5aa5891a0",
+                "21ba04201957cffcbef01453526322deca29939f0544a3fa5cd7d7767ed0e28c",
+                "b898a0f0dba74219989900685c1d30dbd1f3964baa2b1c99829824ec996750b1",
+                "e442ec23d11ba8bacf2fed1cdd1ed7d07e1aed864e9284adce4e49d76aedb4d6",
+                "1d25a4d3b03c7113a18e3a7bd2ccf43766cf77368c382d3d2234f8beda01b030",
+                "922856d8e13a5d4645c7fe58f8f0faf662c06c7b7826867edd53472bfbbc6f98",
+                "bc8d2e313beb471c1e89e407fb2e8e6e07b3a4567c57d7f74244206a0ee5624e",
+                "7cd078c784209c4e9153f6266f180c76b1877e9a757f483d08b783d50212a245",
+                "0ebce9a6700428930cbc92bf32f4f7d14b065c80b3c835b54ec243079a0773c7",
+                "62e93744ca200edf45f543e01e14135f294b0c99535b9b4d315e9ee81ee4cf3d",
+                "954a1e2f9b73d6e216c50cf42f36ca6345e3396a57e1f38dd4e42c363839cb0b",
+                "00431273d81e1be384b0406585fe50e9d8e5bcdc32d7d3cf5f8f3e850be7b82d",
+                "253792af53d35e85604d6bc92ab7b464477c8860227eaf18dc6821f8932d2c97",
+                "612f1877cce2bd3f5e8a789883ae0b80b91d30576bd0dd2b1ae6b87630954b7c",
+                "fc8b72e135153cf9eb3701ae94611196ee43be724f6e3c887e2aa4a86d8fbef6",
+                "cbd6d2793068117d5e72482595a20aa65432fd3cc7da1360c7e048547b93bebd",
+                "c43a057247fa6ff32ca8b235f35b2ecad6037f54eeed0ad5587937dd0fbe56b7",
+                "22a078ac6d797e74bc4b448c9c080c88500566640bccd03c3987978b4dc38f55",
+                "9150ad06ae3d60167ad1251f278848cdfc1ecee5c84a036268471777fb320b8c",
+                "b800ff3e6bc60aac4fb550ee94ab7bbaf15dbaef7fa3474168aad33dff968766",
+                "b745cf2c5f5a5ece193b5a6b935306dcf742afac106d84818ff3ef6529121049",
+                "334bfa6f0f3176ec56171d95c7a6aedbc947e891efc7e9619dca77a4dc6c7535",
+                "489446bd6033bdce5242f678a32239150bc971659e7f4727697c635fc89b3c5b",
+                "b9f71513a0fff30c2df0915feb8eeb32e6f4155f1ffa9141597288b80ae8e40f",
+                "c9d430664dad8a5af5101423ccb50823051d5dd07ae5bb5fdecad01e1a6e20f3",
+                "ddee7afb7039bd87b5d34d21c55c749315b5a6f4eb968a55335b4d985fb15ebe",
+                "3ebcf3ff348e8402d98cab22bbee3665bcdad244c0be9d82b55e404adda2b35e",
+                "2d366a94550887df5e690a9eb7f45fce76734a37e64a1cf5b239a9192f4565f7",
+                "1c9865e8b1c1f0ac009c58f7a389d45fc430a8888fcadf809a11e6587d78c903",
+                "c5e1c4f57cf7095fdd17207778b06b0aa9dd0c1a058f6edabbdddf27a3225fa3",
+                "0f1077b68342eecfdfe1f1bf8301a9f17b13da32861ee3bc44b9c8996161651f",
+                "2f228cfdde8fd69e51e2c9ef0a10c87f9605a42ed8aad971aaed4de779f443e7",
+                "ae73987bb798e3ab093a857dc3acf005ef174f5467e9526e123511d89a7d7a99",
+                "9eca991ec951eac6aba088191f0d3f3fb6742eb58ee9cf19160878653d348237",
+                "be0f28dea21f942da33267019070b694b945f8e9d548b1933aeef3256bcd5a38",
+                "3f6dc6337903240e5f1fcdd6bcff30b057c72f466cb733dbb67331fe5058a100",
+                "dc1c560f148122d9e97530ce1e4ab9147f7133dcc72a0e5b81a342694bea14b4",
+                "1eb9782c4ca29c2493d34329e113ae4207a04624f71abe1ab9b1afaede61ad5b",
+                "f5de2254134ef2aca55b7d0766e9eb12a9e2fc6472f699c710a84d6baedac972",
+                "d93c93e0198aec913b44ffd1b9e43b8b85be92cc9cd65a7c0f5c6fcfa9b00a23",
+                "faac586ed24442852e8ebfb50db1c39b1563e33d7e1efb346f198dd9b5f85f50",
+                "c398211b76e3179b57feb51d552e248fa744af98ae30c8cc5bd0f23746124ef4",
+                "83981b35d33636f053c484d2584003d8252c467c410a71f682193b10d7913fab",
+                "c5a754a3610b087696d53f37cff4b857f75e349b4d73346f95ebd6cf3128d21e",
+                "0e13ed418721117ec2e467154e31acc87e2ffc0c57fd61ad437e1d3806ab1f10",
+                "26de29caaef33a2e08cc66f6bd87d3848c4de6aede902ee3451eaa4aeaa610ab",
+                "450332270b77dba28967f367927e7b1b8bf7aecff2f2767f408683a46f05c466",
+                "0f15c5b6fab6515061903b2f1c8088041bc4cb563f352f548aab5fe756061cfe",
+                "3a59a1fb930af4c6260fed7532cf1681b5ee7fc5fe2203b6f404123b22bffaab",
+                "3c2ed9a07f12c962b36b1e7ad609b9bf1378378c09e700595da8b14fe7002c2a",
+                "f06ea8d51008bab472ac670ca525f1b8c36739fe52da208f686a4d9b823166b4",
+                "adbc442c1292db52f6da1ef42298b9be0bc0559ac18f62789a552ce041014dcc",
+                "1d9e303a55cdf55754058d921bfc5d2f14fbb789eb5eafec680025d81f571cdc",
+                "471cabd7fec44a453579eeb7085a16a62f70a5459d5cb8a8da52330df614cf35",
+                "6753f95159ef6e6fd6530f1aecb3361511540791c7f88d7b7a7ead8b5db6c09c",
+                "dedc73e1627ecd982fcfb0eb3e8612d8a491c4ae81639a587eca09bc79905743",
+                "34b8f82bb15c38c73a2696aa7140590e4453b1e26366bc1761ecbea1ad988d5e",
+                "e3086e1c8d615d7804a47c2ba289346ea3b5ee0e816927262553a750674aa9e9",
+                "c1554817a2fbaf3d57829dac0e60303fc0dd25098fdedb9f37e712565db483c2",
+                "d0a0d1e227a940202affc928f48a362cad42fec19d8e9eefe40f5879b7243ead",
+                "d347471193f9687e0576c984a4784a71bef88c2ba04ee522cf0003cbf520010a",
+                "1c9258f327b7043ab25d8aff7ef0fef815268aaa853f70c0ece28a351d4b5e0b",
+                "affcd05008c0b4d6b11a559b81598bde6012e0a8f2698618c7633c0da9ce8816",
+                "4d4312581f07e9bb21de8574607ce9dbcc155b686c81458ca365c9b008b7a243",
+                "752d55fe63385accad758439a7f9bb89ff003f9c7e0b31dc7a01ba020a2cedd2",
+                "9618d2b8166fa31c16e3fe35b3deb941070a508236f9d94cfa7671af8f8b486a",
+                "0158ae98d239355cd073352e7df6f2db85db9a02c049eb9fb726d72d7d697232",
+                "95fc7bf190d454951e9e612e6b183f90fffe97d8ac16675b3a6b08e197aca593",
+                "5650ba95b2bcfbdce4f2f03ac6fb031fd2b6935d4d6ba2d97c7d8ba2c31315d2",
+                "b5fd23072aa3318059590e9abf25b88f04d36f2954a0b9fb3e47d7288f98f411",
+                "8efed969567ad9d9adbf233115cb1135ffaebaa513aaa1ba8db9263b547db588",
+                "b7a860b7f3040e507ce63afd091c22989c79405479fc0f8b9bd1da63a12594e6",
+                "79c8c1429fd0fb5c40d2cb437834e02d2545efe20ac9267fae84e70c0a7d29cb",
+                "795fcb06393b04a85982ee84aafc4f18a9ac711f32b7c01d38eb42c34459c512",
+                "c65df6cb76db60082d7b3dea2c23234a5cdfd6337eade63042fe3941266d96fa",
+                "a9ccb232db97fdc475bce44a4594f1ebb0ef5e4c8f6bc0d30924bc73c48199a4",
+                "2ad68da58ad587a364efed42dd67c8a125aeaf603dc8d754f96b6285895bbc6a",
+                "8db3d93cde8ec969136c63d6e447c0cb93df1aa3af1c3521a74328136626aff6",
+                "f3796ee99aa2393f256d3fdc7ce29234328dcec597199795fc6319ecf621e3c0",
+                "80c80531e0b2487d09277e6dba4aceea2cedcb093b5c7b29a4f6dad47b54871e",
+                "136292d9707e9bfda20dcf6e4137c0d1df1e32024d657a3815d0d748e4288b8b",
+                "e5bd8b9f58c9d3d279499b1bc1b7d9edf754c88118a17b787f8cde6359ecc797",
+                "07a65e7d0dd91a1022e12e38ac7e88b1441069734211d90bf14e904caff17f89",
+                "c3e45898287b3c1c55314dfe94dff3362c5277dbd19f6f911f92b3d7b45c45c9",
+                "52c97dde0729083e7fb423b535caca4c8ebd38845ce63fa44701ebea53a821d9",
+                "c422ab19480aa590a7ac0e8d7a036af1791e43606e4c546c0215f63809a30749",
+                "f8cac566fc452eee1e3c3bc8f5b03ce77ab48e4759ba581409c85e747a9a5518",
+                "67555f187bceea404407c4aaab3fdb9e8f993affefcb7b75ec3b7dabe3c862b9",
+                "3b92dabc3b5b3f7c7a7bff62374c530c2080bd0e764bb4d5dee6f1a0e1815895",
+                "b113a89dab10a3e61ea15740629f39851707d394f2a276f42e5333525960841a",
+                "a8efdad794a19df5c0fc68198e1614bc4d43105a90bca50974778610a4569842",
+                "56eca329614fe771625023d7dd72d7784460490dc860596736d7cabf51d1a177",
+                "48333c6671075c109c8afc7602b55abdec44dda12ace82a1cff91b28590d2cb3",
+                "0b9fdd76414162d1e96f219215a482d6bf12c900eb33ecadf6720f2df66f31b7",
+                "5a874c8c96cd784003bfaa42904267893b4d76aee709d183d7f5354a7f6be0ce",
+                "fa8d0366ecba536ed9d6b79c966d9dba3756451be4327712868fd749c8718d08",
+                "e2131c6962bd2dc71a9b43bea0e4adda73970041df448f1f16666fc45bc34a4a",
+                "ac4c139473d4c1444098f7be8e14053accee7d3a6b39fa0b04c23661160245e0",
+                "46130a0328fc229ddb1ae9bd09c985f68c16fb28e46ba6b5c2825f9c22b6df94",
+                "a2957ac5e1c62724099b1342fb187deaa4d53e3d08ef86c38ea209fb416bd028",
+                "19b61e8da689e33452fe2557ca7512fbccfb1a739f22a6cedfe8d39f4e007fe3",
+                "23ad9333f8fa7208be9f619014def08e62d6725b325e4e848f6aae6de39236c5",
+                "ccf785fb89ec35916a6ea42683581a55d69ce35a43cfa27adc24e57d502c50ee",
+                "58c738e97ae936540b57a4279df2b597b34f794d985e61e436e4b52c606e3775",
+                "ae023ae2e22ea42dac938989c1a5361a6ccd7fe9d03bc92b85863780d1942405",
+                "f3644d78b2a294c2f332e2e83cb42d5f3b92eb4e244d4b0bb9f6388bba47dbb4",
+                "ed7237802431c13581a832494d70a91015eb00bba295eedc69c317b8c80ef7b1",
+                "3da6722464fcc01fc319874b49da09520cb2884409e25794fef74cebb91290a9",
+                "d25fdfd6b9c8cbbcc0a57b399b163a61787fb8c4ae34433b5f6774e97fcd942b",
+                "d66c74c81430e3231151b35913952c4bc48e6003f25cb55c4d7376c982643893",
+                "ba6aad9ef323891020d787593e40fb5a9b45f8d68eec183764b52db4a15bf827",
+                "3b04e07407e0a82b50794e3f190ca8071aa58ab0d9858c1867970c64bfccfbe0",
+                "7802281ab841d7f958845f984f84e6f544038b30ebbe1c0c1375450c5e8b0254",
+                "f1c0ac017500db83ac7048a04645f77dbf695c9b792a7a6bbafe6658e702537e",
+                "63624276a1c043755326a81ac98c96632c5939443b989deec4351870b2943a1e",
+                "0a8648c8e59c69aa96bc007360e13e4e35e19a29150baf72722a8e4ee93fdae2",
+                "688d37357516364b46c1235a507d7fe4b958560a03c98dd68807ed16d9f2b794"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "twinfinite.net",
+                "www.cbc.ca",
+                "www.cnn.com",
+                "www.dailydot.com",
+                "www.ign.com",
+                "www.independent.co.uk",
+                "www.mirror.co.uk",
+                "www.rottentomatoes.com",
+                "www.snopes.com",
+                "www.telegraph.co.uk",
+                "www.basingstokegazette.co.uk",
+                "www.bucksfreepress.co.uk",
+                "www.yorkpress.co.uk",
+                "www.politico.eu",
+                "www.queerty.com",
+                "www.leeds-live.co.uk",
+                "www.essexlive.news",
+                "www.theboltonnews.co.uk",
+                "www.military.com",
+                "www.plymouthherald.co.uk"
+            ]
+        },
+        {
+            "rule": "chartbeat\\.com\\/js\\/chartbeat\\.js",
+            "cookies": 0.0193,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 193,
+                "Document.cookie setter": 192,
+                "Date.prototype.getTime": 196,
+                "window.localStorage": 195,
+                "Navigator.prototype.userAgent": 196,
+                "Navigator.prototype.platform": 196,
+                "Date.prototype.getTimezoneOffset": 196,
+                "Screen.prototype.width": 196,
+                "Screen.prototype.height": 196,
+                "Screen.prototype.colorDepth": 196,
+                "Navigator.prototype.plugins": 194,
+                "PerformanceTiming.prototype.navigationStart": 196,
+                "window.innerHeight": 196
+            },
+            "sites": 196,
+            "prevalence": 0.0197,
+            "cnames": [],
+            "responseHashes": [
+                "3a1f53a72a4ff3c23812f7a06cc3ef3ea1f188046f2c75d9c0b19e1cb2b652a9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_cb": {
+                    "ttl": 34128003,
+                    "length": 17,
+                    "prevalence": 0.0189873417721519,
+                    "uniqueness": 1
+                },
+                "_chartbeat2": {
+                    "ttl": 34128003,
+                    "length": 62,
+                    "prevalence": 0.0189873417721519,
+                    "uniqueness": 1
+                },
+                "_cb_svref": {
+                    "ttl": 1803,
+                    "length": 8,
+                    "prevalence": 0.0189873417721519,
+                    "uniqueness": 0.005291005291005291
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hollywoodlife.com",
+                "knowyourmeme.com",
+                "smallbusiness.chron.com",
+                "twinfinite.net",
+                "www.bbc.co.uk",
+                "www.bbc.com",
+                "www.cnet.com",
+                "www.dailydot.com",
+                "www.mirror.co.uk",
+                "www.snopes.com",
+                "www.localopeningtimes.co.uk",
+                "www.dorsetecho.co.uk",
+                "www.cambrian-news.co.uk",
+                "www.military.com",
+                "cointelegraph.com",
+                "www.newsshopper.co.uk",
+                "www.dexerto.com",
+                "www.derbytelegraph.co.uk",
+                "www.salisburyjournal.co.uk",
+                "www.biblestudytools.com"
+            ]
+        },
+        {
+            "rule": "chartbeat\\.com\\/js\\/subscriptions\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 105,
+            "prevalence": 0.0105,
+            "cnames": [],
+            "responseHashes": [
+                "a1c9a21ede44774a26110c312c2c5398e074132f6e243011c15b4bfd660702ab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mirror.co.uk",
+                "www.mirror.co.uk",
+                "www.manchestereveningnews.co.uk",
+                "www.heraldscotland.com",
+                "www.belfastlive.co.uk",
+                "www.northwichguardian.co.uk",
+                "www.echo-news.co.uk",
+                "www.liverpoolecho.co.uk",
+                "www.kentlive.news",
+                "www.bournemouthecho.co.uk",
+                "www.coventrytelegraph.net",
+                "www.greatbritishlife.co.uk",
+                "www.westerntelegraph.co.uk",
+                "www.essexlive.news",
+                "www.bridgwatermercury.co.uk",
+                "www.dailypost.co.uk",
+                "www.oxfordmail.co.uk",
+                "www.wirralglobe.co.uk",
+                "www.lancs.live",
+                "www.thetelegraphandargus.co.uk"
+            ]
+        },
+        {
+            "rule": "chartbeat\\.com\\/js\\/chartbeat_mab_image\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "28b614cc061632a0d8cb17953fc9342ce119ef471b3ff02c2379881a031a185b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbc.ca",
+                "www.haaretz.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Audience Measurement"
+    ],
+    "performance": {},
+    "cookies": 0.0214,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7441860465116279
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.1375968992248062
+        },
+        {
+            "domain": "webcontentassessor.com",
+            "prevalence": 0.08139534883720931
+        },
+        {
+            "domain": "ignimgs.com",
+            "prevalence": 0.011627906976744186
+        },
+        {
+            "domain": "bbci.co.uk",
+            "prevalence": 0.005813953488372093
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.005813953488372093
+        },
+        {
+            "domain": "tosshub.com",
+            "prevalence": 0.003875968992248062
+        },
+        {
+            "domain": "discourse-cdn.com",
+            "prevalence": 0.001937984496124031
+        },
+        {
+            "domain": "geoedge.be",
+            "prevalence": 0.001937984496124031
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.001937984496124031
+        }
+    ],
+    "types": {
+        "Script": 483,
+        "XHR": 161
+    },
+    "nameservers": [
+        "ns-262.awsdns-32.com",
+        "ns-1456.awsdns-54.org",
+        "ns-1558.awsdns-02.co.uk",
+        "ns-744.awsdns-29.net"
+    ]
+}

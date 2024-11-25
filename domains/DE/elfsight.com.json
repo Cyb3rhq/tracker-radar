@@ -1,0 +1,304 @@
+{
+    "domain": "elfsight.com",
+    "owner": {
+        "name": "Vladimir Fedotov",
+        "displayName": "Vladimir Fedotov"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000804,
+    "sites": 8,
+    "subdomains": [
+        "core.service",
+        "static",
+        "service-reviews-ultimate",
+        "shy",
+        "apps",
+        "storage"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "elfsight\\.com\\/p\\/boot\\/",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "core.service"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "ac0b65d21a115a62fbd47dd64a840fdb724a9ba22e1ef266b51a31e010223a39",
+                "7dec67f38c43b69c11362715b7a08a3412f78a9979180cff06f7c28c9c415d95",
+                "c8cee87dc2aff4cc5a7267eb63fc7d34d1d2bb00545da77876084436ceb43cad"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beauty-report.de",
+                "dransay.com",
+                "www.steico.com",
+                "www.waffenfuzzi.de"
+            ]
+        },
+        {
+            "rule": "elfsight\\.com\\/apps\\/instashow\\/stable\\/c0ef9b5eb19a76be43bcbf9e64cd538b87ad796d\\/app\\/instashow\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.language": 2,
+                "window.localStorage": 1,
+                "window.indexedDB": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "Date.prototype.getTime": 1,
+                "window.devicePixelRatio": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f9b03a8c96e7d9572226b27d18adb990f13af2c8300a27753e427bf413bdb60b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beauty-report.de",
+                "www.steico.com"
+            ]
+        },
+        {
+            "rule": "elfsight\\.com\\/platform\\/platform\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "cec24a06e2e9c6dbe79ac537c1c0906c2896eb331ebe94fc3077075d78dc5a6f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dransay.com",
+                "www.knipex.de",
+                "www.marcelpaa.com",
+                "www.steico.com",
+                "www.uniklinik-ulm.de",
+                "www.waffenfuzzi.de"
+            ]
+        },
+        {
+            "rule": "elfsight\\.com\\/apps\\/google-reviews\\/stable\\/fc81da1c9036edd7c041ce00d54ba6085497bc00\\/app\\/googleReviews\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "window.indexedDB": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Event.prototype.timeStamp": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a076e1ef3bbba6b9623627acffdcdb7b3be3e3c7f0007f909053e6b68b2e9477"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dransay.com",
+                "www.waffenfuzzi.de"
+            ]
+        },
+        {
+            "rule": "elfsight\\.com\\/data\\/sources",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "service-reviews-ultimate"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dransay.com",
+                "www.waffenfuzzi.de"
+            ]
+        },
+        {
+            "rule": "elfsight\\.com\\/data\\/reviews",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "service-reviews-ultimate"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dransay.com",
+                "www.waffenfuzzi.de"
+            ]
+        },
+        {
+            "rule": "elfsight\\.com\\/data\\/sources",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "service-reviews-ultimate"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b8d3369a5cc2579e4a2e2cfd72efb6d329dca04f20d9e5712aeb52d590e652e5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dransay.com",
+                "www.waffenfuzzi.de"
+            ]
+        },
+        {
+            "rule": "elfsight\\.com\\/data\\/reviews",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "service-reviews-ultimate"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7b54ecab5cf5868875afd807ecd79d643e791ce0301f4979efc3b73c99d98c57"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dransay.com",
+                "www.waffenfuzzi.de"
+            ]
+        },
+        {
+            "rule": "elfsight\\.com\\/p\\/platform\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "shy",
+                "apps"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rausch.de",
+                "www.steico.com"
+            ]
+        },
+        {
+            "rule": "elfsight\\.com\\/api\\/youtube",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storage"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "eb07ad82153a0b1d9e10513ae96b8c218419e0e1c553ce90b4f3c06f96609d72"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "waffenfuzzi.de",
+                "www.waffenfuzzi.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5789473684210527
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.15789473684210525
+        },
+        {
+            "domain": "jquery.com",
+            "prevalence": 0.15789473684210525
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.10526315789473684
+        }
+    ],
+    "types": {
+        "XHR": 4,
+        "Script": 14,
+        "Preflight": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "dilbert.ns.cloudflare.com",
+        "rihana.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "domain": "rijksapps.nl",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "rwsdso-prod.gslb"
+    ],
+    "cnames": [
+        {
+            "original": "sso.omgevingswet.overheid.nl",
+            "resolved": "rwsdso-prod.gslb.rijksapps.nl"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "rijksapps\\.nl\\/oauth2\\/token\\/\\.well-known\\/openid-configuration",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rwsdso-prod.gslb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "sso.omgevingswet.overheid.nl",
+                    "resolved": "rwsdso-prod.gslb.rijksapps.nl"
+                }
+            ],
+            "responseHashes": [
+                "bba9cde6f5a289c988f1d48089b6f03fc8dfcd7031b15196b8bca4eaa234bfbf"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "overheid.nl",
+                "omgevingswet.overheid.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "types": {
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns1.transip.nl",
+        "ns0.transip.net",
+        "ns2.transip.eu"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "domain": "searchnode.io",
+    "owner": {
+        "name": "UAB SearchNode",
+        "displayName": "SearchNode"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [
+        "inte"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "searchnode\\.io\\/pigu\\/searchnode\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "inte"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.platform": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "710f40bee3440d51f9b21e2f3fd2aeb9a8e96c19d5f3f80df81954af4c32aaeb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hobbyhall.fi",
+                "kaup24.ee"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-620.awsdns-13.net",
+        "ns-1770.awsdns-29.co.uk",
+        "ns-110.awsdns-13.com",
+        "ns-1119.awsdns-11.org"
+    ]
+}

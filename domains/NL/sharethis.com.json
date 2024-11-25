@@ -1,0 +1,1430 @@
+{
+    "domain": "sharethis.com",
+    "owner": {
+        "name": "ShareThis, Inc",
+        "displayName": "ShareThis",
+        "privacyPolicy": "https://www.sharethis.com/privacy/",
+        "url": "http://sharethis.com"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.00602,
+    "sites": 60,
+    "subdomains": [
+        "platform-api",
+        "l",
+        "count-server",
+        "platform-cdn",
+        "w",
+        "ws",
+        "s",
+        "ss",
+        "buttons-config",
+        "datasphere-sbsvc",
+        "gdpr-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sharethis\\.com\\/js\\/sharethis\\.js",
+            "cookies": 0.00502,
+            "fingerprinting": 2,
+            "subdomains": [
+                "platform-api"
+            ],
+            "apis": {
+                "Document.cookie setter": 50,
+                "Document.cookie getter": 50,
+                "window.localStorage": 50,
+                "Navigator.prototype.userAgent": 50,
+                "Document.prototype.interestCohort": 48,
+                "Date.prototype.getTime": 50,
+                "NavigatorUAData.prototype.brands": 48,
+                "NavigatorUAData.prototype.platform": 48,
+                "NavigatorUAData.prototype.getHighEntropyValues": 48,
+                "window.innerWidth": 16
+            },
+            "sites": 52,
+            "prevalence": 0.00522,
+            "cnames": [],
+            "responseHashes": [
+                "98d32b00fca86fc6994df33302e051a6ad03461a43ff5797d5b10ace4cf4772f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.amoyshare.com",
+                "www.indexmundi.com",
+                "seriesonlinehd.net",
+                "www.transport-online.nl",
+                "aniwatch.cool",
+                "www.faillissementsdossier.nl",
+                "wordly.org",
+                "soap2day.gs",
+                "nhentai.to",
+                "www.imf.org",
+                "libgen.mx",
+                "www.uitzending.net",
+                "fastercapital.com",
+                "academic.oup.com",
+                "www.brainwash-kappers.nl",
+                "www.270towin.com",
+                "medevel.com",
+                "www.src-reizen.nl",
+                "infinite-craft.gg",
+                "www.wyniasweek.nl"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/pview",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "l"
+            ],
+            "apis": {},
+            "sites": 57,
+            "prevalence": 0.00572,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancensored.com",
+                "vidstream.to",
+                "www.src-reizen.nl",
+                "academic.oup.com",
+                "www.newsmax.com",
+                "aniwatch.cool",
+                "www.fanfox.net",
+                "www.merkenmode.nl",
+                "thaipornhd.com",
+                "greenpan.nl",
+                "1337xto.to",
+                "ww.putlocker.vip",
+                "www.wyniasweek.nl",
+                "whichav.video",
+                "wordleplay.com",
+                "infinite-craft.gg",
+                "wordly.org",
+                "www.imf.org",
+                "seriesonlinehd.net",
+                "www.solar-bouwmarkt.nl"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/v2\\.0\\/get_counts",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "count-server"
+            ],
+            "apis": {},
+            "sites": 25,
+            "prevalence": 0.00251,
+            "cnames": [],
+            "responseHashes": [
+                "7e3fd638857699f575e2a9b7b4cfd04227ba38e025705f6c3b17e5f1e8721057",
+                "747fccb5814fdd4f8ca2b2a7386310d3cdfce693ff8f3a7fee1260fd8e9cd6cf",
+                "73585bd02c1e2173c225669bb2f52c3ea7f3a869ed6597606a9df3d466790b84",
+                "d70233624108377121bfd3f683e188b72d4e41a24d0ebb1b25c3460e2299eafe",
+                "944ceab1af81be0e49a8895986a57ebedd41c68ce410020eb9a80585dc37896c",
+                "9a9845ba1b440a8e6cff53bc8daa20f0295353d5632314548b5c2d2ffc6b5388",
+                "05dae64017f96a3978260c698eb2cfc1f1d6bc77341ee5b297e8aaa11b149eb5",
+                "823c8bd608b47d10be12c6af4874760e13159cb13cd57c76f7d333cb8bae483e",
+                "f28eee220759a5a610687860c410db5f45fbf7b1e450dd78a467a7194fb0d7b5",
+                "798a4bd7230a05ec832a67dcd1b9a6c503dc8ebab1fbd20d37d817bbcea1c2cd",
+                "2fa14367002602940a4f9100f6af13441ea80b1d783edab37ac53a5de4bed22a",
+                "d3a91b9ff8d32be0f1fe567bb5009f8c66520c60269b0a3f5aece8ffd2ab6ac2",
+                "0bc5391bba892b406f7ad1e73862a64999ba34a46cdbf5fd1ce9c044618ac2e2",
+                "3e7caa84928e9427fc34a796141754e4c41afe72a991e76d72d83b8f39a558ce",
+                "5d58f26f1597a24db1f19ede2bc42b060004a1d1a5c2a88935f2b274f4af6f86",
+                "41a12827526c73ff7fd519289bb2e4e884d9b9ac70727d71c63fd3e072f7b3e3",
+                "71fbbdca97efd8ca7c7db8a0c1e3ba4a56e119781d3f429cf9ab876bc7458008",
+                "8cf5b3b5ca3a28657378776048c043109793d175cfb3076c929dc96707b06e8b",
+                "d53edbb9e4e776e7bafdf97cf99ac052227954f93c33a2c828667eaef211286d",
+                "6e068fcabf53a646e4fb1081f275636a62b4b17ea3ecd7eae72f3ee1eb3d1740",
+                "a2d26f9464cb5824e32aa90f2d2705484e94d5ea21ea60a4d285f86c50cf8a59",
+                "73219c0596e0d7a2952be936f80f0cd99637aad9791b0021e0f7f71cd207c005",
+                "9560aecc592ce48ed5d7055b3c1b0035f8097bca2e2a1a80dddb501744a42a1a",
+                "e251ce463ecfeaece80c65d70bcf0f979aa8f306729df565a14ba643618d06d5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "infinite-craft.gg",
+                "libgenesis.net",
+                "vidstream.to",
+                "fastercapital.com",
+                "infinitecraft.net",
+                "veelark.com",
+                "nhentai.to",
+                "whichav.video",
+                "gostream.to",
+                "www.majorgeeks.com",
+                "www.amoyshare.com",
+                "aniwatch.cool",
+                "rtgallery.net",
+                "wordleplay.com",
+                "1337xto.to",
+                "www.retrogames.cz",
+                "ytbdownload.com",
+                "www.transport-online.nl",
+                "www.merkenmode.nl",
+                "www.fanfox.net"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/facebook\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 29,
+            "prevalence": 0.00291,
+            "cnames": [],
+            "responseHashes": [
+                "768d97ec0916217ae82c70aeda3a61b9b0dab344edc4a3240a4f7cd94af00307"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gostream.to",
+                "ww.putlocker.vip",
+                "nhentai.to",
+                "1337xto.to",
+                "rtgallery.net",
+                "veelark.com",
+                "brickset.com",
+                "vidstream.to",
+                "wordly.org",
+                "babesource.com",
+                "infinite-craft.gg",
+                "medevel.com",
+                "thaipornhd.com",
+                "www.majorgeeks.com",
+                "www9.gogoanime.me",
+                "ytbdownload.com",
+                "fastercapital.com",
+                "www.amoyshare.com",
+                "whichav.video",
+                "aniwatch.cool"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/twitter\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 29,
+            "prevalence": 0.00291,
+            "cnames": [],
+            "responseHashes": [
+                "76ffdc5337cd5a509f15d70767b85a793aead82975d0d86912e1607e963c9aed"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ytbdownload.com",
+                "whichav.video",
+                "www.majorgeeks.com",
+                "vidstream.to",
+                "nhentai.to",
+                "www.270towin.com",
+                "brickset.com",
+                "www.transport-online.nl",
+                "www.merkenmode.nl",
+                "infinite-craft.gg",
+                "www.retrogames.cz",
+                "infinitecraft.net",
+                "wordly.org",
+                "libgen.mx",
+                "aniwatch.cool",
+                "1337xto.to",
+                "thaipornhd.com",
+                "www.amoyshare.com",
+                "wordleplay.com",
+                "libgenesis.net"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/whatsapp\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.00191,
+            "cnames": [],
+            "responseHashes": [
+                "847eb36b4dc4b05f94052dcd98077319e74d882334a106bb9ca451ba211c9c2c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1337xto.to",
+                "brickset.com",
+                "fastercapital.com",
+                "gostream.to",
+                "infinite-craft.gg",
+                "infinitecraft.net",
+                "medevel.com",
+                "rtgallery.net",
+                "thaipornhd.com",
+                "veelark.com",
+                "vidstream.to",
+                "whichav.video",
+                "wordleplay.com",
+                "wordly.org",
+                "www.amoyshare.com",
+                "www.merkenmode.nl",
+                "www.retrogames.cz",
+                "www.transport-online.nl",
+                "ytbdownload.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/pinterest\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "efc737b4f58cfe73a9bd0e57d7570365701381da31e628b269e7217a0ce3359d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1337xto.to",
+                "babesource.com",
+                "infinite-craft.gg",
+                "libgen.mx",
+                "libgenesis.net",
+                "rtgallery.net",
+                "wordleplay.com",
+                "wordly.org",
+                "www.270towin.com",
+                "www.merkenmode.nl",
+                "www.transport-online.nl"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/email\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0012,
+            "cnames": [],
+            "responseHashes": [
+                "5f5012132c752db2433e17712d91ef8689f1bc95167b2720e23224c2ae62e009"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1337xto.to",
+                "babesource.com",
+                "fastercapital.com",
+                "infinite-craft.gg",
+                "libgen.mx",
+                "medevel.com",
+                "rtgallery.net",
+                "whichav.video",
+                "wordleplay.com",
+                "wordly.org",
+                "www.retrogames.cz",
+                "www9.gogoanime.me"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/sharethis\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00171,
+            "cnames": [],
+            "responseHashes": [
+                "9a83c65bdd0ff9488af9d25720686457ea7295c9c44f9f1d285a0c9ec89bab99"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1337xto.to",
+                "aniwatch.cool",
+                "babesource.com",
+                "fastercapital.com",
+                "hianime.to",
+                "infinitecraft.net",
+                "medevel.com",
+                "nhentai.to",
+                "rtgallery.net",
+                "thaipornhd.com",
+                "veelark.com",
+                "ww.putlocker.vip",
+                "www.amoyshare.com",
+                "www.majorgeeks.com",
+                "www.retrogames.cz",
+                "www9.gogoanime.me",
+                "ytbdownload.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/arrow_left\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.00161,
+            "cnames": [],
+            "responseHashes": [
+                "5c833b1818762f1e134fbb158447fb0b92f2b018b15aa36f2e2405213f830d38"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1337xto.to",
+                "fastercapital.com",
+                "infinite-craft.gg",
+                "infinitecraft.net",
+                "medevel.com",
+                "rtgallery.net",
+                "thaipornhd.com",
+                "veelark.com",
+                "whichav.video",
+                "www.amoyshare.com",
+                "www.majorgeeks.com",
+                "www.merkenmode.nl",
+                "www.retrogames.cz",
+                "www.transport-online.nl",
+                "www9.gogoanime.me",
+                "ytbdownload.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/arrow_right\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.00161,
+            "cnames": [],
+            "responseHashes": [
+                "1bae747c7fd090f56608956a97c870391e1c43f89d24d5766129b75628985c1e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1337xto.to",
+                "fastercapital.com",
+                "infinite-craft.gg",
+                "infinitecraft.net",
+                "medevel.com",
+                "rtgallery.net",
+                "thaipornhd.com",
+                "veelark.com",
+                "whichav.video",
+                "www.amoyshare.com",
+                "www.majorgeeks.com",
+                "www.merkenmode.nl",
+                "www.retrogames.cz",
+                "www.transport-online.nl",
+                "www9.gogoanime.me",
+                "ytbdownload.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/button\\/buttons\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "w",
+                "ws"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 7,
+                "Date.prototype.getTime": 7,
+                "Document.cookie getter": 7,
+                "NavigatorUAData.prototype.brands": 4,
+                "NavigatorUAData.prototype.platform": 4,
+                "NavigatorUAData.prototype.getHighEntropyValues": 4
+            },
+            "sites": 7,
+            "prevalence": 0.000702,
+            "cnames": [],
+            "responseHashes": [
+                "c06ec88641687c7f653a3e6b3a601130400dc1698afe67c531d693406cd99440"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancensored.com",
+                "www.brickshop.nl",
+                "www.duco.eu",
+                "www.fanfox.net",
+                "www.hoejetypt.nl",
+                "www.scam-detector.com",
+                "www.understandingwar.org"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/loader\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s",
+                "ss"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.appName": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "65b86fc12f3832f3046d33dca119811267d118182b6e504d3862d8556e3cc71b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__unam": {
+                    "ttl": 23507046,
+                    "length": 30,
+                    "prevalence": 0.00020070245860511792,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancensored.com",
+                "www.scam-detector.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/button\\/async-buttons\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {
+                "window.name": 7,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 7,
+            "prevalence": 0.000702,
+            "cnames": [],
+            "responseHashes": [
+                "c92c3814d5c8ef8bd016d9cb4dec18ff0dfca4a3f2b4968207888383095e0197"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancensored.com",
+                "www.brickshop.nl",
+                "www.duco.eu",
+                "www.fanfox.net",
+                "www.hoejetypt.nl",
+                "www.scam-detector.com",
+                "www.understandingwar.org"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/button\\/css\\/buttons-secure\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000702,
+            "cnames": [],
+            "responseHashes": [
+                "95dc1b83a7c030dd13ab3e29df921f10e04208b28734f172ea232854264c3b05"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancensored.com",
+                "www.brickshop.nl",
+                "www.duco.eu",
+                "www.fanfox.net",
+                "www.hoejetypt.nl",
+                "www.scam-detector.com",
+                "www.understandingwar.org"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/pview",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "l"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000702,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancensored.com",
+                "www.brickshop.nl",
+                "www.duco.eu",
+                "www.fanfox.net",
+                "www.hoejetypt.nl",
+                "www.scam-detector.com",
+                "www.understandingwar.org"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/secure5x\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "61fb5ada883b89031df45d3c5d34d106b47ef3610964a4150e8b4c3ad364c35b"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancensored.com",
+                "www.hoejetypt.nl",
+                "www.scam-detector.com",
+                "www.understandingwar.org"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/secure5x\\/js\\/stcommon\\.1f60705adac788a51a8240cf535237b0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "2d200d90966b8380a648972d71130785371751cf24bb7398f2854be23afb4a65"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancensored.com",
+                "www.hoejetypt.nl",
+                "www.scam-detector.com",
+                "www.understandingwar.org"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/secure5x\\/js\\/st\\.d46c567ef2d922f9ad89eca462444ab6\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie getter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "5d4a01feb41d13176ee653921d64c3f479fc698fe9e5f18e217296b756835900"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancensored.com",
+                "www.hoejetypt.nl",
+                "www.scam-detector.com",
+                "www.understandingwar.org"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/images\\/2017\\/facebook_32\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "c2c42136f43a28599c5b6b810653b070787865c7f899c564e9e24926576fee71"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancensored.com",
+                "www.brickshop.nl",
+                "www.hoejetypt.nl"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/images\\/2017\\/twitter_32\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "70eccff462770396939013e653c1087f32b6e9bf2baa91dc2e0d3a051be70168"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancensored.com",
+                "www.brickshop.nl",
+                "www.hoejetypt.nl"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/images\\/2017\\/googleplus_32\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2229cfde42969c50a86112023d8a66e0c7caf00fb4252ffae45ead5e15fcdf7c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancensored.com",
+                "www.brickshop.nl"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/images\\/2017\\/pinterest_32\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "db448e9856e01265779cc5032ee53323eef76ddc12a2b180b290200bb09c8d61"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancensored.com",
+                "www.brickshop.nl"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/images\\/2017\\/email_32\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e26d8557ab64ce50c2e88c804463c25c3cfc8aa15ee6d70af951dba8990dd704"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancensored.com",
+                "www.hoejetypt.nl"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/images\\/2017\\/sharethis_32\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5427720c3716b7570521dcca4fa5c5cf9479b63fd99783a7aa1b43359f80783d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancensored.com",
+                "www.brickshop.nl"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/js\\/64a3d891df473b0019d1b0da\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buttons-config"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "a3d04c97f2b874ccf3b735b3a2929447e2097fce58d1e59cbe8d67383bddb763"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aniwatch.cool",
+                "hianime.to",
+                "nhentai.to"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/telegram\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "03e42b95e9049816d901eabbe2a2247deda61a85972e3a50e3c8274e6c5fe39b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aniwatch.cool",
+                "fastercapital.com",
+                "gostream.to",
+                "hianime.to",
+                "nhentai.to",
+                "vidstream.to",
+                "whichav.video",
+                "wordleplay.com",
+                "ww.putlocker.vip",
+                "www9.gogoanime.me"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/reddit\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.00181,
+            "cnames": [],
+            "responseHashes": [
+                "dadbb59b37bfea4c78c6e15c8cbb96dfba84526e43a0767dc244fd062a841aba"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aniwatch.cool",
+                "babesource.com",
+                "brickset.com",
+                "gostream.to",
+                "hianime.to",
+                "infinite-craft.gg",
+                "infinitecraft.net",
+                "medevel.com",
+                "nhentai.to",
+                "thaipornhd.com",
+                "veelark.com",
+                "vidstream.to",
+                "wordleplay.com",
+                "ww.putlocker.vip",
+                "www.amoyshare.com",
+                "www.majorgeeks.com",
+                "www9.gogoanime.me",
+                "ytbdownload.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/ppg\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d1690bddf6e84d768801f264b82cf81ace128702efcc7dd01d44791a8b497360"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brickset.com",
+                "www.waveshare.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/messenger\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000903,
+            "cnames": [],
+            "responseHashes": [
+                "2986551fd9e82929eabb8cba7c44f74a28d8496c744893432f067b320dff55da"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brickset.com",
+                "gostream.to",
+                "infinite-craft.gg",
+                "veelark.com",
+                "vidstream.to",
+                "wordleplay.com",
+                "www.270towin.com",
+                "www9.gogoanime.me",
+                "ytbdownload.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/linkedin\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "cb8c2b19fd9b56c41db14bd71b5c0616c1ba4e99b08c8e75084cf695f74b7120"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fastercapital.com",
+                "infinite-craft.gg",
+                "libgen.mx",
+                "libgenesis.net",
+                "medevel.com",
+                "rtgallery.net",
+                "wordleplay.com",
+                "www.transport-online.nl"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/js\\/6433be364f61b7001240a339\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buttons-config"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "ee08c012fb5f8de8293cd6fe2b407ed26699fa985a169622cb7e93d2f89f7605"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flixtor.win",
+                "gostream.to",
+                "seriesonlinehd.net",
+                "soap2day.gs",
+                "vidstream.to"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/js\\/63e36047b0cc4a001220e688\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buttons-config"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bbc49721e0f4f23bcc089f77223c1de9b76ccdbe24d6b955aa7299ccc511976c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libgen.mx",
+                "libgenesis.net"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datasphere-sbsvc"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "2e04d6ab65f60baa9ad87162415659c62aea856af571d711a06771a83f690c79",
+                "5e9f59e1444ca0c16f813abbada9239645af506530de7ee88a262d635f55dd7f",
+                "2c3c02254fc36a1e34283d6e776a684c0c4deb8f55a56a6dfdf8d36be1af5898",
+                "ccbc38fd84eaa7a9a09ba1bf90d60c4f903b719d55b0e28f2f978acf29eae2d8",
+                "23aaf201f57eaf7f965aea34d0d2a55c2d6ff5dc9d6a329b215f4ee04faae761"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libgen.mx",
+                "libgenesis.net",
+                "wordly.org",
+                "www.270towin.com",
+                "www.merkenmode.nl",
+                "www.transport-online.nl"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/print\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "30e817756a474c7f893057d069f7ed56e1fd4617d70fcf40ac5d58fae5890ede"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libgen.mx",
+                "libgenesis.net",
+                "wordly.org",
+                "www.270towin.com",
+                "www.merkenmode.nl",
+                "www.transport-online.nl"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/line\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "f274414cc53c1d106e07254c41d6c097df20199bc761e6c5c210a768e389958e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libgenesis.net",
+                "whichav.video",
+                "www.merkenmode.nl"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/wechat\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7cae1f4deec515c9bffe53b0fcdc372eb107abae2ec0ad24aca85b460c7ef195"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thaipornhd.com",
+                "whichav.video"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/sms\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3cb6024ae2cbbe02889d75c14ad2450d3e55209359d8800a847fcff83cddc3ce"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wordleplay.com",
+                "www.retrogames.cz"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/secure\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "a8be6d04466f8a2b2117e386c68248fa254b675420c346a10ffaf47ee1c4e533"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brickshop.nl",
+                "www.duco.eu",
+                "www.fanfox.net"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/secure\\/js\\/st\\.3b9f3f69dc50facea4e7ccac2c236448\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "3d0d76fdc0b6003bf282c7c3ad68d43c77488139d1b3f05c24dea95fc5729c1d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brickshop.nl",
+                "www.duco.eu",
+                "www.fanfox.net"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/secure\\/js\\/local\\/nl\\/message\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "0f8d619dc6c8251a14bff27a658012f68c2b426e2f583f81281c6d6610a81676"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brickshop.nl",
+                "www.duco.eu",
+                "www.fanfox.net"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/cmp-v2\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gdpr-api"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.appName": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "55065824cade0323f98d18691514bb1f8c8c1d606d7639f9b0e014d79cde6d60"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "st_samesite_v2": {
+                    "ttl": 0,
+                    "length": 1,
+                    "prevalence": 0.00020070245860511792,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "retrogames.cz",
+                "www.waveshare.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/portal-v2\\.html",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gdpr-api"
+            ],
+            "apis": {
+                "Document.cookie setter": 1,
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8bc62c9ef81390af989b3829ace60aae916e299dab9df7ec5e49db2d07a956b6"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {
+                "st_samesite": {
+                    "ttl": 0,
+                    "length": 1,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "retrogames.cz",
+                "www.waveshare.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/v3\\/vendor-list\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdpr-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "827c3f6cb653b89d728ab8ace0f5bb65a11a34d8baaa3e4ae5937a6c169eddb1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "retrogames.cz",
+                "www.waveshare.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/v2\\/cmp-list\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdpr-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2af9e78fb1bb8b37333103874848a0f3f986f8e827d157ee990f8cdae6ba36c7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "retrogames.cz",
+                "www.waveshare.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/static\\/media\\/gear\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdpr-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2cc8dba0631458973e434785f45b04984a870529cff43b7e091ea24ad16eb968"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "retrogames.cz",
+                "www.waveshare.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Third-Party Analytics Marketing",
+        "Social - Share",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.00522,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.963855421686747
+        },
+        {
+            "domain": "yandex.ru",
+            "prevalence": 0.012048192771084338
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.012048192771084338
+        },
+        {
+            "domain": "vidoomy.com",
+            "prevalence": 0.012048192771084338
+        }
+    ],
+    "types": {
+        "Script": 121,
+        "XHR": 65,
+        "Image": 230,
+        "Stylesheet": 7,
+        "Document": 9,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-378.awsdns-47.com",
+        "ns-1529.awsdns-63.org",
+        "ns-1617.awsdns-10.co.uk",
+        "ns-773.awsdns-32.net"
+    ]
+}

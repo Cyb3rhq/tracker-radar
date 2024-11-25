@@ -1,0 +1,103 @@
+{
+    "domain": "hankookilbo.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "hmap-asis",
+        "hktracker"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "hankookilbo\\.com\\/service\\/kt\\/trk\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "hmap-asis"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1d18bc9270d5669d46217df149af28c1284a504b68424a711c3b6bf78b3e44ca"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "hk_ltuid": {
+                    "ttl": 31536006,
+                    "length": 30,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "hkvstcd": {
+                    "ttl": null,
+                    "length": 44,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "koreatimes.co.kr",
+                "www.koreatimes.co.kr"
+            ]
+        },
+        {
+            "rule": "hankookilbo\\.com\\/analtag\\/ESLogGet",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hktracker"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.00004099200655872105,
+                "hk_ltuid": 0.00001366400218624035,
+                "hkvstcd": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "koreatimes.co.kr",
+                "www.koreatimes.co.kr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns1-05.azure-dns.com",
+        "ns2-05.azure-dns.net",
+        "ns3-05.azure-dns.org",
+        "ns4-05.azure-dns.info"
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "domain": "mapquest.com",
+    "owner": {
+        "name": "System1, LLC",
+        "displayName": "System1"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000101,
+    "sites": 1,
+    "subdomains": [
+        "graphql.aws"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "mapquest\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "graphql.aws"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5f496d4623abd7bc70d1b68625fe9bed22c7146bc1950e3e0277ec5bfb70b553"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapquest.ca",
+                "www.mapquest.ca"
+            ]
+        },
+        {
+            "rule": "mapquest\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "graphql.aws"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapquest.ca",
+                "www.mapquest.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-428.awsdns-53.com",
+        "ns-1920.awsdns-48.co.uk",
+        "ns-886.awsdns-46.net",
+        "ns-1159.awsdns-16.org"
+    ]
+}

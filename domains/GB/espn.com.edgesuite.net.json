@@ -1,0 +1,141 @@
+{
+    "domain": "espn.com.edgesuite.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "cdn",
+        "site.api"
+    ],
+    "cnames": [
+        {
+            "original": "cdn.espn.com",
+            "resolved": "cdn.espn.com.edgesuite.net"
+        },
+        {
+            "original": "site.api.espn.com",
+            "resolved": "site.api.espn.com.edgesuite.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "espn\\.com\\.edgesuite\\.net\\/onetrust\\/otCCPAiab\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "cdn.espn.com",
+                    "resolved": "cdn.espn.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "7c86228c67a0de9e8ac17b653af0594bc5ef257109946e842db6dbca73fc1f40"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "usprivacy": {
+                    "ttl": 31536007,
+                    "length": 4,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moviesanywhere.com",
+                "projects.fivethirtyeight.com"
+            ]
+        },
+        {
+            "rule": "espn\\.com\\.edgesuite\\.net\\/apis\\/site\\/v2\\/scoreboard\\/activeSports",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "site.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "site.api.espn.com",
+                    "resolved": "site.api.espn.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "bc4493678a0a3a6aac192757816d605e8fb6aff11a1ff6aeefb0f928528fa5ec"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espn.com",
+                "www.espn.co.uk"
+            ]
+        },
+        {
+            "rule": "espn\\.com\\.edgesuite\\.net\\/apis\\/personalized\\/v2\\/scoreboard\\/header",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "site.api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "site.api.espn.com",
+                    "resolved": "site.api.espn.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "e745f9694f96ef513f3d2fa4921bcbcc99eef7e73fe006f990b87eda1d5f6005",
+                "159440a7a886c3ee9611cb884636b1e1aad3ba91f6e9ff079e10490c685d4c35"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espn.com",
+                "www.espn.co.uk",
+                "www.espn.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "espncdn.com",
+            "prevalence": 0.8571428571428571
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 5
+    },
+    "nameservers": []
+}

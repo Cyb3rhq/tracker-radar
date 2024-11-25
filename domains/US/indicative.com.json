@@ -1,0 +1,193 @@
+{
+    "domain": "indicative.com",
+    "owner": {
+        "name": "Indicative Inc.",
+        "displayName": "Indicative"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000956,
+    "sites": 14,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "indicative\\.com\\/js\\/1\\.0\\.2\\/Indicative\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6eeaf04366af07dac150b507a434a06b4b6ee4bdc51c9140d8f282489943fe85"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "Indicative_1ec5055b-8154-4e91-a0bd-020cd9c2e17a": {
+                    "ttl": 31536001,
+                    "length": 114,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "Indicative_3c3c8ed4-2b7a-4454-85e4-298e12170b7a": {
+                    "ttl": 31536003,
+                    "length": 114,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "creately.com",
+                "crosscountrymortgage.com"
+            ]
+        },
+        {
+            "rule": "indicative\\.com\\/service\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000752,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "creately.com",
+                "crosscountrymortgage.com",
+                "en.aptoide.com",
+                "www.chart-house.com",
+                "www.clydes.com",
+                "www.delfriscos.com",
+                "www.ebbitt.com",
+                "www.grandconcourserestaurant.com",
+                "www.mccormickandschmicks.com",
+                "www.mortons.com",
+                "www.saltgrass.com"
+            ]
+        },
+        {
+            "rule": "indicative\\.com\\/service\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000752,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "creately.com",
+                "crosscountrymortgage.com",
+                "en.aptoide.com",
+                "www.chart-house.com",
+                "www.clydes.com",
+                "www.delfriscos.com",
+                "www.ebbitt.com",
+                "www.grandconcourserestaurant.com",
+                "www.mccormickandschmicks.com",
+                "www.mortons.com",
+                "www.saltgrass.com"
+            ]
+        },
+        {
+            "rule": "indicative\\.com\\/js\\/Indicative\\.min\\.js",
+            "cookies": 0.0000615,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 9,
+                "Date.prototype.getTime": 9,
+                "Document.cookie setter": 9,
+                "Navigator.prototype.userAgent": 9,
+                "Navigator.prototype.language": 9
+            },
+            "sites": 9,
+            "prevalence": 0.0000615,
+            "cnames": [],
+            "responseHashes": [
+                "8285c1725e231c98aa0a4f0cb4621ab1bca38f07b9eeee8801c5aebc2aa1659f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "Indicative_305bdd41-271f-4618-a1ea-0793da9e04ef": {
+                    "ttl": 31536003,
+                    "length": 278,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "Indicative_62e150f7-1993-460b-90ab-1bb1bd494ad7": {
+                    "ttl": 31536006,
+                    "length": 74,
+                    "prevalence": 0.0000546560087449614,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aptoide.com",
+                "www.chart-house.com",
+                "www.clydes.com",
+                "www.delfriscos.com",
+                "www.ebbitt.com",
+                "www.grandconcourserestaurant.com",
+                "www.mccormickandschmicks.com",
+                "www.mortons.com",
+                "www.saltgrass.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000956,
+    "topInitiators": [
+        {
+            "domain": "getbento.com",
+            "prevalence": 0.5555555555555556
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4444444444444444
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "Preflight": 11,
+        "XHR": 11
+    },
+    "nameservers": [
+        "ns-781.awsdns-33.net",
+        "ns-183.awsdns-22.com",
+        "ns-1496.awsdns-59.org",
+        "ns-1594.awsdns-07.co.uk"
+    ]
+}

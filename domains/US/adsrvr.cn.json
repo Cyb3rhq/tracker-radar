@@ -1,0 +1,142 @@
+{
+    "domain": "adsrvr.cn",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "js",
+        "insight",
+        "match"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "adsrvr\\.cn\\/up_loader\\.1\\.1\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.plugins": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.pixelDepth": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "fd338a175e4e81e2f44e03cd956e03b7a7619301ab1178b19e1311eacc414463"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gia.edu",
+                "4cs.gia.edu",
+                "www.discoverhongkong.com"
+            ]
+        },
+        {
+            "rule": "adsrvr\\.cn\\/track\\/up",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "insight"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gia.edu",
+                "www.discoverhongkong.com"
+            ]
+        },
+        {
+            "rule": "adsrvr\\.cn\\/track\\/upb\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a217f69351069da2ad38a5743662c2713469c2ad262217031d2ea890158fe434"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gia.edu",
+                "www.discoverhongkong.com"
+            ]
+        },
+        {
+            "rule": "adsrvr\\.cn\\/track\\/pxl\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "insight"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopjura.com",
+                "www.capresso.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000273,
+    "topInitiators": [
+        {
+            "domain": "linksynergy.com",
+            "prevalence": 0.5454545454545454
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.18181818181818182
+        },
+        {
+            "domain": "adsrvr.org",
+            "prevalence": 0.18181818181818182
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.09090909090909091
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Document": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "dns3.g01.ns1global.org",
+        "dns2.g01.ns1global.org",
+        "dns1.g01.ns1global.org",
+        "dns4.g01.ns1global.org"
+    ]
+}

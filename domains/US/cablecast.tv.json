@@ -1,0 +1,316 @@
+{
+    "domain": "cablecast.tv",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "reflect-aurora",
+        "cms-tv",
+        "reflect-guilfordco-schools",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "cablecast\\.tv\\/CablecastAPI\\/Content\\/video-js\\/video-js\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "reflect-aurora",
+                "cms-tv",
+                "reflect-guilfordco-schools"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "eea40e26e0692bafcbd7eb889e5947b049c1a7111b2de484bfd50afbcbda1e03"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auroragov.org",
+                "www.cmsk12.org",
+                "www.gcsnc.com"
+            ]
+        },
+        {
+            "rule": "cablecast\\.tv\\/CablecastAPI\\/bundles\\/jquery",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "reflect-aurora",
+                "cms-tv",
+                "reflect-guilfordco-schools"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "204a4fdbcbd4aaac99e205095350c66823f30bd12277c07552a4f1ab8d191853"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auroragov.org",
+                "www.cmsk12.org",
+                "www.gcsnc.com"
+            ]
+        },
+        {
+            "rule": "cablecast\\.tv\\/bundles\\/reflect",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "c5e9643dcd20708a1bdf88f7dcc6e3ab2cc83ea3029f0293b8ad6678a62c4e03"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auroragov.org",
+                "www.cmsk12.org",
+                "www.gcsnc.com"
+            ]
+        },
+        {
+            "rule": "cablecast\\.tv\\/api\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "3e937f066fdaa7f3ce093fd3e3f72f54893c3dadc0bfd434faba62ba8b9ec8b1",
+                "a2f473fc245f3ac8b620fbfe173b7418d13b5b33c45dfdb84813295c2bd1a5b8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auroragov.org",
+                "www.cmsk12.org",
+                "www.gcsnc.com"
+            ]
+        },
+        {
+            "rule": "cablecast\\.tv\\/api\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auroragov.org",
+                "www.cmsk12.org",
+                "www.gcsnc.com"
+            ]
+        },
+        {
+            "rule": "cablecast\\.tv\\/cablecastapi\\/live",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cms-tv",
+                "reflect-guilfordco-schools"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7c57e1f15e7f9cfc1b8e14930a57196990ff8359b63c573582162e2bd1158ce8"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cmsk12.org",
+                "www.gcsnc.com"
+            ]
+        },
+        {
+            "rule": "cablecast\\.tv\\/CablecastAPI\\/Content\\/live-player\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cms-tv",
+                "reflect-guilfordco-schools"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f7372992d9e739f013f5bbe9ae32c83fa73e0f0413ecd1edb83064b32e340c63"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cmsk12.org",
+                "www.gcsnc.com"
+            ]
+        },
+        {
+            "rule": "cablecast\\.tv\\/CablecastAPI\\/Content\\/video-js\\/video\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cms-tv",
+                "reflect-guilfordco-schools"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.languages": 2,
+                "HTMLMediaElement.prototype.canPlayType": 2,
+                "MediaSource.isTypeSupported": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4130e1d43d9f40454fcc5b5ea4619fe3ca0e948ee29a3fae928b1cae9dbfea28"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cmsk12.org",
+                "www.gcsnc.com"
+            ]
+        },
+        {
+            "rule": "cablecast\\.tv\\/CablecastAPI\\/bundles\\/live",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cms-tv",
+                "reflect-guilfordco-schools"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9f47bb81bc5c218c46b78ac31ba0cdfa8cfab1451e91fc1e1e4f3e485e0d61de"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cmsk12.org",
+                "www.gcsnc.com"
+            ]
+        },
+        {
+            "rule": "cablecast\\.tv\\/cablecastapi\\/v1\\/channels\\/1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cms-tv",
+                "reflect-guilfordco-schools"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d6c731bcefa736ca76ea57ba848d51e3b52168aac160e465ff2808b90855642c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cmsk12.org",
+                "www.gcsnc.com"
+            ]
+        },
+        {
+            "rule": "cablecast\\.tv\\/cablecastapi\\/v1\\/livestreams\\/1\\/status",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cms-tv",
+                "reflect-guilfordco-schools"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "5e36a9ff4303112543db366d6351ae0ba793d0b1fcc0e99dbfc3774adbf3cc63"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cmsk12.org",
+                "www.cmsk12.org",
+                "www.gcsnc.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9375
+        },
+        {
+            "domain": "civiclive.com",
+            "prevalence": 0.0625
+        }
+    ],
+    "types": {
+        "Stylesheet": 5,
+        "Script": 10,
+        "XHR": 8,
+        "Preflight": 3,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns-26.awsdns-03.com",
+        "ns-873.awsdns-45.net",
+        "ns-1940.awsdns-50.co.uk",
+        "ns-1158.awsdns-16.org"
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "domain": "in2ip.nl",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "vod-vip.streaming"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "in2ip\\.nl\\/dorcel-vj\\/video-js\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vod-vip.streaming"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dorcelvision.com",
+                "www.dorcelvision.com"
+            ]
+        },
+        {
+            "rule": "in2ip\\.nl\\/dorcel-vj\\/video\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "vod-vip.streaming"
+            ],
+            "apis": {
+                "Navigator.prototype.maxTouchPoints": 1,
+                "NavigatorUAData.prototype.platform": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.languages": 1,
+                "HTMLMediaElement.prototype.canPlayType": 1,
+                "MediaSource.isTypeSupported": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dorcelvision.com",
+                "www.dorcelvision.com"
+            ]
+        },
+        {
+            "rule": "in2ip\\.nl\\/dorcel-vj\\/dorcel3-rest\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vod-vip.streaming"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dorcelvision.com",
+                "www.dorcelvision.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 4
+    },
+    "nameservers": [
+        "auth-ns02.nl.in2ip.eu",
+        "auth-ns01.nl.in2ip.nl",
+        "auth-ns03.nl.in2ip.net"
+    ]
+}

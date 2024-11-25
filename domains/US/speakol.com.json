@@ -1,0 +1,178 @@
+{
+    "domain": "speakol.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "cdn",
+        "recommendation"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "speakol\\.com\\/widget\\/js\\/speakol-widget-v2\\.js",
+            "cookies": 0.0000273,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.platform": 4,
+                "Navigator.prototype.maxTouchPoints": 3,
+                "window.innerHeight": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "a6026f4ca50b9a0713b4eb43e31e71c10374ea7306aefa5f811097203f18e9a8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__SPK_UID": {
+                    "ttl": 7776007,
+                    "length": 36,
+                    "prevalence": 0.0000273280043724807,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "al-ain.com",
+                "arabic.cnn.com",
+                "www.almasryalyoum.com",
+                "www.arageek.com"
+            ]
+        },
+        {
+            "rule": "speakol\\.com\\/api\\/v2\\.1\\/recommendation\\/config",
+            "cookies": 0.0000273,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recommendation"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "531e7ad481a8ed2165b3d2fa6ea35dff203709fc84a4b1ab8041c89a9e77f789",
+                "8329589ce911698aaf568db3277fd62d525e087194593e6d246fd9503e9e4ba5",
+                "3a9740f468988e99f47a7d938d5d461bc656511035c505566fef83428808e6ab"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "al-ain.com",
+                "arabic.cnn.com",
+                "www.almasryalyoum.com",
+                "www.arageek.com"
+            ]
+        },
+        {
+            "rule": "speakol\\.com\\/api\\/v2\\.1\\/recommendation",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recommendation"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "86eeb50440520a81e81fcd9f574b7df6b81f46a8703a801f3f75f4ad673deae7",
+                "89af9b0147a77d1eacff05352d0da9f965f071c1599cc32193078e3b1dd89868"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__SPK_UID": 0.000020496003279360526,
+                "lotame_domain_check": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "al-ain.com",
+                "arabic.cnn.com",
+                "www.almasryalyoum.com"
+            ]
+        },
+        {
+            "rule": "speakol\\.com\\/widget\\/html\\/speakol-appends\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "8db1785c7abb21f5abcc34d06d9023ef62110b12088cc950c47821bcbde851ab"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnn.com",
+                "arabic.cnn.com",
+                "www.almasryalyoum.com"
+            ]
+        },
+        {
+            "rule": "speakol\\.com\\/widget\\/images\\/rec-speakol\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "00d98dca3e8fa5752a0895d9181aac2d9579a3d14d65db58b33ec2ffec1d5558"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnn.com",
+                "www.almasryalyoum.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000273,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5833333333333334
+        },
+        {
+            "domain": "script.ac",
+            "prevalence": 0.4166666666666667
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 7,
+        "Document": 3,
+        "Image": 2
+    },
+    "nameservers": [
+        "bayan.ns.cloudflare.com",
+        "delilah.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,172 @@
+{
+    "domain": "gbads.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00131,
+    "sites": 13,
+    "subdomains": [
+        "weather-api.prod",
+        "grapeshot-goldbach.prod",
+        "video"
+    ],
+    "cnames": [
+        {
+            "original": "gs-goldbach.da-services.ch",
+            "resolved": "grapeshot-goldbach.prod.gbads.net"
+        },
+        {
+            "original": "weather.da-services.ch",
+            "resolved": "weather-api.prod.gbads.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "gbads\\.net\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "weather-api.prod"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.00111,
+            "cnames": [
+                {
+                    "original": "weather.da-services.ch",
+                    "resolved": "weather-api.prod.gbads.net"
+                }
+            ],
+            "responseHashes": [
+                "b5bc211bfe287f428098a94dc8aa520a774a543062358617b972a20310e67847"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "20min.ch",
+                "wp.fuw.ch",
+                "www.20min.ch",
+                "www.24heures.ch",
+                "www.bernerzeitung.ch",
+                "www.derbund.ch",
+                "www.fuw.ch",
+                "www.lematin.ch",
+                "www.tagesanzeiger.ch",
+                "www.tdg.ch",
+                "www.zsz.ch"
+            ]
+        },
+        {
+            "rule": "gbads\\.net\\/grapeshot\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "grapeshot-goldbach.prod"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.00111,
+            "cnames": [
+                {
+                    "original": "gs-goldbach.da-services.ch",
+                    "resolved": "grapeshot-goldbach.prod.gbads.net"
+                }
+            ],
+            "responseHashes": [
+                "2d8e09bc99e2b0d9cfea12031837ae90eb4767c63fae8f6e5f831d984779b8f0",
+                "17315e7ad6459831b071d8a4fd0bd40c698e64c7ca17aa9be47328923315e413",
+                "d39891e050da2d655e46627318228d88531ba0ce0cc81c2900b9018ff54b0dd5",
+                "9eed5fe70f9f430a6c003decd7fda961951d86cf0c2df17a9d4651dcf192c63f",
+                "779591aabcdc1ede330aae74ec333d4e8128899b6bb1caa2b92f5d7ecef7277a",
+                "db47db5cbf4fb4ef5ee3c338ffd94dc53f4f61ae58caa7e71e64c5ec37c1faa9",
+                "97583a3101c17802fd97ee24d01c62089eee19f1d5248449a1bf53ca2ad9f913",
+                "7c6422521fe1449d92666385c6cfa227f604613cca412199618e693bcfbdc437",
+                "cd19b1ba17e147e756a673a1eec8941c467f9f993c91f83edb3c4a8e869550b6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "20min.ch",
+                "wp.fuw.ch",
+                "www.20min.ch",
+                "www.24heures.ch",
+                "www.bernerzeitung.ch",
+                "www.derbund.ch",
+                "www.fuw.ch",
+                "www.lematin.ch",
+                "www.tagesanzeiger.ch",
+                "www.tdg.ch",
+                "www.zsz.ch"
+            ]
+        },
+        {
+            "rule": "gbads\\.net\\/storepal",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "video"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "4-4-2.com",
+                "www.polizei-schweiz.ch"
+            ]
+        },
+        {
+            "rule": "gbads\\.net\\/storepal",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "video"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "4-4-2.com",
+                "www.polizei-schweiz.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "gbucket.ch",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "XHR": 24,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-1548.awsdns-01.co.uk",
+        "ns-1184.awsdns-20.org",
+        "ns-741.awsdns-28.net",
+        "ns-178.awsdns-22.com"
+    ]
+}

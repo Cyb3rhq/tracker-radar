@@ -1,0 +1,123 @@
+{
+    "domain": "bance.jp",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "js.ssp",
+        "bid.ssp",
+        "tr.ssp"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bance\\.jp\\/bnctag\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js.ssp"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.name": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "13dd774da17d3be7df4caa3e8891f6acf0dcf06c92a49e2fd1a8dbe7146c5aab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__bnc_pfpuid__": {
+                    "ttl": 604800,
+                    "length": 15,
+                    "prevalence": 0.00020122748767481639,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iwara.tv",
+                "www.iwara.tv"
+            ]
+        },
+        {
+            "rule": "bance\\.jp\\/ssp-bid\\/bid\\/bnc-bid",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bid.ssp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fe5708ac0552bb4e2b3017708bc9aa5107db404a503f4e5f9192d8019e0ebba6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iwara.tv",
+                "www.iwara.tv"
+            ]
+        },
+        {
+            "rule": "bance\\.jp\\/ssp-track\\/sync",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tr.ssp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iwara.tv",
+                "www.iwara.tv"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "jp1media.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "tyamahori.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "01.dnsv.jp",
+        "03.dnsv.jp",
+        "02.dnsv.jp",
+        "04.dnsv.jp"
+    ]
+}

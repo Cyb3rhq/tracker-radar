@@ -1,0 +1,133 @@
+{
+    "domain": "salesloft.com",
+    "owner": {
+        "name": "SalesLoft",
+        "displayName": "SalesLoft"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "scout-cdn",
+        "scout"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "salesloft\\.com\\/sl\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scout-cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "4a007af67f716c30c8848ab0ad0bfaab8a5fcf3e36dedf918b59c9429d522440"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "slireg": {
+                    "ttl": 604807,
+                    "length": 31,
+                    "prevalence": 0.00030129557095510696,
+                    "uniqueness": 1
+                },
+                "sliguid": {
+                    "ttl": 31536007,
+                    "length": 36,
+                    "prevalence": 0.00030129557095510696,
+                    "uniqueness": 1
+                },
+                "slirequested": {
+                    "ttl": 31536007,
+                    "length": 4,
+                    "prevalence": 0.00030129557095510696,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mariadb.com",
+                "snyk.io",
+                "www.process.st"
+            ]
+        },
+        {
+            "rule": "salesloft\\.com\\/r",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scout"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "aa011ed383cb780028a85caaa0dda67dce19b0f4bc596f4f708d1857015c1362",
+                "1cfea949b0b2925d27b84d56d18f2ea1c6b948fdf3ae95c534a14706043da178"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mariadb.com",
+                "snyk.io",
+                "www.process.st"
+            ]
+        },
+        {
+            "rule": "salesloft\\.com\\/i",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scout"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "30cdfafd39e43296f0230945fcf6750d93ad5b4e67bfc2462f46066968f6f9eb",
+                "0b5136e44686be06b694b15c2fe82d065ef5bfc701d9469568a00adbd3f6b695"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mariadb.com",
+                "snyk.io",
+                "www.process.st"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 6
+    },
+    "nameservers": [
+        "ns-1248.awsdns-28.org",
+        "ns-1651.awsdns-14.co.uk",
+        "ns-482.awsdns-60.com",
+        "ns-834.awsdns-40.net"
+    ]
+}

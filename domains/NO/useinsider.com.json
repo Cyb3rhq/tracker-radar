@@ -1,0 +1,101 @@
+{
+    "domain": "useinsider.com",
+    "owner": {
+        "name": "Sosyo Plus Bilgi Bilişim Tekn. Dan. Hiz. Tic. A.Ş.",
+        "displayName": "Insider"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "nakd.api",
+        "hit.api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "useinsider\\.com\\/ins\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "nakd.api"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.permissions": 2,
+                "window.indexedDB": 2,
+                "Notification.permission": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.webkitTemporaryStorage": 2,
+                "Performance.prototype.memory": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5f542a501a0d3994a673f21968171080d13aa9dbba6cb0d2f54c7b2341269801"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "na-kd.com",
+                "www.na-kd.com"
+            ]
+        },
+        {
+            "rule": "useinsider\\.com\\/hit",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hit.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c955e57777ec0d73639dca6748560d00aa5eb8e12f13ebb2ed9656add3908f97"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "na-kd.com",
+                "www.na-kd.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.14285714285714285
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "eric.ns.cloudflare.com",
+        "eva.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,380 @@
+{
+    "domain": "spektrix.com",
+    "owner": {
+        "name": "Spektrix Ltd",
+        "displayName": "Spektrix"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [
+        "webcomponents",
+        "customers"
+    ],
+    "cnames": [
+        {
+            "original": "tickets.juilliard.edu",
+            "resolved": "customers.spektrix.com"
+        },
+        {
+            "original": "tickets.nationalgalleries.org",
+            "resolved": "customers.spektrix.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "spektrix\\.com\\/stable\\/webcomponents-loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcomponents"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "377780521b72ce761213d8720f37f922b7be69f302703c661cbcd816fcb9e6d1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "efglondonjazzfestival.org.uk",
+                "www.alexandrapalace.com",
+                "www.juilliard.edu"
+            ]
+        },
+        {
+            "rule": "spektrix\\.com\\/stable\\/spektrix-component-loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcomponents"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "625a1f40d2601dc92fce062383dadd2bddee2421f82ac97d878d3438895e8ac6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "efglondonjazzfestival.org.uk",
+                "www.alexandrapalace.com",
+                "www.juilliard.edu"
+            ]
+        },
+        {
+            "rule": "spektrix\\.com\\/stable\\/spektrix-basket-summary-es2015\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "webcomponents"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "4b74fff1a08bd13821fecd5ff09cedf9ec987ba6f6c1b5b514273455052b8951"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "efglondonjazzfestival.org.uk",
+                "www.alexandrapalace.com",
+                "www.juilliard.edu"
+            ]
+        },
+        {
+            "rule": "spektrix\\.com\\/stable\\/spektrix-memberships-es2015\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcomponents"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c707d8fef131f279a165c58eebef668131ade1361b995000207b75d66fec68ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alexandrapalace.com",
+                "www.juilliard.edu"
+            ]
+        },
+        {
+            "rule": "spektrix\\.com\\/stable\\/spektrix-login-status-es2015\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "webcomponents"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cc1be65401294a1ac2747a9ed18c7f38eee40877f676c8adde4e34aac39927c7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alexandrapalace.com",
+                "www.juilliard.edu"
+            ]
+        },
+        {
+            "rule": "spektrix\\.com\\/juilliard\\/api\\/v3\\/basket",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "customers"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "tickets.juilliard.edu",
+                    "resolved": "customers.spektrix.com"
+                }
+            ],
+            "responseHashes": [
+                "1cbf0217a3e31da8ec72e8438d80c9410405e1f0419f23ad6be8d43d61fc5158"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "juilliard.edu",
+                "www.juilliard.edu"
+            ]
+        },
+        {
+            "rule": "spektrix\\.com\\/juilliard\\/api\\/v3\\/basket",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "customers"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "tickets.juilliard.edu",
+                    "resolved": "customers.spektrix.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "juilliard.edu",
+                "www.juilliard.edu"
+            ]
+        },
+        {
+            "rule": "spektrix\\.com\\/juilliard\\/api\\/v3\\/customer",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "customers"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "tickets.juilliard.edu",
+                    "resolved": "customers.spektrix.com"
+                }
+            ],
+            "responseHashes": [
+                "6f8f97a2c6ca46c3f5ac4cc8eeb42f65ba554c3fdf1e810b4b0991b2547c6179"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "juilliard.edu",
+                "www.juilliard.edu"
+            ]
+        },
+        {
+            "rule": "spektrix\\.com\\/juilliard\\/api\\/v3\\/customer",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "customers"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "tickets.juilliard.edu",
+                    "resolved": "customers.spektrix.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "juilliard.edu",
+                "www.juilliard.edu"
+            ]
+        },
+        {
+            "rule": "spektrix\\.com\\/juilliard\\/api\\/v3\\/webcomponents\\/json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "customers"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "tickets.juilliard.edu",
+                    "resolved": "customers.spektrix.com"
+                }
+            ],
+            "responseHashes": [
+                "be275fd89ebbc40bc64281f99a647aab41f1c3be8f810a053e83c96e4d4b04f3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "juilliard.edu",
+                "www.juilliard.edu"
+            ]
+        },
+        {
+            "rule": "spektrix\\.com\\/juilliard\\/api\\/v3\\/webcomponents\\/json",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "customers"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "tickets.juilliard.edu",
+                    "resolved": "customers.spektrix.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "juilliard.edu",
+                "www.juilliard.edu"
+            ]
+        },
+        {
+            "rule": "spektrix\\.com\\/nationalgalleriesscotland\\/api\\/v3\\/basket",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "customers"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "tickets.nationalgalleries.org",
+                    "resolved": "customers.spektrix.com"
+                }
+            ],
+            "responseHashes": [
+                "37a4452836b8698e695658ab88b910ea6cb42f1799574bb16d54b0d18abe9664"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalgalleries.org",
+                "www.nationalgalleries.org"
+            ]
+        },
+        {
+            "rule": "spektrix\\.com\\/nationalgalleriesscotland\\/api\\/v3\\/basket",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "customers"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "tickets.nationalgalleries.org",
+                    "resolved": "customers.spektrix.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalgalleries.org",
+                "www.nationalgalleries.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000041,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "spektrix.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "Fetch": 8,
+        "Preflight": 8
+    },
+    "nameservers": [
+        "ns-349.awsdns-43.com",
+        "ns-1007.awsdns-61.net",
+        "ns-1149.awsdns-15.org",
+        "ns-1758.awsdns-27.co.uk"
+    ]
+}

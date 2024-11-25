@@ -1,0 +1,289 @@
+{
+    "domain": "whoson.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "gateway6",
+        "hotelchocolat",
+        "hosted8",
+        "lizearlegw",
+        "tyre-shoppergw",
+        "gateway7",
+        "lizearle",
+        "tyre-shopper",
+        "gateway8"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "whoson\\.com\\/include\\.js",
+            "cookies": 0.000502,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gateway6",
+                "hotelchocolat",
+                "hosted8",
+                "lizearlegw",
+                "tyre-shoppergw",
+                "gateway7"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 5,
+                "window.localStorage": 2
+            },
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "c8e6510c133092a1431773a8e766e9abd5186c766b9bd237e3e23fe4d2e1937a",
+                "179086f4d5883a6419c43890c3a8b84d571825cce79ecbf65e2a2cc15228cbc2",
+                "dde324f2ec51ececbf1bfdac497161b6911dfc72708999b85bf63a5e937150b3",
+                "4b3af79c8ec3aac67402a125291a389c8a3ff932ca3a3fd1236c0749048bfe6f",
+                "e59890ee940c2156b821eb8f524bb892d7958da3f0dd728f856f54bbbb1847f0",
+                "2228964f636d3f7f37109020d78674679dfba8e955cf4dffa8bfff14514fe9ec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "whoson": {
+                    "ttl": 31540002,
+                    "length": 17,
+                    "prevalence": 0.0004018485031143259,
+                    "uniqueness": 1
+                },
+                "__Host-whoson": {
+                    "ttl": 31540001,
+                    "length": 17,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hfholidays.co.uk",
+                "www.hotelchocolat.com",
+                "www.karndean.com",
+                "www.lizearle.com",
+                "www.national.co.uk",
+                "www.tyre-shopper.co.uk",
+                "www.yourspares.co.uk"
+            ]
+        },
+        {
+            "rule": "whoson\\.com\\/newchat\\/vendor\\/jquery\\/jquery-3\\.5\\.1\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hosted8",
+                "lizearle"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "754ef53efd9fd7dea6c9668f4a572ecf1cb7f5caadd3a192926763017c9e0bd1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "karndean.com",
+                "www.lizearle.com"
+            ]
+        },
+        {
+            "rule": "whoson\\.com\\/newchat\\/js\\/whoson\\.inline\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "hosted8",
+                "lizearle",
+                "tyre-shopper"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "0f99e546368c6223c53c073ea5b8f4c4deecc76dca4bbfd0f687a127b28231dd",
+                "9a46256c30269d3b2b18fbcba8be56844edeeb35a5fe14413f201c58b04a8fdd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "karndean.com",
+                "www.lizearle.com",
+                "www.national.co.uk",
+                "www.tyre-shopper.co.uk"
+            ]
+        },
+        {
+            "rule": "whoson\\.com\\/w\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gateway8",
+                "lizearlegw",
+                "tyre-shoppergw"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "1fae04eef756ab0dfc019f47ae248b935f6dd75b015481a7104f900fe3a0792f",
+                "192722218ea0c3023e4279f841fba847591e303bfb5e634d2a1eb8c7558eb74e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "whoson": 0.0005023106288929073
+            },
+            "exampleSites": [
+                "karndean.com",
+                "www.karndean.com",
+                "www.lizearle.com",
+                "www.national.co.uk",
+                "www.tyre-shopper.co.uk"
+            ]
+        },
+        {
+            "rule": "whoson\\.com\\/invite\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gateway8",
+                "lizearlegw",
+                "tyre-shoppergw"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "49ceb0c74840192644113e1ead483e58f33da0b9c53c599b4553d490fcd8108a",
+                "3ef25d0ef3de85582a8d31bc1e614b7e377adf17c42b6b552aaada1df53cbe41"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "whoson": 0.0004018485031143259
+            },
+            "exampleSites": [
+                "karndean.com",
+                "www.lizearle.com",
+                "www.national.co.uk",
+                "www.tyre-shopper.co.uk"
+            ]
+        },
+        {
+            "rule": "whoson\\.com\\/newchat\\/\\/css-inline\\/whoson\\.inline\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hosted8",
+                "lizearle"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "beae4076ff0c2de17813a873444848578f4c50799c45f8f50274cd11a3ee0ecf"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "karndean.com",
+                "www.lizearle.com"
+            ]
+        },
+        {
+            "rule": "whoson\\.com\\/siteimage\\.htm",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gateway8",
+                "lizearlegw"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "8b8914328c1d09715d5313da2f781f04b3f818fa59457a68b11443216a926889",
+                "afa916afccd228a430736ac5253a0965f3cf1bbbe5e9520f1d75a5d1804691ea"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "karndean.com",
+                "www.karndean.com",
+                "www.lizearle.com"
+            ]
+        },
+        {
+            "rule": "whoson\\.com\\/poll\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gateway8",
+                "lizearlegw"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "33b3049188a8edd6df77b5886ba8c51206fd46c737051dc003cd3daa063169b9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "whoson": 0.00020092425155716296
+            },
+            "exampleSites": [
+                "karndean.com",
+                "www.lizearle.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 22,
+        "Stylesheet": 2,
+        "Image": 5
+    },
+    "nameservers": [
+        "ns-1173.awsdns-18.org",
+        "ns-295.awsdns-36.com",
+        "ns-2033.awsdns-62.co.uk",
+        "ns-600.awsdns-11.net"
+    ]
+}

@@ -1,0 +1,298 @@
+{
+    "domain": "liveperson.net",
+    "owner": {
+        "name": "LivePerson, Inc",
+        "displayName": "LivePerson",
+        "privacyPolicy": "https://www.liveperson.com/policies/privacy",
+        "url": "http://liveperson.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "publisher",
+        "lptag",
+        "lo.idp",
+        "lo.v",
+        "va.v"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "liveperson\\.net\\/iframe-le-tag\\/iframe-cs\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "publisher"
+            ],
+            "apis": {
+                "window.indexedDB": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "microsoft.com",
+                "onedrive.live.com"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/tag\\/tag\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lptag"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "NavigatorUAData.prototype.brands": 4,
+                "NavigatorUAData.prototype.getHighEntropyValues": 4,
+                "window.sessionStorage": 4,
+                "window.localStorage": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "Document.cookie getter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "2823fbfa7b9256867e21af1ecbfbb98583c8ef0e0b495f6f01d862ef58e3d93d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "LPVID": {
+                    "ttl": 31536014,
+                    "length": 22,
+                    "prevalence": 0.0004019696512913275,
+                    "uniqueness": 1
+                },
+                "LPSID-89234911": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010049241282283188,
+                    "uniqueness": 1
+                },
+                "LPSID-54982353": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010049241282283188,
+                    "uniqueness": 1
+                },
+                "LPSID-87872012": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010049241282283188,
+                    "uniqueness": 1
+                },
+                "LPSID-58281962": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010049241282283188,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "schalke04.de",
+                "www.bauknecht.de",
+                "www.ford.de",
+                "www.qvc.de"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/postmessage\\/postmessage\\.min\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lo.idp"
+            ],
+            "apis": {
+                "window.sessionStorage": 1,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c8cd0b0d514cecdaf4e7214325a70bba9bae301e156265bd0d880f9065d1d183"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "schalke04.de",
+                "www.bauknecht.de"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/54982353",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lo.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5ac7cef91afd22a8b336ee3cff45bafeecdb57e09eb459e2c850d0540e464303"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010049241282283188,
+                "LPSID-54982353": 0.00010049241282283188
+            },
+            "exampleSites": [
+                "bauknecht.de",
+                "www.bauknecht.de"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/54982353",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lo.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010049241282283188,
+                "LPSID-54982353": 0.00010049241282283188
+            },
+            "exampleSites": [
+                "bauknecht.de",
+                "www.bauknecht.de"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/87872012",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "va.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cb460f7712ceee90ea54fc19d1b1e53f671e0134c7c0e0156d28540cde25ec66"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010049241282283188,
+                "LPSID-87872012": 0.00010049241282283188
+            },
+            "exampleSites": [
+                "ford.de",
+                "www.ford.de"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/58281962",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lo.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "569c994d1d80c12fe59161f4becf9682f6f6d7a1a0a14a36367ab5f64f9f59f6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010049241282283188,
+                "LPSID-58281962": 0.00010049241282283188
+            },
+            "exampleSites": [
+                "qvc.de",
+                "www.qvc.de"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/84608747",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "va.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c6bb35da101bb368493f10d7e564d0c188963a587f51f20fbcfc25c1f6b7e853"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010049241282283188,
+                "LPSID-84608747": 0.00010049241282283188
+            },
+            "exampleSites": [
+                "united.com",
+                "www.united.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Analytics",
+        "Embedded Content",
+        "Support Chat Widget"
+    ],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.59375
+        },
+        {
+            "domain": "lpsnmedia.net",
+            "prevalence": 0.21875
+        },
+        {
+            "domain": "storage.googleapis.com",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "microsoft.com",
+            "prevalence": 0.0625
+        }
+    ],
+    "types": {
+        "Document": 4,
+        "Script": 12,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "a3-64.akam.net",
+        "a12-64.akam.net",
+        "a1-175.akam.net"
+    ]
+}

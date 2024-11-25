@@ -1,0 +1,201 @@
+{
+    "domain": "webyn.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "files",
+        "api",
+        "events"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "webyn\\.ai\\/webyn\\.min\\.js",
+            "cookies": 0.0000273,
+            "fingerprinting": 2,
+            "subdomains": [
+                "files"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "Date.prototype.getTimezoneOffset": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "6351239096aaab3c5b1ab8c90aabe465764b092ce6f8ad429df642001b51b53b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "wbn_s": {
+                    "ttl": 3606,
+                    "length": 36,
+                    "prevalence": 0.0000273280043724807,
+                    "uniqueness": 1
+                },
+                "wbn_v": {
+                    "ttl": 7776005,
+                    "length": 36,
+                    "prevalence": 0.000020496003279360526,
+                    "uniqueness": 1
+                },
+                "wbn_ed": {
+                    "ttl": 7776006,
+                    "length": 24,
+                    "prevalence": 0.0000273280043724807,
+                    "uniqueness": 1
+                },
+                "wbn_dg": {
+                    "ttl": 3606,
+                    "length": 7,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "soin-et-nature.com",
+                "www.entrepot-du-bricolage.fr",
+                "www.gedimat.fr",
+                "www.supersmart.com"
+            ]
+        },
+        {
+            "rule": "webyn\\.ai\\/api\\/display\\/experiments",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "6c69b9d287ae163ee660d1dcac465ea84bb72638f085676afdb8819e0d4f36ff",
+                "923bf2511ea4196f8609c22992ca59d9ed144cf82d82b0251e904590e6d16164",
+                "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "soin-et-nature.com",
+                "www.entrepot-du-bricolage.fr",
+                "www.gedimat.fr",
+                "www.supersmart.com"
+            ]
+        },
+        {
+            "rule": "webyn\\.ai\\/api\\/display\\/experiments",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "soin-et-nature.com",
+                "www.entrepot-du-bricolage.fr",
+                "www.gedimat.fr",
+                "www.supersmart.com"
+            ]
+        },
+        {
+            "rule": "webyn\\.ai\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "soin-et-nature.com",
+                "blog.soin-et-nature.com",
+                "www.entrepot-du-bricolage.fr",
+                "www.gedimat.fr",
+                "www.supersmart.com"
+            ]
+        },
+        {
+            "rule": "webyn\\.ai\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "5123f80a71df4b20fe31e17da8f0e3a0f5f55523e83a7d0c9e6fb787586e40b2",
+                "4230c32d1a2fb22ea33d6b03b68b16caede6a5a3bb27a9436466c5738bc1d8a0",
+                "b5a4c051a684f4f6a316a5064886499c729931e5f3ad3b4bbd0a4ff1c2177087",
+                "6daee99fd6d298cf40b5ea9dd322494d72d8f3d1d170031817aed743313915c7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "soin-et-nature.com",
+                "blog.soin-et-nature.com",
+                "www.entrepot-du-bricolage.fr",
+                "www.gedimat.fr",
+                "www.supersmart.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000273,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7916666666666666
+        },
+        {
+            "domain": "piwik.pro",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.041666666666666664
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 9,
+        "Preflight": 9
+    },
+    "nameservers": [
+        "ns-122-a.gandi.net",
+        "ns-180-b.gandi.net",
+        "ns-252-c.gandi.net"
+    ]
+}

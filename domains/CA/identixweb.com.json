@@ -1,0 +1,186 @@
+{
+    "domain": "identixweb.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "cdnicart",
+        "icartapi"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "identixweb\\.com\\/assets\\/css\\/icart_fronted\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnicart"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "31b97db25d9d59fe021871179dfc9fea7dd52e7161a20ac6b0502dea02168254"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tilley.com",
+                "vitasave.ca"
+            ]
+        },
+        {
+            "rule": "identixweb\\.com\\/react_build\\/icart\\.bundle\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdnicart"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.platform": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "18f64fd4c76449139a9b099863ec873b995e49004ea539b6a44cc6364d5f1031"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_iCartUserCountry": {
+                    "ttl": 86406,
+                    "length": 2,
+                    "prevalence": 0.00020122748767481639,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tilley.com",
+                "vitasave.ca"
+            ]
+        },
+        {
+            "rule": "identixweb\\.com\\/react_build\\/react-datetime\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnicart"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "807769d9f76f573b5df1a03298b102fe4490f153d628331b84123324b696c533"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tilley.com",
+                "vitasave.ca"
+            ]
+        },
+        {
+            "rule": "identixweb\\.com\\/icart",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "icartapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "490767ff9649d78096d0dfc6eaaa67826f7cf2539b4affbaec53654f164a91d6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tilley.com",
+                "vitasave.ca"
+            ]
+        },
+        {
+            "rule": "identixweb\\.com\\/icart",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "icartapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tilley.com",
+                "vitasave.ca"
+            ]
+        },
+        {
+            "rule": "identixweb\\.com\\/assets\\/js\\/editor_popup_modal\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnicart"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a9546d0042578c4a4f22d866199621e9cce573ccba9214fb23e20bea611b54b4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tilley.com",
+                "vitasave.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "d5zu2f4xvqanl.cloudfront.net",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Stylesheet": 4,
+        "Script": 4,
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "miles.ns.cloudflare.com",
+        "rafe.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "domain": "klarnaservices.com",
+    "owner": {
+        "name": "Klarna Bank AB",
+        "displayName": "Klarna Bank"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000605,
+    "sites": 6,
+    "subdomains": [
+        "eu-library",
+        "na-library"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "klarnaservices\\.com\\/lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "eu-library",
+                "na-library"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000605,
+            "cnames": [],
+            "responseHashes": [
+                "36ca8964159d74ae7eb131387189485398509cee17eabb8a7ef48ba9157ec4fb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delonghi.com",
+                "www.fender.com",
+                "www.jabra.com",
+                "www.kenwoodworld.com",
+                "www.smallable.com",
+                "www.specialized.com"
+            ]
+        },
+        {
+            "rule": "klarnaservices\\.com\\/config\\/runtime-config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "na-library"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000605,
+            "cnames": [],
+            "responseHashes": [
+                "b63089d8d317caf764104d335fd122421953bd3a8429fb95977e737441beb47c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delonghi.com",
+                "www.fender.com",
+                "www.jabra.com",
+                "www.kenwoodworld.com",
+                "www.smallable.com",
+                "www.specialized.com"
+            ]
+        },
+        {
+            "rule": "klarnaservices\\.com\\/v1\\/0\\.0\\.349\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "na-library"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "window.sessionStorage": 6,
+                "window.localStorage": 6,
+                "Navigator.prototype.language": 6,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 6,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 6,
+            "prevalence": 0.000605,
+            "cnames": [],
+            "responseHashes": [
+                "9781cf5b9b9ee1d56bdef41316c12bebafbf6501d26c500436344c2988c997ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delonghi.com",
+                "www.fender.com",
+                "www.jabra.com",
+                "www.kenwoodworld.com",
+                "www.smallable.com",
+                "www.specialized.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Fetch": 6
+    },
+    "nameservers": [
+        "ns-745.awsdns-29.net",
+        "ns-1262.awsdns-29.org",
+        "ns-334.awsdns-41.com",
+        "ns-1786.awsdns-31.co.uk"
+    ]
+}

@@ -1,0 +1,4689 @@
+{
+    "domain": "yahoo.co.jp",
+    "owner": {
+        "name": "LY-Corporation",
+        "displayName": "LY-Corporation"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00385,
+    "sites": 564,
+    "subdomains": [
+        "b99",
+        "b97",
+        "b98",
+        "b91",
+        "apm",
+        "am",
+        "yads.yjtag",
+        "b0",
+        "b92",
+        "yads",
+        "custom.search"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion_async\\.js",
+            "cookies": 0.00201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "b99",
+                "b97",
+                "b98",
+                "b91"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 320,
+                "Document.cookie getter": 314,
+                "Date.prototype.getTime": 320,
+                "Screen.prototype.height": 319,
+                "Screen.prototype.width": 319,
+                "Screen.prototype.availHeight": 319,
+                "Screen.prototype.availWidth": 319,
+                "Screen.prototype.colorDepth": 319,
+                "Date.prototype.getTimezoneOffset": 320,
+                "Navigator.prototype.javaEnabled": 320,
+                "Navigator.prototype.plugins": 320,
+                "Navigator.prototype.mimeTypes": 320,
+                "NavigatorUAData.prototype.getHighEntropyValues": 4,
+                "Document.cookie setter": 1
+            },
+            "sites": 323,
+            "prevalence": 0.00221,
+            "cnames": [],
+            "responseHashes": [
+                "71dbfa067a2a9ec12101cd73128563c1dcaae28472f8dfa9de3e09dccf0a4ad3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_gcl_gs": {
+                    "ttl": 7776007,
+                    "length": 18,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.intego.com",
+                "video.unext.jp",
+                "www.goldwin.co.jp",
+                "www.yodobashi.com",
+                "www.eiken.or.jp",
+                "www.mazda.co.jp",
+                "www.kaikatsu.jp",
+                "jinjibu.jp",
+                "search.kakaku.com",
+                "www.paypay-bank.co.jp",
+                "eplus.jp",
+                "www.jrkyushu.co.jp",
+                "www.kao.co.jp",
+                "www.takeda.tv",
+                "zozo.jp",
+                "bbs.bengo4.com",
+                "jp.shein.com",
+                "store-jp.nintendo.com",
+                "network.mobile.rakuten.co.jp",
+                "coloria.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/rt\\/",
+            "cookies": 0.00214,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apm",
+                "am"
+            ],
+            "apis": {},
+            "sites": 369,
+            "prevalence": 0.00252,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0000819840131174421
+            },
+            "exampleSites": [
+                "jp.cyberlink.com",
+                "it-trend.jp",
+                "www.berlitz.com",
+                "www.marinabaysands.com",
+                "seiga.nicovideo.jp",
+                "xtech.nikkei.com",
+                "www.rakuten-sec.co.jp",
+                "i.ansinkaigo.jp",
+                "fx.minkabu.jp",
+                "dic.nicovideo.jp",
+                "www.nissen.co.jp",
+                "live.nicovideo.jp",
+                "go2senkyo.com",
+                "www.hkexpress.com",
+                "fril.jp",
+                "www.ehonnavi.net",
+                "tomiz.com",
+                "www.roomie.jp",
+                "www.dot-st.com",
+                "prtimes.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/v2\\/tag",
+            "cookies": 0.00054,
+            "fingerprinting": 0,
+            "subdomains": [
+                "yads.yjtag"
+            ],
+            "apis": {},
+            "sites": 85,
+            "prevalence": 0.000581,
+            "cnames": [],
+            "responseHashes": [
+                "4f9d9e961538c2f5094863999f7a081e1d28eb6988ccd84065d0c440689abab1",
+                "97419f0daae6d045b1e9d5131eb9c3b6f4b52a6b369e1552546dc1ff99e3392b",
+                "d4c83b2451559fb2e76e757cfef40bfa923ae3abd1df7549ff0cce833564f892",
+                "3442777169337b0bdcaf45b801ca1a28a5cb08ea1a66656fb7de376e1ad85727",
+                "d3c93be5616837556d914ee334acab06f52227a0f86194ae9264f2803a16cb36",
+                "cbcf689d3839525d64e96c5a296fc4f67a69e2163637c3ca861a6eeac017897c",
+                "5c447e81212f3d96da1022fbc6306806890327181dcdf56dfdcd2843daf273c9",
+                "9a1be6ecda426adac3e449a3873a3f81a3ab52d3683d9fc05aff8712adf1ef04",
+                "60ec80d9ad53293e354c172f3264d01468882776a556370a7d6c850a5452769c",
+                "e82eee93d9e4061d71fd1155537473437bce90504cfe87e9d21a993c11a3c34d",
+                "f04979a82e7c31dfb3185bc237345093879a9599af4640ab6c0e50ee60cea941",
+                "4aea4ac071f713370a769902f41e0aa688bc5d4c128417a725926fac3603570e",
+                "63c4544db2a27b1f55e36d072aa3ec621f9a175ea622061d0f019ffe697785bf",
+                "8c0d65e6ef38a7a27e8192bc97ff2c5185ffc6b88242c00113c6633767c84b4b",
+                "3f8810f9670752c530303069780abd81da83e9e4414805ff6bfbe4f44da03653",
+                "0176a940c77e5ab27abec2373f697b612a53f7117ed19d6fb213a46f4e2de772",
+                "7a1ae1803e7f4de7cbb6706f8fb65d1fd3d8c67d61692128b522c2f18c55c0c9",
+                "256df1757a883d6c4629b551701316d5abbdb8c88c6560c950dfedb62fe9f51d",
+                "a2f21a3cc4e73c2312e0b2a16fcd4c1e355964f62ebd7d66c9c953f512298cdf",
+                "204e2d87277d2130f0c125b8d26fc701336cabfdf4ae6f84f6d06ae5edb23b8b",
+                "d540f0d9eb8cb8b2699ba12224ccf8d1e9882589a17a0262bd4ae452dc0df06a",
+                "9303d09c14829cb5d7923e6b2c8560cbc432c5a416016a9fa055d821b583d8ff",
+                "1f3ecd51e24ae56d0d31a82dd7ccfc87771bcc64a7cf6f228a72cda9ddd91279",
+                "b8186570803261b91c62ba9ce7d827cec1ef961b17ac66fcc219c3a745e70442",
+                "ea08343540326246607f2e392adfa88a22008f79a3d58f1810e8d2eca0f016e4",
+                "70aa81463556c1e0a66d4b6e40a521635d4bd077f8392662e5eb6f4324b82b5c",
+                "6dfc7015a533131914f5801b64ae55e375cf0d4ac1ba8d7f8ed6c65b8efeffc0",
+                "f6da6bbcf443863ae6df784f839db1bcabefaeeeab96724a8f894741b0772329",
+                "81bbb52209c201e7cc31d06408d7ed9efe377e4658780762e87349f7748defff",
+                "898213482b306dd9491433d18e8e1e25496791df84baa38d05ceee9a89ab34e6",
+                "638c2b2a75edbad43a26ca2761cb8df8b59e37a87d84d86a5398f3669d647b75",
+                "8fa9355568279a1536424911194398d4e1cf3c6d4f1f93a5c62ab06c821537b0",
+                "e9e39968c5ae8bf15f6d92518281221d68a322b2cf76b4f9dfcc30a5921e1489",
+                "cd495505a3aa1bf8d709df90ad9d280b21c1480b732311b5f40f459c9b91766d",
+                "6e30b8336dfec23cc0c7bb525eed586b1cf46be76052ce7171761f6794982609",
+                "10d7929f8ef93c63cce736a86f8278bada92f136e72062f2e0661fe83545859c",
+                "675ae015eb2730f18e44eaaf7a613a6dd58848ed08e35a67d41bc3adbbd05e5f",
+                "28a8e8f853fc813ea5f5e13e73c22b373ef0f4694d3f7d1d2640cbdaccc68dd9",
+                "5f4b0425b178f4bbf4721cfe36ae012e42692f9ef322f09487b722b707744a0f",
+                "7fb46d4366fe40aac1dbdee1f69b5da25eb13f445c0ececa4adbf3df093c1bf0",
+                "95b1c25e140dec29fe63964435973f7d38fd674318c72723ceb5959fa7ebb9bd",
+                "4e45573777049bab5b9b85d056fd3db989ede00dbf6689eb6d433bf2dc7c1c5e",
+                "0b75a55a1a27e8c6abed0c8ceaf31c15d5cdfe02e41dc062db088a2d524fa9dd",
+                "02c04117824db06c003bf260c992ad0d69b3bfc6259e7ff61183835752635753",
+                "1f491b64a05254115f2db391476c3dbd91935a81e38c8324e0ee75b183539f72",
+                "9b63ce36240b7c9eb74b11b03ffa23a7a7fb3493cbe09f5750511c4bd010b5d2",
+                "478a31ccc66e6be69d13f84327a2f515764a62c140fa0675503e1163b5595c25",
+                "5695c6c33552f90ba1f83e8362efa57419920743b5c9d50de79a03e6b505c20c",
+                "1d5716e818f9bb77da0382fe7d847e45db4dc8570e5375ec9d5769189d787fd2",
+                "2baebcbc6c5a2854fc8bb9aed1288e1af5a793e258d1dda2f4fd7925806d0722",
+                "2771b2c4cb602d1b72174d2d0f9a14c26619f471b22a51d2fcd30dd85bf771ee",
+                "7d6ab838bbb5d865c61c7ec7e79e68ec4d04e650488428ecff8ccdaf814c8c5e",
+                "8d5122470625b224c54168db3f3ce6f1d7de1eb59974da319e641b31de67debd",
+                "ec6d8cce57b793901db742fc00f32f563b5e9d3d6ec2e92f8b0f5087e85b7bb2",
+                "30a01e060c556d3ac0e6ed6e2f1f5cf8b0bb0397c9e36aa80e3768a58bc776cf",
+                "648b97f07d91d9098c75113ffa8c6d19becf7313885e71a0d0ab96350ed2be8e",
+                "c2523549827d3b815addca870fe753d0f9afea5052d2431dfe39e5ada8089e9c",
+                "18204f9dbcb0c428738adc19c096f1bb8d9ed2db4883a20ed7e8546b29df3c40",
+                "f6ad61fb0bd2f68524201afe591bf3a94cc555cd6255db058e8eea901a12378c",
+                "5b0497dc9ac5740211ac1f73993c55b1aa113aeef8d5a58b54a69b868b05845a",
+                "f19a01c43a5a8183869d40d0f3ef90968f16c2a06d66e3539f4eb5d3975ff092",
+                "753a5a9188f61c77fe8351536ccb2750395841d1f9ff4ea77141776293f95fee",
+                "15656d2d0d097fdc622341d37a1f1f8ef3eb92ee4f32caf4c661c58798a8724d",
+                "4da6f95d0d990b178bb3735c70d4d36fc7fa77f3d1d069a9e624337073d3d518",
+                "e456215a63eeb4ad3252f9c884bc5b6e5753454b44a6e7b5c492e56c3dbf67f1",
+                "00ad669c1fcca447ed60905e47d866ec73616f552beb1b4fa0495828af95b3a2",
+                "0b3c5b8ddfb23288c21b89de77842c287afa9b73379320c2c38ae00dc379d344",
+                "b330dbf370db583b4e06ea487c9b029e9447e37dc6dea8a50534a55c72d78e6a",
+                "b0a04033e5d12a35569aa941eed1be37ffe0c981e2ccdecbc1f90cb3939dce59",
+                "cb243bd040abb079c44929e6df2e3895b713a1c5bdd5d6e498998cabe4dee44b",
+                "42bbc806e80e45cfc3c9bca6b5bc8fe10d51984f12378bbbdf4d6f5d83e411c5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0001366400218624035,
+                "__pid": 0.000006832001093120175,
+                "sc_c50": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "qiita.com",
+                "moviewalker.jp",
+                "limia.jp",
+                "www.afpbb.com",
+                "www.bellemaison.jp",
+                "baby-calendar.jp",
+                "www.jiji.com",
+                "dic.nicovideo.jp",
+                "blog.goo.ne.jp",
+                "jp.ign.com",
+                "yomuno.jp",
+                "thetv.jp",
+                "kufura.jp",
+                "www.asahi.com",
+                "mainichi.jp",
+                "web.gekisaka.jp",
+                "www.zyuken.net",
+                "woman.excite.co.jp",
+                "iphone-mania.jp",
+                "komachi.yomiuri.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/tag",
+            "cookies": 0.000396,
+            "fingerprinting": 0,
+            "subdomains": [
+                "yads.yjtag"
+            ],
+            "apis": {},
+            "sites": 60,
+            "prevalence": 0.00041,
+            "cnames": [],
+            "responseHashes": [
+                "0c4ebdec5d7acdc78760e57f9aa7df667fbf28abeea080cd73215ca2c19b994f",
+                "8428f24bcbec845228fc080e203dc91d742882ee568592d1095ed55e95be7b2c",
+                "6d186d9208a600d5f55a5ae285f13094f1a118803f4d08a525129d3f90a845b1",
+                "cc6a73abda97b4339c0b50a876c2b25a5f6d1005bdaef3b2e708d90590836ff8",
+                "b525dde1ddca930619ea50e601e5e139f46c8eec6aade687227376a0f2081470",
+                "294031c8d59e70439829eeb22555ec903e272e93e881facbec78411fdc4b29bc",
+                "96121c16eb8d29953858a523fdf1d810f6dd0d961e12f09ea1f9a8bf9810edf6",
+                "435439953521cb8ea4a821176bcdb5f90b66af8a7596df3ba13b8b87e4108727",
+                "ee9a62edf867a0725f7c17037de4fd548f5f79eee8811b4f438ebdfb461e59a1",
+                "3bbc7cde1dc7142e83a57254325d2385c0439c74d8a7abfaa69a57d0da6b9656",
+                "84e8ea0bce9f515f8e018d00ab03c655c3d2410b3d4f22ee3784ff1ddd487a76",
+                "324e9819a2328cf9bedf3f6e0211a8f267744bf647b2e2889a3e0959e0a13809",
+                "cb8a11cdb1ef704989f53b42a93aa521d8720ee19fbe73fd16964973f3fdd8d5",
+                "53ecf7a9d4280f4668f4db980f2b195239f604b55ff27162b650f9c4b082d4ca",
+                "e42c5ad7e9db6ce595b71b11070fcb2778f18e34aeb3549316722c85757af8ff",
+                "9602715c23bbd4a475359c6a58aa5b08f8a7da60170e104bd928c1bba51a15a3",
+                "b397773f2a9ab6b3dbdac1b2a4525c2d39dee3b9252da01e8ee9bf6d916be3b6",
+                "2be54a4789e60b10a316c0df298598bce95b8e02f7e267dcac584274694cbe44",
+                "55f220a3ce4defd9e690a6901233c19df049241a0d444426626409e5f08e72c0",
+                "d869c0d61de980aeb95f4b68a35315dfa28e5bbc778a781e95a5d43899e33aa9",
+                "950ebeeb56c0427d13f6acc5656d9ad5b33a8262f93895744c313ea94293d14a",
+                "be853bf10b6b4352d23ad69512029d33e3525668ea862358bb873dcfa4a09e25",
+                "765c31fe2b9e47677e8d24a4b15c5d2721dc89127bf0d52008df4e34e58691e0",
+                "284d42c015bb6868e1c0b3922947bf2c3fffa5ff4332807ddc9657ca2b3433d5",
+                "ddfc25a198882b56fd2aef57dd19bb01a14eef5b7a4cd50b25dd786725ae4355",
+                "79987d5776cbf7e8a92f714e26b96db17a3f4502e33367adbea0241fe242478d",
+                "3b21d4a1646c0b30dfac2bf46a8b0c8820fb8f24a466c9228f4df6ea2f9f26dc",
+                "25ef750656c8e235d219f575e38503300188fd01817b9c24ef26d6e38ecfc2ab",
+                "de69d4649d7ad701b15869826aede807b426face17f2cb96e185fa5742a8d6af",
+                "11e4799b06e0a8fd79923d0fbb67a476fb6b4b6cab1366a3a1d9a6ab15da6ec7",
+                "6e50c579f32f9c9427f96453b2024ce8c0ae90abc900a78d1d2eae03bd41491e",
+                "da3fd8e25f47be52a4a9837a9529b916930d72428155920ca44b8e43e0933182",
+                "a3572e1241c72fae6a606f1dca397e253a9b6dae333a24564b2fb051b08a1fb5",
+                "ac7eb7a17ec3bb6e3cf7b082e54388b8578554e5d85ad3307c604e69beca339d",
+                "b1add2c7b0dab1764666edf585cc011e3936df3c389cea474b48a963ded60e0d",
+                "13f4cf1ebaef461f8f9890816ed523a2478d7e9eed7183d14113aaeacbd89170",
+                "99ff8c686e42a65193c637b26c5520eb65e42fc19526e7ffd95cbfaad4d2b460",
+                "cbd1fa4e970ab3a98a5f5cc50c5eb65286cfc7318c711738cead8a7ae49cf2a3",
+                "29bdb2f7f1dfb52fadb8e3f213aab7792c8cd59bae8f717e48afd39ac69ece3e",
+                "e1c72ebb5a6c9198d318f1a3454ef1461cd2cd1e3ca0ca29a5d047f9ee6270db",
+                "bd041f2f026d0d8f0d4135bfd385720ebfd5bfe47038a9b9c66d8d274abab36c",
+                "ad7f1d8b6c686346c5e9fff58da77441fb7b1968405d171243c4d62de7056b84",
+                "6991305efae9a3dd26b1b92dec9d566b40e209a59fc8379d8bdd109de44a1ff5",
+                "a3636cef12ae408a043c542d787e0f63a5407ecb968d6e4074ede1d247ceeb8d",
+                "6c1b14c8f18d1e859b3538c38c41621f119d6c6cb964262a161b1710b1d3ec9f",
+                "78fafac51ed5103d8338e46f2106937f97ee821010e5434af841bf61efb3c645",
+                "0ee26c13dd5e421f209a74b90f37432dbfaabed2cb081c1a4c2bacdb59aac16d",
+                "8e7b9a83a0428810e95177242ae911f3a334678d1fc4b84b599cc4c86328bb7c",
+                "82d662aff0b8d7f5c84caf1206df0d8924978346a42ef541e08cfee61b849e1b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00007515201202432193,
+                "__pid": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "yomuno.jp",
+                "fril.jp",
+                "news.tv-asahi.co.jp",
+                "booklog.jp",
+                "response.jp",
+                "gentosha-go.com",
+                "blog.goo.ne.jp",
+                "www.nikkan-gendai.com",
+                "www.shuminoengei.jp",
+                "withnews.jp",
+                "bestone.allabout.co.jp",
+                "weekly.ascii.jp",
+                "www.tokyoartbeat.com",
+                "iphone-mania.jp",
+                "www.sponichi.co.jp",
+                "financial-field.com",
+                "shueisha.online",
+                "cancam.jp",
+                "kakakumag.com",
+                "blogtag.ameba.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/b",
+            "cookies": 0.000109,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b0"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.00013,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unext.jp",
+                "account.unext.jp",
+                "en-gage.net",
+                "lexus.jp",
+                "toyota.jp",
+                "video.unext.jp",
+                "www.ana.co.jp",
+                "www.cainz.com",
+                "www.cmoa.jp",
+                "www.homes.co.jp",
+                "www.jal.co.jp",
+                "www.mizkan.co.jp",
+                "www.osohshiki.jp",
+                "www.rehouse.co.jp",
+                "www.s-b-c.net",
+                "www.shimamura.gr.jp",
+                "www.shop-shimamura.com",
+                "www.suntory-kenko.com",
+                "www3.nissan.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000429716\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unext.jp",
+                "video.unext.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000431461\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unext.jp",
+                "video.unext.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000429717\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unext.jp",
+                "video.unext.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000429719\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unext.jp",
+                "video.unext.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001022976\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unext.jp",
+                "video.unext.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000429715\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unext.jp",
+                "video.unext.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/js\\/s_retargeting\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "b92"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 91,
+                "Document.cookie getter": 88,
+                "window.localStorage": 90,
+                "NavigatorUAData.prototype.getHighEntropyValues": 89
+            },
+            "sites": 95,
+            "prevalence": 0.000649,
+            "cnames": [],
+            "responseHashes": [
+                "76f7ed1e950345347015644836dd7a02a7fbe5f31c6034c60b75f2d980bf965c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.takeda.tv",
+                "uchi.tokyo-gas.co.jp",
+                "search.rakuten.co.jp",
+                "www.irisohyama.co.jp",
+                "www.pc-koubou.jp",
+                "www.ishamachi.com",
+                "es.hinative.com",
+                "de.hinative.com",
+                "www.autobacs.com",
+                "www.japan-baseball.jp",
+                "www.spacemarket.com",
+                "www.bookoff.co.jp",
+                "enechange.jp",
+                "www.takaratomy.co.jp",
+                "next.rikunabi.com",
+                "www.topvalu.net",
+                "www.dominos.jp",
+                "coloria.jp",
+                "www.workman.co.jp",
+                "comic-days.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/c",
+            "cookies": 0.000116,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apm"
+            ],
+            "apis": {},
+            "sites": 23,
+            "prevalence": 0.000157,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000006832001093120175,
+                "lastW_mapping": 0.000006832001093120175,
+                "tlb_sid": 0.000006832001093120175,
+                "_li_dcdm_c": 0.000006832001093120175,
+                "IR_gbd": 0.000006832001093120175,
+                "dy_fs_page": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "www.sofmap.com",
+                "www.marinabaysands.com",
+                "mineo.jp",
+                "www.biccamera.com",
+                "asana.com",
+                "hands.net",
+                "jp.shein.com",
+                "jp.toto.com",
+                "www.athome.co.jp",
+                "dokusho-ojikan.jp",
+                "toptoon.jp",
+                "www.hkexpress.com",
+                "www3.nissan.co.jp",
+                "www.irisplaza.co.jp",
+                "halmek.co.jp",
+                "www.maff.go.jp",
+                "www.bookoff.co.jp",
+                "theriver.jp",
+                "baycrews.jp",
+                "jp.iherb.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/yda",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "yads.yjtag"
+            ],
+            "apis": {},
+            "sites": 40,
+            "prevalence": 0.000273,
+            "cnames": [],
+            "responseHashes": [
+                "8ac0f740eabbee78b7a94767bffd1353d6f53dc69394299104e93420910d0de4",
+                "e4286dd4274bf61a3d07cc7460d22966a10501bb728c9b3a1a4229d9329f97f9",
+                "a277b49f15e83c0a49d405713a8ffcfb63a247785440a435d8a94c7035f0eedf",
+                "db6dc54812f1805b5ef7aed0f87432cf593e87acfe73a6bb3752c780753cd77f",
+                "5b9915f157b68275283f97f2f31fd4fe85639e7c4e119ce53c38be7d7ee0122d",
+                "c42cd6b2b304534f3fa8e654ca584a53fe76a1a1252ab7c2c6b42cc2b322313d",
+                "f919f8f58fb6ebdb02cdcd1a63438448ce4dc57067342900b3d787b3a8bbf0ba",
+                "a80723ec17a1305fa8a291e5db4fdcb1f81572ba2d1075435e15cf7238e265ed",
+                "2699c979b98508d64fa7d7e831c4f4c6f6856dd10c40f1744ed42fdb42b68483",
+                "feba154c089d54937a711f540da722f87caf63ac837c7ff63a1bf618df2740b0",
+                "9f7d2e8ba76b3b1ffba5517506e73caf3b50ebb402ea2d436ab60a35be5f3b51",
+                "3631d3b90e00ba697c091c66f98dfe7a8a6d776015af23044f06c12bedd16344",
+                "a45317b676ec178e43172d98ea330334158336338e338b44a81a4b4916115c02",
+                "4ce5eed6cef01bf131c01a2c81c9596ec669e0d1ac54455df9596d76f407e4fa",
+                "76e490b6b0b7ac6f8058695f2a624dd85bc3ef3095396d842aefa885ba9f3939",
+                "b27d84c0e122fb8ef1b82ee75101d92f6fd029a7e9e076b08af697cf210cb3f2",
+                "2405a2acec6b69af03bd173265d3f2b23114986060d75a3d5541a38142c8d0ab",
+                "10dab98e59416b6c5e36ce7394fece632413416cf57b7163ff2791d8feaca653",
+                "e079d6e46de77e3a7a46b376f52dbf7c78f6733495466a89a1ac51e32ef822f8",
+                "c41bbb40cc86c27e63ea9f233a20d0c18f468b2e03fa5deb17cf896c3f5ace6b",
+                "53eda554c63470e3b745cac8d8abc1f5ad4f55042f2a8c86aed8a8ed44183ec5",
+                "5cad4db89df83ced0d0cb3a0682dd59f6c4924800784ddfead431a7bf66ab36c",
+                "da5b66a8c5a7385b0c0261a7051bdac791abb1983b10dfa85118e805b6ef240c",
+                "b220c32854671eccd116021fe8893ad051df3abb773ff484b3b945ce8c0c16d2",
+                "b68c094734ba98b830215d56ee49be2a50117e558448d45d4e6c92d24ddcac89",
+                "5d197c527df4a8a9f26231b997f4b3161ea6e71f1ed3804a3d0370e61f64b717",
+                "e4b9762d6d1dcf6d061893d9e675c03168c96e3218f3b7f4cf82d630412899a8",
+                "daea79d474b394e6895155c4ac7e2c081edc1e3b2160b8000e6b3d905d5f4783",
+                "93318b68be3a3a6638c0cedc4d99c186bfa660ffa0c5f0edf9de3003893ef6f4",
+                "f56dbba6a7a5e00be2a849c14a351a1ea842a0c22efea7a3e45e529d8685babe",
+                "196189c8e7ca32b8b5115b599665594e8af135144be8b4425b463152f08f16c8",
+                "30f062865700cf7961ff9211aab3f6ba1e0e093d66477cfdfc8147db7b58bab8",
+                "692611e254d70a44ca8568fb84d2fcedd4ea1cb568378dc5be1f620e23bd7a58",
+                "a2d67a5de84994b0db9633a2fb42ce4688221563e3f660d56bbc166306dd8793"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00004099200655872105,
+                "sc_c50": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "www.zyuken.net",
+                "jinjibu.jp",
+                "myoji-yurai.net",
+                "www.asahi.com",
+                "woman.excite.co.jp",
+                "full-count.jp",
+                "www.inter-edu.com",
+                "www.tv-asahi.co.jp",
+                "mainichi.jp",
+                "moviewalker.jp",
+                "www.oricon.co.jp",
+                "iphone-mania.jp",
+                "ascii.jp",
+                "www.nikkan-gendai.com",
+                "tokusengai.com",
+                "natgeo.nikkeibp.co.jp",
+                "www.chunichi.co.jp",
+                "bestone.allabout.co.jp",
+                "news.allabout.co.jp",
+                "www.kyounoryouri.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001120245\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "panasonic.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001342459\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "panasonic.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001119825\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "panasonic.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000239349\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "panasonic.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001120701\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "panasonic.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001329967\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "panasonic.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001305009\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "panasonic.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001119829\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "panasonic.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001119949\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "panasonic.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001342531\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "panasonic.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001337585\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "panasonic.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001337586\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "panasonic.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001119953\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "panasonic.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001120772\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "panasonic.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001336802\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "panasonic.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001218065\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "panasonic.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001119755\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "panasonic.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001127661\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "panasonic.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001241039\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "panasonic.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001120243\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99",
+                "b97"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moneyforward.com",
+                "biz.moneyforward.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001168154\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nicovideo.jp",
+                "dic.nicovideo.jp",
+                "live.nicovideo.jp",
+                "manga.nicovideo.jp",
+                "seiga.nicovideo.jp",
+                "www.nicovideo.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001270295\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nicovideo.jp",
+                "dic.nicovideo.jp",
+                "live.nicovideo.jp",
+                "manga.nicovideo.jp",
+                "seiga.nicovideo.jp",
+                "www.nicovideo.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000023693\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jmp.com",
+                "www.jmp.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001232614\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b91"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stripe.com",
+                "dashboard.stripe.com",
+                "docs.stripe.com",
+                "link.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001180245\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servicenow.com",
+                "nowlearning.servicenow.com",
+                "support.servicenow.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001031104\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dmm.com",
+                "eikaiwa.dmm.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001282067\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expy.jp",
+                "smart-ex.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000320055\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b91"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "philippineairlines.com",
+                "flights.philippineairlines.com",
+                "www.philippineairlines.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001124187\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "fril.jp",
+                "item.fril.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001161349\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gamewith.jp",
+                "pokemongo.gamewith.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000067028\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "hp.com",
+                "jp.ext.hp.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000997989\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mercari.com",
+                "jp.mercari.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000300638\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mercari.com",
+                "jp.mercari.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000416949\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99",
+                "b98"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toto.com",
+                "jp.toto.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001254735\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kabutan.jp",
+                "minkabu.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000077439\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001090905\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001082031\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000132650\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000163160\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000163161\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001093633\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000410844\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001244550\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000163158\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001244547\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000161087\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000077438\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001231096\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000160122\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001090943\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000158217\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000077437\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001082915\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000160556\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001090944\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001090901\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001258540\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000210810\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001135560\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001090904\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001082395\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001165085\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001082019\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kakaku.com",
+                "search.kakaku.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001343077\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cainz.com",
+                "magazine.cainz.com",
+                "www.cainz.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001119328\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jreast.co.jp",
+                "www.jreast.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001193978\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jreast.co.jp",
+                "www.jreast.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000390085\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "rakuten-sec.net",
+                "www.rakuten-sec.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001187178\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "rakuten-sec.net",
+                "www.rakuten-sec.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000239001\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "rakuten-sec.net",
+                "www.rakuten-sec.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/js\\/yads\\.js",
+            "cookies": 0.00000683,
+            "fingerprinting": 2,
+            "subdomains": [
+                "yads"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 1,
+                "window.localStorage": 1,
+                "Document.cookie setter": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.width": 1,
+                "window.devicePixelRatio": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4ef5b81de69470244cf4d3bd5e75e7040dfd3d6cd9964127d97d40ce5107ef27"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_yjsu_yjad": {
+                    "ttl": 31536018,
+                    "length": 47,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nikkeibp.co.jp",
+                "www.gizmodo.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001045012\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "network.mobile.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000422648\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rikunabi.com",
+                "next.rikunabi.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001008649\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "p-bandai.jp",
+                "tamashiiweb.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001075144\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99",
+                "b97"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autobacs.com",
+                "www.autobacs.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001222197\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nintendo.com",
+                "store-jp.nintendo.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000412265\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99",
+                "b97"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alpen-group.jp",
+                "store.alpen-group.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001119761\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "united-arrows.co.jp",
+                "store.united-arrows.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001102397\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mynavi.jp",
+                "tenshoku.mynavi.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001111687\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mynavi.jp",
+                "tenshoku.mynavi.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000417083\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ashi-no": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "rakuten.co.jp",
+                "travel.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001074543\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "0101.co.jp",
+                "voi.0101.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000228364\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b97"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "litalico.jp",
+                "works.litalico.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000383525\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99",
+                "b97"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "agaroot.jp",
+                "www.agaroot.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000243822\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ana.co.jp",
+                "www.ana.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001290519\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ana.co.jp",
+                "www.ana.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001027738\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ana.co.jp",
+                "www.ana.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001287976\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ana.co.jp",
+                "www.ana.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000271217\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ana.co.jp",
+                "www.ana.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001339513\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "athome.co.jp",
+                "www.athome.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001125138\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b98",
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biccamera.com",
+                "www.biccamera.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000222427\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b98",
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bookoff.co.jp",
+                "www.bookoff.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000410155\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cmoa.jp",
+                "www.cmoa.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000410241\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cmoa.jp",
+                "www.cmoa.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000410238\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cmoa.jp",
+                "www.cmoa.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001328675\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deel.com",
+                "www.deel.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000390375\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dinos.co.jp",
+                "www.dinos.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001133562\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dospara.co.jp",
+                "www.dospara.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000404935\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "e-sogi.com",
+                "www.e-sogi.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001293136\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "freee.co.jp",
+                "www.freee.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001293135\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "freee.co.jp",
+                "www.freee.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001334564\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "furusato-tax.jp",
+                "www.furusato-tax.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/807368\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hero-wars.com",
+                "www.hero-wars.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000009179\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b97",
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "his-j.com",
+                "www.his-j.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000295799\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "HPJ_RESULT_URL": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "hotpepper.jp",
+                "www.hotpepper.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000227460\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "HPJ_RESULT_URL": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "hotpepper.jp",
+                "www.hotpepper.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000324116\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b91"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "G_ENABLED_IDPS": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "intego.com",
+                "www.intego.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001279122\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b98",
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "irisplaza.co.jp",
+                "www.irisplaza.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000243627\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jal.co.jp",
+                "www.jal.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001291820\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jal.co.jp",
+                "www.jal.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000243533\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jal.co.jp",
+                "www.jal.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000298198\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jal.co.jp",
+                "www.jal.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001270307\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jal.co.jp",
+                "www.jal.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000029693\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jalan.net",
+                "www.jalan.net"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000312580\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jalan.net",
+                "www.jalan.net"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000312582\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jalan.net",
+                "www.jalan.net"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000113455\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jalan.net",
+                "www.jalan.net"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000069229\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jalan.net",
+                "www.jalan.net"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000312581\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jalan.net",
+                "www.jalan.net"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000217386\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jalan.net",
+                "www.jalan.net"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000113456\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jalan.net",
+                "www.jalan.net"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000997978\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jreast.co.jp",
+                "www.jreast.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001115105\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jreast.co.jp",
+                "www.jreast.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001267884\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jreast.co.jp",
+                "www.jreast.co.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/images\\/window\\/006c75a92ba244c6b4cbe2709aa17d7b\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "custom.search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jst.go.jp",
+                "www.jstage.jst.go.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000080414\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b97",
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kosho.or.jp",
+                "www.kosho.or.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000411781\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99",
+                "b97"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kusurinomadoguchi.com",
+                "www.kusurinomadoguchi.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000127559\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b98"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lilysilk.com",
+                "www.lilysilk.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001285570\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mandarinoriental.com",
+                "www.mandarinoriental.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001238727\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "muji.com",
+                "www.muji.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000377955\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "palcloset.jp",
+                "www.palcloset.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000084303\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "patagonia.jp",
+                "www.patagonia.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000053418\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000043478\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001086575\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000428759\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001080245\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001060730\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001072468\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001090172\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001066976\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001029675\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000787685\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000299504\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000299500\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000967791\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000151042\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000993211\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001081584\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001079762\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001053045\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000916253\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001074344\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001076304\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001104806\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001092141\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001093898\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001093162\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001102691\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001134952\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001127434\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001161547\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001174460\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000997949\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001201785\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.jp",
+                "www.sony.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001251461\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "starlux-airlines.com",
+                "www.starlux-airlines.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000043674\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "suntory-kenko.com",
+                "www.suntory-kenko.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000036658\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "suntory-kenko.com",
+                "www.suntory-kenko.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001258312\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "teamlab.art",
+                "www.teamlab.art"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001230380\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tokyodisneyresort.jp",
+                "www.tokyodisneyresort.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000280077\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uqwimax.jp",
+                "www.uqwimax.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001261812\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b97"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wrike.com",
+                "www.wrike.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001022999\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "y-aoyama.jp",
+                "www.y-aoyama.jp"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000089595\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yodobashi.com",
+                "www.yodobashi.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001102625\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yodobashi.com",
+                "www.yodobashi.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1001197738\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yodobashi.com",
+                "www.yodobashi.com"
+            ]
+        },
+        {
+            "rule": "yahoo\\.co\\.jp\\/pagead\\/conversion\\/1000206981\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b99"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yodobashi.com",
+                "www.yodobashi.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {},
+    "cookies": 0.00376,
+    "topInitiators": [
+        {
+            "domain": "yimg.jp",
+            "prevalence": 0.7946151190887124
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.09837763203313774
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.030376251294442526
+        },
+        {
+            "domain": "googleadservices.com",
+            "prevalence": 0.02968588194684156
+        },
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.013117017604418364
+        },
+        {
+            "domain": "geoedge.be",
+            "prevalence": 0.010010355540214014
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.004832585433206766
+        },
+        {
+            "domain": "minmaxify.com",
+            "prevalence": 0.0034518467380048328
+        },
+        {
+            "domain": "contentsquare.net",
+            "prevalence": 0.002416292716603383
+        },
+        {
+            "domain": "mercdn.net",
+            "prevalence": 0.0017259233690024164
+        }
+    ],
+    "types": {
+        "Script": 520,
+        "Fetch": 477,
+        "Image": 396
+    },
+    "nameservers": [
+        "ns12.yahoo.co.jp",
+        "ns02.yahoo.co.jp",
+        "ns01.yahoo.co.jp",
+        "ns11.yahoo.co.jp"
+    ]
+}

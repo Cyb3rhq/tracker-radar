@@ -1,0 +1,143 @@
+{
+    "domain": "com-v1.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00121,
+    "sites": 12,
+    "subdomains": [
+        "geo.cnbc",
+        "www.contact.nespresso"
+    ],
+    "cnames": [
+        {
+            "original": "geo.cnbc.com",
+            "resolved": "geo.cnbc.com-v1.edgekey.net"
+        },
+        {
+            "original": "www.contact.nespresso.com",
+            "resolved": "www.contact.nespresso.com-v1.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "com-v1\\.edgekey\\.net\\/info\\/",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo.cnbc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "geo.cnbc.com",
+                    "resolved": "geo.cnbc.com-v1.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "22010fc4659f0d018645f6a9469d47c4d751fbc624414b42555c47738600dc46"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnbc.com",
+                "www.cnbc.com"
+            ]
+        },
+        {
+            "rule": "com-v1\\.edgekey\\.net\\/apps\\.php",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www.contact.nespresso"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "www.contact.nespresso.com",
+                    "resolved": "www.contact.nespresso.com-v1.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "ad62f9608b69f8fcbd4db92282af00b509f1d532e6c1cd4f3ae37083f730169d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nespresso.com",
+                "www.nespresso.com"
+            ]
+        },
+        {
+            "rule": "com-v1\\.edgekey\\.net\\/apps\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www.contact.nespresso"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "www.contact.nespresso.com",
+                    "resolved": "www.contact.nespresso.com-v1.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "f181923abd5904d23ea211bdfc4616a7ba529676defa6864e203194bc33a764a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nespresso.com",
+                "www.nespresso.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9477611940298507
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.022388059701492536
+        },
+        {
+            "domain": "cnbcfm.com",
+            "prevalence": 0.014925373134328358
+        },
+        {
+            "domain": "toiimg.com",
+            "prevalence": 0.007462686567164179
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.007462686567164179
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Script": 2,
+        "Stylesheet": 2
+    },
+    "nameservers": []
+}

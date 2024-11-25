@@ -1,0 +1,91 @@
+{
+    "domain": "loopclub.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [
+        "recommendations",
+        "assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "loopclub\\.io\\/v2\\/storefront\\/template\\/",
+            "cookies": 0.0000273,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recommendations"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "95018d5e76b75e4a52054b533ffe04d451d59d166eefebf8f77c64a1a5853609",
+                "3985dbce1aa5e14cf61d779973ac6c92896c549e63d1547787d5854e56f8c497",
+                "8aea3d5b45ac5c5cef441806fbf7de5a1593855e183b6b3b0ffedce86f3dbb97"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "rk_uid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "innersensebeauty.com",
+                "lunya.co",
+                "whiteoakpastures.com",
+                "www.sextoy.com"
+            ]
+        },
+        {
+            "rule": "loopclub\\.io\\/recommendations\\/storefront\\/js\\/personalized-recommendations-v1\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "23d412664e103b4bdb27b10975941796a725d05e3880a0247b3d9a43db46df90"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whiteoakpastures.com",
+                "www.sextoy.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000041,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "adel.ns.cloudflare.com",
+        "clay.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,127 @@
+{
+    "domain": "zoho.in",
+    "owner": {
+        "name": "ZOHO Corporation",
+        "displayName": "ZOHO"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [
+        "pagesense-collect",
+        "salesiq"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "zoho\\.in\\/psimg\\.gif",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pagesense-collect"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.00001366400218624035,
+                "zabUserId": 0.00001366400218624035,
+                "zscc5368837f121493d8595be8192bcbf21": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "gabrielny.com",
+                "www.gabrielny.com"
+            ]
+        },
+        {
+            "rule": "zoho\\.in\\/widget",
+            "cookies": 0.0000205,
+            "fingerprinting": 2,
+            "subdomains": [
+                "salesiq"
+            ],
+            "apis": {
+                "window.sessionStorage": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.language": 3,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "9bce16c571c169a4732e8f88abe93b7428707df5ffe057f54dbb1cd0bb2574e9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "indianetconsultantsllp-_zldp": {
+                    "ttl": 63072007,
+                    "length": 81,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "indianetconsultantsllp-_zldt": {
+                    "ttl": 86407,
+                    "length": 38,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "indastro.com",
+                "www.indastro.com",
+                "www.medicalbillersandcoders.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000041,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4166666666666667
+        },
+        {
+            "domain": "pagesense.io",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "maillist-manage.in",
+            "prevalence": 0.08333333333333333
+        }
+    ],
+    "types": {
+        "Ping": 2,
+        "Script": 3
+    },
+    "nameservers": [
+        "PDNS90.ULTRADNS.NET",
+        "PDNS90.ULTRADNS.BIZ",
+        "NS11.ZNS-53.COM",
+        "NS41.ZNS-53.NET",
+        "ns1.zohocorp.COM",
+        "PDNS90.ULTRADNS.COM",
+        "NS21.ZNS-53.NET",
+        "NS31.ZNS-53.COM"
+    ]
+}

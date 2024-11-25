@@ -1,0 +1,319 @@
+{
+    "domain": "funnelback.com",
+    "owner": {
+        "name": "Squiz Australia Pty. Ltd.",
+        "displayName": "Squiz Australia"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000109,
+    "sites": 16,
+    "subdomains": [
+        "delawaregov-search.clients.us",
+        "gonzaga-search.clients.us",
+        "lmu-search.clients.us",
+        "regis-search.clients.us",
+        "t4-search.clients.us",
+        "transurban-search.clients",
+        "unsw-search.clients",
+        "monash-search.clients",
+        "highmonkey-search.clients.us",
+        "uncg-search.clients.us"
+    ],
+    "cnames": [
+        {
+            "original": "search.regis.edu",
+            "resolved": "regis-search.clients.us.funnelback.com"
+        },
+        {
+            "original": "search.uncg.edu",
+            "resolved": "uncg-search.clients.us.funnelback.com"
+        },
+        {
+            "original": "search.unsw.edu.au",
+            "resolved": "unsw-search.clients.funnelback.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "funnelback\\.com\\/s\\/search\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "delawaregov-search.clients.us"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delaware.gov",
+                "www.dhss.delaware.gov"
+            ]
+        },
+        {
+            "rule": "funnelback\\.com\\/stencils\\/resources\\/autocompletion\\/js\\/typeahead\\.bundle-0\\.11\\.1\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gonzaga-search.clients.us",
+                "lmu-search.clients.us",
+                "regis-search.clients.us",
+                "t4-search.clients.us"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "search.regis.edu",
+                    "resolved": "regis-search.clients.us.funnelback.com"
+                }
+            ],
+            "responseHashes": [
+                "456894e2899453bb50d8cdf099140d5bd50be74301e02b9c6d13c26ec42ff97d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gonzaga.edu",
+                "www.gonzaga.edu",
+                "www.lmu.edu",
+                "www.regis.edu",
+                "www.wheaton.edu"
+            ]
+        },
+        {
+            "rule": "funnelback\\.com\\/s\\/resources\\/gonzaga-search\\/_default\\/js\\/typeahead\\.fb-2\\.6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gonzaga-search.clients.us"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fc498529fc5af855ba6e32667aebb2dd3428d43149cd31b104ae3cdae8d618f1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gonzaga.edu",
+                "www.gonzaga.edu"
+            ]
+        },
+        {
+            "rule": "funnelback\\.com\\/s\\/search\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "transurban-search.clients",
+                "unsw-search.clients"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "search.unsw.edu.au",
+                    "resolved": "unsw-search.clients.funnelback.com"
+                }
+            ],
+            "responseHashes": [
+                "b9ae77aae9dd738d680432a8662b0324904a6915f5d3984b0757535ca25867d1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "linkt.com.au",
+                "www.unsw.edu.au"
+            ]
+        },
+        {
+            "rule": "funnelback\\.com\\/stencils\\/resources\\/autocompletion\\/js\\/handlebars\\.min-v4\\.0\\.5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "monash-search.clients",
+                "regis-search.clients.us",
+                "t4-search.clients.us"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "search.regis.edu",
+                    "resolved": "regis-search.clients.us.funnelback.com"
+                }
+            ],
+            "responseHashes": [
+                "121c6721805fae5a7c9fb988d9e7ffa92f7daca3102d93fd1c01e89e01bf2cb0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monash.edu",
+                "www.regis.edu",
+                "www.wheaton.edu"
+            ]
+        },
+        {
+            "rule": "funnelback\\.com\\/s\\/resources-global\\/thirdparty\\/typeahead-0\\.11\\.1\\/typeahead\\.bundle\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "highmonkey-search.clients.us"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "19955f6bbd07594f82d3906d07b9160b48e0796ece86193f0ac2a8d17920905a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rcu.org",
+                "www.rcu.org"
+            ]
+        },
+        {
+            "rule": "funnelback\\.com\\/s\\/resources-global\\/thirdparty\\/handlebars-4\\.0\\.5\\/handlebars\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "highmonkey-search.clients.us"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "644ab1aaafe8f36783f76ff8031d1eef76e5cb78ce22edeaa968bb771a209f77"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rcu.org",
+                "www.rcu.org"
+            ]
+        },
+        {
+            "rule": "funnelback\\.com\\/s\\/resources-global\\/js\\/funnelback\\.autocompletion-2\\.6\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "highmonkey-search.clients.us"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9bd2adfe2d8f5d9fb69b6f883e6f2239b14c7ab9610cc07f74d8b7c7aa5631e1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rcu.org",
+                "www.rcu.org"
+            ]
+        },
+        {
+            "rule": "funnelback\\.com\\/s\\/resources-global\\/css\\/funnelback\\.autocompletion-2\\.6\\.0\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uncg-search.clients.us",
+                "t4-search.clients.us"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "search.uncg.edu",
+                    "resolved": "uncg-search.clients.us.funnelback.com"
+                }
+            ],
+            "responseHashes": [
+                "9212c45b09ea31d33e19de196026f7ea6147500771a1fce18c571caccda40443"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uncg.edu",
+                "www.wheaton.edu"
+            ]
+        },
+        {
+            "rule": "funnelback\\.com\\/s\\/resources\\/wheaton-search\\/_default\\/js\\/typeahead\\.fb-2\\.6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t4-search.clients.us"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wheaton.edu",
+                "www.wheaton.edu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Script": 18,
+        "Fetch": 2,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns-597.awsdns-10.net",
+        "ns-140.awsdns-17.com",
+        "ns-1974.awsdns-54.co.uk",
+        "ns-1282.awsdns-32.org"
+    ]
+}

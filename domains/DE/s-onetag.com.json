@@ -1,0 +1,170 @@
+{
+    "domain": "s-onetag.com",
+    "owner": {
+        "name": "Sovrn Holdings",
+        "displayName": "Sovrn Holdings",
+        "privacyPolicy": "https://www.sovrn.com/sovrn-legal-policies/",
+        "url": "http://sovrn.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "get",
+        "onetag-geo",
+        "signal-beacon"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "s-onetag\\.com\\/c15ddde9-ec7d-4a49-b8ca-7a21bc4b943b\\/tag\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "get"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e39d228306116fe0f679568395d93fb09a4b50aee8e5960c46778083b728c2e2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnn.com",
+                "www.cnn.com"
+            ]
+        },
+        {
+            "rule": "s-onetag\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "onetag-geo"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "f51938710e179807bbf1be9a1e9d7e3441fa74e7dfe9f46841914fb12ca7de3c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnn.com",
+                "www.cnn.com",
+                "www.ichkoche.de",
+                "www.ichkoche.at"
+            ]
+        },
+        {
+            "rule": "s-onetag\\.com\\/beacon\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "signal-beacon"
+            ],
+            "apis": {
+                "window.localStorage": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "e9507d30d1cf0af2969ef782d8ae1bcd30e2661d9dc1d34902f910d7bf4f69ca"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnn.com",
+                "www.cnn.com",
+                "www.ichkoche.de",
+                "www.ichkoche.at"
+            ]
+        },
+        {
+            "rule": "s-onetag\\.com\\/6a105cf8-5d47-4e0a-8c4b-7c60422256d2\\/tag\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "get"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "frankysweb.de",
+                "www.frankysweb.de"
+            ]
+        },
+        {
+            "rule": "s-onetag\\.com\\/e2836903-2ea1-4955-9028-2932e7caaacd\\/tag\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "get"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "18377a1a123de44a64bdc351773a2a86d70c44d3dea1100ac8f33a387c2fddae"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ichkoche.de",
+                "www.ichkoche.at"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "pixfuture.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns-13.awsdns-01.com",
+        "ns-1395.awsdns-46.org",
+        "ns-1550.awsdns-01.co.uk",
+        "ns-697.awsdns-23.net"
+    ]
+}

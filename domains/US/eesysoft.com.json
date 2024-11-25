@@ -1,0 +1,96 @@
+{
+    "domain": "eesysoft.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "gmu",
+        "fft",
+        "unt-canvas"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "eesysoft\\.com\\/resources\\/js\\/canvas\\/launch\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gmu",
+                "fft",
+                "unt-canvas"
+            ],
+            "apis": {
+                "window.sessionStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "0cd419c3e1099bcab8ce706ceca627e409cbbc75d3ef0be3452cd113422aa950"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmu.edu",
+                "canvas.instructure.com",
+                "unt.instructure.com"
+            ]
+        },
+        {
+            "rule": "eesysoft\\.com\\/rest\\/public\\/canvasLaunchSettings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gmu",
+                "fft",
+                "unt-canvas"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "a5c4a0153ef78523a603bd3f2754cb1dcbd5cc14293c52b8500522634e868749",
+                "1a3a74919e14bd5b084f736359f7dd82cf40b9a55321084ac5f2663eb5e9fd39"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmu.edu",
+                "canvas.instructure.com",
+                "unt.instructure.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "du11hjcvx0uqb.cloudfront.net",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "instructure-uploads.s3.amazonaws.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "fonzie.ns.cloudflare.com",
+        "emerie.ns.cloudflare.com"
+    ]
+}

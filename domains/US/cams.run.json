@@ -1,0 +1,86 @@
+{
+    "domain": "cams.run",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "matomo.prod",
+        "sentry-new"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "cams\\.run\\/piwik\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "matomo.prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "CAMS_MTPID": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "cams.com",
+                "pornoseiten.net"
+            ]
+        },
+        {
+            "rule": "cams\\.run\\/api\\/5\\/envelope\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sentry-new"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "747f2497037da59b578c9063cc5812da931e123de987a2e5bd652047a93bb693"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cams.com",
+                "pornoseiten.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "edgecastcdn.net",
+            "prevalence": 0.9230769230769231
+        },
+        {
+            "domain": "securedataimages.com",
+            "prevalence": 0.07692307692307693
+        }
+    ],
+    "types": {
+        "Ping": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-cloud-a4.googledomains.com",
+        "ns-cloud-a2.googledomains.com",
+        "ns-cloud-a3.googledomains.com",
+        "ns-cloud-a1.googledomains.com"
+    ]
+}

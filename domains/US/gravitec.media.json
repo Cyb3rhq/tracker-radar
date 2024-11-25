@@ -1,0 +1,148 @@
+{
+    "domain": "gravitec.media",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000642,
+    "sites": 94,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "gravitec\\.media\\/track\\.min\\.js",
+            "cookies": 0.000519,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 77,
+                "Date.prototype.getTime": 77,
+                "Document.cookie setter": 76
+            },
+            "sites": 78,
+            "prevalence": 0.000533,
+            "cnames": [],
+            "responseHashes": [
+                "7d55d36ab7029a3ac11096692671cdfc36fa8446e8cf7584fc23de06074b0f85"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "GN_USER_ID_KEY": {
+                    "ttl": 63072005,
+                    "length": 36,
+                    "prevalence": 0.0005192320830771333,
+                    "uniqueness": 1
+                },
+                "GN_SESSION_ID_KEY": {
+                    "ttl": 1805,
+                    "length": 36,
+                    "prevalence": 0.0005192320830771333,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "utforskasinnet.se",
+                "hotline.ua",
+                "www.tiempo.com",
+                "www.ecartelera.com",
+                "polki.pl",
+                "entries.horseracingnation.com",
+                "brickset.com",
+                "www.elle.pl",
+                "www.ecranlarge.com",
+                "www.obozrevatel.com",
+                "www.bolsamania.com",
+                "mentalmars.com",
+                "thealabamabaptist.org",
+                "bedrelivsstil.dk",
+                "decine21.com",
+                "stegforhalsa.se",
+                "www.gazetaesportiva.com",
+                "jus.com.br",
+                "www.salon24.pl",
+                "www.kyivpost.com"
+            ]
+        },
+        {
+            "rule": "gravitec\\.media\\/api\\/stats\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 78,
+            "prevalence": 0.000533,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "GN_USER_ID_KEY": 0.0005192320830771333,
+                "GN_SESSION_ID_KEY": 0.0005192320830771333,
+                "_li_dcdm_c": 0.0000273280043724807,
+                "lotame_domain_check": 0.00011614401858304297
+            },
+            "exampleSites": [
+                "www.medievalists.net",
+                "www.laprensagrafica.com",
+                "www.prensalibre.com",
+                "freemasonscommunity.life",
+                "bolavip.com",
+                "www.elle.pl",
+                "decine21.com",
+                "wizaz.pl",
+                "www.culturequizz.com",
+                "www.glamour.pl",
+                "www.estadiodeportivo.com",
+                "www.eluniversal.com.co",
+                "myislam.org",
+                "www.yourweather.co.uk",
+                "www.salon24.pl",
+                "bedrelivsstil.dk",
+                "slowcookersociety.com",
+                "www.koncertomania.pl",
+                "lamenteesmaravillosa.com",
+                "www.newtral.es"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000622,
+    "topInitiators": [
+        {
+            "domain": "gravitec.net",
+            "prevalence": 0.8431372549019608
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.12745098039215685
+        },
+        {
+            "domain": "ezojs.com",
+            "prevalence": 0.0196078431372549
+        },
+        {
+            "domain": "adlightning.com",
+            "prevalence": 0.00980392156862745
+        }
+    ],
+    "types": {
+        "Script": 78,
+        "Fetch": 78
+    },
+    "nameservers": [
+        "thomas.ns.cloudflare.com",
+        "chan.ns.cloudflare.com"
+    ]
+}

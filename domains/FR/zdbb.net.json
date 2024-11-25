@@ -1,0 +1,246 @@
+{
+    "domain": "zdbb.net",
+    "owner": {
+        "name": "Ziff Davis LLC",
+        "displayName": "Ziff Davis"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000202,
+    "sites": 2,
+    "subdomains": [
+        "cdn.static",
+        "gurgle",
+        "jogger"
+    ],
+    "cnames": [
+        {
+            "original": "gurgle.spiceworks.com",
+            "resolved": "gurgle.zdbb.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "zdbb\\.net\\/js\\/z0WVjCBSEeGLoxIxOQVEwQ\\.min\\.js",
+            "cookies": 0.000202,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.static"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {
+                "zd_session_id": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.00020153164046755341,
+                    "uniqueness": 1
+                },
+                "fu": {
+                    "ttl": 2592008,
+                    "length": 1,
+                    "prevalence": 0.00020153164046755341,
+                    "uniqueness": 0.5
+                },
+                "zpack": {
+                    "ttl": null,
+                    "length": 317,
+                    "prevalence": 0.00020153164046755341,
+                    "uniqueness": 1
+                },
+                "h_zdbb": {
+                    "ttl": 15552017,
+                    "length": 32,
+                    "prevalence": 0.00010076582023377671,
+                    "uniqueness": 1
+                },
+                "lrswap": {
+                    "ttl": 15552019,
+                    "length": 1,
+                    "prevalence": 0.00010076582023377671,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiceworks.com",
+                "lifehacker.com"
+            ]
+        },
+        {
+            "rule": "zdbb\\.net\\/eu\\/js\\/z0WVjCBSEeGLoxIxOQVEwQ\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "ab28b6f817ccd9c8bd018d273a6ed47a47b6c95e1b655010fe909c7d5f1627f5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiceworks.com",
+                "lifehacker.com"
+            ]
+        },
+        {
+            "rule": "zdbb\\.net\\/check_c",
+            "cookies": 0.000202,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiceworks.com",
+                "lifehacker.com"
+            ]
+        },
+        {
+            "rule": "zdbb\\.net\\/info",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gurgle"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [
+                {
+                    "original": "gurgle.spiceworks.com",
+                    "resolved": "gurgle.zdbb.net"
+                }
+            ],
+            "responseHashes": [
+                "9824c337310402c83c6a7aad858f5ffe64d0ceacb93490066abf047291a74064",
+                "9c8d741c885aea8c68deede8ce5152c9a3dc592111648489c1c61156e4df63a1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.00020153164046755341
+            },
+            "exampleSites": [
+                "spiceworks.com",
+                "community.spiceworks.com",
+                "lifehacker.com"
+            ]
+        },
+        {
+            "rule": "zdbb\\.net\\/l\\/z0WVjCBSEeGLoxIxOQVEwQ",
+            "cookies": 0.000202,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.00010076582023377671,
+                "zd_session_id": 0.00020153164046755341,
+                "h_zdbb": 0.00010076582023377671
+            },
+            "exampleSites": [
+                "spiceworks.com",
+                "lifehacker.com"
+            ]
+        },
+        {
+            "rule": "zdbb\\.net\\/check",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jogger"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "4e523a5ae5b4636c75901b79fafbd3912e41dc7987414e688b09d4b436ff22b3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.00010076582023377671
+            },
+            "exampleSites": [
+                "spiceworks.com",
+                "lifehacker.com"
+            ]
+        },
+        {
+            "rule": "zdbb\\.net\\/js\\/zd-core-olt\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "1331ce07d67579b7a85c3f1deb9479460b198356c6d1aee8de72daa1d5e377b2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiceworks.com",
+                "lifehacker.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000202,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "zdbb.net",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "XHR": 7,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-164.awsdns-20.com",
+        "ns-982.awsdns-58.net",
+        "ns-1537.awsdns-00.co.uk",
+        "ns-1353.awsdns-41.org"
+    ]
+}

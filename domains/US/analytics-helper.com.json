@@ -1,0 +1,141 @@
+{
+    "domain": "analytics-helper.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000547,
+    "sites": 8,
+    "subdomains": [
+        "tag",
+        "event"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "analytics-helper\\.com\\/ans\\/uuid",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1b95fbd7ed13f02438448c4590e7be001c098a169f90ce8a27217116cb7d449b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ga_helper_consent": {
+                    "ttl": 31104004,
+                    "length": 99,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lefigaro.fr",
+                "immobilier.lefigaro.fr"
+            ]
+        },
+        {
+            "rule": "analytics-helper\\.com\\/g\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "event"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "lefigaro.fr",
+                "www.centrepompidou.fr",
+                "www.valeursactuelles.com"
+            ]
+        },
+        {
+            "rule": "analytics-helper\\.com\\/ans\\/ga",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "abf906c895c2547a76442925602e03c2c81d541efca73e927ae1d2a5e0271d6d",
+                "a2f12387ea0113cc9b68b1dc3ded5ba03f022a650aa8e390c1a179a792760563"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ga_helper_consent": {
+                    "ttl": 31104003,
+                    "length": 108,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cidj.com",
+                "www.mesopinions.com",
+                "www.michelin.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000273,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5833333333333334
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "google-analytics.com",
+            "prevalence": 0.08333333333333333
+        },
+        {
+            "domain": "consentframework.com",
+            "prevalence": 0.08333333333333333
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 3
+    },
+    "nameservers": [
+        "jihoon.ns.cloudflare.com",
+        "raphaela.ns.cloudflare.com"
+    ]
+}

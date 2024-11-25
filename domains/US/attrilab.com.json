@@ -1,0 +1,115 @@
+{
+    "domain": "attrilab.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "attrilab\\.com\\/traffic\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "d2451d6ccfbafaffc876378be62d2d388f0e50220d27642adb3f196ca85268b3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_attb": {
+                    "ttl": 31104000,
+                    "length": 531,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "atseuromaster.co.uk",
+                "www.euromaster.de",
+                "www.euromaster.nl"
+            ]
+        },
+        {
+            "rule": "attrilab\\.com\\/api\\/traffics",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dcc0b0c77de819e91dc3574d4858e5521cdadd8c84107777c3cdbe3a98f09336"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "atseuromaster.co.uk",
+                "www.euromaster.de"
+            ]
+        },
+        {
+            "rule": "attrilab\\.com\\/api\\/traffics",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "atseuromaster.co.uk",
+                "www.euromaster.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns1.o2switch.net",
+        "ns2.o2switch.net"
+    ]
+}

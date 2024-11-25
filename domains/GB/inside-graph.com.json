@@ -1,0 +1,385 @@
+{
+    "domain": "inside-graph.com",
+    "owner": {
+        "name": "Michael Browitt",
+        "displayName": "Michael Browitt"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "eu2-track",
+        "au-tracker",
+        "eu3-track",
+        "eu2-cdn",
+        "sephora-track",
+        "eu2-live",
+        "au-live",
+        "eu3-live",
+        "sephora-live",
+        "au-cdn",
+        "eu3-cdn",
+        "sephora-cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "inside-graph\\.com\\/gtm\\/IN-1000855\\/include\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "eu2-track"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "feb98fcac292b48d4cf750bc917b51d341a22ca03d5a9371946a7e94f7168e2b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lenovo.com",
+                "www.lenovo.com"
+            ]
+        },
+        {
+            "rule": "inside-graph\\.com\\/ig\\.js",
+            "cookies": 0.000703,
+            "fingerprinting": 3,
+            "subdomains": [
+                "eu2-track",
+                "au-tracker",
+                "eu3-track",
+                "eu2-cdn",
+                "sephora-track"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 7,
+                "Document.cookie getter": 7,
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.platform": 7,
+                "window.localStorage": 7,
+                "Date.prototype.getTime": 7,
+                "Document.cookie setter": 7,
+                "Navigator.prototype.language": 7,
+                "Date.prototype.getTimezoneOffset": 7,
+                "Screen.prototype.width": 7,
+                "Screen.prototype.height": 7,
+                "Navigator.prototype.appVersion": 6,
+                "Navigator.prototype.mediaDevices": 6,
+                "MediaDevices.prototype.enumerateDevices": 6,
+                "Element.prototype.getClientRects": 2
+            },
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "bbea61ce250d175f19fd97788639ffe5390c0438e97e97b34e4ffb887ba068d3",
+                "3f44bccf419b07553e5f7a11554fe4f14ccccea6b1603fb14e1782e3e8a0b237",
+                "78f2b6855a1708d352acc22ad8d9dccaba3ef6d6a182d4a23b05ff731597d71b",
+                "79048df7b300c41cdce72b52a3ac6d6f19cdf7cca0e95aa59f70e4ee62b16d78"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "inside-eu2": {
+                    "ttl": 31536009,
+                    "length": 78,
+                    "prevalence": 0.0003013863773357444,
+                    "uniqueness": 1
+                },
+                "inside-au": {
+                    "ttl": 31536010,
+                    "length": 79,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                },
+                "inside-sephora": {
+                    "ttl": 31536019,
+                    "length": 79,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lenovo.com",
+                "uk.tempur.com",
+                "www.davidjones.com",
+                "www.gucci.com",
+                "www.lenovo.com",
+                "www.sageappliances.com",
+                "www.sephora.com"
+            ]
+        },
+        {
+            "rule": "inside-graph\\.com\\/config",
+            "cookies": 0.000703,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu2-live",
+                "au-live",
+                "eu3-live",
+                "sephora-live"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "bb2c743afe27a91d94e1678bdcb3ac91c07658769136adec200b714dfb6a78c8",
+                "4a337cd6136317479f86aaae29f42ec5ea22826fa9126bb38fb3184a64fae786",
+                "4f4c8e759f08cc746c0a3e07ec8c95c21a49254f3129c2dba809ace4ef647be7",
+                "db49b53663687c32ec1c92156231d6d130586110a7fb2022a6d4f4bec2162644",
+                "49df1d673efc36919268645561291c838b576561d445be71704a9a4ed1b79a3f",
+                "6c0d20b477ec1b055c5462ce024198721448bfdb6be19a761dcb94a155bddaff"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.00020092425155716296
+            },
+            "exampleSites": [
+                "lenovo.com",
+                "uk.tempur.com",
+                "www.davidjones.com",
+                "www.gucci.com",
+                "www.lenovo.com",
+                "www.sageappliances.com",
+                "www.sephora.com"
+            ]
+        },
+        {
+            "rule": "inside-graph\\.com\\/page\\/cf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu2-live",
+                "au-live",
+                "eu3-live",
+                "sephora-live"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "d0aa21714654237f0926d630dba28ef6b4c3aaa1e8d6c3441a9b6f4619d3f306",
+                "2e4773761be0795b06df64c01bc99f6330cad82cc36679e3c62884b27fbb6d50",
+                "3b178b4bb3f8c41972cd610c30a834120986aa615a4d190a9a01466685dcef2e",
+                "072e4cbfd726c44ae7c425ab1bc6e5167650ef1df816f6ea5bb86b92fb049662",
+                "a85d6003ab2fa95d8c6692d4af0905dcf5d2592f27b2cb2ad54e236199e2b355",
+                "4d3fb3da93e9daa3e079cb43fcd857705f38d7b802a64c59c7228ab695996616"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lenovo.com",
+                "uk.tempur.com",
+                "www.davidjones.com",
+                "www.gucci.com",
+                "www.lenovo.com",
+                "www.sageappliances.com",
+                "www.sephora.com"
+            ]
+        },
+        {
+            "rule": "inside-graph\\.com\\/\\/js\\/frontend-framework\\.js\\.bundle",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "eu2-cdn",
+                "au-cdn",
+                "eu3-cdn",
+                "sephora-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.appName": 5,
+                "Date.prototype.getTime": 5,
+                "Navigator.prototype.platform": 5,
+                "window.innerHeight": 5,
+                "window.innerWidth": 5,
+                "window.sessionStorage": 5,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "c56b64061c466dd911d957066c0e2fa6b9b5e15e3b887f38d7a2bff6bf1348ac",
+                "b08867700c96665bb856c0e8ba1ed11018671363e1cdcb872785cc1ae7162b83",
+                "1f036e11680277adc2dd868b0e72684dd28cb4e3f4782b661f49647f26990aad"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tempur.com",
+                "www.davidjones.com",
+                "www.gucci.com",
+                "www.lenovo.com",
+                "www.sageappliances.com",
+                "www.sephora.com"
+            ]
+        },
+        {
+            "rule": "inside-graph\\.com\\/signalr\\/negotiate",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu2-live",
+                "au-live",
+                "eu3-live",
+                "sephora-live"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "853d4b2f416b330ee7509ccd7c59d7781916a191696075a66c9674a81f0ca546",
+                "52e7d534044265e3572e7a557f56dac4cc5799d03c6780236bf95dd585dae874",
+                "6058974ec2707780d2767ce26c0dbf39f9cdd38925874f55695cc0093545972a",
+                "0ba5d3c16ed3b265f17fad716be66c4e7677f0e379d1e803ec096eaefc7cedc0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tempur.com",
+                "www.davidjones.com",
+                "www.gucci.com",
+                "www.sageappliances.com",
+                "www.sephora.com"
+            ]
+        },
+        {
+            "rule": "inside-graph\\.com\\/\\/ig\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu2-cdn",
+                "au-cdn",
+                "eu3-cdn",
+                "sephora-cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "097ece141436f930315dd1ef80c15e89a1a1bc2eaaf634e96d4d53c1b0d07cfc"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tempur.com",
+                "www.davidjones.com",
+                "www.gucci.com",
+                "www.sageappliances.com",
+                "www.sephora.com"
+            ]
+        },
+        {
+            "rule": "inside-graph\\.com\\/signalr\\/connect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu2-live",
+                "au-live",
+                "eu3-live",
+                "sephora-live"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tempur.com",
+                "www.davidjones.com",
+                "www.gucci.com",
+                "www.sageappliances.com",
+                "www.sephora.com"
+            ]
+        },
+        {
+            "rule": "inside-graph\\.com\\/signalr\\/start",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu2-live",
+                "au-live",
+                "eu3-live",
+                "sephora-live"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "c50a0366bab0d95bd0dfbbf67ed889b5fd383ee7464a77660088c32e4ef91c20"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tempur.com",
+                "www.davidjones.com",
+                "www.gucci.com",
+                "www.sageappliances.com",
+                "www.sephora.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000703,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5135135135135135
+        },
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.2972972972972973
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.08108108108108109
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.05405405405405406
+        },
+        {
+            "domain": "dynatrace.com",
+            "prevalence": 0.05405405405405406
+        }
+    ],
+    "types": {
+        "Script": 15,
+        "XHR": 24,
+        "Stylesheet": 5,
+        "WebSocket": 5
+    },
+    "nameservers": [
+        "ns-449.awsdns-56.com",
+        "ns-1621.awsdns-10.co.uk",
+        "ns-1314.awsdns-36.org",
+        "ns-753.awsdns-30.net"
+    ]
+}

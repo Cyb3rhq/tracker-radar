@@ -1,0 +1,197 @@
+{
+    "domain": "grv.media",
+    "owner": {
+        "name": "GRV Media",
+        "displayName": "GRV Media"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000615,
+    "sites": 9,
+    "subdomains": [
+        "client"
+    ],
+    "cnames": [
+        {
+            "original": "prop.bloodyelbow.com",
+            "resolved": "client.grv.media"
+        },
+        {
+            "original": "prop.faroutmagazine.co.uk",
+            "resolved": "client.grv.media"
+        },
+        {
+            "original": "prop.manchestersfinest.com",
+            "resolved": "client.grv.media"
+        },
+        {
+            "original": "prop.sportsmole.co.uk",
+            "resolved": "client.grv.media"
+        },
+        {
+            "original": "prop.the-yorkshireman.com",
+            "resolved": "client.grv.media"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "grv\\.media\\/loader\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 3,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [
+                {
+                    "original": "prop.bloodyelbow.com",
+                    "resolved": "client.grv.media"
+                },
+                {
+                    "original": "prop.faroutmagazine.co.uk",
+                    "resolved": "client.grv.media"
+                },
+                {
+                    "original": "prop.manchestersfinest.com",
+                    "resolved": "client.grv.media"
+                },
+                {
+                    "original": "prop.sportsmole.co.uk",
+                    "resolved": "client.grv.media"
+                }
+            ],
+            "responseHashes": [
+                "8837b47ca6bf06324a6a98c347a864b76cbb6cf069eca81fcca4486803e067e3",
+                "26f3131fa4c6dbbcb6444bd41c826944523a6ff75cfb7ecb11ac3b193b6db79a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bloodyelbow.com",
+                "faroutmagazine.co.uk",
+                "www.manchestersfinest.com",
+                "www.sportsmole.co.uk"
+            ]
+        },
+        {
+            "rule": "grv\\.media\\/uuid",
+            "cookies": 0.0000273,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [
+                {
+                    "original": "prop.bloodyelbow.com",
+                    "resolved": "client.grv.media"
+                },
+                {
+                    "original": "prop.faroutmagazine.co.uk",
+                    "resolved": "client.grv.media"
+                },
+                {
+                    "original": "prop.the-yorkshireman.com",
+                    "resolved": "client.grv.media"
+                },
+                {
+                    "original": "prop.manchestersfinest.com",
+                    "resolved": "client.grv.media"
+                }
+            ],
+            "responseHashes": [
+                "0195501384e2e085170bb466ddbdf0d7bcb66273fd32e86c031fdcaf0570816c",
+                "4fd187d9af3875e106a58f271f9f78710973980f06a29eb8838b3f51cd018a29",
+                "7875c78405dd5bce999b64e2fa8dea4b4d343cd45ac4ea1ac8e3548f2f2ee585"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bloodyelbow.com",
+                "faroutmagazine.co.uk",
+                "the-yorkshireman.com",
+                "www.manchestersfinest.com"
+            ]
+        },
+        {
+            "rule": "grv\\.media\\/analysis",
+            "cookies": 0.0000273,
+            "fingerprinting": 0,
+            "subdomains": [
+                "client"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [
+                {
+                    "original": "prop.bloodyelbow.com",
+                    "resolved": "client.grv.media"
+                },
+                {
+                    "original": "prop.faroutmagazine.co.uk",
+                    "resolved": "client.grv.media"
+                },
+                {
+                    "original": "prop.the-yorkshireman.com",
+                    "resolved": "client.grv.media"
+                },
+                {
+                    "original": "prop.manchestersfinest.com",
+                    "resolved": "client.grv.media"
+                }
+            ],
+            "responseHashes": [
+                "843ac01149cced785dfebd0028d3b03ba78e286e1c6f9517ebfcdb609d97af4c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "source": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "bloodyelbow.com",
+                "faroutmagazine.co.uk",
+                "the-yorkshireman.com",
+                "www.manchestersfinest.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000041,
+    "topInitiators": [
+        {
+            "domain": "grv.media",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.3125
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "ampproject.org",
+            "prevalence": 0.0625
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 8
+    },
+    "nameservers": [
+        "emily.ns.cloudflare.com",
+        "amit.ns.cloudflare.com"
+    ]
+}

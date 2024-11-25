@@ -1,0 +1,64 @@
+{
+    "domain": "anycast.me",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.00101,
+    "sites": 10,
+    "subdomains": [
+        "static.aujardin.info.web.cdn"
+    ],
+    "cnames": [
+        {
+            "original": "static.aujardin.info",
+            "resolved": "static.aujardin.info.web.cdn.anycast.me"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "anycast\\.me\\/js\\/sticky-sidebar\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static.aujardin.info.web.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [
+                {
+                    "original": "static.aujardin.info",
+                    "resolved": "static.aujardin.info.web.cdn.anycast.me"
+                }
+            ],
+            "responseHashes": [
+                "245edcb3bae098ec5ef07050464bd1e7c5d05d10629a1882eaad603330fea308"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aujardin.info",
+                "www.aujardin.info"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000403,
+    "topInitiators": [
+        {
+            "domain": "jquery.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns200.anycast.me",
+        "dns200.anycast.me"
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "domain": "hydro.online",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000888,
+    "sites": 13,
+    "subdomains": [
+        "track",
+        "api-analytics"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "hydro\\.online\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "track"
+            ],
+            "apis": {
+                "BroadcastChannel.prototype.constructor": 6
+            },
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "18c586d925c5bf9e1dc878edc7b1b952e42039e7a80aedbb843fc4ed85b79ba3",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "everyone.chat",
+                "grok-ai.app",
+                "hearthstone-decks.net",
+                "nwdb.info",
+                "ptr.nwdb.info",
+                "soapoperamagazine.com",
+                "weaponsandwarfare.com",
+                "www.theburningplatform.com"
+            ]
+        },
+        {
+            "rule": "hydro\\.online\\/hydro-ping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-analytics"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "everyone.chat",
+                "grok-ai.app",
+                "hearthstone-decks.net",
+                "nwdb.info",
+                "ptr.nwdb.info",
+                "soapoperamagazine.com",
+                "weaponsandwarfare.com"
+            ]
+        },
+        {
+            "rule": "hydro\\.online\\/hydro-ping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-analytics"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [
+                "68e7a69974a641064a6a5ae8b1a00997939a325ec585a49e9fe82b386a21726a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "everyone.chat",
+                "grok-ai.app",
+                "hearthstone-decks.net",
+                "nwdb.info",
+                "ptr.nwdb.info",
+                "soapoperamagazine.com",
+                "weaponsandwarfare.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7931034482758621
+        },
+        {
+            "domain": "podcastcontents.com",
+            "prevalence": 0.20689655172413793
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Preflight": 7,
+        "XHR": 7
+    },
+    "nameservers": [
+        "sri.ns.cloudflare.com",
+        "gracie.ns.cloudflare.com"
+    ]
+}

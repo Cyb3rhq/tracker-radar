@@ -1,0 +1,149 @@
+{
+    "domain": "rciservices.eu",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "prod"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "rciservices\\.eu\\/proxy\\/js\\/latest\\/RCIFinancialProxy\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2,
+                "window.sessionStorage": 2,
+                "Event.prototype.timeStamp": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c6e931b6b9c4477ac76e3b4d36f2b6655acd0bfab5ade427efc7ecae392574cb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dacia.fr",
+                "www.renault.es"
+            ]
+        },
+        {
+            "rule": "rciservices\\.eu\\/services-dispatcher\\/result_do\\.json",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dacia.fr",
+                "www.renault.es"
+            ]
+        },
+        {
+            "rule": "rciservices\\.eu\\/services-dispatcher\\/result_do\\.json",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "de31e62f20318061660d3982d4069c299440bbc6f0e14d8552fa74de61b27dff"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dacia.fr",
+                "www.renault.es"
+            ]
+        },
+        {
+            "rule": "rciservices\\.eu\\/rci-rest-proxy\\/storage\\/prod\\/renault\\/es\\/ONE",
+            "cookies": 0.00000683,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "18c31e5b570e870bf6613082df5528b34eaecb7a843248a52fb423aa60846563"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "renault.es",
+                "www.renault.es"
+            ]
+        },
+        {
+            "rule": "rciservices\\.eu\\/rci-rest-proxy\\/config\\/prod\\/renault\\/es",
+            "cookies": 0.00000683,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9d103a2ebff72696fb9eeedde09f45145479ecee6bfd3eb8d532a34c428945aa"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "renault.es",
+                "www.renault.es"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Preflight": 2,
+        "XHR": 6
+    },
+    "nameservers": [
+        "ns-cloud-a1.googledomains.com",
+        "ns-cloud-a2.googledomains.com",
+        "ns-cloud-a3.googledomains.com",
+        "ns-cloud-a4.googledomains.com"
+    ]
+}

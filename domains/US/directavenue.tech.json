@@ -1,0 +1,118 @@
+{
+    "domain": "directavenue.tech",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000615,
+    "sites": 9,
+    "subdomains": [
+        "sdk.tg",
+        "tracker.tg",
+        "cdn.tg"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "directavenue\\.tech\\/da-sdk\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sdk.tg"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "window.localStorage": 5,
+                "Document.cookie setter": 3
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "eb0c34c1f671d75945685101b88fc9f12cec21b218f3377fc4916463fc80c106"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_da_cuuid": {
+                    "ttl": 2592007,
+                    "length": 36,
+                    "prevalence": 0.000020496003279360526,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancientnutrition.com",
+                "dimebeautyco.com",
+                "knix.com",
+                "www.everydaydose.com",
+                "www.uprinting.com"
+            ]
+        },
+        {
+            "rule": "directavenue\\.tech\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker.tg"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_da_cuuid": 0.000020496003279360526
+            },
+            "exampleSites": [
+                "ancientnutrition.com",
+                "knix.com",
+                "www.uprinting.com"
+            ]
+        },
+        {
+            "rule": "directavenue\\.tech\\/Everyday\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.tg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4fd0bc79f41305a74a2edcda58b5120f86811f2c32c2119ecdeda232196eb518"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "everydaydose.com",
+                "www.everydaydose.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns6383.hostgator.com",
+        "ns6384.hostgator.com"
+    ]
+}

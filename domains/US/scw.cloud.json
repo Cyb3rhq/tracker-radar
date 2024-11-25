@@ -1,0 +1,108 @@
+{
+    "domain": "scw.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "beurercomsgtmczp948cc-beurersgtm.functions.fnc.fr-par",
+        "googletagmanagerzdbspxag-tagging.functions.fnc.nl-ams"
+    ],
+    "cnames": [
+        {
+            "original": "data.beurer.com",
+            "resolved": "beurercomsgtmczp948cc-beurersgtm.functions.fnc.fr-par.scw.cloud"
+        },
+        {
+            "original": "data.taschen.com",
+            "resolved": "googletagmanagerzdbspxag-tagging.functions.fnc.nl-ams.scw.cloud"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "scw\\.cloud\\/gtm\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "beurercomsgtmczp948cc-beurersgtm.functions.fnc.fr-par",
+                "googletagmanagerzdbspxag-tagging.functions.fnc.nl-ams"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "data.beurer.com",
+                    "resolved": "beurercomsgtmczp948cc-beurersgtm.functions.fnc.fr-par.scw.cloud"
+                },
+                {
+                    "original": "data.taschen.com",
+                    "resolved": "googletagmanagerzdbspxag-tagging.functions.fnc.nl-ams.scw.cloud"
+                }
+            ],
+            "responseHashes": [
+                "2f6971b1bd655569384056a03888fee1053b3d4960faf08450b9fec1e14bcfda"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beurer.com",
+                "www.taschen.com"
+            ]
+        },
+        {
+            "rule": "scw\\.cloud\\/g\\/collect",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beurercomsgtmczp948cc-beurersgtm.functions.fnc.fr-par"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "data.beurer.com",
+                    "resolved": "beurercomsgtmczp948cc-beurersgtm.functions.fnc.fr-par.scw.cloud"
+                }
+            ],
+            "responseHashes": [
+                "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beurer.com",
+                "www.beurer.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8695652173913043
+        },
+        {
+            "domain": "kameleoonglobalscript.js",
+            "prevalence": 0.13043478260869565
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "nsb.scaleway.com",
+        "nsc.scaleway.com",
+        "nsa.scaleway.com",
+        "nsd.scaleway.com"
+    ]
+}

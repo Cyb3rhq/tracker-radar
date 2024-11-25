@@ -1,0 +1,175 @@
+{
+    "domain": "automizely.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00191,
+    "sites": 19,
+    "subdomains": [
+        "widgets",
+        "sdks",
+        "bff-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "automizely\\.com\\/aftership\\/gmv\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.00151,
+            "cnames": [],
+            "responseHashes": [
+                "fa6d8b1d9f90c2895bc56260b2b56b36a881483dd11b1f4c8edd68b84d2eda8b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yeti.com",
+                "gymdirect.com.au",
+                "kidsmegamart.com.au",
+                "missamara.com.au",
+                "secretlabchairs.com.au",
+                "thehatstore.com.au",
+                "thermomix.com.au",
+                "www.basscentre.com.au",
+                "www.dharmabums.com.au",
+                "www.hatsbythe100.com.au",
+                "www.lovisa.com.au",
+                "www.meshki.com.au",
+                "www.mrpoolman.com.au",
+                "www.nutritionwarehouse.com.au",
+                "www.optimoz.com.au"
+            ]
+        },
+        {
+            "rule": "automizely\\.com\\/returns\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {
+                "window.sessionStorage": 3
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "df85694829c7d9bba253be4052c8850a8d125306995e4cee6268a8a182b3148f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "missamara.com.au",
+                "thehatstore.com.au",
+                "www.hatsbythe100.com.au",
+                "www.simone-perele.com.au"
+            ]
+        },
+        {
+            "rule": "automizely\\.com\\/recommendations\\/v1\\/pz-recommendations\\.umd\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "sdks"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "window.indexedDB": 2,
+                "window.sessionStorage": 2,
+                "URL.createObjectURL": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "023c543b2d22c9ded733dbabbade7066e7f1f566a668d6f7f8304caa044be31c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hoselink.com.au",
+                "www.lovisa.com.au"
+            ]
+        },
+        {
+            "rule": "automizely\\.com\\/personalization\\/public\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bff-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hoselink.com.au",
+                "www.lovisa.com.au"
+            ]
+        },
+        {
+            "rule": "automizely\\.com\\/personalization\\/public\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bff-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "4845429138bfcf25ee1b64f3e5c7f962384970824f1f500750ac75080990b0ff",
+                "445f61aab5505bba843489edfe50090a810de3038111075ec3bef2de83054331"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hoselink.com.au",
+                "www.hoselink.com.au",
+                "www.lovisa.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9534883720930233
+        },
+        {
+            "domain": "d5zu2f4xvqanl.cloudfront.net",
+            "prevalence": 0.046511627906976744
+        }
+    ],
+    "types": {
+        "Script": 21,
+        "Preflight": 2,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "april.ns.cloudflare.com",
+        "ram.ns.cloudflare.com"
+    ]
+}

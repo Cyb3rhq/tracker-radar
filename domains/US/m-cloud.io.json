@@ -1,0 +1,81 @@
+{
+    "domain": "m-cloud.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "jobsapi-google",
+        "jobsapi-internal"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "m-cloud\\.io\\/api\\/job\\/search",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jobsapi-google"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "5af4be09dd5badc75eb36955b55ae8ae61fd80bd2724181b39932989a2f10eab",
+                "c4cdc404d1416e27aacd06f0c8523adc2df6c97ba0bb3cf73ff6b7a424f4c4bf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "edwardjones.com",
+                "careers.edwardjones.com",
+                "careers.homedepot.com"
+            ]
+        },
+        {
+            "rule": "m-cloud\\.io\\/api\\/job",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jobsapi-internal"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d8830d82b0499f92d4e01369a3193b96e42150a3e7de162690178270521e3cd5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unitedhealthgroup.com",
+                "careers.unitedhealthgroup.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "ns-160.awsdns-20.com",
+        "ns-1347.awsdns-40.org",
+        "ns-762.awsdns-31.net",
+        "ns-1682.awsdns-18.co.uk"
+    ]
+}

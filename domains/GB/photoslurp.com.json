@@ -1,0 +1,164 @@
+{
+    "domain": "photoslurp.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "static",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "photoslurp\\.com\\/widget\\/v3\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "3985f84977b4244e0373098ab325dc8a195bb0d5d4d08807be7b348926741843"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crewclothing.co.uk",
+                "www.crewclothing.co.uk",
+                "www.scs.co.uk"
+            ]
+        },
+        {
+            "rule": "photoslurp\\.com\\/v3\\/widgetconfigs\\/k5A5_8qM3\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c53fad92b6513fa92a521bac423d50444dd0b78e8c9a5cc8bc50587586f60cd1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crewclothing.co.uk",
+                "www.crewclothing.co.uk"
+            ]
+        },
+        {
+            "rule": "photoslurp\\.com\\/widget\\/flowbox\\/v3\\/widget-gallery\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "49dbafdebdb5eb50725bf3ec56d8c7ab536a304ee28d5befab026ba76f8187b5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ps_analytics": {
+                    "ttl": 2592005,
+                    "length": 68,
+                    "prevalence": 0.0003013863773357444,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crewclothing.co.uk",
+                "www.crewclothing.co.uk",
+                "www.scs.co.uk"
+            ]
+        },
+        {
+            "rule": "photoslurp\\.com\\/widget\\/flowbox\\/v3\\/themes\\/Montserrat\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "0a17f4cf7dda9b1b2f04965c964feb3e192c9e7c787a645d53dee7e7757e43cb"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crewclothing.co.uk",
+                "www.crewclothing.co.uk",
+                "www.scs.co.uk"
+            ]
+        },
+        {
+            "rule": "photoslurp\\.com\\/widget\\/flowbox\\/v3\\/themes\\/modern-gallery\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "184e9f57a3e2086af6ca0e1123123236278adadbf8badd95c42d3ce9f1bf02b0"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crewclothing.co.uk",
+                "www.crewclothing.co.uk",
+                "www.scs.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Fetch": 2,
+        "Stylesheet": 6
+    },
+    "nameservers": [
+        "clark.ns.cloudflare.com",
+        "jo.ns.cloudflare.com"
+    ]
+}

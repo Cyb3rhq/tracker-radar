@@ -1,0 +1,131 @@
+{
+    "domain": "cbssports.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "video-api.prod.video"
+    ],
+    "cnames": [
+        {
+            "original": "video-api.cbssports.com",
+            "resolved": "video-api.prod.video.cbssports.cloud"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "cbssports\\.cloud\\/vms\\/fms\\/proxy\\/v1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "video-api.prod.video"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "video-api.cbssports.com",
+                    "resolved": "video-api.prod.video.cbssports.cloud"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbssports.com",
+                "www.cbssports.com",
+                "www.sportsline.com"
+            ]
+        },
+        {
+            "rule": "cbssports\\.cloud\\/vms\\/fms\\/proxy\\/v1\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "video-api.prod.video"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "video-api.cbssports.com",
+                    "resolved": "video-api.prod.video.cbssports.cloud"
+                }
+            ],
+            "responseHashes": [
+                "fcc6f255b520bd2d8a2efc573a3d4ac8c0e3ed920e173b80cc0d9beb8eb9e823"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbssports.com",
+                "www.cbssports.com"
+            ]
+        },
+        {
+            "rule": "cbssports\\.cloud\\/vms\\/fms\\/proxy\\/v1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "video-api.prod.video"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "video-api.cbssports.com",
+                    "resolved": "video-api.prod.video.cbssports.cloud"
+                }
+            ],
+            "responseHashes": [
+                "ec1900e4a38a98feed48cd5563de8007bc04b66058e2a63e0dfc91ef1bc28afa",
+                "860bc20e4df46b122a92636fef9237dcaf22715a470a321634cf0af3ca7b5a1d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbssports.com",
+                "www.cbssports.com",
+                "www.sportsline.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "rum.us-east-1.amazonaws.com",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "confiant-integrations.net",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Preflight": 3,
+        "Fetch": 2,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns-1856.awsdns-40.co.uk",
+        "ns-113.awsdns-14.com",
+        "ns-1343.awsdns-39.org",
+        "ns-953.awsdns-55.net"
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "domain": "woolworths.com.au",
+    "owner": {
+        "name": "Woolworths Group Limited",
+        "displayName": "Woolworths Group"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "chatwidget"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "woolworths\\.com\\.au\\/bootstrap\\/chatWidgetBootstrap\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chatwidget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "adb46c56dd8b6228b8d8eaa27ccff63fcd252e8a65678deceeca3c1f03873843"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "everyday.com.au",
+                "www.woolworths.co.nz"
+            ]
+        },
+        {
+            "rule": "woolworths\\.com\\.au\\/bootstrap\\/chatWidgetBootstrapV1\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "chatwidget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 1,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bc218f771c65d082008699388294f2f7b6d544782711570f7b775c5d994f72b9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "everyday.com.au",
+                "www.woolworths.co.nz"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "countdown.co.nz",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "a10-67.akam.net",
+        "a7-67.akam.net",
+        "a4-64.akam.net",
+        "a1-30.akam.net",
+        "a6-66.akam.net",
+        "a5-65.akam.net"
+    ]
+}

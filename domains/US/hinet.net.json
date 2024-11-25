@@ -1,0 +1,813 @@
+{
+    "domain": "hinet.net",
+    "owner": {
+        "name": "中華電信股份有限公司",
+        "displayName": "中華電信股份有限公司"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000615,
+    "sites": 9,
+    "subdomains": [
+        "t.ssp",
+        "pics-ettoday.cdn",
+        "ad-ettoday.cdn",
+        "media-ettoday.cdn",
+        "e2e9521e-5255-4260-8eb6-9b83632e0622.t.ssp",
+        "e1c54270-c434-4e78-9862-36f18c2999c0.t.ssp",
+        "085d233d-83bb-4bc1-b953-8825ea715acd.t.ssp"
+    ],
+    "cnames": [
+        {
+            "original": "cdn1.ettoday.net",
+            "resolved": "ad-ettoday.cdn.hinet.net"
+        },
+        {
+            "original": "cdn2.ettoday.net",
+            "resolved": "pics-ettoday.cdn.hinet.net"
+        },
+        {
+            "original": "media.ettoday.net",
+            "resolved": "media-ettoday.cdn.hinet.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "hinet\\.net\\/utag\\.js",
+            "cookies": 0.0000342,
+            "fingerprinting": 1,
+            "subdomains": [
+                "t.ssp"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 5
+            },
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "73ae392d3e6fd2a480cd5e6eb0077f17af084abfda5e3bb5487f76c0277be87c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__htid": {
+                    "ttl": 31536010,
+                    "length": 36,
+                    "prevalence": 0.0000273280043724807,
+                    "uniqueness": 1
+                },
+                "_ht_em": {
+                    "ttl": 3611,
+                    "length": 1,
+                    "prevalence": 0.0000273280043724807,
+                    "uniqueness": 0.25
+                },
+                "_ht_50ef57": {
+                    "ttl": 86415,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_ht_hi": {
+                    "ttl": 86406,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_ht_5aaa20": {
+                    "ttl": 86411,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "udn.com",
+                "health.udn.com",
+                "tw.manhuagui.com",
+                "www.kkbox.com",
+                "www.storm.mg",
+                "www.thenewslens.com"
+            ]
+        },
+        {
+            "rule": "hinet\\.net\\/",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t.ssp"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "fd1c304f7b806d7c046b5ab32faf6ccb8419c7470a6fc539919812bf5038df4b",
+                "a301a3cdffe105675fcafeb0d332823fb77f69b74e2226928a26af99a1eae821",
+                "25cb88c2df8115755799e44819124aac627b2290be2f77f89c62f03927ea15f1",
+                "3c00bb3e6aa003da5e3279a0af8a3ac38c935749fe1a8fac4c56e85bc3614825"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "udn.com",
+                "health.udn.com",
+                "tw.manhuagui.com",
+                "www.kkbox.com",
+                "www.thenewslens.com"
+            ]
+        },
+        {
+            "rule": "hinet\\.net\\/emome2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t.ssp"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "365fc555dbd2149871a77b9485dbb0cbd487a0553f7a90163444349fee756f60"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__htid": 0.00003416000546560088
+            },
+            "exampleSites": [
+                "udn.com",
+                "health.udn.com",
+                "tw.manhuagui.com",
+                "www.kkbox.com",
+                "www.thenewslens.com"
+            ]
+        },
+        {
+            "rule": "hinet\\.net\\/jquery\\/jquery\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pics-ettoday.cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "cdn2.ettoday.net",
+                    "resolved": "pics-ettoday.cdn.hinet.net"
+                }
+            ],
+            "responseHashes": [
+                "874706b2b1311a0719b5267f7d1cf803057e367e94ae1ff7bf78c5450d30f5d4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ettoday.net",
+                "star.ettoday.net",
+                "www.ettoday.net"
+            ]
+        },
+        {
+            "rule": "hinet\\.net\\/dfp\\/dfp-gpt\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pics-ettoday.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn2.ettoday.net",
+                    "resolved": "pics-ettoday.cdn.hinet.net"
+                }
+            ],
+            "responseHashes": [
+                "5a698234120c007f7e8a5330fff249bdd160c06c89e1127d28420d06de178c85"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ettoday.net",
+                "www.ettoday.net"
+            ]
+        },
+        {
+            "rule": "hinet\\.net\\/jquery\\/dmp\\/news\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pics-ettoday.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn2.ettoday.net",
+                    "resolved": "pics-ettoday.cdn.hinet.net"
+                }
+            ],
+            "responseHashes": [
+                "aeb4c72cf88cfc9cdcf87a778906dd7a1669375184ab722588a75f1e06a0ca01"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ettoday.net",
+                "www.ettoday.net"
+            ]
+        },
+        {
+            "rule": "hinet\\.net\\/style\\/live-frame2018\\/etlive\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pics-ettoday.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn2.ettoday.net",
+                    "resolved": "pics-ettoday.cdn.hinet.net"
+                }
+            ],
+            "responseHashes": [
+                "c38be4c79eaf8fb2e68e55f5f37a4a335fcba3219f1e5d3af2bee5750dac9b92"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ettoday.net",
+                "www.ettoday.net"
+            ]
+        },
+        {
+            "rule": "hinet\\.net\\/style\\/live-frame2018\\/etlive\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pics-ettoday.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn2.ettoday.net",
+                    "resolved": "pics-ettoday.cdn.hinet.net"
+                }
+            ],
+            "responseHashes": [
+                "7bf74f7ff678e8a27f1ccddd8c374dc496819617004d4e024d173c549b0869f1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ettoday.net",
+                "www.ettoday.net"
+            ]
+        },
+        {
+            "rule": "hinet\\.net\\/style\\/misc\\/loading_800x450\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pics-ettoday.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn2.ettoday.net",
+                    "resolved": "pics-ettoday.cdn.hinet.net"
+                }
+            ],
+            "responseHashes": [
+                "d2740aabd8ad29c5f75a658707168a46d2707bffee00c58e6c4a6b2da16ca5a5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ettoday.net",
+                "www.ettoday.net"
+            ]
+        },
+        {
+            "rule": "hinet\\.net\\/style\\/misc\\/loading_100x100\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pics-ettoday.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn2.ettoday.net",
+                    "resolved": "pics-ettoday.cdn.hinet.net"
+                }
+            ],
+            "responseHashes": [
+                "717e9a920fed9cca2bf27cffe7e4a7eaac8954464bcb0e33e37501bbc4f65711"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ettoday.net",
+                "www.ettoday.net"
+            ]
+        },
+        {
+            "rule": "hinet\\.net\\/ad\\/prebid\\/prebid\\.js",
+            "cookies": 0.00000683,
+            "fingerprinting": 2,
+            "subdomains": [
+                "pics-ettoday.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn2.ettoday.net",
+                    "resolved": "pics-ettoday.cdn.hinet.net"
+                }
+            ],
+            "responseHashes": [
+                "3bc8db57263ca88ea2881073945eeb69ebf8e643ef369e6d8e3077d6e90bf47a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ettoday.net",
+                "www.ettoday.net"
+            ]
+        },
+        {
+            "rule": "hinet\\.net\\/events\\/dmpfastvote\\/js\\/dmpfastvote-common\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pics-ettoday.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn2.ettoday.net",
+                    "resolved": "pics-ettoday.cdn.hinet.net"
+                }
+            ],
+            "responseHashes": [
+                "2c7c38a64385c10ab282e3e6e165c3fafcab69d6e7777e2c41db38570d471cdc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ettoday.net",
+                "www.ettoday.net"
+            ]
+        },
+        {
+            "rule": "hinet\\.net\\/banners\\/0\\/3-c\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ad-ettoday.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn1.ettoday.net",
+                    "resolved": "ad-ettoday.cdn.hinet.net"
+                }
+            ],
+            "responseHashes": [
+                "8a5cb4cefd23d259859b43b92078366a28aaa97cb3b88a92b846dfdcf6bb5851"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ettoday.net",
+                "www.ettoday.net"
+            ]
+        },
+        {
+            "rule": "hinet\\.net\\/ad\\/criteo\\/criteo970x250-cdb-gam\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pics-ettoday.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn2.ettoday.net",
+                    "resolved": "pics-ettoday.cdn.hinet.net"
+                }
+            ],
+            "responseHashes": [
+                "e41a4c9ec9ab769c96738af8853ebfec01087fa17b1b56055debac226f5269c0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ettoday.net",
+                "www.ettoday.net"
+            ]
+        },
+        {
+            "rule": "hinet\\.net\\/ad\\/adJS05\\/adJS05_action\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pics-ettoday.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn2.ettoday.net",
+                    "resolved": "pics-ettoday.cdn.hinet.net"
+                }
+            ],
+            "responseHashes": [
+                "e3165016ec4956436639637810994d99b30559b2f43560f7ed920ef5f3f8d02d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ettoday.net",
+                "www.ettoday.net"
+            ]
+        },
+        {
+            "rule": "hinet\\.net\\/source\\/et_comments3\\.php7",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "media-ettoday.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "media.ettoday.net",
+                    "resolved": "media-ettoday.cdn.hinet.net"
+                }
+            ],
+            "responseHashes": [
+                "48ed7aa111bc68903ab251d3d2a0a270e4a533eb174fb67c3ddfce2b054fab38"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ettoday.net",
+                "www.ettoday.net"
+            ]
+        },
+        {
+            "rule": "hinet\\.net\\/style\\/et-comments\\/css\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pics-ettoday.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn2.ettoday.net",
+                    "resolved": "pics-ettoday.cdn.hinet.net"
+                }
+            ],
+            "responseHashes": [
+                "d4895cb18bce1465e3183c71d60c655d6f64e563fcc5bf90a7f8695836e41158"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ettoday.net",
+                "www.ettoday.net"
+            ]
+        },
+        {
+            "rule": "hinet\\.net\\/style\\/et-comments\\/images\\/no_comments\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pics-ettoday.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn2.ettoday.net",
+                    "resolved": "pics-ettoday.cdn.hinet.net"
+                }
+            ],
+            "responseHashes": [
+                "123d38b97ad88f91c8b5bdd1986a1d4d53bbcd9825dc1fe77414e31a0cb34c5c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ettoday.net",
+                "www.ettoday.net"
+            ]
+        },
+        {
+            "rule": "hinet\\.net\\/events\\/passback\\/gad\\/gam-refresh\\.php",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "media-ettoday.cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "media.ettoday.net",
+                    "resolved": "media-ettoday.cdn.hinet.net"
+                }
+            ],
+            "responseHashes": [
+                "f22db4a038e3805bce3200db226bd8f9a9178b9df32a668df6e65cce32675cbc",
+                "fac3aa8455c02ea1f9e2650aac3a70b6a048324024472782edd450c0bfa99b69"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ettoday.net",
+                "star.ettoday.net",
+                "www.ettoday.net"
+            ]
+        },
+        {
+            "rule": "hinet\\.net\\/ad\\/prebid\\/prebid-pc-300x600-1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pics-ettoday.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn2.ettoday.net",
+                    "resolved": "pics-ettoday.cdn.hinet.net"
+                }
+            ],
+            "responseHashes": [
+                "f8f5536ff8815ab7ebfb30b752fae499d2d6c69f29134a23ebe11e716245ff9f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ettoday.net",
+                "www.ettoday.net"
+            ]
+        },
+        {
+            "rule": "hinet\\.net\\/ad\\/prebid\\/prebid-pc-sidebar-1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pics-ettoday.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn2.ettoday.net",
+                    "resolved": "pics-ettoday.cdn.hinet.net"
+                }
+            ],
+            "responseHashes": [
+                "f51be719e06f14e62cb679bf76462b273456b2a560df65ceef01afec36c0e256"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ettoday.net",
+                "www.ettoday.net"
+            ]
+        },
+        {
+            "rule": "hinet\\.net\\/ad\\/prebid\\/prebid-pc-sidebar-2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pics-ettoday.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn2.ettoday.net",
+                    "resolved": "pics-ettoday.cdn.hinet.net"
+                }
+            ],
+            "responseHashes": [
+                "39381090099348f15e64181692bfbb256b219d735a5ba087ce6d091b9ec6efd5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ettoday.net",
+                "www.ettoday.net"
+            ]
+        },
+        {
+            "rule": "hinet\\.net\\/ad\\/prebid\\/prebid-pc-sidebar-3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pics-ettoday.cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn2.ettoday.net",
+                    "resolved": "pics-ettoday.cdn.hinet.net"
+                }
+            ],
+            "responseHashes": [
+                "1789e92013c2b3d2166fcc6634577c2d047b89e45dd2c2249083642afd76f718"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ettoday.net",
+                "www.ettoday.net"
+            ]
+        },
+        {
+            "rule": "hinet\\.net\\/cm",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t.ssp"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__htid": 0.000020496003279360526,
+                "CFFPCKUUIDMAIN": 0.000006832001093120175,
+                "__retuid": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com",
+                "www.kkbox.com",
+                "www.thenewslens.com"
+            ]
+        },
+        {
+            "rule": "hinet\\.net\\/pixel",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "e2e9521e-5255-4260-8eb6-9b83632e0622.t.ssp",
+                "e1c54270-c434-4e78-9862-36f18c2999c0.t.ssp",
+                "085d233d-83bb-4bc1-b953-8825ea715acd.t.ssp"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__htid": 0.0000273280043724807,
+                "lotame_domain_check": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "manhuagui.com",
+                "tw.manhuagui.com",
+                "www.kkbox.com",
+                "www.thenewslens.com"
+            ]
+        },
+        {
+            "rule": "hinet\\.net\\/cm",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t.ssp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thenewslens.com",
+                "www.thenewslens.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000478,
+    "topInitiators": [
+        {
+            "domain": "holmesmind.com",
+            "prevalence": 0.45
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "rollbar.com",
+            "prevalence": 0.15
+        },
+        {
+            "domain": "popin.cc",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "amnet.tw",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 33,
+        "XHR": 14,
+        "Stylesheet": 4,
+        "Image": 12,
+        "Document": 5
+    },
+    "nameservers": [
+        "ans1.hinet.net",
+        "ans2.hinet.net",
+        "ans3.hinet.tw"
+    ]
+}

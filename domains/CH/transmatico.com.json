@@ -1,0 +1,106 @@
+{
+    "domain": "transmatico.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "analytics"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "transmatico\\.com\\/matomo\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.name": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.platform": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0995371a359a4a701d66f8b183de6144de9a042e5bac84b6f920968f51567742"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pk_ses..caf7": {
+                    "ttl": 1826,
+                    "length": 1,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                },
+                "_pk_ses..037e": {
+                    "ttl": 1816,
+                    "length": 1,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stuttgarter-nachrichten.de",
+                "www.stuttgarter-zeitung.de"
+            ]
+        },
+        {
+            "rule": "transmatico\\.com\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stuttgarter-nachrichten.de",
+                "www.stuttgarter-zeitung.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "smartico.one",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "consentmanager.net",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "daisy.ns.cloudflare.com",
+        "merlin.ns.cloudflare.com"
+    ]
+}

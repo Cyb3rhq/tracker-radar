@@ -1,0 +1,104 @@
+{
+    "domain": "lfeeder.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000803,
+    "sites": 8,
+    "subdomains": [
+        "tr-rc",
+        "tr",
+        "sc"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "lfeeder\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tr-rc",
+                "tr"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centiga.no",
+                "community.plotly.com",
+                "spacelift.io",
+                "www.framer.com",
+                "www.glasspaper.no",
+                "www.searchenginejournal.com",
+                "www.tietoevry.com",
+                "www.translate.com"
+            ]
+        },
+        {
+            "rule": "lfeeder\\.com\\/lftracker_v1_ywVkO4XBvJ18Z6Bj\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sc"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6183cc82e41c865bd7f9553f54277f73a4c51606e9866d5a9ee823f7332acb56"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_lfa": {
+                    "ttl": 31536012,
+                    "length": 36,
+                    "prevalence": 0.00020086371397007131,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "framer.com",
+                "www.framer.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000803,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.8888888888888888
+        },
+        {
+            "domain": "discourse-cdn.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Image": 8,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-1285.awsdns-32.org",
+        "ns-1972.awsdns-54.co.uk",
+        "ns-381.awsdns-47.com",
+        "ns-859.awsdns-43.net"
+    ]
+}

@@ -1,0 +1,129 @@
+{
+    "domain": "benchmarkemail.com",
+    "owner": {
+        "name": "Benchmark Internet Group,LLC",
+        "displayName": "Benchmark Internet Group"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000888,
+    "sites": 13,
+    "subdomains": [
+        "lb",
+        "prod"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "benchmarkemail\\.com\\/\\/jp\\/code\\/lbformnew\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lb"
+            ],
+            "apis": {
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "bfa1e816de950ace1b4fec862570158ee0f18312986e32070714a62cddc52705",
+                "9fbad89858e02d0ef5d6e0314aa9b8509abbc54146b900a336bf7eceded336c3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dramanavi.net",
+                "theriver.jp",
+                "www.timeless-edition.com"
+            ]
+        },
+        {
+            "rule": "benchmarkemail\\.com\\/\\/code\\/lbformnew\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lb"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.innerHeight": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "743561addbce520c70e9a3d4172157188a6cac5f4c313120fc3853e60c57fa25",
+                "e4f3e679fb2fa7f964359291bd5d3f4ed0230d0f88c7b47ad6d728f7286bb629"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hearinghealthmatters.org",
+                "www.freebieshark.com",
+                "www.onskookboek.be"
+            ]
+        },
+        {
+            "rule": "benchmarkemail\\.com\\/tracker\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 10,
+                "window.localStorage": 10
+            },
+            "sites": 10,
+            "prevalence": 0.0000683,
+            "cnames": [],
+            "responseHashes": [
+                "1bfd21c796282d55e1abd963cc7643a27af2f7df3be3f55eb2b2218bc5f1e731"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newdiscourses.com",
+                "plustek.com",
+                "theriver.jp",
+                "unionstation.org",
+                "www.ata.org",
+                "www.document-center.com",
+                "www.freebieshark.com",
+                "www.mondosonoro.com",
+                "www.onskookboek.be",
+                "www.timeless-edition.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000478,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9444444444444444
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.05555555555555555
+        }
+    ],
+    "types": {
+        "Script": 16
+    },
+    "nameservers": [
+        "ns3.dnsmadeeasy.com",
+        "ns4.dnsmadeeasy.com",
+        "ns1.dnsmadeeasy.com",
+        "ns0.dnsmadeeasy.com",
+        "ns2.dnsmadeeasy.com"
+    ]
+}

@@ -1,0 +1,151 @@
+{
+    "domain": "ax4z.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "api--shop-prod-kik-de",
+        "push-ls--tc-de"
+    ],
+    "cnames": [
+        {
+            "original": "api-shop.prod.kik.de",
+            "resolved": "api--shop-prod-kik-de.ax4z.com"
+        },
+        {
+            "original": "push.ls-tc.de",
+            "resolved": "push-ls--tc-de.ax4z.com"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "ax4z\\.com\\/api\\/v1\\/me",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api--shop-prod-kik-de"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api-shop.prod.kik.de",
+                    "resolved": "api--shop-prod-kik-de.ax4z.com"
+                }
+            ],
+            "responseHashes": [
+                "e838d61b5addc2d51025ca8ed4aba633ab148432cc7c680ba1daca349d990b02"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kik.de",
+                "www.kik.de"
+            ]
+        },
+        {
+            "rule": "ax4z\\.com\\/api\\/v1\\/products\\/stockAndPrice",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api--shop-prod-kik-de"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api-shop.prod.kik.de",
+                    "resolved": "api--shop-prod-kik-de.ax4z.com"
+                }
+            ],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kik.de",
+                "www.kik.de"
+            ]
+        },
+        {
+            "rule": "ax4z\\.com\\/lightstreamer\\/create_session\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "push-ls--tc-de"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "push.ls-tc.de",
+                    "resolved": "push-ls--tc-de.ax4z.com"
+                }
+            ],
+            "responseHashes": [
+                "44cef2eb78d245902cdad83a688c52818c19eaf94219579c621b0e6663b902e5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ls-tc.de",
+                "www.ls-tc.de"
+            ]
+        },
+        {
+            "rule": "ax4z\\.com\\/lightstreamer",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "push-ls--tc-de"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "push.ls-tc.de",
+                    "resolved": "push-ls--tc-de.ax4z.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ls-tc.de",
+                "www.ls-tc.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000683,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "XHR": 2,
+        "WebSocket": 2
+    },
+    "nameservers": [
+        "c.ax4z.com",
+        "a.ax4z.com",
+        "b.ax4z.com"
+    ]
+}

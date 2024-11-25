@@ -1,0 +1,91 @@
+{
+    "domain": "atp.fox",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "prod.pyxis"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "atp\\.fox\\/pyxis\\/submit",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.pyxis"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foxnews.com",
+                "www.tmz.com"
+            ]
+        },
+        {
+            "rule": "atp\\.fox\\/pyxis\\/submit",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.pyxis"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "84abec98ae5e7c611ce43bd470dc030120eecbfe78701d9272aeda825faa705f",
+                "1b72bb0d1dbff67cb9b1486ba95ccbea14fec4ed324dd30041749e8cbbba9ea7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foxnews.com",
+                "www.foxnews.com",
+                "www.tmz.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "webcontentassessor.global.ssl.fastly.net",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "fox.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns01.foxdoua.com",
+        "ns02.dns.fox",
+        "ns02.foxdoua.com",
+        "ns03.dns.fox",
+        "ns03.foxdoua.com",
+        "ns04.dns.fox",
+        "ns04.foxdoua.com",
+        "ns01.dns.fox"
+    ]
+}

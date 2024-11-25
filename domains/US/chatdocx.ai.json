@@ -1,0 +1,83 @@
+{
+    "domain": "chatdocx.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000683,
+    "sites": 1,
+    "subdomains": [
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "chatdocx\\.ai\\/api\\/v1\\/bot\\/chatbot\\/668ea2b2085ea00c2ade4573",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "db5481e1c040e27a7e8bab557bf1cedea2b191c46ce1fe42a07fd9502078debb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "swissmail.org",
+                "www.swissmail.org"
+            ]
+        },
+        {
+            "rule": "chatdocx\\.ai\\/chatbot\\/mdetect\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "246dd0a1de012284e506c4b0fef738c755eb2ba76c376061e756cd0005399ec8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "swissmail.org",
+                "www.swissmail.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns1.siteground.net",
+        "ns2.siteground.net"
+    ]
+}

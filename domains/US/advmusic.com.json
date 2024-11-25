@@ -1,0 +1,114 @@
+{
+    "domain": "advmusic.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "api",
+        "rbtify"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "advmusic\\.com\\/stats\\.php",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "rbtify_visit_id": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "hotplayer.ru",
+                "musify.club"
+            ]
+        },
+        {
+            "rule": "advmusic\\.com\\/rbtify\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "rbtify"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ad276ff8b5c1f19a0b0a273f528cc0a09ae60c74e7e54f817266d2d83dca8cf3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hotplayer.ru",
+                "musify.club"
+            ]
+        },
+        {
+            "rule": "advmusic\\.com\\/index\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "00abbadcf854c797f84ef460378d44e949aef0e177387be119cc9fb781f9fe62"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "rbtify_visit_id": 0.00001366400218624035,
+                "rbtify_session_id": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "hotplayer.ru",
+                "musify.club"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "adfox.ru",
+            "prevalence": 0.8333333333333334
+        },
+        {
+            "domain": "hitplayer.ru",
+            "prevalence": 0.08333333333333333
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.08333333333333333
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "Script": 2
+    },
+    "nameservers": [
+        "penny.ns.cloudflare.com",
+        "vasilii.ns.cloudflare.com"
+    ]
+}

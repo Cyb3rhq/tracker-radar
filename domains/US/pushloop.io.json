@@ -1,0 +1,166 @@
+{
+    "domain": "pushloop.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [
+        "cdn",
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "pushloop\\.io\\/code\\/sdk\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "14c7e288c9daf078600439ff287085066b2e0c97137f5819076e394f20d06144",
+                "65fc9e8b330a8b8210917456b111af6b4e9d5507af2582667277d1bb3e592d35",
+                "a3218595fb355107b77d12ad50999c36f154f7dc07b0abb7e6403e1e24e9d432",
+                "b3f999c5c797f68b169d283f9b885339e6f080553d3de810250b8d7e7a4c8bd2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foodblog.it",
+                "www.milanocittastato.it",
+                "www.motorimagazine.it",
+                "www.quotidianomotori.com",
+                "www.viaggiamo.it"
+            ]
+        },
+        {
+            "rule": "pushloop\\.io\\/api\\/v2\\/service-worker\\/firebase-conf\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "f8b03ed73a7edf77a1ad2c8378996fb52aced235730f15f473cfb968720b57d6",
+                "193ec17c88b77cf6a48517f9073c6af16f3c1b7b6404257b7f51d2cafd675fc5",
+                "c3b8f0b54b91617af53c27ae33b23bcb8bba35f24e28d4266a2485dc6f8e8fee"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foodblog.it",
+                "www.milanocittastato.it",
+                "www.motorimagazine.it",
+                "www.oroscopissimi.it",
+                "www.quotidianomotori.com",
+                "www.viaggiamo.it"
+            ]
+        },
+        {
+            "rule": "pushloop\\.io\\/api\\/v2\\/service-worker\\/firebase-conf\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foodblog.it",
+                "www.milanocittastato.it",
+                "www.motorimagazine.it",
+                "www.oroscopissimi.it",
+                "www.quotidianomotori.com",
+                "www.viaggiamo.it"
+            ]
+        },
+        {
+            "rule": "pushloop\\.io\\/code\\/oroscopissimiit\\/ALL\\/ALL\\/56\\/tpl_0",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app",
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "window.indexedDB": 1,
+                "Navigator.prototype.cookieEnabled": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b1ef4876138fc624657847233d35062a95f3d88e1c8e84b271a4695a46be3c9b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oroscopissimi.it",
+                "www.oroscopissimi.it"
+            ]
+        },
+        {
+            "rule": "pushloop\\.io\\/code\\/styles\\/oroscopissimiit\\/ALL\\/ALL\\/56\\/tpl_0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app",
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d9bd3905ff86d74deb9e4e8a05e9a0845278af9b7ec74efa8ba3d2892ae23aed"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oroscopissimi.it",
+                "www.oroscopissimi.it"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Fetch": 6,
+        "Preflight": 6,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "opal.ns.cloudflare.com",
+        "alexis.ns.cloudflare.com"
+    ]
+}

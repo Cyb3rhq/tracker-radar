@@ -1,0 +1,153 @@
+{
+    "domain": "24liveblog.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "v",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "24liveblog\\.com\\/24\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "v"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "a3c8cffb317aafff136802b3418a9839744d8d647f112233167a39624b3305b6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "48hills.org",
+                "capitolfax.com",
+                "khelnow.com",
+                "news.abs-cbn.com",
+                "www.wuft.org"
+            ]
+        },
+        {
+            "rule": "24liveblog\\.com\\/live-js\\/js\\/24\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.appVersion": 5,
+                "Navigator.prototype.language": 5,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "HTMLMediaElement.prototype.canPlayType": 3,
+                "MediaSource.isTypeSupported": 3,
+                "window.innerHeight": 3,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "28f201e5f28f4dd2446fa4ac3313bcc7ae5082859c79b80535e58a17933e2649"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "uv_3621317439185529010": {
+                    "ttl": 86413,
+                    "length": 5,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "uv_3607789913779552510": {
+                    "ttl": 86406,
+                    "length": 5,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "48hills.org",
+                "capitolfax.com",
+                "khelnow.com",
+                "news.abs-cbn.com",
+                "www.wuft.org"
+            ]
+        },
+        {
+            "rule": "24liveblog\\.com\\/live-js\\/css\\/24lb\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "041bb336f9a79eb73401ad4e25fab17bb60885b1376b62ca57299094b1901c0f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "khelnow.com",
+                "www.wuft.org"
+            ]
+        },
+        {
+            "rule": "24liveblog\\.com\\/live-js\\/fonts\\/fontawesome-webfont\\.af7ae50\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d792afdac7f7ae5de7c6964950c6c61dc6e3f3813180a59e141c7cb4ac4364dc"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "khelnow.com",
+                "www.wuft.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Stylesheet": 2,
+        "Font": 2
+    },
+    "nameservers": [
+        "emma.ns.cloudflare.com",
+        "lee.ns.cloudflare.com"
+    ]
+}

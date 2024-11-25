@@ -1,0 +1,531 @@
+{
+    "domain": "nogin.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000547,
+    "sites": 8,
+    "subdomains": [
+        "app",
+        "media.app"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "nogin\\.com\\/api\\/static\\/widget2\\/nogin\\.iife\\.js",
+            "cookies": 0.0000273,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.mimeTypes": 4,
+                "window.name": 4,
+                "Navigator.prototype.appVersion": 4,
+                "Navigator.prototype.languages": 4,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 4,
+                "Navigator.prototype.onLine": 4,
+                "Document.cookie setter": 4,
+                "Document.cookie getter": 4,
+                "window.localStorage": 4,
+                "window.sessionStorage": 4,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "26eccbaef3d957dd846577f9af513238f8c21739ae79cd7cc0c249d6edda1524"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "nogin_session": {
+                    "ttl": 1807,
+                    "length": 25,
+                    "prevalence": 0.0000273280043724807,
+                    "uniqueness": 1
+                },
+                "nogin_session_update": {
+                    "ttl": 301,
+                    "length": 25,
+                    "prevalence": 0.0000273280043724807,
+                    "uniqueness": 1
+                },
+                "nogin_access_token_COOKIE_NAME": {
+                    "ttl": null,
+                    "length": 220,
+                    "prevalence": 0.0000273280043724807,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "modcloth.com",
+                "scotchandsoda.com",
+                "www.hurley.com",
+                "www.karenkane.com"
+            ]
+        },
+        {
+            "rule": "nogin\\.com\\/api\\/v1\\/stores\\/connect",
+            "cookies": 0.0000273,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "nogin_session": 0.0000273280043724807,
+                "nogin_session_update": 0.0000273280043724807
+            },
+            "exampleSites": [
+                "modcloth.com",
+                "scotchandsoda.com",
+                "www.hurley.com",
+                "www.karenkane.com"
+            ]
+        },
+        {
+            "rule": "nogin\\.com\\/api\\/v1\\/stores\\/connect",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "40c4c77563f16481bfa75ca0016b6d58da2fe1382e33de8d3676454474675529",
+                "ffba056b8ad069046519a2e8f58db6eb6d573a5f22db28dcd931afb26407c3bb",
+                "9f8c70e98a37ebf1e6ee736c5388f2dd540b34a846999541af1f79a09d73f081",
+                "c27239acb2e7ea4de9e0293d422274f406840039db10d847859c5fdd4e3ae483"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "nogin_session": 0.0000273280043724807,
+                "nogin_session_update": 0.0000273280043724807
+            },
+            "exampleSites": [
+                "modcloth.com",
+                "scotchandsoda.com",
+                "www.hurley.com",
+                "www.karenkane.com",
+                "www.simonandschuster.com"
+            ]
+        },
+        {
+            "rule": "nogin\\.com\\/api\\/v1\\/customers\\/connect",
+            "cookies": 0.0000273,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "nogin_session": 0.0000273280043724807,
+                "nogin_session_update": 0.0000273280043724807
+            },
+            "exampleSites": [
+                "modcloth.com",
+                "scotchandsoda.com",
+                "www.hurley.com",
+                "www.karenkane.com"
+            ]
+        },
+        {
+            "rule": "nogin\\.com\\/api\\/v1\\/customers\\/connect",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "699d8bb78c362a3a0cb63caee3063c8c71d052e77ccf6eb86fd9272c7cdecea4",
+                "6fddb0761e30849e796d7c5fc2461befafee5819429fd1a2195937249a85d935",
+                "95b635ec07ee190ddb2c14e93faa3cdd00cf5265a8562e2bef7cca0029a8337a",
+                "118bdade985fcf19cedb2042abde93e8fbc4798e66cb46a7482f8eed49a20715"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "nogin_session": 0.0000273280043724807,
+                "nogin_session_update": 0.0000273280043724807
+            },
+            "exampleSites": [
+                "modcloth.com",
+                "scotchandsoda.com",
+                "www.hurley.com",
+                "www.karenkane.com",
+                "www.simonandschuster.com"
+            ]
+        },
+        {
+            "rule": "nogin\\.com\\/api\\/v1\\/wishlist\\/settings",
+            "cookies": 0.0000273,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "nogin_session": 0.0000273280043724807,
+                "nogin_session_update": 0.0000273280043724807,
+                "nogin_access_token_COOKIE_NAME": 0.0000273280043724807
+            },
+            "exampleSites": [
+                "modcloth.com",
+                "scotchandsoda.com",
+                "www.hurley.com",
+                "www.karenkane.com"
+            ]
+        },
+        {
+            "rule": "nogin\\.com\\/api\\/v1\\/wishlist\\/settings",
+            "cookies": 0.0000273,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "e7698d6700dd69367574ea8d9c0d6b5a2252e1c66a534683dc15f500ce63031e",
+                "f09bd4c14b8c3f91909a817871730db0995324229f02187b7b8bb2c91d880970",
+                "23b61635661e3acad84fc65915dea68c9c108418df18038f7e1fbfd05fc8a8be"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "nogin_session": 0.0000273280043724807,
+                "nogin_session_update": 0.0000273280043724807,
+                "nogin_access_token_COOKIE_NAME": 0.0000273280043724807
+            },
+            "exampleSites": [
+                "modcloth.com",
+                "scotchandsoda.com",
+                "www.hurley.com",
+                "www.karenkane.com"
+            ]
+        },
+        {
+            "rule": "nogin\\.com\\/api\\/v1\\/element\\/data\\/dynamic-placement",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "nogin_session": 0.0000273280043724807,
+                "nogin_session_update": 0.0000273280043724807,
+                "nogin_access_token_COOKIE_NAME": 0.00003416000546560088
+            },
+            "exampleSites": [
+                "modcloth.com",
+                "scotchandsoda.com",
+                "www.hurley.com",
+                "www.karenkane.com",
+                "www.simonandschuster.com"
+            ]
+        },
+        {
+            "rule": "nogin\\.com\\/api\\/v1\\/element\\/data\\/dynamic-placement",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "472b30b6073915d73d1ccebfa7ae350a63ceebd97241753761330e87869e466d",
+                "4bf7c8639bc34bbbae5aef4aba3c724f9a425cbdc0416ab6384f7745ae1acb96",
+                "e650870a01078587bd20bdf790266992679f73a305c02bf8c995c0ffedefe74d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "nogin_session": 0.0000273280043724807,
+                "nogin_session_update": 0.0000273280043724807,
+                "nogin_access_token_COOKIE_NAME": 0.00003416000546560088
+            },
+            "exampleSites": [
+                "modcloth.com",
+                "scotchandsoda.com",
+                "www.hurley.com",
+                "www.karenkane.com",
+                "www.simonandschuster.com"
+            ]
+        },
+        {
+            "rule": "nogin\\.com\\/clvceg79i4zbv1tjybh009qzz\\/IconAccount\\.png",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "137c5b7342767029efa214dc0cfac413db4d5241de72f5ad4e27cbf5b8fdd7f5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brookstone.com",
+                "www.brookstone.com"
+            ]
+        },
+        {
+            "rule": "nogin\\.com\\/clvceg79dwsx51sjs3crmb7ay\\/IconWishlist\\.png",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c0faaec3496fd5df18dba3ff3a1a77fc118382492e92381bc82f4fa08cdd3b97"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brookstone.com",
+                "www.brookstone.com"
+            ]
+        },
+        {
+            "rule": "nogin\\.com\\/clvceg79bwx7q1sjw8mwt3lm3\\/IconGifting1\\.png",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "aebf18477bb030ad54e74beeccd1abcb4ee52ea545ebec7a655f2935f39a4ecd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brookstone.com",
+                "www.brookstone.com"
+            ]
+        },
+        {
+            "rule": "nogin\\.com\\/clvcfk0ub8yel1tjy3c0xc5gg\\/image-31-1\\.png",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "be31e33b53ddc67c1f890d03ba0eee9ae4bf6b91c3048adb58ae37ba40ff77e5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brookstone.com",
+                "www.brookstone.com"
+            ]
+        },
+        {
+            "rule": "nogin\\.com\\/clvcfk0ub2o301sjt6425d59m\\/image-31-2\\.png",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9955fc73f17ddec60a95130c95c961620af79468fb2ed85c82dfb162571acb8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brookstone.com",
+                "www.brookstone.com"
+            ]
+        },
+        {
+            "rule": "nogin\\.com\\/clvcfk0ubelkq1rjyf0sp7750\\/image-31-3\\.png",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "507347fbef59b29f441786e1a0a25bd8882a397607785dbe506756c97cffea05"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brookstone.com",
+                "www.brookstone.com"
+            ]
+        },
+        {
+            "rule": "nogin\\.com\\/clvcfk0uadndw1tij8vnth393\\/image-31-4\\.png",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e7844f500723a9b7b57129dca8d9dac5d0e233ae1e2256e0128326b6a479d243"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brookstone.com",
+                "www.brookstone.com"
+            ]
+        },
+        {
+            "rule": "nogin\\.com\\/api\\/static\\/widget2\\/nogin\\.basic\\.iife\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b924072476d343e5f7b1b46b0d763425601c2c9b6e540be9c757bbdf5b362b31"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "nogin_access_token_COOKIE_NAME": {
+                    "ttl": null,
+                    "length": 220,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "simonandschuster.com",
+                "www.simonandschuster.com"
+            ]
+        },
+        {
+            "rule": "nogin\\.com\\/clrqoacqwkliy1sii3kgt4e6y\\/sns_cart_icon\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "10677ab18d08730c02e94263ed1374552df9fcbd3bc1b01a016da0e749548a29"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "simonandschuster.com",
+                "www.simonandschuster.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000547,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Preflight": 17,
+        "XHR": 19,
+        "Image": 16
+    },
+    "nameservers": [
+        "todd.ns.cloudflare.com",
+        "josephine.ns.cloudflare.com"
+    ]
+}

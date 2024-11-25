@@ -1,0 +1,123 @@
+{
+    "domain": "interia.pl",
+    "owner": {
+        "name": "Grupa Interia.pl Sp. z o.o. sp. k.",
+        "displayName": "Interia"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [
+        "iwa3.hit",
+        "adc"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "interia\\.pl\\/iwa_core",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "iwa3.hit"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "5255069940f15380b3c0913d12fb7b47778edf842c6d081f8a881c11eb1754b4",
+                "61feaf57cb58a4dd03488c24997d4ced34e719a91385799ea51b9d55d0717c75",
+                "ad3b428f74a9f4052959703667b5e7e36c22aa2af8eb6f1d6c6c23faab3f9853",
+                "23d063d8c6014175b5c26759a5765d8000bf9a35f9ebc351ba8b45cb8107dcc4",
+                "016308222e71dad2ce02f2c9a49e8581bc17d497ea4d7fda768767000dd5496a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "antyweb.pl",
+                "naekranie.pl",
+                "www.polsat.pl",
+                "www.polsatnews.pl",
+                "www.polsatsport.pl",
+                "www.twojapogoda.pl"
+            ]
+        },
+        {
+            "rule": "interia\\.pl\\/collector",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "iwa3.hit"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "antyweb.pl",
+                "naekranie.pl",
+                "www.polsat.pl",
+                "www.polsatnews.pl",
+                "www.polsatsport.pl",
+                "www.twojapogoda.pl"
+            ]
+        },
+        {
+            "rule": "interia\\.pl\\/adc\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adc"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "ffc8aaafb6c87e417dd2cbdb10b68e679604f51a6a382145ff3dce607f61b1e9",
+                "8e6ec2928e07846d3a2ac389a9bdd44f3663b0f94d74469beda48f1b5fb6a444",
+                "dfd354ff865782b7af494944befbe321b52fa2202e082e8f431f659cae0a000f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "naekranie.pl",
+                "www.polsatnews.pl",
+                "www.polsatsport.pl",
+                "www.twojapogoda.pl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000041,
+    "topInitiators": [
+        {
+            "domain": "iplsc.com",
+            "prevalence": 0.625
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.375
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "WebSocket": 6,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "dns3.interia.pl",
+        "dns2.interia.pl",
+        "dns1.interia.pl"
+    ]
+}

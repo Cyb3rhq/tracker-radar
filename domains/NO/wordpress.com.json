@@ -1,0 +1,156 @@
+{
+    "domain": "wordpress.com",
+    "owner": {
+        "name": "Automattic, Inc.",
+        "displayName": "Automattic",
+        "privacyPolicy": "https://automattic.com/privacy/",
+        "url": "http://automattic.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00141,
+    "sites": 14,
+    "subdomains": [
+        "public-api",
+        "r-login",
+        "stats"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "wordpress\\.com\\/wp-admin\\/rest-proxy\\/",
+            "cookies": 0.000402,
+            "fingerprinting": 1,
+            "subdomains": [
+                "public-api"
+            ],
+            "apis": {
+                "Document.cookie getter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "337e3d552e0977550299004aa0be3f00f66f7824434c7df26e4fd749050888ab"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fettogforstand.no",
+                "techdirectarchive.com",
+                "thoralfsblogg.com",
+                "www.riksavisen.no"
+            ]
+        },
+        {
+            "rule": "wordpress\\.com\\/rest\\/v1\\/batch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "814324095230b8322e95406b1ad78561c1aa81db88015504d572146f0e201bf9",
+                "19f6307f48fcc3cf008da0c28ed45d2bf3131ae70fc2ce2300890f0ae0d07a52"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fettogforstand.no",
+                "techdirectarchive.com",
+                "thoralfsblogg.com"
+            ]
+        },
+        {
+            "rule": "wordpress\\.com\\/remote-login\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r-login"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "1f1af01e3ff565e8a24e5ceb2a9545b24f23955301246b6f6dcc462deecb2dbd",
+                "448ef9c4c195ddd33d642f52c1e7acb7fabe5dfb537de209cf0ee5236f68850d"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "saksyndig.com",
+                "thoralfsblogg.com",
+                "toppnorsk.com"
+            ]
+        },
+        {
+            "rule": "wordpress\\.com\\/e-202446\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "stats"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5badd609a51ede5bab5b89534fc3011a4dd1ab487cc7081d7cf38479bcbab855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "valdemarsro.dk",
+                "www.valdemarsro.dk"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7796610169491526
+        },
+        {
+            "domain": "wp.com",
+            "prevalence": 0.1864406779661017
+        },
+        {
+            "domain": "videopress.com",
+            "prevalence": 0.01694915254237288
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.01694915254237288
+        }
+    ],
+    "types": {
+        "Document": 7,
+        "XHR": 3,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns1.wordpress.com",
+        "ns2.wordpress.com",
+        "ns3.wordpress.com",
+        "ns4.wordpress.com"
+    ]
+}

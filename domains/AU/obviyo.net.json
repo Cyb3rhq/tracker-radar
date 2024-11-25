@@ -1,0 +1,308 @@
+{
+    "domain": "obviyo.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "h30-deploy",
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "obviyo\\.net\\/origin\\/personalize\\/static\\/swiper-bundle\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "h30-deploy"
+            ],
+            "apis": {
+                "Navigator.prototype.maxTouchPoints": 1,
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "fb40e9e8d491646064c4daf7e5e57d9e3bf35c239348ecfeb68623559fe00f67"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "matchbox.com.au",
+                "www.curvy.com.au",
+                "www.strandbags.com.au"
+            ]
+        },
+        {
+            "rule": "obviyo\\.net\\/origin\\/personalize\\/static\\/core\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "h30-deploy"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "32f5d57e79d382c40f1b4605e565e0fb9eb21bdfe7c9a01e8c8554e4f950d19f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "matchbox.com.au",
+                "www.curvy.com.au",
+                "www.strandbags.com.au"
+            ]
+        },
+        {
+            "rule": "obviyo\\.net\\/origin\\/personalize\\/static\\/core\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "h30-deploy"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 3,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "6267f7596df3583d9010b6322a4beb7dbdcf2bc64ab9560d16c5a618a1306916"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "matchbox.com.au",
+                "www.curvy.com.au",
+                "www.strandbags.com.au"
+            ]
+        },
+        {
+            "rule": "obviyo\\.net\\/lib\\/hyper\\/obv-components\\.esm\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "window.indexedDB": 3,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "4e9b074e54bc63582d4d633a05a18a4c470af6d3b0c9c683703e6694988d043f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_obv_a_vid": {
+                    "ttl": 31536010,
+                    "length": 36,
+                    "prevalence": 0.0003013258336681398,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "matchbox.com.au",
+                "www.curvy.com.au",
+                "www.strandbags.com.au"
+            ]
+        },
+        {
+            "rule": "obviyo\\.net\\/lib\\/hyper\\/obv-components\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "6622fa319890efbdbf987cbe79d443916a8d6ccf8da5010a127fb5b6098e67e6"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "matchbox.com.au",
+                "www.curvy.com.au",
+                "www.strandbags.com.au"
+            ]
+        },
+        {
+            "rule": "obviyo\\.net\\/edge",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ec997042c35e8f67b54889269c933bbf0a96bfec39f8df98865abd7c59d9fc39"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "matchbox.com.au",
+                "www.curvy.com.au",
+                "www.strandbags.com.au"
+            ]
+        },
+        {
+            "rule": "obviyo\\.net\\/origin\\/__hic_post",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "h30-deploy"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_obv_a_vid": 0.0003013258336681398
+            },
+            "exampleSites": [
+                "matchbox.com.au",
+                "www.curvy.com.au",
+                "www.strandbags.com.au"
+            ]
+        },
+        {
+            "rule": "obviyo\\.net\\/recommend\\/qn",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "464a308a11085915a748dadb75471ef8f2c9148f49e5fbd1a8d932f2338593fd"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_obv_a_vid": 0.0002008838891120932
+            },
+            "exampleSites": [
+                "matchbox.com.au",
+                "www.curvy.com.au"
+            ]
+        },
+        {
+            "rule": "obviyo\\.net\\/dynamic\\/loader\\/prod\\/c4KjxKpM",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2bd63d34340fdc53b0fe67db0054e00455cb0e627df9697b3b15826a3d933e96"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "curvy.com.au",
+                "www.curvy.com.au"
+            ]
+        },
+        {
+            "rule": "obviyo\\.net\\/dynamic\\/loader\\/prod\\/cxq0l4IB",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c35b534445012dcf116130d0f794ace0881e55f77fc7c0c0011340d083fd9628"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "strandbags.com.au",
+                "www.strandbags.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.896551724137931
+        },
+        {
+            "domain": "hiconversion.com",
+            "prevalence": 0.06896551724137931
+        },
+        {
+            "domain": "reamaze.com",
+            "prevalence": 0.034482758620689655
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "Stylesheet": 6,
+        "Fetch": 5,
+        "Ping": 3
+    },
+    "nameservers": [
+        "virginia.ns.cloudflare.com",
+        "damian.ns.cloudflare.com"
+    ]
+}

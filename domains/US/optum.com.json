@@ -1,0 +1,257 @@
+{
+    "domain": "optum.com",
+    "owner": {
+        "name": "UnitedHealth Group Inc.",
+        "displayName": "UnitedHealth Group"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000184,
+    "sites": 27,
+    "subdomains": [
+        "smetrics",
+        "myoptum",
+        "sso",
+        "nav",
+        "prod.ui.search",
+        "starget"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "optum\\.com\\/id",
+            "cookies": 0.0000273,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smetrics"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "8f3f05f1afb6e9f5fa01771bc2ea84ed675d7e47f5dd0fdbddc5de9fcd299e37",
+                "772b2daabcd28f2e25d9a4824d119f0cdc85d688720753c6e26f90f135fef204",
+                "4c526c9a1aa0b75616c01e4b4e95f9afb7ac973066a8e4cbf35404cb8e22324e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "optumrx.com",
+                "www.uhcdental.com",
+                "www.uhcprovider.com",
+                "www.unitedhealthgroup.com"
+            ]
+        },
+        {
+            "rule": "optum\\.com\\/etc\\/designs\\/odhd-global-loader\\/prod\\/js\\/globalLoader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "myoptum"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.product": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e5074159f24556e6801fadac805735a5b41a55f729c196fbec8cf93920ad3565"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "optumrx.com",
+                "welcome.optumrx.com"
+            ]
+        },
+        {
+            "rule": "optum\\.com\\/ext\\/as\\/authorization\\.oauth2",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sso"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myuhcvision.com",
+                "www.spectera.com"
+            ]
+        },
+        {
+            "rule": "optum\\.com\\/js\\/forms2\\/js\\/forms2\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "nav"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0e1bfe53260b5fa35318df2850a20f74c97d41af88b7d233d331811d842f26d3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "optumrx.com",
+                "www2.optumrx.com"
+            ]
+        },
+        {
+            "rule": "optum\\.com\\/widget\\/v2\\.1\\.1\\/remoteEntry\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.ui.search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c4074bbb206bf6bddb438c83286eb737f8f7c5795cd04b363a9aee6d66e8a6b6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "optumrx.com",
+                "www2.optumrx.com"
+            ]
+        },
+        {
+            "rule": "optum\\.com\\/rx-widget\\/v0\\.0\\.0\\/remoteEntry\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.ui.search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77befef56d38ec2f23e39edb470dbf42d9fe92ec70c63d213b66b33ec4550939"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "optumrx.com",
+                "www2.optumrx.com"
+            ]
+        },
+        {
+            "rule": "optum\\.com\\/provider-widget\\/v1\\.0\\.0\\/remoteEntry\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.ui.search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "393f01112edfd6534d9fcb070db5d0e8453e90f7d74d80bd417d91c945f6b1e1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "optumrx.com",
+                "www2.optumrx.com"
+            ]
+        },
+        {
+            "rule": "optum\\.com\\/rest\\/v1\\/delivery",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "starget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e1d36863ca594ba775fdeec3c5b70bae4ce6842d85870f768a166e7575025262"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "optumrx.com",
+                "www2.optumrx.com"
+            ]
+        },
+        {
+            "rule": "optum\\.com\\/rest\\/v1\\/delivery",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "starget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "optumrx.com",
+                "www2.optumrx.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000082,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.4807692307692308
+        },
+        {
+            "domain": "gbqofs.com",
+            "prevalence": 0.019230769230769232
+        }
+    ],
+    "types": {
+        "XHR": 6,
+        "Script": 10,
+        "Document": 2,
+        "Ping": 2
+    },
+    "nameservers": [
+        "epla2.corpnamesvcs.com",
+        "epla1.corpnamesvcs.com"
+    ]
+}

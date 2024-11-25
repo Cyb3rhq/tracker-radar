@@ -1,0 +1,80 @@
+{
+    "domain": "good-apps.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "gifts",
+        "timer"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "good-apps\\.co\\/css\\/goodappsf-free-gift\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gifts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "900234ba311c99e9f39c5c4726b3c8460ec4df2e71b581639b985c423db5a0a8"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "greggrantsaddlery.com.au",
+                "www.greggrantsaddlery.com.au"
+            ]
+        },
+        {
+            "rule": "good-apps\\.co\\/storage\\/js\\/good_apps_timer-tsbw-au\\.myshopify\\.com\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "timer"
+            ],
+            "apis": {
+                "window.sessionStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9db7b5fd30fd8bc94876eb04242badca51b478c2457228f773fe7bf7b4a3e9c1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thesurfboardwarehouse.com.au",
+                "www.thesurfboardwarehouse.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "roan.ns.cloudflare.com",
+        "kate.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,1105 @@
+{
+    "domain": "fidelity.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000752,
+    "sites": 11,
+    "subdomains": [
+        "ecaap",
+        "dmt",
+        "dpservice",
+        "assets",
+        "sitecatalyst",
+        "clix",
+        "sv",
+        "digital",
+        "workplaceservices",
+        "wsclix"
+    ],
+    "cnames": [
+        {
+            "original": "assets.fidelity.com",
+            "resolved": "assets.fidelity.com.edgekey.net"
+        },
+        {
+            "original": "clix.fidelity.com",
+            "resolved": "clix.fidelity.com.edgekey.net"
+        },
+        {
+            "original": "digital.fidelity.com",
+            "resolved": "digital.fidelity.com.edgekey.net"
+        },
+        {
+            "original": "dmt.fidelity.com",
+            "resolved": "dmt.fidelity.com.edgekey.net"
+        },
+        {
+            "original": "dpservice.fidelity.com",
+            "resolved": "dpservice.fidelity.com.edgekey.net"
+        },
+        {
+            "original": "ecaap.fidelity.com",
+            "resolved": "ecaap.fidelity.com.edgekey.net"
+        },
+        {
+            "original": "sitecatalyst.fidelity.com",
+            "resolved": "sitecatalyst.fidelity.com.edgekey.net"
+        },
+        {
+            "original": "sv.fidelity.com",
+            "resolved": "sv.fidelity.com.edgekey.net"
+        },
+        {
+            "original": "workplaceservices.fidelity.com",
+            "resolved": "workplaceservices.fidelity.com.edgekey.net"
+        },
+        {
+            "original": "wsclix.fidelity.com",
+            "resolved": "wsclix.fidelity.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/user\\/session\\/login",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ecaap"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "ecaap.fidelity.com",
+                    "resolved": "ecaap.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "login.fidelity.com",
+                "nb.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/prod\\/meas\\/",
+            "cookies": 0.0000273,
+            "fingerprinting": 3,
+            "subdomains": [
+                "dmt"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [
+                {
+                    "original": "dmt.fidelity.com",
+                    "resolved": "dmt.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "cc3eee111b6d3ef1218a5653e3ad890520336d79b1adb7a2e93470982aee681a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "digital.fidelity.com",
+                "fundresearch.fidelity.com",
+                "www.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/ftgw\\/dpdirect\\/measurement\\/visitoridentification\\/v1",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dpservice"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [
+                {
+                    "original": "dpservice.fidelity.com",
+                    "resolved": "dpservice.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "88f8730486659b993fd01a93130ce15c69ba333750389d36e7a423a9d62aed8a",
+                "49c7ff571f6b2c80d1ee0913768df38b6715daebac90274fcfd98e306667fdb3",
+                "444f34e29c70ba3b6faeb2068125e2b8d8f8e785cd9b6b59dc12c649f62a8a5d",
+                "eadd1ac0b0fba4e5f9080fd2b7da690eee37d09525df11862d94f93ac8f094b0",
+                "0239def25e6f938aaa81bdaa4fdfc0a5632e44b2449e78a2cc8b33cee436d3b9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "digital.fidelity.com",
+                "fundresearch.fidelity.com",
+                "login.fidelity.com",
+                "nb.fidelity.com",
+                "www.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/error\\/e\\.gif",
+            "cookies": 0.0000273,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmt"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [
+                {
+                    "original": "dmt.fidelity.com",
+                    "resolved": "dmt.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "digital.fidelity.com",
+                "fundresearch.fidelity.com",
+                "www.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/fonts\\/FidelitySans-Regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "assets.fidelity.com",
+                    "resolved": "assets.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "ae32258aaed52b99a45f400675e1a1f613c5381c6039d3fd07fc5b72c01d992a"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "login.fidelity.com",
+                "nb.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/fidelity\\/prod\\/serverComponent\\.php",
+            "cookies": 0.0000273,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmt"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [
+                {
+                    "original": "dmt.fidelity.com",
+                    "resolved": "dmt.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "c51278fe0746b562fba35fa59aeb8ee71e22fdcb47c1a8ed934ee180edd314fc",
+                "74385f67a35d40d235e22f6953be000ef0b93d78815630550f4f4bb84a0d826b",
+                "c513bfd3997c33fdd2a2485559d6c225cdbacac62fe27a34528c5c2ec04a06ec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "digital.fidelity.com",
+                "fundresearch.fidelity.com",
+                "www.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/id",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sitecatalyst"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [
+                {
+                    "original": "sitecatalyst.fidelity.com",
+                    "resolved": "sitecatalyst.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "digital.fidelity.com",
+                "fundresearch.fidelity.com",
+                "login.fidelity.com",
+                "nb.fidelity.com",
+                "www.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/fonts\\/FidelitySans-Bold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [
+                {
+                    "original": "assets.fidelity.com",
+                    "resolved": "assets.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "bdfb2211a689852bf27f0b971ca17b916682b3ed9d7926a742ff60737828b0dd"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "fundresearch.fidelity.com",
+                "login.fidelity.com",
+                "nb.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/fidelity\\/prod\\/code\\/f97ac3bb8e48630b5db23d7f0af10589\\.js",
+            "cookies": 0.0000273,
+            "fingerprinting": 2,
+            "subdomains": [
+                "dmt"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [
+                {
+                    "original": "dmt.fidelity.com",
+                    "resolved": "dmt.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "7c1d234046d88c386b5586e3d9ecc7b05d4c721d8d31ec12f0d2f2ef66e42f15"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "digital.fidelity.com",
+                "fundresearch.fidelity.com",
+                "www.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/privacy\\/v1\\/b\\/b\\.rnc",
+            "cookies": 0.0000273,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmt"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [
+                {
+                    "original": "dmt.fidelity.com",
+                    "resolved": "dmt.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "digital.fidelity.com",
+                "fundresearch.fidelity.com",
+                "www.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/clix",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "clix"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [
+                {
+                    "original": "clix.fidelity.com",
+                    "resolved": "clix.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "1c9bcfd5a7ac763fef4f9aaf8ac6e36db3e5088afeff1747eb4f1b42972f82cb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "digital.fidelity.com",
+                "fundresearch.fidelity.com",
+                "www.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/internal\\/id-event\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "sv.fidelity.com",
+                    "resolved": "sv.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "c8ba13c95b81aa84c23383558271e6f76d45079f82dbf0a2fee5e8d3f2278b60"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "www.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/fonts\\/FidelitySans-Regular\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "assets.fidelity.com",
+                    "resolved": "assets.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "d1297e9ff7f6d5b63eaaaa7ae4258fff3bfed70fdcf14b62bb17b12f6e2243ab"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "fundresearch.fidelity.com",
+                "www.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/fonts\\/FidelitySans-Bold\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "assets.fidelity.com",
+                    "resolved": "assets.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "80c18787f992bd83b249ed349da026d36dc39f21654d7e1904dd93d31d0e0bea"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "fundresearch.fidelity.com",
+                "www.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/fidelity\\/prod\\/code\\/bdee083f218763f9befc84c13a4d7303\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "dmt.fidelity.com",
+                    "resolved": "dmt.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "820096f49f1336c09cd318850e52585562b54fc54d8941560f5f575e4da85aac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "www.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/fidelity\\/prod\\/code\\/c130b56f5088a0954c2150f4a077eba4\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "dmt.fidelity.com",
+                    "resolved": "dmt.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "06d60cd95b9273a5fb5b30840bfd91e4e80964023e3e8ecb0b8c5c876ad2ab73"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "www.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/fidelity\\/prod\\/code\\/52196d5bd8ac26689c9a038f0ec6e1e9\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "dmt.fidelity.com",
+                    "resolved": "dmt.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "dadb745435db48cc21daff1bc5e40cc637c071149d76ba06025c5e43c1207c33"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "www.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/fidelity\\/prod\\/code\\/ce2cc9145b9b812c0831b47a44502dff\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "dmt.fidelity.com",
+                    "resolved": "dmt.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "9811f657cdd2bc2f92e70a7108e048792598e0629816538e0e239d6dc0060699"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "www.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/fidelity\\/prod\\/code\\/27b60a5133a6b9e73f94ac0636d712b3\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "dmt.fidelity.com",
+                    "resolved": "dmt.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "6013fb799f0eb11a69c6b3438fe4336fd1ece4308f6f8244aadf725170f0b805"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "www.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/fidelity\\/prod\\/code\\/3a44f743b151324e1b2dc7b46204bad7\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "dmt.fidelity.com",
+                    "resolved": "dmt.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "90c697de84338e53d149c29fcf5905a9aa3209ac753513631097f0a3ec0bf437"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "www.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/fidelity\\/prod\\/code\\/af6e2073d515569c2e7c6076ddc490e4\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "dmt.fidelity.com",
+                    "resolved": "dmt.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "22c794bf34a158e7be848f2965c60b0789c4a6da285af836bc9581fce8b658e2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "www.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/vendor\\/providence\\/fonts\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "assets.fidelity.com",
+                    "resolved": "assets.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "158f83a56757443d4605e1dd15604686591a28ec968424eb6df167ce57340132"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "fundresearch.fidelity.com",
+                "login.fidelity.com",
+                "nb.fidelity.com",
+                "www.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/fonts\\/FidelitySans-Demibold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [
+                {
+                    "original": "assets.fidelity.com",
+                    "resolved": "assets.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "83cc94914c220b90b0e72595cb3c3eb8cc9a4ffb6ec5b13048941084bd44ef76"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "login.fidelity.com",
+                "nb.fidelity.com",
+                "www.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/fonts\\/FidelitySans-Italic\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "assets.fidelity.com",
+                    "resolved": "assets.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "6d15069b72a14781993b9e940db6ddfe11600177c449b143be975ae665d8d21f"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "fundresearch.fidelity.com",
+                "www.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/tpTracking\\/loader\\/load\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "sv.fidelity.com",
+                    "resolved": "sv.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "36d169afa3315b95ce43041295d32d26ca74a5ccea9b13d7ee8e29eeb9a8033f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "www.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/ctgw\\/digital\\/search\\/client\\/smartSuggest\\.css",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digital"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "digital.fidelity.com",
+                    "resolved": "digital.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "999a414815f648bd3d45369fbf6bd3365639cf0129b22b11e9aace6cbbf67223"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "fundresearch.fidelity.com",
+                "www.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/ctgw\\/digital\\/search\\/client\\/smartSuggest\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digital"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "digital.fidelity.com",
+                    "resolved": "digital.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "6aab41d009b766baba749eab7044a49c71bbb9a63bd975eb8273f8fdf0d7ca8b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "fundresearch.fidelity.com",
+                "www.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/fidelity\\/prod\\/code\\/43b26b5efe166ca5a4c219387ef1a8c1\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "dmt.fidelity.com",
+                    "resolved": "dmt.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "d9af5eb1e31ef3c34d0cab9d56eca9a509a16901c4778bed7a09a6727a86cb9e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "fundresearch.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/fonts\\/FidelitySans-Light\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "assets.fidelity.com",
+                    "resolved": "assets.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "ebfcb572004ba50e527cbe5abecd5d4c8f85692effa4df7f3f98db99ba0af8d5"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "www.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/stgw\\/digital\\/echipprivacy\\/institution\\/index\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "digital"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "digital.fidelity.com",
+                    "resolved": "digital.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "2d324843af37ff96d6f212c801e52a05963ef05691bfc296f3ef8879fe0bc273"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "institutional.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/nbprod\\/meas\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "dmt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "dmt.fidelity.com",
+                    "resolved": "dmt.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "3b20375e1f471328c7de25cefe483cdda61e59eec4dac7c52f50d318193d72aa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "nb.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/user\\/identity\\/remember\\/username",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ecaap"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ecaap.fidelity.com",
+                    "resolved": "ecaap.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "nb.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/user\\/identity\\/remember\\/username",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ecaap"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ecaap.fidelity.com",
+                    "resolved": "ecaap.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "4d3c358a0d6e0d437ad8dbc744ebefddf8b6237471fa0d67ec72e7ca1a60b26a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "nb.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/user\\/session\\/login",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ecaap"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ecaap.fidelity.com",
+                    "resolved": "ecaap.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "nb.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/static\\/common\\/nb\\/thirdparty\\/glance\\/js\\/GlanceCobrowseLoader_5\\.8\\.5M\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "workplaceservices"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "workplaceservices.fidelity.com",
+                    "resolved": "workplaceservices.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "3adc4c687f0e91560316a8e926e2f2f89e5863104376894454cf1f9999628648"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "nb.fidelity.com"
+            ]
+        },
+        {
+            "rule": "fidelity\\.com\\.edgekey\\.net\\/wsrelay",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wsclix"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "wsclix.fidelity.com",
+                    "resolved": "wsclix.fidelity.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "1c9bcfd5a7ac763fef4f9aaf8ac6e36db3e5088afeff1747eb4f1b42972f82cb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "login.fidelity.com",
+                "nb.fidelity.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000752,
+    "topInitiators": [
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.8235294117647058
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.11764705882352941
+        },
+        {
+            "domain": "clicktale.net",
+            "prevalence": 0.058823529411764705
+        }
+    ],
+    "types": {
+        "Preflight": 5,
+        "Script": 39,
+        "XHR": 21,
+        "Image": 8,
+        "Font": 22,
+        "Stylesheet": 8,
+        "Fetch": 4
+    },
+    "nameservers": []
+}

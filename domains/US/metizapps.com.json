@@ -1,0 +1,79 @@
+{
+    "domain": "metizapps.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "storelocator",
+        "gcc"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "metizapps\\.com\\/stores\\/get_app_status",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storelocator"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "norafleming.com",
+                "us.mgigolf.com"
+            ]
+        },
+        {
+            "rule": "metizapps\\.com\\/assets\\/js\\/app\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gcc",
+                "storelocator"
+            ],
+            "apis": {
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "siliconelovers.com",
+                "us.mgigolf.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-500.awsdns-62.com",
+        "ns-1700.awsdns-20.co.uk",
+        "ns-751.awsdns-29.net",
+        "ns-1512.awsdns-61.org"
+    ]
+}

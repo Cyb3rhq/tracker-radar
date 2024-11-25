@@ -1,0 +1,194 @@
+{
+    "domain": "addsauce.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000888,
+    "sites": 13,
+    "subdomains": [
+        "api",
+        "cdn",
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "addsauce\\.com\\/split_tests\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "762c2749580c286a68d4528d912a4afa02a17dc2025c6c65b17b0dfab8291408"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "atoleajewelry.com",
+                "chanceloves.com",
+                "duckfeetusa.com",
+                "pacsafe.com",
+                "shopduer.com",
+                "www.inheritco.com"
+            ]
+        },
+        {
+            "rule": "addsauce\\.com\\/e\\/snap-widget-7d724c6b77d2edf4ab82\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "HTMLMediaElement.prototype.canPlayType": 3,
+                "window.innerWidth": 3,
+                "CookieStore.prototype.get": 3,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.innerHeight": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "1427ec97cca94d08f77e27363821fde96572b587a6bba2c51320a34f08f8cce8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "snpt-tracking-v2-session": {
+                    "ttl": 2678422,
+                    "length": 36,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duckfeetusa.com",
+                "toolstoday.com",
+                "www.lemieux.com"
+            ]
+        },
+        {
+            "rule": "addsauce\\.com\\/e\\/snap-widget-vendor-2b4856ede3f29de2f13b\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Event.prototype.timeStamp": 3,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Date.prototype.getTime": 1,
+                "window.innerHeight": 1,
+                "Element.prototype.getClientRects": 1,
+                "Navigator.prototype.appName": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "ea031591a3288248bf82d7de8b39b5c3ed3d4c1633da25cc0f36fcdcbe4f37c2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duckfeetusa.com",
+                "toolstoday.com",
+                "www.lemieux.com"
+            ]
+        },
+        {
+            "rule": "addsauce\\.com\\/items\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "b07dddd99e62fbd4872f9ec954284e79f75fa652cb157194a22a9137a0692f00",
+                "b8594794ee0b2f45da75e50c622a9a57558697ba704e7a2e31cb39df7ecaa112"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duckfeetusa.com",
+                "toolstoday.com",
+                "www.lemieux.com"
+            ]
+        },
+        {
+            "rule": "addsauce\\.com\\/widgets\\/beacon\\/d5bb9e25-a67e-4e83-a139-69948082924f",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a29ee2b15c494311c52521766e44af56a3ad2248e7a8ab465e5206463c13d288"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lemieux.com",
+                "www.lemieux.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000041,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6060606060606061
+        },
+        {
+            "domain": "snapppt.com",
+            "prevalence": 0.24242424242424243
+        },
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.09090909090909091
+        },
+        {
+            "domain": "global-e.com",
+            "prevalence": 0.06060606060606061
+        }
+    ],
+    "types": {
+        "Fetch": 6,
+        "Script": 9,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-206.awsdns-25.com",
+        "ns-1594.awsdns-07.co.uk",
+        "ns-632.awsdns-15.net",
+        "ns-1311.awsdns-35.org"
+    ]
+}

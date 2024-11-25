@@ -1,0 +1,157 @@
+{
+    "domain": "bc0a.com",
+    "owner": {
+        "name": "BrightEdge Technologies Inc.",
+        "displayName": "BrightEdge"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.00121,
+    "sites": 12,
+    "subdomains": [
+        "cdn",
+        "ixfd2-api",
+        "marvel-processor"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "bc0a\\.com\\/autopilot\\/f00000000311049\\/autopilot_sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b653b01d41791ac18c209761dfcfd1ad4f1e90aa14facbe5116ea82786fc294e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cromwell.co.uk",
+                "www.cromwell.co.uk"
+            ]
+        },
+        {
+            "rule": "bc0a\\.com\\/api\\/ixf\\/1\\.0\\.0\\/get_capsule\\/f00000000311049\\/440527556",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ixfd2-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4fa421f0119d6e30f385a3588ca08c319a81c8db090ad4750905fd32a008fe5b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cromwell.co.uk",
+                "www.cromwell.co.uk"
+            ]
+        },
+        {
+            "rule": "bc0a\\.com\\/autopilot\\/f00000000306765\\/autopilot_sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bdf853e170fbb66b0501404adb5497972a1b22e0583a9ebbc04f4bb6a3553807"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laithwaites.co.uk",
+                "www.laithwaites.co.uk"
+            ]
+        },
+        {
+            "rule": "bc0a\\.com\\/api\\/ixf\\/1\\.0\\.0\\/get_capsule\\/f00000000306765\\/1104231552",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ixfd2-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "880563993a4c0ff42cd7fda0a14afb604b75eba8c4cbedef8b70f4df938dd9c4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laithwaites.co.uk",
+                "www.laithwaites.co.uk"
+            ]
+        },
+        {
+            "rule": "bc0a\\.com\\/snowcloud\\/v1\\/api\\/loadUrl",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "marvel-processor"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hoopladigital.com",
+                "www.hoopladigital.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "pdns09.domaincontrol.com",
+        "pdns10.domaincontrol.com"
+    ]
+}

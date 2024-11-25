@@ -1,0 +1,180 @@
+{
+    "domain": "smoxy.eu",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000478,
+    "sites": 7,
+    "subdomains": [
+        "ingress"
+    ],
+    "cnames": [
+        {
+            "original": "lbt.lucky-bike.de",
+            "resolved": "ingress.smoxy.eu"
+        },
+        {
+            "original": "sst.armedangels.com",
+            "resolved": "ingress.smoxy.eu"
+        },
+        {
+            "original": "sst.kirstein.de",
+            "resolved": "ingress.smoxy.eu"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "smoxy\\.eu\\/gtm\\.js",
+            "cookies": 0.00000683,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ingress"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [
+                {
+                    "original": "sst.armedangels.com",
+                    "resolved": "ingress.smoxy.eu"
+                },
+                {
+                    "original": "sst.kirstein.de",
+                    "resolved": "ingress.smoxy.eu"
+                },
+                {
+                    "original": "lbt.lucky-bike.de",
+                    "resolved": "ingress.smoxy.eu"
+                }
+            ],
+            "responseHashes": [
+                "5ed29dbc3126b785ac4c511488075a8f9e079159bea5586719b4419fb58e82df",
+                "50c06430412c6ff895be5c1c81c4a3e8367c4046bf292e93b67a4279a7743ba7",
+                "9c699e34343a71003149c8cc0e0f6e95bdb5eff98f3efe16f4ae29ca06758e87"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armedangels.com",
+                "www.armedangels.com",
+                "www.kirstein.de",
+                "www.lucky-bike.de"
+            ]
+        },
+        {
+            "rule": "smoxy\\.eu\\/gtag\\/js",
+            "cookies": 0.00000683,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ingress"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "sst.armedangels.com",
+                    "resolved": "ingress.smoxy.eu"
+                },
+                {
+                    "original": "sst.kirstein.de",
+                    "resolved": "ingress.smoxy.eu"
+                }
+            ],
+            "responseHashes": [
+                "8dbb9f3d03f2ec242b7694f9c3277dfbe49be2fdd1eeb550373da28d3ee26915",
+                "933d16a9ce08e6d404d7985a600178da588e94a3c452f81e4939e486794243e5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armedangels.com",
+                "www.armedangels.com",
+                "www.kirstein.de"
+            ]
+        },
+        {
+            "rule": "smoxy\\.eu\\/g\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingress"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "sst.armedangels.com",
+                    "resolved": "ingress.smoxy.eu"
+                }
+            ],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armedangels.com",
+                "www.armedangels.com"
+            ]
+        },
+        {
+            "rule": "smoxy\\.eu\\/g\\/collect",
+            "cookies": 0.00000683,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingress"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "sst.armedangels.com",
+                    "resolved": "ingress.smoxy.eu"
+                },
+                {
+                    "original": "sst.kirstein.de",
+                    "resolved": "ingress.smoxy.eu"
+                }
+            ],
+            "responseHashes": [
+                "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armedangels.com",
+                "www.armedangels.com",
+                "www.kirstein.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000683,
+    "topInitiators": [
+        {
+            "domain": "sitesearch360.com",
+            "prevalence": 0.9
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "XHR": 2,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ishaan.ns.cloudflare.com",
+        "blakely.ns.cloudflare.com"
+    ]
+}

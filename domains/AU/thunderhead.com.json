@@ -1,0 +1,180 @@
+{
+    "domain": "thunderhead.com",
+    "owner": {
+        "name": "Thunderhead.com Limited",
+        "displayName": "Thunderhead.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.001,
+    "sites": 10,
+    "subdomains": [
+        "ap1.cdn",
+        "ap1"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "thunderhead\\.com\\/one\\/rt\\/js\\/one-tag\\.js",
+            "cookies": 0.000603,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ap1.cdn",
+                "ap1"
+            ],
+            "apis": {
+                "Document.cookie getter": 9,
+                "window.localStorage": 9,
+                "Document.cookie setter": 6,
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 1
+            },
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "c36b9c53bfb3fb0f075269ef5247746bd16b4f9ee2d9f5da6ce67aa1915880f1",
+                "2808c7d3fdda006e16024cdf53cb120595ad806d2bfc80930ba1569c361a16a4",
+                "622b4740434186de08fa12c8eca26fedbb5ce7b25d9e6f036206251fa3f42096"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_one_ODAwMg": {
+                    "ttl": 62985611,
+                    "length": 36,
+                    "prevalence": 0.0002008838891120932,
+                    "uniqueness": 1
+                },
+                "_one_ODAwNg": {
+                    "ttl": 62985605,
+                    "length": 36,
+                    "prevalence": 0.0002008838891120932,
+                    "uniqueness": 1
+                },
+                "_one_NDgwMDA": {
+                    "ttl": 62985609,
+                    "length": 36,
+                    "prevalence": 0.0001004419445560466,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "luxuryescapes.com",
+                "my.telstra.com.au",
+                "outages.telstra.com.au",
+                "recharge.telstra.com.au",
+                "www.budgetdirect.com.au",
+                "www.chasingcars.com.au",
+                "www.landrover.com.au",
+                "www.myservices.telstra.com.au",
+                "www.telstra.com.au",
+                "www.telstra.com"
+            ]
+        },
+        {
+            "rule": "thunderhead\\.com\\/one\\/rt\\/web\\/v1\\/ONE-FU3YLQGSAF-1154",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ap1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "8717dbffd136eef88dd0683c48d8ab4bdc4257ea362b89a78c0f925e9322bd6d",
+                "05063fc989e5bfc2dfd71585164ce74a2cbc20e93f60ba2f28959c1e991f9551"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telstra.com.au",
+                "www.telstra.com.au",
+                "www.telstra.com"
+            ]
+        },
+        {
+            "rule": "thunderhead\\.com\\/one\\/rt\\/web\\/v1\\/ONE-WNLDKAOQ41-1776",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ap1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f8827ce4a7a684c865132883fd1e0a7844222140d701be055f81071fa4b731d0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "budgetdirect.com.au",
+                "www.chasingcars.com.au"
+            ]
+        },
+        {
+            "rule": "thunderhead\\.com\\/one\\/rt\\/web\\/v1\\/ONE-WNLDKAOQ41-1776\\/error",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ap1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_one_ODAwNg": 0.0002008838891120932
+            },
+            "exampleSites": [
+                "budgetdirect.com.au",
+                "www.chasingcars.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000603,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6875
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "telstra.com.au",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.0625
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "XHR": 5,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-586.awsdns-09.net",
+        "ns-316.awsdns-39.com",
+        "ns-1880.awsdns-43.co.uk",
+        "ns-1531.awsdns-63.org"
+    ]
+}

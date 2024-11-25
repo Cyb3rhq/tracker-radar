@@ -1,0 +1,149 @@
+{
+    "domain": "tagtoo.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "ad",
+        "uec",
+        "ecs"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "tagtoo\\.co\\/media\\/ad\\/track\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4e172bb8e5b870dab558293371e0bdaccf00760c5720b4f25ce93bfc794e5836"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "udn.com",
+                "health.udn.com"
+            ]
+        },
+        {
+            "rule": "tagtoo\\.co\\/tuec\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "uec"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "698fe0a6500f771d98d1ca713a5445d523fac649207572b69123699702854c0b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "udn.com",
+                "health.udn.com"
+            ]
+        },
+        {
+            "rule": "tagtoo\\.co\\/js\\/3134\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ecs"
+            ],
+            "apis": {
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "window.outerHeight": 2,
+                "window.outerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c5b645ce468e8a73c33c0e931cdfaea1fa03f9cdcea564a74b0e9eaa25a4b665"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_tg_csi": {
+                    "ttl": 23,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "udn.com",
+                "health.udn.com"
+            ]
+        },
+        {
+            "rule": "tagtoo\\.co\\/js\\/unitrack\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ecs"
+            ],
+            "apis": {
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2eab2b7adfd71b5cf3fe3747f993d26520691d544bb7fc4338dc049b4f0d1c2c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ut_csi": {
+                    "ttl": 6,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "udn.com",
+                "health.udn.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "popin.cc",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8
+    },
+    "nameservers": [
+        "cody.ns.cloudflare.com",
+        "jill.ns.cloudflare.com"
+    ]
+}

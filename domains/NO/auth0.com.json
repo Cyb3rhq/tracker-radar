@@ -1,0 +1,137 @@
+{
+    "domain": "auth0.com",
+    "owner": {
+        "name": "Auth0, Inc.",
+        "displayName": "Auth0"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000904,
+    "sites": 9,
+    "subdomains": [
+        "cdn",
+        "naf-cd-qf7uhj9homrrm574.edge.tenants.eu",
+        "techsmith-prod-cd-hjvgzt04v9ctn54n.edge.tenants"
+    ],
+    "cnames": [
+        {
+            "original": "id.naf.no",
+            "resolved": "naf-cd-qf7uhj9homrrm574.edge.tenants.eu.auth0.com"
+        },
+        {
+            "original": "login.techsmith.com",
+            "resolved": "techsmith-prod-cd-hjvgzt04v9ctn54n.edge.tenants.auth0.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "auth0\\.com\\/js\\/auth0\\/9\\.11\\/auth0\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2ae5aed8aab32ad79a23003eee65fec603ddbeed83b296ba4735ff840e12b005"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vwr.com",
+                "us.vwr.com"
+            ]
+        },
+        {
+            "rule": "auth0\\.com\\/js\\/auth0\\/9\\.10\\.4\\/auth0\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c0d6b64bfbad44b071a08b23499a4490148c6c5821db36d77a257c96bfd4d90f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carsguide.com.au",
+                "www.carsguide.com.au"
+            ]
+        },
+        {
+            "rule": "auth0\\.com\\/authorize",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "naf-cd-qf7uhj9homrrm574.edge.tenants.eu",
+                "techsmith-prod-cd-hjvgzt04v9ctn54n.edge.tenants"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "id.naf.no",
+                    "resolved": "naf-cd-qf7uhj9homrrm574.edge.tenants.eu.auth0.com"
+                },
+                {
+                    "original": "login.techsmith.com",
+                    "resolved": "techsmith-prod-cd-hjvgzt04v9ctn54n.edge.tenants.auth0.com"
+                }
+            ],
+            "responseHashes": [
+                "7fd2b49600a8cbd64ab84a495591e77e4cf66e5bd04b59e7f471452f9e73bf53"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.00010043185698503566
+            },
+            "exampleSites": [
+                "naf.no",
+                "www.techsmith.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9
+        },
+        {
+            "domain": "auth0.com",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Document": 2
+    },
+    "nameservers": [
+        "monroe.ns.cloudflare.com",
+        "kolton.ns.cloudflare.com"
+    ]
+}

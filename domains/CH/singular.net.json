@@ -1,0 +1,160 @@
+{
+    "domain": "singular.net",
+    "owner": {
+        "name": "Singular Labs, Inc.",
+        "displayName": "Singular"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "web-sdk-cdn",
+        "sdk-api-v1"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "singular\\.net\\/singular-gtm-interface\\/latest\\/singular-gtm-interface\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-sdk-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "63f11d1dfb1dd2cfd334094ddad0c1f3c43f5b28b6f90e7db147094db29e33ee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clickup.com",
+                "vimeo.com"
+            ]
+        },
+        {
+            "rule": "singular\\.net\\/singular-sdk\\/latest\\/singular-sdk\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "web-sdk-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.width": 3,
+                "Navigator.prototype.platform": 3,
+                "NavigatorUAData.prototype.getHighEntropyValues": 3,
+                "Navigator.prototype.language": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "a5f20e9b821bed653ca955a4f1a07f3ccb774616234e9b74f1d604c81b7a84a0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "singular_device_id": {
+                    "ttl": 31536013,
+                    "length": 36,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clickup.com",
+                "vimeo.com",
+                "www.boredpanda.com"
+            ]
+        },
+        {
+            "rule": "singular\\.net\\/api\\/v1\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-v1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "8a49ea5083c8030f058182dcd6ae7da0960e68a0d762f71e8e8375f5732fb2fb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "singular_device_id": 0.00020092425155716296
+            },
+            "exampleSites": [
+                "clickup.com",
+                "vimeo.com",
+                "www.boredpanda.com"
+            ]
+        },
+        {
+            "rule": "singular\\.net\\/api\\/v1\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-v1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "singular_device_id": 0.00020092425155716296
+            },
+            "exampleSites": [
+                "clickup.com",
+                "vimeo.com",
+                "www.boredpanda.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.14285714285714285
+        },
+        {
+            "domain": "vimeocdn.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 3,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "ns-1422.awsdns-49.org",
+        "ns-1710.awsdns-21.co.uk",
+        "ns-26.awsdns-03.com",
+        "ns-887.awsdns-46.net"
+    ]
+}

@@ -1,0 +1,165 @@
+{
+    "domain": "smedia.ca",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "tm"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "smedia\\.ca\\/analytics\\/script\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tm"
+            ],
+            "apis": {
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "b7b9702d3c1dab7bf21ef65af695b2e654d79d6e617020963cc80a69690de3c8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "smedia_uuid": {
+                    "ttl": 31536003,
+                    "length": 64,
+                    "prevalence": 0.000020496003279360526,
+                    "uniqueness": 1
+                },
+                "smedia_session_id": {
+                    "ttl": null,
+                    "length": 64,
+                    "prevalence": 0.000020496003279360526,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hondapowersportsparts.com",
+                "www.hondapowersportsparts.com",
+                "www.schneidermans.com"
+            ]
+        },
+        {
+            "rule": "smedia\\.ca\\/tag_api\\/dealer_data-www\\.hondapowersportsparts\\.com\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "88d609743cc09707e090546edbb0a491299b7839c65f8d80ff7a0d4d73cc9e1b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hondapowersportsparts.com",
+                "www.hondapowersportsparts.com"
+            ]
+        },
+        {
+            "rule": "smedia\\.ca\\/sm-scripts\\/smart-offer\\/gtm-cookie-replicator\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tm"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "07f9c56da8fc10fc23b54644da8dfbab51acce07cb9cea8c5c7eed898e437b51"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__utmzz": {
+                    "ttl": 15552005,
+                    "length": 6,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "__utmzzses": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hondapowersportsparts.com",
+                "www.hondapowersportsparts.com"
+            ]
+        },
+        {
+            "rule": "smedia\\.ca\\/api\\/tag_state_store\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c955e57777ec0d73639dca6748560d00aa5eb8e12f13ebb2ed9656add3908f97"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hondapowersportsparts.com",
+                "www.hondapowersportsparts.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns-476.awsdns-59.com",
+        "ns-643.awsdns-16.net",
+        "ns-1532.awsdns-63.org",
+        "ns-1588.awsdns-06.co.uk"
+    ]
+}

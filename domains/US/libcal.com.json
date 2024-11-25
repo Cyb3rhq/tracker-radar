@@ -1,0 +1,290 @@
+{
+    "domain": "libcal.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000116,
+    "sites": 17,
+    "subdomains": [
+        "secure-us",
+        "api3",
+        "houstonlibrary",
+        "tamu",
+        "region-us",
+        "colostate",
+        "syr",
+        "arlingtonva",
+        "duke"
+    ],
+    "cnames": [
+        {
+            "original": "booking.lib.buffalo.edu",
+            "resolved": "secure-us.libcal.com"
+        },
+        {
+            "original": "calendar.boulderlibrary.org",
+            "resolved": "secure-us.libcal.com"
+        },
+        {
+            "original": "calendar.houstonlibrary.org",
+            "resolved": "houstonlibrary.libcal.com"
+        },
+        {
+            "original": "calendar.libraryweb.org",
+            "resolved": "region-us.libcal.com"
+        },
+        {
+            "original": "libevents.abqlibrary.org",
+            "resolved": "secure-us.libcal.com"
+        },
+        {
+            "original": "rooms.himmelfarb.gwu.edu",
+            "resolved": "region-us.libcal.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "libcal\\.com\\/api_events\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-us",
+                "api3",
+                "houstonlibrary",
+                "tamu",
+                "region-us"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [
+                {
+                    "original": "libevents.abqlibrary.org",
+                    "resolved": "secure-us.libcal.com"
+                },
+                {
+                    "original": "calendar.houstonlibrary.org",
+                    "resolved": "houstonlibrary.libcal.com"
+                },
+                {
+                    "original": "calendar.libraryweb.org",
+                    "resolved": "region-us.libcal.com"
+                }
+            ],
+            "responseHashes": [
+                "b06a00c5972b2aae66cae60d29ccab6b0b804082af11ad892d02c939016eb175",
+                "c6191d11a2e1558c8b85adf6072535857f575b902f51e64edb6079e5f1e10d33",
+                "de108a877b935c587d09d85d200b5eebc34a6fd36f9943c9ba18537a15438b91",
+                "190142d30f80c188e14b42b9db8bdb4406741693d80b08325586ae6cb7b07176",
+                "5e364e8810612f1061c8c436a463bb1ae941827adbb0196d1074c502b8f52b95"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abqlibrary.org",
+                "boulderlibrary.org",
+                "houstonlibrary.org",
+                "library.buffalo.edu",
+                "library.tamu.edu",
+                "libraryweb.org"
+            ]
+        },
+        {
+            "rule": "libcal\\.com\\/api_hours_today\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-us",
+                "colostate",
+                "syr",
+                "api3"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [
+                {
+                    "original": "calendar.boulderlibrary.org",
+                    "resolved": "secure-us.libcal.com"
+                }
+            ],
+            "responseHashes": [
+                "a3fdd8b0e765bc41fb2d9fd993972c0733afc46c08fe4ade377edbd8c64bb56a",
+                "0271ceeae5ef0473ebaba40649b4126ccca8218a37fb6d856528e7232e07147b",
+                "7ce7025b9c99984ea759f824a7461b4cb1191c58b6bd409db32776e559eda93f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boulderlibrary.org",
+                "lib.colostate.edu",
+                "library.syracuse.edu",
+                "tarlton.law.utexas.edu"
+            ]
+        },
+        {
+            "rule": "libcal\\.com\\/1\\.1\\/oauth\\/token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "region-us",
+                "arlingtonva"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "rooms.himmelfarb.gwu.edu",
+                    "resolved": "region-us.libcal.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gwu.edu",
+                "library.arlingtonva.us"
+            ]
+        },
+        {
+            "rule": "libcal\\.com\\/1\\.1\\/oauth\\/token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "region-us",
+                "arlingtonva",
+                "duke"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "rooms.himmelfarb.gwu.edu",
+                    "resolved": "region-us.libcal.com"
+                }
+            ],
+            "responseHashes": [
+                "87d555887bd373148d151a9c2ae0085228c6ee381eedfa5af2f7d869b64418bb",
+                "e9f74f550697b770e615023d632b4eca419f90fa2627a1294b6e74080b63f09a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gwu.edu",
+                "library.arlingtonva.us",
+                "library.duke.edu"
+            ]
+        },
+        {
+            "rule": "libcal\\.com\\/api_hours_today\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-us"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "booking.lib.buffalo.edu",
+                    "resolved": "secure-us.libcal.com"
+                }
+            ],
+            "responseHashes": [
+                "43e3b9fef73bef36143aa398a618bd27856001ae38d8ac078e83f5c88a3bbb84"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "buffalo.edu",
+                "library.buffalo.edu"
+            ]
+        },
+        {
+            "rule": "libcal\\.com\\/api\\/1\\.1\\/hours\\/11088,13162",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "duke"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "aded2cf954089e71a185e8764ef5494e04b6577f55549e89df154598612d4353"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duke.edu",
+                "library.duke.edu"
+            ]
+        },
+        {
+            "rule": "libcal\\.com\\/js\\/myscheduler\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "efa7b88b06607433171c484d76e92790deb502c26a79388633f1c62a1789bf0f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uchicago.edu",
+                "www.library.upenn.edu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "libguides.com",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "sirsi.net",
+            "prevalence": 0.05
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.05
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Preflight": 2,
+        "XHR": 7
+    },
+    "nameservers": [
+        "ns-220.awsdns-27.com",
+        "ns-834.awsdns-40.net",
+        "ns-1606.awsdns-08.co.uk",
+        "ns-1465.awsdns-55.org"
+    ]
+}

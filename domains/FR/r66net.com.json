@@ -1,0 +1,80 @@
+{
+    "domain": "r66net.com",
+    "owner": {
+        "name": "VIDEOSTEP NV",
+        "displayName": "VIDEOSTEP"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000504,
+    "sites": 5,
+    "subdomains": [
+        "k"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "r66net\\.com\\/GetAnalytics",
+            "cookies": 0.000403,
+            "fingerprinting": 1,
+            "subdomains": [
+                "k"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000403,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ivbsTestCD": {
+                    "ttl": -86397,
+                    "length": 10,
+                    "prevalence": 0.00040306328093510683,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wurth.fr",
+                "www.ffrandonnee.fr",
+                "www.swile.co",
+                "www.vigneron-independant.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000504,
+    "topInitiators": [
+        {
+            "domain": "sdv.fr",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-cloud-a1.googledomains.com",
+        "ns-cloud-a2.googledomains.com",
+        "ns-cloud-a3.googledomains.com",
+        "ns-cloud-a4.googledomains.com"
+    ]
+}

@@ -1,0 +1,758 @@
+{
+    "domain": "ampproject.org",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00211,
+    "sites": 21,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "ampproject\\.org\\/amp-story-player-v0\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e5e2ca77a43ecfab315c2404e0c40c56453692fe70fc9205cb46fc06556ef834"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cryptonews.com",
+                "www.boredpanda.com"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/amp-story-player-v0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d98f7ab1cdce5bd2ff423540d02d8aadcfb408349cc3488e50064d866471aa59"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cryptonews.com",
+                "www.boredpanda.com"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\.mjs",
+            "cookies": 0.0001,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.vendor": 2,
+                "window.name": 2,
+                "window.localStorage": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.matchMedia(\"prefers-color-scheme\")": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3a7869ac772d4453fdea9b8b7642205ed2c3c91ee6615b0efaeb3db1c10df716"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "-test-amp-cookie-tmp": {
+                    "ttl": 1,
+                    "length": 6,
+                    "prevalence": 0.00010049241282283188,
+                    "uniqueness": 1
+                },
+                "_ga": {
+                    "ttl": 31536002,
+                    "length": 26,
+                    "prevalence": 0.00010049241282283188,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cryptonews.com",
+                "umrechnungzollcm.com"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-ad-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "d549d3aa581e63a7e52861f78df604b77e9cb701873785087e03a002eadbd721"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deavita.com",
+                "itler.net",
+                "lyrik.antikoerperchen.de",
+                "www.coolibri.de",
+                "www.trainingsworld.com"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.vendor": 9,
+                "window.name": 9,
+                "window.localStorage": 9,
+                "PerformanceTiming.prototype.navigationStart": 9,
+                "Navigator.prototype.userAgent": 9,
+                "window.matchMedia(\"prefers-color-scheme\")": 9,
+                "Navigator.prototype.maxTouchPoints": 9,
+                "window.innerWidth": 9,
+                "window.innerHeight": 9,
+                "Document.cookie getter": 5,
+                "Document.cookie setter": 4,
+                "Date.prototype.getTime": 3,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Navigator.prototype.language": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.colorDepth": 2,
+                "Screen.prototype.availWidth": 1,
+                "Screen.prototype.availHeight": 1,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2
+            },
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "e1df1ea5eb3649c271f9251dd0f522f71583f47396dbf6495bb6507ed06c84ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "-test-amp-cookie-tmp": {
+                    "ttl": 1,
+                    "length": 6,
+                    "prevalence": 0.0004019696512913275,
+                    "uniqueness": 0.25
+                },
+                "amp-access": {
+                    "ttl": 31536002,
+                    "length": 26,
+                    "prevalence": 0.00010049241282283188,
+                    "uniqueness": 1
+                },
+                "AMP_TOKEN": {
+                    "ttl": 3603,
+                    "length": 12,
+                    "prevalence": 0.00010049241282283188,
+                    "uniqueness": 1
+                },
+                "_ga": {
+                    "ttl": 31536003,
+                    "length": 26,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 1
+                },
+                "AMP-CONSENT": {
+                    "ttl": 31536002,
+                    "length": 26,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deavita.com",
+                "dictionary.cambridge.org",
+                "headtopics.com",
+                "lyrik.antikoerperchen.de",
+                "www.coolibri.de",
+                "www.mirror.co.uk",
+                "www.nacktsonnen.com",
+                "www.trainingsworld.com",
+                "www.whatfontis.com"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-bind-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "URL.createObjectURL": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e2407c3fefcea6b11e8fa4aab292fee0c269cafe4fd4be95394601748e57a48d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cambridge.org",
+                "www.coolibri.de"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-form-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "f545c2c8d8565237195d0d801b8b7c45ca45031309847b2b52195a9c919456a2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cambridge.org",
+                "headtopics.com",
+                "www.coolibri.de"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-sidebar-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "8ac498c33fba0e0be977df8bb06207fd1bbd2892ddd33d0dfa5e48838e5a7e81"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cambridge.org",
+                "www.coolibri.de",
+                "www.nacktsonnen.com"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-list-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8d6b72987a89721dde664b7050f181a5a46e18183ca27919130cef3478b7e043"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cambridge.org",
+                "www.coolibri.de"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-mustache-0\\.2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b14a62b53372f45f4e7f7824267e92ce8a672231da8d5506c5e9729ac86a4027"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cambridge.org",
+                "www.coolibri.de"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-user-notification-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "aae635c5a1a4567d75a89251f040b158b429d074067ae7874d55da04a088afce"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cambridge.org",
+                "lyrik.antikoerperchen.de"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/rtv\\/012410292120000\\/ww\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e7a79a598b0d9eddba2939feb864321f9cf401b3615da2d8e67a528f22bf741e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cambridge.org",
+                "www.coolibri.de"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/rtv\\/012410292120000\\/v0\\/amp-loader-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "7326dfdb6af366b254ec02068d53c0a781e9ed98487a9fb05dad9d15bfcd237b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cambridge.org",
+                "lyrik.antikoerperchen.de",
+                "www.coolibri.de"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-analytics-0\\.1\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "338328dedc97f4e8af0f96a11f4277add199f68669d1538cf9bb00e7d7e4761d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "-test-amp-cookie-tmp": {
+                    "ttl": 1,
+                    "length": 6,
+                    "prevalence": 0.00030147723846849563,
+                    "uniqueness": 0.3333333333333333
+                },
+                "_ym_uid": {
+                    "ttl": 31536002,
+                    "length": 19,
+                    "prevalence": 0.00010049241282283188,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "headtopics.com",
+                "lyrik.antikoerperchen.de",
+                "www.coolibri.de",
+                "www.nacktsonnen.com",
+                "www.trainingsworld.com",
+                "www.whatfontis.com"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/rtv\\/012410292120000\\/v0\\/amp-auto-lightbox-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "abe6c341a1a7d3678e52ea41abbd3c1dd739819dcc686ec6f568009ae2f67dbf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "headtopics.com",
+                "lyrik.antikoerperchen.de",
+                "www.coolibri.de",
+                "www.nacktsonnen.com"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/rtv\\/012410292120000\\/v0\\/analytics-vendors\\/gtag\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0cdc1d09aac29df4b32648b075b088d83174193624fe3c219cfd777692c9ba81"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "headtopics.com",
+                "lyrik.antikoerperchen.de"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/rtv\\/012406241625000\\/amp4ads-v0\\.mjs",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.vendor": 3,
+                "window.name": 3,
+                "window.localStorage": 3,
+                "PerformanceTiming.prototype.navigationStart": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Navigator.prototype.maxTouchPoints": 3,
+                "window.matchMedia(\"prefers-color-scheme\")": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "7330191facb7e2ececc564f92a6e4db89028c010eb1d46114c19615354f02bd1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "habr.com",
+                "minecraft.novaskin.me",
+                "nachnamen.net"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/rtv\\/012406241625000\\/v0\\/amp-ad-exit-0\\.1\\.mjs",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "63a8ed4d42e2e14d5eeb92b559c0942083d03c633e8aa8d82511b06057b5790c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "habr.com",
+                "minecraft.novaskin.me",
+                "nachnamen.net"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/rtv\\/012406241625000\\/v0\\/amp-analytics-0\\.1\\.mjs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "a1dc183a1e37c034f6528f4768d7912a229f7f25f9e4ed4ad283d0b1d7630551"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "habr.com",
+                "minecraft.novaskin.me",
+                "nachnamen.net"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/rtv\\/012406241625000\\/v0\\/amp-fit-text-0\\.1\\.mjs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "bdb5fbbf823cdc9431ac0ac26c06d3106dbb27bed5297e1ff8a3da8d72a9bba9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "habr.com",
+                "minecraft.novaskin.me",
+                "nachnamen.net"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/rtv\\/012406241625000\\/v0\\/amp-form-0\\.1\\.mjs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "26dca3cd2ff32a9934a9fe12f32f973e38263f497e28ef43175d81b78af04be2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "habr.com",
+                "minecraft.novaskin.me",
+                "nachnamen.net"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-consent-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1aa67579ba6fcaef1ba19fc886ddaa985f75c61cba7b817259f63a1d78d97341"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "antikoerperchen.de",
+                "www.coolibri.de"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-iframe-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "90a0a692795e552c341d7bd98cb76ce5fc5a9ace287a92ac44ce0e6fe93b034f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "antikoerperchen.de",
+                "www.coolibri.de"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-position-observer-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "dcb93840695b301a1748277b0354f10298e04cd834512d3af2cb17e6ad9ddabb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "antikoerperchen.de",
+                "www.coolibri.de"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-animation-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "44a6935eb5366847873e657029231d032986994916b8897da60317f9bde6abc0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "antikoerperchen.de",
+                "www.coolibri.de"
+            ]
+        },
+        {
+            "rule": "ampproject\\.org\\/v0\\/amp-auto-ads-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7081f13bd2b731be9939ee98b694ef7947ec8a9c9d0e2720de82ae94ea3d2f9c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nascompares.com",
+                "www.doolia.de"
+            ]
+        }
+    ],
+    "categories": [
+        "Advertising",
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000603,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6721311475409836
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.2459016393442623
+        },
+        {
+            "domain": "adapex.io",
+            "prevalence": 0.08196721311475409
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 70,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns3.google.com",
+        "ns4.google.com",
+        "ns2.google.com",
+        "ns1.google.com"
+    ]
+}

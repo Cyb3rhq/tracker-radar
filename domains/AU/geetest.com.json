@@ -1,0 +1,112 @@
+{
+    "domain": "geetest.com",
+    "owner": {
+        "name": "Wuhan Jiyi Network Technology Co., Ltd.",
+        "displayName": "Wuhan Jiyi Network Technology"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "api",
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "geetest\\.com\\/gettype\\.php",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "b244947a672e38c5cfe9a64b441fa70b1c25a5000e983144f1eff5ef88cd4afa",
+                "ea430920e783cb54868ee34588ea1deae26e11d185d5d743feba00beb4a144f2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bybit.com",
+                "www.bybit.com",
+                "www.flyscoot.com"
+            ]
+        },
+        {
+            "rule": "geetest\\.com\\/static\\/js\\/fullpage\\.9\\.1\\.9-ckiw8b\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.hardwareConcurrency": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0088e56b399217ac5d6559f3d6133464d765e92b6532556d45359ef79a3b9413"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bybit.com",
+                "www.flyscoot.com"
+            ]
+        },
+        {
+            "rule": "geetest\\.com\\/get\\.php",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "f32ab17ff46b98402247c50c5295e5255693f3da17fcb794798628784a2b34c4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bybit.com",
+                "www.bybit.com",
+                "www.flyscoot.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8
+    },
+    "nameservers": [
+        "ns3.dnsv5.com",
+        "ns4.dnsv5.com"
+    ]
+}

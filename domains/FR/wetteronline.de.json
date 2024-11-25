@@ -1,0 +1,86 @@
+{
+    "domain": "wetteronline.de",
+    "owner": {
+        "name": "Wetteronline Meteorologische Dienstleistungen GmbH",
+        "displayName": "Wetteronline Meteorologische Dienstleistungen"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000101,
+    "sites": 1,
+    "subdomains": [
+        "api-app",
+        "cmp"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "wetteronline\\.de\\/app\\/weather\\/forecast",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "ed902438be082bbffa91523c65e44526aa68d59221ac86dbadaf96120770105f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "meteoetradar.com",
+                "www.meteoetradar.com"
+            ]
+        },
+        {
+            "rule": "wetteronline\\.de\\/consent\\/tcfv2\\/vendor-list\\/categories",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "cfb3978f98ccb50f432d44942d72860a37eb880b1496c8dcf0179b21aabab504"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "meteoetradar.com",
+                "www.meteoetradar.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7272727272727273
+        },
+        {
+            "domain": "sp-prod.net",
+            "prevalence": 0.2727272727272727
+        }
+    ],
+    "types": {
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns-139.awsdns-17.com",
+        "ns-700.awsdns-23.net",
+        "ns-1310.awsdns-35.org",
+        "ns-1594.awsdns-07.co.uk"
+    ]
+}

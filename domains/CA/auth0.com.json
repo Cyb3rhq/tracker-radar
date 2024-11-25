@@ -1,0 +1,134 @@
+{
+    "domain": "auth0.com",
+    "owner": {
+        "name": "Auth0, Inc.",
+        "displayName": "Auth0"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00121,
+    "sites": 12,
+    "subdomains": [
+        "cdn",
+        "finder-us-prod-cd-ewaqufuvygc5rgwq.edge.tenants",
+        "ramsey-prod-cd-tznd9ii7nfjea8jb.edge.tenants.us"
+    ],
+    "cnames": [
+        {
+            "original": "id.ramseysolutions.com",
+            "resolved": "ramsey-prod-cd-tznd9ii7nfjea8jb.edge.tenants.us.auth0.com"
+        },
+        {
+            "original": "login.finder.com",
+            "resolved": "finder-us-prod-cd-ewaqufuvygc5rgwq.edge.tenants.auth0.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "auth0\\.com\\/js\\/auth0\\/9\\.10\\.4\\/auth0\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c0d6b64bfbad44b071a08b23499a4490148c6c5821db36d77a257c96bfd4d90f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carsguide.com.au",
+                "www.carsguide.com.au"
+            ]
+        },
+        {
+            "rule": "auth0\\.com\\/js\\/auth0-spa-js\\/1\\.13\\/auth0-spa-js\\.production\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.sessionStorage": 4,
+                "window.localStorage": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "01d6389de5581a2a3eb0cd4d6a05cb136bf07d221306f89173a080c73a38e392"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chicagotribune.com",
+                "www.denverpost.com",
+                "www.mercurynews.com",
+                "www.nydailynews.com"
+            ]
+        },
+        {
+            "rule": "auth0\\.com\\/authorize",
+            "cookies": 0.000302,
+            "fingerprinting": 0,
+            "subdomains": [
+                "finder-us-prod-cd-ewaqufuvygc5rgwq.edge.tenants",
+                "ramsey-prod-cd-tznd9ii7nfjea8jb.edge.tenants.us"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [
+                {
+                    "original": "login.finder.com",
+                    "resolved": "finder-us-prod-cd-ewaqufuvygc5rgwq.edge.tenants.auth0.com"
+                },
+                {
+                    "original": "id.ramseysolutions.com",
+                    "resolved": "ramsey-prod-cd-tznd9ii7nfjea8jb.edge.tenants.us.auth0.com"
+                }
+            ],
+            "responseHashes": [
+                "1f1ed688b228cda243682b1b53a5535e9b8507760c5521186ab517827bf3d575"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "finder.com",
+                "www.finder.com",
+                "www.ramseysolutions.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Document": 3
+    },
+    "nameservers": [
+        "kolton.ns.cloudflare.com",
+        "monroe.ns.cloudflare.com"
+    ]
+}

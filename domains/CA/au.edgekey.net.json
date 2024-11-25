@@ -1,0 +1,244 @@
+{
+    "domain": "au.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "collector.abc.net",
+        "carsguide.com",
+        "images.sbs.com"
+    ],
+    "cnames": [
+        {
+            "original": "collector.abc.net.au",
+            "resolved": "collector.abc.net.au.edgekey.net"
+        },
+        {
+            "original": "images.sbs.com.au",
+            "resolved": "images.sbs.com.au.edgekey.net"
+        },
+        {
+            "original": "resources.carsguide.com.au",
+            "resolved": "carsguide.com.au.edgekey.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "au\\.edgekey\\.net\\/com\\.snowplowanalytics\\.snowplow\\/tp2",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collector.abc.net"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "collector.abc.net.au",
+                    "resolved": "collector.abc.net.au.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc.net.au",
+                "www.abc.net.au"
+            ]
+        },
+        {
+            "rule": "au\\.edgekey\\.net\\/gtm\\/dmp-visitor-script\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "carsguide.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "resources.carsguide.com.au",
+                    "resolved": "carsguide.com.au.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "99246eeebd879d6452ea98acc1ca3ed2c1e74eaa0ef1c977e0bf577777172eb7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carsguide.com.au",
+                "www.carsguide.com.au"
+            ]
+        },
+        {
+            "rule": "au\\.edgekey\\.net\\/gtm\\/dmp-dil-script\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "carsguide.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "resources.carsguide.com.au",
+                    "resolved": "carsguide.com.au.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "f8bca0dbc7009a3977e34282b5dd40139b5df81a2fc078ad927c40d911713a61"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carsguide.com.au",
+                "www.carsguide.com.au"
+            ]
+        },
+        {
+            "rule": "au\\.edgekey\\.net\\/dims4\\/default\\/0a07c10\\/2147483647\\/strip\\/true\\/crop\\/1920x1080+0+0\\/resize\\/1280x720!\\/quality\\/90\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images.sbs.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "images.sbs.com.au",
+                    "resolved": "images.sbs.com.au.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "4330cc43ddab0b6facde499ee070d46f898f39874aceb0701edee9f4be8b7606"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sbs.com.au",
+                "www.sbs.com.au"
+            ]
+        },
+        {
+            "rule": "au\\.edgekey\\.net\\/dims4\\/default\\/2e7967b\\/2147483647\\/strip\\/true\\/crop\\/800x450+0+0\\/resize\\/1280x720!\\/quality\\/90\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images.sbs.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "images.sbs.com.au",
+                    "resolved": "images.sbs.com.au.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "c193af59adab131c72106d9c6ee91d70e2d480b5c8fa9865af848430ac7871e2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sbs.com.au",
+                "www.sbs.com.au"
+            ]
+        },
+        {
+            "rule": "au\\.edgekey\\.net\\/dims4\\/default\\/61dfeec\\/2147483647\\/strip\\/true\\/crop\\/1778x1000+1+0\\/resize\\/1280x720!\\/quality\\/90\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images.sbs.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "images.sbs.com.au",
+                    "resolved": "images.sbs.com.au.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "2bf04745d83428b74e4e2105db0ed5ca4ccaa4664ecfc3a836bf689b3dffe7dd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sbs.com.au",
+                "www.sbs.com.au"
+            ]
+        },
+        {
+            "rule": "au\\.edgekey\\.net\\/dims4\\/default\\/ebc67f4\\/2147483647\\/strip\\/true\\/crop\\/2560x1440+0+0\\/resize\\/1280x720!\\/quality\\/90\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images.sbs.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "images.sbs.com.au",
+                    "resolved": "images.sbs.com.au.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "1e7a9ecd380f734b233aeda27d2af17d17f4791fb340cc7a4c029694ae218a15"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sbs.com.au",
+                "www.sbs.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8260869565217391
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.17391304347826086
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Script": 4,
+        "Image": 8
+    },
+    "nameservers": []
+}

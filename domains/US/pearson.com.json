@@ -1,0 +1,99 @@
+{
+    "domain": "pearson.com",
+    "owner": {
+        "name": "Pearson Education, Inc.",
+        "displayName": "Pearson Education"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "login",
+        "k244"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "pearson\\.com\\/v1\\/piapi\\/login\\/js\\/v2\\/session\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "431e7cd9a87ffce2598be2c73ed1022c3273663c0402d9b5cd0da30056d169c7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pearsonassessments.com",
+                "www.pearsonhighered.com"
+            ]
+        },
+        {
+            "rule": "pearson\\.com\\/DG\\/DEFAULT\\/rest\\/rpc\\/161",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "k244"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "371ba5cc7caab31a9155719cbe0e45f7bf18880ba4897743907bb9e7749211d7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "https://www.googletagmanager.com/static/service_worker/4al0/sw_iframe.html?origin": 0.00001366400218624035,
+                "_li_dcdm_c": 0.00001366400218624035,
+                "https://k244.pearson.com/DG/DEFAULT/rest/rpc/161?referer": 0.00001366400218624035,
+                "https://k244.pearson.com/DG/DEFAULT/rest/rpc/161/LB-Zone-2?referer": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "pearsonhighered.com",
+                "www.pearsonhighered.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "blueconic.net",
+            "prevalence": 0.3
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "dns-apac-1.ptns.pearson.com",
+        "dns-emea-1.ptns.pearson.com",
+        "dns-apac-2.ptns.pearson.com",
+        "dns-amer-2.ptns.pearson.com"
+    ]
+}

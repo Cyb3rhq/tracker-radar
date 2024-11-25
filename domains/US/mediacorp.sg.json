@@ -1,0 +1,487 @@
+{
+    "domain": "mediacorp.sg",
+    "owner": {
+        "name": "MEDIACORP PTE. LTD.",
+        "displayName": "MEDIACORP"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000615,
+    "sites": 9,
+    "subdomains": [
+        "uid",
+        "recommend-zoom",
+        "www16",
+        "boost-recommend",
+        "rt"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mediacorp\\.sg\\/api\\/scripts\\/meid\\.js",
+            "cookies": 0.000041,
+            "fingerprinting": 1,
+            "subdomains": [
+                "uid"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Document.cookie getter": 6,
+                "Date.prototype.getTime": 6,
+                "Document.cookie setter": 6,
+                "window.localStorage": 5
+            },
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "1b74518e0a5559604f0d770e93b3e679c3abde8a2b85bd7004c436cf1357aa76",
+                "e153a62a7e97746d90d600c29e57e66da931c15c42e619957e622e3df1b8e6b8",
+                "4acf1730c6047b868516c59434a234adc820b6063be23de725a12bd07db047ad",
+                "1518a0e6c469278df6113ead4ec489e3c4c62ae383f672dd390a49553f53423a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "UID": {
+                    "ttl": 31536006,
+                    "length": 36,
+                    "prevalence": 0.00003416000546560088,
+                    "uniqueness": 1
+                },
+                "MeID_Seg": {
+                    "ttl": 31536011,
+                    "length": 13,
+                    "prevalence": 0.00003416000546560088,
+                    "uniqueness": 0.2
+                },
+                "adtechTargetingKeys": {
+                    "ttl": 31536011,
+                    "length": 14,
+                    "prevalence": 0.00003416000546560088,
+                    "uniqueness": 0.2
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "cnalifestyle.channelnewsasia.com",
+                "www.8days.sg",
+                "www.channelnewsasia.com",
+                "www.mewatch.sg",
+                "www.todayonline.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/tag\\.js",
+            "cookies": 0.0000273,
+            "fingerprinting": 1,
+            "subdomains": [
+                "recommend-zoom"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "4c71a3e0c73758a86a2e0b165dd406c9e96322010b805217552aee9729baba28",
+                "16fcde9b281d4fd83a65d01dfe409d72110959caaf4bdeb939369d2c0a6e0719"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.8days.sg",
+                "www.channelnewsasia.com",
+                "www.todayonline.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/api\\/scripts\\/meid_sync_3rd\\.js",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uid"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "4b30c8c546383e398245f2be8f380764f426455c1846e4ce1b96ea8ffa853436",
+                "28051d0b557209942641e528a9b2407e1bdc7e053aca325a00518a1981005787",
+                "ad95a6b14722ae62a3389c3bec433d8c95911aeb0f6bbb689c2dd9c3301552a9",
+                "5d42044f9af9021e6136120a1980907dbfaa60462fe563b866246e44bf7b9178"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "UID": 0.00004099200655872105
+            },
+            "exampleSites": [
+                "channelnewsasia.com",
+                "cnalifestyle.channelnewsasia.com",
+                "www.8days.sg",
+                "www.channelnewsasia.com",
+                "www.mewatch.sg",
+                "www.todayonline.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/bssegs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uid"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "58bae83054d2c7926ab578fc4e9b5f5de58c470d838aae4e257b955f2d6e4971",
+                "6daa22973b2e665804d0c26623334cd2a4ada4318069e6d594b8f19c61ecb8fd",
+                "c4c1d809d880b07e0126a176a1a5c85a672216eb0c8bbd4936c84cd59421a2e9",
+                "f15bcd14e66b963c29a1990676dae63f2529f2b9af8febc9674605dba0914acd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "UID": 0.00004099200655872105
+            },
+            "exampleSites": [
+                "channelnewsasia.com",
+                "cnalifestyle.channelnewsasia.com",
+                "www.8days.sg",
+                "www.channelnewsasia.com",
+                "www.mewatch.sg",
+                "www.todayonline.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/prebid\\/6\\.4\\.0\\.js",
+            "cookies": 0.00000683,
+            "fingerprinting": 2,
+            "subdomains": [
+                "www16"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.cookieEnabled": 5,
+                "window.sessionStorage": 4,
+                "Navigator.prototype.appName": 5,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 1,
+                "Document.cookie getter": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Navigator.prototype.language": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "PerformanceTiming.prototype.navigationStart": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "1b15e0bf29ae80195e25c623be7cf4966776365e22f5252271a1c19eecc7c0aa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "cnalifestyle.channelnewsasia.com",
+                "mothership.sg",
+                "www.changiairport.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/universal\\/loader",
+            "cookies": 0.0000273,
+            "fingerprinting": 0,
+            "subdomains": [
+                "boost-recommend"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "da85625ebbe9732ffcacb8374abaad4b7c11bdb0a64f03f0f21d790f2c8c449a",
+                "1c4dea65ed03600995c2beb66c31602e2208dc6589540c9342cb7522f0b05fbb",
+                "c1391be0989ab1a49378c8c7f90c615d0cd820013ea2456cdcb2bc880e7b3c2b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "UID": 0.00001366400218624035,
+                "_cb_svref": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.8days.sg",
+                "www.channelnewsasia.com",
+                "www.todayonline.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/occnapageanalytics\\/pageanalytics",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1ce2d9b8930ec76bc192b1671996bbd88470fa4f7d3318080ff8a9895a7d9a1a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/pixel\\.gif",
+            "cookies": 0.00000683,
+            "fingerprinting": 0,
+            "subdomains": [
+                "boost-recommend"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "UID": 0.0000273280043724807,
+                "_cb_svref": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.8days.sg",
+                "www.channelnewsasia.com",
+                "www.todayonline.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/occnaarticle\\/analytics",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f1ac6caea1349f702f3ec21c4f5dea6fd10501ab6744489be3553b1d1402c3a8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/api\\/scripts\\/meid_partners\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "uid"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f5e331fd00b2727e5c9d2b4331a78c555dc00831529ae8f2c4579eabc8cd5e56"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "meid": {
+                    "ttl": 31536005,
+                    "length": 36,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "meid_seg": {
+                    "ttl": 31536005,
+                    "length": 4,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mothership.sg",
+                "www.changiairport.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/api\\/scripts\\/meid_sync\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ce57c81c3afd62c1bc54e60294cac272677e76c51bf68eefcd748e9c75183c02"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "meid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "mothership.sg",
+                "www.changiairport.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/api\\/scripts\\/meid_seg\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "826a253caf957c85d253cfd78216619ee8f628d94cf028c8828c9c80d3db0e70"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "meid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "mothership.sg",
+                "www.changiairport.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/api\\/mepixel\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "meid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "mothership.sg",
+                "www.changiairport.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/adtech\\/prebid\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "www16"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.appName": 2,
+                "window.localStorage": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.connection": 2,
+                "Screen.prototype.width": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.vendor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1b15e0bf29ae80195e25c623be7cf4966776365e22f5252271a1c19eecc7c0aa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "8days.sg",
+                "www.todayonline.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000615,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5645161290322581
+        },
+        {
+            "domain": "geoedge.be",
+            "prevalence": 0.25806451612903225
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.1774193548387097
+        }
+    ],
+    "types": {
+        "Script": 39,
+        "XHR": 4,
+        "Image": 6
+    },
+    "nameservers": [
+        "ns-1734.awsdns-24.co.uk",
+        "ns-329.awsdns-41.com",
+        "ns-637.awsdns-15.net",
+        "ns-1493.awsdns-58.org"
+    ]
+}

@@ -1,0 +1,132 @@
+{
+    "domain": "browser-intake-datadoghq.com",
+    "owner": {
+        "name": "Datadog, Inc.",
+        "displayName": "Datadog"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000904,
+    "sites": 9,
+    "subdomains": [
+        "rum",
+        "csp-report"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "browser-intake-datadoghq\\.com\\/api\\/v2\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rum"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "f7869354af2f91e3a87d52b9ece882295701b7a4b3ac6bb9b5e18920635dbcfc",
+                "eaf5ada15e2b99d752b630d6e7e353a2c5d1b1d34b37d0eeaba01a2d7ba3acf6",
+                "5bfe67cd84a27506e1ff74c923cb69c44fe9519b94e73959769669ecb3544e49",
+                "6a80e997185cd5303922135d52a99137791d5ace8775e0717844e1eb297c4643",
+                "b111bdc0f81d5eb769b4b41c780f439686a865a8f70cb24ea43754bcb873d871",
+                "903508173866ce2078fbbf5d65aa493abd9f682b77e63c995d907163bf26c19d",
+                "8bdda0174d6071a46363a5fe7d81c6e62378889b25b431b3984744403a948288"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amplitude.com",
+                "asana.com",
+                "developer.hashicorp.com",
+                "kajabi.com",
+                "www.nerdwallet.com",
+                "www.skimag.com",
+                "www.united.com",
+                "www.viki.com"
+            ]
+        },
+        {
+            "rule": "browser-intake-datadoghq\\.com\\/api\\/v2\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rum"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "01e7d4ef62b698a121dd839afa797914dd1bf32befad876e243aaa7ef4bbea56",
+                "fcebf3afdf8252f4087086881acfc3253b0f71fc2468aed215c416f516671f87"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amplitude.com",
+                "asana.com",
+                "www.nerdwallet.com"
+            ]
+        },
+        {
+            "rule": "browser-intake-datadoghq\\.com\\/api\\/v2\\/logs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "csp-report"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "evilangel.com",
+                "www.evilangel.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8061224489795918
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.11224489795918367
+        },
+        {
+            "domain": "viki.io",
+            "prevalence": 0.07142857142857142
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.01020408163265306
+        }
+    ],
+    "types": {
+        "Fetch": 8,
+        "XHR": 3,
+        "Other": 2
+    },
+    "nameservers": [
+        "ns-560.awsdns-06.net",
+        "ns-1264.awsdns-30.org",
+        "ns-128.awsdns-16.com",
+        "ns-1907.awsdns-46.co.uk"
+    ]
+}

@@ -1,0 +1,172 @@
+{
+    "domain": "shopifyapps.com",
+    "owner": {
+        "name": "Shopify Inc.",
+        "displayName": "Shopify",
+        "privacyPolicy": "https://www.shopify.com/legal/privacy",
+        "url": "http://shopify.com"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.00131,
+    "sites": 13,
+    "subdomains": [
+        "forms",
+        "geolocation-recommendations"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "shopifyapps\\.com\\/api\\/v2\\/form_instances",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "forms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apoticaria.com",
+                "www.lecyclo.com"
+            ]
+        },
+        {
+            "rule": "shopifyapps\\.com\\/api\\/v2\\/form_instances",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "forms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apoticaria.com",
+                "www.lecyclo.com"
+            ]
+        },
+        {
+            "rule": "shopifyapps\\.com\\/selectors\\/script\\.js",
+            "cookies": 0.000101,
+            "fingerprinting": 1,
+            "subdomains": [
+                "geolocation-recommendations"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "42ae9c1259c570ec3a822a826aa5337e62380c46283a250abc6975f9f722c668",
+                "45de7ed24caa229bbc0dea58ecff01b24dd4870927699e345e6032ed5d7558e4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "locale_bar_accepted": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00010076582023377671,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apoticaria.com",
+                "www.decocuir.com",
+                "www.lecyclo.com"
+            ]
+        },
+        {
+            "rule": "shopifyapps\\.com\\/locale_bar\\/script\\.js",
+            "cookies": 0.00101,
+            "fingerprinting": 1,
+            "subdomains": [
+                "geolocation-recommendations"
+            ],
+            "apis": {
+                "Document.cookie getter": 10,
+                "Document.cookie setter": 10
+            },
+            "sites": 11,
+            "prevalence": 0.00111,
+            "cnames": [],
+            "responseHashes": [
+                "2839cd1dc13877b8712561feeb398b328c05fd87ff67fb1d3b41a4b1ac360a0e",
+                "18a54801be70f695cd8713dc9bf7eabe68bc18029d34b3d5cfc807afa85f51d1",
+                "af4dad73f96f4da5a0e4ea890494645d1c2f0afdfa818ab4034d626f44641282",
+                "d35384d387e8e993f30c0c852e6fbda6c7bbfe932087cd93e6c147c24785977d",
+                "fce74ea1c4d72a125d45b91b786c40532ff3ef1ee1da583c068e78e0723c2fcd",
+                "78f1ae17b63337ee403080025d22ecf0c5ec927f668ed96d1b9761280737624e",
+                "3a926fb3c6c005335595d562197a471bf4b467140cab5e7bcda5481250e1fe76",
+                "b6170452835dfe24b0f2724c0f2cb46f0d1a08a308fdfbd720650a829d41a107",
+                "4288633063492274599ba4e6bb3d229bc0c9172db3014b3a90b35f0477b145ec",
+                "9e17ebc0cdc0e2ca20528bd006c04b5c97b4440dd662360ba0afaab4284d7e7a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "locale_bar_accepted": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.001007658202337767,
+                    "uniqueness": 0.1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cuisine-pratique.com",
+                "cyrillus.fr",
+                "fr.roborock.com",
+                "fr.zendure.com",
+                "les-coupons-de-saint-pierre.fr",
+                "monde-vegetal.fr",
+                "universdujapon.com",
+                "www.ateliertuffery.com",
+                "www.lavantgardiste.com",
+                "www.lecyclo.com",
+                "www.leslipfrancais.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00111,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Preflight": 2,
+        "Script": 14
+    },
+    "nameservers": [
+        "ns2.dnsimple.com",
+        "ns3.dnsimple.com",
+        "ns4.dnsimple.com",
+        "dns1.p06.nsone.net",
+        "dns2.p06.nsone.net",
+        "dns3.p06.nsone.net",
+        "dns4.p06.nsone.net",
+        "ns1.dnsimple.com"
+    ]
+}

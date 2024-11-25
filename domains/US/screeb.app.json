@@ -1,0 +1,231 @@
+{
+    "domain": "screeb.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "t",
+        "rpc",
+        "rpc.idfm"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "screeb\\.app\\/tag\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4,
+                "window.name": 4,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "94a800c3b48e456aa213cab1dcdbccfc68534199a31e8d682490540b4835bc51",
+                "93c9793cff8028f126794548326f761a31be60396359afd8a870d901bf80a1c5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doctolib.de",
+                "www.doctolib.fr",
+                "www.helloasso.com",
+                "www.iledefrance-mobilites.fr"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/v0\\.2\\.238\\/tag\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "94a800c3b48e456aa213cab1dcdbccfc68534199a31e8d682490540b4835bc51"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doctolib.de",
+                "www.doctolib.fr",
+                "www.helloasso.com",
+                "www.iledefrance-mobilites.fr"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/v0\\.2\\.238\\/core\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.language": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "window.devicePixelRatio": 4,
+                "Navigator.prototype.languages": 1,
+                "Date.prototype.getTimezoneOffset": 4,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 4,
+                "NavigatorUAData.prototype.brands": 1,
+                "NavigatorUAData.prototype.platform": 1,
+                "NavigatorUAData.prototype.getHighEntropyValues": 1,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.name": 2,
+                "window.localStorage": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "30383998a852ae10a446177b667fc771bcee38a9b6852740c04684ec856ddaf1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doctolib.de",
+                "www.doctolib.fr",
+                "www.helloasso.com",
+                "www.iledefrance-mobilites.fr"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/v0\\.2\\.238\\/tag\\.ps\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "b3b19923b030b27b8706c5c921d9c95a107d43bcc7f68da6bb9d5a1ddba050b1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doctolib.fr",
+                "www.doctolib.de",
+                "www.helloasso.com",
+                "www.iledefrance-mobilites.fr"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/rpc\\/1\\.3\\.0\\/channel\\/8f9bc0df-991c-4b35-a06e-a423e790d821",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rpc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a35626e3a5602d445e1317a9d314da26e39a4af8c02ea0cad216bfcb6b2d87f0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "helloasso.com",
+                "www.helloasso.com"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/rpc\\/1\\.3\\.0\\/channel\\/8f9bc0df-991c-4b35-a06e-a423e790d821\\/respondent",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rpc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e7f08220eeb944ca9937da9aa8519a42d670e32ddd36e2b4ed5e8bd6e38f00dc"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "helloasso.com",
+                "www.helloasso.com"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/rpc\\/1\\.3\\.0\\/channel\\/2ccdd17e-c383-4609-9a62-b40ed19f6aef",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rpc.idfm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fe5a21446695b25f5ab84b6cd9e49791c44514d8dc2a86b136460a5e991e22ac"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iledefrance-mobilites.fr",
+                "www.iledefrance-mobilites.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "segment.com",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "matomo.cloud",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 16,
+        "Fetch": 6
+    },
+    "nameservers": [
+        "elias.ns.cloudflare.com",
+        "aleena.ns.cloudflare.com"
+    ]
+}

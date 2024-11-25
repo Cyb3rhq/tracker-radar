@@ -1,0 +1,85 @@
+{
+    "domain": "azure-api.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "twrapi"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "azure-api\\.net\\/dbtravel\\/v1\\/trips",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twrapi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mittelthurgau.ch",
+                "www.mittelthurgau.ch",
+                "www.twerenbold.ch"
+            ]
+        },
+        {
+            "rule": "azure-api\\.net\\/dbtravel\\/v1\\/trips",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "twrapi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "522d6748d913ddff6a88451f829f557f2bfc998d2ddc861cf476759bc58839cc",
+                "7bff01feb33aa8974b0f8cd9927f50a8bf9c9de930c03377e2de31ab95ee196d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mittelthurgau.ch",
+                "www.mittelthurgau.ch",
+                "www.twerenbold.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns1-05.azure-dns.com",
+        "ns2-05.azure-dns.net",
+        "ns3-05.azure-dns.org",
+        "ns4-05.azure-dns.info"
+    ]
+}

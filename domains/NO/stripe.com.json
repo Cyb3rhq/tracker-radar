@@ -1,0 +1,486 @@
+{
+    "domain": "stripe.com",
+    "owner": {
+        "name": "Stripe, Inc",
+        "displayName": "Stripe",
+        "privacyPolicy": "https://stripe.com/privacy",
+        "url": "http://stripe.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00803,
+    "sites": 80,
+    "subdomains": [
+        "js",
+        "checkout",
+        "m"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "stripe\\.com\\/v3\\/",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.maxTouchPoints": 43,
+                "Navigator.prototype.userAgent": 43,
+                "Navigator.prototype.platform": 43,
+                "Document.cookie getter": 42,
+                "window.name": 6,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 43,
+            "prevalence": 0.00432,
+            "cnames": [],
+            "responseHashes": [
+                "1a46b36ec6301f7bda40b07d288c844903e321bf24a9805145e8f0495d3a3f69"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__stripe_mid": {
+                    "ttl": 31536012,
+                    "length": 42,
+                    "prevalence": 0.00030129557095510696,
+                    "uniqueness": 1
+                },
+                "__stripe_sid": {
+                    "ttl": 1812,
+                    "length": 42,
+                    "prevalence": 0.00030129557095510696,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "itsfoss.com",
+                "www.npr.org",
+                "www.scribd.com",
+                "bil24.no",
+                "www.openfoam.com",
+                "lumalabs.ai",
+                "dailysceptic.org",
+                "www.uploadvr.com",
+                "bringatrailer.com",
+                "www.browserling.com",
+                "www.sparknotes.com",
+                "www.theolivepress.es",
+                "u.gg",
+                "www.studylight.org",
+                "www.native-instruments.com",
+                "roll20.net",
+                "www.skattesjekk.no",
+                "www.epla.no",
+                "poets.org",
+                "www.airthings.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/m-outer-3437aaddcdf6922d623e172c2d6f9278\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 58,
+            "prevalence": 0.00583,
+            "cnames": [],
+            "responseHashes": [
+                "35dcc382eb69d00369d708708cdc545f3968b68fa5bbe3e728d11fedd04f93bb"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "itsfoss.com",
+                "tunein.com",
+                "www.npr.org",
+                "www.scribd.com",
+                "www.native-instruments.com",
+                "www.dengladegris.no",
+                "mubi.com",
+                "volleyball.no",
+                "www.hertz.com",
+                "poets.org",
+                "mediabiasfactcheck.com",
+                "www.flyktninghjelpen.no",
+                "www.mentimeter.com",
+                "www.vtforeignpolicy.com",
+                "yogainternational.com",
+                "wanderlog.com",
+                "play.tv2.no",
+                "inductiveautomation.com",
+                "bil24.no",
+                "dailysceptic.org"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3",
+            "cookies": 0.000402,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.maxTouchPoints": 34,
+                "Navigator.prototype.userAgent": 34,
+                "Navigator.prototype.platform": 34,
+                "Document.cookie getter": 32,
+                "window.name": 11,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 34,
+            "prevalence": 0.00341,
+            "cnames": [],
+            "responseHashes": [
+                "1a46b36ec6301f7bda40b07d288c844903e321bf24a9805145e8f0495d3a3f69"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__stripe_mid": {
+                    "ttl": 31536013,
+                    "length": 42,
+                    "prevalence": 0.00030129557095510696,
+                    "uniqueness": 1
+                },
+                "__stripe_sid": {
+                    "ttl": 1813,
+                    "length": 42,
+                    "prevalence": 0.00030129557095510696,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tunein.com",
+                "www.antikvariat.net",
+                "www.ted.com",
+                "rabbitvideochat.com",
+                "www.mentimeter.com",
+                "nameberry.com",
+                "www.freecodecamp.org",
+                "renault.no",
+                "www.gamer.no",
+                "stackshare.io",
+                "britannia.no",
+                "www.enjoy.ly",
+                "civitai.com",
+                "library.fiveable.me",
+                "volleyball.no",
+                "web.min-sky.no",
+                "remarkable.com",
+                "www.swixsport.com",
+                "road.cc",
+                "yogainternational.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/checkout\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "checkout"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "18c6f9fae85d6c3ce7c19f694a86603df2cadb3807e52b4db404e0cbe83a4170"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brasilia.no",
+                "www.gradesaver.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v2\\/",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "a1b09be9a7642c5fee2094c5c169b8bfd0ff0c325cc873771bc53973b5ef60a2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__stripe_sid": {
+                    "ttl": 1811,
+                    "length": 42,
+                    "prevalence": 0.00020086371397007131,
+                    "uniqueness": 1
+                },
+                "__stripe_mid": {
+                    "ttl": 31536011,
+                    "length": 42,
+                    "prevalence": 0.00020086371397007131,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bringatrailer.com",
+                "gladkokken.no",
+                "road.cc",
+                "www.gradesaver.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/controller-with-preconnect-b277c2478f2234c23c8ffbbfddc2447e\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.00161,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bringatrailer.com",
+                "britannia.no",
+                "library.fiveable.me",
+                "renault.no",
+                "remarkable.com",
+                "roll20.net",
+                "stackabuse.com",
+                "tinyurl.com",
+                "www.airthings.com",
+                "www.dengladegris.no",
+                "www.fotor.com",
+                "www.freecodecamp.org",
+                "www.gamer.no",
+                "www.kicad.org",
+                "www.studylight.org",
+                "yogainternational.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v2\\/channel\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "a3e859b8149a06247853276aa0b4c79c4f3d0d63e91baf88bf96b76fbfc1b492"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bringatrailer.com",
+                "gladkokken.no",
+                "road.cc",
+                "www.gradesaver.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/fingerprinted\\/js\\/m-outer-15a2b40a058ddff1cffdb63779fe3de1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "ba2338aa6670580269c762f51c4291daef913201aa8f4d4fd166c1a878262652"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "formue.no",
+                "ground.news",
+                "huggingface.co",
+                "kyivindependent.com",
+                "road.cc",
+                "thenordicnomad.com",
+                "volleyball.no",
+                "wanderlog.com",
+                "www.hertz.no",
+                "www.mentimeter.com",
+                "www.uploadvr.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/6",
+            "cookies": 0.000904,
+            "fingerprinting": 0,
+            "subdomains": [
+                "m"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0011,
+            "cnames": [],
+            "responseHashes": [
+                "d1798779a06891ba729bfd3a96dee46891405fce27a44eb8c0d880700349850a",
+                "da1da1d92880b4e433953823f019ac771eb3dfadb6d095fbf7d4acf6f446cc89",
+                "ca34ca4247a13908594bfc5dc29d5e97c041e334aac485ff76349e5b3ec31b4b",
+                "2990abddc8522ad516386e03e101f2f9a7a034fa53341a1f2af80a439f977c87",
+                "d527f9ae886bbb495b9f8560ace4007d5f60a1ea51ec736599db24c492afe5be",
+                "201bc7c9891f98e280c343bf499407ac5101a2b859085a574913905467a3a2e4",
+                "9a013c5ba66c239a25ad8c3e91b706fa1ff35d29678293ad1f12813a5c55c4b0",
+                "602095812af69be32996e6e04df27d601c31f63237c6adc8f511ff5c699f1d9d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "formue.no",
+                "gladkokken.no",
+                "ground.news",
+                "kyivindependent.com",
+                "road.cc",
+                "thenordicnomad.com",
+                "wanderlog.com",
+                "www.gradesaver.com",
+                "www.hertz.no",
+                "www.mentimeter.com",
+                "www.uploadvr.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v2\\/m\\/outer\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4a7a6fa6a427dfe38d198623281cc424fd1953329062b4746d2c2005f1069d50"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gladkokken.no",
+                "www.gradesaver.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/checkout\\/button\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "checkout"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "576c19f6140a328c4af9fa9e04f764efbe570b0e8e3e4f0f66c5bdde58562a8a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "steigan.no",
+                "thenordicnomad.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Online Payment",
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.000904,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6853146853146853
+        },
+        {
+            "domain": "stripe.network",
+            "prevalence": 0.0979020979020979
+        },
+        {
+            "domain": "diggecard.com",
+            "prevalence": 0.06293706293706294
+        },
+        {
+            "domain": "mubicdn.net",
+            "prevalence": 0.013986013986013986
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.013986013986013986
+        },
+        {
+            "domain": "azureedge.net",
+            "prevalence": 0.013986013986013986
+        },
+        {
+            "domain": "bo3.no",
+            "prevalence": 0.013986013986013986
+        },
+        {
+            "domain": "buymeacoffee.com",
+            "prevalence": 0.006993006993006993
+        },
+        {
+            "domain": "calendly.com",
+            "prevalence": 0.006993006993006993
+        },
+        {
+            "domain": "snipcart.com",
+            "prevalence": 0.006993006993006993
+        }
+    ],
+    "types": {
+        "Script": 94,
+        "Document": 80,
+        "XHR": 11,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns-1087.awsdns-07.org",
+        "ns-1882.awsdns-43.co.uk",
+        "ns-423.awsdns-52.com",
+        "ns-705.awsdns-24.net"
+    ]
+}

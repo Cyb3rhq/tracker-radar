@@ -1,0 +1,82 @@
+{
+    "domain": "vpsvc.com",
+    "owner": {
+        "name": "Cimpress Schweiz GmbH",
+        "displayName": "Cimpress Schweiz"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "placement-offer-engine.personalization"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "vpsvc\\.com\\/api\\/v7\\/placements",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "placement-offer-engine.personalization"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ajs_anonymous_id": 0.00020092425155716296
+            },
+            "exampleSites": [
+                "vistaprint.ch",
+                "www.vistaprint.ch"
+            ]
+        },
+        {
+            "rule": "vpsvc\\.com\\/api\\/v7\\/placements",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "placement-offer-engine.personalization"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3cb1f307b6544b54eec95f27376ea475c9c77a87de31624e5ad17fe21cef7518"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ajs_anonymous_id": 0.00020092425155716296
+            },
+            "exampleSites": [
+                "vistaprint.ch",
+                "www.vistaprint.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "dara.ns.cloudflare.com",
+        "junade.ns.cloudflare.com"
+    ]
+}

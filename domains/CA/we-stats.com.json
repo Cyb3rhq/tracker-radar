@@ -1,0 +1,197 @@
+{
+    "domain": "we-stats.com",
+    "owner": {
+        "name": "BioCatch",
+        "displayName": "BioCatch"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000503,
+    "sites": 5,
+    "subdomains": [
+        "wup-ac77ffef.us.v2",
+        "wup-dfb31537.us.v2",
+        "log-ac77ffef.us.v2",
+        "log-dfb31537.us.v2",
+        "bcdn-dfb31537",
+        "wup-532e636f.us.v2",
+        "wup-9045bc50.us.v2"
+    ],
+    "cnames": [
+        {
+            "original": "bcdn.td.com",
+            "resolved": "bcdn-dfb31537.we-stats.com"
+        },
+        {
+            "original": "bup.bankofamerica.com",
+            "resolved": "wup-532e636f.us.v2.we-stats.com"
+        },
+        {
+            "original": "log-sec.desjardins.com",
+            "resolved": "log-ac77ffef.us.v2.we-stats.com"
+        },
+        {
+            "original": "stat.td.com",
+            "resolved": "log-dfb31537.us.v2.we-stats.com"
+        },
+        {
+            "original": "wup-content23.bmo.com",
+            "resolved": "wup-9045bc50.us.v2.we-stats.com"
+        },
+        {
+            "original": "wup-sec.desjardins.com",
+            "resolved": "wup-ac77ffef.us.v2.we-stats.com"
+        },
+        {
+            "original": "wup.td.com",
+            "resolved": "wup-dfb31537.us.v2.we-stats.com"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "we-stats\\.com\\/client\\/v3\\/web\\/wup",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wup-ac77ffef.us.v2",
+                "wup-dfb31537.us.v2"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "wup-sec.desjardins.com",
+                    "resolved": "wup-ac77ffef.us.v2.we-stats.com"
+                },
+                {
+                    "original": "wup.td.com",
+                    "resolved": "wup-dfb31537.us.v2.we-stats.com"
+                }
+            ],
+            "responseHashes": [
+                "e721bbcf8a15af0c7d04a6a7b1cf22310e28dfd1852de0a8af5ceff4474486d1",
+                "2dfcf9101c99fdd2940a44f870ae7718f25f977497f1efc875f50c3244c89468",
+                "cd13dd2d72e26dd51f7ec343bca4a3dedc5a684574fc81d60fc7555653baded2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "desjardins.com",
+                "accweb.mouv.desjardins.com",
+                "banquenet.td.com",
+                "easyweb.td.com"
+            ]
+        },
+        {
+            "rule": "we-stats\\.com\\/api\\/v1\\/sendLogs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "log-ac77ffef.us.v2",
+                "log-dfb31537.us.v2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [
+                {
+                    "original": "log-sec.desjardins.com",
+                    "resolved": "log-ac77ffef.us.v2.we-stats.com"
+                },
+                {
+                    "original": "stat.td.com",
+                    "resolved": "log-dfb31537.us.v2.we-stats.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "desjardins.com",
+                "banquenet.td.com",
+                "easyweb.td.com"
+            ]
+        },
+        {
+            "rule": "we-stats\\.com\\/scripts\\/dfb31537\\/dfb31537\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 3,
+            "subdomains": [
+                "bcdn-dfb31537"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "bcdn.td.com",
+                    "resolved": "bcdn-dfb31537.we-stats.com"
+                }
+            ],
+            "responseHashes": [
+                "370ae50d75ba8ae403a867926831e9dba2cd6f078e2d1424e13f7c778cd40a0c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "td.com",
+                "easyweb.td.com"
+            ]
+        },
+        {
+            "rule": "we-stats\\.com\\/client\\/v3\\.1\\/web\\/wup",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wup-532e636f.us.v2",
+                "wup-9045bc50.us.v2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [
+                {
+                    "original": "bup.bankofamerica.com",
+                    "resolved": "wup-532e636f.us.v2.we-stats.com"
+                },
+                {
+                    "original": "wup-content23.bmo.com",
+                    "resolved": "wup-9045bc50.us.v2.we-stats.com"
+                }
+            ],
+            "responseHashes": [
+                "b45d7729ba51d38405213e1b96b4da3c1f2974b91c0c5b9ab0f45dc567b44aa6",
+                "43be279f9336535e46993a64f798e273309943c5479daf70204d16d1bc49e714"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bankofamerica.com",
+                "www.bankofamerica.com",
+                "www1.bmo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000302,
+    "types": {
+        "XHR": 10,
+        "Script": 2
+    },
+    "nameservers": [
+        "dns1.p07.nsone.net",
+        "dns2.p07.nsone.net",
+        "dns3.p07.nsone.net",
+        "dns4.p07.nsone.net"
+    ]
+}

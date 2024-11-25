@@ -1,0 +1,205 @@
+{
+    "domain": "kaktusapp.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000164,
+    "sites": 24,
+    "subdomains": [
+        "qr",
+        "coupon",
+        "po",
+        "vd"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "kaktusapp\\.com\\/api\\/front\\/offers",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "qr",
+                "coupon"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "broadway-limited.com",
+                "www.birdfy.com"
+            ]
+        },
+        {
+            "rule": "kaktusapp\\.com\\/api\\/front\\/offers",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "qr",
+                "coupon"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "broadway-limited.com",
+                "www.birdfy.com"
+            ]
+        },
+        {
+            "rule": "kaktusapp\\.com\\/storage\\/js\\/kaktus_preorder-eausprd\\.myshopify\\.com\\.js",
+            "cookies": 0.00000683,
+            "fingerprinting": 1,
+            "subdomains": [
+                "po"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c5f374cdbcca2fc8ace0ef85d2d3df957c53c150055c138cd86f6dced421fec3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "kaktuspCurrentShownPerMonth": {
+                    "ttl": 2160002,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "kaktuspStartDatePerMonth": {
+                    "ttl": 2160002,
+                    "length": 45,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "kaktuspCurrentShownPerDay": {
+                    "ttl": 86402,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "kaktuspStartDatePerDay": {
+                    "ttl": 86402,
+                    "length": 45,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elizabetharden.com",
+                "www.elizabetharden.com"
+            ]
+        },
+        {
+            "rule": "kaktusapp\\.com\\/storage\\/js\\/kaktus_volume_discount-linsoul\\.myshopify\\.com\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vd"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ff4f21c43867a7eeeb84eb501dabe0d8538aa67030536f1b6ea4825e0422c4c1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "linsoul.com",
+                "www.linsoul.com"
+            ]
+        },
+        {
+            "rule": "kaktusapp\\.com\\/storage\\/js\\/kaktus_preorder-thenockbox\\.myshopify\\.com\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "po"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "37879e132a9a9876cfd2ccafb209d8da4dcda66491e92554b556b840b369b75b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "kaktuspCurrentShownPerMonth": {
+                    "ttl": 2160013,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "kaktuspStartDatePerMonth": {
+                    "ttl": 2160013,
+                    "length": 45,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "kaktuspCurrentShownPerDay": {
+                    "ttl": 86413,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "kaktuspStartDatePerDay": {
+                    "ttl": 86413,
+                    "length": 45,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thenokbox.com",
+                "www.thenokbox.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000956,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.96875
+        },
+        {
+            "domain": "bestfreecdn.com",
+            "prevalence": 0.03125
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Preflight": 2,
+        "Script": 6
+    },
+    "nameservers": [
+        "roan.ns.cloudflare.com",
+        "kate.ns.cloudflare.com"
+    ]
+}

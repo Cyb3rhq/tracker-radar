@@ -1,0 +1,92 @@
+{
+    "domain": "ucsfhealth.org",
+    "owner": {
+        "name": "University of California, San Francisco",
+        "displayName": "University of California, San Francisco"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "datalayer"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ucsfhealth\\.org\\/ucsf-data-layer\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "datalayer"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.orientation": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5f10b3535c9273e5ec9b652a5f07d06f7cd5fc402bc92d5463a1b81c71e175a6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ucsfbenioffchildrens.org",
+                "www.ucsfbenioffchildrens.org"
+            ]
+        },
+        {
+            "rule": "ucsfhealth\\.org\\/ucsfbenioffchildrens-marketing-data-layer\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datalayer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1ab20f3e3ab8fa80d4d0452a3c4f8d57c9afc2525faac76371d82edac7d90162"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ucsfbenioffchildrens.org",
+                "www.ucsfbenioffchildrens.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "grannbo.ns.cloudflare.com",
+        "rory.ns.cloudflare.com"
+    ]
+}

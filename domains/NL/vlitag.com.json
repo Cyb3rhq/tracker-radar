@@ -1,0 +1,484 @@
+{
+    "domain": "vlitag.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.000903,
+    "sites": 9,
+    "subdomains": [
+        "currency",
+        "dsp",
+        "cdn",
+        "services",
+        "s3"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "vlitag\\.com\\/rates\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "currency"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d27ad651fe518316ca3341838df90d77e665891ec5a49b1a027c42171267e3af"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deadshot.io",
+                "theitbros.com"
+            ]
+        },
+        {
+            "rule": "vlitag\\.com\\/js\\/v1\\/adtag\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dsp"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "window.innerWidth": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "0054a9cdffefff2be7d13c8df786efc16358e680dc81813f36014b49fb84aae4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deadshot.io",
+                "microcontrollerslab.com",
+                "pastebin.com",
+                "sparkbyexamples.com",
+                "www.grammar-monster.com"
+            ]
+        },
+        {
+            "rule": "vlitag\\.com\\/assets\\/plugins\\/hls\\.js\\/hls\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0290f0d61a6b94aca37bd874640ee172d86ec3743f3c0a611063036261074f92"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deadshot.io",
+                "theitbros.com"
+            ]
+        },
+        {
+            "rule": "vlitag\\.com\\/assets\\/plugins\\/safeframe\\/src\\/js\\/sf_host\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1916cf4455a526aadafd82710bf7304154905dcdf69dd9e0b516a63cc82e27e0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sf_ck_tst": {
+                    "ttl": 8,
+                    "length": 4,
+                    "prevalence": 0.00020070245860511792,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deadshot.io",
+                "theitbros.com"
+            ]
+        },
+        {
+            "rule": "vlitag\\.com\\/adv1\\/",
+            "cookies": 0.000702,
+            "fingerprinting": 2,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 7,
+                "window.localStorage": 7,
+                "Navigator.prototype.cookieEnabled": 7,
+                "Document.cookie getter": 7,
+                "Date.prototype.getTime": 7,
+                "window.sessionStorage": 7,
+                "window.innerHeight": 7,
+                "Document.cookie setter": 7,
+                "Screen.prototype.height": 3,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.appName": 2,
+                "window.innerWidth": 3
+            },
+            "sites": 7,
+            "prevalence": 0.000702,
+            "cnames": [],
+            "responseHashes": [
+                "d25bd600ec6c0f5b5dded9f1baf732f85a97c8613d53ddf14038fc4709d4b6e5",
+                "7a3ab5248c401e209ba9f0484a53ee95457eeae192833fb5531367bb3c3ad5ff",
+                "c5e48f68c634775361c2e53fadc37b539d618f3e0dd10d063de64d51361505f9",
+                "8a65112245e3cd3514ea65b920abdc05b53df4a5d14b63892ddfb0f2278671f0",
+                "ff6779f4b92d3f9371cfd046834372aa3e780f70ffe49881cb1efcfecd008902"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__ppIdCC": {
+                    "ttl": 5184002,
+                    "length": 30,
+                    "prevalence": 0.0007024586051179127,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elgoog.im",
+                "linux.how2shout.com",
+                "microcontrollerslab.com",
+                "pastebin.com",
+                "plugins4free.com",
+                "sparkbyexamples.com",
+                "www.grammar-monster.com"
+            ]
+        },
+        {
+            "rule": "vlitag\\.com\\/vli-assets\\/prebid\\/default\\/prebid-9\\.14\\.1\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 2,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {
+                "NavigatorUAData.prototype.brands": 5,
+                "NavigatorUAData.prototype.platform": 5,
+                "window.sessionStorage": 6,
+                "Date.prototype.getTime": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "Navigator.prototype.doNotTrack": 4,
+                "Navigator.prototype.language": 4,
+                "Navigator.prototype.webdriver": 4,
+                "Navigator.prototype.cookieEnabled": 4,
+                "Date.prototype.getTimezoneOffset": 4,
+                "PerformanceTiming.prototype.navigationStart": 4,
+                "window.localStorage": 1,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 6,
+            "prevalence": 0.000602,
+            "cnames": [],
+            "responseHashes": [
+                "c712cb842de839f41aaf9d884fa0ce02fe18396d71ff84ee0bf47271e6d61662"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sharedid": {
+                    "ttl": 2419205,
+                    "length": 36,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "sharedid_cst": {
+                    "ttl": 2419205,
+                    "length": 16,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "cto_bundle": {
+                    "ttl": null,
+                    "length": 255,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elgoog.im",
+                "linux.how2shout.com",
+                "microcontrollerslab.com",
+                "plugins4free.com",
+                "sparkbyexamples.com",
+                "www.grammar-monster.com"
+            ]
+        },
+        {
+            "rule": "vlitag\\.com\\/vli-assets\\/plugins\\/safeframe\\/src\\/js\\/sf_host\\.min\\.js",
+            "cookies": 0.000702,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 7,
+                "Date.prototype.getTime": 7,
+                "Document.cookie setter": 7,
+                "Document.cookie getter": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000702,
+            "cnames": [],
+            "responseHashes": [
+                "1916cf4455a526aadafd82710bf7304154905dcdf69dd9e0b516a63cc82e27e0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sf_ck_tst": {
+                    "ttl": 4,
+                    "length": 4,
+                    "prevalence": 0.0007024586051179127,
+                    "uniqueness": 0.14285714285714285
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elgoog.im",
+                "linux.how2shout.com",
+                "microcontrollerslab.com",
+                "pastebin.com",
+                "plugins4free.com",
+                "sparkbyexamples.com",
+                "www.grammar-monster.com"
+            ]
+        },
+        {
+            "rule": "vlitag\\.com\\/vld\\/1731777612\\/vl\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "76aacba4eece592e3a3281e69a5762c6f10b527a29fbba5eae5ac091f47ae554",
+                "37bd89d0776acdb8565abd79559d140909e68570f7d74a6f0141d21aed4122f4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "how2shout.com",
+                "sparkbyexamples.com",
+                "www.grammar-monster.com"
+            ]
+        },
+        {
+            "rule": "vlitag\\.com\\/vli-assets\\/widget\\/2022\\/03\\/31\\/1648753545\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "44dc3d956ff8debfa335ae55d9354c6f90ed8a1e0d2512b75607561d4605d59a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "how2shout.com",
+                "microcontrollerslab.com",
+                "sparkbyexamples.com"
+            ]
+        },
+        {
+            "rule": "vlitag\\.com\\/vli-assets\\/widget\\/2019\\/11\\/05\\/1572962830\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8ec099e683ad6db0be34e49f689c62d4b1d894f5922e60bae76a412544c6b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "how2shout.com",
+                "microcontrollerslab.com"
+            ]
+        },
+        {
+            "rule": "vlitag\\.com\\/vli-assets\\/widget\\/2020\\/06\\/22\\/1592801729\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0b768f0b82be940d99cccfa6b356a396b0c8fc7e539a81e6a0114f929da7399d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "how2shout.com",
+                "microcontrollerslab.com"
+            ]
+        },
+        {
+            "rule": "vlitag\\.com\\/vli-assets\\/widget\\/2019\\/11\\/05\\/1572962870\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4e443e4fa6ae5b53222ba1ca6b1860c31a2ebe7cccfbfc38bf9a9c178222e30d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "how2shout.com",
+                "microcontrollerslab.com"
+            ]
+        },
+        {
+            "rule": "vlitag\\.com\\/vli-assets\\/widget\\/2020\\/07\\/30\\/1596163502\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "535c8cb19e5834f61a39319910a4f10a7b3d617043ccdfd0aaeea63179473ebb"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "how2shout.com",
+                "microcontrollerslab.com"
+            ]
+        },
+        {
+            "rule": "vlitag\\.com\\/vli-assets\\/widget\\/2023\\/03\\/24\\/1679645040\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "590a7134c7b4431bd7ec385fca62dfcc5be184a3eb131c28d46f586db3c89aed"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "how2shout.com",
+                "microcontrollerslab.com"
+            ]
+        },
+        {
+            "rule": "vlitag\\.com\\/vid\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "how2shout.com",
+                "microcontrollerslab.com",
+                "sparkbyexamples.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000903,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8235294117647058
+        },
+        {
+            "domain": "inmobi.com",
+            "prevalence": 0.17647058823529413
+        }
+    ],
+    "types": {
+        "XHR": 5,
+        "Script": 29,
+        "Image": 13,
+        "Media": 3
+    },
+    "nameservers": [
+        "may.ns.cloudflare.com",
+        "theo.ns.cloudflare.com"
+    ]
+}

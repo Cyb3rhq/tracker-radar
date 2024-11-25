@@ -1,0 +1,100 @@
+{
+    "domain": "payments-amazon.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [
+        "static-eu"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "payments-amazon\\.com\\/checkout\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static-eu"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.connection": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 1,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "653686d760cf6c40977f3b9e0836fd73d98b5b7f5547b55eaa4708cc61671cd7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "language": {
+                    "ttl": null,
+                    "length": 5,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                },
+                "ledgerCurrency": {
+                    "ttl": null,
+                    "length": 3,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                },
+                "apay-session-set": {
+                    "ttl": null,
+                    "length": 72,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bike-discount.de",
+                "www.bestheating.com",
+                "www.cameraworld.co.uk",
+                "www.etyres.co.uk",
+                "www.sevenoakssoundandvision.co.uk"
+            ]
+        }
+    ],
+    "categories": [
+        "Analytics",
+        "Audience Measurement",
+        "Federated Login",
+        "Online Payment",
+        "Badge",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "pdns3.ultradns.org",
+        "pdns4.ultradns.org",
+        "pdns1.ultradns.net",
+        "pdns2.ultradns.net",
+        "pdns5.ultradns.info",
+        "pdns6.ultradns.co.uk"
+    ]
+}

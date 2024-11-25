@@ -1,0 +1,136 @@
+{
+    "domain": "patronpoint.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "jclsor",
+        "dclco",
+        "splca"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "patronpoint\\.com\\/mtc\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "jclsor",
+                "dclco",
+                "splca"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "577978d467ceabfaaebd11cb3082361f8c0e88cdbb76f0f109b20c48cbf4b7e6",
+                "39d8bf9e71324d16d9e062a11bff8c89b5177208a330f9d91232498ba68b610d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mtc_id": {
+                    "ttl": null,
+                    "length": 7,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "mtc_sid": {
+                    "ttl": null,
+                    "length": 23,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "mautic_device_id": {
+                    "ttl": null,
+                    "length": 23,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jcls.org",
+                "www.dcl.org",
+                "www.saclibrary.org"
+            ]
+        },
+        {
+            "rule": "patronpoint\\.com\\/mtc\\/event",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dclco",
+                "splca"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "da6353c80378c3440afb6beb9e73c1c88c72085b1b26229d15bd9ccdb5479c4a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dcl.org",
+                "www.saclibrary.org"
+            ]
+        },
+        {
+            "rule": "patronpoint\\.com\\/mtc\\/event",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dclco",
+                "splca"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dcl.org",
+                "www.saclibrary.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns1.dreamhost.com",
+        "ns3.dreamhost.com",
+        "ns2.dreamhost.com"
+    ]
+}

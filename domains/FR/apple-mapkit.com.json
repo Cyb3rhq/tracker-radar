@@ -1,0 +1,111 @@
+{
+    "domain": "apple-mapkit.com",
+    "owner": {
+        "name": "Apple Inc.",
+        "displayName": "Apple",
+        "privacyPolicy": "https://www.apple.com/legal/privacy/en-ww/",
+        "url": "http://apple.com"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000202,
+    "sites": 2,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "apple-mapkit\\.com\\/mk\\/5\\.x\\.x\\/mapkit\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.languages": 2,
+                "window.matchMedia(\"prefers-color-scheme\")": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "7f5da4447494edce3536eacd28c7a91f9b812743b75dcd519a4430f997b85f71"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coordonnees-gps.fr",
+                "www.coordonnees-gps.fr"
+            ]
+        },
+        {
+            "rule": "apple-mapkit\\.com\\/ma\\/bootstrap",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coordonnees-gps.fr",
+                "www.coordonnees-gps.fr"
+            ]
+        },
+        {
+            "rule": "apple-mapkit\\.com\\/ma\\/bootstrap",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "a7407159283cea9bd1a269167dca4592459a03de4c5911a68d8adec4f6c9a9a9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coordonnees-gps.fr",
+                "www.coordonnees-gps.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "a.ns.apple.com",
+        "b.ns.apple.com",
+        "c.ns.apple.com",
+        "d.ns.apple.com"
+    ]
+}

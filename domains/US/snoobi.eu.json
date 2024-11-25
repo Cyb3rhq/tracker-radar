@@ -1,0 +1,144 @@
+{
+    "domain": "snoobi.eu",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "eu2"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "snoobi\\.eu\\/",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "eu2"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Navigator.prototype.plugins": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "24474218bbfb67a97df57d4729643e2abf81fca5fa9aa378efb4c3b399a8d862",
+                "b13a4dd39d4547bf8827307dc86296dcefdf8bd7d9a4f27299229f4f85883f6d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "luontoon.fi",
+                "www.nexperia.com",
+                "www.ruokavirasto.fi"
+            ]
+        },
+        {
+            "rule": "snoobi\\.eu\\/snoobi2\\.php",
+            "cookies": 0.00000683,
+            "fingerprinting": 1,
+            "subdomains": [
+                "eu2"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9579794bda8097072909f90ce16711f11c41166f06222c7def2e3c33c01a9673"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "Snoobisession_nexperia_com": {
+                    "ttl": null,
+                    "length": 8,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "Snoobi30minute_nexperia_com": {
+                    "ttl": 43203,
+                    "length": 8,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "SnoobiID": {
+                    "ttl": null,
+                    "length": 43,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "luontoon.fi",
+                "www.nexperia.com"
+            ]
+        },
+        {
+            "rule": "snoobi\\.eu\\/prop\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "SnoobiID": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "nexperia.com",
+                "www.nexperia.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-1512.awsdns-61.org",
+        "ns-1974.awsdns-54.co.uk",
+        "ns-233.awsdns-29.com",
+        "ns-782.awsdns-33.net"
+    ]
+}

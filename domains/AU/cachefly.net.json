@@ -1,0 +1,93 @@
+{
+    "domain": "cachefly.net",
+    "owner": {
+        "name": "CacheNetworks, LLC",
+        "displayName": "CacheNetworks"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.001,
+    "sites": 10,
+    "subdomains": [
+        "salemwebnetworkmedia",
+        "democracynow"
+    ],
+    "cnames": [
+        {
+            "original": "media.salemwebnetwork.com",
+            "resolved": "salemwebnetworkmedia.cachefly.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "cachefly\\.net\\/adverts\\/advertisements\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "salemwebnetworkmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "media.salemwebnetwork.com",
+                    "resolved": "salemwebnetworkmedia.cachefly.net"
+                }
+            ],
+            "responseHashes": [
+                "d28aa924583d32298d1ce9dfde3e41c85158e8980180b9ffe8a228cf8596cf98"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "christianity.com",
+                "www.crosswalk.com"
+            ]
+        },
+        {
+            "rule": "cachefly\\.net\\/democracynow\\/360\\/dn2024-1115\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "democracynow"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "aac0492c6bdb8521d29304653aff9b18558f568ced98dbf5d8688564edf85354"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "democracynow.org",
+                "www.democracynow.org"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Media": 2
+    },
+    "nameservers": [
+        "ns1.adns.cachefly.net",
+        "ns2.adns.cachefly.net"
+    ]
+}

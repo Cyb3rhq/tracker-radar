@@ -1,0 +1,100 @@
+{
+    "domain": "camsys-apps.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "otp-mta-prod",
+        "collector-otp-prod"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "camsys-apps\\.com\\/otp\\/routers\\/default\\/patternGraph",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "otp-mta-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a11c44560508e146729c0cf10d68d141b2306e01f67613fd9dc114a819f41b8c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mta.info",
+                "map.mta.info"
+            ]
+        },
+        {
+            "rule": "camsys-apps\\.com\\/realtime\\/gtfsrt\\/MTASBWY\\/alerts",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collector-otp-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mta.info",
+                "map.mta.info"
+            ]
+        },
+        {
+            "rule": "camsys-apps\\.com\\/realtime\\/gtfsrt\\/MTASBWY\\/alerts",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collector-otp-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c3400efecaeb46d6c01c8fef15c259c06d991ce002654155688fa4bcbaef5337"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mta.info",
+                "map.mta.info"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-1969.awsdns-54.co.uk",
+        "ns-1385.awsdns-45.org",
+        "ns-40.awsdns-05.com",
+        "ns-675.awsdns-20.net"
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "domain": "appconsent.io",
+    "owner": {
+        "name": "SFBX SAS",
+        "displayName": "SFBX"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "collector"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "appconsent\\.io\\/hello",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collector"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a80474dd4dbcf03822bd6892b4163e5afce9d805f5d060a773ddbd6257985348"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bestwordlist.com",
+                "www.marketscreener.com"
+            ]
+        },
+        {
+            "rule": "appconsent\\.io\\/hello",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collector"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bestwordlist.com",
+                "www.marketscreener.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Consent Management Platform"
+    ],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-cloud-b3.googledomains.com",
+        "ns-cloud-b1.googledomains.com",
+        "ns-cloud-b4.googledomains.com",
+        "ns-cloud-b2.googledomains.com"
+    ]
+}

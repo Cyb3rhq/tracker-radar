@@ -1,0 +1,75 @@
+{
+    "domain": "blink-script.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "blink-script\\.com\\/resources\\/preload",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "a1710d7c1ab7a0bede0bd6a96697f80e5e96e1a171d8cf4f4990b0d93fe4e15a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodr.com",
+                "lunya.co",
+                "smokea.com"
+            ]
+        },
+        {
+            "rule": "blink-script\\.com\\/resources\\/lazyload",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "20ea2814bfb191b3edbec434556264e12f79061e280afd759741d0bea2c4ad95",
+                "4abee4956c5c6a704fa3bfe68f4b4da2ad68eb213597ac26acb4556046c170a4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodr.com",
+                "lunya.co",
+                "smokea.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "robin.ns.cloudflare.com",
+        "felicity.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,197 @@
+{
+    "domain": "demandbase.com",
+    "owner": {
+        "name": "Demandbase, Inc.",
+        "displayName": "Demandbase",
+        "privacyPolicy": "http://www.demandbase.com/privacy-policy/",
+        "url": "http://demandbase.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00291,
+    "sites": 29,
+    "subdomains": [
+        "api",
+        "scripts",
+        "tag"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "demandbase\\.com\\/api\\/v3\\/ip\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "86856624ac5b5b0132bef395ea2adbf011bc40567c90a7344482646a960222e6",
+                "907da2909ded4ed32582377c9bfa9d146d2766f94f73f59cf31aadcf6dc29d9d",
+                "1b56a68968f3d14b088a90ac3c23e500085294adfe5e1ad1436e56a48df7b4f2",
+                "b808c6788feee6e1a2efaba55702519ecdf7449982c4956c322327c01fa772e0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adobe.com",
+                "express.adobe.com",
+                "fonts.adobe.com",
+                "helpx.adobe.com",
+                "slack.com",
+                "www.adobe.com",
+                "www.elastic.co"
+            ]
+        },
+        {
+            "rule": "demandbase\\.com\\/adobeanalytics\\/e78feef73ff94c88\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f38eb48171eed2313e3952632eab4dc722602c444a46827cac9a9b0e99e83aff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "dmdbase_cdc": {
+                    "ttl": 1805,
+                    "length": 5,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paloaltonetworks.com",
+                "live.paloaltonetworks.com"
+            ]
+        },
+        {
+            "rule": "demandbase\\.com\\/e78feef73ff94c88\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "28d1817dd039d6780197ca68c679b4e5cc41fee1cd319dc0e129137fd7d76b2a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paloaltonetworks.com",
+                "live.paloaltonetworks.com"
+            ]
+        },
+        {
+            "rule": "demandbase\\.com\\/a6774e5118e358f2\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "aeb93b037df67931e1c1d72d9dc7625bbc7e3932aa5ac5e37ca323ccf911ac51"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "epson.ch",
+                "www.epson.de"
+            ]
+        },
+        {
+            "rule": "demandbase\\.com\\/bccb5bc7\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f41681134468c0700e861e0a9548791f9411225d8d9934b032138569a6a19d47"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "merckmillipore.com",
+                "www.sigmaaldrich.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels"
+    ],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.45161290322580644
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25806451612903225
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.1935483870967742
+        },
+        {
+            "domain": "d34u8crftukxnk.cloudfront.net",
+            "prevalence": 0.03225806451612903
+        },
+        {
+            "domain": "optimizely.com",
+            "prevalence": 0.03225806451612903
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.03225806451612903
+        }
+    ],
+    "types": {
+        "Script": 15
+    },
+    "nameservers": [
+        "ns-1260.awsdns-29.org",
+        "ns-1982.awsdns-55.co.uk",
+        "ns-320.awsdns-40.com",
+        "ns-578.awsdns-08.net"
+    ]
+}

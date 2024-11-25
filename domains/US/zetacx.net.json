@@ -1,0 +1,491 @@
+{
+    "domain": "zetacx.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000888,
+    "sites": 13,
+    "subdomains": [
+        "baycrews.search",
+        "joshin.search",
+        "komeri.search",
+        "nitori.search",
+        "cdn.voice",
+        "voice",
+        "alpen.recommend",
+        "amiami.search",
+        "palcloset.search",
+        "shiseido.search",
+        "marui.recommend",
+        "goldwin.recommend",
+        "marui.search"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "zetacx\\.net\\/static\\/zd\\/zd_register_prd\\.js",
+            "cookies": 0.00000683,
+            "fingerprinting": 1,
+            "subdomains": [
+                "baycrews.search",
+                "joshin.search",
+                "komeri.search",
+                "nitori.search"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "window.sessionStorage": 4,
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "10498ef80bb46cd7f2b49d59308276e2adce876c549fce917208c76663c5fbd7",
+                "de5859c7aab91f74197e992087858c7a6320f24bee73292f104b3abc825e0bd4",
+                "ccab9aea78ebcfb079187635a4d6c7b8098f83b688ad74bc845341f2e846613a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "zd-cookie-user-id": {
+                    "ttl": 86400007,
+                    "length": 36,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "zd-cookie-session-id": {
+                    "ttl": 1807,
+                    "length": 36,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baycrews.jp",
+                "joshinweb.jp",
+                "www.komeri.com",
+                "www.nitori-net.jp"
+            ]
+        },
+        {
+            "rule": "zetacx\\.net\\/static\\/zd\\/__zd\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "baycrews.search",
+                "joshin.search",
+                "komeri.search",
+                "nitori.search"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "zd-cookie-user-id": 0.000006832001093120175,
+                "zd-cookie-session-id": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "baycrews.jp",
+                "joshinweb.jp",
+                "www.komeri.com",
+                "www.nitori-net.jp"
+            ]
+        },
+        {
+            "rule": "zetacx\\.net\\/static\\/zv\\/zv\\.summary_list\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.voice"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3a159d5e971d2fcf937202939d5728abe998abce13458c45f389f630506a99f8"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "joshinweb.jp",
+                "www.dot-st.com"
+            ]
+        },
+        {
+            "rule": "zetacx\\.net\\/static\\/zv\\/zv\\.summary_list\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.voice"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1c4e2ef5f16525e2c1d21a172dbef914f0d636e6b28e01343023c817a74fdf6e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "joshinweb.jp",
+                "www.dot-st.com"
+            ]
+        },
+        {
+            "rule": "zetacx\\.net\\/review\\/summary\\/list\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "voice"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "85ab26089ffdf602e30423e2822b8e9dab6d40ec871fb0117ed8f14b1b6a6935"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "joshinweb.jp",
+                "www.dot-st.com"
+            ]
+        },
+        {
+            "rule": "zetacx\\.net\\/api\\/related\\/item",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "alpen.recommend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "baf297966a6ac9edf1e5c48aa4034b6df5276d3f9f3b63c397ae17b61522c21f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alpen-group.jp",
+                "store.alpen-group.jp"
+            ]
+        },
+        {
+            "rule": "zetacx\\.net\\/static\\/zd_register_prd\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "alpen.recommend",
+                "amiami.search",
+                "palcloset.search",
+                "shiseido.search"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "window.sessionStorage": 4,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "0d2724c34048b4b4bc8462c49dcc1d6e83722897bcf47e314dd29c5f29efdd4e",
+                "d2a7254efa6320fe3abe0cb3122377f4d6101297b5613e3450b55370e151c24e",
+                "e7feac5d2b15d70c9936150477ddeb78a9e590d10988918266761330cf353071"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "zs_user_id": {
+                    "ttl": 86400008,
+                    "length": 36,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "zr_session_id": {
+                    "ttl": 1808,
+                    "length": 36,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "zd-cookie-user-id": {
+                    "ttl": 86400002,
+                    "length": 36,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "zd-cookie-session-id": {
+                    "ttl": 1802,
+                    "length": 36,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "zd_cookie_user_id": {
+                    "ttl": 86400003,
+                    "length": 36,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "zd_cookie_session_id": {
+                    "ttl": 1803,
+                    "length": 36,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alpen-group.jp",
+                "www.amiami.jp",
+                "www.amiami.com",
+                "www.palcloset.jp",
+                "www.shiseido.co.jp"
+            ]
+        },
+        {
+            "rule": "zetacx\\.net\\/static\\/__zd\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "alpen.recommend",
+                "marui.recommend",
+                "amiami.search",
+                "goldwin.recommend",
+                "palcloset.search",
+                "shiseido.search"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "zs_user_id": 0.00001366400218624035,
+                "zr_session_id": 0.00001366400218624035,
+                "zd-cookie-user-id": 0.00001366400218624035,
+                "zd-cookie-session-id": 0.00001366400218624035,
+                "zd_cookie_user_id": 0.000006832001093120175,
+                "zd_cookie_session_id": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "alpen-group.jp",
+                "store.alpen-group.jp",
+                "voi.0101.co.jp",
+                "www.amiami.jp",
+                "www.amiami.com",
+                "www.goldwin.co.jp",
+                "www.palcloset.jp",
+                "www.shiseido.co.jp"
+            ]
+        },
+        {
+            "rule": "zetacx\\.net\\/api\\/recommend\\/item",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "marui.recommend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6ccdf3066696418df83848e76a1427bd3c5b5d66235ae529b390176a8511cf3b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "0101.co.jp",
+                "voi.0101.co.jp"
+            ]
+        },
+        {
+            "rule": "zetacx\\.net\\/api\\/productdetail",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "marui.search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9c9e49dd8e1e718a97032d1a654a61bd9278d24fc3c957063362efbb840b1f9d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "0101.co.jp",
+                "voi.0101.co.jp"
+            ]
+        },
+        {
+            "rule": "zetacx\\.net\\/api\\/ranking",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "marui.search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3b7fec04e56b18e989ee9d103dde85b7c3295ae685ebd4d5de33728c9eeb2256"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "0101.co.jp",
+                "voi.0101.co.jp"
+            ]
+        },
+        {
+            "rule": "zetacx\\.net\\/static\\/zd_register\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "marui.recommend",
+                "goldwin.recommend"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fe6939d8af5e8c06a0cdf9b6104888a9bddd25c68c9109fe9c5d4190d1ad5228"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "zd-cookie-user-id": {
+                    "ttl": 86400002,
+                    "length": 36,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "zd-cookie-session-id": {
+                    "ttl": 1802,
+                    "length": 36,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "0101.co.jp",
+                "www.goldwin.co.jp"
+            ]
+        },
+        {
+            "rule": "zetacx\\.net\\/api\\/productdetail",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "marui.search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "0101.co.jp",
+                "voi.0101.co.jp"
+            ]
+        },
+        {
+            "rule": "zetacx\\.net\\/api\\/recommend\\/item",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "goldwin.recommend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f60ef860b5cd462a5ad6250cb8001aefc5fbb26854a66cbe5557f93b70937b75"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldwin.co.jp",
+                "www.goldwin.co.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000041,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.868421052631579
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.07894736842105263
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.05263157894736842
+        }
+    ],
+    "types": {
+        "Script": 17,
+        "Image": 12,
+        "Stylesheet": 2,
+        "Fetch": 2,
+        "XHR": 6,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-231.awsdns-28.com",
+        "ns-582.awsdns-08.net",
+        "ns-2018.awsdns-60.co.uk",
+        "ns-1250.awsdns-28.org"
+    ]
+}

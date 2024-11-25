@@ -1,0 +1,108 @@
+{
+    "domain": "trackedweb.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "static",
+        "r1"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "trackedweb\\.net\\/js\\/_dmptv4\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "03a0222f61645acc709c40d3f51e6e4d8fe4ff61ef986f94009ecbb1c1873ac2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "recordID": {
+                    "ttl": 31536003,
+                    "length": 36,
+                    "prevalence": 0.00030147723846849563,
+                    "uniqueness": 1
+                },
+                "dmSessionID": {
+                    "ttl": 1203,
+                    "length": 36,
+                    "prevalence": 0.00030147723846849563,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barbour.com",
+                "www.directferries.de",
+                "www.pluginboutique.com"
+            ]
+        },
+        {
+            "rule": "trackedweb\\.net\\/pagevisit",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "b6d018729b6cc00b3732df6a76d2d350e205062eac8b2e6ac254db938eeab31b"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "recordID": 0.00030147723846849563,
+                "dmSessionID": 0.00030147723846849563,
+                "cookies.js": 0.00010049241282283188
+            },
+            "exampleSites": [
+                "barbour.com",
+                "www.directferries.de",
+                "www.pluginboutique.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Ping": 3
+    },
+    "nameservers": [
+        "ns01.dot-dns.co.uk",
+        "ns02.dot-dns.co.uk",
+        "ns01.dot-dns.net",
+        "ns02.dot-dns.net"
+    ]
+}

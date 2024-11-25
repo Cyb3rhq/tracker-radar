@@ -1,0 +1,204 @@
+{
+    "domain": "gleap.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [
+        "api",
+        "sdk",
+        "ws"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "gleap\\.io\\/sessions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nwdb.info",
+                "pornify.cc",
+                "transkriptor.com",
+                "www.bibliocad.com"
+            ]
+        },
+        {
+            "rule": "gleap\\.io\\/sessions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "0030d077bead275934dbb17f4544f8a7aa0a09d118e90302c85f01e8094b4208",
+                "48eeab13b98f4fb603ce09d69da3ab145230ccf447c38a77271c4db73a2900c4",
+                "3311e23c06cb977fd37b52d7878463cbdc71f835b2c78920bd0a69bcd8d9da28"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nwdb.info",
+                "lb-fra1-ptr.nwdb.info",
+                "pornify.cc",
+                "transkriptor.com",
+                "www.bibliocad.com"
+            ]
+        },
+        {
+            "rule": "gleap\\.io\\/projects\\/conversations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nwdb.info",
+                "lb-fra1-ptr.nwdb.info"
+            ]
+        },
+        {
+            "rule": "gleap\\.io\\/latest\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "console.memory": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.language": 2,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b8f455309730e4a9b871336fafcc9e3778911151638dbcb58aca65255a6833b1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pornify.cc",
+                "www.bibliocad.com"
+            ]
+        },
+        {
+            "rule": "gleap\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pornify.cc",
+                "transkriptor.com",
+                "www.bibliocad.com"
+            ]
+        },
+        {
+            "rule": "gleap\\.io\\/sessions\\/ping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pornify.cc",
+                "transkriptor.com"
+            ]
+        },
+        {
+            "rule": "gleap\\.io\\/sessions\\/ping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pornify.cc",
+                "transkriptor.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9444444444444444
+        },
+        {
+            "domain": "cloudflareinsights.com",
+            "prevalence": 0.05555555555555555
+        }
+    ],
+    "types": {
+        "Preflight": 6,
+        "XHR": 9,
+        "Script": 2,
+        "WebSocket": 3
+    },
+    "nameservers": [
+        "zac.ns.cloudflare.com",
+        "zoe.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,167 @@
+{
+    "domain": "oval.id",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000116,
+    "sites": 17,
+    "subdomains": [
+        "cdn",
+        "tracker"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "oval\\.id\\/tracker\\/p\\/kompas\\/oval_web_analytics_latest\\.js",
+            "cookies": 0.0000888,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 13,
+                "Document.cookie getter": 13,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 13,
+                "Date.prototype.getTimezoneOffset": 13,
+                "Date.prototype.getTime": 13,
+                "Document.cookie setter": 13
+            },
+            "sites": 13,
+            "prevalence": 0.0000888,
+            "cnames": [],
+            "responseHashes": [
+                "b76ca290fd995a0e2fd4f24ae267c2cdf139848f5a3d1a5ce733df133b525bac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_oval": {
+                    "ttl": 31536020,
+                    "length": 36,
+                    "prevalence": 0.00008881601421056228,
+                    "uniqueness": 1
+                },
+                "_ovals": {
+                    "ttl": 1820,
+                    "length": 47,
+                    "prevalence": 0.00008881601421056228,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kompas.com",
+                "denpasar.kompas.com",
+                "entertainment.kompas.com",
+                "health.kompas.com",
+                "internasional.kompas.com",
+                "lifestyle.kompas.com",
+                "megapolitan.kompas.com",
+                "money.kompas.com",
+                "nasional.kompas.com",
+                "regional.kompas.com",
+                "surabaya.kompas.com",
+                "tekno.kompas.com",
+                "www.kompas.com"
+            ]
+        },
+        {
+            "rule": "oval\\.id\\/74880235-2484-4402-922f-202c2773b82e\\/v1\\/event-tracker",
+            "cookies": 0.0000888,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0000888,
+            "cnames": [],
+            "responseHashes": [
+                "9bdb726ca9651c5f105067bcc3455cbb4ac534c1a864d10617783c9f6ea8e61b",
+                "282e78475139f81c0fd90014d97934e4b0579ca86485983b7ec2dc89db8bc7a9",
+                "5187a89c25a4a26a0ad05896f7db2f9b23bf4593c75973cca5eac527e8241371",
+                "b4c58b7ddd612eb19a88f61066ae27776edef28a845b015967b6d517298033ca",
+                "0f0a6d7f799def6b642e04d284df9588f61aad35e23ffc9b31d3d930f129fdde",
+                "43a8198d63eca054256498d2daccacd4fb282d885d4bada90a6d87cddfe28aad",
+                "0c835601aedfc706d0ff8b786c3ff9fd395797ab710c56be10e2ac35a2ba10bc",
+                "b102318e8d2e4e393c5d71d5f0e214f92314487d5cc50943309dda9f0d05ff8b",
+                "c291fc768d56152cb90a5aaf3a50cddabfa9f708bbb25587387cb55f48978ba9",
+                "f6e8c3742bb9afa7da288c6bc634ff3c36a9c492a3d5f9d30661344415a67330",
+                "e08becc6b5a4e24f43fe83df6d3511d37c3d12ded5d6338dbe2ceda5ec7eb09e",
+                "5e400197993648e13d193e0e5f4d18d39e881b32c34e2b1a1a11edff540b694e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kompas.com",
+                "denpasar.kompas.com",
+                "entertainment.kompas.com",
+                "health.kompas.com",
+                "internasional.kompas.com",
+                "lifestyle.kompas.com",
+                "megapolitan.kompas.com",
+                "money.kompas.com",
+                "nasional.kompas.com",
+                "regional.kompas.com",
+                "surabaya.kompas.com",
+                "tekno.kompas.com",
+                "www.kompas.com"
+            ]
+        },
+        {
+            "rule": "oval\\.id\\/74880235-2484-4402-922f-202c2773b82e\\/v1\\/event-tracker",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0000888,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kompas.com",
+                "denpasar.kompas.com",
+                "entertainment.kompas.com",
+                "health.kompas.com",
+                "internasional.kompas.com",
+                "lifestyle.kompas.com",
+                "megapolitan.kompas.com",
+                "money.kompas.com",
+                "nasional.kompas.com",
+                "regional.kompas.com",
+                "surabaya.kompas.com",
+                "tekno.kompas.com",
+                "www.kompas.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000116,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9411764705882353
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.058823529411764705
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "Fetch": 13,
+        "Preflight": 13
+    },
+    "nameservers": [
+        "coco.ns.cloudflare.com",
+        "cosmin.ns.cloudflare.com"
+    ]
+}

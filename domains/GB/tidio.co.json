@@ -1,0 +1,91 @@
+{
+    "domain": "tidio.co",
+    "owner": {
+        "name": "Green Hills",
+        "displayName": "Green Hills"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.00131,
+    "sites": 13,
+    "subdomains": [
+        "socket",
+        "code"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "tidio\\.co\\/socket\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "socket"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dunsterhouse.co.uk",
+                "library.fiveable.me",
+                "stovefitterswarehouse.co.uk",
+                "www.directdoors.com",
+                "www.justinguitar.com",
+                "www.loake.com",
+                "www.snaintongolf.co.uk",
+                "www.thebigphonestore.co.uk",
+                "www.thewoolcompany.co.uk",
+                "www.wildmeat.co.uk"
+            ]
+        },
+        {
+            "rule": "tidio\\.co\\/8wmtkiusqra70ilcg1eubugthmbtfsrj\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "code"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "handh.co.uk",
+                "www.handh.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5833333333333334
+        },
+        {
+            "domain": "tidiochat.com",
+            "prevalence": 0.4166666666666667
+        }
+    ],
+    "types": {
+        "WebSocket": 10,
+        "Script": 2
+    },
+    "nameservers": [
+        "zara.ns.cloudflare.com",
+        "amir.ns.cloudflare.com"
+    ]
+}

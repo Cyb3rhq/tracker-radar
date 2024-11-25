@@ -1,0 +1,108 @@
+{
+    "domain": "solads.media",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "cdn.feed",
+        "feed"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "solads\\.media\\/resources\\/scripts\\/jsAds-1\\.4\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn.feed",
+                "feed"
+            ],
+            "apis": {
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Navigator.prototype.cookieEnabled": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "06d034dd1278c18fdd51fa83399886a0dbbe0c3ef209c0a3bf71a975aaf45f1c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "markt.de",
+                "schambereich.org",
+                "www.ladies-forum.de"
+            ]
+        },
+        {
+            "rule": "solads\\.media\\/feed\\.presearch\\.ashx",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "feed"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "93a3783841b4347a14bb2966932bd0c76ca6be922d9a107854fb964e0c18dca7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "markt.de",
+                "erotik.markt.de",
+                "schambereich.org",
+                "www.ladies-forum.de"
+            ]
+        },
+        {
+            "rule": "solads\\.media\\/feed\\.jsonp\\.ashx",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "feed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "89c5aa0423c2ffc7c39111cc751930e6508fe0d8af636435a0008e20dbb4c909"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "markt.de",
+                "schambereich.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns09.domaincontrol.com",
+        "ns10.domaincontrol.com"
+    ]
+}

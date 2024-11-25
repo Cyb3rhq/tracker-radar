@@ -1,0 +1,454 @@
+{
+    "domain": "tda.link",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00311,
+    "sites": 31,
+    "subdomains": [
+        "beagle.prod",
+        "zuba.prod",
+        "farcaster-real-time-api.prod",
+        "zuba2.prod",
+        "dollar.prod"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "tda\\.link\\/scripts\\/epaper\\/beagle\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "beagle.prod"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.colorDepth": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d26533c45fb35a3a0cc47c87c1909dfd6134aa1b822b3d2b1e7f68698267e2a0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "dakt_2_uuid": {
+                    "ttl": 15552003,
+                    "length": 32,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 1
+                },
+                "dakt_2_uuid_ts": {
+                    "ttl": 15552003,
+                    "length": 13,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 1
+                },
+                "dakt_2_session_id": {
+                    "ttl": 1803,
+                    "length": 32,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 1
+                },
+                "dakt_2_version": {
+                    "ttl": 15552003,
+                    "length": 6,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sonntagszeitung.ch",
+                "epaper.tagesanzeiger.ch"
+            ]
+        },
+        {
+            "rule": "tda\\.link\\/v1\\/dakt2\\/event\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zuba.prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sonntagszeitung.ch",
+                "epaper.tagesanzeiger.ch"
+            ]
+        },
+        {
+            "rule": "tda\\.link\\/v1\\/dakt2\\/dnt\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zuba.prod"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sonntagszeitung.ch",
+                "epaper.tagesanzeiger.ch",
+                "www.home.ch"
+            ]
+        },
+        {
+            "rule": "tda\\.link\\/v1\\/dakt2\\/page\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zuba.prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sonntagszeitung.ch",
+                "epaper.tagesanzeiger.ch"
+            ]
+        },
+        {
+            "rule": "tda\\.link\\/scripts\\/goldbach\\/beagle\\.min\\.js",
+            "cookies": 0.000502,
+            "fingerprinting": 2,
+            "subdomains": [
+                "beagle.prod"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 5,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Navigator.prototype.doNotTrack": 3,
+                "Navigator.prototype.hardwareConcurrency": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.language": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.availHeight": 3,
+                "Screen.prototype.availWidth": 3,
+                "Screen.prototype.colorDepth": 3,
+                "NavigatorUAData.prototype.platform": 3,
+                "Navigator.prototype.platform": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 3
+            },
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "da20b1080bf1033b6de2df962f97c077b53b3a14570efb98e429ddec7166abbe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "dakt_2_uuid": {
+                    "ttl": 15552006,
+                    "length": 32,
+                    "prevalence": 0.0003013863773357444,
+                    "uniqueness": 1
+                },
+                "dakt_2_uuid_ts": {
+                    "ttl": 15552006,
+                    "length": 13,
+                    "prevalence": 0.0003013863773357444,
+                    "uniqueness": 1
+                },
+                "dakt_2_session_id": {
+                    "ttl": 1806,
+                    "length": 32,
+                    "prevalence": 0.0003013863773357444,
+                    "uniqueness": 1
+                },
+                "dakt_2_version": {
+                    "ttl": 15552006,
+                    "length": 6,
+                    "prevalence": 0.0003013863773357444,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "planetehockey.com",
+                "www.cineman.ch",
+                "www.pharmawiki.ch",
+                "www.polizei-schweiz.ch",
+                "www.schweizersee.ch",
+                "www.sprechzimmer.ch",
+                "www.tio.ch"
+            ]
+        },
+        {
+            "rule": "tda\\.link\\/scripts\\/20min-spa\\/beagle\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "beagle.prod"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d47efd4ce31213a6b446fc917f428671fe8a6f0d666b0a4c15fde50c0103bc29"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "20min.ch",
+                "www.20min.ch"
+            ]
+        },
+        {
+            "rule": "tda\\.link\\/api\\/v2\\.0\\/external-audience-ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "farcaster-real-time-api.prod"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00171,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "cookies.js_dtest": 0.0014064697609001407,
+                "parsely_uuid": 0.0014064697609001407
+            },
+            "exampleSites": [
+                "20min.ch",
+                "wp.fuw.ch",
+                "www.20min.ch",
+                "www.24heures.ch",
+                "www.bazonline.ch",
+                "www.berneroberlaender.ch",
+                "www.bernerzeitung.ch",
+                "www.carteblanche.ch",
+                "www.derbund.ch",
+                "www.fuw.ch",
+                "www.landbote.ch",
+                "www.tagesanzeiger.ch",
+                "www.tdg.ch",
+                "www.thunertagblatt.ch",
+                "www.tio.ch",
+                "www.zsz.ch",
+                "www.zuonline.ch"
+            ]
+        },
+        {
+            "rule": "tda\\.link\\/scripts\\/newsnet-disco\\/beagle\\.min\\.js",
+            "cookies": 0.00141,
+            "fingerprinting": 1,
+            "subdomains": [
+                "beagle.prod"
+            ],
+            "apis": {
+                "Document.cookie getter": 14,
+                "Date.prototype.getTime": 14,
+                "Document.cookie setter": 14
+            },
+            "sites": 14,
+            "prevalence": 0.00141,
+            "cnames": [],
+            "responseHashes": [
+                "73b01684785cd99b5cc1e40b1dd56717a836d244e3596fffe561e2f5f87643ad"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fuw.ch",
+                "www.24heures.ch",
+                "www.bazonline.ch",
+                "www.berneroberlaender.ch",
+                "www.bernerzeitung.ch",
+                "www.carteblanche.ch",
+                "www.derbund.ch",
+                "www.fuw.ch",
+                "www.landbote.ch",
+                "www.tagesanzeiger.ch",
+                "www.tdg.ch",
+                "www.thunertagblatt.ch",
+                "www.zsz.ch",
+                "www.zuonline.ch"
+            ]
+        },
+        {
+            "rule": "tda\\.link\\/scripts\\/home\\/beagle\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "beagle.prod"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "242e7a86f9afca274f9d35691f4ad7147f78f89513c33bcd7fc2f380c6d5c610"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alle-immobilien.ch",
+                "www.home.ch"
+            ]
+        },
+        {
+            "rule": "tda\\.link\\/v1\\/dakt2\\/externaldnt\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zuba2.prod"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cineman.ch",
+                "www.pharmawiki.ch",
+                "www.sprechzimmer.ch"
+            ]
+        },
+        {
+            "rule": "tda\\.link\\/v1\\/dakt2\\/externalpage\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zuba2.prod"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cineman.ch",
+                "www.pharmawiki.ch",
+                "www.sprechzimmer.ch"
+            ]
+        },
+        {
+            "rule": "tda\\.link\\/v1\\/componentID\\/70ae885d439b4fe96c197af41bf91933",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dollar.prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "dakt_2_uuid": 0.00020092425155716296
+            },
+            "exampleSites": [
+                "pharmawiki.ch",
+                "www.pharmawiki.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00291,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.46938775510204084
+        },
+        {
+            "domain": "da-services.ch",
+            "prevalence": 0.3877551020408163
+        },
+        {
+            "domain": "gbucket.ch",
+            "prevalence": 0.10204081632653061
+        },
+        {
+            "domain": "gb-next.ch",
+            "prevalence": 0.04081632653061224
+        }
+    ],
+    "types": {
+        "Script": 27,
+        "Ping": 13,
+        "Fetch": 19
+    },
+    "nameservers": [
+        "ns-1710.awsdns-21.co.uk",
+        "ns-270.awsdns-33.com",
+        "ns-963.awsdns-56.net",
+        "ns-1066.awsdns-05.org"
+    ]
+}

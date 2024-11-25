@@ -1,0 +1,194 @@
+{
+    "domain": "epoq.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000504,
+    "sites": 5,
+    "subdomains": [
+        "cdn",
+        "carharttwip-fr.arc",
+        "narayana-verlag-fr.arc",
+        "maxiscoot-com.arc",
+        "rs1"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "epoq\\.de\\/flow\\/carharttwip-fr\\.js",
+            "cookies": 0.000202,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Navigator.prototype.connection": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.orientation": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "37c390c72cca1d8499947673cbd1dd1fcfc90d649399086cefb655b68333db3e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "eqsid_": {
+                    "ttl": null,
+                    "length": 31,
+                    "prevalence": 0.00020153164046755341,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carhartt-wip.com",
+                "www.carhartt-wip.com"
+            ]
+        },
+        {
+            "rule": "epoq\\.de\\/inbound-servletapi\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "carharttwip-fr.arc",
+                "narayana-verlag-fr.arc",
+                "maxiscoot-com.arc"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000403,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "eqsid_": 0.00020153164046755341,
+                "7cb54b_session_id": 0.00010076582023377671
+            },
+            "exampleSites": [
+                "carhartt-wip.com",
+                "editions-narayana.fr",
+                "www.carhartt-wip.com",
+                "www.maxiscoot.com"
+            ]
+        },
+        {
+            "rule": "epoq\\.de\\/assets\\/carharttwip\\/css\\/epoq-inspire\\.live\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "0db31175c6d7a076b321467999d94ec94ddaf153b74d33cdd476fd90262fb368"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carhartt-wip.com",
+                "www.carhartt-wip.com"
+            ]
+        },
+        {
+            "rule": "epoq\\.de\\/assets\\/carharttwip\\/js\\/epoq-inspire\\.live\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "e83985cec407d1d88d14b2f4401d25f09eb97c53d722cb62ff6a364d5de230d7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carhartt-wip.com",
+                "www.carhartt-wip.com"
+            ]
+        },
+        {
+            "rule": "epoq\\.de\\/inbound-servletapi\\/getRecommendations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "carharttwip-fr.arc",
+                "rs1",
+                "maxiscoot-com.arc"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000403,
+            "cnames": [],
+            "responseHashes": [
+                "04e4e1a34832b7714cba5407ef9b7fbb41db2955ff6850f190499531f5d77050",
+                "7a8fbe4163d651c8dc65603d81801c63efb29a12ae83d71abe81a07a9ff4a729",
+                "f71ea084e2d8d23272d1bd1b9c6cec3e30f78c5c35a796399526bd19326b828a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "eqsid_": 0.00020153164046755341
+            },
+            "exampleSites": [
+                "carhartt-wip.com",
+                "www.bexley.fr",
+                "www.carhartt-wip.com",
+                "www.maxiscoot.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000302,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns11.dnsmadeeasy.com",
+        "ns-383.awsdns-47.com",
+        "ns-750.awsdns-29.net",
+        "ns10.dnsmadeeasy.com"
+    ]
+}

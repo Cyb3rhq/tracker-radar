@@ -1,0 +1,521 @@
+{
+    "domain": "freshdesk.com",
+    "owner": {
+        "name": "Freshworks Inc",
+        "displayName": "Freshworks"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00015,
+    "sites": 22,
+    "subdomains": [
+        "assets",
+        "abcbullion",
+        "elb52",
+        "elb49",
+        "idpa",
+        "tflhelp",
+        "assets8",
+        "assets10",
+        "euc-assets4",
+        "assets1",
+        "assets6",
+        "assets2",
+        "assets7",
+        "assets3",
+        "euc-assets9",
+        "assets4",
+        "assets5",
+        "euc-assets10",
+        "assets9",
+        "euc-assets1",
+        "euc-assets6",
+        "euc-assets5",
+        "euc-assets8",
+        "chat"
+    ],
+    "cnames": [
+        {
+            "original": "help.oercommons.org",
+            "resolved": "elb52.freshdesk.com"
+        },
+        {
+            "original": "help.wlresources.dpi.wi.gov",
+            "resolved": "elb49.freshdesk.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "freshdesk\\.com\\/widget\\/freshwidget\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Navigator.prototype.appVersion": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a126fc513b831f8460dc9733c023000d5a0eee394d33787bae7c9f7362d58a66"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abcbullion.com.au",
+                "www.military.com"
+            ]
+        },
+        {
+            "rule": "freshdesk\\.com\\/loading\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "abcbullion",
+                "elb52",
+                "elb49",
+                "idpa",
+                "tflhelp"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [
+                {
+                    "original": "help.oercommons.org",
+                    "resolved": "elb52.freshdesk.com"
+                },
+                {
+                    "original": "help.wlresources.dpi.wi.gov",
+                    "resolved": "elb49.freshdesk.com"
+                }
+            ],
+            "responseHashes": [
+                "2344aab567a7bc30d22a30c0a72aeef1f833e72fc22e333ae547dc0d69ded76a"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abcbullion.com.au",
+                "oercommons.org",
+                "wlresources.dpi.wi.gov",
+                "www.abcbullion.com.au",
+                "www.idpa.com",
+                "www.truthforlife.org"
+            ]
+        },
+        {
+            "rule": "freshdesk\\.com\\/assets\\/cdn\\/falcon_portal_utils-8a3bd29b9a0d9073b84cf03839a2c189deb1814f7005c605c7b7dea19acb786d\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets8",
+                "assets10",
+                "euc-assets4"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "38bf69481ebe48a36502ae74615e45e03349a3c1ef623a44641f2fab5df8d92b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wiimhome.com",
+                "help.apollogroup.tv",
+                "support.akaipro.com",
+                "support.thetrainline.com"
+            ]
+        },
+        {
+            "rule": "freshdesk\\.com\\/assets\\/cdn\\/portal_head_v2-36ab34a3681b18368e238876f238180a275ea33aef5344965eaf6f636dc8721b\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "assets1",
+                "assets6",
+                "assets2",
+                "assets10",
+                "assets7",
+                "assets3",
+                "assets8",
+                "euc-assets4",
+                "euc-assets9"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 9,
+                "Date.prototype.getTime": 9,
+                "window.indexedDB": 8,
+                "HTMLMediaElement.prototype.canPlayType": 8,
+                "window.localStorage": 8,
+                "window.sessionStorage": 8,
+                "Event.prototype.timeStamp": 9
+            },
+            "sites": 9,
+            "prevalence": 0.0000615,
+            "cnames": [],
+            "responseHashes": [
+                "36ab34a3681b18368e238876f238180a275ea33aef5344965eaf6f636dc8721b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wiimhome.com",
+                "help.apollogroup.tv",
+                "help.pbs.org",
+                "my.zanichelli.it",
+                "support.acorn.tv",
+                "support.akaipro.com",
+                "support.freshservice.com",
+                "support.thetrainline.com",
+                "www.so.energy"
+            ]
+        },
+        {
+            "rule": "freshdesk\\.com\\/assets\\/cdn\\/prism-2276a193401841df09503806d718e88dcbf9c2117a3b5a1fc1065c2c8d0bc1bd\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets4",
+                "assets2",
+                "assets3",
+                "assets5",
+                "assets7",
+                "assets10",
+                "assets8",
+                "euc-assets10",
+                "euc-assets9"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000615,
+            "cnames": [],
+            "responseHashes": [
+                "2276a193401841df09503806d718e88dcbf9c2117a3b5a1fc1065c2c8d0bc1bd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wiimhome.com",
+                "help.apollogroup.tv",
+                "help.pbs.org",
+                "my.zanichelli.it",
+                "support.acorn.tv",
+                "support.akaipro.com",
+                "support.freshservice.com",
+                "support.thetrainline.com",
+                "www.so.energy"
+            ]
+        },
+        {
+            "rule": "freshdesk\\.com\\/assets\\/cdn\\/portal_bottom-34a98e1f6e4a2d6122e54625f7eba21c503bf0939cb4dc65326f10aa37467e4f\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets6",
+                "assets2",
+                "assets8",
+                "assets9",
+                "assets7",
+                "euc-assets1",
+                "euc-assets6"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "Date.prototype.getTime": 8,
+                "window.localStorage": 3
+            },
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "34a98e1f6e4a2d6122e54625f7eba21c503bf0939cb4dc65326f10aa37467e4f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wiimhome.com",
+                "help.apollogroup.tv",
+                "help.pbs.org",
+                "support.acorn.tv",
+                "support.akaipro.com",
+                "support.freshservice.com",
+                "support.thetrainline.com",
+                "www.so.energy"
+            ]
+        },
+        {
+            "rule": "freshdesk\\.com\\/assets\\/cdn\\/redactor-10a54c9b6ce9a442c8a2e6a131947e0d106a4af7c5b98360494520fc5245be28\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets3",
+                "assets10",
+                "assets1",
+                "assets4",
+                "assets7",
+                "euc-assets5",
+                "euc-assets10"
+            ],
+            "apis": {
+                "Navigator.prototype.appVersion": 9
+            },
+            "sites": 9,
+            "prevalence": 0.0000615,
+            "cnames": [],
+            "responseHashes": [
+                "10a54c9b6ce9a442c8a2e6a131947e0d106a4af7c5b98360494520fc5245be28"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wiimhome.com",
+                "help.apollogroup.tv",
+                "help.pbs.org",
+                "my.zanichelli.it",
+                "support.acorn.tv",
+                "support.akaipro.com",
+                "support.freshservice.com",
+                "support.thetrainline.com",
+                "www.so.energy"
+            ]
+        },
+        {
+            "rule": "freshdesk\\.com\\/assets\\/cdn\\/lang\\/en-4a75f878b88f0e355c2d9c4c8856e16e0e8e74807c9787aaba7ef13f18c8d691\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets1",
+                "assets9",
+                "assets3",
+                "assets8",
+                "assets2",
+                "euc-assets6"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [
+                "4a75f878b88f0e355c2d9c4c8856e16e0e8e74807c9787aaba7ef13f18c8d691"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wiimhome.com",
+                "help.apollogroup.tv",
+                "help.pbs.org",
+                "support.acorn.tv",
+                "support.akaipro.com",
+                "support.freshservice.com",
+                "www.so.energy"
+            ]
+        },
+        {
+            "rule": "freshdesk\\.com\\/assets\\/cdn\\/i18n\\/portal\\/en-89d70c1cfc14e8bfd1100be59d517490352cdbdeb82858862f30e630a2a10c2a\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets9",
+                "assets1",
+                "assets7",
+                "assets6",
+                "euc-assets10"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [
+                "89d70c1cfc14e8bfd1100be59d517490352cdbdeb82858862f30e630a2a10c2a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wiimhome.com",
+                "help.apollogroup.tv",
+                "help.pbs.org",
+                "support.acorn.tv",
+                "support.akaipro.com",
+                "support.freshservice.com",
+                "www.so.energy"
+            ]
+        },
+        {
+            "rule": "freshdesk\\.com\\/assets\\/cdn\\/portal_print-6e04b27f27ab27faab81f917d275d593fa892ce13150854024baaf983b3f4326\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets3",
+                "assets8",
+                "assets9",
+                "assets4",
+                "assets7",
+                "assets1",
+                "euc-assets8",
+                "euc-assets5"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000615,
+            "cnames": [],
+            "responseHashes": [
+                "6e04b27f27ab27faab81f917d275d593fa892ce13150854024baaf983b3f4326"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wiimhome.com",
+                "help.apollogroup.tv",
+                "help.pbs.org",
+                "my.zanichelli.it",
+                "support.acorn.tv",
+                "support.akaipro.com",
+                "support.freshservice.com",
+                "support.thetrainline.com",
+                "www.so.energy"
+            ]
+        },
+        {
+            "rule": "freshdesk\\.com\\/assets\\/glyphs_806cbcf995b2dd24e031adc0e2d25137\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets8",
+                "assets10",
+                "euc-assets4"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "71886247440d4435a8ef1283fe570b592dc3fb05a13d5b675a38b82460d26a67"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wiimhome.com",
+                "help.apollogroup.tv",
+                "support.akaipro.com",
+                "support.thetrainline.com"
+            ]
+        },
+        {
+            "rule": "freshdesk\\.com\\/assets\\/cdn-ignored\\/sprites\\/portal\\/icon-s507c4b1df6-698d3abd0dde03af087eba2d9c96cf1575e4b721a7ce6dc28d423c2a91a21baa\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets3",
+                "assets9"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "56bcda130fd123e63dc1f33a5eef5b7e7052130199cc03ea48d5a7c31949e906"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apollogroup.tv",
+                "support.freshservice.com"
+            ]
+        },
+        {
+            "rule": "freshdesk\\.com\\/assets\\/cdn\\/portal_utils-83ada44a269c552c54b626cf88f4b3f5f6141b36e5921e2061b52dfba15293b5\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets9",
+                "assets10",
+                "assets7",
+                "euc-assets6"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "06da9e49c8f3fe1d9bbd7419e49ff2b0b674052319950f6c876417c57b6b90ad"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pbs.org",
+                "help.pbs.org",
+                "my.zanichelli.it",
+                "support.acorn.tv",
+                "support.freshservice.com",
+                "www.so.energy"
+            ]
+        },
+        {
+            "rule": "freshdesk\\.com\\/visitors\\/teamstatus",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pbs.org",
+                "www.vapestore.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9789473684210527
+        },
+        {
+            "domain": "d36mpcpuzc4ztk.cloudfront.net",
+            "prevalence": 0.021052631578947368
+        }
+    ],
+    "types": {
+        "Script": 51,
+        "Document": 6,
+        "Stylesheet": 19,
+        "Font": 4,
+        "Image": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-350.awsdns-43.com",
+        "ns-514.awsdns-00.net",
+        "ns-1955.awsdns-52.co.uk",
+        "ns-1270.awsdns-30.org"
+    ]
+}

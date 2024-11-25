@@ -1,0 +1,90 @@
+{
+    "domain": "expedia.com",
+    "owner": {
+        "name": "Expedia Group, Inc.",
+        "displayName": "Expedia Group"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000302,
+    "sites": 3,
+    "subdomains": [
+        "oms",
+        "vap"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "expedia\\.com\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "oms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expediafortd.com",
+                "www.travelocity.ca"
+            ]
+        },
+        {
+            "rule": "expedia\\.com\\/vaclog\\/log",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vap"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a916298eb5bb9cfe90eb0b65ede43687bafca4bb1e5d8fcc08e007071a44b712"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expediafortd.com",
+                "www.expediafortd.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "travel-assets.com",
+            "prevalence": 0.9375
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.0625
+        }
+    ],
+    "types": {
+        "XHR": 4
+    },
+    "nameservers": [
+        "pdns3.ultradns.org",
+        "pdns4.ultradns.org",
+        "pdns1.ultradns.net",
+        "pdns2.ultradns.net",
+        "pdns5.ultradns.info",
+        "pdns6.ultradns.co.uk",
+        "dns1.p09.nsone.net",
+        "dns2.p09.nsone.net",
+        "dns3.p09.nsone.net",
+        "dns4.p09.nsone.net"
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "domain": "dante-ai.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "chat",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "dante-ai\\.com\\/bubble-embed\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {
+                "window.innerWidth": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "998a742836b723221e3fcefedcebe655d2f0ec99c06ce8a5a5e823c07af22f33"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nv.gov",
+                "tax.nv.gov",
+                "www.support.getzooz.com"
+            ]
+        },
+        {
+            "rule": "dante-ai\\.com\\/knowledge-bases\\/customization\\/shared",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "615427c87d1e460d79fd9013df2bf59938c04705c3e8a6921aa83e3a141f8819"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nv.gov",
+                "www.support.getzooz.com"
+            ]
+        },
+        {
+            "rule": "dante-ai\\.com\\/thirdparty\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nv.gov",
+                "tax.nv.gov",
+                "www.support.getzooz.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 2,
+        "Document": 3
+    },
+    "nameservers": [
+        "grace.ns.cloudflare.com",
+        "marty.ns.cloudflare.com"
+    ]
+}

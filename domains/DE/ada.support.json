@@ -1,0 +1,382 @@
+{
+    "domain": "ada.support",
+    "owner": {
+        "name": "Ada Support Inc.",
+        "displayName": "Ada Support Inc."
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "static",
+        "calendly",
+        "tomtom",
+        "belkin",
+        "bitget",
+        "weber-emea"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ada\\.support\\/embed2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 6,
+                "window.sessionStorage": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "43da18f909be2ce7b2a6908460d55c1e85440107401bb04706c2bf725ff55fe5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calendly.com",
+                "help.tomtom.com",
+                "mailchimp.com",
+                "www.belkin.com",
+                "www.bitget.com",
+                "www.weber.com"
+            ]
+        },
+        {
+            "rule": "ada\\.support\\/embed-manifest\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "8d9a81aeb79f21067f5cd851c46ee52c18c8d34914b989d3ee4429e384ab8cd2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calendly.com",
+                "help.tomtom.com",
+                "mailchimp.com",
+                "reverb.com",
+                "www.belkin.com",
+                "www.bitget.com",
+                "www.weber.com"
+            ]
+        },
+        {
+            "rule": "ada\\.support\\/embed2\\.571929b\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "PerformanceTiming.prototype.navigationStart": 6,
+                "window.localStorage": 6,
+                "window.sessionStorage": 6,
+                "Notification.permission": 5,
+                "Navigator.prototype.permissions": 5,
+                "Navigator.prototype.languages": 3
+            },
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "02ad42b91c921c608245981621c82037ebc8eaffadc6009b5528fcb275f3e314"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calendly.com",
+                "help.tomtom.com",
+                "mailchimp.com",
+                "reverb.com",
+                "www.belkin.com",
+                "www.bitget.com",
+                "www.weber.com"
+            ]
+        },
+        {
+            "rule": "ada\\.support\\/chat-manifest\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "b566008178d26df753c2c26b2355c0d9d29218838d1c74a89273da9ec9918f56"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calendly.com",
+                "help.tomtom.com",
+                "www.belkin.com",
+                "www.bitget.com",
+                "www.weber.com"
+            ]
+        },
+        {
+            "rule": "ada\\.support\\/embed\\/x-storage\\/571929b\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "calendly",
+                "tomtom",
+                "belkin",
+                "bitget",
+                "weber-emea"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "65773fab5584de83f31b6627d8dd3e7332ff3b8e269cf62d0f66b4b3c0dd6e3e"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calendly.com",
+                "help.tomtom.com",
+                "www.belkin.com",
+                "www.bitget.com",
+                "www.weber.com"
+            ]
+        },
+        {
+            "rule": "ada\\.support\\/embed\\/button\\/571929b\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "calendly",
+                "tomtom",
+                "belkin",
+                "bitget",
+                "weber-emea"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "06d898d0ba7b830d50654a99dd67a8131c88f487d056d08078a28adfa27c3fb6"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calendly.com",
+                "help.tomtom.com",
+                "www.belkin.com",
+                "www.bitget.com",
+                "www.weber.com"
+            ]
+        },
+        {
+            "rule": "ada\\.support\\/embed\\/x-storage\\/571929b\\/sentry\\.a63f1776e32d39b6c2e8\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "calendly",
+                "tomtom",
+                "belkin",
+                "bitget",
+                "weber-emea"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "5b58166ddb57b296ece956699b5998d1daea4d510a353d28cc8efcc35324d11a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calendly.com",
+                "help.tomtom.com",
+                "www.belkin.com",
+                "www.bitget.com",
+                "www.weber.com"
+            ]
+        },
+        {
+            "rule": "ada\\.support\\/embed\\/x-storage\\/571929b\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "calendly",
+                "tomtom",
+                "belkin",
+                "bitget",
+                "weber-emea"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "window.sessionStorage": 5,
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "fa43cddc4b335849ce6d076a222209ec1289bb56aede8484d2ef45025750cef9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calendly.com",
+                "help.tomtom.com",
+                "www.belkin.com",
+                "www.bitget.com",
+                "www.weber.com"
+            ]
+        },
+        {
+            "rule": "ada\\.support\\/embed\\/button\\/571929b\\/sentry\\.a63f1776e32d39b6c2e8\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "calendly",
+                "tomtom",
+                "belkin",
+                "bitget",
+                "weber-emea"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "5b58166ddb57b296ece956699b5998d1daea4d510a353d28cc8efcc35324d11a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calendly.com",
+                "help.tomtom.com",
+                "www.belkin.com",
+                "www.bitget.com",
+                "www.weber.com"
+            ]
+        },
+        {
+            "rule": "ada\\.support\\/embed\\/button\\/571929b\\/preact\\.196e0b6fbd52fd7d5136\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "calendly",
+                "tomtom",
+                "belkin",
+                "bitget",
+                "weber-emea"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "eedf65f340e03d70d19fc0abb03396a3b816777dde37fa6f4e6ded6275fa4e3c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calendly.com",
+                "help.tomtom.com",
+                "www.belkin.com",
+                "www.bitget.com",
+                "www.weber.com"
+            ]
+        },
+        {
+            "rule": "ada\\.support\\/embed\\/button\\/571929b\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "calendly",
+                "tomtom",
+                "belkin",
+                "bitget",
+                "weber-emea"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.languages": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "a233b67f081d10d8b13ba01fcef3f4c0ab57738d9a352f70f9626c2c2c22f757"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calendly.com",
+                "help.tomtom.com",
+                "www.belkin.com",
+                "www.bitget.com",
+                "www.weber.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "storage.googleapis.com",
+            "prevalence": 0.13333333333333333
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.06666666666666667
+        }
+    ],
+    "types": {
+        "Script": 38,
+        "Fetch": 12,
+        "Document": 10
+    },
+    "nameservers": [
+        "ns-1316.awsdns-36.org",
+        "ns-1610.awsdns-09.co.uk",
+        "ns-473.awsdns-59.com",
+        "ns-916.awsdns-50.net"
+    ]
+}

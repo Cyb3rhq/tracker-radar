@@ -1,0 +1,154 @@
+{
+    "domain": "zi-scripts.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.00111,
+    "sites": 11,
+    "subdomains": [
+        "js"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "zi-scripts\\.com\\/zi-tag\\.js",
+            "cookies": 0.000705,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 10,
+                "URL.createObjectURL": 10,
+                "Document.cookie getter": 8,
+                "Document.cookie setter": 7
+            },
+            "sites": 11,
+            "prevalence": 0.00111,
+            "cnames": [],
+            "responseHashes": [
+                "e779904e434d50e426e79dfac680cdb8a04564e67121c257974278a02979e407"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_zitok": {
+                    "ttl": 31536006,
+                    "length": 30,
+                    "prevalence": 0.0007053607416364369,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ieee.org",
+                "mariadb.com",
+                "plotly.com",
+                "pytorch.org",
+                "replit.com",
+                "www.brevo.com",
+                "www.dashlane.com",
+                "www.postman.com",
+                "www.techrepublic.com",
+                "www.truenas.com",
+                "www.zoominfo.com"
+            ]
+        },
+        {
+            "rule": "zi-scripts\\.com\\/unified\\/v1\\/master\\/getSubscriptions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.00111,
+            "cnames": [],
+            "responseHashes": [
+                "29a5dcbe502e7d582caa4f47aa26add04fcdfc74d80912df1c29f737be473dc6",
+                "14b21b2a4585b656e86e50dd6748e3564aa279129b63d6af1211c10e3d987a37",
+                "3c80beaa6aae342cf646cf94bb0025e76ec93a3c11366a1781fdc6e1d0303942",
+                "257580d0191d6ffe77a34770088f4b0a9720b2412a18abecf33c1172c2c5ccdb",
+                "4f5e3e4cb910c0ed463086fd9c19220695e3692d04eadaa3cb2d1a527ddb4a59",
+                "a5d32e17d1d5fe18e5963bddf6689762ce598b0186028f3bc822cbc6fef3270f",
+                "a119e33cfbc91de1400a37c67c9f4ed16d87536562a7c398aee2fbc6e077a703",
+                "b23906c02b03e0bad97a4ca1bb0d095621d40f4f1bacabafd9a7748426369140",
+                "1a8865d8707c9e0279d2acc787411aed6e8beec6f82dfbfd6f446382085d7f8c",
+                "7f419851db24a774d6bd82451f3c610feddcfa3b84ebf28ceb2f7e709ce13875"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ieee.org",
+                "mariadb.com",
+                "plotly.com",
+                "pytorch.org",
+                "replit.com",
+                "www.brevo.com",
+                "www.dashlane.com",
+                "www.postman.com",
+                "www.techrepublic.com",
+                "www.truenas.com",
+                "www.zoominfo.com"
+            ]
+        },
+        {
+            "rule": "zi-scripts\\.com\\/unified\\/v1\\/master\\/getSubscriptions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.00111,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ieee.org",
+                "mariadb.com",
+                "plotly.com",
+                "pytorch.org",
+                "replit.com",
+                "www.brevo.com",
+                "www.dashlane.com",
+                "www.postman.com",
+                "www.techrepublic.com",
+                "www.truenas.com",
+                "www.zoominfo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000705,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.35714285714285715
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "Fetch": 11,
+        "Preflight": 11
+    },
+    "nameservers": [
+        "rita.ns.cloudflare.com",
+        "tim.ns.cloudflare.com"
+    ]
+}

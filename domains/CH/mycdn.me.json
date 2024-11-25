@@ -1,0 +1,82 @@
+{
+    "domain": "mycdn.me",
+    "owner": {
+        "name": "VK Company Ltd.",
+        "displayName": "VK"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "i",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "mycdn\\.me\\/getVideoPreview",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0c33270e16d01741b1e8371f40258c2a1b72f51225aa0cefc51a1630dff0bd20"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rt.com",
+                "de.rt.com"
+            ]
+        },
+        {
+            "rule": "mycdn\\.me\\/fb\\.do",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7677085091416d12ce598394dfe4333c4751e3bccf3852decda30a6a5ae93c5c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rt.com",
+                "de.rt.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "vk.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns1.mycdn.me",
+        "ns2.mycdn.me",
+        "ns3.mycdn.me"
+    ]
+}

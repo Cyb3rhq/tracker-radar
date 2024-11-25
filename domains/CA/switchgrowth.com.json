@@ -1,0 +1,92 @@
+{
+    "domain": "switchgrowth.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000503,
+    "sites": 5,
+    "subdomains": [
+        "pixel"
+    ],
+    "cnames": [
+        {
+            "original": "switch.lowestrates.ca",
+            "resolved": "pixel.switchgrowth.com"
+        },
+        {
+            "original": "switch.rates.ca",
+            "resolved": "pixel.switchgrowth.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "switchgrowth\\.com\\/pixel\\.js",
+            "cookies": 0.000503,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 5,
+            "prevalence": 0.000503,
+            "cnames": [
+                {
+                    "original": "switch.rates.ca",
+                    "resolved": "pixel.switchgrowth.com"
+                },
+                {
+                    "original": "switch.lowestrates.ca",
+                    "resolved": "pixel.switchgrowth.com"
+                }
+            ],
+            "responseHashes": [
+                "5242da280ecd0664d76cc8c7be9fccb3f2bebe758c04d6e700dfe7b4f1eef605"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_switch_session_id": {
+                    "ttl": 604808,
+                    "length": 36,
+                    "prevalence": 0.00030184123151222455,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rates.ca",
+                "www.autohebdo.net",
+                "www.autotrader.ca",
+                "www.koho.ca",
+                "www.lowestrates.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000503,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "trey.ns.cloudflare.com",
+        "wren.ns.cloudflare.com"
+    ]
+}

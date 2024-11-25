@@ -1,0 +1,181 @@
+{
+    "domain": "psyma.com",
+    "owner": {
+        "name": "Psyma Group AG",
+        "displayName": "Psyma Group"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000082,
+    "sites": 12,
+    "subdomains": [
+        "scripts"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "psyma\\.com\\/layer\\.php",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "94d41692364dffa4d6d30eab3580b6670a3c3898848e397b3e2af6c89cb649e6",
+                "fd62fe4410df67c816e7022a9ba3699da4869810b56dffe5a28b4404d2b8375c",
+                "ce07363f30c62ecc5dc9be97e92009a3f2a2e71511a5541826e57bbec1994a15"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "psyma_participation": {
+                    "ttl": 2592015,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "audi.de",
+                "www.bmwgroup.com",
+                "www.kia.com",
+                "www.landrover.co.uk"
+            ]
+        },
+        {
+            "rule": "psyma\\.com\\/scripts\\/adhoc\\/adhoc_11210356_brde\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "br.de",
+                "www.br.de"
+            ]
+        },
+        {
+            "rule": "psyma\\.com\\/json\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a6e203f1d1c832c9f7ad1051a06b1ee31a5a432b1c56d006b3f16258968f0d51"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kia.com",
+                "www.landrover.co.uk"
+            ]
+        },
+        {
+            "rule": "psyma\\.com\\/count\\/count\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "kia.com",
+                "www.landrover.co.uk"
+            ]
+        },
+        {
+            "rule": "psyma\\.com\\/img\\/logos\\/prc\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e4991b8b253c49787992d20848b4d02397e160d319466d253dd504ebe4a0c2dd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kia.com",
+                "www.landrover.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "audi.com",
+            "prevalence": 0.0625
+        },
+        {
+            "domain": "bmw.com",
+            "prevalence": 0.0625
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.0625
+        },
+        {
+            "domain": "nissan-cdn.net",
+            "prevalence": 0.0625
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Image": 2
+    },
+    "nameservers": [
+        "dns.noris.net",
+        "dns.noris.de",
+        "dns.noris.ch"
+    ]
+}

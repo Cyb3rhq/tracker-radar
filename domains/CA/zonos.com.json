@@ -1,0 +1,150 @@
+{
+    "domain": "zonos.com",
+    "owner": {
+        "name": "iGlobal Stores",
+        "displayName": "iGlobal Stores"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000302,
+    "sites": 3,
+    "subdomains": [
+        "hello"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "zonos\\.com\\/hello\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "hello"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "de47cceaccc6fa60f837b2fb7bfc165547df1fecceed5e9dbb4e45c7f7d8ad72"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "zCountry": {
+                    "ttl": 31536009,
+                    "length": 2,
+                    "prevalence": 0.00020122748767481639,
+                    "uniqueness": 0.5
+                },
+                "zHello": {
+                    "ttl": 31536010,
+                    "length": 1,
+                    "prevalence": 0.00020122748767481639,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ereplacementparts.com",
+                "www.rockler.com",
+                "www.tractorpartsasap.com"
+            ]
+        },
+        {
+            "rule": "zonos\\.com\\/api\\/country",
+            "cookies": 0.000302,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hello"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "b14864cbb682abff089f8d139de7ac59ef1b8f6c1a2c5a2e9e151a1388ed03b9",
+                "239b4df56827ec80b89a6f3d90f0a6d71976be3d47defbe64ad66326fb0458a2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ereplacementparts.com",
+                "www.rockler.com",
+                "www.tractorpartsasap.com"
+            ]
+        },
+        {
+            "rule": "zonos\\.com\\/api\\/translation",
+            "cookies": 0.000302,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hello"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "01682835bcecd76041eeae17e9ecf7f06ec214b4ed1c4089cc77ded7d4ed6aed"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ereplacementparts.com",
+                "www.rockler.com",
+                "www.tractorpartsasap.com"
+            ]
+        },
+        {
+            "rule": "zonos\\.com\\/images\\/flags\\/CA\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hello"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "31bd5a85e7abbf9672b41cd9d294f884a868687168a242c034391dd34a9d5ac7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ereplacementparts.com",
+                "www.rockler.com",
+                "www.tractorpartsasap.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000302,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 6,
+        "Image": 3
+    },
+    "nameservers": [
+        "ns-237.awsdns-29.com",
+        "ns-1923.awsdns-48.co.uk",
+        "ns-1067.awsdns-05.org",
+        "ns-696.awsdns-23.net"
+    ]
+}

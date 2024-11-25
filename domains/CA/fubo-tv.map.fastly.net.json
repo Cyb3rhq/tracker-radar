@@ -1,0 +1,133 @@
+{
+    "domain": "fubo-tv.map.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000101,
+    "sites": 1,
+    "subdomains": [
+        "prod"
+    ],
+    "cnames": [
+        {
+            "original": "api.fubo.tv",
+            "resolved": "prod.fubo-tv.map.fastly.net"
+        },
+        {
+            "original": "assets.fubo.tv",
+            "resolved": "prod.fubo-tv.map.fastly.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "fubo-tv\\.map\\.fastly\\.net\\/welcome\\/ca\\/fall_2024\\/CA_Fall2024_Web1280x720_15s\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "assets.fubo.tv",
+                    "resolved": "prod.fubo-tv.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "c043ae3fe2435fc159d261b7b1c9208752ddd17492ba8ea6a1fd7255cf16fdff"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fubo.tv",
+                "www.fubo.tv"
+            ]
+        },
+        {
+            "rule": "fubo-tv\\.map\\.fastly\\.net\\/subscriptions\\/products",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.fubo.tv",
+                    "resolved": "prod.fubo-tv.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fubo.tv",
+                "www.fubo.tv"
+            ]
+        },
+        {
+            "rule": "fubo-tv\\.map\\.fastly\\.net\\/subscriptions\\/products",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.fubo.tv",
+                    "resolved": "prod.fubo-tv.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "245803ea02685ff19a72922bb6df756f2657dd2430ab63118942e231529822f5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fubo.tv",
+                "www.fubo.tv"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "segment.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Media": 2,
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

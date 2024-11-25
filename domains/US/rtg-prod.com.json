@@ -1,0 +1,101 @@
+{
+    "domain": "rtg-prod.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "coupon",
+        "identity"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "rtg-prod\\.com\\/coupon",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "coupon"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e25ce4c944d12021ab18edd1db2501fc53d9ff486410af524e161d9e70857175"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "roomstogo.com",
+                "www.roomstogo.com"
+            ]
+        },
+        {
+            "rule": "rtg-prod\\.com\\/user",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "identity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "roomstogo.com",
+                "www.roomstogo.com"
+            ]
+        },
+        {
+            "rule": "rtg-prod\\.com\\/user",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "identity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0c144b0ce95db04af37c63cbe6902e454f1261967c0dbac1453d610b51a025f1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "roomstogo.com",
+                "www.roomstogo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-1482.awsdns-57.org",
+        "ns-1981.awsdns-55.co.uk",
+        "ns-756.awsdns-30.net",
+        "ns-296.awsdns-37.com"
+    ]
+}

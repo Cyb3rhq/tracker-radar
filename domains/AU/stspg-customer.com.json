@@ -1,0 +1,139 @@
+{
+    "domain": "stspg-customer.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "bghgsx0hcy0k",
+        "hnrqgzx9bm18",
+        "3x6vjqhj2cpt"
+    ],
+    "cnames": [
+        {
+            "original": "status.essentialassessment.com.au",
+            "resolved": "hnrqgzx9bm18.stspg-customer.com"
+        },
+        {
+            "original": "status.sonos.com",
+            "resolved": "bghgsx0hcy0k.stspg-customer.com"
+        },
+        {
+            "original": "status.wix.com",
+            "resolved": "3x6vjqhj2cpt.stspg-customer.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "stspg-customer\\.com\\/embed\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bghgsx0hcy0k",
+                "hnrqgzx9bm18"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "status.sonos.com",
+                    "resolved": "bghgsx0hcy0k.stspg-customer.com"
+                },
+                {
+                    "original": "status.essentialassessment.com.au",
+                    "resolved": "hnrqgzx9bm18.stspg-customer.com"
+                }
+            ],
+            "responseHashes": [
+                "c55931183e8491e74c84072efee23806a3fb76341aa657aeaa2caa8247e3ec96"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sonos.com",
+                "www.essentialassessment.com.au"
+            ]
+        },
+        {
+            "rule": "stspg-customer\\.com\\/api\\/v2\\/incidents\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "3x6vjqhj2cpt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "status.wix.com",
+                    "resolved": "3x6vjqhj2cpt.stspg-customer.com"
+                }
+            ],
+            "responseHashes": [
+                "da314be1104422d651bc14b9d73969384461ebbdec8073d90fcc1f8820fc4ac0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wix.com",
+                "support.wix.com"
+            ]
+        },
+        {
+            "rule": "stspg-customer\\.com\\/api\\/v2\\/incidents\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "3x6vjqhj2cpt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "status.wix.com",
+                    "resolved": "3x6vjqhj2cpt.stspg-customer.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wix.com",
+                "support.wix.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "parastorage.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "redhatstatic.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-1098.awsdns-09.org",
+        "ns-1711.awsdns-21.co.uk",
+        "ns-441.awsdns-55.com",
+        "ns-817.awsdns-38.net"
+    ]
+}

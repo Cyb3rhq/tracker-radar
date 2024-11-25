@@ -1,0 +1,116 @@
+{
+    "domain": "crossdevicetracking.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000302,
+    "sites": 3,
+    "subdomains": [
+        "retag"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "crossdevicetracking\\.com\\/universaltag\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "retag"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "1df75bee00571b6bb0e8e7f47e5dcd2ab84fe7c49ced9f9aac4283a18f870cac",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "crossdevicetracking": {
+                    "ttl": 2592026,
+                    "length": 36,
+                    "prevalence": 0.00020122748767481639,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "renogy.com",
+                "vevor.ca",
+                "www.vevor.ca"
+            ]
+        },
+        {
+            "rule": "crossdevicetracking\\.com\\/fetch\\/pixal",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "retag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "renogy.com",
+                "vevor.ca"
+            ]
+        },
+        {
+            "rule": "crossdevicetracking\\.com\\/fetch\\/pixal",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "retag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "renogy.com",
+                "vevor.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "d1v2u6by4izioz.cloudfront.net",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "jack.ns.cloudflare.com",
+        "melinda.ns.cloudflare.com"
+    ]
+}

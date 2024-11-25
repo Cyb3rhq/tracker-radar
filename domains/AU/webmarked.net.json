@@ -1,0 +1,142 @@
+{
+    "domain": "webmarked.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "assets.smartwishlist",
+        "front.smartwishlist"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "webmarked\\.net\\/static\\/v6\\/smartwishlist\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets.smartwishlist"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "6df89622d02357e85713a5f18d19391246e6a71d0fe418cba149d5a30d5249b8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "wishlist_id": {
+                    "ttl": 31536024,
+                    "length": 21,
+                    "prevalence": 0.0003013258336681398,
+                    "uniqueness": 1
+                },
+                "bookmarkeditems": {
+                    "ttl": 31536024,
+                    "length": 12,
+                    "prevalence": 0.0003013258336681398,
+                    "uniqueness": 0.3333333333333333
+                },
+                "wishlist_customer_id": {
+                    "ttl": 31536024,
+                    "length": 1,
+                    "prevalence": 0.0003013258336681398,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cultdesign.com.au",
+                "tulio.com.au",
+                "www.hipkids.com.au",
+                "www.workwearhub.com.au"
+            ]
+        },
+        {
+            "rule": "webmarked\\.net\\/static\\/v6\\/css\\/smartwishlist\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets.smartwishlist"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "c707ee6c5d9fc8318886d3c8a191724f603b76eb2acafade18589c7f6412b0b0"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cultdesign.com.au",
+                "tulio.com.au",
+                "www.lovisa.com.au",
+                "www.workwearhub.com.au"
+            ]
+        },
+        {
+            "rule": "webmarked\\.net\\/v6\\/fetchstoredata\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "front.smartwishlist"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "3f77fa21ff86cbcb9e0de2ca18b20cacc020a156095ff84b61d8f906df478b9c",
+                "1bf9de7d7d11fbb3365788cc6340215a36a3ba787a08c0a081825a40f888cbcf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.0001004419445560466
+            },
+            "exampleSites": [
+                "cultdesign.com.au",
+                "tulio.com.au",
+                "www.lovisa.com.au",
+                "www.workwearhub.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6923076923076923
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.15384615384615385
+        },
+        {
+            "domain": "d5zu2f4xvqanl.cloudfront.net",
+            "prevalence": 0.15384615384615385
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Stylesheet": 4
+    },
+    "nameservers": [
+        "ns1.dreamhost.com",
+        "ns2.dreamhost.com",
+        "ns3.dreamhost.com"
+    ]
+}

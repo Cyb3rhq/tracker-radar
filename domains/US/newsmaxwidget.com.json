@@ -1,0 +1,317 @@
+{
+    "domain": "newsmaxwidget.com",
+    "owner": {
+        "name": "Newsmax Media, Inc.",
+        "displayName": "Newsmax Media"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000956,
+    "sites": 14,
+    "subdomains": [
+        "assets",
+        "trends",
+        "cdn",
+        "images"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "newsmaxwidget\\.com\\/master\\/delivery\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 11,
+                "Navigator.prototype.maxTouchPoints": 11,
+                "Document.cookie getter": 10,
+                "HTMLCanvasElement.prototype.toDataURL": 10,
+                "window.localStorage": 10,
+                "window.innerWidth": 10,
+                "Navigator.prototype.language": 8
+            },
+            "sites": 11,
+            "prevalence": 0.0000752,
+            "cnames": [],
+            "responseHashes": [
+                "73d275c73a489828e7e47786f7e34ff75d52fbbab5eee2697c5d34b414fb812f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crooksandliars.com",
+                "themoderatevoice.com",
+                "thephaser.com",
+                "vidmax.com",
+                "www.annistonstar.com",
+                "www.dickmorris.com",
+                "www.kabc.com",
+                "www.marklevinshow.com",
+                "www.sgtreport.com",
+                "www.wbap.com",
+                "www.wmal.com"
+            ]
+        },
+        {
+            "rule": "newsmaxwidget\\.com\\/event\\/generic",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "trends"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000752,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "crooksandliars.com",
+                "themoderatevoice.com",
+                "thephaser.com",
+                "vidmax.com",
+                "www.annistonstar.com",
+                "www.dickmorris.com",
+                "www.kabc.com",
+                "www.marklevinshow.com",
+                "www.sgtreport.com",
+                "www.wbap.com",
+                "www.wmal.com"
+            ]
+        },
+        {
+            "rule": "newsmaxwidget\\.com\\/api\\/demand\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "trends"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000752,
+            "cnames": [],
+            "responseHashes": [
+                "a5fb63f150f4359ca43086d4f919a2bee97bea5b145a02dc670cd522755ece9b",
+                "57a060f718620f5270e61b9f20ce16038a9458ad41885db1e0256d88ed71733f",
+                "9afe590327dc20c8cf56a35a69aa75999ac9d2ce8acc8e66c54fceaadf33d0b3",
+                "9b020cc8a4953907956346fe293fd1ef01d8414ad91586156cda19e7dc9767ac",
+                "ac05dc4a3bb58f1517543dc6263b30b831ae02dec3258d7ea35f9eab54a6fbe0",
+                "951227cd5aa65ecd25fe4238e02439d20fe12eca3d25e4f2822041b946446312",
+                "da2d4203a27dbec86b7aa7e0a7642556e50904e5ad1dad64206bc8c74b43d387"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crooksandliars.com",
+                "themoderatevoice.com",
+                "thephaser.com",
+                "vidmax.com",
+                "www.annistonstar.com",
+                "www.dickmorris.com",
+                "www.kabc.com",
+                "www.marklevinshow.com",
+                "www.sgtreport.com",
+                "www.wbap.com",
+                "www.wmal.com"
+            ]
+        },
+        {
+            "rule": "newsmaxwidget\\.com\\/api\\/delivery\\/",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "trends"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000752,
+            "cnames": [],
+            "responseHashes": [
+                "4180e353621ec61040e43d297ae77e18e645f8413ed4998328235497c85c20dc",
+                "156cbe1afeb1d2bbe45099154a1cd141dd147b09900ba1eb361164466420d9ac",
+                "a2861016b579e33b12d00a0011e81e9d0783989662c2552aa4b2b9ff55eafa3b",
+                "7ad809b1821a897fa783656ca92af5ab59df2b2ee377d73f2cdbf259e84da575",
+                "f1f252113caa80b021f8d16f95c21556e1314cb583937e0c4b890f95d01e6e6b",
+                "6d2dd9737ea520d554ae97648f291649037c2a2b903eb6336033fa826a4cb3c7",
+                "0eb8c79dcc494fac3e51abc754f3399f2ffb3b332f77e0ea082db5ac0b830ce5",
+                "6e741ea7f187f9dfc7b29db92109bb5493a3e2dfd55a745b04ab60b1786069fb",
+                "311218418f745aaf7c9189e5034cb55da40ce5f8b693c926d58355c52a3f8d2f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "crooksandliars.com",
+                "themoderatevoice.com",
+                "thephaser.com",
+                "vidmax.com",
+                "www.annistonstar.com",
+                "www.dickmorris.com",
+                "www.kabc.com",
+                "www.marklevinshow.com",
+                "www.sgtreport.com",
+                "www.wbap.com",
+                "www.wmal.com"
+            ]
+        },
+        {
+            "rule": "newsmaxwidget\\.com\\/event\\/impression",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "trends"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crooksandliars.com",
+                "themoderatevoice.com",
+                "thephaser.com",
+                "www.annistonstar.com",
+                "www.dickmorris.com",
+                "www.sgtreport.com"
+            ]
+        },
+        {
+            "rule": "newsmaxwidget\\.com\\/build\\/css\\/font-awesome\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8891a160f8a2afb81de5259f9f68e5af3782348ea2927ad9e969bc88c7d39984"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "themoderatevoice.com",
+                "www.annistonstar.com"
+            ]
+        },
+        {
+            "rule": "newsmaxwidget\\.com\\/image\\/fetch\\/f_jpg,q_50,h_225,w_300,c_fill,g_faces:auto\\/pg_1\\/https:\\/\\/media\\.newsmaxwidget\\.com\\/content\\/images\\/670eb4e64d0152-15350902\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1fd23fc26bde527ce4919f309a70893aa8c9608421eb00be3ed9fb7e1f444183"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thephaser.com",
+                "www.dickmorris.com"
+            ]
+        },
+        {
+            "rule": "newsmaxwidget\\.com\\/image\\/fetch\\/f_jpg,q_auto,h_150,w_225,c_fill,g_faces:auto\\/pg_1\\/https:\\/\\/media\\.newsmaxwidget\\.com\\/content\\/images\\/672b6a1847d5a1-69129781\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "80da6cd5a6ab96d7f875b43d52fc5e4dadd3b854d46d85f15cd0fee8da410a1b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dickmorris.com",
+                "www.sgtreport.com"
+            ]
+        },
+        {
+            "rule": "newsmaxwidget\\.com\\/image\\/fetch\\/f_jpg,q_50,h_225,w_300,c_fill,g_faces:auto\\/pg_1\\/https:\\/\\/media\\.newsmaxwidget\\.com\\/content\\/images\\/66e2b81453a0a8-56742949\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "07e874a596c3f1473dfc3d14857638bde2dc0e4b3fa7d41df7d4452fc1409b17"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dickmorris.com",
+                "www.dickmorris.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000683,
+    "topInitiators": [
+        {
+            "domain": "revcontent.com",
+            "prevalence": 0.5882352941176471
+        },
+        {
+            "domain": "newsmaxfeednetwork.com",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.058823529411764705
+        },
+        {
+            "domain": "adlightning.com",
+            "prevalence": 0.0196078431372549
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "Image": 17,
+        "Fetch": 28,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns-895.awsdns-47.net",
+        "ns-1515.awsdns-61.org",
+        "ns-1969.awsdns-54.co.uk",
+        "ns-112.awsdns-14.com"
+    ]
+}

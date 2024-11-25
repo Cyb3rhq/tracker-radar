@@ -1,0 +1,95 @@
+{
+    "domain": "telus.com",
+    "owner": {
+        "name": "TELUS",
+        "displayName": "TELUS"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "auth",
+        "eversafe.id"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "telus\\.com\\/am\\/oauth2\\/authorize",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "auth"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "publicmobile.ca",
+                "selfserve.publicmobile.ca"
+            ]
+        },
+        {
+            "rule": "telus\\.com\\/user\\/auth",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "eversafe.id"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e4fd77bbaf96408191672a0814afb462d50927afd619a0295a00f158b2a6e8fd"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "publicmobile.ca",
+                "selfserve.publicmobile.ca"
+            ]
+        },
+        {
+            "rule": "telus\\.com\\/ws",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eversafe.id"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "publicmobile.ca",
+                "myaccount.publicmobile.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "types": {
+        "Document": 4,
+        "WebSocket": 2
+    },
+    "nameservers": [
+        "dns40.telus.com",
+        "dns40.telus.ca"
+    ]
+}

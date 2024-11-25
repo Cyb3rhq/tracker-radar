@@ -1,0 +1,67 @@
+{
+    "domain": "goaffpro.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000302,
+    "sites": 3,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "goaffpro\\.com\\/loader\\.js",
+            "cookies": 0.000101,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1,
+                "Document.cookie getter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "7846d0dbe32e716ab597ff790f2fc041ce3a1f66f0e003865b7fca6be7a711d0",
+                "bb70b19937ed6bf93e1c776da57303d93085d24ad6b737291d8ea8e88591bc03"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "source": {
+                    "ttl": 604804,
+                    "length": 6,
+                    "prevalence": 0.00010061374383740819,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baerskintactical.com",
+                "www.creality.com",
+                "www.pishop.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000101,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "noah.ns.cloudflare.com",
+        "ivy.ns.cloudflare.com"
+    ]
+}

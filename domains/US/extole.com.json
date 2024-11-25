@@ -1,0 +1,269 @@
+{
+    "domain": "extole.com",
+    "owner": {
+        "name": "Extole",
+        "displayName": "Extole"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000888,
+    "sites": 13,
+    "subdomains": [
+        "tags",
+        "talbots",
+        "american-giant",
+        "ancestrydna",
+        "healthypaws",
+        "mixbook",
+        "moo"
+    ],
+    "cnames": [
+        {
+            "original": "refer.american-giant.com",
+            "resolved": "american-giant.extole.com"
+        },
+        {
+            "original": "refer.ancestry.com",
+            "resolved": "ancestrydna.extole.com"
+        },
+        {
+            "original": "refer.healthypawspetinsurance.com",
+            "resolved": "healthypaws.extole.com"
+        },
+        {
+            "original": "refer.moo.com",
+            "resolved": "moo.extole.com"
+        },
+        {
+            "original": "refer.talbots.com",
+            "resolved": "talbots.extole.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "extole\\.com\\/913653\\/core\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tags"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gazelle.com",
+                "buy.gazelle.com",
+                "www.gazelle.com"
+            ]
+        },
+        {
+            "rule": "extole\\.com\\/zones\\/global_header",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "talbots"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "refer.talbots.com",
+                    "resolved": "talbots.extole.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "talbots.com",
+                "www.talbots.com"
+            ]
+        },
+        {
+            "rule": "extole\\.com\\/zones\\/global_footer",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "talbots"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "refer.talbots.com",
+                    "resolved": "talbots.extole.com"
+                }
+            ],
+            "responseHashes": [
+                "946b7069dc09b64583b1f9aa03a4eaf93b0ec041986a291582b4776791c686a3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "talbots.com",
+                "www.talbots.com"
+            ]
+        },
+        {
+            "rule": "extole\\.com\\/core\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "american-giant",
+                "ancestrydna",
+                "healthypaws",
+                "mixbook",
+                "moo"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "window.localStorage": 1,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [
+                {
+                    "original": "refer.american-giant.com",
+                    "resolved": "american-giant.extole.com"
+                },
+                {
+                    "original": "refer.ancestry.com",
+                    "resolved": "ancestrydna.extole.com"
+                },
+                {
+                    "original": "refer.healthypawspetinsurance.com",
+                    "resolved": "healthypaws.extole.com"
+                },
+                {
+                    "original": "refer.moo.com",
+                    "resolved": "moo.extole.com"
+                }
+            ],
+            "responseHashes": [
+                "540c7e3ec02fe057599dbe3f0d40e0369e49fb2d5ed9f016e7973a34c333e5df",
+                "1343be15cdf7c8eefd79f212763619d5e58d3be7c7285648e898b22713d2f68d",
+                "12ae03b7508ee7bda12ee84feaf40fd4913e2f002c97478b46e34e4e5005b619",
+                "e9af7beb9346767de496f930dcad2701e274218adbb58a45da5f0622ff9c6d08"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "extole_access_token": {
+                    "ttl": 31536003,
+                    "length": 26,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "american-giant.com",
+                "www.american-giant.com",
+                "www.ancestry.com",
+                "www.healthypawspetinsurance.com",
+                "www.mixbook.com",
+                "www.moo.com"
+            ]
+        },
+        {
+            "rule": "extole\\.com\\/zones\\/Footer",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mixbook"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d85eae02f29bf540775bb24a47c1607fd9d723c8f80fb2702a38f861c63b572c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mixbook.com",
+                "www.mixbook.com"
+            ]
+        },
+        {
+            "rule": "extole\\.com\\/zones\\/referral_page",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "moo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "refer.moo.com",
+                    "resolved": "moo.extole.com"
+                }
+            ],
+            "responseHashes": [
+                "7326034a8e4a334aef07ba39e4bfd973910f267255beb4fab8a11e1773739771"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moo.com",
+                "www.moo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000478,
+    "topInitiators": [
+        {
+            "domain": "extole.io",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.26666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.13333333333333333
+        },
+        {
+            "domain": "rollbar.com",
+            "prevalence": 0.13333333333333333
+        },
+        {
+            "domain": "ancestrycdn.com",
+            "prevalence": 0.06666666666666667
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "XHR": 8
+    },
+    "nameservers": [
+        "ns-409.awsdns-51.com",
+        "ns-988.awsdns-59.net",
+        "ns-1155.awsdns-16.org",
+        "ns-1967.awsdns-53.co.uk"
+    ]
+}

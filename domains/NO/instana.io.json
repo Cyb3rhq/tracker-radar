@@ -1,0 +1,109 @@
+{
+    "domain": "instana.io",
+    "owner": {
+        "name": "Instana, Inc.",
+        "displayName": "Instana"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [
+        "eum",
+        "eum-blue-saas",
+        "eum-orange-saas",
+        "eum-eu-west-1",
+        "eum-green-saas"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "instana\\.io\\/eum\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "eum"
+            ],
+            "apis": {
+                "window.localStorage": 6,
+                "Date.prototype.getTime": 6,
+                "Navigator.prototype.languages": 6,
+                "PerformanceTiming.prototype.navigationStart": 6,
+                "window.innerWidth": 6,
+                "window.innerHeight": 6,
+                "Navigator.prototype.connection": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "0d337a4ff0c4d3b7492cb566976ca20f6a8a47bc4a145772584e838b8ae5d275"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "proff.no",
+                "weather.com",
+                "www.adidas.com",
+                "www.allabolag.se",
+                "www.hellomagazine.com",
+                "www.proff.no"
+            ]
+        },
+        {
+            "rule": "instana\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eum-blue-saas",
+                "eum-orange-saas",
+                "eum-eu-west-1",
+                "eum-green-saas"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "proff.no",
+                "weather.com",
+                "www.adidas.com",
+                "www.allabolag.se",
+                "www.hellomagazine.com",
+                "www.proff.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "adidas.no",
+            "prevalence": 0.5454545454545454
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.45454545454545453
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Ping": 6
+    },
+    "nameservers": [
+        "ns-1272.awsdns-31.org",
+        "ns-1952.awsdns-52.co.uk",
+        "ns-240.awsdns-30.com",
+        "ns-517.awsdns-00.net"
+    ]
+}

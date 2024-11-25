@@ -1,0 +1,283 @@
+{
+    "domain": "src-play.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "media",
+        "nexus",
+        "gateway"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "src-play\\.com\\/plugins\\/eprivacy\\/eprivacy-custom\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "59c50b7c81c6f9d495de9a2d29c3ff74df0dfe52a9cdea882a88ec1621996661"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jackpotcitycasino.com",
+                "www.spincasino.com"
+            ]
+        },
+        {
+            "rule": "src-play\\.com\\/plugins\\/analytics\\/vtrk-min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "123cdfc51128c108a50cfde3001f39dd7d5119ff20a712607f8479ef52d3d846"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "vtrk": {
+                    "ttl": null,
+                    "length": 333,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "vtrk_visitid": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jackpotcitycasino.com",
+                "www.spincasino.com"
+            ]
+        },
+        {
+            "rule": "src-play\\.com\\/betway\\/dos-prod\\/Bootstrap\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "nexus"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.language": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7d3aba1a727067ebeafff00014f99591f0d0be95a4cb4458f15beebdd00391ee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "DEFAULT_ENSIGHTEN_PRIVACY_BANNER_LOADED": {
+                    "ttl": 31536006,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "DEFAULT_ENSIGHTEN_PRIVACY_BANNER_VIEWED": {
+                    "ttl": 31536006,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "DEFAULT_ENSIGHTEN_PRIVACY_MODAL_LOADED": {
+                    "ttl": 31536006,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jackpotcitycasino.com",
+                "www.spincasino.com"
+            ]
+        },
+        {
+            "rule": "src-play\\.com\\/Analytics\\/V1\\/Websites",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gateway"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6423e2605a2ca2e4a9e71a557dcb925359b2c515390ddfe1b7cf9ef144e1b28c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jackpotcitycasino.com",
+                "www.spincasino.com"
+            ]
+        },
+        {
+            "rule": "src-play\\.com\\/Analytics\\/V1\\/Websites",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gateway"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jackpotcitycasino.com",
+                "www.spincasino.com"
+            ]
+        },
+        {
+            "rule": "src-play\\.com\\/privacy\\/v1\\/c\\/r\\.rnc",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nexus"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jackpotcitycasino.com",
+                "www.jackpotcitycasino.com",
+                "www.spincasino.com"
+            ]
+        },
+        {
+            "rule": "src-play\\.com\\/betway\\/dos-prod\\/serverComponent\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nexus"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b9a2d730b6b557e4a545187b69b1c1b0397dd47f0e0f06b7692f717f1da12d7e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jackpotcitycasino.com",
+                "www.spincasino.com"
+            ]
+        },
+        {
+            "rule": "src-play\\.com\\/betway\\/dos-prod\\/code\\/abcf8608f5c9ab9c39a68756e51d70a5\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "nexus"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d8779d7b1c0a188d38b59b862c9e82b8ef42c472df95019916eb83c4b3fc9ac5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jackpotcitycasino.com",
+                "www.spincasino.com"
+            ]
+        },
+        {
+            "rule": "src-play\\.com\\/privacy\\/v1\\/b\\/r\\.rnc",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nexus"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jackpotcitycasino.com",
+                "www.jackpotcitycasino.com",
+                "www.spincasino.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "XHR": 2,
+        "Preflight": 2,
+        "Image": 6
+    },
+    "nameservers": [
+        "zoe.ns.cloudflare.com",
+        "lex.ns.cloudflare.com"
+    ]
+}

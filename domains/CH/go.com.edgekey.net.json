@@ -1,0 +1,158 @@
+{
+    "domain": "go.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "cdn.registerdisney"
+    ],
+    "cnames": [
+        {
+            "original": "cdn.registerdisney.go.com",
+            "resolved": "cdn.registerdisney.go.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "go\\.com\\.edgekey\\.net\\/v4\\/OneID\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.registerdisney"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "cdn.registerdisney.go.com",
+                    "resolved": "cdn.registerdisney.go.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "b272f07d62554ea726d3f2c42fb3179fa10666539d5dfbfb7d69e03bf1d7db1e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "SWID": {
+                    "ttl": 31536014,
+                    "length": 36,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espn.com",
+                "www.espn.com",
+                "www.nationalgeographic.com"
+            ]
+        },
+        {
+            "rule": "go\\.com\\.edgekey\\.net\\/v4\\/bundle\\/web\\/ESPN-ONESITE\\.WEB\\/en-US",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.registerdisney"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "cdn.registerdisney.go.com",
+                    "resolved": "cdn.registerdisney.go.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "edba5eac499f471b6df4b2ff7040087ea16791209c7a0d5fb8b57e457fc21a11"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espn.com",
+                "www.espn.com"
+            ]
+        },
+        {
+            "rule": "go\\.com\\.edgekey\\.net\\/v4\\/responder\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.registerdisney"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "cdn.registerdisney.go.com",
+                    "resolved": "cdn.registerdisney.go.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "1cec78d64e93ce029083d4811b6f1700ff2c8d4951d5a28185baaa4bbc492b76"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espn.com",
+                "www.espn.com",
+                "www.nationalgeographic.com"
+            ]
+        },
+        {
+            "rule": "go\\.com\\.edgekey\\.net\\/v4\\/asset\\/bundler\\/ESPN\\/v4\\/images\\/v1\\/espn-background-web\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.registerdisney"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "cdn.registerdisney.go.com",
+                    "resolved": "cdn.registerdisney.go.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "291c5b1891761a2435692db3d118ba4971078f8d1e01bb5e77ddf83df803bde4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espn.com",
+                "www.espn.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Document": 2,
+        "Image": 2
+    },
+    "nameservers": []
+}

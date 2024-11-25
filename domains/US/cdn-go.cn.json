@@ -1,0 +1,78 @@
+{
+    "domain": "cdn-go.cn",
+    "owner": {
+        "name": "Tencent Holdings Ltd.",
+        "displayName": "Tencent"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "aegis"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "cdn-go\\.cn\\/aegis-sdk-v2\\/latest\\/aegis\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "aegis"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.platform": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "HTMLCanvasElement.prototype.toDataURL": 3,
+                "WebGL2RenderingContext.prototype.readPixels": 3,
+                "WebGL2RenderingContext.prototype.getExtension": 3,
+                "WebGL2RenderingContext.prototype.getParameter": 3,
+                "WebGL2RenderingContext.prototype.getSupportedExtensions": 3,
+                "WebGL2RenderingContext.prototype.getContextAttributes": 3,
+                "window.localStorage": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Navigator.prototype.connection": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "421b75e73a825b8cd12c2b1547ec0489761a1efdf996ad6bd343bf75dd2bf6dc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "webnovel.com",
+                "m.webnovel.com",
+                "www.webnovel.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "wetvinfo.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": []
+}

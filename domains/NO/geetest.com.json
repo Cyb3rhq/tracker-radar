@@ -1,0 +1,113 @@
+{
+    "domain": "geetest.com",
+    "owner": {
+        "name": "Wuhan Jiyi Network Technology Co., Ltd.",
+        "displayName": "Wuhan Jiyi Network Technology"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "api",
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "geetest\\.com\\/gettype\\.php",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "25a4388ffa0c14da13f304d063ca52a4e6ef8688735f37346dddd58f4ba95a12",
+                "219136ed56645dc5c55b3c657fd20fcad930d64dfc29dee9aeaaac40bb4e8429"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bybit.com",
+                "www.bybit.com",
+                "www.coldsteel.com"
+            ]
+        },
+        {
+            "rule": "geetest\\.com\\/static\\/js\\/fullpage\\.9\\.1\\.9-ckiw8b\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.hardwareConcurrency": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0088e56b399217ac5d6559f3d6133464d765e92b6532556d45359ef79a3b9413"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bybit.com",
+                "www.coldsteel.com"
+            ]
+        },
+        {
+            "rule": "geetest\\.com\\/get\\.php",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "23abd982ab9653a7a470fbd9de5d85477d2e92629e8a411ff06c748a5b924c65",
+                "02b869f44bb221ee9f3f1a485d57c41bba080d19f5afcbddfbda6d33ce1639f5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bybit.com",
+                "www.bybit.com",
+                "www.coldsteel.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8
+    },
+    "nameservers": [
+        "ns4.dnsv5.com",
+        "ns3.dnsv5.com"
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "domain": "k-words.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "sdk",
+        "plausible"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "k-words\\.io\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.maxTouchPoints": 4,
+                "window.innerWidth": 4,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "ff9e37382be244728d8466bb9f6aec51f8e42b59508209691ba3ad82e559561b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autoplus.fr",
+                "www.doctissimo.fr",
+                "www.ecranlarge.com",
+                "www.supersoluce.com"
+            ]
+        },
+        {
+            "rule": "k-words\\.io\\/api\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plausible"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autoplus.fr",
+                "www.autoplus.fr",
+                "www.doctissimo.fr",
+                "www.ecranlarge.com",
+                "www.supersoluce.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "do69ll745l27z.cloudfront.net",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 5
+    },
+    "nameservers": [
+        "kai.ns.cloudflare.com",
+        "wanda.ns.cloudflare.com"
+    ]
+}

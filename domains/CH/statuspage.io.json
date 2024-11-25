@@ -1,0 +1,159 @@
+{
+    "domain": "statuspage.io",
+    "owner": {
+        "name": "Atlassian Corporation plc",
+        "displayName": "Atlassian"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00131,
+    "sites": 13,
+    "subdomains": [
+        "bghgsx0hcy0k",
+        "x2m8rwtfjg4j",
+        "b9xpbbl5kjln",
+        "ms1frkqnsp7r",
+        "cdn",
+        "5b4dcn321xtp",
+        "8ll7xvh0qt1p"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "statuspage\\.io\\/embed\\/frame",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bghgsx0hcy0k",
+                "x2m8rwtfjg4j",
+                "b9xpbbl5kjln",
+                "ms1frkqnsp7r"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "9c7ee2109a1dc7472fa4f6cf874cee13bc11aeb90ed7c611fc9f4b15cdd1a79a",
+                "2e863ed127722b620d77f9654a3d00c7e2b2357844d5ba6c5b6d8b89f9a1332b",
+                "ef24c40b4f78bdaa486af44eb24a2c3d176880b19b0b17974a4475ca3cde3f49",
+                "f4617bcee418296e4001149b3a54c9979d5dba9f9435db52760004e448e8559a"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sonos.com",
+                "en.community.sonos.com",
+                "forums.plex.tv",
+                "moodle.edu.ti.ch",
+                "support.sonos.com",
+                "www.postman.com"
+            ]
+        },
+        {
+            "rule": "statuspage\\.io\\/se-v2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e2de85007c28d01d2a973cbd4efd90bda8f52771727ea5db199bd425f0720a37"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balena.io",
+                "www.ntppool.org"
+            ]
+        },
+        {
+            "rule": "statuspage\\.io\\/api\\/v2\\/summary\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "5b4dcn321xtp",
+                "8ll7xvh0qt1p"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "16d7313f4da8f9f157b59b151075eb2b25719c6cc489b3bed03232190c0416ec"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balena.io",
+                "www.ntppool.org"
+            ]
+        },
+        {
+            "rule": "statuspage\\.io\\/embed\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "x2m8rwtfjg4j",
+                "b9xpbbl5kjln",
+                "bghgsx0hcy0k",
+                "ms1frkqnsp7r"
+            ],
+            "apis": {
+                "Screen.prototype.width": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "2750ebc090258ffa9a89fb960bcb290200cc809825106e447b45a3c8029cb50f",
+                "7bbcf33be4f2f35eb2ebf210653847a28d8778279df9c62a490069999835f278",
+                "1bbc3d4d127a2e375e2ecc204009fefacde4269c07929b0fa6b0de7eef088c21"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plex.tv",
+                "moodle.edu.ti.ch",
+                "support.sonos.com",
+                "www.postman.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9375
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.0625
+        }
+    ],
+    "types": {
+        "Document": 6,
+        "Script": 6,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-1407.awsdns-47.org",
+        "ns-1560.awsdns-03.co.uk",
+        "ns-209.awsdns-26.com",
+        "ns-951.awsdns-54.net"
+    ]
+}

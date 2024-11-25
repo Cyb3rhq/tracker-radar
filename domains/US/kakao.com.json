@@ -1,0 +1,137 @@
+{
+    "domain": "kakao.com",
+    "owner": {
+        "name": "Kakao Corp.",
+        "displayName": "Kakao"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000123,
+    "sites": 18,
+    "subdomains": [
+        "act.ds",
+        "developers"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "kakao\\.com\\/match2",
+            "cookies": 0.0000615,
+            "fingerprinting": 0,
+            "subdomains": [
+                "act.ds"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000683,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "dable_uid": 0.00004099200655872105
+            },
+            "exampleSites": [
+                "ruliweb.com",
+                "m.ruliweb.com",
+                "star.ettoday.net",
+                "std.stheadline.com",
+                "thanhnien.vn",
+                "tuoitre.vn",
+                "www.airasia.com",
+                "www.commonhealth.com.tw",
+                "www.ettoday.net",
+                "www.yna.co.kr"
+            ]
+        },
+        {
+            "rule": "kakao\\.com\\/sdk\\/js\\/kakao\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "developers"
+            ],
+            "apis": {
+                "window.localStorage": 7,
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.maxTouchPoints": 7,
+                "Navigator.prototype.language": 7,
+                "Navigator.prototype.platform": 7
+            },
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [
+                "ec5291a8b9e26d79229d9522041c0b1c4b03b3025cf470025e74a52abc7e162f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flyasiana.com",
+                "hoyatag.com",
+                "koreajoongangdaily.joins.com",
+                "overseas.mofa.go.kr",
+                "www.keetip.com",
+                "www.koreaherald.com",
+                "www.yna.co.kr"
+            ]
+        },
+        {
+            "rule": "kakao\\.com\\/match2",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "act.ds"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "danawa.com",
+                "search.danawa.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000752,
+    "topInitiators": [
+        {
+            "domain": "dable.io",
+            "prevalence": 0.47368421052631576
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3684210526315789
+        },
+        {
+            "domain": "megadata.co.kr",
+            "prevalence": 0.10526315789473684
+        },
+        {
+            "domain": "widerplanet.com",
+            "prevalence": 0.05263157894736842
+        }
+    ],
+    "types": {
+        "Image": 10,
+        "Script": 7,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns2.kakao.com",
+        "ns1.kakao.com"
+    ]
+}

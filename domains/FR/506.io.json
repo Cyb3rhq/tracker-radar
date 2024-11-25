@@ -1,0 +1,95 @@
+{
+    "domain": "506.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000403,
+    "sites": 4,
+    "subdomains": [
+        "cdn",
+        "aca"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "506\\.io\\/eg\\/script\\.js",
+            "cookies": 0.000403,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000403,
+            "cnames": [],
+            "responseHashes": [
+                "0422830c4981071ec893e0296c4f19a56ec06a6398fa172a0d5843fbdeed05bb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "checkout_shop": 0.00020153164046755341
+            },
+            "exampleSites": [
+                "balzac-paris.com",
+                "jott.com",
+                "www.cabaia.fr",
+                "www.willemsefrance.fr"
+            ]
+        },
+        {
+            "rule": "506\\.io\\/public\\/store",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aca"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000403,
+            "cnames": [],
+            "responseHashes": [
+                "2686f19277e525a571cdc6caaf695977a90a12648d515e6df167d61c56e7ccfd",
+                "f2de92a48caac8f76421df2d42dcf25ddc5ac67a0494210e8da650a68c45bc80",
+                "c01d015d458f1affb40a05e3126303fbf8b65d931f08ca0ebc246c9711594446"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "checkout_shop": 0.00020153164046755341
+            },
+            "exampleSites": [
+                "balzac-paris.com",
+                "jott.com",
+                "www.cabaia.fr",
+                "www.willemsefrance.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000403,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "minmaxify.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns1.digitalocean.com",
+        "ns2.digitalocean.com",
+        "ns3.digitalocean.com"
+    ]
+}

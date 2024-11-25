@@ -1,0 +1,87 @@
+{
+    "domain": "adman.gr",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "static",
+        "zougla"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "adman\\.gr\\/adman\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "window.name": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a2237cad26460eb017a05efc9302924e89cac3e5e28634c48ddeb3652b77e350"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zougla.gr",
+                "www.zougla.gr"
+            ]
+        },
+        {
+            "rule": "adman\\.gr\\/pvpe",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zougla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zougla.gr",
+                "www.zougla.gr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "pstatic.gr",
+            "prevalence": 0.9230769230769231
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.07692307692307693
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Ping": 2
+    },
+    "nameservers": [
+        "dnsdt.phaistosnetworks.gr",
+        "onderon.phaistosnetworks.gr",
+        "phaistos.phaistosnetworks.gr"
+    ]
+}

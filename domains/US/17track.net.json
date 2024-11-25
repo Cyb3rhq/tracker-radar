@@ -1,0 +1,87 @@
+{
+    "domain": "17track.net",
+    "owner": {
+        "name": "Demon Network Tech Co., Ltd",
+        "displayName": "Demon Network Tech"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000547,
+    "sites": 8,
+    "subdomains": [
+        "shopify-proxy",
+        "shopify-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "17track\\.net\\/protection\\/shopify\\/widget-embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "shopify-proxy"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 5
+            },
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "68ae27196e328609834d49142538c39b37d20d1846734aa27e0c80946410d958"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "caddxfpv.com",
+                "fanttik.com",
+                "overture3d.com",
+                "www.enginediy.com",
+                "www.tozostore.com",
+                "www.ugreen.com"
+            ]
+        },
+        {
+            "rule": "17track\\.net\\/consumer-api\\/get-profile-config%2F2\\.0%3Fshop_name%3Dugreenmall%26theme_store_id%3D-1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "shopify-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0540c4c7ffa20cc567507970e458914dfa9c98a46d04957e890fceea1dbf0314"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ugreen.com",
+                "www.ugreen.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns4.dnsv4.com",
+        "ns3.dnsv4.com"
+    ]
+}

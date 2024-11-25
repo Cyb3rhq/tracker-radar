@@ -1,0 +1,86 @@
+{
+    "domain": "omniture.com",
+    "owner": {
+        "name": "Adobe Inc.",
+        "displayName": "Adobe",
+        "privacyPolicy": "https://www.adobe.com/privacy/marketing-cloud.html",
+        "url": "http://adobe.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "admin4.testandtarget"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "omniture\\.com\\/admin\\/rest\\/v1\\/libraries\\/atjs\\/download",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "admin4.testandtarget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.orientation": 2,
+                "Screen.prototype.colorDepth": 2,
+                "window.devicePixelRatio": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "be085da18d70a383a36f141818bb5dcb7a0a1b886abba64e506b07e70ef2b9ac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mbox": {
+                    "ttl": 63244813,
+                    "length": 103,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "mboxEdgeCluster": {
+                    "ttl": 1874,
+                    "length": 2,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jpmorgan.com",
+                "privatebank.jpmorgan.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "segment.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns101.adobe.net",
+        "ns102.adobe.net"
+    ]
+}

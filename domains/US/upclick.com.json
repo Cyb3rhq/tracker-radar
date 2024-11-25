@@ -1,0 +1,106 @@
+{
+    "domain": "upclick.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "gate",
+        "store.pdfforge-org"
+    ],
+    "cnames": [
+        {
+            "original": "store.pdfforge.org",
+            "resolved": "store.pdfforge-org.upclick.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "upclick\\.com\\/btn\\/visitor\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gate"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7d528b4e0a23066b3ca098bf67a953053da106d378fb370a7794bc4ffeafa7e8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "vst": {
+                    "ttl": 10368002,
+                    "length": 12,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pdfforge.org",
+                "www.pdfforge.org"
+            ]
+        },
+        {
+            "rule": "upclick\\.com\\/clickgate\\/click\\.aspx",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "store.pdfforge-org"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "store.pdfforge.org",
+                    "resolved": "store.pdfforge-org.upclick.com"
+                }
+            ],
+            "responseHashes": [
+                "c78bf59ce77e2917422a9e7509414ccc942203e2dd763af1d80422d5d424a7cc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "qti": 0.00001366400218624035,
+                "visitor_id": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "pdfforge.org",
+                "www.pdfforge.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "avanquest.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "upclick.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns1.upclick.com",
+        "ns2.upclick.com"
+    ]
+}

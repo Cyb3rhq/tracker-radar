@@ -1,0 +1,96 @@
+{
+    "domain": "group-ib.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "ru.id",
+        "eu.id",
+        "fp-aws-au-back"
+    ],
+    "cnames": [
+        {
+            "original": "fhp.nab.com.au",
+            "resolved": "fp-aws-au-back.group-ib.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "group-ib\\.com\\/id\\.html",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ru.id",
+                "eu.id"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "fb6b7e0ebf017ff15777ee74f3a5e5a510c3422854fe549b2c2fac7043274a6e",
+                "3a03cb4ad156fcea838bb15b2174d4dc3b1e5965444856eeac82f3e969e2de46"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eldorado.ru",
+                "www.betus.com.pa",
+                "www.ebanking.piraeusbank.gr"
+            ]
+        },
+        {
+            "rule": "group-ib\\.com\\/api\\/fl",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fp-aws-au-back"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "fhp.nab.com.au",
+                    "resolved": "fp-aws-au-back.group-ib.com"
+                }
+            ],
+            "responseHashes": [
+                "b8b069a0721a64336de5c5a758b075e231b0010b8566c6f48898b474cca072eb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nab.com.au",
+                "ib.nab.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000273,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "betuscdn.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Document": 3,
+        "XHR": 2
+    },
+    "nameservers": [
+        "dora.ns.cloudflare.com",
+        "tom.ns.cloudflare.com"
+    ]
+}

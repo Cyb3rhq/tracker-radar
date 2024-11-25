@@ -1,0 +1,451 @@
+{
+    "domain": "contextads.live",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000123,
+    "sites": 18,
+    "subdomains": [
+        "cdn",
+        "cengineapi",
+        "dac",
+        "delivery",
+        "audience"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "contextads\\.live\\/publishers\\/cads-generic\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 16,
+                "window.localStorage": 9,
+                "Document.cookie getter": 9
+            },
+            "sites": 16,
+            "prevalence": 0.000109,
+            "cnames": [],
+            "responseHashes": [
+                "b449bbf84168dd9d957e44708e79703e21d9cf8bda1333169a6d7eb8525f609a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "viva.co.id",
+                "bandung.kompas.com",
+                "celebrity.okezone.com",
+                "entertainment.kompas.com",
+                "health.kompas.com",
+                "in.ign.com",
+                "in.mashable.com",
+                "lifestyle.okezone.com",
+                "me.mashable.com",
+                "nasional.kompas.com",
+                "nasional.okezone.com",
+                "news.okezone.com",
+                "surabaya.kompas.com",
+                "www.inews.id",
+                "www.tvonenews.com",
+                "www.viva.co.id"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/client",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cengineapi"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.000116,
+            "cnames": [],
+            "responseHashes": [
+                "acb91a771a4ebde1060ec33e942329dbed30a55618fdee0ac61fb901571d03f1",
+                "bb830f9e39c44fdfec71704d1905c05ca00a94164e75cfe821550455e56e619c",
+                "7aa1e9ae633de71d886207893e7fc0304bf6cd6daf7ae21a04fba72a561e4b2a",
+                "6dd13b67c051d91315f07bfbd2577dca6d3d3a68564dbf8153e4a8f24c2a301b",
+                "d6d1f55f4127124a4f08e4a5e15ec86ac0df4464fb37cee9a2de3e794122ac66",
+                "30ea14d504bf12739ded502edee2793b40052019f4983fb5086d6a27e614c129",
+                "a285c035ef8f09020e6f8f4c63b3ba6a68edeed1097a650a6a7ebdc941ff21cd",
+                "35b0d8489228d71e9ac69b9d137ef6d1e3a657ba97e1aae005daad720223efe5",
+                "21bfbd89282e1be79fe24249ae48ee587c5aa57392925d110acfc9c84a5e5cf5",
+                "b316a80a0c307e43e2443d83c5d9b5f7c92c8a5d75f742a0e0003596b1c9175c",
+                "7dbd65bc0063883fbb964652fe113617514001f7767f2bdfb02ab7647d970bd2",
+                "49136405c4b5f063d3bb9e810ff5ff5f187b213471c4b3fb2806408b18943533"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00007515201202432193
+            },
+            "exampleSites": [
+                "viva.co.id",
+                "bandung.viva.co.id",
+                "bandung.kompas.com",
+                "celebrity.okezone.com",
+                "entertainment.kompas.com",
+                "health.kompas.com",
+                "in.ign.com",
+                "in.mashable.com",
+                "lifestyle.okezone.com",
+                "me.mashable.com",
+                "nasional.kompas.com",
+                "nasional.okezone.com",
+                "news.okezone.com",
+                "surabaya.kompas.com",
+                "www.inews.id",
+                "www.tvonenews.com",
+                "www.viva.co.id"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/publishers\\/v3\\/viva\\.co\\.id\\/cads-viva\\.co\\.id\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Screen.prototype.availWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "65cf7b13183b3f1ab30cce65549c782d9970bc887eef3d76bbe7b6aa9b09e16a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "viva.co.id",
+                "www.viva.co.id"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/dac\\.min\\.js",
+            "cookies": 0.0000273,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dac"
+            ],
+            "apis": {
+                "window.localStorage": 9,
+                "Document.cookie getter": 9,
+                "Document.cookie setter": 4
+            },
+            "sites": 11,
+            "prevalence": 0.0000752,
+            "cnames": [],
+            "responseHashes": [
+                "6c17c256fb86171763e0de228e5e51ed95f0b0ad8139debc8777b99942589d26"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "fmgctxuid": {
+                    "ttl": 5166027,
+                    "length": 36,
+                    "prevalence": 0.0000273280043724807,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "viva.co.id",
+                "bandung.kompas.com",
+                "celebrity.okezone.com",
+                "lifestyle.okezone.com",
+                "me.mashable.com",
+                "nasional.okezone.com",
+                "news.okezone.com",
+                "surabaya.kompas.com",
+                "www.inews.id",
+                "www.tvonenews.com",
+                "www.viva.co.id"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/www\\/delivery\\/rtb\\/rtb_ajs\\.php",
+            "cookies": 0.0000752,
+            "fingerprinting": 0,
+            "subdomains": [
+                "delivery"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000752,
+            "cnames": [],
+            "responseHashes": [
+                "01a1c6404eb6d975f14ae78ad5952f83946468da4884d821032357c4f6b4d7b6",
+                "7bf157250f5174685ded1f3aeec411e8bac43f458671bbec51a523600a2c2b87",
+                "fcddcf50f87d544cf33a2b316b50241343711af5bc3824460bbde0e7fa16e1a4",
+                "bdb0ac0a5e78e07272b79a7490701ffcf0d09806f3d1f059a4ce8564e5492161",
+                "0c9eb6ddd423b3a2c02a60b88f57a0ae736ad6c0da64e0fd773009c238609df8",
+                "f9dc7b6ff18223fdd5cdee9dd0fd29293117ade22b0473d120266c1b8af1308b",
+                "2a808f73257341863d335747fdabf3cabee9daaf7485252769dc07bc66e883ff",
+                "2ac89cf99fdd0ed0dac9e8781606025e98d193946f6226dc95c2975040d3e5e9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0000546560087449614
+            },
+            "exampleSites": [
+                "viva.co.id",
+                "bandung.viva.co.id",
+                "bandung.kompas.com",
+                "celebrity.okezone.com",
+                "lifestyle.okezone.com",
+                "nasional.okezone.com",
+                "news.okezone.com",
+                "surabaya.kompas.com",
+                "www.inews.id",
+                "www.tvonenews.com",
+                "www.viva.co.id"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/blank\\.html",
+            "cookies": 0.0000273,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dac"
+            ],
+            "apis": {
+                "window.localStorage": 6,
+                "Document.cookie setter": 4,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.userAgent": 7
+            },
+            "sites": 9,
+            "prevalence": 0.0000615,
+            "cnames": [],
+            "responseHashes": [
+                "d0c64b18913cbfb5f0f65c075fec213b980ad7c87c8ec5c9df7cb6493c8a6fa9"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0000546560087449614
+            },
+            "exampleSites": [
+                "viva.co.id",
+                "celebrity.okezone.com",
+                "lifestyle.okezone.com",
+                "me.mashable.com",
+                "nasional.okezone.com",
+                "news.okezone.com",
+                "www.inews.id",
+                "www.tvonenews.com",
+                "www.viva.co.id"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/ping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "audience"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "1c45ac2e0fc5431090876046e7de3e628a078c90406c1f03f490e714c38d91dd",
+                "6241bb0fd098938e5923a7dfbd877d25f54874d1069ee514e3264c99deaa3628",
+                "ce10bd9a34200e9c47e9d7897867af7920d619d27ae19709e56a8abc137edd96"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00003416000546560088
+            },
+            "exampleSites": [
+                "viva.co.id",
+                "celebrity.okezone.com",
+                "lifestyle.okezone.com",
+                "me.mashable.com",
+                "www.inews.id",
+                "www.tvonenews.com"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/www\\/delivery\\/Outstream\\/delivery\\/article\\.php",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "delivery"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "1c50ec3f4199ebf7a3d560d3edcd8cae3e9fb91638f583cdb1062e71758c21e3",
+                "b43c7b826a2d1e9b15ca00552277467b821c037b858f5ea873a63e1ce980eae5",
+                "4fa9b081196ceeb52caedcbbb4abfd083dbe47f50be9b0b57fe7b2bca5a779de",
+                "6556cb1399e61137a6a99e8fd0ed126ba3fcd082457e7bb42a2ea2ae94a657d2",
+                "afc2c130e5e5a665393a329870f7832d2415659d4238c67be0e4f08fa6ff6d7a",
+                "49ebb6d82694933c16c911ce8e8d12f9185797127e1e69b4f5e71411b4e86ba9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000047824007651841225
+            },
+            "exampleSites": [
+                "viva.co.id",
+                "celebrity.okezone.com",
+                "lifestyle.okezone.com",
+                "nasional.okezone.com",
+                "news.okezone.com",
+                "www.inews.id",
+                "www.tvonenews.com",
+                "www.viva.co.id"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/publishers\\/v3\\/kompas\\.com\\/cads-kompas\\.com\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Screen.prototype.availWidth": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "7395cb33041c322c3ee3741d13e057401243bd11f3b248948662e85ebe8167b3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kompas.com",
+                "entertainment.kompas.com",
+                "health.kompas.com",
+                "nasional.kompas.com",
+                "surabaya.kompas.com"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/publishers\\/v3\\/okezone\\.com\\/cads-okezone\\.com\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Screen.prototype.availWidth": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "ab19807f506c3f387aa9704fb76a7f5d6318b55aa681bea7ae336e9bcb2aa124"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0000273280043724807
+            },
+            "exampleSites": [
+                "okezone.com",
+                "lifestyle.okezone.com",
+                "nasional.okezone.com",
+                "news.okezone.com"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/www\\/delivery\\/rtb\\/rtb_ajs_l\\.php",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "delivery"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e6cc078f2fcc731490951e0541e25d762fab55d47372493604cf5e74bb5bd3c8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "inews.id",
+                "www.tvonenews.com"
+            ]
+        },
+        {
+            "rule": "contextads\\.live\\/www\\/delivery\\/lg\\.php",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "delivery"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e963e7196beb9123059ec3534b042ebcd1ef0a470fa568bfbebfeab2f33c4fda"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "inews.id",
+                "www.tvonenews.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000752,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.59375
+        },
+        {
+            "domain": "geoedge.be",
+            "prevalence": 0.21875
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.1875
+        }
+    ],
+    "types": {
+        "Script": 57,
+        "XHR": 25,
+        "Document": 9,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-460.awsdns-57.com",
+        "ns-894.awsdns-47.net",
+        "ns-1115.awsdns-11.org",
+        "ns-1916.awsdns-47.co.uk"
+    ]
+}

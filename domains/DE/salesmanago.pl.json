@@ -1,0 +1,172 @@
+{
+    "domain": "salesmanago.pl",
+    "owner": {
+        "name": "Benhauer sp. z o.o.",
+        "displayName": "Benhauer"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "vc-service",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "salesmanago\\.pl\\/api\\/vc\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vc-service"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "33b1dc8c7ca18aa9f25952ae3063ef2b706dd481028afec0024984de461341bb",
+                "37ad9d9927f18a546e509da11810a9ee9df171b9827fd8cb96a3fce910252637"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grube.de",
+                "www.knivesandtools.de",
+                "www.monsterzeug.de"
+            ]
+        },
+        {
+            "rule": "salesmanago\\.pl\\/static\\/sm\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Notification.permission": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.devicePixelRatio": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.deviceMemory": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Screen.prototype.pixelDepth": 2,
+                "Navigator.prototype.platform": 2,
+                "Screen.prototype.width": 2,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7f5afb9802a4df493c38f26212068128b92f980c70087c2e31064b311e709f5a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "smvr": {
+                    "ttl": 315360003,
+                    "length": 82,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 1
+                },
+                "smuuid": {
+                    "ttl": 315360003,
+                    "length": 64,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 1
+                },
+                "_smvs": {
+                    "ttl": 86403,
+                    "length": 6,
+                    "prevalence": 0.00020098482564566376,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "knivesandtools.de",
+                "www.monsterzeug.de"
+            ]
+        },
+        {
+            "rule": "salesmanago\\.pl\\/api\\/vs",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ad90eed55da429579ff1f8e62cc1c23eaa5dd62b74cae29c83a777bc25a7623b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "knivesandtools.de",
+                "www.monsterzeug.de"
+            ]
+        },
+        {
+            "rule": "salesmanago\\.pl\\/api\\/r\\.gif",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fadb77031ad6eb76d511bf222edde1c9a5ccf94027afbac8495803a73d4846da"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "smuuid": 0.00020098482564566376
+            },
+            "exampleSites": [
+                "knivesandtools.de",
+                "www.monsterzeug.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "sizekick.io",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "XHR": 5,
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns1.3s.pl",
+        "ns2.3s.pl"
+    ]
+}

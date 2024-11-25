@@ -1,0 +1,512 @@
+{
+    "domain": "securiti.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00161,
+    "sites": 16,
+    "subdomains": [
+        "cdn-app3",
+        "cdn-prod",
+        "cdn-prod.eu",
+        "app3",
+        "app",
+        "app.eu"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "securiti\\.ai\\/consent\\/cookie-consent-sdk-loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-app3",
+                "cdn-prod"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.00111,
+            "cnames": [],
+            "responseHashes": [
+                "71d645772f2e68e129b9094cf238e5bdbde1a9031be3567ff3b7e080a0255721"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ia.ca",
+                "investia.ca",
+                "velo.outsideonline.com",
+                "www.3m.com",
+                "www.3mcanada.ca",
+                "www.adp.com",
+                "www.deltafaucet.com",
+                "www.outsideonline.com",
+                "www.skimag.com",
+                "www.united.com",
+                "www.yogajournal.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/consent\\/cookie-consent-latest\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-app3",
+                "cdn-prod",
+                "cdn-prod.eu"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000805,
+            "cnames": [],
+            "responseHashes": [
+                "d19345402a80151ddd1caa1ed515d15bf5a016639f9e91daf172f7967f8c4a98"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ia.ca",
+                "investia.ca",
+                "www.3m.com",
+                "www.3mcanada.ca",
+                "www.dell.com",
+                "www.deltafaucet.com",
+                "www.united.com",
+                "www.yogajournal.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/consent\\/cookie-consent-sdk-latest\\.js",
+            "cookies": 0.000503,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-app3",
+                "cdn-prod"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 7,
+                "Document.cookie getter": 7,
+                "Document.cookie setter": 5,
+                "Navigator.prototype.cookieEnabled": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000704,
+            "cnames": [],
+            "responseHashes": [
+                "8d84e23f12c187077cc57a11639b086fb0f579878e8275f4f0442dcb58a17bed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__privaci_cookie_consent_uuid": {
+                    "ttl": 31536002,
+                    "length": 38,
+                    "prevalence": 0.0005030687191870409,
+                    "uniqueness": 1
+                },
+                "__privaci_cookie_consent_generated": {
+                    "ttl": 31536002,
+                    "length": 38,
+                    "prevalence": 0.00040245497534963277,
+                    "uniqueness": 1
+                },
+                "__privaci_cookie_no_action": {
+                    "ttl": 44935,
+                    "length": 30,
+                    "prevalence": 0.0005030687191870409,
+                    "uniqueness": 0.2
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ia.ca",
+                "investia.ca",
+                "www.3m.com",
+                "www.3mcanada.ca",
+                "www.deltafaucet.com",
+                "www.united.com",
+                "www.yogajournal.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/core\\/v1\\/utils\\/geo\\/location",
+            "cookies": 0.00141,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app3",
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.00141,
+            "cnames": [],
+            "responseHashes": [
+                "41dd4af3d2c9ab00f2f538f2b6d0bfd7a6e1eabf11737af1a1f9b9aff819681d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ia.ca",
+                "investia.ca",
+                "velo.outsideonline.com",
+                "www.3m.com",
+                "www.3mcanada.ca",
+                "www.adp.com",
+                "www.dell.com",
+                "www.deltafaucet.com",
+                "www.hertz.ca",
+                "www.hertz.com",
+                "www.outsideonline.com",
+                "www.skimag.com",
+                "www.united.com",
+                "www.yogajournal.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/privaci\\/v1\\/consent\\/cookie\\/singleupload",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app3",
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000805,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ia.ca",
+                "investia.ca",
+                "www.3m.com",
+                "www.3mcanada.ca",
+                "www.dell.com",
+                "www.hertz.ca",
+                "www.hertz.com",
+                "www.united.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/privaci\\/v1\\/consent\\/cookie\\/singleupload",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app3",
+                "app",
+                "app.eu"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000805,
+            "cnames": [],
+            "responseHashes": [
+                "f1e25328be62ee5aca4777d33ecfbaf64a502f80dac2008bd7197e236cac8dc7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ia.ca",
+                "investia.ca",
+                "www.3m.com",
+                "www.3mcanada.ca",
+                "www.dell.com",
+                "www.hertz.ca",
+                "www.hertz.com",
+                "www.united.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/consent\\/auto_blocking\\/a6c54245-8e60-412e-9f24-244866e37342\\/2f7a9a0c-d487-47b9-9b01-f6025f51cfa9\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-prod"
+            ],
+            "apis": {
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "76f9b40e937261876c349654ff411518bcf7570f209b882a62279a76715e9c7c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "instacart.ca",
+                "www.instacart.ca"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/consent\\/cookie-consent\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-prod",
+                "cdn-prod.eu"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000503,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "6eebacb4467fcf863339daac6eb21e851dabb9ee73cd7c038e5cd7f5e9e375dc"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "outsideonline.com",
+                "www.dell.com",
+                "www.outsideonline.com",
+                "www.skimag.com",
+                "www.yogajournal.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/core\\/v1\\/utils\\/geo\\/location",
+            "cookies": 0.000604,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000604,
+            "cnames": [],
+            "responseHashes": [
+                "41dd4af3d2c9ab00f2f538f2b6d0bfd7a6e1eabf11737af1a1f9b9aff819681d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "outsideonline.com",
+                "www.3m.com",
+                "www.3mcanada.ca",
+                "www.outsideonline.com",
+                "www.skimag.com",
+                "www.yogajournal.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/consent\\/cookie-consent-1\\.124\\.0\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-prod"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "d19345402a80151ddd1caa1ed515d15bf5a016639f9e91daf172f7967f8c4a98"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "outsideonline.com",
+                "www.outsideonline.com",
+                "www.skimag.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/consent\\/cookie-consent-sdk-1\\.124\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-prod"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.cookieEnabled": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "8d84e23f12c187077cc57a11639b086fb0f579878e8275f4f0442dcb58a17bed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "outsideonline.com",
+                "www.outsideonline.com",
+                "www.skimag.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/consent\\/sdk-stub\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-prod.eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "64a85922dc5eac73185d746e62adabd6282b8b80ca5f14fad69ebf4f936fb324"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hertz.ca",
+                "www.hertz.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/consent\\/cookie-consent-sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-prod.eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "398c47dcb5fd4f5c6044bbcf13a1124079ad669e84a4438b03846501effd35ef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hertz.ca",
+                "www.hertz.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/consent\\/cookie-consent-1\\.99\\.0\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-prod.eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f151605d72ebb524288d4812044195e4e0cb2e0762060592e12db760869a0a47"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hertz.ca",
+                "www.hertz.com"
+            ]
+        },
+        {
+            "rule": "securiti\\.ai\\/consent\\/cookie-consent-sdk-1\\.99\\.0\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-prod.eu"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.cookieEnabled": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e242a3e46b65c80fdfdca871a4a54375fb25a4f1a18003a703658c8a09b8cc77"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__privaci_cookie_consent_uuid": {
+                    "ttl": 31536008,
+                    "length": 39,
+                    "prevalence": 0.00020122748767481639,
+                    "uniqueness": 1
+                },
+                "__privaci_cookie_consent_generated": {
+                    "ttl": 31536008,
+                    "length": 39,
+                    "prevalence": 0.00020122748767481639,
+                    "uniqueness": 1
+                },
+                "__privaci_cookie_no_action": {
+                    "ttl": 45013,
+                    "length": 30,
+                    "prevalence": 0.00020122748767481639,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hertz.ca",
+                "www.hertz.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00141,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7625
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.075
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.0625
+        },
+        {
+            "domain": "hertz.io",
+            "prevalence": 0.0375
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.0375
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.0125
+        },
+        {
+            "domain": "quantummetric.com",
+            "prevalence": 0.0125
+        }
+    ],
+    "types": {
+        "Script": 29,
+        "Stylesheet": 18,
+        "XHR": 22,
+        "Preflight": 8,
+        "Fetch": 6
+    },
+    "nameservers": [
+        "matt.ns.cloudflare.com",
+        "elly.ns.cloudflare.com"
+    ]
+}

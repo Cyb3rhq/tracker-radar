@@ -1,0 +1,109 @@
+{
+    "domain": "educationdynamics.com",
+    "owner": {
+        "name": "EducationDynamics LLC",
+        "displayName": "EducationDynamics"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "widget",
+        "et"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "educationdynamics\\.com\\/api\\/WidgetProvider\\/GetWidgetJs",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cb01c8ce7fd1a8de2a6844401bd42ce5a6023730832e804b7dbcc5d0d5664902"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "EddyVendorToken": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "_IsModalLoad": {
+                    "ttl": 3600003,
+                    "length": 5,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "EddyWidgetSession": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {
+                "EddyVendorToken": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "radiologyed.org",
+                "www.gradschools.com"
+            ]
+        },
+        {
+            "rule": "educationdynamics\\.com\\/Tracking\\/SaveAllGUIDs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "et"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_Session": 0.000006832001093120175,
+                "_Device": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "gradschools.com",
+                "www.unigo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "adaline.ns.cloudflare.com",
+        "john.ns.cloudflare.com"
+    ]
+}

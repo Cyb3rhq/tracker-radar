@@ -1,0 +1,118 @@
+{
+    "domain": "stape.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00111,
+    "sites": 11,
+    "subdomains": [
+        "leuh",
+        "leub",
+        "leuf"
+    ],
+    "cnames": [
+        {
+            "original": "load.gtm.medi-karriere.ch",
+            "resolved": "leub.stape.net"
+        },
+        {
+            "original": "load.gtm.myvaud.ch",
+            "resolved": "leuf.stape.net"
+        },
+        {
+            "original": "load.home.farfalla.ch",
+            "resolved": "leuh.stape.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "stape\\.net\\/gtnkjgcrmi\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "leuh"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "load.home.farfalla.ch",
+                    "resolved": "leuh.stape.net"
+                }
+            ],
+            "responseHashes": [
+                "36628475e4437a986f4856b4f3661091430cee19e6d65c7a4036fc060f0dd8be"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "farfalla.ch",
+                "www.farfalla.ch"
+            ]
+        },
+        {
+            "rule": "stape\\.net\\/gtag\\/destination",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "leub",
+                "leuf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "load.gtm.medi-karriere.ch",
+                    "resolved": "leub.stape.net"
+                },
+                {
+                    "original": "load.gtm.myvaud.ch",
+                    "resolved": "leuf.stape.net"
+                }
+            ],
+            "responseHashes": [
+                "a6a1fb06c67121d1a76dab02e4f372693704af86c2cd079e40377f0a63f79283"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "medi-karriere.ch",
+                "www.myvaud.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "hsadspixel.net",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "stapecdn.com",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "cookiefirst.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "eric.ns.cloudflare.com",
+        "june.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,679 @@
+{
+    "domain": "signifyd.com",
+    "owner": {
+        "name": "Signifyd Inc.",
+        "displayName": "Signifyd"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00201,
+    "sites": 20,
+    "subdomains": [
+        "cdn-scripts",
+        "imgs"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "signifyd\\.com\\/api\\/script-tag\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-scripts"
+            ],
+            "apis": {
+                "Document.cookie getter": 10,
+                "Navigator.prototype.userAgent": 10
+            },
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "d7a363f752524fb545c3b2eb48a56d163cb659bc427d5215800ee7781d92c2ca"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pandora.net",
+                "www.arlo.com",
+                "www.balsamhill.com.au",
+                "www.breville.com",
+                "www.digitalcamerawarehouse.com.au",
+                "www.groupon.com.au",
+                "www.lowes.com",
+                "www.philips.com.au",
+                "www.sram.com",
+                "www.tissotwatches.com"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/api\\/company_toolkit\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn-scripts"
+            ],
+            "apis": {
+                "window.localStorage": 10,
+                "RTCPeerConnection.prototype.constructor": 10
+            },
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "6082597f3871c77c9b31aa1383577f8c0e54cb5ff09275dc817bc70d96e6217d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pandora.net",
+                "www.arlo.com",
+                "www.balsamhill.com.au",
+                "www.breville.com",
+                "www.digitalcamerawarehouse.com.au",
+                "www.groupon.com.au",
+                "www.lowes.com",
+                "www.philips.com.au",
+                "www.sram.com",
+                "www.tissotwatches.com"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/shopify\\/script-tag\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-scripts"
+            ],
+            "apis": {
+                "Document.cookie getter": 8,
+                "window.name": 8,
+                "Navigator.prototype.userAgent": 8
+            },
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [
+                "635dbceba7575d16e6544850157da5e219916b2f5d503ff53450f137e127ce38"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "checkout_shop": 0.0003013258336681398
+            },
+            "exampleSites": [
+                "scooterhut.com.au",
+                "secretlabchairs.com.au",
+                "www.culturekings.com.au",
+                "www.grahams.com.au",
+                "www.kookai.com.au",
+                "www.mygyc.com.au",
+                "www.shiels.com.au",
+                "www.watchdepot.com.au"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/fp\\/tags\\.js",
+            "cookies": 0.000804,
+            "fingerprinting": 1,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "Navigator.prototype.vendor": 8,
+                "Navigator.prototype.platform": 8,
+                "Navigator.prototype.appVersion": 8
+            },
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [
+                "9df138e99fd95e3eae828e225004a1e4d05ada85eb8151f1aca0940ce3f1e32d",
+                "8d7b15a365aebb7b3f5c02ecdd15018e8cb0becfb288322411c587c63905edb2",
+                "584ffea7fb2b8cb46998ba1df79308fee5795d23bea175e34abc68a27cc0bf2f",
+                "c75a37ac557d92981e6af5228cc09ff68e77ba891708ce345ea7c2fd9354ccb0",
+                "4c5ae8bbf9459465fa2acf8fadb1287b342caf1e09118f00b973ea76223745e3",
+                "8780b68ebdc6022da6c3ddf92e81a026a2c02ee196fdae0a299cdaf458973bd7",
+                "001c4dee95eba72248214059674c88b88c2b7dd43ad1584b68b82dbf25480ea1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scooterhut.com.au",
+                "secretlabchairs.com.au",
+                "www.culturekings.com.au",
+                "www.grahams.com.au",
+                "www.kookai.com.au",
+                "www.mygyc.com.au",
+                "www.shiels.com.au",
+                "www.watchdepot.com.au"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/fp\\/check\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {
+                "Navigator.prototype.mimeTypes": 7,
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.vendor": 7,
+                "Navigator.prototype.platform": 7,
+                "Navigator.prototype.appVersion": 7,
+                "Date.prototype.getTimezoneOffset": 7,
+                "window.devicePixelRatio": 7,
+                "Screen.prototype.width": 7,
+                "Screen.prototype.height": 7,
+                "Screen.prototype.availWidth": 7,
+                "Screen.prototype.availHeight": 7,
+                "window.screenX": 7,
+                "window.screenY": 7,
+                "window.innerWidth": 7,
+                "window.innerHeight": 7,
+                "window.outerWidth": 7,
+                "window.outerHeight": 7,
+                "Screen.prototype.colorDepth": 7,
+                "Navigator.prototype.plugins": 7,
+                "Navigator.prototype.hardwareConcurrency": 7,
+                "Navigator.prototype.deviceMemory": 7,
+                "Navigator.prototype.language": 7,
+                "Navigator.prototype.languages": 7,
+                "Navigator.prototype.maxTouchPoints": 7,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 7,
+                "WebGLRenderingContext.prototype.getParameter": 7,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 7,
+                "WebGLRenderingContext.prototype.getExtension": 7,
+                "window.localStorage": 7,
+                "window.indexedDB": 7,
+                "RTCPeerConnection.prototype.constructor": 7,
+                "Navigator.prototype.getBattery": 7,
+                "OfflineAudioContext.prototype.constructor": 7,
+                "NavigatorUAData.prototype.getHighEntropyValues": 7,
+                "Navigator.prototype.mediaDevices": 7,
+                "MediaDevices.prototype.enumerateDevices": 7,
+                "Navigator.prototype.storage": 7,
+                "HTMLCanvasElement.prototype.toDataURL": 7,
+                "AudioBuffer.prototype.getChannelData": 7,
+                "NavigatorUAData.prototype.brands": 3,
+                "NavigatorUAData.prototype.platform": 3,
+                "RTCPeerConnectionIceEvent.prototype.candidate": 2
+            },
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [
+                "ab7a170628ec2d99808074c6199ae69d3748b59ca330916a718717f1a20c7abd",
+                "cac2023d02da10b90a40607af4f4e643ad9d7bd1a8c0e11eb66b56a162c4bec4",
+                "89d621faa278750bef8d162a1f23252e4eea91c6df35804dd2be70ff6851c910",
+                "f122e30dce25b9de8075474cadfedabce4bef4c770b622dcdd2a2f2bdb65ae86",
+                "6599ed6495872afafbc55c278258b589bc221a8275d614032550e6f8f96077aa",
+                "acef134e3906d958944e32588b5b941613f28c90f4035c4e822d1ae7576c7319"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scooterhut.com.au",
+                "secretlabchairs.com.au",
+                "www.culturekings.com.au",
+                "www.grahams.com.au",
+                "www.kookai.com.au",
+                "www.mygyc.com.au",
+                "www.shiels.com.au",
+                "www.watchdepot.com.au"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/fp\\/clear\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [
+                "6882437cef514eeafff92a4dde96489b049e439967c6c99faff992e2045d994c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scooterhut.com.au",
+                "secretlabchairs.com.au",
+                "www.culturekings.com.au",
+                "www.grahams.com.au",
+                "www.kookai.com.au",
+                "www.mygyc.com.au",
+                "www.shiels.com.au",
+                "www.watchdepot.com.au"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/fp\\/clear\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00171,
+            "cnames": [],
+            "responseHashes": [
+                "6882437cef514eeafff92a4dde96489b049e439967c6c99faff992e2045d994c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scooterhut.com.au",
+                "secretlabchairs.com.au",
+                "www.arlo.com",
+                "www.balsamhill.com.au",
+                "www.breville.com",
+                "www.culturekings.com.au",
+                "www.digitalcamerawarehouse.com.au",
+                "www.grahams.com.au",
+                "www.groupon.com.au",
+                "www.kookai.com.au",
+                "www.lowes.com",
+                "www.mygyc.com.au",
+                "www.philips.com.au",
+                "www.shiels.com.au",
+                "www.sram.com",
+                "www.tissotwatches.com",
+                "www.watchdepot.com.au"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/fp\\/ls_fp\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [
+                "ca180ee8bdba6db489a5586c1bf4e0cd88b6d4bc9b7f662c590cd06d040c35ea",
+                "eae9b37e7ba223cc814cf639c9d6fbcd29b8c74983a28d860d90e1ec3ebc9e17"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scooterhut.com.au",
+                "secretlabchairs.com.au",
+                "www.culturekings.com.au",
+                "www.grahams.com.au",
+                "www.kookai.com.au",
+                "www.mygyc.com.au",
+                "www.shiels.com.au",
+                "www.watchdepot.com.au"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/fp\\/clear\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scooterhut.com.au",
+                "secretlabchairs.com.au",
+                "www.culturekings.com.au",
+                "www.grahams.com.au",
+                "www.kookai.com.au",
+                "www.mygyc.com.au",
+                "www.shiels.com.au",
+                "www.watchdepot.com.au"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/fp\\/es\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [
+                "102fb6245489c262c8b5cf92d372e97b5ff7c50aa1e4e09ff5c61885e2b738c1",
+                "3ba3fb8de4885ac40cb034a00742f83e071380cbc683cc171f0a482ed194e858"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scooterhut.com.au",
+                "secretlabchairs.com.au",
+                "www.culturekings.com.au",
+                "www.grahams.com.au",
+                "www.kookai.com.au",
+                "www.mygyc.com.au",
+                "www.shiels.com.au",
+                "www.watchdepot.com.au"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/fp\\/top_fp\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [
+                "e014d23e769d354e7a3d1fff63237cf355ac19eb6018340e2437ec0b480db882",
+                "8e4cade6c58c6e16cdfb4569a005a0e5d00d539e3031a123ad68da380d4bffac"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scooterhut.com.au",
+                "secretlabchairs.com.au",
+                "www.culturekings.com.au",
+                "www.grahams.com.au",
+                "www.kookai.com.au",
+                "www.mygyc.com.au",
+                "www.shiels.com.au",
+                "www.watchdepot.com.au"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/wcnq03Tx2eScqaWq",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arlo.com",
+                "www.arlo.com"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/Z9yMC7rTxh5Gsxwq",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balsamhill.com.au",
+                "www.balsamhill.com.au"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/W2tdkwwjFm7btyJm",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "breville.com",
+                "www.breville.com"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/EQk0UcjbqczKKdCO",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digitalcamerawarehouse.com.au",
+                "www.digitalcamerawarehouse.com.au"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/fp\\/clear1\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grahams.com.au",
+                "www.kookai.com.au",
+                "www.shiels.com.au"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/q1oEuoRIvEmfqw0S",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "groupon.com.au",
+                "www.groupon.com.au"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/gXBNb3rRzhtEdo8l",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lowes.com",
+                "www.lowes.com"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/rDSmAhkOOt9D6pqT",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "philips.com.au",
+                "www.philips.com.au"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/FsWi0XZWL8iu5dRn",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sram.com",
+                "www.sram.com"
+            ]
+        },
+        {
+            "rule": "signifyd\\.com\\/OSv0Pzj2-Hb8ZgOD",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imgs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tissotwatches.com",
+                "www.tissotwatches.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00171,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7916666666666666
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.0625
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.0625
+        },
+        {
+            "domain": "trustarc.com",
+            "prevalence": 0.041666666666666664
+        },
+        {
+            "domain": "neto.com.au",
+            "prevalence": 0.020833333333333332
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.020833333333333332
+        }
+    ],
+    "types": {
+        "Script": 78,
+        "Image": 11,
+        "XHR": 17,
+        "Document": 16
+    },
+    "nameservers": [
+        "ns-1445.awsdns-52.org",
+        "ns-1684.awsdns-18.co.uk",
+        "ns-304.awsdns-38.com",
+        "ns-637.awsdns-15.net"
+    ]
+}

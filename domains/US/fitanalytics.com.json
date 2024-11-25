@@ -1,0 +1,496 @@
+{
+    "domain": "fitanalytics.com",
+    "owner": {
+        "name": "Fit Analytics GmbH",
+        "displayName": "Fit Analytics GmbH"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000547,
+    "sites": 8,
+    "subdomains": [
+        "widget",
+        "integrations",
+        "metrics",
+        "metrics-nl"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "fitanalytics\\.com\\/widget_pdp\\.js",
+            "cookies": 0.0000273,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie getter": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "window.sessionStorage": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "Event.prototype.timeStamp": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "a8be9feb2fcd0e246253622419125dedbebe429c88521c7b9d74ce62bc33e488",
+                "070d90bb172695c232557c2e00f9dd7d5fa8ba891d9ca146d9744406e32b6344"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "fita.short_sid.opus": {
+                    "ttl": 1805,
+                    "length": 32,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "fita.sid.fjallraven": {
+                    "ttl": 34160023,
+                    "length": 32,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "fita.short_sid.fjallraven": {
+                    "ttl": 1823,
+                    "length": 32,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "fita.sid.rebel_nz": {
+                    "ttl": 34160014,
+                    "length": 32,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "fita.short_sid.rebel_nz": {
+                    "ttl": 1814,
+                    "length": 32,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "fita.sid.scottsports": {
+                    "ttl": 34160011,
+                    "length": 32,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "fita.short_sid.scottsports": {
+                    "ttl": 1811,
+                    "length": 32,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "opus-fashion.com",
+                "www.fjallraven.com",
+                "www.rebelsport.co.nz",
+                "www.scott-sports.com"
+            ]
+        },
+        {
+            "rule": "fitanalytics\\.com\\/widget\\/api\\/shops\\/opus",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "fita.short_sid.opus": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "opus-fashion.com",
+                "de.opus-fashion.com"
+            ]
+        },
+        {
+            "rule": "fitanalytics\\.com\\/widget\\/api\\/shops\\/opus",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f3aa478ad085b70827599a48f51d7effb2878374283c2f7314b32bc72f510a2c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "fita.short_sid.opus": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "opus-fashion.com",
+                "de.opus-fashion.com"
+            ]
+        },
+        {
+            "rule": "fitanalytics\\.com\\/assets\\/button\\/fit-finder-pdp\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "integrations"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "9fae0c146d9dc587a44fea7ec8ae214e20869cb8ed3860a558130cc2a5a4800d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "opus-fashion.com",
+                "www.fjallraven.com",
+                "www.rebelsport.co.nz"
+            ]
+        },
+        {
+            "rule": "fitanalytics\\.com\\/widget\\/api\\/products",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "fita.short_sid.opus": 0.000006832001093120175,
+                "fita.sid.fjallraven": 0.000006832001093120175,
+                "fita.short_sid.fjallraven": 0.000006832001093120175,
+                "fita.sid.rebel_nz": 0.000006832001093120175,
+                "fita.short_sid.rebel_nz": 0.000006832001093120175,
+                "_ga": 0.000006832001093120175,
+                "fita.sid.scottsports": 0.000006832001093120175,
+                "fita.short_sid.scottsports": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "opus-fashion.com",
+                "www.fjallraven.com",
+                "www.rebelsport.co.nz",
+                "www.scott-sports.com"
+            ]
+        },
+        {
+            "rule": "fitanalytics\\.com\\/widget\\/api\\/products",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "85dcae76946284ae02aa36222a6e959a3f0a87f75565d8352848749173ccd751",
+                "88da0052fb62723c92c1bdc5e677702019b65a7415e966202b58896af1a72924",
+                "a3eaae410133ab7a5f1ceb5e939dd954e654a11f1c8cabda6e2b6b1f9b3a722b",
+                "f2594620d91c17bd7005a6f4405e01535ab2f296dd20608a257facb103493c4b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "fita.short_sid.opus": 0.00001366400218624035,
+                "fita.sid.fjallraven": 0.000006832001093120175,
+                "fita.short_sid.fjallraven": 0.000006832001093120175,
+                "fita.sid.rebel_nz": 0.000006832001093120175,
+                "fita.short_sid.rebel_nz": 0.000006832001093120175,
+                "_ga": 0.000006832001093120175,
+                "fita.sid.scottsports": 0.000006832001093120175,
+                "fita.short_sid.scottsports": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "opus-fashion.com",
+                "de.opus-fashion.com",
+                "www.fjallraven.com",
+                "www.rebelsport.co.nz",
+                "www.scott-sports.com"
+            ]
+        },
+        {
+            "rule": "fitanalytics\\.com\\/metrics\\/widget",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "metrics",
+                "metrics-nl"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "904eb577a6f38b01c2651cd28139c9aa89fc2148ab1a53a5df10d6d5572339e3",
+                "c89cebc5cd3a3df996bbf06f510ab100312abb54648c34e096ffa54f94001184",
+                "edef46b1f05f3886e208c172f3d41a70f473fc48e9f5ef30f38ac66cf7efb598",
+                "bc3b4b02e3c23e6eccd9dcfbb3ed4de0acd0cc98042f9e44feb6fc7ffc4bbdef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "fita.short_sid.opus": 0.00001366400218624035,
+                "fita.sid.fjallraven": 0.000006832001093120175,
+                "fita.short_sid.fjallraven": 0.000006832001093120175,
+                "fita.sid.rebel_nz": 0.000006832001093120175,
+                "fita.short_sid.rebel_nz": 0.000006832001093120175,
+                "_ga": 0.000006832001093120175,
+                "fita.sid.scottsports": 0.000006832001093120175,
+                "fita.short_sid.scottsports": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "opus-fashion.com",
+                "de.opus-fashion.com",
+                "www.fjallraven.com",
+                "www.rebelsport.co.nz",
+                "www.scott-sports.com"
+            ]
+        },
+        {
+            "rule": "fitanalytics\\.com\\/widget_zepto\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b2e3b97a74e92a99954c7e20961a2bb27cf158cc480b427f02ea698935c85b67"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alphaindustries.com",
+                "www.sodimac.cl"
+            ]
+        },
+        {
+            "rule": "fitanalytics\\.com\\/widget\\/api\\/shops\\/fjallraven",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "fita.short_sid.fjallraven": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "fjallraven.com",
+                "www.fjallraven.com"
+            ]
+        },
+        {
+            "rule": "fitanalytics\\.com\\/widget\\/api\\/shops\\/fjallraven",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ce0e3d7feca523bf4516ef04f0116ce7ab5c936c077924bb86ff197c4dd65b82"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "fita.short_sid.fjallraven": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "fjallraven.com",
+                "www.fjallraven.com"
+            ]
+        },
+        {
+            "rule": "fitanalytics\\.com\\/widget\\/api\\/recommendations",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2d127c94c77b9f9dbb360051e6820ffbfd6e1ee160be7cdfadd35871d9c39435"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "fita.sid.fjallraven": 0.00001366400218624035,
+                "fita.short_sid.fjallraven": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "fjallraven.com",
+                "www.fjallraven.com"
+            ]
+        },
+        {
+            "rule": "fitanalytics\\.com\\/widget\\/api\\/shops\\/rebel_nz",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "fita.short_sid.rebel_nz": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "rebelsport.co.nz",
+                "www.rebelsport.co.nz"
+            ]
+        },
+        {
+            "rule": "fitanalytics\\.com\\/widget\\/api\\/shops\\/rebel_nz",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e6d76ef32e9892650199240b943bd1e4e07d88d2aeeb9e9f696373f52a22d75b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "fita.short_sid.rebel_nz": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "rebelsport.co.nz",
+                "www.rebelsport.co.nz"
+            ]
+        },
+        {
+            "rule": "fitanalytics\\.com\\/widget\\/api\\/shops\\/scottsports",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.000006832001093120175,
+                "fita.short_sid.scottsports": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "scott-sports.com",
+                "www.scott-sports.com"
+            ]
+        },
+        {
+            "rule": "fitanalytics\\.com\\/widget\\/api\\/shops\\/scottsports",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "44ca5f252d620b9fc925d66c486945dae78982acbcf825d2b9a7a9233ff9a5d1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.000006832001093120175,
+                "fita.short_sid.scottsports": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "scott-sports.com",
+                "www.scott-sports.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000273,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7368421052631579
+        },
+        {
+            "domain": "azure.com",
+            "prevalence": 0.15789473684210525
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.05263157894736842
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.02631578947368421
+        },
+        {
+            "domain": "consentmanager.net",
+            "prevalence": 0.02631578947368421
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "Preflight": 12,
+        "Fetch": 15,
+        "Image": 3
+    },
+    "nameservers": [
+        "duke.ns.cloudflare.com",
+        "anna.ns.cloudflare.com"
+    ]
+}

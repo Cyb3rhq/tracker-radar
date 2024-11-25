@@ -1,0 +1,163 @@
+{
+    "domain": "q4web.com",
+    "owner": {
+        "name": "Q4 Inc.",
+        "displayName": "Q4"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00013,
+    "sites": 19,
+    "subdomains": [
+        "rockwell2023tf",
+        "firstamerican2017ir",
+        "boeing2015",
+        "csx2019ir",
+        "cloroxir2016",
+        "ingersoll2020rd",
+        "assurant2017rd",
+        "merck2016rd"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "q4web\\.com\\/feed\\/StockQuote\\.svc\\/GetFullStockQuoteList",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rockwell2023tf"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "e9bd22001d5b8b7fc55ba18ae13f60a233b9145b56ab2b9643f730422867e136",
+                "33e13c461ea06be23e82e5d8555a2d908d5010fc2f041a0935b94a1f768b5c4b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rockwellautomation.com",
+                "literature.rockwellautomation.com",
+                "rockwellautomation.custhelp.com",
+                "www.rockwellautomation.com"
+            ]
+        },
+        {
+            "rule": "q4web\\.com\\/feed\\/StockQuote\\.svc\\/GetStockQuoteList",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "firstamerican2017ir",
+                "boeing2015",
+                "csx2019ir",
+                "cloroxir2016",
+                "ingersoll2020rd"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "723ae7a5e0b86eae0ac92c9e01755e7c39f462596fb555646961655a25365fa8",
+                "adc383530f49e95d4b5dbacc6bb24716e69a738f0c9dc3ee7223a775e28b0f49",
+                "1615d305958c963050884056994ed63770ee99fb0bb27b2841b87bddd5511c00",
+                "f11ceaf303653d748d8076d29460fa55775ebdeaafdc86feea6da65cf642c047",
+                "29abaa99db43662719afd50c5df87683b55d58078ccc0114a15f910d7f9ef9b5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "firstam.com",
+                "www.boeing.com",
+                "www.csx.com",
+                "www.firstam.com",
+                "www.thecloroxcompany.com",
+                "www.tranetechnologies.com"
+            ]
+        },
+        {
+            "rule": "q4web\\.com\\/feed\\/StockQuote\\.svc\\/GetFullStockQuoteList",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assurant2017rd"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f19346565a5ea47aa71961117329e2381b0e872ab41b1bac8b424e2d1d310f34"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "assurant.com",
+                "www.assurant.com"
+            ]
+        },
+        {
+            "rule": "q4web\\.com\\/WebResource\\.axd",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "merck2016rd"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ef9453f74b2617d43dcef4242cf5845101fcfb57289c81bceb20042b0023a192"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "merck.com",
+                "www.merck.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000683,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.631578947368421
+        },
+        {
+            "domain": "jquery.com",
+            "prevalence": 0.21052631578947367
+        },
+        {
+            "domain": "rockwellautomation.com",
+            "prevalence": 0.10526315789473684
+        },
+        {
+            "domain": "q4cdn.com",
+            "prevalence": 0.05263157894736842
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "XHR": 8,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-1098.awsdns-09.org",
+        "ns-431.awsdns-53.com",
+        "ns-792.awsdns-35.net",
+        "ns-1686.awsdns-18.co.uk"
+    ]
+}

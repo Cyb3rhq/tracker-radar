@@ -1,0 +1,87 @@
+{
+    "domain": "8x8.com",
+    "owner": {
+        "name": "8x8, Inc.",
+        "displayName": "8x8"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "vcc-assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "8x8\\.com\\/vcc-embedded-chat-loader\\/10\\.0\\.0\\.0\\.20241113084813960\\/remoteEntry\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "vcc-assets"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "61b95ba51152dc0e6d58bc71c9a5479a2e92c9a42d73869598c09ad3fe1dc178"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trekbikes.com",
+                "www.trekbikes.com"
+            ]
+        },
+        {
+            "rule": "8x8\\.com\\/vcc-embedded-chat-loader\\/10\\.0\\.0\\.0\\.20241113084813960\\/46\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vcc-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0804f184b72c257cdcab01968d61f5fb297a1fe314aa39728b83e9e371eb6e25"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trekbikes.com",
+                "www.trekbikes.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Embedded Content",
+        "Support Chat Widget"
+    ],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns7.packet8.net",
+        "ns8.packet8.net",
+        "ns5.packet8.net",
+        "ns6.packet8.net"
+    ]
+}

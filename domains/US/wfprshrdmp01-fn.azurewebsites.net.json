@@ -1,0 +1,78 @@
+{
+    "domain": "wfprshrdmp01-fn.azurewebsites.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "dmpmetrics.rcsmetrics.it",
+            "resolved": "wfprshrdmp01-fn.azurewebsites.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "wfprshrdmp01-fn\\.azurewebsites\\.net\\/",
+            "cookies": 0.0000342,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "dmpmetrics.rcsmetrics.it",
+                    "resolved": "wfprshrdmp01-fn.azurewebsites.net"
+                }
+            ],
+            "responseHashes": [
+                "a0c8dda5521b14ea824a013a2ad53abb5cfdfaf78ba1dbc2aaf55793763b9fd3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "UESeg": {
+                    "ttl": 31104000,
+                    "length": 38,
+                    "prevalence": 0.00003416000546560088,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "corriere.it",
+                "milano.corriere.it",
+                "style.corriere.it",
+                "www.corriere.it",
+                "www.oggi.it"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000041,
+    "topInitiators": [
+        {
+            "domain": "corriereobjects.it",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": []
+}

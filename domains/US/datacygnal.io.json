@@ -1,0 +1,135 @@
+{
+    "domain": "datacygnal.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [
+        "serve"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "datacygnal\\.io\\/hb",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "serve"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "830e60c609245e8b479fe80a464dba913f7930c4167915bfdbaeab6e1c4f60ce"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mashable.com",
+                "me.mashable.com",
+                "www.tropicaltidbits.com"
+            ]
+        },
+        {
+            "rule": "datacygnal\\.io\\/ots-1-2047385927\\.js",
+            "cookies": 0.00000683,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "NavigatorUAData.prototype.brands": 1,
+                "NavigatorUAData.prototype.platform": 1,
+                "window.sessionStorage": 1,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 1,
+                "window.localStorage": 1,
+                "Navigator.prototype.cookieEnabled": 1,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 2,
+                "Navigator.prototype.doNotTrack": 1,
+                "Navigator.prototype.language": 1,
+                "Navigator.prototype.webdriver": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0f5762010ad7fe7a491f6536170dc76095a1c81b2367b81ad6d3886e44a05e26"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_sharedid": {
+                    "ttl": 86402,
+                    "length": 36,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_sharedid_cst": {
+                    "ttl": 86402,
+                    "length": 16,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expatica.com",
+                "www.expatica.com"
+            ]
+        },
+        {
+            "rule": "datacygnal\\.io\\/hb",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "serve"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "15c4a126e1bc36cffe44a246f77b57875a9b2b100ed397efe17f41706b43b2c7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "payetteforward.com",
+                "www.payetteforward.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "contextads.live",
+            "prevalence": 0.3
+        },
+        {
+            "domain": "1rx.io",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Fetch": 3,
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "deb.ns.cloudflare.com",
+        "oswald.ns.cloudflare.com"
+    ]
+}

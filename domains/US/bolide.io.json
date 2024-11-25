@@ -1,0 +1,101 @@
+{
+    "domain": "bolide.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "main-app-production"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bolide\\.io\\/build\\/external\\/services\\/session\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "main-app-production"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "b73086a0a5f0c1ed11f126bd109c2c953e71bd00a4e2b43e6245db7e0b21b1fa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "circulon.com",
+                "farberwarecookware.com",
+                "mwtb.org"
+            ]
+        },
+        {
+            "rule": "bolide\\.io\\/api\\/event\\/session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "main-app-production"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "circulon.com",
+                "farberwarecookware.com",
+                "mwtb.org"
+            ]
+        },
+        {
+            "rule": "bolide\\.io\\/api\\/event\\/session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "main-app-production"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "circulon.com",
+                "farberwarecookware.com",
+                "mwtb.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 3,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "albert.ns.cloudflare.com",
+        "kate.ns.cloudflare.com"
+    ]
+}

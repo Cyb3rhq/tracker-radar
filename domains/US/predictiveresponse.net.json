@@ -1,0 +1,135 @@
+{
+    "domain": "predictiveresponse.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [
+        "aws"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "predictiveresponse\\.net\\/trac\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "aws"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "window.localStorage": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "c172ae011a6dba5c46c1818a6dacc8ea4f6861e50f1d85218f9c43178aafa0b9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pa_user": {
+                    "ttl": 63072002,
+                    "length": 19,
+                    "prevalence": 0.000020496003279360526,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unh.edu",
+                "extension.unh.edu",
+                "www.wiche.edu",
+                "www.woodworks.org"
+            ]
+        },
+        {
+            "rule": "predictiveresponse\\.net\\/rtrac\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aws"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_pa_user": 0.0000273280043724807
+            },
+            "exampleSites": [
+                "unh.edu",
+                "www.oregonhumane.org",
+                "www.wiche.edu",
+                "www.woodworks.org"
+            ]
+        },
+        {
+            "rule": "predictiveresponse\\.net\\/http\\/trac\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "aws"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0f539062480e7f9547fb74835d3d5b58942d2a5a9a8458df58541ba8f87006eb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pa_user": {
+                    "ttl": 63072002,
+                    "length": 19,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oregonhumane.org",
+                "www.oregonhumane.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5454545454545454
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.45454545454545453
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Image": 4
+    },
+    "nameservers": [
+        "ns-1688.awsdns-19.co.uk",
+        "ns-499.awsdns-62.com",
+        "ns-1080.awsdns-07.org",
+        "ns-822.awsdns-38.net"
+    ]
+}

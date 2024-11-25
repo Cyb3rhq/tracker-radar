@@ -1,0 +1,3276 @@
+{
+    "domain": "kaltura.com",
+    "owner": {
+        "name": "Kaltura Inc",
+        "displayName": "Kaltura"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000991,
+    "sites": 145,
+    "subdomains": [
+        "cdnapisec",
+        "api.frp2.ovp",
+        "analytics",
+        "stats",
+        "analytics.frp2.ovp",
+        "cdnapi",
+        "www",
+        "cdnsecakmi",
+        "cfvod"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "kaltura\\.com\\/html5\\/html5lib\\/v2\\.101\\/mwEmbedLoader\\.php",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdnapisec",
+                "api.frp2.ovp"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.plugins": 5,
+                "Navigator.prototype.mimeTypes": 5,
+                "window.localStorage": 2
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "f19587d3ab83025f8206b233ef8ac6f747feda8a22a6d2ac43cb882d9627c49e",
+                "5ef89ed5997b403fbf1a2ae6a692f7f1bee9a0fd0d73eb792936d3f50c92de56",
+                "0f5047c55d45d985450a86a617f21291c8b9e3a418ce7195998a9a0178f24795",
+                "ce0fc8dbd443d94c0151d755910071313cdf7258cd8c665b70ba57bdab635d05"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "princeton.edu",
+                "go.okstate.edu",
+                "skat.dk",
+                "www.cedarville.edu",
+                "www.cpp.edu"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/html5\\/html5lib\\/v2\\.101\\/load\\.php",
+            "cookies": 0.00000683,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdnapisec",
+                "api.frp2.ovp"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 3,
+                "Navigator.prototype.userAgent": 7,
+                "Date.prototype.getTime": 7,
+                "Navigator.prototype.plugins": 7,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "MediaSource.isTypeSupported": 7,
+                "Navigator.prototype.mimeTypes": 7,
+                "Navigator.prototype.platform": 7,
+                "Document.cookie getter": 7,
+                "Navigator.prototype.javaEnabled": 7,
+                "HTMLMediaElement.prototype.canPlayType": 7,
+                "Document.cookie setter": 1,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [
+                "4a9c7ee311745190893db451c6d66fa468aeaffed70eedf1bfa5309ca845e4db",
+                "75b31200a7b5f69a462572342e1e10a3e9a7d2b1fd668d81b525ad12335f62ad",
+                "82d4a880a2c62c91ee7f403f03af09ab4e76d3dbd430ca133a1028e2af31fb18",
+                "bee774833563cfff28bec360d6454ac2bf4e4822b18868d8922cc2b12fabf2a0",
+                "e7c1e101780e36fd00a665ba56768831e1a16f6b61c44a4d360ae603c6c00db2",
+                "5787c2e6db496a2ad57bcd81020621cde623b57fa02e8e67ff3b5ac8ed8efb91"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "EmbedPlayer.UserBandwidth": {
+                    "ttl": null,
+                    "length": 7,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "princeton.edu",
+                "go.okstate.edu",
+                "skat.dk",
+                "www.cedarville.edu",
+                "www.cpp.edu",
+                "www.moxa.com",
+                "www.vt.edu"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/api_v3\\/index\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnapisec",
+                "analytics",
+                "stats",
+                "analytics.frp2.ovp"
+            ],
+            "apis": {},
+            "sites": 29,
+            "prevalence": 0.000198,
+            "cnames": [],
+            "responseHashes": [
+                "48c30ec218565926b8d51a5753b430ff68d10f704ce85d039ddf3ef542b56ac6",
+                "fb449437ba4b4974f77fabba349aa502b148d1c794327a3287ca7e3c5fd23722",
+                "98564b8a7ab9b02eda90cf31714c256f9a2c488ae7cca7313940a2807e8d738b",
+                "167577f708153170fa904f683f75ba64db1fad7832a400ed54b7e0d583bb535d",
+                "db2a7ba6d7ec88f6a7f71ce92097ef080ef7a5556e826f9a92fc4955bb0722ec",
+                "ab82e1a1f62e3f45444eaaaaf0b9b5d01f3d1be0b0782c6a5b9194e646644818",
+                "484a9147bb6c4e9fa4bc45a17d4990543f9b264694aaa0cd90c46c2507afbe61",
+                "7b17d889932f16abd14f7ca99f3d2df2f0e3c5a3f3aa0f659ce90be21f41470b",
+                "69738df48259d1e1dc62625c6572cfc5a1c7163fd79655a5f87c8980aa26b530",
+                "1578137130148c8930da598d88cd40afa270c1412e09bc1225a410a741e8985f",
+                "337083d325729bc0b87f64523af794f841aa71df443f226b4c0ac1c13eaa4460",
+                "1f5886db149b88d260ac222440587e09cab257508da69c76a27ac08e310b5c17",
+                "f4ceacb434c625ee4eca39fd26ab882ff66ca47bccc94cba40630eb25e6ef304",
+                "41dc33fcda1e72942bd00a12640f75a2d62be1b9cb8a5aaaf2dfda536b026291",
+                "4d4b006901450128c2f6b3cf0c2c455a96ed43168afa58446cff8c99c9ff1a64",
+                "a595c5e7d2031ada0010f9a4886e842c82f5665d67e0897d4b20914185d71304",
+                "ba1e130f891ad66dd0686e1b653d0a1504093b0821e6c0b8c00b316794cc7031",
+                "a070d945e5a67554111b4733a2583d1cb0fa15c5e6fe3798cd1917f023c6c9bb",
+                "cfebc9dec3d84170f011a0277021c3980f2ae3021033f0a659fa74c5d0abfcc6",
+                "04f8a35214fa6b564c676145af74090de08e1b761e6f9102bb81f8fba156187c",
+                "0f3f495b800f946f7b25360e522c147bcffbf49d4c718ec8a9425028fa2f97e9",
+                "e1aee489471543d6507bab0574f3ba081edcc5263a25b781f187fcc8504572bf",
+                "5a2653922ba178d33e12bbf4f5d1887d7217a479712e543821750030a893abef",
+                "5b4713f0834ee0dec37bd23e7320d09ab2665002225d32681929a1e8fcc3565e",
+                "022d022e7dc3d3442f3cccff88f8cc72aa72cc9baa857aca7e27437246904c6b",
+                "6523fb1a205c787fd57934ab57577ef39efc25e1c07d1b24002ee84fc3662c2d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "princeton.edu",
+                "fcbayern.com",
+                "businessaccess.citibank.citigroup.com",
+                "support.sap.com",
+                "go.okstate.edu",
+                "www.kan.org.il",
+                "www.cedarville.edu",
+                "www.moxa.com",
+                "www.esri.com",
+                "www.mychart.org",
+                "www.ciena.com",
+                "mounjaro.lilly.com",
+                "pro.arcgis.com",
+                "business.bofa.com",
+                "oercommons.org",
+                "www.privatebank.bankofamerica.com",
+                "www.cpp.edu",
+                "www.gsb.stanford.edu",
+                "learning.sap.com",
+                "skat.dk"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/html5\\/html5lib\\/v2\\.101\\/\\/skins\\/kdark\\/fonts\\/icomoon\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "aa14debba7bc016eefbf468197833a1ec2301f58e54e724dc5a292541bf51016"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "princeton.edu",
+                "go.okstate.edu",
+                "www.cedarville.edu",
+                "www.cpp.edu",
+                "www.moxa.com",
+                "www.vt.edu"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/4188613\\/embedPlaykitJs\\/uiconf_id\\/50602982",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2,
+                "MediaSource.isTypeSupported": 2,
+                "Navigator.prototype.vendor": 2,
+                "Screen.prototype.orientation": 2,
+                "Navigator.prototype.storage": 2,
+                "Navigator.prototype.mediaCapabilities": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fff3e6deb8411baed02353b7a38c3a70f41a61bb551d1a2130e90a3d841465ec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ml.com",
+                "advisor.ml.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/4188613\\/sp\\/418861300\\/embedIframeJs\\/uiconf_id\\/49176002\\/partner_id\\/4188613",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdnapi"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9650172023c93f6de36b781485f91586c98bdd9bc1288dfb8d4137c28f0f5acb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ml.com",
+                "advisor.ml.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/4699762\\/embedPlaykitJs\\/uiconf_id\\/51133253\\/langs\\/en,es",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Screen.prototype.orientation": 2,
+                "Navigator.prototype.connection": 2,
+                "Navigator.prototype.userAgent": 1,
+                "MediaSource.isTypeSupported": 1,
+                "Navigator.prototype.vendor": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d596719e718edbf78311bf18a1a47b8b0ea8e7f41982c68631537e5f8fa15aa6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bofa.com",
+                "www.privatebank.bankofamerica.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/api_v3\\/service\\/multirequest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnapisec",
+                "www"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.000109,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bofa.com",
+                "businessaccess.citibank.citigroup.com",
+                "fcbayern.com",
+                "learning.sap.com",
+                "mounjaro.lilly.com",
+                "powersports.honda.com",
+                "pro.arcgis.com",
+                "support.sap.com",
+                "userapps.support.sap.com",
+                "www.allspringglobal.com",
+                "www.castrol.com",
+                "www.ciena.com",
+                "www.esri.com",
+                "www.fingerhut.com",
+                "www.kan.org.il",
+                "www.privatebank.bankofamerica.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/api_v3\\/service\\/multirequest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnapisec",
+                "www"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.00013,
+            "cnames": [],
+            "responseHashes": [
+                "8605a9f5c2cfc2ea036b1151e5b8017c94ba667ac99acfc26a2db949770150d9",
+                "b149a9436520e0f3dbaf2da920f87c46131189e7eb311a5c88ee9b41829aee64",
+                "2391df6efcb0ca8f9ecba1b453b855a31ba729c939a69b72cea080b5ccb7435b",
+                "f5bda94f30190a7b6bd13d34351c7d60e680918b493b9fdf7a3499242ea4c4e6",
+                "4dd7e8741587707541c16fdd8960a2213306e494c342e5a5829495381a5ae8e2",
+                "063122c434bb0fbae06a58a0d52cb06d2ce0dd24e0c5a3d101d547d6c9b52c8f",
+                "90172ee3d402b8436f774242af69043447b24c5627fc317dfdeba74ecbfa28cb",
+                "68cdc9dfc69a8ac88987b1300af4c4518cdde7cea75755750f75de9c4908676b",
+                "9118e2603de135b966c8837f7830c6f663217043ff02498efec4967e5a3a1f5c",
+                "2276c7a7f0f9cfd7f83f18325e61e8f6ac31e547ade5f5900d951f7009fd18f0",
+                "7bdb32443031d0a2cd77f1ede07b948f67da2da69106bdbc1bdac56db7f770a1",
+                "02d094bcfd7369eceee7c4a1251b75c2b8b4654db31f6b770f13109db24e4854",
+                "860cab4c82c5aa56c6dc9cd4edfd99fcad666f2fd56e615998e07c9d77cc21cd",
+                "bf5284815e962e15bf009c3f0e000c7558d81a0546e1840e4e92fb8aa500bb50",
+                "3c73b6a28c91056ccebb8cdc96058daa2b6a7508d9f0034a10529dd3cb08dcb7",
+                "6baee5753335a2dbda2bbebcfa72e6f5fdd47976f61e9531bd3c818d26ce7f16",
+                "c82a5bdeebb974e1d4fded8906732b84dc0d0b0ec74fee5c3231234ac612f9d7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bofa.com",
+                "businessaccess.citibank.citigroup.com",
+                "fcbayern.com",
+                "learning.sap.com",
+                "mounjaro.lilly.com",
+                "powersports.honda.com",
+                "pro.arcgis.com",
+                "support.sap.com",
+                "userapps.support.sap.com",
+                "www.allspringglobal.com",
+                "www.castrol.com",
+                "www.ciena.com",
+                "www.esri.com",
+                "www.fingerhut.com",
+                "www.gsb.stanford.edu",
+                "www.hearingsolutions.philips.com",
+                "www.kan.org.il",
+                "www.mychart.org",
+                "www.privatebank.bankofamerica.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/api_v3\\/index\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.000116,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bofa.com",
+                "businessaccess.citibank.citigroup.com",
+                "fcbayern.com",
+                "learning.sap.com",
+                "mounjaro.lilly.com",
+                "pro.arcgis.com",
+                "support.sap.com",
+                "userapps.support.sap.com",
+                "www.allspringglobal.com",
+                "www.castrol.com",
+                "www.ciena.com",
+                "www.esri.com",
+                "www.fingerhut.com",
+                "www.gsb.stanford.edu",
+                "www.kan.org.il",
+                "www.mychart.org",
+                "www.privatebank.bankofamerica.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/1157612\\/sp\\/115761200\\/embedIframeJs\\/uiconf_id\\/42438262\\/partner_id\\/1157612",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3290f0f9cba3c7efcddb1209d8ba885ef1809c982c0f297b0e0eaecf877111d3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "byui.edu",
+                "www.byui.edu"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/2354731\\/sp\\/235473100\\/embedIframeJs\\/uiconf_id\\/42061311\\/partner_id\\/2354731",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "okstate.edu",
+                "go.okstate.edu"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/2354731\\/sp\\/235473100\\/raw\\/entry_id\\/1_8lq2tjal\\/version\\/100002",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnsecakmi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9a8bb9c884437a188365cb04deaf1fcd0f6b57d0d8102504edb284235f813c30"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "okstate.edu",
+                "go.okstate.edu"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/506471\\/embedPlaykitJs\\/uiconf_id\\/54885162",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "MediaSource.isTypeSupported": 1,
+                "Navigator.prototype.vendor": 1,
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6bbb682bc1d36d5c50d6726b9c188531eb43c3897d225be95bdc453621f0f454"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "harvard.edu",
+                "hbsp.harvard.edu"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/2567241\\/embedPlaykitJs\\/uiconf_id\\/44216501",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2,
+                "MediaSource.isTypeSupported": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.mediaCapabilities": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ea277486f92f192cc33415e1eb9eeb53400ae36bee6a80ef83ca9b9f02c188ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "johnstonmurphy.com",
+                "www.johnstonmurphy.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/2567241\\/sp\\/256724100\\/thumbnail\\/entry_id\\/1_oa2km0ns\\/version\\/100001\\/type\\/3\\/width\\/278\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4243b9d3030af24a64c4faa48bac6488d215c702fed84b4673a79ae9f8ee63e1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "johnstonmurphy.com",
+                "www.johnstonmurphy.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/2567241\\/sp\\/256724100\\/thumbnail\\/entry_id\\/1_oa2km0ns\\/version\\/100001\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/278\\/height\\/0\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b5dfd199ae5c9b7e07bb827f08f13e97e97a4e6aadaaada1aff1392bd14e5c01"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "johnstonmurphy.com",
+                "www.johnstonmurphy.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/2742011\\/embedPlaykitJs\\/uiconf_id\\/45401331",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2,
+                "MediaSource.isTypeSupported": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.mediaCapabilities": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "baa2770ae6b6552f7ca6454050c8144c06046628e12668000c4fa795098ecfa3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kregtool.com",
+                "www.kregtool.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/1921661\\/embedPlaykitJs\\/uiconf_id\\/50355372",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "MediaSource.isTypeSupported": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 1,
+                "Screen.prototype.orientation": 1,
+                "Navigator.prototype.connection": 1,
+                "URL.createObjectURL": 1,
+                "Navigator.prototype.mediaCapabilities": 1,
+                "Navigator.prototype.languages": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b3ffcd782485194397bf733ddd7a266cfb471a8f39b764e41c1e3b53298640"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sap.com",
+                "learning.sap.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/api_v3\\/index\\.php\\/service\\/caption_captionasset\\/action\\/serveWebVTT\\/captionAssetId\\/1_hjep6c6t\\/segmentDuration\\/300\\/ks\\/djJ8MTkyMTY2MXxOFlhvdvvuutPpuPWbhiUUbhZUWV8KyuDwCcHp6UJ1wnLyOhB1XCjbhOv-X4ESBWH7pDOWaUEEzqWcDvClnu-eCicXoru2Gyec3f3A0Lx21VDQIkaO5hCH4ZwD7bWpF_RrHxZNMTGk9LTdcbOR0g8FK8FB3X_qtcAGhp0Wpk52m5i3A9vIlDLTeUrLVCiBrMIteK7_dJXgGx21qbHvlrAOF06pW9YSE4y7pokCVuPaA3EikHvDU8e0dGoEauUQfcXJAFWUeGRZHc2q6yFjjMzi\\/version\\/91\\/segmentIndex\\/1\\.vtt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c48a3ce4d62b0af280d09fe9796fe9fead8bd1d3489b3be6a3f2efef080ead44"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sap.com",
+                "learning.sap.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/api_v3\\/index\\.php\\/service\\/caption_captionasset\\/action\\/serveWebVTT\\/captionAssetId\\/1_nvnoqu1s\\/segmentDuration\\/300\\/ks\\/djJ8MTkyMTY2MXx0Ji6RuMpz06POERCEagD3oUwiGH8t0eDj5JKfd1-lib_ENH-7hERxEpgn-xaNLxFPhG2zOIBgjqznvD0gM0nb0IZVXDf0-OcSurDkCPEtymdFSX5x9vijPVrZOu47aGDhanlYhvgpeU5P1qSbkHKwyppCCO5qPV9Z1CCj5HZS5bBNW38umQaQJ3DDQ2gnVoqFi75BP3GoBLgvLWJ9OK72rC5HEysDBTYH9x2zg2UjaDcHIO025MZJtoGtaddMFObqRno1Y6lA3rjuZz-j5C9o\\/version\\/41\\/segmentIndex\\/1\\.vtt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bd792d1a2a95f5742850c79b3aa062a3f6a46f518adfb8124ad030148a91b72b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sap.com",
+                "learning.sap.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/api_v3\\/index\\.php\\/service\\/caption_captionasset\\/action\\/serveWebVTT\\/captionAssetId\\/1_fg43rmmm\\/segmentDuration\\/300\\/ks\\/djJ8MTkyMTY2MXw2-h0qqu0Nl-dzvL3mLxIYndxOhi0cKO3QJGf1kEswtAGE7OuoAlIE1nv_7duGgSjCi-1faC8BYLe0TgX_7Nbu4y0IrmN4clL6hvkASpIkrcePiFew-mL3uIYIfXam65iOshJ528egJFAK8kQIaY6kB5uxmN8uK-fdBeEP8UfMrcdkxo3XZkE_shT6_yiFLDm8Sym3tvRSunOXXPKVdUBrXy8zki5Z6VzC6NrFzED5Q6HmimI7Hl6TUZPoS8p50CGUERljhEC-aweiMgkQBuiG\\/version\\/151\\/segmentIndex\\/1\\.vtt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2069755361bfd56ac63dbcfb6b93c472041878c2ec8ee760b1ed516154812b92"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sap.com",
+                "learning.sap.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/pd\\/p\\/1825021\\/sp\\/182502100\\/serveFlavor\\/entryId\\/1_9xisrkmq\\/v\\/1\\/ev\\/4\\/flavorId\\/1_hi0uvr0j\\/name\\/a\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayoclinic.org",
+                "www.mayoclinic.org"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/pd\\/p\\/1825021\\/sp\\/182502100\\/serveFlavor\\/entryId\\/1_9xisrkmq\\/v\\/1\\/ev\\/4\\/flavorId\\/1_mhk13rag\\/name\\/a\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayoclinic.org",
+                "www.mayoclinic.org"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/pd\\/p\\/1825021\\/sp\\/182502100\\/serveFlavor\\/entryId\\/1_9xisrkmq\\/v\\/1\\/ev\\/4\\/flavorId\\/1_2i1jfovv\\/name\\/a\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayoclinic.org",
+                "www.mayoclinic.org"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/pd\\/p\\/1825021\\/sp\\/182502100\\/serveFlavor\\/entryId\\/1_9xisrkmq\\/v\\/1\\/ev\\/4\\/flavorId\\/1_iuroaxir\\/name\\/a\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayoclinic.org",
+                "www.mayoclinic.org"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/1759891\\/sp\\/175989100\\/embedIframeJs\\/uiconf_id\\/34164591\\/partner_id\\/1759891",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "709cc086399802d870e7d448022f417407f931f503d50efe10057192d8af01c3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lilly.com",
+                "medical.lilly.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/2904701\\/embedPlaykitJs\\/uiconf_id\\/45953041",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2,
+                "MediaSource.isTypeSupported": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.mediaCapabilities": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e8b02bd1061de8851102c08729f2003ffea8d0f60a5a9c9a9fda216abdbe076b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stonewallkitchen.com",
+                "www.stonewallkitchen.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/2904701\\/sp\\/290470100\\/thumbnail\\/entry_id\\/1_dxmlm5js\\/version\\/100001\\/type\\/3\\/width\\/175\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bd494b749899a87bf239602e3f63f056daef302226b562de1a0519421be6b3d2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stonewallkitchen.com",
+                "www.stonewallkitchen.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/2904701\\/sp\\/290470100\\/thumbnail\\/entry_id\\/1_bz1movrw\\/version\\/100001\\/type\\/3\\/width\\/175\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bc3d8ff780e893134cdb38f92d3db0c95e21eee6e285eb2cf58771b8c3c51a92"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stonewallkitchen.com",
+                "www.stonewallkitchen.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/2904701\\/sp\\/290470100\\/thumbnail\\/entry_id\\/1_th0379e0\\/version\\/100001\\/type\\/3\\/width\\/175\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "239b6601d6e0410154fa8702e0563479175b47829d5d428898865eded37f4939"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stonewallkitchen.com",
+                "www.stonewallkitchen.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/2904701\\/sp\\/290470100\\/thumbnail\\/entry_id\\/1_o30d42aw\\/version\\/100001\\/type\\/3\\/width\\/175\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8820f4e37e3fc3b4c7e95a342c44dc6f3b9b569efbc96ceb319c47d6d2035f0d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stonewallkitchen.com",
+                "www.stonewallkitchen.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/2904701\\/sp\\/290470100\\/thumbnail\\/entry_id\\/1_z7tro0di\\/version\\/100001\\/type\\/3\\/width\\/175\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "17392282524647a90ebd39c3ab6f64905171472407db33a2d6c3852bc873b493"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stonewallkitchen.com",
+                "www.stonewallkitchen.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/1921661\\/embedPlaykitJs\\/uiconf_id\\/53208852",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "MediaSource.isTypeSupported": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Screen.prototype.orientation": 2,
+                "Navigator.prototype.connection": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "42b85477d3db59029489606561958afc576fccc1b9f54cbbf32900c059fec14b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sap.com",
+                "userapps.support.sap.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/1921661\\/sp\\/192166100\\/thumbnail\\/entry_id\\/1_9f86h3l8\\/version\\/100031\\/width\\/164\\/vid_slices\\/100",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "291a5ad34070a7684bf3bdde48d5b5fd865823679a1bd5fb2087dcb1deadd8d5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sap.com",
+                "userapps.support.sap.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/1921661\\/sp\\/192166100\\/thumbnail\\/entry_id\\/1_9f86h3l8\\/version\\/100031\\/height\\/259\\/width\\/460",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "39745e4117d3d66283f98c4032d3f413442d94d7674c656b86956702d4e1f24b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sap.com",
+                "userapps.support.sap.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/2055521\\/embedPlaykitJs\\/uiconf_id\\/36095381",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "MediaSource.isTypeSupported": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.product": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c49329bda901068d617f251954c9c9725fe1934a1664d6d42cd527f80edf16f1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pwc.com",
+                "taxsummaries.pwc.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/api_v3\\/index\\.php\\/service\\/caption_captionasset\\/action\\/serveWebVTT\\/captionAssetId\\/1_1re6kett\\/segmentDuration\\/300\\/ks\\/djJ8NDE3MDUzM3y17eXrbAoIxkE6qYv4UH97GdquDwEe5Rdp_dSWsLmPAH00kbgPW6gVRIQb5QQbg0FjCCFyxAV7-dJHnkyI2YiJzHP6LkyYFC5RJh697_PmvQn28hC70FohiGyL2HFh_d9lAXiLPVeiY4jw9Yk5QoDwQjI3v6gqlI8F_b4GRUZ8wE7fHJLf8I1zsFSIFxNRhOrGuCcCowA3LiF3ttp8pcmoRc96IOPAD0LfFheokO9K6EeIMBYLANtNz9Du-Kxjh12v0ZoI-lVXBIH9YGUoZ22a\\/segmentIndex\\/1\\.vtt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "855f5cd3070c448d2003270f4fe49b560678edcbe4c274890b298ad6e8f50200"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allspringglobal.com",
+                "www.allspringglobal.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/html5\\/html5lib\\/v2\\.101\\/mwEmbedFrame\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "ee28f1bc1a875d47f800afd88b05c5d0e5ad5011bcc19d06a21df60485c67907",
+                "83f4eaf8f3402b544ebfa9b0aa545074c76897d2ce877ab25b19ed43a0d01db6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cedarville.edu",
+                "www.moxa.com",
+                "www.vt.edu"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/html5\\/html5lib\\/v2\\.101\\/modules\\/Quiz\\/resources\\/fonts\\/Lato-Light\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9b0c466f7175c1446f04f1c3ab85259e9670c2e9cb92a8db7db08b60fe1e70e2"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cedarville.edu",
+                "www.cpp.edu"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/api_v3\\/index\\.php\\/service\\/caption_captionasset\\/action\\/serveWebVTT\\/captionAssetId\\/1_8quaz510\\/segmentDuration\\/300\\/ks\\/djJ8MjkxMjExMXw3XSyh51smJ0Ur_zLeOJIJCxG3019sdqCetc4SECg1RYhf7oT1dxAu3LAYfWkcQoFtg_ekHW6sKRG_v8VJ51y_Iwq1hVA62sqEZ84xSne0kSk6YvvR06UlnW1ucbetWpdml5XvpEvCmMHjDGMIcZhRDBYpB3CoO9l3DcmJZLS2TjkSf6Cv8OG4yrAE6-BO7S2xyB3ohW46USsG4sodZhUjx1U239jkbDR0UPYPtq65BH2IIqxo0T9UE_noqIhqJw8KczcgJ6wnTZ7jMlHbeIIt\\/segmentIndex\\/1\\.vtt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3f65180c90c3f7364f01792cf80282337fc40cef05238256a15f0f83b65a8826"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ciena.com",
+                "www.ciena.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5722022\\/embedPlaykitJs\\/uiconf_id\\/54061912",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2,
+                "MediaSource.isTypeSupported": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.mediaCapabilities": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "66a4eb0974743cf725101f53a83637b2e2c44b627bc04b21a15b91614892cc72"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dartagnan.com",
+                "www.dartagnan.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5722022\\/sp\\/572202200\\/thumbnail\\/entry_id\\/1_2od9uiy5\\/version\\/100001\\/type\\/3\\/width\\/175\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3554568c4ca5592430f38eb93990f262fb014631347257bc41557707e6dcd3d0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dartagnan.com",
+                "www.dartagnan.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5722022\\/sp\\/572202200\\/thumbnail\\/entry_id\\/1_vjpu6mz4\\/version\\/100001\\/type\\/3\\/width\\/175\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2e0b81a1c0e76217a592bd9c6035333d53989a49b9b4ea1c79e3af61a4514ab5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dartagnan.com",
+                "www.dartagnan.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5722022\\/sp\\/572202200\\/thumbnail\\/entry_id\\/1_vi0nh0vc\\/version\\/100001\\/type\\/3\\/width\\/175\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3589e118d95f17f3bc94decf60f9f3cd054ecc766550654395c09bebd5fe0fa0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dartagnan.com",
+                "www.dartagnan.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5722022\\/sp\\/572202200\\/thumbnail\\/entry_id\\/1_57ifjy5s\\/version\\/100001\\/type\\/3\\/width\\/175\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1027d3c9cad6a600a33538cfe4dd135dae14dda409e06a50409c6c1a7c67b245"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dartagnan.com",
+                "www.dartagnan.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5722022\\/sp\\/572202200\\/thumbnail\\/entry_id\\/1_vjpu6mz4\\/version\\/100001\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/175\\/height\\/175\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "415ccb0617f916aea0d5a3493cc653edc75f816289530717dfef89391ae3b57f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dartagnan.com",
+                "www.dartagnan.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5722022\\/sp\\/572202200\\/thumbnail\\/entry_id\\/1_2od9uiy5\\/version\\/100001\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/175\\/height\\/175\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c66cc270e278075b35a006729df9b39566d1987d3be4e6d81b86fe177b127da4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dartagnan.com",
+                "www.dartagnan.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5722022\\/sp\\/572202200\\/thumbnail\\/entry_id\\/1_vi0nh0vc\\/version\\/100001\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/175\\/height\\/175\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a27b6ea6eee7f70be3b6e8f9a2543773bb926d1bab91b272fa18a37ec284dbe6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dartagnan.com",
+                "www.dartagnan.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5722022\\/sp\\/572202200\\/thumbnail\\/entry_id\\/1_57ifjy5s\\/version\\/100001\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/175\\/height\\/175\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3327554e45711ac9eb7d9cd0e0635405f69e7c3e4edbfe9a35365a41c85871f2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dartagnan.com",
+                "www.dartagnan.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/pd\\/p\\/2519461\\/sp\\/251946100\\/serveFlavor\\/entryId\\/1_x7f23fz3\\/v\\/1\\/ev\\/2\\/flavorId\\/1_j86vvroq",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elementvape.com",
+                "www.elementvape.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/3057483\\/embedPlaykitJs\\/uiconf_id\\/55531032",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.connection": 2,
+                "MediaSource.isTypeSupported": 2,
+                "URL.createObjectURL": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4ccd4a74839130aec3a18523d51b933c858b07463df23ed804b8829a4776e51a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "esri.com",
+                "www.esri.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/api_v3\\/index\\.php\\/service\\/caption_captionasset\\/action\\/serveWebVTT\\/captionAssetId\\/1_w5r931or\\/segmentDuration\\/300\\/ks\\/djJ8MzA1NzQ4M3yn049v4wNXeCzABwBD5uHyKiRD9j085FACaSzv8DbRybiCtRPlveJf2m7-bEM2mrVnRDEZlszsiDii0R_as8Ben8eRHHe-4qnV7DI_PchMQ4Rz016H01i4WGe62dKdmP5IhQY_relUIWiMybJgcwDEcnQFUmodz203fsmTorkKffpjz5E5XiVEjw2oMlU0hR4Nm5YrnZ8kTAAKYrCeX4TY7YxgcBSt53lpheC3tc1akjANx-z2RXD4shIeduvmZoYPpgi2KqcJ2dHJwvoV0oeW\\/version\\/121\\/segmentIndex\\/1\\.vtt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "25e461f1b9f3962e966dbd48c97d39a46f51ef7c6a8fd30b02561250f444befd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "esri.com",
+                "www.esri.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/api_v3\\/index\\.php\\/service\\/caption_captionasset\\/action\\/serveWebVTT\\/captionAssetId\\/1_9ksw9neg\\/segmentDuration\\/300\\/ks\\/djJ8MzA1NzQ4M3wsD-sxtsLDBZ3xPnu-Dj2w2lVqvGwoj6IQk1S0lPU-oxS4OAfvduBrLxmRAm-3sHwYF39idA4_sYMzA0kbrdRXiGm6J7IGmfwsE8YQ9sIUdC5nX1xY2zFoi_uNCGjC0_1tYYMp6HxTJ1EqkZ0T92L1OhY3a1SRlsHduNFAtIoVpCzj2H0X5Q9uo3d8vRlWl_GqGhIWaxtlO7kZ0SREXqsUPGarNOs9_eTlR5ASxW4rs_gIFInBcnBUjff5qnnA1b5ToBFfm3i5S4a8lpYpTYP5\\/version\\/11\\/segmentIndex\\/1\\.vtt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "624faa00b7e52ba036823770413292ca0493770cc7b4c0a5899988c47a5e12ee"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "esri.com",
+                "www.esri.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/4669142\\/embedPlaykitJs\\/uiconf_id\\/47425753",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "MediaSource.isTypeSupported": 2,
+                "Navigator.prototype.vendor": 2,
+                "Screen.prototype.orientation": 2,
+                "Navigator.prototype.storage": 2,
+                "Navigator.prototype.mediaCapabilities": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.connection": 2,
+                "HTMLMediaElement.prototype.canPlayType": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0cdefa50c1b446ebc932589e4ae9b1999f6aeca32b992b4063711046c0b275c8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fingerhut.com",
+                "www.fingerhut.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/4669142\\/sp\\/466914200\\/thumbnail\\/entry_id\\/1_4zh2ousl\\/version\\/100001\\/width\\/164\\/vid_slices\\/100",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4357ce833f52bd9e5db2f6875f4dc794d097a5706a4a38fcb87c9e84f400d8b1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fingerhut.com",
+                "www.fingerhut.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/4669142\\/sp\\/466914200\\/thumbnail\\/entry_id\\/1_4zh2ousl\\/version\\/100001\\/height\\/568\\/width\\/1120",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b404fffcddba0c52937184aca4de9afaf3045324d029a296078cc8a1dcc4dd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fingerhut.com",
+                "www.fingerhut.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/4481202\\/embedPlaykitJs\\/uiconf_id\\/51907712",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "MediaSource.isTypeSupported": 2,
+                "Navigator.prototype.vendor": 2,
+                "Screen.prototype.orientation": 2,
+                "Navigator.prototype.connection": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "philips.com",
+                "www.hearingsolutions.philips.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/2608891\\/embedPlaykitJs\\/uiconf_id\\/44603251",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2,
+                "MediaSource.isTypeSupported": 2,
+                "Navigator.prototype.vendor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d83adcc8feaee8e34d4cb4a68353b0b6d0c7e35cc55841ca96518d30486364e3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jlaudio.com",
+                "www.jlaudio.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/2717431\\/embedPlaykitJs\\/uiconf_id\\/50649882",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "MediaSource.isTypeSupported": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.localStorage": 1,
+                "window.sessionStorage": 1,
+                "Screen.prototype.orientation": 1,
+                "Navigator.prototype.connection": 1,
+                "Date.prototype.getTime": 1,
+                "window.innerHeight": 1,
+                "PerformanceTiming.prototype.navigationStart": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f2d37690fd9accf5aee57da243438a2df01fb4c5deb921ae576a608b2033f029"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kan.org.il",
+                "www.kan.org.il"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/2742011\\/sp\\/274201100\\/thumbnail\\/entry_id\\/1_jztp0u1f\\/version\\/100001\\/type\\/3\\/width\\/162\\/height\\/162",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "957d3f1efa0d1d8e53c652655f38a50ef40d6a878a7e6ebc0732a6ab5dae6abc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kregtool.com",
+                "www.kregtool.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/2527201\\/embedPlaykitJs\\/uiconf_id\\/43953931",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2,
+                "MediaSource.isTypeSupported": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.mediaCapabilities": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fa3adc430d37282cd1c3f7a521fb6b1e8caf6c9906691b59fb02445ba6d405ef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "leatherman.com",
+                "www.leatherman.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/2527201\\/sp\\/252720100\\/thumbnail\\/entry_id\\/1_0caanjcv\\/version\\/100001\\/type\\/3\\/width\\/0\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f5eb332def4915d63651e7b13f80a4a891c45d3750b2d71683d5d8915f95d8d7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "leatherman.com",
+                "www.leatherman.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/2527201\\/sp\\/252720100\\/thumbnail\\/entry_id\\/1_x9vw85qw\\/version\\/100001\\/type\\/3\\/width\\/0\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cb8d532c6001dcc3ed491a8a4a33bb7ee28146fbc3128c51e659ff6108b46acf"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "leatherman.com",
+                "www.leatherman.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/html5\\/html5lib\\/v2\\.98\\/mwEmbedFrame\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "42a442c35d57fda2e3ba3202db46ea1349ba80cfc9d3253b4fcdd21f98a3f982"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mnstate.edu",
+                "www.mnstate.edu"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/html5\\/html5lib\\/v2\\.98\\/load\\.php",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.plugins": 2,
+                "MediaSource.isTypeSupported": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "HTMLMediaElement.prototype.canPlayType": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3250405d9219cda225626abd0ff032e7b42bdc1ae836c3569c7edd7fd6a30c15"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mnstate.edu",
+                "www.mnstate.edu"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/html5\\/html5lib\\/v2\\.98\\/\\/skins\\/kdark\\/fonts\\/icomoon\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "aa14debba7bc016eefbf468197833a1ec2301f58e54e724dc5a292541bf51016"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mnstate.edu",
+                "www.mnstate.edu"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5902802\\/sp\\/590280200\\/thumbnail\\/entry_id\\/1_qwsbcsu2\\/version\\/100001\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/130\\/height\\/130\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moultrieproducts.com",
+                "www.moultrieproducts.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/embedPlaykitJs\\/uiconf_id\\/54715512",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2,
+                "MediaSource.isTypeSupported": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.mediaCapabilities": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "af54fc4fedd69dde82cee49d6987624550c6490f1cdd1267ce5cf766f4c1212b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_oh2b4six\\/version\\/100001\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c41a0cf0e75097e3b8e67217c460212a6403f276b84e44f5ea6808f26822f897"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_fy0h5x6v\\/version\\/100001\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e9accb6e2c4a26b05c0a28f3c4c036537ed6c66f8f568e5113f9669a584bce72"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_72mcjy8s\\/version\\/100001\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "41280718cbc8f9b3a0c063015c087ea51d600e946f26c1c50f7f00d632e538d7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_h35ez620\\/version\\/100001\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3544494ae04679519b6a26b6486541c50bd2886b5aad5309cf27816138b06ce6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_ci54wvch\\/version\\/100001\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b5403f722ac4b4f1765b286ba725f2dc9698c800d5b0d50ca38627c98ddf38a2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_w36koi8l\\/version\\/100001\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "37ef7d9525bbfff0bbea73ae7927c0638664a04853dc63d2f609b2a4bcb68eae"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_83japjbq\\/version\\/100001\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6de4a9987a9eea93153d8a109b21c538c9503607dff0500430fac18de6049060"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_qrhdj3yh\\/version\\/100001\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "31de8b8e4b7c154599f8506f14309ca6d890f68a3d97a621c1e44e472da0ba3b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_jmaqlr1v\\/version\\/100001\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3ebb0519cdcf74ba12d7312119327fae6f09547108919865193775142063bfba"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_w5zkyikg\\/version\\/100011\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "df7dd9e802a2baeadf12fb16e41cad5a97a25784cf7d44d23bfc39ef417ceefb"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_oe0iqtft\\/version\\/100001\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1ab1611d4b81a523765eb0a324c2208f67b91e39483dcdd06cf82995fd208851"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_120dmqpi\\/version\\/100001\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d3f903da8d55f7c06bf0dde1d54fb9845bb6f84d77d8a7a94b8452987c34180d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_fvwcepqs\\/version\\/100001\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4c84e1d4b26921db3a3ab5189b76dcc0f86c5d9aa6e311611db4dd756ea41f43"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_irue5a7d\\/version\\/100001\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "25bb5b32f7dc141a54cc2586d5f089d6f4bd22cd41242b0b5d328b9135c86256"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_0h06d13k\\/version\\/100011\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a5efada4504f6681ea9af3a5b0717960a54da2eca5d662e2848454f6ba082613"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_8flzwgga\\/version\\/100001\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9940c96077e34ed27b640c40702e220365f3e0466bd91f6c1e4935adfb0349cc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_125upsqu\\/version\\/100001\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6dafde7d0235062a7d2d306bda22a333294d8f0e70b0ac8c304933bb5dc84565"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_zno3m7d5\\/version\\/100001\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ff69bb8002e15b629e487db30894ef82498eebc180c4b63b3cc83375cc0deee2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_imha9ghc\\/version\\/100001\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "86af9cb9bb744a0e8a59816de89d361c4094444700352c9f6a3506a0c7de668d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_wespiomr\\/version\\/100001\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f8dbb8a1768aa339ba807849c04d10508c1228181f6d1b1d7a4536dcbca53213"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_1f4ab3t5\\/version\\/100001\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cca5f972ac887a994b05691b2b4cd5d9d233fa5cb45e4aeaa1a299021dd71a51"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_vj0gav50\\/version\\/100011\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bdf3f98371e86db6b0d62d972bf40b3825f0f89a00c32a3cfcc41ae9e6b518af"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_enxjz1z0\\/version\\/100001\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cbc84b93afbd93ae51835832ce8d6822df2a8163260a35ee774eb3bddfac039f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_nspp8zq0\\/version\\/100001\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "43d9c3c3bfb48f8d594a359c153289fe8dcb831565b786974d4174beaef3b385"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_6v236v7l\\/version\\/100011\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a96bcb66fba87232809615cee34268ceb3a1de35934a84ab5c2f355608a53502"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_1xieo97s\\/version\\/100001\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "474321db98b241280c458aaf6a5643c4c5751aa1b1a335508f8487f3e278083d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_ksz8eg96\\/version\\/100001\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ee73037ee9d8cd062d826e55d122319dcd534c412b32dbf6eab74426e4ae1a29"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_s3zng5fm\\/version\\/100001\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d58ff2dc75943a057a905d38f716f38fb7982b682d2d81a3a17c3c6eaa00bd6a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_j80fhcto\\/version\\/100001\\/type\\/3\\/width\\/240\\/height\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8238a758f53b3cc53a3879e6ed37e96f774f351ed257f41fe18b24507c6ffb6d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_83japjbq\\/version\\/100001\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/240\\/height\\/240\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dbc2831cc74e385c1553602a75f63256f2b02ef3aa3757f5a62c240063a86dee"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_qrhdj3yh\\/version\\/100001\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/240\\/height\\/240\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1997b575cc23debd36d04d7a00b5c12903d8c4231b74ebd66bc12ebf83ef1ff7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_w5zkyikg\\/version\\/100011\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/240\\/height\\/240\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "30280327996c8bcfe70f2ed1d814173e1d79e8d3420728a7999e8ba5a7da668e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_jmaqlr1v\\/version\\/100001\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/240\\/height\\/240\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "50fe0d6cb58347cd3a850b5d010bd06794ca925b4ce508e91652ea1f63a33e3b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_oe0iqtft\\/version\\/100001\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/240\\/height\\/240\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8f3a88f8682b4fc3a8cb1437b5d2dab138c7e9a873785d3c863bd1f5d205304d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_120dmqpi\\/version\\/100001\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/240\\/height\\/240\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3d09bdd376402bd65d3d6ec297b6cd2b4ef6191926f9e1686dc34bfac0a27f68"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_irue5a7d\\/version\\/100001\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/240\\/height\\/240\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "aba9a15ac50c8c5f6bb7f067e73d4349d448ed6dcf4f649d3471ac541146786e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_fvwcepqs\\/version\\/100001\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/240\\/height\\/240\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3e4a3327d926b75e1b093e4f1cf4bc7027d1a63c5e33a8b34c24b3cd69dc6c14"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_0h06d13k\\/version\\/100011\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/240\\/height\\/240\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1b7c472e830c49e6116afbef7f31cd680280a125443f6eb736029d0089f47bbb"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_125upsqu\\/version\\/100001\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/240\\/height\\/240\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3305e83bc0582d4c1b267ae40977f6cbfecbce494e1bbe93edd2ddfeace5b828"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_8flzwgga\\/version\\/100001\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/240\\/height\\/240\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9daa15ab6cdf03dcaa5bf129def03cf007cbf90b3db2fbd5f882dc6dfe101562"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_imha9ghc\\/version\\/100001\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/240\\/height\\/240\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "23ff49e7c1f6257b7bf7a553cb545d04681e1fba473f6f783e14da3c0b0295a4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_wespiomr\\/version\\/100001\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/240\\/height\\/240\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "70cd5c681f9602bda09c19709384e07176631942199b215aa310ba707c72b592"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_1f4ab3t5\\/version\\/100001\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/240\\/height\\/240\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f8afa8395bcaf3ee3fa0d232b0f993b834ea8e5602ba2fac9e3d973d63f5de36"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_vj0gav50\\/version\\/100011\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/240\\/height\\/240\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e632403130584454447fda660e4c3caaa94f7cda18f76c5027f3e85f38e50e78"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_enxjz1z0\\/version\\/100001\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/240\\/height\\/240\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fc41e9a3e6122d190a64f7b32d95ddf3ad26b4c6e8c986696f274bc0cdaf8828"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_nspp8zq0\\/version\\/100001\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/240\\/height\\/240\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "86dace1cdfee45558998576cdbb1e7d682632f302c72796c1581551b7d20984b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_6v236v7l\\/version\\/100011\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/240\\/height\\/240\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d321369b27890e70958f20c9914fa6e45152c0a45892f723903003887c9fb63d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_ksz8eg96\\/version\\/100001\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/240\\/height\\/240\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bb0485d4e5056b7696fd29f5290e47f8875690de63f3262d83f7164bf4216c78"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_1xieo97s\\/version\\/100001\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/240\\/height\\/240\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4f71c6ddaf4fe19071ec63e5492ba16b94977f8686af97ce5c52518020f2e990"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_zno3m7d5\\/version\\/100001\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/240\\/height\\/240\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "58f036387ddd5421c0093d167349dfbc6018c286be2fd52d9f4ab5f7b9d17bb0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_s3zng5fm\\/version\\/100001\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/240\\/height\\/240\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "194dd038e28103acded50d92eeb40559a54b021e81a4e9a7e0701ff84634807f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/5874442\\/sp\\/587444200\\/thumbnail\\/entry_id\\/1_j80fhcto\\/version\\/100001\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/240\\/height\\/240\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f810550040565d33f774fd091d4990b95c5cefba8854263c81282b88ed6022cc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natori.com",
+                "www.natori.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/4296983\\/sp\\/429698300\\/embedIframeJs\\/uiconf_id\\/48741373\\/partner_id\\/4296983",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8e27f171c1d278066c3e084f3d6c76a2f082392d5da1b9374addf20e2f9ed670"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fedex.com",
+                "www.office.fedex.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/html5\\/html5lib\\/v2\\.86\\/mwEmbedFrame\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d91a27e33e062d1bc78333ff84e4168d07d1fe66eac0988a64c91489c5c6f70b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oreilly.com",
+                "www.oreilly.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/html5\\/html5lib\\/v2\\.86\\/load\\.php",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.plugins": 2,
+                "MediaSource.isTypeSupported": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.platform": 2,
+                "Event.prototype.timeStamp": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "HTMLMediaElement.prototype.canPlayType": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1b79c29501b8c6c6cb8c602d5eb6ccf070d27284c317051241290e0b40eaae9b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oreilly.com",
+                "www.oreilly.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/33219\\/sp\\/3321900\\/embedIframeJs\\/uiconf_id\\/32348571\\/partner_id\\/33219",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdnapi"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "74078f0f0607e8855b076ca7e7d79de36d4a19a12aaab11569a37bcacef9c0f5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "quarterhorsenews.com",
+                "www.quarterhorsenews.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/4594083\\/embedPlaykitJs\\/uiconf_id\\/49975933",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2,
+                "MediaSource.isTypeSupported": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.mediaCapabilities": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "47732c0965edfb03642aec5e6fa6ea26ff6aa39a5bf0b03e9d65b6d2e2a1b1df"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "taylorsfirearms.com",
+                "www.taylorsfirearms.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/4594083\\/sp\\/459408300\\/thumbnail\\/entry_id\\/1_nbypje5s\\/version\\/100001\\/type\\/3\\/start_sec\\/0\\/end_sec\\/3\\/width\\/130\\/height\\/130\\/vid_slices\\/12\\/file_name\\/thumbnail\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0eb410aa8c7ef773128d69db5ad8d5304118dbdf1103ee8ad0306ac93b23cc75"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "taylorsfirearms.com",
+                "www.taylorsfirearms.com"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/p\\/2375811\\/sp\\/237581100\\/embedIframeJs\\/uiconf_id\\/41951101\\/partner_id\\/2375811",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdnapisec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.mimeTypes": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fee69b8a8fe3e01edc7a98aebc438890fda109061592de54a9d89bb23da47d21"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vt.edu",
+                "www.vt.edu"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/api_v3\\/index\\.php\\/service\\/caption_captionAsset\\/action\\/serve\\/captionAssetId\\/1_pyflubf6\\/v\\/21\\/ks\\/djJ8MjM3NTgxMXzhQ2TOFs8u41NefKDqNg3_5SE-XEKxaepDjNzlKRkjRZaMvgl4TefqqdCkQuj-dr_0NBVblNKFa5xoqOnJp3c8I1mPWPbNlxtfZymORRFVg56_5InAZMJ5KK2_lhh0fw2FYrO2sQFP9oFtOGZsgJeK2jtUM-pdgE1jyDIO-UGpiVLQ2PnAwBodVHXTARGWzcadKP-gmt59xcvwCljRq7Im\\/\\.srt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1a29dfb05738c720e23a7a3159553065f0af7967bf3573f71eef4673ce13bf96"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vt.edu",
+                "www.vt.edu"
+            ]
+        },
+        {
+            "rule": "kaltura\\.com\\/api_v3\\/index\\.php\\/service\\/caption_captionAsset\\/action\\/serve\\/captionAssetId\\/1_6gn8b7xk\\/v\\/11\\/ks\\/djJ8MjM3NTgxMXxmGeaIFlOLVGwQMCQBiPHtZ0ZYMqHMZNDfek_lzDIV8j63PbVNFVorlubhpNluyGNRmAFLboFjDNdUUDLC74w5ClrnMGnC68LKaLaj2k5tPFUCafEZXSyLMWpj-VTsrXzHH8FC4w1WRy7tuUIBJc-Mm5RN2ViwDCpBwKVRAxT4nrsMz1HD24_Gaj26JHtiF_3hq0qPxnR8RbrHxJ0VjWdS\\/\\.srt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cfvod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3ed3b0b58d75b61fe1c7174584ab1e584cb4d952795e2d16ed7d362fb1709dd5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vt.edu",
+                "www.vt.edu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5551330798479087
+        },
+        {
+            "domain": "yotpo.com",
+            "prevalence": 0.4053231939163498
+        },
+        {
+            "domain": "esri.com",
+            "prevalence": 0.01064638783269962
+        },
+        {
+            "domain": "azure.com",
+            "prevalence": 0.0076045627376425855
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.006083650190114068
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.0045627376425855515
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.0038022813688212928
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.0038022813688212928
+        },
+        {
+            "domain": "youtube.com",
+            "prevalence": 0.0022813688212927757
+        },
+        {
+            "domain": "citivelocity.com",
+            "prevalence": 0.0007604562737642585
+        }
+    ],
+    "types": {
+        "Script": 69,
+        "XHR": 66,
+        "Font": 10,
+        "Preflight": 33,
+        "Document": 4,
+        "Image": 154,
+        "Media": 10
+    },
+    "nameservers": [
+        "a1-65.akam.net",
+        "a7-65.akam.net",
+        "a8-65.akam.net",
+        "a28-65.akam.net",
+        "a3-65.akam.net",
+        "a10-65.akam.net"
+    ]
+}

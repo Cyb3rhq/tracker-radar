@@ -1,0 +1,92 @@
+{
+    "domain": "firstimpression.io",
+    "owner": {
+        "name": "AppendAd LTD",
+        "displayName": "AppendAd"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "ecdn",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "firstimpression\\.io\\/fi_client\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ecdn"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "window.sessionStorage": 3,
+                "Date.prototype.getTime": 3,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Event.prototype.timeStamp": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "d710f887aa30a58ed4d962aa97198bf6faa07c8ce68a03755b9d163a395ee86e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "archdaily.com",
+                "www.bleepingcomputer.com",
+                "www.haaretz.com"
+            ]
+        },
+        {
+            "rule": "firstimpression\\.io\\/delivery\\/spc_fi\\.php",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "0912b6522431de97b16f3f38702b833110d12a5723151204f37e6ba7adee1fd6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "archdaily.com",
+                "www.bleepingcomputer.com",
+                "www.haaretz.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns-303.awsdns-37.com",
+        "ns-711.awsdns-24.net",
+        "ns-1137.awsdns-14.org",
+        "ns-1564.awsdns-03.co.uk"
+    ]
+}

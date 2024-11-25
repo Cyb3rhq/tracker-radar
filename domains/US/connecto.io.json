@@ -1,0 +1,230 @@
+{
+    "domain": "connecto.io",
+    "owner": {
+        "name": "ThoughtFabrics Solutions Pvt. Ltd.",
+        "displayName": "ThoughtFabrics Solutions"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [
+        "api",
+        "server"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "connecto\\.io\\/getConnectoScriptParams",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "8fc91dcd7e0e6ebe36cab4fcc2f3d41868dc3d8b3c61ac9b75e99f111d524f7e",
+                "b428bc224e6b2f65ead00b3850473150d2eeab6f2005d937ec56d6648c59b72a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cardekho.com",
+                "www.oto.com",
+                "www.zigwheels.com",
+                "www.zigwheels.ph"
+            ]
+        },
+        {
+            "rule": "connecto\\.io\\/getConnectoScriptParams",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cardekho.com",
+                "www.oto.com",
+                "www.zigwheels.ph"
+            ]
+        },
+        {
+            "rule": "connecto\\.io\\/",
+            "cookies": 0.0000273,
+            "fingerprinting": 0,
+            "subdomains": [
+                "server"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "5eecd5f22a0c23e7de6a6b4435aa8ee9416401a6caa900b1a31cb370e0ed9a1e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "cardekho.com",
+                "www.honda2wheelersindia.com",
+                "www.oto.com",
+                "www.zigwheels.com",
+                "www.zigwheels.ph"
+            ]
+        },
+        {
+            "rule": "connecto\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "server"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "cardekho.com",
+                "www.honda2wheelersindia.com",
+                "www.oto.com",
+                "www.zigwheels.ph"
+            ]
+        },
+        {
+            "rule": "connecto\\.io\\/page",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "83f67358577c5e47b3ecfde505ba9fc01281c7842783f45bfbd7c01be79c0b6f",
+                "b5b25079a2bd2c8d826ba059a4b74bc62608257257056cee0cbd3bded43f5291"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cardekho.com",
+                "www.oto.com",
+                "www.zigwheels.com",
+                "www.zigwheels.ph"
+            ]
+        },
+        {
+            "rule": "connecto\\.io\\/javascripts\\/connect\\.prod\\.min\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "server"
+            ],
+            "apis": {
+                "window.sessionStorage": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e8114c510e8f42b311ee9982d95c77a71db19dc0242653ecaf7c2460327d3e69",
+                "4659aebf7d168014b0d2a53a4508b8499e812a25ce8a0a55d45b9935e9e7dcc1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_co_session_active": {
+                    "ttl": 14403,
+                    "length": 1,
+                    "prevalence": 0.000020496003279360526,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "honda2wheelersindia.com",
+                "www.oto.com",
+                "www.zigwheels.ph"
+            ]
+        },
+        {
+            "rule": "connecto\\.io\\/track",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "b5b25079a2bd2c8d826ba059a4b74bc62608257257056cee0cbd3bded43f5291"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oto.com",
+                "www.oto.com",
+                "www.zigwheels.ph"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000273,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7222222222222222
+        },
+        {
+            "domain": "zigcdn.com",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "Preflight": 7,
+        "XHR": 12,
+        "Script": 3
+    },
+    "nameservers": [
+        "ns-1752.awsdns-27.co.uk",
+        "ns-317.awsdns-39.com",
+        "ns-868.awsdns-44.net",
+        "ns-1154.awsdns-16.org"
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "domain": "sdrive.azureedge.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "cross.skoda-auto.com",
+            "resolved": "sdrive.azureedge.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sdrive\\.azureedge\\.net\\/sdrive\\/zero-tracking\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.sessionStorage": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "142aa4d6c485c8f2e8076ce827a1eab81597afbaea7754db06ac8bf00ddb2c0c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skoda-storyboard.com",
+                "www.skoda-auto.de",
+                "www.skoda.co.uk",
+                "www.skoda-storyboard.com",
+                "www.skoda-auto.com",
+                "www.skoda-auto.co.in"
+            ]
+        },
+        {
+            "rule": "sdrive\\.azureedge\\.net\\/sdrive\\/endpoint\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cross.skoda-auto.com",
+                    "resolved": "sdrive.azureedge.net"
+                }
+            ],
+            "responseHashes": [
+                "e94e08118d671670b3cd2d8593c1d9eee044141663d5dd7fccc234a214e3094f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skoda-auto.com",
+                "www.skoda-auto.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.00000683,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8
+    },
+    "nameservers": []
+}

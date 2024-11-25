@@ -1,0 +1,107 @@
+{
+    "domain": "survicate-cdn.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000804,
+    "sites": 8,
+    "subdomains": [
+        "surveys-static-prd"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "survicate-cdn\\.com\\/fonts\\/fonts\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surveys-static-prd"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [
+                "789e8685a564e07274fec164118e89fa040ff2779c6efe3d781b94aeea6f06eb"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mkm.com",
+                "mountainwarehouse.com",
+                "www.hitched.co.uk",
+                "www.metmuseum.org",
+                "www.mountainwarehouse.com",
+                "www.pets4homes.co.uk",
+                "www.studentbeans.com",
+                "www.theknot.com"
+            ]
+        },
+        {
+            "rule": "survicate-cdn\\.com\\/widget_core-24\\.18\\.15\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "surveys-static-prd"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "window.localStorage": 8,
+                "window.sessionStorage": 8,
+                "Navigator.prototype.language": 8,
+                "window.innerWidth": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [
+                "28f90f67d5b68cbc931b6580f2f8ac8f9a1139fbdeea4d3ed7fd39078ea8c6b9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "SurveyABtest": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mkm.com",
+                "mountainwarehouse.com",
+                "www.hitched.co.uk",
+                "www.metmuseum.org",
+                "www.mountainwarehouse.com",
+                "www.pets4homes.co.uk",
+                "www.studentbeans.com",
+                "www.theknot.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "survicate.com",
+            "prevalence": 0.9411764705882353
+        },
+        {
+            "domain": "quantummetric.com",
+            "prevalence": 0.058823529411764705
+        }
+    ],
+    "types": {
+        "Stylesheet": 8,
+        "Script": 8
+    },
+    "nameservers": [
+        "dara.ns.cloudflare.com",
+        "noel.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "domain": "tabarn.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "tabarn\\.app\\/cdn\\/cartscount\\/live\\/cartscount\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.language": 2,
+                "window.outerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8c8ab48647629e9e597a89f512c3464668569c67d1a9315a096a743d917b06a1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bathwaredirect.com.au",
+                "www.bathwaredirect.com.au"
+            ]
+        },
+        {
+            "rule": "tabarn\\.app\\/cdn\\/automatic-discount\\/automatic-discount-v2\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5e3905b25974b8fbc5a87ae88c9592c9a72c1d2cdd7324da9d3b92bb35b38f47"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "greggrantsaddlery.com.au",
+                "www.optimoz.com.au"
+            ]
+        },
+        {
+            "rule": "tabarn\\.app\\/cdn\\/automatic-discount\\/automatic-discount-v2\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4b6eb886a7041c5a62526f001f7d56df3d3ae224084c5a73746842f55defd9f5"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "greggrantsaddlery.com.au",
+                "www.optimoz.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "janet.ns.cloudflare.com",
+        "norm.ns.cloudflare.com"
+    ]
+}

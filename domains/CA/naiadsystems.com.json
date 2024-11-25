@@ -1,0 +1,98 @@
+{
+    "domain": "naiadsystems.com",
+    "owner": {
+        "name": "ICF Technology, Inc",
+        "displayName": "ICF"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "hybridclient",
+        "cdn.hybridclient"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "naiadsystems\\.com\\/purecam",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hybridclient"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "71711cc5a2d4152a7faae5126c2685eba6e45a8ef2cef7f699271f80ec16f60a",
+                "4f5181debfba006e39b2d444a331515f3815d9e83dab590c8a23e1e4051094bd",
+                "9df0fbb543c1b468aabc86475dd608682b30f7202b9d51312c3d75af633ff806"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cambay.tv",
+                "www.cambro.io",
+                "www.cambro.tube",
+                "www.cambro.video"
+            ]
+        },
+        {
+            "rule": "naiadsystems\\.com\\/dist\\/pure\\/pure\\.3\\.1\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn.hybridclient"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 4,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.connection": 3,
+                "window.localStorage": 2,
+                "Navigator.prototype.mediaDevices": 2,
+                "RTCPeerConnection.prototype.constructor": 2,
+                "MediaSource.isTypeSupported": 2,
+                "Navigator.prototype.storage": 1,
+                "NavigatorUAData.prototype.getHighEntropyValues": 1,
+                "NavigatorUAData.prototype.brands": 1
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "f555ccf73a99a4a3317de67de7b5d0b959928cb1f6bf75e57ef39e2468b13ce1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cambay.tv",
+                "www.cambro.tube",
+                "www.cambro.video",
+                "www.cambro.io"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "cemiocw.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 4,
+        "Script": 4
+    },
+    "nameservers": [
+        "ns1.flyingcroc.net",
+        "ns2.flyingcroc.net"
+    ]
+}

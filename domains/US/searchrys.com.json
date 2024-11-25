@@ -1,0 +1,94 @@
+{
+    "domain": "searchrys.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "searchrys\\.com\\/dot\\.php",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "fdac71109000ee5e21163bc6b60221d4077f59d8224d3e7cb16fa994a184440b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.0000273280043724807,
+                "mo_svid": 0.0000273280043724807
+            },
+            "exampleSites": [
+                "knab.nl",
+                "bieb.knab.nl",
+                "www.geld.nl",
+                "www.knab.nl",
+                "www.overstappen.nl",
+                "www.viabovag.nl"
+            ]
+        },
+        {
+            "rule": "searchrys\\.com\\/tracking\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "627112ff17312892d018e2b114d957c3141c906d2e2203869c717faaa28db311"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mo_svid": {
+                    "ttl": 86400006,
+                    "length": 16,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geld.nl",
+                "www.overstappen.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Image": 6,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns1.digitalocean.com",
+        "ns3.digitalocean.com",
+        "ns2.digitalocean.com"
+    ]
+}

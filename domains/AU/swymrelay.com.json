@@ -1,0 +1,1141 @@
+{
+    "domain": "swymrelay.com",
+    "owner": {
+        "name": "Swym Corporation",
+        "displayName": "Swym"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00633,
+    "sites": 63,
+    "subdomains": [
+        "procdn",
+        "freecdn",
+        "startercdn",
+        "premcdn",
+        "entcdn",
+        "swymstore-v3pro-01",
+        "swymstore-v3premium-01",
+        "swymstore-v3starter-01",
+        "swymstore-v3free-01",
+        "swymstore-v3enterprise-01"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "swymrelay\\.com\\/code\\/swym-ext-shopify\\.js",
+            "cookies": 0.00171,
+            "fingerprinting": 1,
+            "subdomains": [
+                "procdn",
+                "freecdn",
+                "startercdn",
+                "premcdn",
+                "entcdn"
+            ],
+            "apis": {
+                "window.localStorage": 17,
+                "Document.cookie setter": 17,
+                "Document.cookie getter": 17,
+                "Date.prototype.getTime": 17,
+                "Navigator.prototype.userAgent": 17
+            },
+            "sites": 18,
+            "prevalence": 0.00181,
+            "cnames": [],
+            "responseHashes": [
+                "3d05c09454f4d954d79b10e6cff0205167521165bffe901285186d3ea8216207",
+                "2d36be20035facded9bb09953d69b871338d1018987a9bb84640d95b4a94d378",
+                "1c28626586eeb237c957ced79825283a19e36cafb8e8605f6e98a00dc0e183a7",
+                "c1d6b0ca45052c2f740dfb3910d24dbd2f640bff8ced0951715dea9afd3186d1",
+                "e042a8cd0bb9cf54a76059710677e7e3231bb7fd5876b3d3787275b85870d637"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__verify": {
+                    "ttl": -1520111032,
+                    "length": 1,
+                    "prevalence": 0.0017075130574527922,
+                    "uniqueness": 0.058823529411764705
+                },
+                "swym-session-id": {
+                    "ttl": 1822,
+                    "length": 66,
+                    "prevalence": 0.0017075130574527922,
+                    "uniqueness": 1
+                },
+                "swym-pid": {
+                    "ttl": 31536011,
+                    "length": 44,
+                    "prevalence": 0.0017075130574527922,
+                    "uniqueness": 1
+                },
+                "swym-v-ckd": {
+                    "ttl": 1812,
+                    "length": 1,
+                    "prevalence": 0.0017075130574527922,
+                    "uniqueness": 0.058823529411764705
+                },
+                "swym-swymRegid": {
+                    "ttl": 31536015,
+                    "length": 173,
+                    "prevalence": 0.0017075130574527922,
+                    "uniqueness": 1
+                },
+                "swym-email": {
+                    "ttl": 31536012,
+                    "length": 4,
+                    "prevalence": 0.0017075130574527922,
+                    "uniqueness": 0.058823529411764705
+                },
+                "swym-instrumentMap": {
+                    "ttl": 31536015,
+                    "length": 22,
+                    "prevalence": 0.0017075130574527922,
+                    "uniqueness": 0.11764705882352941
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ajeworld.com.au",
+                "australherbs.com.au",
+                "bhumi.com.au",
+                "hobbytechtoys.com.au",
+                "seatosummit.com.au",
+                "www.bamboobody.com.au",
+                "www.betts.com.au",
+                "www.cassbrothers.com.au",
+                "www.esther.com.au",
+                "www.honeybirdette.com",
+                "www.metagenics.com.au",
+                "www.metrohobbies.com.au",
+                "www.mrfothergills.com.au",
+                "www.nourishedlife.com.au",
+                "www.papinelle.com",
+                "www.spacefurniture.com.au",
+                "www.thewinecollective.com.au",
+                "www.worldofbooks.com"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/api\\/v3\\/provider\\/checkAndGet",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "swymstore-v3pro-01",
+                "swymstore-v3premium-01",
+                "swymstore-v3starter-01",
+                "swymstore-v3free-01",
+                "swymstore-v3enterprise-01"
+            ],
+            "apis": {},
+            "sites": 62,
+            "prevalence": 0.00623,
+            "cnames": [],
+            "responseHashes": [
+                "be60ccd6a0638cf6514c73ba4507e7c7954c1f0116db4df8bf7827babe6632c5",
+                "23c1610b887db71267458aa06420ab41278613df2dbb74f56d159af99ffc7bd5",
+                "89df9d5018d8cfca48e450402c0e5a52ae7b46ff2c8573130bdbec312682035d",
+                "b9736708f083d5ae6ada132dd4624d4f1b99767f1bcaf87e437c08b517cc429b",
+                "670d9ac569bf5c2cc6047f2bb8d5cba9262f53c8385c98a88a170f1b6c98d5b4",
+                "083c01ce02daddd7c0d65e39a516f8a167a63fca4cca2f623de438fb5720db7a",
+                "f722778f37a424e19748cb5b35d1d32632b536e1a9e17519e662e7b82b8efc43",
+                "528941572e52c51465449a5b54ab6fbab5091b6077a5bf5f9a1302c70f3d1f98",
+                "44d3c6989d2f8d7b8f536ce3aceac4742b554c624ab0ebd2a12fa52471e690d4",
+                "f9678e874a5a14d2e10aaeb356408d6cbcfd92b22953c31a939c6c8784821bfe",
+                "7995fce9dbd46278b32f2af2a0fd5fae5d681aa30a425003d33134ad438d4523",
+                "64b9d99c56b1fce50827bb16479f276d781845be61f46cef093d98bb30555fc0",
+                "d1c239724dfe40b0e6cc24c0b11f30cb86ff341cc5ec17d43f6817e10c477701",
+                "5fbd53e8c8f411afc7244fce61403cc2fca8f7d44671bdc6194ddfbc8106705f",
+                "eb274d79ae303733e0eac2f0160197ce8000d91b27435454306e5796ef6f50a7",
+                "778850099e0299855c6d0109967d65637f007737823470527c6fdfefb9f1c25f",
+                "1ed343b76afef3c36ddc76355e91103bf3a632caf5aa52a89456ef1a6b25a4eb",
+                "75730cb02102e08e6e6f7fac1d9efc6274f9a57cc3a93de295046bc61a4af160",
+                "e9b1caa1a712ea2cee65b8459df9fbf3963d171c2dc563e886e1e010a3cd1a95",
+                "a5a214bf0cb35f8db8c27957f9a8f20cd0558eee8736f021d1ce99b85014a1a6",
+                "87581121341bcf22f86b4399c3a2f40eeaf827435dec1f0499c49336bebea604",
+                "6829142d27a0637f8e712d8c3b0d6e60866bb7006ba64cd9b0ce79d77b38e19f",
+                "e5345c7c16c04e427f5f34e3421c1bdea7b37471ec916415ad8241c855a103b8",
+                "5e8a44a32ed5a0d3401d8311320bed32ec63332438d6c021d039306edd959d9d",
+                "e630f3db711674d983738bec4fca4b22347293003bfbc00314b16825481387e7",
+                "7b6ab748631898af221c80f99d7d6ebcaa828bb72423d69528dcabb362bd0610",
+                "2f7be8fe3b50b78b44793eb9f8a97b2f64f1e5a01beb014493d44e24dcbc3ed1",
+                "4f0d5f524333eaf6986fd4ad7867bcaa7c673dde996d1bb4b3d08bb44eddc434",
+                "aed92669e76018ede4fa7a0df00a7deeb0f75dcc9440606c96a0994ab96df0d8",
+                "24cda87da81e94bb8d917feeb836532d1d9deb45775b6a74d3e8fcfbf8253d51",
+                "3799969f88a15d6781da7961e2b74a00a9fc38eaffd9bcfe9cdd61336c95e9b2",
+                "6b088084e051310e4bb6bb154e354ef0717a7fa4426844bdfd0611edc3d9d3df",
+                "64189b1b0c930a943078f4ff7daa7fc5e7397b76f8fee1294f17ac5b11259b67",
+                "bcc3e8b475b3e7a780cc855020c2025c78ef8e83533f03a095adb1953be63f62",
+                "cc82c2e1c9186daaa154701f22a597b64f448df7e9141a8eca06496ee32ab150",
+                "b33151147aed3a6fbbc78e13dd50bae1975d714cfcf349f9491e1a29edda97c8",
+                "9af01d369e4a81bf163adf4ec63fe33dcda974d7e0407fc70b841f97a2e5e269",
+                "ed0b402902d3ef0713c9b74d34b1539d164ea2181318a4e6308bccc2e29d9a60",
+                "6385999070bbd1f314c39a87661e5ffa8a138e4f213a066e674207c4d504b6c1",
+                "f9bdb84c1886afd7a1558084975ec3da5697784609e4f35bc5b84db5e3a02ffe",
+                "6c2ee75b3c3774ad6f64838c64d00e0395ca5f68277e2ab6793feeedc6be5395",
+                "d7b4d5ddfe1d4284b8f598d71b8b781935e98c4d2d872369bea64e3633ec3148",
+                "ea9a5885d7e6c6b1631495f201d6c2c069211e4d4ad61d8e2270d6d020f6cf14",
+                "c973fe994985273cc09da4615a58b4ec882495ad8f561c8c1cd8545f99fb3ef6",
+                "392be256247fc1bab20a6ce5fc4f8c9439a2924da0be5ecdf386f3743ee23380",
+                "ea43003d290e63faaa956fbc172f69b64a4b7257121d156f01fd307bf2601a20",
+                "66034fb823eb0e302e83caa302c0e3f5c072413a531b7becf9895b2db8215417",
+                "8292d1ffb413979d0e9483219220fce81189400f1c87d77a05f8798228fe4cb1",
+                "0fc5a49771391ca31fa3ee1f3d0acb906b5ae79d05d7357890f8fd2dfc831466",
+                "f1c22780d1e9e474b5ca2974b20746e0c735b33d5a464f8daf5702428b48b7f8",
+                "7345eeb2b7d96b52ba17b98d04e82ff58ec42612c96c1819854e811f655d2cdb",
+                "b5369fe5343dec93bec4d1d4ca438e856c972b38bc6be27cb24452313fa623d1",
+                "942da271df4c4bd2e4c9fa5e5b823e236d74909e36e15d1b667c53cb60bdc07e",
+                "4e2564ea606faa0f48bb59133031c259c603bbba0d2d8075db8e7a4010a32929",
+                "eb0d8f92517460be0727c5f1a535d3492f8d649357e178c08ab8e04b1ccdc584",
+                "d8e954f345275b5ecb0df989d0eb28b7f57421f372d2ede68f580fdf3b8b38ed",
+                "b6e9a6a57aaf0bd33c3cbc7b064e23f8b71d49863d897b04c78ee8a68bfc298a",
+                "552ad23758624e7acb03c462fde4b22e60b644121e434aea964cbd049cd68921",
+                "7adaa28cc832f81e4a62de678ee376e439f0cf0bfce9a20ed755c0c82ee95c26",
+                "fedc26cc56314d5011b19766b3501922213e0e848ac735dd02ed365b8df82bae",
+                "2878ba1cba9248c206aa401c2ff16b481045ca312541e90de9bb83107cd13433"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.bikesonline.com.au",
+                "www.blackpepper.com.au",
+                "www.thewinecollective.com.au",
+                "www.papinelle.com",
+                "www.spacefurniture.com.au",
+                "au.yeti.com",
+                "www.cassbrothers.com.au",
+                "www.thebluespace.com.au",
+                "www.jardan.com.au",
+                "www.buyorganicsonline.com.au",
+                "musclenation.org",
+                "milligram.com",
+                "www.mrfothergills.com.au",
+                "ajeworld.com.au",
+                "www.shiels.com.au",
+                "au.seafolly.com",
+                "www.esther.com.au",
+                "www.princesspolly.com.au",
+                "matchbox.com.au",
+                "frankie4.com"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/code\\/swym-ext-shopify\\.js",
+            "cookies": 0.00171,
+            "fingerprinting": 1,
+            "subdomains": [
+                "procdn",
+                "freecdn",
+                "startercdn",
+                "premcdn",
+                "entcdn"
+            ],
+            "apis": {
+                "window.localStorage": 17,
+                "Document.cookie setter": 17,
+                "Document.cookie getter": 17,
+                "Date.prototype.getTime": 17,
+                "Navigator.prototype.userAgent": 17
+            },
+            "sites": 18,
+            "prevalence": 0.00181,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {
+                "__verify": {
+                    "ttl": -1520111032,
+                    "length": 1,
+                    "prevalence": 0.0017075130574527922,
+                    "uniqueness": 0.058823529411764705
+                },
+                "swym-session-id": {
+                    "ttl": 1822,
+                    "length": 66,
+                    "prevalence": 0.0017075130574527922,
+                    "uniqueness": 1
+                },
+                "swym-pid": {
+                    "ttl": 31536011,
+                    "length": 44,
+                    "prevalence": 0.0017075130574527922,
+                    "uniqueness": 1
+                },
+                "swym-v-ckd": {
+                    "ttl": 1812,
+                    "length": 1,
+                    "prevalence": 0.0017075130574527922,
+                    "uniqueness": 0.058823529411764705
+                },
+                "swym-swymRegid": {
+                    "ttl": 31536015,
+                    "length": 173,
+                    "prevalence": 0.0017075130574527922,
+                    "uniqueness": 1
+                },
+                "swym-email": {
+                    "ttl": 31536012,
+                    "length": 4,
+                    "prevalence": 0.0017075130574527922,
+                    "uniqueness": 0.058823529411764705
+                },
+                "swym-instrumentMap": {
+                    "ttl": 31536015,
+                    "length": 22,
+                    "prevalence": 0.0017075130574527922,
+                    "uniqueness": 0.11764705882352941
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ajeworld.com.au",
+                "australherbs.com.au",
+                "bhumi.com.au",
+                "hobbytechtoys.com.au",
+                "seatosummit.com.au",
+                "www.bamboobody.com.au",
+                "www.betts.com.au",
+                "www.cassbrothers.com.au",
+                "www.esther.com.au",
+                "www.honeybirdette.com",
+                "www.metagenics.com.au",
+                "www.metrohobbies.com.au",
+                "www.mrfothergills.com.au",
+                "www.nourishedlife.com.au",
+                "www.papinelle.com",
+                "www.spacefurniture.com.au",
+                "www.thewinecollective.com.au",
+                "www.worldofbooks.com"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/code\\/swym-ext-shopify\\.js",
+            "cookies": 0.00171,
+            "fingerprinting": 1,
+            "subdomains": [
+                "procdn",
+                "freecdn",
+                "startercdn",
+                "premcdn",
+                "entcdn"
+            ],
+            "apis": {
+                "window.localStorage": 17,
+                "Document.cookie setter": 17,
+                "Document.cookie getter": 17,
+                "Date.prototype.getTime": 17,
+                "Navigator.prototype.userAgent": 17
+            },
+            "sites": 18,
+            "prevalence": 0.00181,
+            "cnames": [],
+            "responseHashes": [
+                "3d05c09454f4d954d79b10e6cff0205167521165bffe901285186d3ea8216207",
+                "2d36be20035facded9bb09953d69b871338d1018987a9bb84640d95b4a94d378",
+                "1c28626586eeb237c957ced79825283a19e36cafb8e8605f6e98a00dc0e183a7",
+                "c1d6b0ca45052c2f740dfb3910d24dbd2f640bff8ced0951715dea9afd3186d1",
+                "e042a8cd0bb9cf54a76059710677e7e3231bb7fd5876b3d3787275b85870d637"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {
+                "__verify": {
+                    "ttl": -1520111032,
+                    "length": 1,
+                    "prevalence": 0.0017075130574527922,
+                    "uniqueness": 0.058823529411764705
+                },
+                "swym-session-id": {
+                    "ttl": 1822,
+                    "length": 66,
+                    "prevalence": 0.0017075130574527922,
+                    "uniqueness": 1
+                },
+                "swym-pid": {
+                    "ttl": 31536011,
+                    "length": 44,
+                    "prevalence": 0.0017075130574527922,
+                    "uniqueness": 1
+                },
+                "swym-v-ckd": {
+                    "ttl": 1812,
+                    "length": 1,
+                    "prevalence": 0.0017075130574527922,
+                    "uniqueness": 0.058823529411764705
+                },
+                "swym-swymRegid": {
+                    "ttl": 31536015,
+                    "length": 173,
+                    "prevalence": 0.0017075130574527922,
+                    "uniqueness": 1
+                },
+                "swym-email": {
+                    "ttl": 31536012,
+                    "length": 4,
+                    "prevalence": 0.0017075130574527922,
+                    "uniqueness": 0.058823529411764705
+                },
+                "swym-instrumentMap": {
+                    "ttl": 31536015,
+                    "length": 22,
+                    "prevalence": 0.0017075130574527922,
+                    "uniqueness": 0.11764705882352941
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ajeworld.com.au",
+                "australherbs.com.au",
+                "bhumi.com.au",
+                "hobbytechtoys.com.au",
+                "seatosummit.com.au",
+                "www.bamboobody.com.au",
+                "www.betts.com.au",
+                "www.cassbrothers.com.au",
+                "www.esther.com.au",
+                "www.honeybirdette.com",
+                "www.metagenics.com.au",
+                "www.metrohobbies.com.au",
+                "www.mrfothergills.com.au",
+                "www.nourishedlife.com.au",
+                "www.papinelle.com",
+                "www.spacefurniture.com.au",
+                "www.thewinecollective.com.au",
+                "www.worldofbooks.com"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/code\\/v3\\/apps\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "procdn",
+                "premcdn",
+                "startercdn",
+                "freecdn",
+                "entcdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 59
+            },
+            "sites": 61,
+            "prevalence": 0.00613,
+            "cnames": [],
+            "responseHashes": [
+                "776524dc5b36bc891a45eb163783228529c15c81891a1795d4ea9f7748b76731",
+                "f13dfe628e17acd8281a4c1572e8558ce8319f41cbc7b1121c02478e86ffb131",
+                "a9c4970a77cf6f49c0c88fcfec3a9e63417c20fe8eeb8ef02f5053d03aa8a627",
+                "2c92e95f65d5d18fdf10c1c111a3d8c3346c99f6646adedad3da6a226de7b2f9",
+                "64fba8b411086d8141cce4fc709e327ab12bdc5c46f5c3ae116eb12ce5fff933"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.princesspolly.com.au",
+                "www.tupperware.com.au",
+                "saltandpepper.com.au",
+                "www.thebluespace.com.au",
+                "fellahamilton.com.au",
+                "casioau.com",
+                "www.jardan.com.au",
+                "blueillusion.com",
+                "riot.com.au",
+                "www.spacefurniture.com.au",
+                "www.rjliving.com.au",
+                "www.diggers.com.au",
+                "www.meshki.com.au",
+                "www.worldofbooks.com",
+                "matchbox.com.au",
+                "ppdperformance.com.au",
+                "www.metagenics.com.au",
+                "bhumi.com.au",
+                "www.honeybirdette.com",
+                "www.manchesterwarehouse.com.au"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/code\\/v3\\/loadStrings1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "procdn",
+                "startercdn",
+                "freecdn",
+                "premcdn",
+                "entcdn"
+            ],
+            "apis": {},
+            "sites": 60,
+            "prevalence": 0.00603,
+            "cnames": [],
+            "responseHashes": [
+                "aada0cad242f7ab0afd6124d1f81a1693bd37391380334bd46d99ce3fb737e2d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "musclenation.org",
+                "www.gazman.com.au",
+                "www.floraandfauna.com.au",
+                "matchbox.com.au",
+                "australherbs.com.au",
+                "ajeworld.com.au",
+                "www.bathwaredirect.com.au",
+                "www.princesspolly.com.au",
+                "www.bikesonline.com.au",
+                "www.grahams.com.au",
+                "riot.com.au",
+                "blueillusion.com",
+                "www.debras.com.au",
+                "casioau.com",
+                "saltandpepper.com.au",
+                "www.spacefurniture.com.au",
+                "www.metrohobbies.com.au",
+                "au.yeti.com",
+                "frankie4.com",
+                "www.meshki.com.au"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/code\\/v3\\/3233\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "procdn",
+                "freecdn",
+                "premcdn",
+                "entcdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "6b2ece01c57d788d109b46f2833a9a28c432346211229c57e494e57804b330b1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ajeworld.com.au",
+                "australherbs.com.au",
+                "www.biome.com.au",
+                "www.georges.com.au",
+                "www.shiels.com.au",
+                "www.worldofbooks.com"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/code\\/v3\\/5905\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "procdn",
+                "startercdn",
+                "freecdn",
+                "premcdn",
+                "entcdn"
+            ],
+            "apis": {},
+            "sites": 54,
+            "prevalence": 0.00542,
+            "cnames": [],
+            "responseHashes": [
+                "a720caef21d5ec4bd61a29f535c9d8d43e8d6fa63347755f4784cf9dcafeeb76"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.jardan.com.au",
+                "www.metagenics.com.au",
+                "www.culturekings.com.au",
+                "riot.com.au",
+                "blueillusion.com",
+                "www.betts.com.au",
+                "www.manchesterwarehouse.com.au",
+                "www.blackpepper.com.au",
+                "www.cassbrothers.com.au",
+                "www.rjliving.com.au",
+                "www.worldofbooks.com",
+                "australherbs.com.au",
+                "musclenation.org",
+                "www.meshki.com.au",
+                "www.georges.com.au",
+                "www.thebluespace.com.au",
+                "www.nourishedlife.com.au",
+                "www.mrfothergills.com.au",
+                "www.grahams.com.au",
+                "www.tupperware.com.au"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/code\\/v3\\/4980\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "procdn",
+                "startercdn",
+                "freecdn",
+                "premcdn",
+                "entcdn"
+            ],
+            "apis": {},
+            "sites": 54,
+            "prevalence": 0.00542,
+            "cnames": [],
+            "responseHashes": [
+                "96b8cb3670a0403cdc305a9549ab639877ca6933b37654179e6c5e15f31b3e42"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hobbytechtoys.com.au",
+                "au.yeti.com",
+                "www.bikesonline.com.au",
+                "www.diggers.com.au",
+                "www.georges.com.au",
+                "www.gazman.com.au",
+                "clarks.com.au",
+                "www.metagenics.com.au",
+                "www.bookbindersdesign.com.au",
+                "www.shiels.com.au",
+                "www.blackpepper.com.au",
+                "billyj.com.au",
+                "blueillusion.com",
+                "www.sportspower.com.au",
+                "www.stfrock.com.au",
+                "www.betts.com.au",
+                "www.watchdepot.com.au",
+                "www.kookai.com.au",
+                "www.honeybirdette.com",
+                "www.bamboobody.com.au"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/code\\/v3\\/secondaryStyles\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "procdn",
+                "startercdn",
+                "freecdn",
+                "premcdn",
+                "entcdn"
+            ],
+            "apis": {},
+            "sites": 59,
+            "prevalence": 0.00593,
+            "cnames": [],
+            "responseHashes": [
+                "ea175ec9727162965643fc22ac601ba1a922de3cb143d00bef93133edcd91e1b",
+                "8cb35b556a9fb8335f1fa4072121e7b192aa96b3d93dd14b9695b25b46668417",
+                "8fd5fedc5c0560b68aff420dd5caa2e3c1962acd8e7b0c39a34f334d888af233",
+                "08f8a333323941ee908839c18cb1fe5eb98049b5f74f2880879824317afc4331",
+                "be1e78a80b9c226f56aecb6684502885596911b4bfd125df9707ddd69b5045a6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "billyj.com.au",
+                "www.diggers.com.au",
+                "www.debras.com.au",
+                "www.nourishedlife.com.au",
+                "musclenation.org",
+                "www.spacefurniture.com.au",
+                "www.jardan.com.au",
+                "blueillusion.com",
+                "hobbytechtoys.com.au",
+                "www.bookbindersdesign.com.au",
+                "www.bathwaredirect.com.au",
+                "www.meshki.com.au",
+                "fellahamilton.com.au",
+                "www.georges.com.au",
+                "www.kookai.com.au",
+                "www.rjliving.com.au",
+                "www.gapgames.com.au",
+                "www.stfrock.com.au",
+                "www.metrohobbies.com.au",
+                "www.betts.com.au"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/api\\/v2\\/provider\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "swymstore-v3pro-01",
+                "swymstore-v3starter-01",
+                "swymstore-v3free-01",
+                "swymstore-v3premium-01",
+                "swymstore-v3enterprise-01"
+            ],
+            "apis": {},
+            "sites": 59,
+            "prevalence": 0.00593,
+            "cnames": [],
+            "responseHashes": [
+                "0b13cca3e9d60158da260c9d1d341b2a11b814c70db55ddb86a72e4919236271",
+                "9a733eae764fe4a265058da24a0484b1d504c8dfb89e3ad149064a13d192e3af",
+                "76bf2abb5744f821b5b4308a7f38b666d5f4ce8b228ca03f924068929a953909",
+                "6909b445a2a4eee49ce44bb95fdede25a628f0eeb6e5ee07ef18b237fb0a09de",
+                "f4145c931d080060613eb4159a7ee6ecf8d7eb776e9f3aef70a844dc35fdc9fa",
+                "986514c2b5b24748c44bbba9e3bf26be15ad5f532fea69f392b882b9a694b259",
+                "96af17b29fbcf44144d130b0ba434b1c0682a0cc63257c24beff91fbb14be9ba",
+                "7f21a8fd9463c0dbd44c9e378200fdd4322e9bb85b0ed27a467e3577bc922270",
+                "3d56d4d4b8b2dd282c6f7546233987fd6db39309eafc319d650a3be8a091f1e9",
+                "8f9e07c9be30cc432a08a92eedd681b324cf3b4e46d0243ec298bef9adccc4dd",
+                "9b0d65fd6fdf9412be765688a48e705e3e1ff065117236f5bd1085dee7d8b5b2",
+                "24f5d0266b2f646abdffcbc4843c436c8945e2952c55167407eb02da497eb713",
+                "89855089486b79cea68471e123eac0004bef93447202f6e38c37d023a48a8c7c",
+                "963863dc0982bba34d09ad4978178358edf101a9c660191586c4995ce43dd05c",
+                "e9d0d139f03444a5178cb46a5e5fefd8a6ff3818e6190950ef8b1b0cb2b6800c",
+                "615f9b50005a4f7ab32a6ae6223a2cb48073205981a7b09b0a11c3bb8d251e99",
+                "efbbff2d116562482b777064a954460ba2553f15963a6e44cd189dc94191af4b",
+                "b045bed89c2983c9ebbaf8e44ea251ef18b760b75269f5a6f01a93915ae00e3d",
+                "c0d58756c3f6d4ef59819626fd55b7c6f9ce21a0d4cf2f16fceeff2d07310b56",
+                "e8ff03287b9d4e50b71ab257c17538d975bd5ff03450c533f37edfe0defefcb2",
+                "31e4a14df4c37be22942b056a25a6196f6f1fd8ce45caa181698236e81ad158f",
+                "0fd8a3c45b3a68161bc0719e2a9f31b79e2e7ead161f63f3b062498ae92cbead",
+                "cff7d98ff41dd8b97fdd2be55ed64dce2946dbda0b97cba71498ab7abebad1cf",
+                "c6501fe3f9f25035e4af8f7a69a92c8fe65b1ca82bc25a95b6e051215deb403a",
+                "f4f751cfbb4a849a2d54c1018cdb37850c64c69a9a0f679af25fe1e3fd762ad5",
+                "54f6566102b45f08022808307bf038111147c3aeddf7944e4e883193588f204c",
+                "487476e129da27299d83870b048efffdfd17b8f9977d41aced1697457ad7f3ce",
+                "e3f68b742442864df1d30fbdf28b3dd75d3c2619432e4cb00a4a394f945a2e0e",
+                "799640210e6d5ac25f221b9f0af6351c302e8038796ab06cf50e4392cde93417",
+                "89ffae11966ae84b444da11872ed3adfc0f7681f843c5d6e660e9e18669ac598",
+                "de55d7bbbc2c5fd0eb6c8527d41dad76523c582520b007e31634e60cf371b25f",
+                "e6b87c9c9e2df77aeab3f1974ad992dcac3fc84c047a90ebebc139472de4df6e",
+                "003a02f8bd74d13f9cefaacd6c935616ad7675fe2d2baae89b5737efb42ec4b4",
+                "c6fdc753168e83899666613b6c1ab72ef8ad406310a78a7e43f7bd3c7eaee7cb",
+                "5d83d4eb9e19de6b28a6aa772c64cdeb00c8640d6632f9e599e73c0c12e7fc87",
+                "ec0cad265e8256c49d16d3ecaaa8a03c1ffee73b116395d1863e5f2d942408ac",
+                "1a89f27ec84b5a9f51d0f9315003bfcf1b0aeb5d8272cdb6c72391f7055ca277",
+                "b0d8a2480abc5e6323f8eb85f6d56aa900dbc637655f542cd90ec327b2ec3914",
+                "617cd66131310ade7c657e24165d4353b572129276cae47ca9a1252033c4b3f0",
+                "acfdb3d28ce42f1dff816d925f66cdf3a9b14043e0be8b8c30a83f99afaff1fc",
+                "17d68891ab7e9d8860e3edb29970a240d69788623593b6a47435544e449d5e58",
+                "ee84a753fb70e56afb16e7de4442cd8c2ef7f814e78f955acfb76c6d0d9beeb5",
+                "863647e1f3255204388ad26bccb53585a16be642815897c3bf21e16939d161e5",
+                "c0953bbf52ae0866372ef79ca70e85b97088ce63879dcdb3aedaeeb41a1e8c3f",
+                "b1d13761ba82620e4a5188a6476aca7e791fc937fa1d45d6175fd19c33db9620",
+                "56a90e3be74b98e71722a0d90aec64981152dc1b73132fe00a01d5ed359cac44",
+                "c5129d665783c98e51954dc5fbb8c45e62024c1ed1252cd8d95d25223c0e6aa6",
+                "b894cf0a437c52949b30179dfb0bbd06f6d0c5504096864d0d1b53fc26c8505f",
+                "f6baaea001752f237dabf155cf72a43d84fa7d474f38f076e9f1c7978b8b8438",
+                "f875052eff9006b49a6262d6cbc56ca1bdb4b39693301d7223644944dd9629f2",
+                "028c7866bd79530cc737f98c9b82879dad69cead0e8b775e66e79f4ffd5dbc28",
+                "86f68b57c3a2ffbffecc54d79b5e96771c7d8d1e98467d1cae8968732693fe07",
+                "dd0a7b3c368b2e2b3042c6490b2e97a6a5f8e6f4444e54f868997c3a3662c374",
+                "d45abb0228db9b4bd41cf09a60bc54096953ab3fd78383291d2d38bd60ab9741",
+                "b2c5217ef94015bcc7aae27859210ac0c5c09b16b56698094b6cf649c6c27f81"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "casioau.com",
+                "www.tupperware.com.au",
+                "frankie4.com",
+                "ppdperformance.com.au",
+                "blueillusion.com",
+                "www.thewinecollective.com.au",
+                "milligram.com",
+                "www.shiels.com.au",
+                "www.thebluespace.com.au",
+                "www.spacefurniture.com.au",
+                "au.yeti.com",
+                "www.gazman.com.au",
+                "www.betts.com.au",
+                "www.sportspower.com.au",
+                "australherbs.com.au",
+                "www.nourishedlife.com.au",
+                "bhumi.com.au",
+                "matchbox.com.au",
+                "www.gapgames.com.au",
+                "www.bookbindersdesign.com.au"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/api\\/v3\\/lists\\/fetch-lists",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "swymstore-v3pro-01",
+                "swymstore-v3free-01",
+                "swymstore-v3premium-01"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ajeworld.com.au",
+                "goodnessme.com.au",
+                "seatosummit.com.au",
+                "www.culturekings.com.au",
+                "www.princesspolly.com.au",
+                "www.spacefurniture.com.au",
+                "www.stfrock.com.au"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/code\\/v3\\/swym_fonts\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "startercdn",
+                "freecdn",
+                "procdn",
+                "premcdn"
+            ],
+            "apis": {},
+            "sites": 21,
+            "prevalence": 0.00211,
+            "cnames": [],
+            "responseHashes": [
+                "eec39015505be5c8f43e0bea54219f165ce607be9c07ce433f9c79a6ac3c2c01"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "seatosummit.com.au",
+                "www.grahams.com.au",
+                "www.metrohobbies.com.au",
+                "www.betts.com.au",
+                "frankie4.com",
+                "sproutwellgreenhouses.com.au",
+                "www.georges.com.au",
+                "www.floraandfauna.com.au",
+                "yeti.com",
+                "hobbytechtoys.com.au",
+                "www.bamboobody.com.au",
+                "billyj.com.au",
+                "www.metagenics.com.au",
+                "www.mrfothergills.com.au",
+                "www.gapgames.com.au",
+                "www.esther.com.au",
+                "www.honeybirdette.com",
+                "australherbs.com.au",
+                "www.rjliving.com.au",
+                "www.biome.com.au"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/code\\/swym-shopify\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 1,
+            "subdomains": [
+                "freecdn",
+                "premcdn",
+                "startercdn"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Document.cookie setter": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "c1d6b0ca45052c2f740dfb3910d24dbd2f640bff8ced0951715dea9afd3186d1",
+                "3d05c09454f4d954d79b10e6cff0205167521165bffe901285186d3ea8216207",
+                "1c28626586eeb237c957ced79825283a19e36cafb8e8605f6e98a00dc0e183a7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__verify": {
+                    "ttl": -1520110566,
+                    "length": 1,
+                    "prevalence": 0.0004017677782241864,
+                    "uniqueness": 0.25
+                },
+                "swym-session-id": {
+                    "ttl": 1824,
+                    "length": 66,
+                    "prevalence": 0.0004017677782241864,
+                    "uniqueness": 1
+                },
+                "swym-pid": {
+                    "ttl": 31536008,
+                    "length": 44,
+                    "prevalence": 0.0004017677782241864,
+                    "uniqueness": 1
+                },
+                "swym-v-ckd": {
+                    "ttl": 1810,
+                    "length": 1,
+                    "prevalence": 0.0004017677782241864,
+                    "uniqueness": 0.25
+                },
+                "swym-swymRegid": {
+                    "ttl": 31536012,
+                    "length": 173,
+                    "prevalence": 0.0004017677782241864,
+                    "uniqueness": 1
+                },
+                "swym-email": {
+                    "ttl": 31536010,
+                    "length": 4,
+                    "prevalence": 0.0004017677782241864,
+                    "uniqueness": 0.25
+                },
+                "swym-instrumentMap": {
+                    "ttl": 31536012,
+                    "length": 2,
+                    "prevalence": 0.0004017677782241864,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "australherbs.com.au",
+                "milligram.com",
+                "www.everten.com.au",
+                "www.jardan.com.au"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/code\\/swym-shopify\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 1,
+            "subdomains": [
+                "freecdn",
+                "premcdn",
+                "startercdn"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Document.cookie setter": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "c1d6b0ca45052c2f740dfb3910d24dbd2f640bff8ced0951715dea9afd3186d1",
+                "3d05c09454f4d954d79b10e6cff0205167521165bffe901285186d3ea8216207",
+                "1c28626586eeb237c957ced79825283a19e36cafb8e8605f6e98a00dc0e183a7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {
+                "__verify": {
+                    "ttl": -1520110566,
+                    "length": 1,
+                    "prevalence": 0.0004017677782241864,
+                    "uniqueness": 0.25
+                },
+                "swym-session-id": {
+                    "ttl": 1824,
+                    "length": 66,
+                    "prevalence": 0.0004017677782241864,
+                    "uniqueness": 1
+                },
+                "swym-pid": {
+                    "ttl": 31536008,
+                    "length": 44,
+                    "prevalence": 0.0004017677782241864,
+                    "uniqueness": 1
+                },
+                "swym-v-ckd": {
+                    "ttl": 1810,
+                    "length": 1,
+                    "prevalence": 0.0004017677782241864,
+                    "uniqueness": 0.25
+                },
+                "swym-swymRegid": {
+                    "ttl": 31536012,
+                    "length": 173,
+                    "prevalence": 0.0004017677782241864,
+                    "uniqueness": 1
+                },
+                "swym-email": {
+                    "ttl": 31536010,
+                    "length": 4,
+                    "prevalence": 0.0004017677782241864,
+                    "uniqueness": 0.25
+                },
+                "swym-instrumentMap": {
+                    "ttl": 31536012,
+                    "length": 2,
+                    "prevalence": 0.0004017677782241864,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "australherbs.com.au",
+                "milligram.com",
+                "www.everten.com.au",
+                "www.jardan.com.au"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/code\\/swym-shopify\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 1,
+            "subdomains": [
+                "freecdn",
+                "premcdn",
+                "startercdn"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Document.cookie setter": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {
+                "__verify": {
+                    "ttl": -1520110566,
+                    "length": 1,
+                    "prevalence": 0.0004017677782241864,
+                    "uniqueness": 0.25
+                },
+                "swym-session-id": {
+                    "ttl": 1824,
+                    "length": 66,
+                    "prevalence": 0.0004017677782241864,
+                    "uniqueness": 1
+                },
+                "swym-pid": {
+                    "ttl": 31536008,
+                    "length": 44,
+                    "prevalence": 0.0004017677782241864,
+                    "uniqueness": 1
+                },
+                "swym-v-ckd": {
+                    "ttl": 1810,
+                    "length": 1,
+                    "prevalence": 0.0004017677782241864,
+                    "uniqueness": 0.25
+                },
+                "swym-swymRegid": {
+                    "ttl": 31536012,
+                    "length": 173,
+                    "prevalence": 0.0004017677782241864,
+                    "uniqueness": 1
+                },
+                "swym-email": {
+                    "ttl": 31536010,
+                    "length": 4,
+                    "prevalence": 0.0004017677782241864,
+                    "uniqueness": 0.25
+                },
+                "swym-instrumentMap": {
+                    "ttl": 31536012,
+                    "length": 2,
+                    "prevalence": 0.0004017677782241864,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "australherbs.com.au",
+                "milligram.com",
+                "www.everten.com.au",
+                "www.jardan.com.au"
+            ]
+        },
+        {
+            "rule": "swymrelay\\.com\\/code\\/v3\\/938\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "freecdn",
+                "startercdn",
+                "entcdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "a2f90737d5c301b71e2a416fe52c2483ac7315145ff7673e330784d8a7860015"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bikesonline.com.au",
+                "www.jardan.com.au",
+                "www.worldofbooks.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00211,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5891783567134269
+        },
+        {
+            "domain": "azureedge.net",
+            "prevalence": 0.3727454909819639
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.01002004008016032
+        },
+        {
+            "domain": "visually-io.com",
+            "prevalence": 0.008016032064128256
+        },
+        {
+            "domain": "minmaxify.com",
+            "prevalence": 0.008016032064128256
+        },
+        {
+            "domain": "intelligems.io",
+            "prevalence": 0.004008016032064128
+        },
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.004008016032064128
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.004008016032064128
+        }
+    ],
+    "types": {
+        "Script": 319,
+        "XHR": 150,
+        "Preflight": 22,
+        "Font": 21
+    },
+    "nameservers": [
+        "ns66.domaincontrol.com",
+        "ns65.domaincontrol.com"
+    ]
+}

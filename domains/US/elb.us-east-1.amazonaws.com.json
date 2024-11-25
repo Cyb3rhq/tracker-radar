@@ -1,0 +1,450 @@
+{
+    "domain": "elb.us-east-1.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000198,
+    "sites": 29,
+    "subdomains": [
+        "ac39645cb049e4a2aaf9e4bf32a72c48-4de64895f6fd2728",
+        "a25141f5c1a354f21b52ba4511ba56fd-2e59007c4b1c5393",
+        "ada9a682ca3414875944471a7a35bab6-04c8f99985b6fc78",
+        "l4-logs-http-rum-pub-s1-6386d34262e59173",
+        "webmgmtwebhosting-std-pub-nlb-1f2d41369f5ca1c8",
+        "nlb-ac-alb1-ca5704a7436d2808",
+        "leed-ecs-lb-main-77f92750f27f8c46"
+    ],
+    "cnames": [
+        {
+            "original": "8b61d74c.datadoghq.com",
+            "resolved": "l4-logs-http-rum-pub-s1-6386d34262e59173.elb.us-east-1.amazonaws.com"
+        },
+        {
+            "original": "api.carpartplanet.com",
+            "resolved": "ac39645cb049e4a2aaf9e4bf32a72c48-4de64895f6fd2728.elb.us-east-1.amazonaws.com"
+        },
+        {
+            "original": "api.reman-engine.com",
+            "resolved": "a25141f5c1a354f21b52ba4511ba56fd-2e59007c4b1c5393.elb.us-east-1.amazonaws.com"
+        },
+        {
+            "original": "api.reman-transmission.com",
+            "resolved": "ada9a682ca3414875944471a7a35bab6-04c8f99985b6fc78.elb.us-east-1.amazonaws.com"
+        },
+        {
+            "original": "platform-api.usgbc.org",
+            "resolved": "leed-ecs-lb-main-77f92750f27f8c46.elb.us-east-1.amazonaws.com"
+        },
+        {
+            "original": "syndication.aspencore.com",
+            "resolved": "nlb-ac-alb1-ca5704a7436d2808.elb.us-east-1.amazonaws.com"
+        },
+        {
+            "original": "template.aws.emory.edu",
+            "resolved": "webmgmtwebhosting-std-pub-nlb-1f2d41369f5ca1c8.elb.us-east-1.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ac39645cb049e4a2aaf9e4bf32a72c48-4de64895f6fd2728",
+                "a25141f5c1a354f21b52ba4511ba56fd-2e59007c4b1c5393",
+                "ada9a682ca3414875944471a7a35bab6-04c8f99985b6fc78"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "api.carpartplanet.com",
+                    "resolved": "ac39645cb049e4a2aaf9e4bf32a72c48-4de64895f6fd2728.elb.us-east-1.amazonaws.com"
+                },
+                {
+                    "original": "api.reman-engine.com",
+                    "resolved": "a25141f5c1a354f21b52ba4511ba56fd-2e59007c4b1c5393.elb.us-east-1.amazonaws.com"
+                },
+                {
+                    "original": "api.reman-transmission.com",
+                    "resolved": "ada9a682ca3414875944471a7a35bab6-04c8f99985b6fc78.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carpartplanet.com",
+                "reman-engine.com",
+                "reman-transmission.com"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ac39645cb049e4a2aaf9e4bf32a72c48-4de64895f6fd2728",
+                "a25141f5c1a354f21b52ba4511ba56fd-2e59007c4b1c5393",
+                "ada9a682ca3414875944471a7a35bab6-04c8f99985b6fc78"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "api.carpartplanet.com",
+                    "resolved": "ac39645cb049e4a2aaf9e4bf32a72c48-4de64895f6fd2728.elb.us-east-1.amazonaws.com"
+                },
+                {
+                    "original": "api.reman-engine.com",
+                    "resolved": "a25141f5c1a354f21b52ba4511ba56fd-2e59007c4b1c5393.elb.us-east-1.amazonaws.com"
+                },
+                {
+                    "original": "api.reman-transmission.com",
+                    "resolved": "ada9a682ca3414875944471a7a35bab6-04c8f99985b6fc78.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "c7682fb89236766d039f9c72f89dca916ef0003a9c43eba22ca9704194c15115"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carpartplanet.com",
+                "reman-engine.com",
+                "reman-transmission.com"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/api\\/v2\\/replay",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "l4-logs-http-rum-pub-s1-6386d34262e59173"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "8b61d74c.datadoghq.com",
+                    "resolved": "l4-logs-http-rum-pub-s1-6386d34262e59173.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "72abe7dd7597e18be3c2784f282c3a08c20a901175c15ea535c9c6264854f4c5",
+                "e3a3e66f4bf092af62e51117251f515d86f09e90fd83aac53a9260b9049ff56a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "datadoghq.com",
+                "docs.datadoghq.com",
+                "www.datadoghq.com"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/shared-assets\\/feed\\/proxy\\.php",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webmgmtwebhosting-std-pub-nlb-1f2d41369f5ca1c8"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "template.aws.emory.edu",
+                    "resolved": "webmgmtwebhosting-std-pub-nlb-1f2d41369f5ca1c8.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "c542d5faf15e54e835bc066aa76cbbd60d92d25143651dd98c7d7940d2b1b025"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "emory.edu",
+                "www.emory.edu"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/shared-assets\\/emergency\\/alert-feed\\.php",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webmgmtwebhosting-std-pub-nlb-1f2d41369f5ca1c8"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "template.aws.emory.edu",
+                    "resolved": "webmgmtwebhosting-std-pub-nlb-1f2d41369f5ca1c8.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "emory.edu",
+                "law.emory.edu",
+                "med.emory.edu",
+                "news.emory.edu",
+                "www.emory.edu"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/api\\/v2\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "l4-logs-http-rum-pub-s1-6386d34262e59173"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "8b61d74c.datadoghq.com",
+                    "resolved": "l4-logs-http-rum-pub-s1-6386d34262e59173.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "2ff1749feadfe25ddca2ebbae14f3d941dcede8cf178bbe6d247a53c43a2479e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "datadoghq.com",
+                "www.datadoghq.com"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/syndication\\/v3\\/podcasts\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nlb-ac-alb1-ca5704a7436d2808"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "syndication.aspencore.com",
+                    "resolved": "nlb-ac-alb1-ca5704a7436d2808.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "9da5f276fbc6e9f7d3e38f20ed34f5de5656d3cf1fa0421870c83e245097c69a"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "edn.com",
+                "www.edn.com"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/syndication\\/v3\\/podcasts\\/script\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nlb-ac-alb1-ca5704a7436d2808"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "syndication.aspencore.com",
+                    "resolved": "nlb-ac-alb1-ca5704a7436d2808.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "62b748725eb5dc869dcff4e39f2a0df671a484b0873b5168af8c43728ff61138"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "edn.com",
+                "www.edn.com"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/syndication\\/v3\\/podcasts\\/onairlogo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nlb-ac-alb1-ca5704a7436d2808"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "syndication.aspencore.com",
+                    "resolved": "nlb-ac-alb1-ca5704a7436d2808.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "d0c924ebf9ba8f21ad3d64c7d8efa89a5e5b3e0b66518ee7bf8497d8bb86b112"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "edn.com",
+                "www.edn.com"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/OAuthClient\\/script\\/a6ca592f3f471953cc50d91c03b4597e\\.v1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "leed-ecs-lb-main-77f92750f27f8c46"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "platform-api.usgbc.org",
+                    "resolved": "leed-ecs-lb-main-77f92750f27f8c46.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "825d4bc05bf74325cb7e5ff3447b27651fd21e975014e02fff78e6fec351e278"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usgbc.org",
+                "www.usgbc.org"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/OAuthClient\\/status",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "leed-ecs-lb-main-77f92750f27f8c46"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "platform-api.usgbc.org",
+                    "resolved": "leed-ecs-lb-main-77f92750f27f8c46.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "aeeb8396149b9d2d8605606836091930f42a1e9286309dc8c198db0cee233dbb"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usgbc.org",
+                "www.usgbc.org"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/OAuthClient\\/script\\/1c3f8008e04cd154e9c24f1a97ff1b15\\.v1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "leed-ecs-lb-main-77f92750f27f8c46"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "platform-api.usgbc.org",
+                    "resolved": "leed-ecs-lb-main-77f92750f27f8c46.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "3f4ede1e6747885f42c31caf1c217b5ac3f3d421ae40ad25fd23495fb47d01cf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usgbc.org",
+                "www.usgbc.org"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000888,
+    "topInitiators": [
+        {
+            "domain": "jquery.com",
+            "prevalence": 0.35294117647058826
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.23529411764705882
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.17647058823529413
+        },
+        {
+            "domain": "is-ebird-web-static-content-prod.s3.amazonaws.com",
+            "prevalence": 0.11764705882352941
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.058823529411764705
+        },
+        {
+            "domain": "pointandplace.com",
+            "prevalence": 0.058823529411764705
+        }
+    ],
+    "types": {
+        "Preflight": 3,
+        "Fetch": 5,
+        "XHR": 8,
+        "Script": 8,
+        "Document": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-1286.awsdns-32.org",
+        "ns-1826.awsdns-36.co.uk",
+        "ns-281.awsdns-35.com",
+        "ns-844.awsdns-41.net"
+    ]
+}

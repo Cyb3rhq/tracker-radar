@@ -1,0 +1,1409 @@
+{
+    "domain": "tradingview.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000601,
+    "sites": 88,
+    "subdomains": [
+        "s3",
+        "s",
+        "widgetdata",
+        "pushstream",
+        "www",
+        "s3-symbol-logo",
+        "telemetry",
+        "scanner",
+        "snowplow-pixel"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "tradingview\\.com\\/tv\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000615,
+            "cnames": [],
+            "responseHashes": [
+                "06756610e3b434008fdbe87b2084aaf772971dac01abd96bb3deb79f28338e66"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "3commas.io",
+                "changenow.io",
+                "cryptoslate.com",
+                "goldpricez.com",
+                "goldprice.org",
+                "silverprice.org",
+                "thestockmarketwatch.com",
+                "www.ktbs.com",
+                "www.state-journal.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/widgetembed\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "36469e7b7afe7054793057b35d9c3b9de5825dca9b7a7b4d753c42764f94859e",
+                "86da099f172fb12a133d59cbef0f135b535a32fbe9c634504a12a48ddb2ff3fc"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "3commas.io",
+                "goldpricez.com",
+                "thestockmarketwatch.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/socket\\.io\\/websocket",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgetdata"
+            ],
+            "apis": {},
+            "sites": 82,
+            "prevalence": 0.00056,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0003962560634009701,
+                "_li_dcdm_c": 0.00006832001093120175
+            },
+            "exampleSites": [
+                "www.investopedia.com",
+                "www.jdnews.com",
+                "www.mainstreetnews.com",
+                "www.editorandpublisher.com",
+                "www.cadillacnews.com",
+                "www.berkshireeagle.com",
+                "www.pymnts.com",
+                "www.kxl.com",
+                "www.laconiadailysun.com",
+                "www.yoursourceone.com",
+                "www.arkansasbusiness.com",
+                "www.state-journal.com",
+                "www.times-herald.com",
+                "www.elconfidencial.com",
+                "www.btimesonline.com",
+                "www.morning-times.com",
+                "www.journalgazette.net",
+                "www.grandhaventribune.com",
+                "trendsjournal.com",
+                "www.wyomingnews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/message-pipe-ws\\/public",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pushstream"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "3commas.io",
+                "dollarcollapse.com",
+                "goldpricez.com",
+                "goldprice.org",
+                "silverprice.org",
+                "simpleswap.io",
+                "thestockmarketwatch.com",
+                "www.usagold.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/support\\/support-portal-problems\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s",
+                "www"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "9bf40c18a4b22428c00ae5ddb17ff9e721207f22ebe705fd7dffdfd150749e3b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "3commas.io",
+                "dollarcollapse.com",
+                "goldpricez.com",
+                "goldprice.org",
+                "silverprice.org",
+                "simpleswap.io",
+                "thestockmarketwatch.com",
+                "www.usagold.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/external-embedding\\/embed-widget-ticker-tape\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0000888,
+            "cnames": [],
+            "responseHashes": [
+                "186bcc05f5b870b7654a13f0263704082b3fbbce560aed44cdcb1b948cc1a081"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanfaith.com",
+                "barrettmedia.com",
+                "beforeitsnews.com",
+                "trendsjournal.com",
+                "www.borskollen.se",
+                "www.btimesonline.com",
+                "www.cryptopolitan.com",
+                "www.editorandpublisher.com",
+                "www.elconfidencial.com",
+                "www.elcolombiano.com",
+                "www.ibtimes.sg",
+                "www.investopedia.com",
+                "www.pymnts.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/alphabet\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "3589de148c9d81c39a4774eaeeeddde3bd4fcb8e8a13d7ef0e0f6aa69a72524d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barrettmedia.com",
+                "beforeitsnews.com",
+                "www.cryptopolitan.com",
+                "www.editorandpublisher.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/comcast\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bbf60fb0beea3d0f13608143f06047fadd42a4f2f496186e65cac811ff7b990f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barrettmedia.com",
+                "www.editorandpublisher.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/amazon\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "13d5e6581b694fe4f1e1006b44f7c163da1c97d038fe9f355e400c3c5991dbe1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barrettmedia.com",
+                "beforeitsnews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/beasley-broadcast\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4894ff0ccba6d9fbafeb9376c30138ad665b1e5d7009aeebf68a231110a6f60b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barrettmedia.com",
+                "www.editorandpublisher.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/news-corporation\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "47edd85d128e21baa26072f49d74528a0a4c13c186fa4fcc737ced387e313276"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barrettmedia.com",
+                "www.editorandpublisher.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/fox-corporation\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4efa5e41e1ab8e849f0753621e67f1f3c5613c17e435b015fd3250e46bb00cda"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barrettmedia.com",
+                "www.editorandpublisher.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/walt-disney\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "31257fdc7fa342a349e0e054c694570eba2bd8e05f44444def4021d549ed8153"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barrettmedia.com",
+                "beforeitsnews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/scripps-ew-company\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "050a1a68d6077b0656c781d4f5a155dd5f74419723e59371418d5676ffba4e51"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barrettmedia.com",
+                "www.editorandpublisher.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/meta-platforms\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "293eff2aa7a4048146447446eff25ae9776419aa39fd30e528c8847aa7b23643"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barrettmedia.com",
+                "beforeitsnews.com",
+                "www.cryptopolitan.com",
+                "www.editorandpublisher.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/nexstar-media\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e7fecc6e46306088b95fbce642e168859676d0d2b347b62da7e66c048e402e15"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barrettmedia.com",
+                "www.editorandpublisher.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/apple\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "92c90a9fad411e1735a51e42c34537725149bf0962aa30d593fe5f311be8d1bc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barrettmedia.com",
+                "beforeitsnews.com",
+                "www.cryptopolitan.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/sinclair-broadcast-group\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "215d6c0509ba504cfa1969c92278e7b6a1b23b72a2d3e787cf92a0be3b98f5ba"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barrettmedia.com",
+                "www.editorandpublisher.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/microsoft\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6bf4fad87b4483f83117912558a5b8daa68a01d9608f11d5ca9ca16053149e85"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beforeitsnews.com",
+                "www.cryptopolitan.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/tesla\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "338db12bc3e137ec430f9ba84de55c1a85c3185b98025de7ec213b042813238d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beforeitsnews.com",
+                "www.cryptopolitan.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/crypto\\/XTVCETH\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "9b9fe71606636a37b6f7fb74e8ea572130d0f61dbcd92fe3ae40e80425f56fb2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beforeitsnews.com",
+                "www.cryptopolitan.com",
+                "www.pymnts.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/crypto\\/XTVCBTC\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "4dfca512e957e14f05da07751a96061cf4bfd5df438504f65287fa0a8c3cadb6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beforeitsnews.com",
+                "dollarcollapse.com",
+                "www.borskollen.se",
+                "www.cryptopolitan.com",
+                "www.pymnts.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/country\\/US\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "35ab1f9323296d11a94fe10bc0cc8c77b440ffe53075dd73e50a5f048d9f39c9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beforeitsnews.com",
+                "www.borskollen.se",
+                "www.investopedia.com",
+                "www.kitco.com",
+                "www.pymnts.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/country\\/EU\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "b47993af3ef9963a193ddc9d0bd10fc8f1f773fe0881ffa3c8d2151498fccf03"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beforeitsnews.com",
+                "www.investopedia.com",
+                "www.kitco.com",
+                "www.pymnts.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/indices\\/nasdaq-100\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "425b69d42c6b0731fb094a37cbe1600ea1bfd57d2020094ecd0478e4d5720fa4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beforeitsnews.com",
+                "www.pymnts.com",
+                "www.realclearmarkets.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/indices\\/s-and-p-500\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "bc65c6721af6fef8b02dca12cd466a18150acbe66203f45d76782f210194867e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beforeitsnews.com",
+                "www.arkansasbusiness.com",
+                "www.borskollen.se",
+                "www.editorandpublisher.com",
+                "www.pymnts.com",
+                "www.realclearmarkets.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/embed-widget\\/symbol-overview\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "26939ebf99d56272817c863ff8c892f35639e592d4a4405357ce27e36475da59",
+                "0eb3c3fe24a5454a7e8d14fcebb49889b1d17b73aca95328e4150f46a0d14561"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "changenow.io",
+                "www.ktbs.com",
+                "www.state-journal.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/external-embedding\\/embed-widget-advanced-chart\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5ceb01af566a14daa338a3e194d75053eeed25e209a1b0d362b528be6d4ab2a0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dollarcollapse.com",
+                "simpleswap.io"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/conversions_en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dollarcollapse.com",
+                "goldpricez.com",
+                "goldprice.org",
+                "silverprice.org",
+                "simpleswap.io",
+                "thestockmarketwatch.com",
+                "www.usagold.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/conversions_en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [
+                "9e259ff8ad5d2c1a54ddccd0afaf8524ce62191b579c173400944f3ca97a71b8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dollarcollapse.com",
+                "goldpricez.com",
+                "goldprice.org",
+                "silverprice.org",
+                "simpleswap.io",
+                "thestockmarketwatch.com",
+                "www.usagold.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/metal\\/gold\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "9ef7e93476a9f5132f0c3b909c3d8b569cbb727188f5a07f2abe7d881d786006"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dollarcollapse.com",
+                "goldpricez.com",
+                "goldprice.org",
+                "trendsjournal.com",
+                "ussanews.com",
+                "www.borskollen.se",
+                "www.cryptopolitan.com",
+                "www.usagold.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/metal\\/silver\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "73fc3f194fea75788959fbf4099dba6c48fcd70deef2293d7d797fe697671764"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dollarcollapse.com",
+                "silverprice.org",
+                "trendsjournal.com",
+                "ussanews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/widget\\/report",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "telemetry"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dollarcollapse.com",
+                "goldpricez.com",
+                "goldprice.org",
+                "silverprice.org",
+                "simpleswap.io",
+                "thestockmarketwatch.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/goldprice\\/widgetembed\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e7c61271f217d1425eb5ed15d87e50afb3b6c301b17d8092ac8fb7cca96b4b24"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldprice.org",
+                "silverprice.org"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/static\\/images\\/widget-embed-logo\\/goldprice\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "daef56a350acb2228ef4d234142cf3ebf1348dcb91b8b5d4af537e92c19958ca"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldprice.org",
+                "silverprice.org"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/symbol",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scanner"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "50f57745f1a993ceb2014d0af93b9a07ec0d5b3e8c98bc502875f34c32886fdd",
+                "b8ddb5e826c7a7b135153cfe2a793ad3c7f2427d379b6b5d394780e5d3461ece"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goldprice.org",
+                "silverprice.org",
+                "thestockmarketwatch.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/i",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "snowplow-pixel"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thestockmarketwatch.com",
+                "ussanews.com",
+                "www.elconfidencial.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/spdr-sandp500-etf-tr\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cad088efc0978bf886800020a056e4eb07359385addebd54ad4422991689b844"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trendsjournal.com",
+                "www.investopedia.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/external-embedding\\/embed-widget-mini-symbol-overview\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dd0195eea67cec34daa75bee4ad903aa9b850f57a7061f0b2fd948729bf5025b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ussanews.com",
+                "www.elconfidencial.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/external-embedding\\/embed-widget-tickers\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3c6d6952aaeb287f4448923526c932945c53a7b6688483d6357d87469e2a672f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "an17.com",
+                "www.keysnews.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/external-embedding\\/embed-widget-market-overview\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 54,
+            "prevalence": 0.000369,
+            "cnames": [],
+            "responseHashes": [
+                "3e5d4f2cbb3948d73f8ded1de3dba8b7d8b18dd04ed5ad4f59b2acbef9f167c9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cb_svref": 0.00003416000546560088
+            },
+            "exampleSites": [
+                "www.citizentribune.com",
+                "www.indianagazette.com",
+                "www.laconiadailysun.com",
+                "www.fltimes.com",
+                "www.themountainpress.com",
+                "www.mainstreetnews.com",
+                "www.heraldpalladium.com",
+                "www.coronadonewsca.com",
+                "www.bedfordgazette.com",
+                "www.smdailyjournal.com",
+                "www.theprogressnews.com",
+                "www.djournal.com",
+                "www.berkshireeagle.com",
+                "www.yoursourceone.com",
+                "www.journalgazette.net",
+                "www.dailyrepublic.com",
+                "www.bigcountrynewsconnection.com",
+                "www.suncommercial.com",
+                "www.mtdemocrat.com",
+                "www.wdtimes.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/indices\\/dow-30\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "6b0d178ac1ad7fa7beee97e26131190501d7f9417f76e929ff46b9378dc83119"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arkansasbusiness.com",
+                "www.editorandpublisher.com",
+                "www.realclearmarkets.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/indices\\/dax\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "238f2f72cb8dc50543e1fd0f25bdfe8677c1166cc5cf0fee50b771474174f9fb"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "borskollen.se",
+                "www.realclearmarkets.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/crypto\\/XTVCBONK\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4e19c692bfb107803739ab6e767929aebb5f8171acf64ef39cb067cefaecf549"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cryptopolitan.com",
+                "www.cryptopolitan.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/crypto\\/XTVCWIF\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "906d0275439e3877b78fd02f2c85a9b0380694cd790845c9cdf59539d7cd798f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cryptopolitan.com",
+                "www.cryptopolitan.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/crypto\\/XTVCDOGE\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "02d453ba9c1f6d45ec6047a546c5ecc2f260825c06823ae0c5614ffac58eff6e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cryptopolitan.com",
+                "www.cryptopolitan.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/crypto\\/XTVCOP\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1096069e4b862c919b3ffd401ae24d79e9b09f65e3553c2a1b6814a790b008ec"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cryptopolitan.com",
+                "www.cryptopolitan.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/crypto\\/XTVCARBI\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "56d62ce9b2190bf36d2342fc4bc16ca3e4abdad55e634383c9525b6a0a03661d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cryptopolitan.com",
+                "www.cryptopolitan.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/crypto\\/XTVCTAOB\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9e27771c0c35f6d7576aa9cbe9de6ffd8b4390b205c8e4247464b9fe01205adc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cryptopolitan.com",
+                "www.cryptopolitan.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/crypto\\/XTVCLINK\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5391852a69b4689127e73c158bc23277ee13f3c1f41ee2946cd0ce35d9c141a2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cryptopolitan.com",
+                "www.cryptopolitan.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/crypto\\/XTVCXRP\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b2296bde0cbe8bc2cd069e06dcc26ebcd6cd3203dea044abf5a2fed0dc4ffbf6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cryptopolitan.com",
+                "www.cryptopolitan.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/crypto\\/XTVCICP\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8949856838c1992cb4bebfd2dbea879bb22e3477f5d0e460435d2af80e41e5f5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cryptopolitan.com",
+                "www.cryptopolitan.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/crypto\\/XTVCSOL\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0141d7d255194770d361e5414081a991f8b42663fc3390c2acf1501cb6766959"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cryptopolitan.com",
+                "www.cryptopolitan.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/crypto\\/XTVCFLOKI\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0245d3dbc0dc496f0fe40d1a4c6fcb1f58c8d8a27df9a8acf45640c74cb032c6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cryptopolitan.com",
+                "www.cryptopolitan.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/crypto\\/XTVCPEPE\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5fe4ab9970253fb7122357af8608bd12f91ce255d6304bd554f98355b23506b9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cryptopolitan.com",
+                "www.cryptopolitan.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/crypto\\/XTVCBNB\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3-symbol-logo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cce3fa1600b656dfe422f8b318ef6e2815bda2a3d4288e84ea93485d4a079a1d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cryptopolitan.com",
+                "www.cryptopolitan.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "tradingview-widget.com",
+            "prevalence": 0.7623529411764706
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.23529411764705882
+        },
+        {
+            "domain": "adlightning.com",
+            "prevalence": 0.002352941176470588
+        }
+    ],
+    "types": {
+        "Script": 82,
+        "Document": 8,
+        "WebSocket": 90,
+        "Fetch": 24,
+        "Image": 106,
+        "Other": 7,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns-1533.awsdns-63.org",
+        "ns-1853.awsdns-39.co.uk",
+        "ns-234.awsdns-29.com",
+        "ns-619.awsdns-13.net"
+    ]
+}

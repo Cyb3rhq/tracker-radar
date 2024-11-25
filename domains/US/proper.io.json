@@ -1,0 +1,1040 @@
+{
+    "domain": "proper.io",
+    "owner": {
+        "name": "Proper Media",
+        "displayName": "Proper Media"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000417,
+    "sites": 61,
+    "subdomains": [
+        "global",
+        "abcheck",
+        "bids",
+        "usync",
+        "eb",
+        "events"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "proper\\.io\\/payloads\\/latest\\.js",
+            "cookies": 0.000212,
+            "fingerprinting": 2,
+            "subdomains": [
+                "global"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 31,
+                "Document.cookie getter": 31,
+                "Date.prototype.getTime": 31,
+                "window.localStorage": 31,
+                "Navigator.prototype.cookieEnabled": 31,
+                "Date.prototype.getTimezoneOffset": 31,
+                "Navigator.prototype.language": 31,
+                "Document.cookie setter": 31,
+                "window.sessionStorage": 30,
+                "window.innerHeight": 28,
+                "window.innerWidth": 28,
+                "Screen.prototype.height": 26,
+                "Screen.prototype.width": 26,
+                "Navigator.prototype.doNotTrack": 23,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "window.devicePixelRatio": 17,
+                "Screen.prototype.availHeight": 14,
+                "Navigator.prototype.maxTouchPoints": 14,
+                "Navigator.prototype.vendor": 2
+            },
+            "sites": 31,
+            "prevalence": 0.000212,
+            "cnames": [],
+            "responseHashes": [
+                "3682ce850eb37d9c7692129c5bb2df91e13d1dbb91cd6e3a6f0cf04f0c62c942"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "properSessionStorage": {
+                    "ttl": 1807,
+                    "length": 445,
+                    "prevalence": 0.0002117920338867254,
+                    "uniqueness": 1
+                },
+                "_lr_retry_request": {
+                    "ttl": 3612,
+                    "length": 4,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_lr_env_src_ats": {
+                    "ttl": 2592012,
+                    "length": 5,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.dictionary.com",
+                "www.thesaurus.com",
+                "www.wordreference.com",
+                "www.zmenu.com",
+                "www.findacode.com",
+                "www.jambase.com",
+                "bigdiyideas.com",
+                "www.icd10data.com",
+                "www.dealcatcher.com",
+                "crooksandliars.com",
+                "www.whatismyip.com",
+                "www.puzzle-nonograms.com",
+                "celebwell.com",
+                "www.eatthis.com",
+                "finance.alot.com",
+                "bestlifeonline.com",
+                "www.chordie.com",
+                "www.osradar.com",
+                "notalwaysright.com",
+                "www.goodnewsnetwork.org"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/px\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "abcheck"
+            ],
+            "apis": {},
+            "sites": 35,
+            "prevalence": 0.000239,
+            "cnames": [],
+            "responseHashes": [
+                "b20ec51b9c3229719d56dfb4d7698e09bb02e0b8e2c527b5fde2624cc2ba7b1f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.dictionary.com",
+                "www.thesaurus.com",
+                "www.wordreference.com",
+                "www.dealcatcher.com",
+                "www.goodnewsnetwork.org",
+                "bigdiyideas.com",
+                "finance.alot.com",
+                "www.whatismyip.com",
+                "bestlifeonline.com",
+                "www.alternet.org",
+                "www.osradar.com",
+                "www.eatthis.com",
+                "www.jambase.com",
+                "amazingribs.com",
+                "www.upi.com",
+                "worldpopulationreview.com",
+                "www.zmenu.com",
+                "www1.salary.com",
+                "living.alot.com",
+                "www.bettycrocker.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/api\\/bidding",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bids"
+            ],
+            "apis": {},
+            "sites": 32,
+            "prevalence": 0.000219,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.dictionary.com",
+                "www.thesaurus.com",
+                "www.wordreference.com",
+                "thefreebieguy.com",
+                "www.eatthis.com",
+                "www.insidethehall.com",
+                "living.alot.com",
+                "bigdiyideas.com",
+                "www.goodnewsnetwork.org",
+                "www1.salary.com",
+                "www.puzzle-nonograms.com",
+                "www.chordie.com",
+                "www.theoi.com",
+                "notalwaysright.com",
+                "gamejolt.com",
+                "www.upi.com",
+                "www.alternet.org",
+                "worldpopulationreview.com",
+                "amazingribs.com",
+                "www.osradar.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/v1\\/usersync",
+            "cookies": 0.000123,
+            "fingerprinting": 0,
+            "subdomains": [
+                "usync"
+            ],
+            "apis": {},
+            "sites": 28,
+            "prevalence": 0.000191,
+            "cnames": [],
+            "responseHashes": [
+                "ce01aaf94a16ba451e9deed903867e893f7939a22128fb7af1d12ed75ada45af",
+                "98f3ce8b9a5cac6275871a308a43630fb633c64341262e8170b8c91ae8f2d651",
+                "1b7b531c675e72642aca592947b3e82a7cd930aea7fcdfb535e56fdf5e37cfe4",
+                "6b3277fc5ecb808b38c91ec848e6748b7e7096ea716cf0d2eb1ed8a51a1ea5f9",
+                "ff3e018201617f7e78c24ccd5ce5227d0bac2db1b3d031467a1a956e3927b1da",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "3b2dd573822b6e075e0439d86a1d135f9d68bd6e7bf359f89b0d457388b6ad9e",
+                "91797518c141adfe9a04941b0b60170df8e8e8580fb7f9c66fd568862e938a38",
+                "8c646fde4237656292f1d6b43d942edec9a71b79dcd4f4323b9f4fbe72d8d604",
+                "0db48fae96d2eb1b0851e9d1c2afe2cdf7bbaad9c525ecacf61df613cc08e3f3",
+                "c3bc5b3f12ce4c89e2875248b0a5b9ded6af2420e1efc006f03516b17c353930",
+                "85a61e2eaff80c45e70f35580fc51ae9f3aef1303c157c23e43bd6f8200e43a5",
+                "b7f0d472e5676285f308532ab8f6bbf95c36a4fcc691c96e2a7bdeff8f334bcf",
+                "64de1364e84becb0d10f14c3ac5568dcdb78a539aafaf0ff41a942f6d42ca891",
+                "3de9e9ff02b8c1ca4a51a5ceba2cda6ac56125452d50242bb88022c0afed2d11",
+                "94e1bf374f050a3f82840f7760475a95e5bf2c90f59281b92aeab01d687241df",
+                "11448cb4436202f3704d610f35ca1324d236c54381d1bc32f83e35f04db90e2b",
+                "d4ff387424ff526c7680bf86763bc8771d5cbd519f46c7f57f5d2fa20d7edbc2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_pubcid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "www.dictionary.com",
+                "www.thesaurus.com",
+                "www.findacode.com",
+                "www.bettycrocker.com",
+                "www.alternet.org",
+                "www.puzzle-nonograms.com",
+                "www.chordie.com",
+                "www.theoi.com",
+                "thefreebieguy.com",
+                "www.pillsbury.com",
+                "www.whatismyip.com",
+                "www.nigella.com",
+                "www.upi.com",
+                "worldpopulationreview.com",
+                "www.dealcatcher.com",
+                "www.goodnewsnetwork.org",
+                "www.zmenu.com",
+                "www1.salary.com",
+                "nationalinterest.org",
+                "bigdiyideas.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/s2s",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eb"
+            ],
+            "apis": {},
+            "sites": 21,
+            "prevalence": 0.000143,
+            "cnames": [],
+            "responseHashes": [
+                "eb54930b37b89a29fe7045d040a63a83335399d0218532c8c5bcb054c36822d3",
+                "2511350a1eb667547757d8eb61bde1bb68356b4821df4be4e59dc5cb01b71ae8",
+                "846731d40c0dcdc21516bf7a71ad77c390dd11572f8c0fc5bef8e5dcc8e95376",
+                "85531f96afe997d790c2fc465ad7e7fd02fecb3e5b45de694939bb4d6057dbe3",
+                "ff016f9efca416b7aa96c67749a3e265a9945bf49c2eb055dae603dfabffdae1",
+                "92895bae5e29f7139051836b97d4283a9fc92a5dc55ff60d5a958735d620c462",
+                "b73cc9f2a1a0fa90b5253832c7ad5643d4c91df8b3cf6b5adc68285ed81da868",
+                "ff537c503d80087e6c83f48af04648b995013c0d89c5f2f07dbfab85820ba925",
+                "54e3f0a0311d55ff53ade5902fad7bef0c02ff6e91f76b9937069e2b6419ba32",
+                "1603012f7fcf2deebc40f11a3f26411f7d09bb8d36d76f1c423e736bbd506f41",
+                "f05dc1114d8486567d4fd4464e52fa7706c614ab3c2fa3ba597743d72d1c7921",
+                "589f4c51c21d7a25578310b94c524dee0378ed0bac824d673aa4f55c248b9b56",
+                "ccbd2055e5f6b4bb4385f48fcb3a44cf7a6ad3600049098ad1132382a6c39875",
+                "199a902a179a56806b379ef28ea7580d4d260a46bf1be10112a8175ffa77cab8",
+                "70d19dc8460db62620de8bcb6ce2d5ace1694b873bca662b0915ce0dce500168",
+                "3184cbe6aa98e5cc7b5d20d76838bdc745b9d2623f062a42c81f12d7eba3df40",
+                "c6e3be97a65c4d028bdc701919ba7573313cd1b65f563e6f573caf02eded85ae",
+                "a46fadf2e9226f463ae228629895717677127be40d9efdf84026b46659a20c32",
+                "f9c9d681e6ce72081bfabce291dd55f4ce403743d923db00bdb19520adb70110",
+                "80fc86c07000572cd6db90a6e8028eb59ed5e76e6990b66e7c09c7b624532daa"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.dictionary.com",
+                "www.thesaurus.com",
+                "www.alternet.org",
+                "worldpopulationreview.com",
+                "www.insidethehall.com",
+                "www.icd10data.com",
+                "www.theoi.com",
+                "www.goodnewsnetwork.org",
+                "www.zmenu.com",
+                "www.puzzle-nonograms.com",
+                "www1.salary.com",
+                "lingojam.com",
+                "www.whatismyip.com",
+                "notalwaysright.com",
+                "gamejolt.com",
+                "www.dealcatcher.com",
+                "www.jambase.com",
+                "crooksandliars.com",
+                "thefreebieguy.com",
+                "www.upi.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/alot\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "global"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "45baa7591b66133e2f08d3d0932f8c28a84d7c412f75fdfc34a5f7140a966fcc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alot.com",
+                "living.alot.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/payloads\\/4\\.2\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "global"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.language": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "window.localStorage": 2,
+                "Element.prototype.getClientRects": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.connection": 2,
+                "window.devicePixelRatio": 1,
+                "Screen.prototype.availHeight": 1,
+                "Navigator.prototype.maxTouchPoints": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "981acfb8cea1222dae3aaf5f8e408af30752455ea846d26381d97cefc8edf049"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "properSessionStorage": {
+                    "ttl": 1805,
+                    "length": 408,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalinterest.org",
+                "www.pillsbury.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/api\\/bidding",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bids"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalinterest.org",
+                "www.bettycrocker.com",
+                "www.pillsbury.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/s2s",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eb"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "ae8dc915db5ab90770b54493b95b8b2ec3bb49f2bf1bdb218cc014d87e37b18c",
+                "9fdaab58b3ee559f9a185b68da233a528e66b5a4b487cf651fe34b5ed3ac9ab5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalinterest.org",
+                "www.bettycrocker.com",
+                "www.pillsbury.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/api\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalinterest.org",
+                "www.bettycrocker.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/v1\\/usersync",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "usync"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_amuid2": 0.00003416000546560088
+            },
+            "exampleSites": [
+                "notalwaysright.com",
+                "worldpopulationreview.com",
+                "www.icd10data.com",
+                "www.puzzle-nonograms.com",
+                "www1.salary.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/alternet\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "global"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c1297197be4d8ccde681c749b53a2e56cd2b7d596c6431338ea744c11f36baef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alternet.org",
+                "www.alternet.org"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/bettycrocker\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "global"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0c5cbf2b1714ed6078b8c857b467433015ca96ff886b345dae6aca69c8b4891c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "proper_rtp_split_test": {
+                    "ttl": null,
+                    "length": 57,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bettycrocker.com",
+                "www.bettycrocker.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/dictionary\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "global"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0ad8eff52d637f5d3041da8e1f61bbd4840ec5e02480e111abc38e0ddb45ee42"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dictionary.com",
+                "www.dictionary.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/droidviews\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "global"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "droidviews.com",
+                "www.droidviews.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/eatthis\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "global"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bdfbf912bab9469d74bf116d22f1992137783b36b7b14591604968c70bee5a46"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eatthis.com",
+                "www.eatthis.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/config\\/eatthis\\.30528\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "global"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d676589c8d7d157a60d224224054d5ed148d83132d01e0a564aed024b3963c2e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eatthis.com",
+                "www.eatthis.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/findacode\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "global"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "84f9de82ea96d8efd327849914c4f941a74584ef3f13201f025e1bca57a1950f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "findacode.com",
+                "www.findacode.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/goodnewsnetwork\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "global"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "255b44d701d0793318cbbc2bdcb27bc2ef469fe62e46d2625f33877ec80bc8f4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodnewsnetwork.org",
+                "www.goodnewsnetwork.org"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/icd10data\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "global"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "49aaaeae10e6db52e73cf6ed81f5f7115f3648e2e7dc9c972de3b330c595c1a7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "icd10data.com",
+                "www.icd10data.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/jambase\\.min\\.js",
+            "cookies": 0.00000683,
+            "fingerprinting": 1,
+            "subdomains": [
+                "global"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8452a50897a403f17a0036ea287fca68c6d79c3017e185d4601826f2f04c3b87"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "proper_rtp_split_test": {
+                    "ttl": null,
+                    "length": 57,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jambase.com",
+                "www.jambase.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/config\\/jambase\\.30362\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "global"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e752b136d59bdeb9741942790eeb4a24cc8b80ed28c650cd200eda5f3e4a62f6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jambase.com",
+                "www.jambase.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/nigella\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "global"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e5959520dd1d005ee8a2869987e5ba35882dd9ecde3abb661d33a977616dc371"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nigella.com",
+                "www.nigella.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/payloads\\/3\\.3\\.2\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "global"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.width": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.language": 2,
+                "Document.cookie setter": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "window.sessionStorage": 2,
+                "Screen.prototype.height": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.vendor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "56d045dd20e3cd89361af68d6c7e007a55cde12bbda3d77fd2c758b99b8a6320"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "properSessionStorage": {
+                    "ttl": 1804,
+                    "length": 438,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nigella.com",
+                "www.nigella.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/pillsbury\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "global"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a75544f14e7ae2ce46ae291847cb2a9ab55102eba45b290365d9de6afd303863"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pillsbury.com",
+                "www.pillsbury.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/puzzlenonograms\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "global"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9d40db91b687615a7706c24afaf7c2d62352755e031780bbb0807d4f2818b58a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "puzzle-nonograms.com",
+                "www.puzzle-nonograms.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/theoi\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "global"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d2006c99939f1f3d70bab716082611a89f1e46e3c2ec554c481da41079c21432"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theoi.com",
+                "www.theoi.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/thesaurus\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "global"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2f0027e750f52d4947046f7e00d7cbfe3afee7ea62edb2674b16bd13122751cd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thesaurus.com",
+                "www.thesaurus.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/config\\/thesaurus\\.30790\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "global"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "80b748f27b428aad6e6e73fe1474b024b61f3129c268d61f2d7052923a5fae89"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thesaurus.com",
+                "www.thesaurus.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/upi\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "global"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1ed7e0e3946c011b235a7aa78243f97a96feda86d97fae4c7ef6523156fafb1c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "upi.com",
+                "www.upi.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/whatismyip\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "global"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "25227dee17dbc9378079c7c49dc856cbba66507cc4a2fa44d8ca3761c83a9fba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "proper_rtp_split_test": {
+                    "ttl": null,
+                    "length": 57,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whatismyip.com",
+                "www.whatismyip.com"
+            ]
+        },
+        {
+            "rule": "proper\\.io\\/zmenu\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "global"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5c98203b2f67897edb88c633cbf5dd3d523c34ecad5413a0b5bcd48bd8b5464d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zmenu.com",
+                "www.zmenu.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000403,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.48295454545454547
+        },
+        {
+            "domain": "script.ac",
+            "prevalence": 0.23295454545454544
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.14772727272727273
+        },
+        {
+            "domain": "a-mo.net",
+            "prevalence": 0.03977272727272727
+        },
+        {
+            "domain": "adlightning.com",
+            "prevalence": 0.028409090909090908
+        },
+        {
+            "domain": "amazon-adsystem.com",
+            "prevalence": 0.022727272727272728
+        },
+        {
+            "domain": "bidswitch.net",
+            "prevalence": 0.022727272727272728
+        },
+        {
+            "domain": "s-onetag.com",
+            "prevalence": 0.011363636363636364
+        },
+        {
+            "domain": "gjcdn.net",
+            "prevalence": 0.005681818181818182
+        },
+        {
+            "domain": "confiant-integrations.net",
+            "prevalence": 0.005681818181818182
+        }
+    ],
+    "types": {
+        "Script": 99,
+        "Image": 40,
+        "XHR": 59,
+        "Fetch": 8
+    },
+    "nameservers": [
+        "ns-1599.awsdns-07.co.uk",
+        "ns-70.awsdns-08.com",
+        "ns-1101.awsdns-09.org",
+        "ns-983.awsdns-58.net"
+    ]
+}

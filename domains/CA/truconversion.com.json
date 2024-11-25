@@ -1,0 +1,128 @@
+{
+    "domain": "truconversion.com",
+    "owner": {
+        "name": "InvoCube Ltd",
+        "displayName": "InvoCube"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "app",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "truconversion\\.com\\/ti-js\\/21017\\/51522\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "window.name": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4c5b1aeae6406a31b20407bb317bb5bb99bbbb789778cab55e90ca38cb5ef024"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wickedweasel.com",
+                "www.wickedweasel.com"
+            ]
+        },
+        {
+            "rule": "truconversion\\.com\\/tc-app-v453\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.product": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7b6d0dc462ec2bd9e5b6e1fd52833f4f978cf16cb49dcac374dbdd1a940b558a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_tcSessInfo": {
+                    "ttl": null,
+                    "length": 40,
+                    "prevalence": 0.00020122748767481639,
+                    "uniqueness": 0.5
+                },
+                "_tcSecSess": {
+                    "ttl": null,
+                    "length": 217,
+                    "prevalence": 0.00020122748767481639,
+                    "uniqueness": 0.5
+                },
+                "_tcfpup": {
+                    "ttl": 155520024,
+                    "length": 13,
+                    "prevalence": 0.00020122748767481639,
+                    "uniqueness": 0.5
+                },
+                "ti_ukp": {
+                    "ttl": 155520024,
+                    "length": 36,
+                    "prevalence": 0.00020122748767481639,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wickedweasel.com",
+                "www.wickedweasel.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000101,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "b-cdn.net",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-616.awsdns-13.net",
+        "ns-468.awsdns-58.com",
+        "ns-1659.awsdns-15.co.uk",
+        "ns-1130.awsdns-13.org"
+    ]
+}

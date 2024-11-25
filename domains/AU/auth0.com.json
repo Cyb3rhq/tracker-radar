@@ -1,0 +1,188 @@
+{
+    "domain": "auth0.com",
+    "owner": {
+        "name": "Auth0, Inc.",
+        "displayName": "Auth0"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00121,
+    "sites": 12,
+    "subdomains": [
+        "homesnz-cd-zmq2n6ogmq12iykl.edge.tenants.au",
+        "tradelink-bigcommerce-prod-cd-xikfehzx64xu37pk.edge.tenants.au",
+        "finder-au-prod-cd-kd8ji6nrq9zenl6x.edge.tenants.au",
+        "yhaaus-prod-cd-vw7tge8wm5bpg5co.edge.tenants.au",
+        "cdn"
+    ],
+    "cnames": [
+        {
+            "original": "auth.homes.co.nz",
+            "resolved": "homesnz-cd-zmq2n6ogmq12iykl.edge.tenants.au.auth0.com"
+        },
+        {
+            "original": "auth.yha.com.au",
+            "resolved": "yhaaus-prod-cd-vw7tge8wm5bpg5co.edge.tenants.au.auth0.com"
+        },
+        {
+            "original": "bcauth.tradelink.com.au",
+            "resolved": "tradelink-bigcommerce-prod-cd-xikfehzx64xu37pk.edge.tenants.au.auth0.com"
+        },
+        {
+            "original": "login.finder.com.au",
+            "resolved": "finder-au-prod-cd-kd8ji6nrq9zenl6x.edge.tenants.au.auth0.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "auth0\\.com\\/authorize",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "homesnz-cd-zmq2n6ogmq12iykl.edge.tenants.au",
+                "tradelink-bigcommerce-prod-cd-xikfehzx64xu37pk.edge.tenants.au",
+                "finder-au-prod-cd-kd8ji6nrq9zenl6x.edge.tenants.au",
+                "yhaaus-prod-cd-vw7tge8wm5bpg5co.edge.tenants.au"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "auth.homes.co.nz",
+                    "resolved": "homesnz-cd-zmq2n6ogmq12iykl.edge.tenants.au.auth0.com"
+                },
+                {
+                    "original": "bcauth.tradelink.com.au",
+                    "resolved": "tradelink-bigcommerce-prod-cd-xikfehzx64xu37pk.edge.tenants.au.auth0.com"
+                },
+                {
+                    "original": "login.finder.com.au",
+                    "resolved": "finder-au-prod-cd-kd8ji6nrq9zenl6x.edge.tenants.au.auth0.com"
+                },
+                {
+                    "original": "auth.yha.com.au",
+                    "resolved": "yhaaus-prod-cd-vw7tge8wm5bpg5co.edge.tenants.au.auth0.com"
+                }
+            ],
+            "responseHashes": [
+                "4d92dfc4e12745f75da4a4811d86cc6be291437376398a2fdc9f2900d08fb005",
+                "a677a4bc88ff452428c1ad1fbd94c1dfa6beb6b0b874df69c54bcc0a4407e41b",
+                "2e8d4a4f1f3e733f2cf862e0df56edf48f5af5c62ff1cbe4315cf8e1ddb25e80"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_hjTLDTest": 0.0002008838891120932
+            },
+            "exampleSites": [
+                "homes.co.nz",
+                "tradelink.com.au",
+                "www.finder.com.au",
+                "www.yha.com.au"
+            ]
+        },
+        {
+            "rule": "auth0\\.com\\/styleguide\\/components\\/1\\.0\\.8\\/media\\/logos\\/img\\/badge\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8ce9f639d0609bbca3d5362034f3d85efc0d75830259b3b1f56e6387fe9153a9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tradelink.com.au",
+                "www.yha.com.au"
+            ]
+        },
+        {
+            "rule": "auth0\\.com\\/js\\/auth0\\/9\\.10\\.4\\/auth0\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c0d6b64bfbad44b071a08b23499a4490148c6c5821db36d77a257c96bfd4d90f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carsguide.com.au",
+                "www.carsguide.com.au"
+            ]
+        },
+        {
+            "rule": "auth0\\.com\\/js\\/auth0\\/9\\.24\\.1\\/auth0\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "167d1b83242ea59f389f2ae3d3fd6eed0279db53391385f272c749a43b08028d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "qthotels.com",
+                "www.rydges.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.631578947368421
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.3157894736842105
+        },
+        {
+            "domain": "auth0.com",
+            "prevalence": 0.05263157894736842
+        }
+    ],
+    "types": {
+        "Document": 4,
+        "Image": 2,
+        "Script": 4
+    },
+    "nameservers": [
+        "monroe.ns.cloudflare.com",
+        "kolton.ns.cloudflare.com"
+    ]
+}

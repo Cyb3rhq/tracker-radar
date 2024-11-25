@@ -1,0 +1,105 @@
+{
+    "domain": "ebu.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [
+        "pipe-collect",
+        "swi.reco",
+        "swi.pilot"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ebu\\.io\\/v3\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pipe-collect"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dw.com",
+                "www.dw.com"
+            ]
+        },
+        {
+            "rule": "ebu\\.io\\/v3\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pipe-collect",
+                "swi.reco"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dw.com",
+                "m.dw.com",
+                "www.dw.com",
+                "www.swissinfo.ch"
+            ]
+        },
+        {
+            "rule": "ebu\\.io\\/api\\/resizer",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "swi.pilot"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "12aafa0d92bcd45bffa77dc8bf899549f91426505c1c2282341f7e94a7221615"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "swissinfo.ch",
+                "www.swissinfo.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-1116.awsdns-11.org",
+        "ns-1851.awsdns-39.co.uk",
+        "ns-247.awsdns-30.com",
+        "ns-969.awsdns-57.net"
+    ]
+}

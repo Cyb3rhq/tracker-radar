@@ -1,0 +1,1609 @@
+{
+    "domain": "indiatimes.com",
+    "owner": {
+        "name": "Times Internet Ltd",
+        "displayName": "Times Internet"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000956,
+    "sites": 14,
+    "subdomains": [
+        "jssocdn",
+        "jsso",
+        "geoapi",
+        "affiliatewidgets",
+        "navbharattimes",
+        "photogallery.navbharattimes",
+        "toiassets",
+        "jarvis",
+        "static.nbt",
+        "static.tlg",
+        "static.vk",
+        "agi-static"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "indiatimes\\.com\\/crosswalk_sdk\\/sdk\\/jsso_crosswalk_legacy_0\\.7\\.74\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "jssocdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a954229f03cddc56adaacbcc33af15cdc3c2e59e2060c2b2434452f66631cc64"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "femina.in",
+                "www.filmfare.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/crosswalk\\/37\\/widget\\/main\\.bundle\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "jssocdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1adb63e818e655cf672ad1099869caa53d3b612d875c9664715492f91c79240c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "femina.in",
+                "www.filmfare.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/sso\\/crossapp\\/identity\\/web\\/loggedInUser",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jsso"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "ddfd865e7f12769fb2bda5bcaa84657980cae7117acc679be6877a2d318909b5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "femina.in",
+                "m.femina.in",
+                "www.businessinsider.in",
+                "www.etnownews.com",
+                "www.filmfare.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/sso\\/crossapp\\/identity\\/web\\/loggedInUser",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jsso"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "femina.in",
+                "m.femina.in",
+                "www.businessinsider.in",
+                "www.etnownews.com",
+                "www.filmfare.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geoapi"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "e23507fe0124884489d1d2e73e1b14fb979f16dec8a87a0b1fa2e533ca17d59a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "telugu.samayam.com",
+                "vijaykarnataka.com",
+                "www.businessinsider.in"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/sso\\/crossdomain\\/getTicket",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jsso"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "16922e0618061c38b2fecdfbe9725bbc3e018f855becf498d30ad8acae59ff21",
+                "aa4f4907d0298ce99af237d15208968bfd18ded40ece3ad4cc8ea719f2233135"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "telugu.samayam.com",
+                "vijaykarnataka.com",
+                "www.dineout.co.in"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/affiliates_content_iframe_v2\\.cms",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "affiliatewidgets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "812ef185b8d5c0e00c3030757c5cb653cb22fe3c29e86bed9762f31e00163006"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/youtubesubscribe\\.cms",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "navbharattimes"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b2e9e9b73cac881b8cca275abbd9082c01d152cd283e3bafe165fa6dfd6d3618"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/dmp_orion\\.cms",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "photogallery.navbharattimes"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ce60fd2aec9c96650cc9140c04ec00af53d7f11de054de9a9816419a2c0144a0"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/affiliates\\/sdk\\/v2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "toiassets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5876459329faaba6b02fc6bcf2c5139263148a35030014cf3a028eaa8c186d3c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/affiliates\\/library\\/remoteEntry\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "toiassets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "011a1bc5b1d045d97e8dae837250f6a1687ee007e5715f36a7a94e0ea20b89e6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/v1\\/feeds\\/languages\\/widget_slots",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jarvis"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "013848f9ba91d679371b6c17283f5cbdb21cc0ba7022ad3065a7dd6c7ad46bf5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/fonts\\/NotoSansDevanagari-Regular\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.nbt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "12f11ecba4ad06d8c17ec737ee700f60b3319c16ec2c49838253e0ee9686ca5c"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/affiliates\\/library\\/vendors\\.commons\\.474c6ff1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "toiassets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4fbb95acd2b894f6fb2c38d56792f70940e46a009a09856886391bd5b336496d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/affiliates\\/library\\/library\\.commons\\.d338b2ed\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "toiassets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d02cb560492e10a0881fe92a46e9dcb58f539c803e227c3501bddeb95b472f96"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/affiliates\\/library\\/helpers_Renderer_desktop_js\\.0183bb14\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "toiassets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3b6edf74013ea84ed0a26a3c9852f7fa499ad14f88a1b0d83f0f8ec026d7c1e4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/NewsBrief\\.e24e0395c3273fe7f02d\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0947a96a070f6846640bd3cedb3b19a612a4c1a4b9f7ae489fed5ab36c57528d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/NewsBrief\\.1fa9a7a8467b0683f389\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0a7cf1761386bc95082d2e16ded4eb434c7eea06403d03cb7ab3a2e4559b607b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/containers_staticpage_StaticPage_js\\.565b08c38214b56e5465\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7bb4f73fe461f6568a425ace32f26a67a34fad5294c5405bb70d39f613773e26"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/campaign_election_components_panchayatHpWidget_js\\.18cf93dae34aab1c39f0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "81877a76e31724820c896f8bf0372a4fc16031243a37ad78ef5d527bd683a0cf"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/FooterLinks\\.ee8e03ac057852a6010d\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "503ef39238c72ffdcad5d5eb3307b1bdcdea3597b2efdf7b9c3370899a151c0d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/ElectionWidgetIframe\\.8bbe7a7217736f9c0111\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dc4aefc34f314f5899939b548764e7080b544a903ff92ef998647a5c19b21e9a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/PromoTheme\\.58522280aef01c7f097b\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f38487a886256451b4454eca7ece8baf3bd5f8001e43dc6c0ed406256662d95b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/campaign_cricket_components_PointsTableCard_js\\.1186768b44a93a5f93c2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4864c921fb2aca20b21b19eeb38804dcdf680c3fe3f5374e5a9c18af93fcbe7a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/campaign_cricket_components_PointsTableCard_js\\.33e4af2933b143bd2a57\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "352a05647b562a54520a9dc2e14666ca81b3e6caf85cdc30b4810c0bc51604c9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/PCV2\\.cc4f78f9986ebd81af0b\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d3b2b1837d6ccc89d963cb1a7d1605ba4ae9090e06def630d73e7a0f815807fa"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/PCV2\\.152e91cdee9e5644f6ae\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e03b860b07418a23f6f18d8353d6ddf028dbabae7fe5cc55f80d2688a6d4f845"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/SC\\.286b196f517dc84cda25\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "32af4052a600055abe7f70d4d7ffeb0ce71b2ed434acf09e06ddeafaac74797c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/SC\\.57697e6871fb0e21a2b9\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5aee653c8f6985947e3c493edf5db291733d542d921cfff2adbb088325d21837"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/SuperhitIframe\\.453064a990946bef97c4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7c3d9cfb9fee170b8142954a0e6ed0aec88e0018064ede1610bf46d3e1e0916d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/Taboola\\.830b11aba2f3e45c8b2a\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "368a95ea16720bbce615d5620afff3787ad90d7581f83bed4acc09f8904ee43e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/videoplayer\\.9e5925a11ea6516e7043\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "60b7fb3cb06ffdb581713bd8286004668ee206b9416f3293170682e85ecd587d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/NativePlayer\\.0676d266dfb99469961e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "736589c2f31cc2b447c0399081147477a285d80657ba4dce443122e9d8ced15c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/NativePlayer\\.2c721174e6d8b9f8ce6d\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "75b067806bc44178d7fdf7612baf761160490260b27a46884445e7580f773d53"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/ThemePage\\.102b7d7320a07dc89f98\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9c349d154c3e4a1741b63ca9e6ebc738d1a4c64cc01582228404da012edee21e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/EOA\\.2cda03988470343cc169\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1e67d085d11e4c472234b950fd27304823c15f7435299e679530780a06ce4b64"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/EOA\\.c8f303fe88153251808e\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/MP\\.1f6b4edee2c3f0c70cb0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1699f794775609ef530c6967741cc78175a8d4fed24ba3efd6407085854d035d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/MP\\.7a879f30aaa1faca1673\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "545f9287f301d2f9756b28125108af9d62fff3a872b00374ad9540d1cd20b88f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/GR\\.2ec86bbac2c083592789\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1c93a8e8585ee2fb8a349efaefa456743b40557a0bce0d4ba6579017459a7df5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/GR\\.62c041064c9a859c7a21\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dcdc7c3cb7730caeda9c51ccddbf768a2103e14a279cb98eca475a06ac273965"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/GNVW\\.3f41b17a87c629a613ec\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1b3c607fdaed1f7147bd61396dd1e9bc6ede1ede67bb0a4321621e53139f53b1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/GNVW\\.62c041064c9a859c7a21\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dcdc7c3cb7730caeda9c51ccddbf768a2103e14a279cb98eca475a06ac273965"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/RhsWidget\\.4e381bd8a83a2646e6d2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "74e67303d410ca88ed4c7048eef1249d7f6c49c4a00fde0a9c59a76129a9971a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/RhsWidget\\.7342731a9c362a4192d9\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "47eaa6c0ea4c0625f65afc778b5196333060d65c126ff203f70f4c08ce4345bd"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/EtWidget\\.5f7088a07c0bf96d41e4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5b4692096863ce37b6eb15f83f43bbc6bd769087423e53f89b03c68233e466da"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/GeoWidget\\.487860bfa375fd58f7ff\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d91ff8ea4009f1060feacd40bf506207ba15a9de29c35043d32b77177fc4a020"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/GeoWidget\\.39c2e009a8c7c42b63db\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cf95fdaf309913ae9ce14029f4a897db1de4e562e43233f2ce5b168f609c6e6a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/GulfWidget\\.06aeb6ea605ae71c6c1f\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "84e99c1bfc3a14bf864d623936dae7bf2e8b3396495472d95a086264be52a7c5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/GulfWidget\\.e0b274cc0570bcea9be8\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "16042ffe2ab6e11bb6e96e47fb3518fa16b8d6e0159bcc0d1b5c3476ae9cd22d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/BudgetWidget\\.02d224c7bade6f1bc855\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4b259f5953b995319362616afb21edf0e200602c75cf036b03c2c06736f99251"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/BudgetWidget\\.e7dedd576194a89f1285\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78872a98801f1f29af0fafa74061c2930446d3da13dbc7f25e48afc72fa97289"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/CommentBox\\.9e233bdfc6bb78efe4a9\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c04ba96c3a3b417c9ddd585c14d0de39d270b671fc535924bc8a895606ae63b6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/CommentBox\\.1b4dff3a83b5fcc9197f\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "61701db2cf1201502e93a241c7492029fa1b383a6190cd5eed140ec93d45bbaf"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/ExperiencePage\\.5f8cf506be9af04ecfce\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2ca8210577226f225458468e920f0c0fcf5a09cc0de663aa81e7b4a4ad25da11"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/ExperiencePage\\.152e91cdee9e5644f6ae\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e03b860b07418a23f6f18d8353d6ddf028dbabae7fe5cc55f80d2688a6d4f845"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/LatestNewsList\\.55818f7a2011679fc18a\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3089080a5b01c12b67c632e83213531246d5e2deec2be3422cd50d2ad91b0f28"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/vendor\\.b9c0cab2606c88590d33\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/libutils\\.fa57fac54859083e2ea5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.tlg",
+                "static.vk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/affiliates\\/library\\/vendors-node_modules_lodash_throttle_index_js\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "toiassets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5e7e0aff3a51effd0924f4756d621a4181eb27d6372bfe9df94ebbc9ab550296"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/affiliates\\/library\\/molecules_Tabs_js\\.94af96cf\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "toiassets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "64103f57e6017b42aa059618521ee7b2703326b13c41dd46c2a9c4f5f9ea6c83"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/affiliates\\/library\\/organisms_Overlay_js\\.e247d08e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "toiassets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5d668d206b9bfe052f899f99187ea00b6a4f7187d3013bb0bf51bac31f96d39b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/affiliates\\/library\\/molecules_ProductCardV2_js\\.e954afa9\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "toiassets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "625f404f4ff23a3dc0572d920c738984ba340bac96b5dbf0897ca35ab10022b3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/affiliates\\/library\\/organisms_ProductListV2_js\\.f5c31ed7\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "toiassets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7c1c566920b701bdbda71cc2e0d7ac42b5df8e2e81c5776a8ff5470d6e268518"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/crosswalk_sdk\\/sdk\\/jsso_crosswalk_legacy_0\\.7\\.95\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "jssocdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.permissions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3882011f2b74ac7f5bf8c8642771bd3955994d956c5be42c83484b5982dc8fb4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.in",
+                "www.businessinsider.in"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/cms-common\\/ibeat\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "agi-static"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerHeight": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5e388754055af9337e05b6d73ea12354627146c2d4de51941c8667aae5d77112"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_iibeat_session": {
+                    "ttl": 15768011,
+                    "length": 36,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "_iibeat_vt": {
+                    "ttl": 2592011,
+                    "length": 8,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "etnownews.com",
+                "www.timesnownews.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000683,
+    "topInitiators": [
+        {
+            "domain": "storage.googleapis.com",
+            "prevalence": 0.7706422018348624
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.16055045871559634
+        },
+        {
+            "domain": "wwmindia.com",
+            "prevalence": 0.03669724770642202
+        },
+        {
+            "domain": "clmbtech.com",
+            "prevalence": 0.01834862385321101
+        },
+        {
+            "domain": "dealspakki.com",
+            "prevalence": 0.013761467889908258
+        }
+    ],
+    "types": {
+        "Script": 36,
+        "XHR": 5,
+        "Preflight": 5,
+        "Document": 6,
+        "Fetch": 88,
+        "Font": 2
+    },
+    "nameservers": [
+        "a28-67.akam.net",
+        "a26-66.akam.net",
+        "a2-65.akam.net",
+        "a9-64.akam.net",
+        "a1-127.akam.net"
+    ]
+}

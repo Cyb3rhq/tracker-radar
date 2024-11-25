@@ -1,0 +1,119 @@
+{
+    "domain": "consentframework.com",
+    "owner": {
+        "name": "Sirdata SAS",
+        "displayName": "Sirdata"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [
+        "api",
+        "cache",
+        "choices"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "consentframework\\.com\\/api\\/v1\\/public\\/user-action",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "all.rugby",
+                "aleteia.org",
+                "gizmodo.com",
+                "local.infobel.com.au",
+                "www.dafont.com",
+                "www.free-scores.com"
+            ]
+        },
+        {
+            "rule": "consentframework\\.com\\/js\\/pa\\/25624\\/c\\/cvBEy\\/stub",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cache"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "58d15f55bd3f2ea07227475b9e44420887e8dc5253347b828d08807dbdb47a90"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "free-scores.com",
+                "www.free-scores.com"
+            ]
+        },
+        {
+            "rule": "consentframework\\.com\\/js\\/pa\\/25624\\/c\\/cvBEy\\/cmp",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "choices"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.language": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "efaea563b7c44891b01ca0dd1b9cc80452666b03b308578c72ab87934fe11cce"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "free-scores.com",
+                "www.free-scores.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Consent Management Platform"
+    ],
+    "performance": {},
+    "cookies": 0.000603,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 6,
+        "Script": 4
+    },
+    "nameservers": [
+        "hal.ns.cloudflare.com",
+        "kiki.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,295 @@
+{
+    "domain": "adobe.com",
+    "owner": {
+        "name": "Adobe Inc.",
+        "displayName": "Adobe",
+        "privacyPolicy": "https://www.adobe.com/privacy/marketing-cloud.html",
+        "url": "http://adobe.com"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "entitlement.auth",
+        "sp.auth"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "adobe\\.com\\/entitlement\\/v4\\/AccessEnabler\\.js",
+            "cookies": 0.000401,
+            "fingerprinting": 1,
+            "subdomains": [
+                "entitlement.auth"
+            ],
+            "apis": {
+                "console.memory": 4,
+                "Document.cookie getter": 4,
+                "window.localStorage": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.vendor": 4,
+                "Navigator.prototype.platform": 4,
+                "Document.cookie setter": 4,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "9b24c44df96c5176d269271dd9c6de2d5368fd79cf6e4e97bc9a48ef57432385"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "client_type": {
+                    "ttl": null,
+                    "length": 5,
+                    "prevalence": 0.00040140491721023583,
+                    "uniqueness": 0.25
+                },
+                "client_version": {
+                    "ttl": null,
+                    "length": 5,
+                    "prevalence": 0.00040140491721023583,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbssports.com",
+                "www.cnbc.com",
+                "www.espn.nl",
+                "www.espn.com"
+            ]
+        },
+        {
+            "rule": "adobe\\.com\\/entitlement\\/v4\\/AccessEnablerProxy\\.html",
+            "cookies": 0.000401,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sp.auth"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "462a25128107d678e19d98c537e440aa8c59317d2dd03e10957e38feb06f196d"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbssports.com",
+                "www.cnbc.com",
+                "www.espn.nl",
+                "www.espn.com"
+            ]
+        },
+        {
+            "rule": "adobe\\.com\\/entitlement\\/v4\\/AccessEnablerProxy\\.js",
+            "cookies": 0.000401,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sp.auth"
+            ],
+            "apis": {
+                "console.memory": 4,
+                "window.localStorage": 4,
+                "Document.cookie getter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "278781625880498dfbfbde37f14e91fda9c492677afdda0f8bf2736376d2ad99"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbssports.com",
+                "www.cnbc.com",
+                "www.espn.nl",
+                "www.espn.com"
+            ]
+        },
+        {
+            "rule": "adobe\\.com\\/o\\/client\\/register",
+            "cookies": 0.000401,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sp.auth"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "401ad18c3c01c97248829e44c497c80e992891f03ac5283565198cf2be2370fb",
+                "ac187d2de865988eb804fdccaae36351e605271732f72da49bc393f45c6de03f",
+                "e2ee1f63a7f5fb10b8d8e21dfaca111bc225bccd39dbef0e27c15deea550306f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbssports.com",
+                "www.cnbc.com",
+                "www.espn.nl",
+                "www.espn.com"
+            ]
+        },
+        {
+            "rule": "adobe\\.com\\/o\\/client\\/register",
+            "cookies": 0.000401,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sp.auth"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbssports.com",
+                "www.cnbc.com",
+                "www.espn.nl",
+                "www.espn.com"
+            ]
+        },
+        {
+            "rule": "adobe\\.com\\/o\\/client\\/token",
+            "cookies": 0.000401,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sp.auth"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [
+                "9c784aa9cd7e28725f6b53e8c7627bf734d39d066fd3550a7018be9656d6c4fe",
+                "fc4b130cf408bc19021119ebbe4619f8f6e785974db330f5c2268485ca77ac62",
+                "d5a49625aa9f40ad7aa9969703369910127820ba29e338cd992e6839245d3302"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbssports.com",
+                "www.cnbc.com",
+                "www.espn.nl",
+                "www.espn.com"
+            ]
+        },
+        {
+            "rule": "adobe\\.com\\/o\\/client\\/token",
+            "cookies": 0.000401,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sp.auth"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000401,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbssports.com",
+                "www.cnbc.com",
+                "www.espn.nl",
+                "www.espn.com"
+            ]
+        },
+        {
+            "rule": "adobe\\.com\\/adobe-services\\/config\\/ESPN",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sp.auth"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "be465810c30f30de3f12ed6713e9b44ef845efc3c8b2204cfc437549f2630c16",
+                "c1b6b34051612868796d6503b94ffe7a8eddb821af7143bca781062165fbd276"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espn.nl",
+                "www.espn.nl",
+                "www.espn.com"
+            ]
+        },
+        {
+            "rule": "adobe\\.com\\/adobe-services\\/config\\/ESPN",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sp.auth"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espn.nl",
+                "www.espn.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000401,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.39285714285714285
+        },
+        {
+            "domain": "espn.com",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "cnbcfm.com",
+            "prevalence": 0.17857142857142858
+        },
+        {
+            "domain": "rum.us-east-1.amazonaws.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Document": 4,
+        "XHR": 11,
+        "Preflight": 10
+    },
+    "nameservers": [
+        "a10-64.akam.net",
+        "a28-67.akam.net",
+        "a26-66.akam.net",
+        "a7-64.akam.net",
+        "a1-217.akam.net",
+        "a13-65.akam.net"
+    ]
+}

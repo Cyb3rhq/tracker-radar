@@ -1,0 +1,80 @@
+{
+    "domain": "technolutions.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "cluster.ca-central-1",
+        "mx"
+    ],
+    "cnames": [
+        {
+            "original": "apply.adm.utoronto.ca",
+            "resolved": "cluster.ca-central-1.technolutions.net"
+        },
+        {
+            "original": "apply.sait.ca",
+            "resolved": "cluster.ca-central-1.technolutions.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "technolutions\\.net\\/ping",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cluster.ca-central-1",
+                "mx"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [
+                {
+                    "original": "apply.adm.utoronto.ca",
+                    "resolved": "cluster.ca-central-1.technolutions.net"
+                },
+                {
+                    "original": "apply.sait.ca",
+                    "resolved": "cluster.ca-central-1.technolutions.net"
+                }
+            ],
+            "responseHashes": [
+                "9a254000c12048dc5f34bc3856ab6ef21f1f15d947076d0029ed68de94ccd54f",
+                "1e309da8c3e1ea36c04db8478dc02e0d5d1d620b4eb7b9436ebb8a16af29775c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "utoronto.ca",
+                "future.utoronto.ca",
+                "www.sait.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "ns-1152.awsdns-16.org",
+        "ns-433.awsdns-54.com",
+        "ns-1875.awsdns-42.co.uk",
+        "ns-615.awsdns-12.net"
+    ]
+}

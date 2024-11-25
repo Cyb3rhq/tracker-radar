@@ -1,0 +1,108 @@
+{
+    "domain": "viamichelin.com",
+    "owner": {
+        "name": "Compagnie Generale des Etablissements Michelin",
+        "displayName": "Compagnie Generale des Etablissements Michelin"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000478,
+    "sites": 7,
+    "subdomains": [
+        "bff",
+        "gv-images"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "viamichelin\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bff"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "799c29483043d080ead875012bdd92001ca828765e4e420cdcfb19fc7fb522a1",
+                "3e74a8184ebf869ba869602aaa22b54611a4a1fc0867a746c8c82783b35bcba6",
+                "8d167bae0c8100bdf5c7ca9acb23c4d2bd5e4ff960a006f2c7ca9522cc533314"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "viamichelin.be",
+                "www.viamichelin.at",
+                "www.viamichelin.co.uk",
+                "www.viamichelin.de"
+            ]
+        },
+        {
+            "rule": "viamichelin\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bff"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "viamichelin.be",
+                "www.viamichelin.at",
+                "www.viamichelin.co.uk",
+                "www.viamichelin.de"
+            ]
+        },
+        {
+            "rule": "viamichelin\\.com\\/images\\/michelin_guide\\/max\\/Img_3026\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gv-images"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5f88afbbfeb8a58b49b4f220a9e002048d4b64cadbeb887ae8149719c32097d7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "viamichelin.nl",
+                "www.viamichelin.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "Preflight": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "pdns1.cscdns.net",
+        "pdns2.cscdns.net"
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "domain": "ads4g.pl",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "lib"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ads4g\\.pl\\/lib\\.single\\.ads4g\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lib"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "23469c613c2f2f2a28194b63ddcc39e856a391aa54083f1b60b061920995d0b1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "synonim.net",
+                "www.tekstowo.pl"
+            ]
+        },
+        {
+            "rule": "ads4g\\.pl\\/prebid\\/ads4g_prebid_7\\.51\\.0\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "lib"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.connection": 2,
+                "Navigator.prototype.deviceMemory": 2,
+                "window.devicePixelRatio": 2,
+                "NavigatorUAData.prototype.brands": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f9651056ea2f6adbce7126c0abb8808ff49d2f1e76e2a1e93083700d17a23f6f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pbjsAds4g_userid_consent_data": {
+                    "ttl": 2592005,
+                    "length": 16,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "synonim.net",
+                "www.tekstowo.pl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ajay.ns.cloudflare.com",
+        "megan.ns.cloudflare.com"
+    ]
+}

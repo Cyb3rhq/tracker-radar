@@ -1,0 +1,82 @@
+{
+    "domain": "ebu.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [
+        "pipe-collect",
+        "swi.reco",
+        "swi.pilot"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ebu\\.io\\/v3\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pipe-collect",
+                "swi.reco"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dw.com",
+                "www.swissinfo.ch"
+            ]
+        },
+        {
+            "rule": "ebu\\.io\\/api\\/resizer",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "swi.pilot"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4675ef856523887dbb59ca3f789ec038992cb44ead1286d00873c7504ab4d1a3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "swissinfo.ch",
+                "www.swissinfo.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-1116.awsdns-11.org",
+        "ns-1851.awsdns-39.co.uk",
+        "ns-247.awsdns-30.com",
+        "ns-969.awsdns-57.net"
+    ]
+}

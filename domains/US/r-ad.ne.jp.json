@@ -1,0 +1,141 @@
+{
+    "domain": "r-ad.ne.jp",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000615,
+    "sites": 9,
+    "subdomains": [
+        "tm",
+        "s9"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "r-ad\\.ne\\.jp\\/cv",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tm"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "bb70be6932ee16994c629ddea2a336b67c2c2f35f54fd848aa5954fe9eb32c79",
+                "ac2caa2d31e36c345a9bcffa3454b0ebb296b9563ca273ed3f578ca9ed105232",
+                "ef935e935e5c68b1f954fcae27a37db76ae7231a64199c704a0ed06e8e970f9e",
+                "827597a8c389e252df05823996e7ff8a311fd4c17540bac945db0bebab5c9248",
+                "0ef9a51a58deb11e8971df9e10614426134749d8670fcaa26dc1991e8e6f66a7",
+                "5c8b3fb72b6ffee77e796dc5a5f323c989fa12b64471b7c6803baa56e39bb8f1",
+                "588ae57f37fd25724597ca28b99d3e7f3c15649c314a972001f54f80b2691862"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hotpepper.jp",
+                "next.rikunabi.com",
+                "shingakunet.com",
+                "www.hotpepper.jp",
+                "www.jalan.net",
+                "www.topvalu.net",
+                "www.workman.co.jp",
+                "zexy.net"
+            ]
+        },
+        {
+            "rule": "r-ad\\.ne\\.jp\\/json",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s9"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0f2bfd1407b516c9ff7a31d98a1df0b574785e53f9d7aa8cdcd4c30d02d476da"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "r_ad_token1": 0.000006832001093120175,
+                "r_ad_token2": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "shingakunet.com",
+                "www.jalan.net"
+            ]
+        },
+        {
+            "rule": "r-ad\\.ne\\.jp\\/45\\/default\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tm"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78c677f68b424b309a25bdcbc9ce1345a3f2ca7a6ae0d4a5990518e1010af80b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "r_ad_token1": {
+                    "ttl": 15548410,
+                    "length": 20,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "r_ad_token2": {
+                    "ttl": 15548410,
+                    "length": 20,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jalan.net",
+                "www.jalan.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000615,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5625
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3125
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-2034.awsdns-62.co.uk",
+        "ns-380.awsdns-47.com",
+        "ns-1211.awsdns-23.org",
+        "ns-516.awsdns-00.net"
+    ]
+}

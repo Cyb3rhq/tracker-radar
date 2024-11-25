@@ -1,0 +1,227 @@
+{
+    "domain": "microsoft.com",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00151,
+    "sites": 15,
+    "subdomains": [
+        "wcpstatic",
+        "browser.events.data",
+        "minecraftprivacy",
+        "browser.pipe.aria",
+        "eu-mobile.events.data",
+        "edge-auth"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "microsoft\\.com\\/mscc\\/lib\\/v2\\/wcp-consent\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "wcpstatic"
+            ],
+            "apis": {
+                "Document.cookie getter": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "c688d3f2135b6b51617a306a0b1a665324402a00a6bceba475881af281503ad9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "azure.github.io",
+                "clipchamp.com",
+                "education.minecraft.net",
+                "forums.obsidian.net",
+                "microsoft.github.io",
+                "www.flightsimulator.com",
+                "www.minecraft.net"
+            ]
+        },
+        {
+            "rule": "microsoft\\.com\\/OneCollector\\/1\\.0\\/",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "browser.events.data"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "8b5ff367945140dcf11c6857bbce0c0965b7ede55905e7f3b3d53cbc616f87c1",
+                "34499a10362f20a1c0c45c2c2db054ee0ff1b937fe7f492e908ef35de9d00be6",
+                "bd08b1216d6bb72320f6a4f8a481c8bf1d760a19e3d542fe390bf2b54f8d9e5e",
+                "afd588d7d1c94d797ef932006d524de973f6fc54556e62f0f340412c87f99d58"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "azure.github.io",
+                "clipchamp.com",
+                "education.minecraft.net",
+                "www.minecraft.net",
+                "www.trekbikes.com"
+            ]
+        },
+        {
+            "rule": "microsoft\\.com\\/OneCollector\\/1\\.0\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "browser.events.data"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "azure.github.io",
+                "clipchamp.com",
+                "education.minecraft.net",
+                "www.minecraft.net"
+            ]
+        },
+        {
+            "rule": "microsoft\\.com\\/iframe\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "minecraftprivacy"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "65386d008587e095638be71849fd112ee4809f63fe9655f4d2c4ef1d56ca5430"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "minecraft.net",
+                "www.minecraft.net"
+            ]
+        },
+        {
+            "rule": "microsoft\\.com\\/Collector\\/3\\.0\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "browser.pipe.aria",
+                "eu-mobile.events.data"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clevelandclinic.org",
+                "my.clevelandclinic.org",
+                "www.kristiania.no"
+            ]
+        },
+        {
+            "rule": "microsoft\\.com\\/js\\/ms_auth_client\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "edge-auth"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "window.localStorage": 1,
+                "window.sessionStorage": 1,
+                "window.indexedDB": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "33cc6e61cbb1addafa75cc8ed40216823ee7e50631bb8d2b71eda77ca81a77f3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalpost.com",
+                "www.salon.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "azureedge.net",
+            "prevalence": 0.23529411764705882
+        },
+        {
+            "domain": "azure.com",
+            "prevalence": 0.11764705882352941
+        },
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.08823529411764706
+        },
+        {
+            "domain": "postmedia.digital",
+            "prevalence": 0.029411764705882353
+        },
+        {
+            "domain": "dynamics.com",
+            "prevalence": 0.029411764705882353
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "XHR": 8,
+        "Preflight": 4,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns3-39.azure-dns.org",
+        "ns2-39.azure-dns.net",
+        "ns4-39.azure-dns.info",
+        "ns1-39.azure-dns.com"
+    ]
+}

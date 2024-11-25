@@ -1,0 +1,306 @@
+{
+    "domain": "gemius.pl",
+    "owner": {
+        "name": "Gemius S.A.",
+        "displayName": "Gemius",
+        "privacyPolicy": "https://www.gemius.com/privacy-policy.html",
+        "url": "http://gemius.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00141,
+    "sites": 14,
+    "subdomains": [
+        "hr.hit",
+        "gahu.hit",
+        "idm.hit",
+        "spir.hit",
+        "pro.hit",
+        "onet.hit",
+        "gaua.hit",
+        "gabe.hit",
+        "ls.hit",
+        "admwhu.hit",
+        "si.hit"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "gemius\\.pl\\/xgemius\\.js",
+            "cookies": 0.000804,
+            "fingerprinting": 2,
+            "subdomains": [
+                "hr.hit",
+                "gahu.hit",
+                "idm.hit",
+                "spir.hit",
+                "pro.hit",
+                "onet.hit",
+                "gaua.hit",
+                "gabe.hit"
+            ],
+            "apis": {
+                "Document.cookie getter": 11,
+                "Navigator.prototype.plugins": 10,
+                "NavigatorUAData.prototype.getHighEntropyValues": 11,
+                "Date.prototype.getTime": 11,
+                "window.localStorage": 10,
+                "Date.prototype.getTimezoneOffset": 11,
+                "Screen.prototype.width": 11,
+                "Screen.prototype.height": 11,
+                "window.devicePixelRatio": 10,
+                "Screen.prototype.colorDepth": 11,
+                "window.innerWidth": 10,
+                "window.innerHeight": 10,
+                "Document.cookie setter": 8,
+                "Navigator.prototype.maxTouchPoints": 2
+            },
+            "sites": 12,
+            "prevalence": 0.00121,
+            "cnames": [],
+            "responseHashes": [
+                "b0513ce025d338475a38bb5ed1639e60f174da5b65dbe0587d835c30f91eba3e",
+                "0fa3619b32be57ea678c1dee47b88c53b20574ca5cd4f8b76204661981627213",
+                "f447e79e326ab72d065cb7218f89e4b7bc29ec510472090e3cee95b277906c0a",
+                "be7b24eaacdbd7c09b033c80a3f320aad6bb45336dc1e8bcb627b1e967dd7a92",
+                "49854eebcf5eaffa8420874979132b108215012f109be41dd063e682b10ad7ef",
+                "19659c875ee82365e58db8e11dce1e29d96d354853255a4ed0c4b446840a38a0",
+                "0316d4a1d8f6f9e6d576e5b4630a7f14f4fb3dc7d9c91410004aa365b1c2bdae",
+                "708fa8f7701ed37bd2d31acfdc65b20c5387fc943a2645beabe11d61de0120b6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__gfp_64b": {
+                    "ttl": 34128004,
+                    "length": 59,
+                    "prevalence": 0.0008036970062286518,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "net.hr",
+                "videa.hu",
+                "www.cda.pl",
+                "www.csfd.cz",
+                "www.filmweb.pl",
+                "www.geopolitika.news",
+                "www.nacional.hr",
+                "www.onet.pl",
+                "www.pravda.com.ua",
+                "www.rtbf.be",
+                "www.unian.net",
+                "www.vrt.be"
+            ]
+        },
+        {
+            "rule": "gemius\\.pl\\/fpdata\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hr.hit",
+                "pro.hit",
+                "idm.hit",
+                "onet.hit",
+                "gaua.hit",
+                "gabe.hit"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "f7c10106fe23a35769df9440e40dcde76a7fc03c03ef4ed5b3e57b1d40d8a43e",
+                "7b72d7f7ae31973bd1c42763bce2e8ccd4c8bac209c9d9db8bd9d05be6b421d4",
+                "c96ffe60582f5688c3ef0bc720dea4971da6af42a9ac465b57b435f3eeba2365",
+                "4d0bc9043073ce68be4be37010bce02c79243c21cd9c808d9f79e3b3ca4435a3",
+                "0b574c4496e82a27f2a4fff0551ea4c2d5db5ebd0d3eb8091e61c3d8f92e49fe",
+                "5edf06ae06083a46a0846147d295ab20fd2a461c915ffbb7e73b8d7f1a474ea2",
+                "8161ef7bd7bcc2f018fde6022560cdc0204eb46260ced829fd609fa79d93a237",
+                "c03704427a368afb4513fff4f7c00ba291c49ac45fca6af574582074ec2db4ee",
+                "f6a177330fb0e3f1a22975580ffdcaebfc4f86c84543f420a6f1f0df7f773ceb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "net.hr",
+                "videa.hu",
+                "www.cda.pl",
+                "www.geopolitika.news",
+                "www.nacional.hr",
+                "www.onet.pl",
+                "www.pravda.com.ua",
+                "www.rtbf.be",
+                "www.unian.net",
+                "www.vrt.be"
+            ]
+        },
+        {
+            "rule": "gemius\\.pl\\/lsget\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ls.hit"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 11,
+                "window.localStorage": 3
+            },
+            "sites": 11,
+            "prevalence": 0.00111,
+            "cnames": [],
+            "responseHashes": [
+                "31ed1894c2db4797375ecd2f3e4d3957daf618c7740badc6fb3b668fa1b32762",
+                "b2d2295eedfb4756ca8f7b3eb625467043873135cd8995afe24f05c151a71fb6",
+                "db8ec9474e71e2c42391ef89616b8f07e8c88cbed5180f418ea67eee18b7398f",
+                "5fdcd2cb2250715e925d6608ec1bc4ba0b10a59b9df96c602c433b2a6341e5cb",
+                "7aa58e25f848c85576c0a90bfe033127a79f2423486132a5907395e77041450e",
+                "7718d448dc888e013bfd46a6ff2fe141532cdb697ffe6d7a1666de0a47b651ee",
+                "e9548140d496b10cb9250cfe369af579ff2d108033be3b1fe1d871021a8a8adc",
+                "e076b7b52f03ee3050d3f2d85d6192818ef22e34ccf7cfe79c553d5ed82c70b6",
+                "8053d68d300902d093742bb409791279cabd245e15d2cf57625ed9caae3204d8",
+                "99a03ca33f5d71acefdd393326bf53655004c23aed4de30484cf641f24cabd2c"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "net.hr",
+                "videa.hu",
+                "www.cda.pl",
+                "www.daibau.ch",
+                "www.geopolitika.news",
+                "www.nacional.hr",
+                "www.onet.pl",
+                "www.pravda.com.ua",
+                "www.rtbf.be",
+                "www.unian.net",
+                "www.vrt.be"
+            ]
+        },
+        {
+            "rule": "gemius\\.pl\\/gdejs\\/xgde\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "admwhu.hit",
+                "si.hit"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.connection": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "98468b617767ca2a3dd115f2db945bf8ae9fa6e5f5a0749373623209bea73f3d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "videa.hu",
+                "www.daibau.ch"
+            ]
+        },
+        {
+            "rule": "gemius\\.pl\\/gdejs\\/xgde\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "admwhu.hit",
+                "si.hit"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7bbd910982260037f1c9d83f2c7fe743e789ca06dd54c9eb56c2598b7b928fd0"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "videa.hu",
+                "www.daibau.ch"
+            ]
+        },
+        {
+            "rule": "gemius\\.pl\\/gemius\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "admwhu.hit",
+                "si.hit"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.plugins": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fa9393df95cb62f74a0736e1437daad3c91769ab1d616138e511620b4b6e21c4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "videa.hu",
+                "www.daibau.ch"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Audience Measurement"
+    ],
+    "performance": {},
+    "cookies": 0.00121,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5806451612903226
+        },
+        {
+            "domain": "adocean.pl",
+            "prevalence": 0.2903225806451613
+        },
+        {
+            "domain": "privacy-center.org",
+            "prevalence": 0.06451612903225806
+        },
+        {
+            "domain": "aimg.sk",
+            "prevalence": 0.03225806451612903
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.03225806451612903
+        }
+    ],
+    "types": {
+        "Script": 26,
+        "Document": 13
+    },
+    "nameservers": [
+        "ns1.gemius.pl",
+        "ns2.gemius.pl",
+        "ns3.gemius.pl"
+    ]
+}

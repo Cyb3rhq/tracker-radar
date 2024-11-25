@@ -1,0 +1,146 @@
+{
+    "domain": "justeattakeaway.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "features.api",
+        "analytics.api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "justeattakeaway\\.com\\/config\\/v1\\/skip-customer-web\\/production-BAfzmZarBDYR0bTVPkyt",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "features.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skipthedishes.com",
+                "www.skipthedishes.com"
+            ]
+        },
+        {
+            "rule": "justeattakeaway\\.com\\/config\\/v1\\/skip-customer-web\\/production-BAfzmZarBDYR0bTVPkyt",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "features.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a2a76e212d4f2ce524a30f53f5c3cb20872e3fef7de4f0f2e167ba768113134b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skipthedishes.com",
+                "www.skipthedishes.com"
+            ]
+        },
+        {
+            "rule": "justeattakeaway\\.com\\/web\\/723162543983-us-production\\.json",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2fe55bba4f0439212ab7aa8794f3d7a95a7636540ed3882f78263e3d465d334d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skipthedishes.com",
+                "www.skipthedishes.com"
+            ]
+        },
+        {
+            "rule": "justeattakeaway\\.com\\/js\\/3\\.8\\.0\\/sp\\.lite\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "analytics.api"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.colorDepth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c566ba281d79c47fac94d57639c31d220c80acc427b65c9f1398fa8f666f0877"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "jet-sp-customer-ses.8ee3": {
+                    "ttl": 7203,
+                    "length": 1,
+                    "prevalence": 0.00020122748767481639,
+                    "uniqueness": 0.5
+                },
+                "jet-sp-customer-id.8ee3": {
+                    "ttl": 63072003,
+                    "length": 103,
+                    "prevalence": 0.00020122748767481639,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skipthedishes.com",
+                "www.skipthedishes.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2,
+        "Fetch": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "jay.ns.cloudflare.com",
+        "erin.ns.cloudflare.com"
+    ]
+}

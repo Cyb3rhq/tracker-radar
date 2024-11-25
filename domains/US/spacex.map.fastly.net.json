@@ -1,0 +1,94 @@
+{
+    "domain": "spacex.map.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "analytics.starlink.com",
+            "resolved": "spacex.map.fastly.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "spacex\\.map\\.fastly\\.net\\/matomo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "analytics.starlink.com",
+                    "resolved": "spacex.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "13becf892b54d5f9592aa9980c2651793ed793333097a6cb50c87e00b2732334"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "starlink.com",
+                "support.starlink.com",
+                "www.starlink.com"
+            ]
+        },
+        {
+            "rule": "spacex\\.map\\.fastly\\.net\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [
+                {
+                    "original": "analytics.starlink.com",
+                    "resolved": "spacex.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "starlink.com",
+                "direct.starlink.com",
+                "support.starlink.com",
+                "www.starlink.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Script": 3,
+        "Ping": 4
+    },
+    "nameservers": []
+}

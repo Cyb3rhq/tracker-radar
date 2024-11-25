@@ -1,0 +1,170 @@
+{
+    "domain": "relish.com",
+    "owner": {
+        "name": "Fexy Media, Inc.",
+        "displayName": "Fexy Media"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "relish\\.com\\/scripts\\/relish\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Screen.prototype.orientation": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "097a1d7beb5c30b52e924b6e65582d669b4f80d83e4da90bcfb9e31a5182120b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iwashyoudry.com",
+                "www.inspiredtaste.net"
+            ]
+        },
+        {
+            "rule": "relish\\.com\\/scripts\\/storage",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d9975960ee35ce95962a430e6549ebb2b3818de3d36bcd4cd22a6975930915e5"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iwashyoudry.com",
+                "www.inspiredtaste.net"
+            ]
+        },
+        {
+            "rule": "relish\\.com\\/cdn-cgi\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iwashyoudry.com",
+                "www.inspiredtaste.net"
+            ]
+        },
+        {
+            "rule": "relish\\.com\\/api\\/v1\\/retailers\\/00000",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8d02132090a30db62918de15c672e6f1d0068b1a9a9399949e2453f820f6e4b5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iwashyoudry.com",
+                "www.inspiredtaste.net"
+            ]
+        },
+        {
+            "rule": "relish\\.com\\/api-insights\\/log",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "36486f6f8ea9c0ede9e0b7fa48630f2a837c376efa25adc78efac2a0a2068665"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inspiredtaste.net",
+                "www.inspiredtaste.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.26666666666666666
+        },
+        {
+            "domain": "cloudflareinsights.com",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 2,
+        "XHR": 2,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "hans.ns.cloudflare.com",
+        "betty.ns.cloudflare.com"
+    ]
+}

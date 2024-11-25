@@ -1,0 +1,255 @@
+{
+    "domain": "bibliocommons.com",
+    "owner": {
+        "name": "Bibliocommons Inc.",
+        "displayName": "Bibliocommons"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "gateway",
+        "cor-cdn-static",
+        "cdn-nerf",
+        "epl",
+        "halifax"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "bibliocommons\\.com\\/v2\\/libraries\\/calgary\\/sessions\\/current",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gateway"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calgarylibrary.ca",
+                "www.calgarylibrary.ca"
+            ]
+        },
+        {
+            "rule": "bibliocommons\\.com\\/assets\\/responsive_external_header-c60fcf3650be665b532bd462de3f54a7\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cor-cdn-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "44170318c3f41ee745036379c1f705c10b214fa19c75c893fd5db8a328bf4fcb"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "epl.ca",
+                "www.halifaxpubliclibraries.ca"
+            ]
+        },
+        {
+            "rule": "bibliocommons\\.com\\/assets\\/responsive_external_header-822effcb86c5d8a2a3b65d72c6130a59\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cor-cdn-static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "93f4b8ff11207440767e29c961449b7a12fcad0fc46d03f5bc94bac55bc0570d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "epl.ca",
+                "www.halifaxpubliclibraries.ca"
+            ]
+        },
+        {
+            "rule": "bibliocommons\\.com\\/assets\\/fontello-7aaf5df643343c6846d1d2be8803acd8\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cor-cdn-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3a586b1a7e303b22c3c9ee627927abf76cbfb8ad9b620a20e5d242d8b4e61126"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "epl.ca",
+                "www.halifaxpubliclibraries.ca"
+            ]
+        },
+        {
+            "rule": "bibliocommons\\.com\\/app\\.sdk-fd090f8a2b07b3524d03\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-nerf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "733a7786bdd4166ec91be3279f9a21dfacb310022b3a74b58aad5bb20fa3bff5"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "epl.ca",
+                "www.halifaxpubliclibraries.ca"
+            ]
+        },
+        {
+            "rule": "bibliocommons\\.com\\/app\\.sdk-fd090f8a2b07b3524d03\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn-nerf"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Date.prototype.getTime": 1,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "79bb75349b9fd72fe4433bb3de044311b573dd8b1b286f4d18c933a637006690"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "epl.ca",
+                "www.halifaxpubliclibraries.ca"
+            ]
+        },
+        {
+            "rule": "bibliocommons\\.com\\/widgets\\/is_local_branch\\.json",
+            "cookies": 0.000302,
+            "fingerprinting": 0,
+            "subdomains": [
+                "epl",
+                "halifax"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "0b115033cc0207156400a2041e2758867c035e144ffa788a9338d93670e7de37",
+                "8f9b6176a00fad97e00bbc8ab498e5c509dffc24671828f7f091c823ca5ec604"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "epl.ca",
+                "www.epl.ca",
+                "www.halifaxpubliclibraries.ca"
+            ]
+        },
+        {
+            "rule": "bibliocommons\\.com\\/app\\.app-components-layouts-FeedbackBox-FeedbackBoxContainer-dec0eb33ea5acb8496cb\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-nerf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "359236fc7b5b7f0d01be11baa57f295efbbf4fded3b4617981fa512880b00c6c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "epl.ca",
+                "www.halifaxpubliclibraries.ca"
+            ]
+        },
+        {
+            "rule": "bibliocommons\\.com\\/app\\.app-components-layouts-FeedbackBox-FeedbackBoxContainer-dec0eb33ea5acb8496cb\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-nerf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e91e3ced8f8b2cf64c1b53683a1eaf5db8a1ff3a04708313206178096c5da2e5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "epl.ca",
+                "www.halifaxpubliclibraries.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7692307692307693
+        },
+        {
+            "domain": "d4804za1f1gw.cloudfront.net",
+            "prevalence": 0.23076923076923078
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Stylesheet": 6,
+        "Script": 9,
+        "Font": 2
+    },
+    "nameservers": [
+        "ns-1339.awsdns-39.org",
+        "ns-1674.awsdns-17.co.uk",
+        "ns-343.awsdns-42.com",
+        "ns-547.awsdns-04.net"
+    ]
+}

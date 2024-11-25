@@ -1,0 +1,76 @@
+{
+    "domain": "assets-horizon-online.azurewebsites.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "assets-horizon-online\\.azurewebsites\\.net\\/js\\/tracking-horizon-online\\.min\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4,
+                "window.localStorage": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "83cdbb76e89280dc4726923c3a2fde5ebd2acf58d593f34ebc450d54cf308219"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "domain": {
+                    "ttl": 31536003,
+                    "length": 15,
+                    "prevalence": 0.0003013863773357444,
+                    "uniqueness": 0.6666666666666666
+                },
+                "hz_anon_id": {
+                    "ttl": 31536004,
+                    "length": 36,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cotswoldco.com",
+                "www.annsummers.co.uk",
+                "www.cardfactory.co.uk",
+                "www.cotswoldco.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": []
+}

@@ -1,0 +1,157 @@
+{
+    "domain": "nnmtools.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000202,
+    "sites": 2,
+    "subdomains": [
+        "cdnhorizon",
+        "apihorizon"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "nnmtools\\.com\\/dist\\/manifest\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnhorizon"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "df70e7eefae82c85fb92917b6cb8d6cf2aad234833ac2b98275a14abdc003d0f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pcgamesn.com",
+                "www.pockettactics.com"
+            ]
+        },
+        {
+            "rule": "nnmtools\\.com\\/dist\\/js\\/app\\.7c3e0c50\\.min\\.js",
+            "cookies": 0.000202,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdnhorizon"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "e8188e1794465f629654445a19a17aca7288e3ca05fca4d47aaaefa0b20ea5ad"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "horizon_session": {
+                    "ttl": 2592003,
+                    "length": 32,
+                    "prevalence": 0.00020153164046755341,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pcgamesn.com",
+                "www.pockettactics.com"
+            ]
+        },
+        {
+            "rule": "nnmtools\\.com\\/api\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apihorizon"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "a6df55d82a0b96b416e89f2a28a7daf2d6fb84310e9595e8a3b64415dc4ced03"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pcgamesn.com",
+                "www.pockettactics.com"
+            ]
+        },
+        {
+            "rule": "nnmtools\\.com\\/cdn-cgi\\/trace",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdnhorizon"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "496675c3563f48cf81856840518defd698fc57d621d5ebab5664f1d703b0cea7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pcgamesn.com",
+                "www.pockettactics.com"
+            ]
+        },
+        {
+            "rule": "nnmtools\\.com\\/api\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apihorizon"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pcgamesn.com",
+                "www.pockettactics.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000202,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Script": 2,
+        "XHR": 4,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "vita.ns.cloudflare.com",
+        "mitch.ns.cloudflare.com"
+    ]
+}

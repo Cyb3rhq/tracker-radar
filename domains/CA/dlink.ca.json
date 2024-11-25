@@ -1,0 +1,84 @@
+{
+    "domain": "dlink.ca",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000101,
+    "sites": 1,
+    "subdomains": [
+        "shop"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "dlink\\.ca\\/",
+            "cookies": 0.000101,
+            "fingerprinting": 1,
+            "subdomains": [
+                "shop"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "79f1f436cb81154f653e3de4acbaf501623044ac9f5b673bfe0db15bee42212c"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dlink.com",
+                "www.dlink.com"
+            ]
+        },
+        {
+            "rule": "dlink\\.ca\\/\\.well-known\\/shopify\\/monorail\\/unstable\\/produce_batch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dlink.com",
+                "www.dlink.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000101,
+    "topInitiators": [
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "cart-bot.net",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Document": 2,
+        "Ping": 2
+    },
+    "nameservers": [
+        "ns-57.awsdns-07.com",
+        "ns-859.awsdns-43.net",
+        "ns-1047.awsdns-02.org",
+        "ns-1918.awsdns-47.co.uk"
+    ]
+}

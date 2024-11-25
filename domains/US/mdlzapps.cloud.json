@@ -1,0 +1,105 @@
+{
+    "domain": "mdlzapps.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "quotes-api",
+        "nprd-gtm-fifth-server"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "mdlzapps\\.cloud\\/quote-service\\/quotes",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "quotes-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "20e8d538a19e7a1829d2837bc6e3ccf35c36472f146ff4bc989af135cfb1a912"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mondelezinternational.com",
+                "www.mondelezinternational.com"
+            ]
+        },
+        {
+            "rule": "mdlzapps\\.cloud\\/quote-service\\/quotes",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "quotes-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mondelezinternational.com",
+                "www.mondelezinternational.com"
+            ]
+        },
+        {
+            "rule": "mdlzapps\\.cloud\\/g\\/collect",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nprd-gtm-fifth-server"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7779a9b09e6f47fe93bd1bb81835febe625a2e3425f4f07473567f4092cd1b4b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "mondelezinternational.com",
+                "www.mondelezinternational.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "dns1.cscdns.net",
+        "dns2.cscdns.net"
+    ]
+}

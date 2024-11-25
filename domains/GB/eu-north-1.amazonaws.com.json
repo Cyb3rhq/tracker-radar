@@ -1,0 +1,150 @@
+{
+    "domain": "eu-north-1.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "abtest-ld-v2.s3"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "eu-north-1\\.amazonaws\\.com\\/LD-Prod\\/LaunchDarkly_setup\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 1,
+            "subdomains": [
+                "abtest-ld-v2.s3"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "bdc0010975e0aab3babf738e47c9781a9c8d9bb17d54a94312fbc8e7f5cf1aec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ldId": {
+                    "ttl": 2073611,
+                    "length": 16,
+                    "prevalence": 0.0004018485031143259,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ladbrokes.com",
+                "myaccount.coral.co.uk",
+                "www.coral.co.uk",
+                "www.ladbrokes.com"
+            ]
+        },
+        {
+            "rule": "eu-north-1\\.amazonaws\\.com\\/experiments\\/abtest-generation_prod\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "abtest-ld-v2.s3"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "79b475add2a22bb4e1beee622dcd773b2620222503e73ea38f178b0ffb326484"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ladbrokes.com",
+                "myaccount.coral.co.uk",
+                "www.coral.co.uk",
+                "www.ladbrokes.com"
+            ]
+        },
+        {
+            "rule": "eu-north-1\\.amazonaws\\.com\\/experiments\\/coral-co-uk\\/c-a6-dwellcookie-abt2296\\/c-a6-dwellcookie-abt2296_default\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "abtest-ld-v2.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "18b97380ce2f4374eee093002f7efa66094b2fa09a8f5cafa0d4e4a7a0d99a7d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coral.co.uk",
+                "www.coral.co.uk"
+            ]
+        },
+        {
+            "rule": "eu-north-1\\.amazonaws\\.com\\/experiments\\/coral-co-uk\\/c-a6-dwellcookie-abt2296\\/c-a6-dwellcookie-abt2296_default\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "abtest-ld-v2.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coral.co.uk",
+                "www.coral.co.uk"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "itsfogo.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns1.amzndns.co.uk",
+        "ns1.amzndns.com",
+        "ns1.amzndns.net",
+        "ns1.amzndns.org",
+        "ns2.amzndns.co.uk",
+        "ns2.amzndns.com",
+        "ns2.amzndns.net",
+        "ns2.amzndns.org"
+    ]
+}

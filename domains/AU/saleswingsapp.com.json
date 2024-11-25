@@ -1,0 +1,116 @@
+{
+    "domain": "saleswingsapp.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "s",
+        "to.go"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "saleswingsapp\\.com\\/sw\\.prod\\.min\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1a1a2ff43a656a98464a96abdfe51a8a1697f0c2ff9465907308509614c4860e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sw": {
+                    "ttl": 31536009,
+                    "length": 14,
+                    "prevalence": 0.0002008838891120932,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bowens.com.au",
+                "www.oup.com.au"
+            ]
+        },
+        {
+            "rule": "saleswingsapp\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "to.go"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0ec14c19bec9cdd6d6863682b6a23b4e9d816546eef9a0b2d48949bbd36bac16"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bowens.com.au",
+                "www.oup.com.au"
+            ]
+        },
+        {
+            "rule": "saleswingsapp\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "to.go"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bowens.com.au",
+                "www.oup.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-1771.awsdns-29.co.uk",
+        "ns-937.awsdns-53.net",
+        "ns-1434.awsdns-51.org",
+        "ns-463.awsdns-57.com"
+    ]
+}

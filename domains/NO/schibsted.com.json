@@ -1,0 +1,878 @@
+{
+    "domain": "schibsted.com",
+    "owner": {
+        "name": "Schibsted Media Group",
+        "displayName": "Schibsted Media Group"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00613,
+    "sites": 61,
+    "subdomains": [
+        "static.privacy",
+        "session-service.login",
+        "sdk.pulse",
+        "ncis",
+        "mcis"
+    ],
+    "cnames": [
+        {
+            "original": "id.adressa.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.aesby.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.agderposten.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.altaposten.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.avisa-st.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.banett.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.bladet.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.bomlo-nytt.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.fjordabladet.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.fjuken.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.folkebladet.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.fosna-folket.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.framtidinord.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.hitra-froya.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.ht.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.innherred.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.itromso.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.lp.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.mn24.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.morenytt.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.opp.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.rbnett.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.s-n.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.smp.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.sunnhordland.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.tronderbladet.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.varden.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.vestlandsnytt.no",
+            "resolved": "session-service.login.schibsted.com"
+        },
+        {
+            "original": "id.vol.no",
+            "resolved": "session-service.login.schibsted.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "schibsted\\.com\\/dist\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static.privacy"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 48,
+                "Navigator.prototype.userAgent": 48
+            },
+            "sites": 48,
+            "prevalence": 0.00482,
+            "cnames": [],
+            "responseHashes": [
+                "6c97d91feae26615d46b9c75bc728aa84b933fb9338c5a7e8656c20807109b39"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.tronderbladet.no",
+                "www.bomlo-nytt.no",
+                "www.vestlandsnytt.no",
+                "www.bladet.no",
+                "pent.no",
+                "www.fjordabladet.no",
+                "www.itromso.no",
+                "www.hitra-froya.no",
+                "vink.aftenposten.no",
+                "www.varden.no",
+                "adressa.no",
+                "www.altaposten.no",
+                "www.rbnett.no",
+                "bors.e24.no",
+                "e24.no",
+                "trdby.adressa.no",
+                "www.ht.no",
+                "www.lp.no",
+                "lysfesten.bt.no",
+                "www.adressa.no"
+            ]
+        },
+        {
+            "rule": "schibsted\\.com\\/v2\\/session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "session-service.login"
+            ],
+            "apis": {},
+            "sites": 31,
+            "prevalence": 0.00311,
+            "cnames": [
+                {
+                    "original": "id.adressa.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.vol.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.agderposten.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.aesby.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.altaposten.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.avisa-st.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.banett.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.bladet.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.bomlo-nytt.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.fjordabladet.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.fjuken.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.folkebladet.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.fosna-folket.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.framtidinord.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.hitra-froya.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.ht.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.innherred.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.itromso.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.lp.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.mn24.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.morenytt.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.opp.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.rbnett.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.s-n.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.smp.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.sunnhordland.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.tronderbladet.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.varden.no",
+                    "resolved": "session-service.login.schibsted.com"
+                },
+                {
+                    "original": "id.vestlandsnytt.no",
+                    "resolved": "session-service.login.schibsted.com"
+                }
+            ],
+            "responseHashes": [
+                "7f6f85b2474239f232c24918e2ac4a56a838bc64a9e872a62b89152e569602ff"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.innherred.no",
+                "www.fosna-folket.no",
+                "adressa.no",
+                "www.sunnhordland.no",
+                "www.opp.no",
+                "www.fjuken.no",
+                "www.fjordabladet.no",
+                "www.vestlandsnytt.no",
+                "www.framtidinord.no",
+                "www.altaposten.no",
+                "www.adressa.no",
+                "www.ht.no",
+                "www.bomlo-nytt.no",
+                "www.s-n.no",
+                "www.hitra-froya.no",
+                "www.varden.no",
+                "www.folkebladet.no",
+                "www.mn24.no",
+                "www.agderposten.no",
+                "www.lp.no"
+            ]
+        },
+        {
+            "rule": "schibsted\\.com\\/versioned\\/3\\/pulse\\.min\\.js",
+            "cookies": 0.00362,
+            "fingerprinting": 2,
+            "subdomains": [
+                "sdk.pulse"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 36,
+                "window.localStorage": 36,
+                "Document.cookie getter": 36,
+                "window.sessionStorage": 36,
+                "Date.prototype.getTime": 36,
+                "Document.cookie setter": 36,
+                "Navigator.prototype.language": 36,
+                "Screen.prototype.width": 36,
+                "Screen.prototype.height": 36,
+                "window.innerWidth": 36,
+                "window.innerHeight": 36
+            },
+            "sites": 36,
+            "prevalence": 0.00362,
+            "cnames": [],
+            "responseHashes": [
+                "6db85765d335674a7231c64ca457be75f2bb35c65ed89931cdd60e1a4942460e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pulse2data": {
+                    "ttl": 63072004,
+                    "length": 519,
+                    "prevalence": 0.0036155468514612837,
+                    "uniqueness": 1
+                },
+                "_pulsesession": {
+                    "ttl": 1804,
+                    "length": 109,
+                    "prevalence": 0.0036155468514612837,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.fjuken.no",
+                "www.itromso.no",
+                "www.bygdanytt.no",
+                "www.l-a.no",
+                "www.innherred.no",
+                "www.s-n.no",
+                "trdby.adressa.no",
+                "www.altaposten.no",
+                "adressa.no",
+                "www.agderposten.no",
+                "www.smp.no",
+                "www.fjordabladet.no",
+                "www.sunnhordland.no",
+                "www.mn24.no",
+                "www.av-avis.no",
+                "www.ht.no",
+                "www.opp.no",
+                "www.vol.no",
+                "www.rbnett.no",
+                "vol.no"
+            ]
+        },
+        {
+            "rule": "schibsted\\.com\\/api\\/v2\\/identify\\/guest",
+            "cookies": 0.00593,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ncis",
+                "mcis"
+            ],
+            "apis": {},
+            "sites": 59,
+            "prevalence": 0.00593,
+            "cnames": [],
+            "responseHashes": [
+                "469370af406c0b4a6f05873128e097f5229f99097ce7188f00c5c176c65e7af8",
+                "849c3aafd4c0fe9e250707beaa0275738cc9d586483ccdc37c54fb2fc1234763",
+                "59cb776e20d15958f4852ba64dc59e9690c6ecf8a2fed3b52de58a30b482f384",
+                "0e40c0ee99280af4b585feaeac6218601bcb88c5621459eedf063e101424b6d9",
+                "112ab927a1b2c3f839be31d2d194d9f23b08e1cca6620a04d3bb039aeb12c4c8",
+                "e7614ad1996fb72765ace2b5219449b3fe1ce80ec11f7f609fab3d987999c007",
+                "8a8ea623e8de95e1182817c6e4e6a2919b7f557c1f39c977fbe99e7bcee6abd8",
+                "74b841bcd283552439b874cf2254f05803d4e7187a5685786b4cecccdb6a5061",
+                "abb9ef1538e92aad7b66a5847901c68d4c70b61fb74c64b9fdf8853b17c9738c",
+                "2df2d2b31945a6a0a9cdee1fe7f6650554c8d7ba5cd4bf68d8f2238f7b876c90",
+                "014006eb4b9173a989ba1a36158255ccabd2c3984527dd27c777d26c3f66696d",
+                "f0b14440874bfd16579dc72d7a82313da78e5379bffe061103d4e217841393f2",
+                "50bf7ebaf6236237a43501ae10e2dc197b872c428c7d9a04ec725d259e015747",
+                "d3b820a799b28c574ddc7b98ef37553d26221a942a48aea2a534e1280636f945",
+                "cda2a28cee04818ec5c7f03d3218c60438d1f5b21debc46052ab841f86aac2fb",
+                "fce5d33afc72acb5c4200c762b25470f9e107d10c1d23700abe99cbdaacac8a9",
+                "d32dbd972746881cbaa8c237817f0d86fc18791381ce1a9abb199a5ad1af86f7",
+                "2cb27a3fa2bc14f04aeb6443b48388ab379ab8c1974fe208aff804b96e0fa427",
+                "dc608b8163f89384ca4c5bb5a5cc5921a15394946da1b4468ce9d0e8b9541ce5",
+                "850110a331ec767933f2d4e7a226cc4dee8f872aba688625ca7ae9cdd44a8f20",
+                "5b2cf2a1405399a360221626b4772f7c0c83fe1c2690d9466c9fc063521cd1d4",
+                "b7d1b78ef7fc61ac18ad72906d0db92f9266a911cc1f2b36469d9140b03c8908",
+                "bdb039accf833f6bce787c7023e9ff1b52ca02879ef222d8a6c4b9fe4f6a3cc0",
+                "4563255bd78470a4687348a0a11609fe75b1b44430bcd50f2fb9825534dc69f9",
+                "fcc458a42fee93c2a20b639fb5d1f3538523b507f452cfd4d0b256c3085775a8",
+                "db8563c5b94d47f791215204ab127424d28e8d42bb6b64593bd2956de49a6ec3",
+                "308de475880946d0b03a64649f155f9af823cf314ebca1f3db09208e43381477",
+                "c094103194b8ed7caadc037b1aca562685f455afd36b7ba17f728efa9c8b74fd",
+                "092afed3a565afb52b83ba19fcfb5ec1bb3d8cd4d105ee7a64922860810ced8a",
+                "251041fee846890354795908f703c803850f9fabfc384ce8bcad3fbe33d96a9a",
+                "7bf3e5d10193e2cc2fc14534a40228c2a688302aec9ece613b1d2fe56922328e",
+                "4d170b8feb256b0881a568b6783d198da33d42823e79bee1cb55ddcfa376e568",
+                "357a0352afd72e141867e454dcf8807d6bdeef3d0a27d7eaf909db2d1ef58882",
+                "e9e4d5504db1cb20b8917102fcc30845a0a5c465bab63efe8a60fa2a434e695d",
+                "2b58774f5cadba93dd1ba8aff443a645eedaba457f6d2bfcce7f8d0a14fe2526",
+                "9f05e2e0c18576a5cd63450444d05ec706d4e01157eef438a143af4d4ce0106f",
+                "6fb7e565f412bb53bcc61d483179e026a3cd86ae476c266f6fb852f8efbf3b08",
+                "4d5057199fda97f70a841881c3ad693235d12f5ddee66fe16370e7034442ebf4",
+                "63d6d1ce2e5c009fd5eddc93b06b3496f33c3fb95dddc102b34a41859d1b9634",
+                "afaf3f38a47b46811a11cf8bddba4638890610689560d38c66a278966d6ab14d",
+                "fc6ca55f138993aeb0176b3222968318b0566f78be23e9be473a43683eb2fceb",
+                "60b00000e4ec32971095203f3f935d7a8197f0ab5885ec09012208cefbf79ae8",
+                "e32d0c7c49602614d9f803c0c61504bb49f2575828a6e80d88748037fa25cf05",
+                "12793262744b65766f82a53c43cba3b7df1457fb432abe92434d2146f08a43c2",
+                "765cd96739104df0eb5c0324dc7ec5b44ebacd58f5c7cb14cb96dfad401c752b",
+                "0cb1a2f17e569179034777041737da4a4318afdd6a43349abfe789ecf110a3cb",
+                "c7236537f8fc0c307e2ca282c5fc71e4a15dfa8b760df6e249785f19a96ada08",
+                "bf13d78bcbbc4d6957dca2991ce84d39e0a43b3d40f0a4d866499b3146120c46",
+                "8910c8cc8eb685fa5a40ee93da20eb8ede45c03f4446049b8ae789b12f5ce940",
+                "a46187fc2f68184d138839c44789b51fdd9161063e5ab9ec96011e3c730c0666",
+                "a785512a93750accd91853825314aa15b3642787a37d429f502acce55c47ddbb",
+                "87b8426b32794de31dfe19a2a107096533bdd876e265511466d40490337f223d",
+                "679f6000230820924e6c039277731e4ca77781b921572fc1be5a7c8176788b60",
+                "48107258b8973b53ad8617e1f59dd23cc21e8db239f59b73c34554f57ee7d77c",
+                "e3c6e72c93bcd27c838970a54433d9e74ed810dd023baf44428c5c874f4d1573",
+                "8fe7a01e1cc474652c7a43e6d5c44b1ad8a3627924a7eb8f5995d2cc6282d8af",
+                "0820e0e24aa106bd72cb4bf7932371a142ada2ba404364f06f04874fb22890fb",
+                "6d34b19dd476b12fe01a6429bad3bde7509a285bcf2925a259198310cbdfca73"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.landevei.no",
+                "www.ht.no",
+                "www.fosna-folket.no",
+                "vink.aftenposten.no",
+                "e24.no",
+                "www.minmote.no",
+                "vol.no",
+                "www.vol.no",
+                "www.agderposten.no",
+                "lysfesten.bt.no",
+                "www.terrengsykkel.no",
+                "www.lp.no",
+                "www.bt.no",
+                "helthjem.no",
+                "www.jeger.no",
+                "pent.no",
+                "www.s-n.no",
+                "www.norsk-klatring.no",
+                "www.bladet.no",
+                "www.tek.no"
+            ]
+        },
+        {
+            "rule": "schibsted\\.com\\/api\\/v2\\/identify\\/guest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ncis",
+                "mcis"
+            ],
+            "apis": {},
+            "sites": 59,
+            "prevalence": 0.00593,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.bt.no",
+                "www.smp.no",
+                "www.fvn.no",
+                "vink.aftenposten.no",
+                "www.finn.no",
+                "www.framtidinord.no",
+                "www.bladet.no",
+                "www.norsk-klatring.no",
+                "www.l-a.no",
+                "www.adressa.no",
+                "www.godt.no",
+                "bors.e24.no",
+                "www.jeger.no",
+                "trdby.adressa.no",
+                "www.terrengsykkel.no",
+                "kart.finn.no",
+                "www.itromso.no",
+                "vol.no",
+                "adressa.no",
+                "e24.no"
+            ]
+        },
+        {
+            "rule": "schibsted\\.com\\/cmp\\/chevron_down_20231017\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.privacy"
+            ],
+            "apis": {},
+            "sites": 53,
+            "prevalence": 0.00532,
+            "cnames": [],
+            "responseHashes": [
+                "53a98e310c4db79172f690c63752dac0230996667934dd7322dfbf5d861d9a1c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.rbnett.no",
+                "www.adressa.no",
+                "www.godt.no",
+                "www.friflyt.no",
+                "lysfesten.bt.no",
+                "bors.e24.no",
+                "www.minmote.no",
+                "www.jeger.no",
+                "trdby.adressa.no",
+                "www.mn24.no",
+                "e24.no",
+                "www.vol.no",
+                "www.opp.no",
+                "www.avisa-st.no",
+                "www.morenytt.no",
+                "www.norsk-klatring.no",
+                "www.terrengsykkel.no",
+                "www.fvn.no",
+                "pent.no",
+                "www.sunnhordland.no"
+            ]
+        },
+        {
+            "rule": "schibsted\\.com\\/cmp\\/brands\\/none\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.privacy"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.00161,
+            "cnames": [],
+            "responseHashes": [
+                "84255d24e92f853624bcd2f2fe8e69dcbc11742f62bdbf8b286bc4eb5881b116"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "e24.no",
+                "lysfesten.bt.no",
+                "pent.no",
+                "vink.aftenposten.no",
+                "www.aftenposten.no",
+                "www.aftenbladet.no",
+                "www.bt.no",
+                "www.friflyt.no",
+                "www.godt.no",
+                "www.jeger.no",
+                "www.landevei.no",
+                "www.minmote.no",
+                "www.norsk-klatring.no",
+                "www.tek.no",
+                "www.terrengsykkel.no",
+                "www.utemagasinet.no"
+            ]
+        },
+        {
+            "rule": "schibsted\\.com\\/cmp\\/schibsted_logo_primary_20231017\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.privacy"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00171,
+            "cnames": [],
+            "responseHashes": [
+                "dddb14fe0ef8a8f25b11b5fcac8a50f057b1123262fe11bccba21325178c72f0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "e24.no",
+                "lysfesten.bt.no",
+                "pent.no",
+                "podme.com",
+                "vink.aftenposten.no",
+                "www.aftenposten.no",
+                "www.aftenbladet.no",
+                "www.bt.no",
+                "www.friflyt.no",
+                "www.godt.no",
+                "www.jeger.no",
+                "www.landevei.no",
+                "www.minmote.no",
+                "www.norsk-klatring.no",
+                "www.tek.no",
+                "www.terrengsykkel.no",
+                "www.utemagasinet.no"
+            ]
+        },
+        {
+            "rule": "schibsted\\.com\\/api\\/v1\\/sync",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mcis",
+                "ncis"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "helthjem.no",
+                "kart.finn.no",
+                "kundeportal.aftenposten.no",
+                "lysfesten.bt.no",
+                "pent.no",
+                "www.blocket.se",
+                "www.godt.no",
+                "www.minmote.no",
+                "www.tek.no"
+            ]
+        },
+        {
+            "rule": "schibsted\\.com\\/cmp\\/brands\\/Bergens%20Tidende\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.privacy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ee2fb5e071ca4f255e35c3125e803fdff0177e86243d1833ccbaa3968ce19e7b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bt.no",
+                "www.bt.no"
+            ]
+        },
+        {
+            "rule": "schibsted\\.com\\/versioned\\/3\\.1\\/loader\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk.pulse"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "1d991bd7208d5c58ecb5df99dbe9aa14f706d1ef97f3f1113a5f4433528186e9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pent.no",
+                "www.godt.no",
+                "www.minmote.no",
+                "www.tek.no"
+            ]
+        },
+        {
+            "rule": "schibsted\\.com\\/versioned\\/3\\.1\\.6\\/pulse\\.min\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 2,
+            "subdomains": [
+                "sdk.pulse"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "window.sessionStorage": 4,
+                "Navigator.prototype.language": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "6db85765d335674a7231c64ca457be75f2bb35c65ed89931cdd60e1a4942460e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pulse2data": {
+                    "ttl": 63072008,
+                    "length": 778,
+                    "prevalence": 0.00040172742794014263,
+                    "uniqueness": 1
+                },
+                "_pulsesession": {
+                    "ttl": 1807,
+                    "length": 109,
+                    "prevalence": 0.00040172742794014263,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pent.no",
+                "www.godt.no",
+                "www.minmote.no",
+                "www.tek.no"
+            ]
+        },
+        {
+            "rule": "schibsted\\.com\\/versioned\\/3\\.1\\/pulse\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sdk.pulse"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "window.sessionStorage": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "6db85765d335674a7231c64ca457be75f2bb35c65ed89931cdd60e1a4942460e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aftenposten.no",
+                "www.aftenposten.no",
+                "www.aftenbladet.no",
+                "www.bt.no"
+            ]
+        },
+        {
+            "rule": "schibsted\\.com\\/cmp\\/brands\\/Aftenposten\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.privacy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "31617728df1fba8114a6fe01c0a590d7860a80d257489965ddde0d3e3a3886ae"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aftenposten.no",
+                "www.aftenposten.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00603,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8823529411764706
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.0481283422459893
+        },
+        {
+            "domain": "m10s.io",
+            "prevalence": 0.0213903743315508
+        },
+        {
+            "domain": "blocketcdn.se",
+            "prevalence": 0.016042780748663103
+        },
+        {
+            "domain": "vgc.no",
+            "prevalence": 0.0106951871657754
+        },
+        {
+            "domain": "d2zah9y47r7bi2.cloudfront.net",
+            "prevalence": 0.0106951871657754
+        },
+        {
+            "domain": "jsdelivr.net",
+            "prevalence": 0.0053475935828877
+        },
+        {
+            "domain": "d2wy8f7a9ursnm.cloudfront.net",
+            "prevalence": 0.0053475935828877
+        }
+    ],
+    "types": {
+        "Script": 96,
+        "Fetch": 90,
+        "Preflight": 59,
+        "Image": 99
+    },
+    "nameservers": [
+        "ns-2019.awsdns-60.co.uk",
+        "ns-791.awsdns-34.net",
+        "ns-182.awsdns-22.com",
+        "ns-1082.awsdns-07.org"
+    ]
+}

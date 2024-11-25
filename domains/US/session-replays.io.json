@@ -1,0 +1,94 @@
+{
+    "domain": "session-replays.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000116,
+    "sites": 17,
+    "subdomains": [
+        "worker-visa",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "session-replays\\.io\\/ssr-worker\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "worker-visa"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "window.sessionStorage": 5,
+                "Document.cookie getter": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "ab1793f1f4f4551f848982b577dd31a9885b53ad5e9bdd513e028f9bca3a030c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foxylists.com",
+                "www.gbgunsdepot.com",
+                "www.livefromstudio6b.com",
+                "www.opheliaovertheknee.com",
+                "www.topfirearmreviews.com"
+            ]
+        },
+        {
+            "rule": "session-replays\\.io\\/websocket-test\\/info",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "27a54b7e98c954ed0df884a2f2605a43d8c394c5d13a3e1e4b2be66188eeaae6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tum.de",
+                "www.virginatlantic.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "visitor-analytics.io",
+            "prevalence": 0.55
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "raygun.io",
+            "prevalence": 0.05
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns1.first-ns.de",
+        "robotns3.second-ns.com",
+        "robotns2.second-ns.de"
+    ]
+}

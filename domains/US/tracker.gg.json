@@ -1,0 +1,191 @@
+{
+    "domain": "tracker.gg",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "account",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "tracker\\.gg\\/\\.well-known\\/openid-configuration",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "account"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "c2734411a4fc9f71c1053e1eeffd1d3c7814b3e426cfb862af59c79355a67df8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tracker.network",
+                "r6.tracker.network",
+                "rocketleague.tracker.network"
+            ]
+        },
+        {
+            "rule": "tracker\\.gg\\/api\\/v1\\/r6siege\\/awards\\/profile\\/badges",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tracker.network",
+                "r6.tracker.network"
+            ]
+        },
+        {
+            "rule": "tracker\\.gg\\/api\\/v1\\/r6siege\\/awards\\/profile\\/badges",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d1f0645dda9aa0abccff3823a414f8e95cacf9e8c7690a2ef7d6ac588d1bfcc0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tracker.network",
+                "r6.tracker.network"
+            ]
+        },
+        {
+            "rule": "tracker\\.gg\\/connect\\/authorize",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "account"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "93575cb35c552ef1dc2fab80559f0200ce70054fd274b9602307064d64f597cf",
+                "bbe29df9d127e35b08fee7c808dd1e21abb0e14cbb90a6522e057704f0f36a74"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tracker.network",
+                "r6.tracker.network",
+                "rocketleague.tracker.network"
+            ]
+        },
+        {
+            "rule": "tracker\\.gg\\/api\\/v1\\/r6siege\\/wrapper\\/interactions",
+            "cookies": 0.00000683,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4ff65450f063fcf33231763a9670287e831cf40f8af30b1a2addcb3310c490f9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tracker.network",
+                "r6.tracker.network"
+            ]
+        },
+        {
+            "rule": "tracker\\.gg\\/api\\/v1\\/r6siege\\/insights\\/distribution\\/pc",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2d6d2fa3c58633463762c8782087c4ad2382a0d94fe23ac62f8a6cb07cc82d2d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tracker.network",
+                "r6.tracker.network"
+            ]
+        },
+        {
+            "rule": "tracker\\.gg\\/api\\/v1\\/rocket-league\\/wrapper\\/interactions",
+            "cookies": 0.00000683,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4ff65450f063fcf33231763a9670287e831cf40f8af30b1a2addcb3310c490f9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tracker.network",
+                "rocketleague.tracker.network"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000273,
+    "topInitiators": [
+        {
+            "domain": "trackercdn.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 3,
+        "Preflight": 2,
+        "XHR": 8,
+        "Document": 3
+    },
+    "nameservers": [
+        "vera.ns.cloudflare.com",
+        "jeff.ns.cloudflare.com"
+    ]
+}

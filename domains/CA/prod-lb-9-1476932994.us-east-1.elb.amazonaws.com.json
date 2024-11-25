@@ -1,0 +1,86 @@
+{
+    "domain": "prod-lb-9-1476932994.us-east-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000101,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "boss.bankofamerica.com",
+            "resolved": "prod-lb-9-1476932994.us-east-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "prod-lb-9-1476932994\\.us-east-1\\.elb\\.amazonaws\\.com\\/30306\\/pHAQ",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "boss.bankofamerica.com",
+                    "resolved": "prod-lb-9-1476932994.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "83d1784f4fe71c8ecf7544c8702eb41ec7fd32864c2a541312f93541a86a8526"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bankofamerica.com",
+                "www.bankofamerica.com"
+            ]
+        },
+        {
+            "rule": "prod-lb-9-1476932994\\.us-east-1\\.elb\\.amazonaws\\.com\\/30306\\/KQbA\\/\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "boss.bankofamerica.com",
+                    "resolved": "prod-lb-9-1476932994.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "19d6e11f23773968440fdca350ba9204b2b9a6f5684b21bbb046c2195bf8ee01"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "DomainUrl": 0.00010061374383740819
+            },
+            "exampleSites": [
+                "bankofamerica.com",
+                "www.bankofamerica.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000101,
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

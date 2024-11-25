@@ -1,0 +1,146 @@
+{
+    "domain": "typeform.com",
+    "owner": {
+        "name": "Typeform S.L.",
+        "displayName": "Typeform"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.001,
+    "sites": 10,
+    "subdomains": [
+        "embed",
+        "dispatcher.cdp.us-east-1.prod.data"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "typeform\\.com\\/next\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "4be91764c84ece61cab7798500ace566ae6d8b87eaba64f513d1c05ad334966a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fandom.com",
+                "hireup.com.au",
+                "surfshark.com",
+                "www.izotope.com",
+                "www.penguin.com.au",
+                "www.stegbar.com.au",
+                "www.weareteachers.com",
+                "www.yourinvestmentpropertymag.com.au",
+                "www.yourmortgage.com.au"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/v1\\/track",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dispatcher.cdp.us-east-1.prod.data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fandom.com",
+                "diablo.fandom.com"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/v1\\/track",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dispatcher.cdp.us-east-1.prod.data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fandom.com",
+                "diablo.fandom.com"
+            ]
+        },
+        {
+            "rule": "typeform\\.com\\/next\\/css\\/popup\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0e0701e0ad36569c93a83b77b91cbaca1cdf871945707d6b7d15bd809b2fff85"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "izotope.com",
+                "www.yourmortgage.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5333333333333333
+        },
+        {
+            "domain": "rudderlabs.com",
+            "prevalence": 0.26666666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.13333333333333333
+        },
+        {
+            "domain": "hlmiq.com",
+            "prevalence": 0.06666666666666667
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "XHR": 2,
+        "Preflight": 2,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns-14.awsdns-01.com",
+        "ns-1444.awsdns-52.org",
+        "ns-1725.awsdns-23.co.uk",
+        "ns-788.awsdns-34.net"
+    ]
+}

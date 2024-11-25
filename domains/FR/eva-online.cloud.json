@@ -1,0 +1,75 @@
+{
+    "domain": "eva-online.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000101,
+    "sites": 1,
+    "subdomains": [
+        "ecom-api.euw.kiko.prod"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "eva-online\\.cloud\\/message\\/SearchProducts",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ecom-api.euw.kiko.prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kikocosmetics.com",
+                "www.kikocosmetics.com"
+            ]
+        },
+        {
+            "rule": "eva-online\\.cloud\\/message\\/SearchProducts",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ecom-api.euw.kiko.prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "a0360b6cd1cd441a770211510abc299ab0ba70003cf65913f5a3e1c91674619f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kikocosmetics.com",
+                "www.kikocosmetics.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "sterling.ns.cloudflare.com",
+        "kara.ns.cloudflare.com"
+    ]
+}

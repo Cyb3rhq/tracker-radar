@@ -1,0 +1,202 @@
+{
+    "domain": "skyra.no",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00171,
+    "sites": 17,
+    "subdomains": [
+        "survey",
+        "survey.staging",
+        "ingest.staging"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "skyra\\.no\\/skyra-survey\\.js",
+            "cookies": 0.00151,
+            "fingerprinting": 2,
+            "subdomains": [
+                "survey",
+                "survey.staging"
+            ],
+            "apis": {
+                "Document.cookie getter": 15,
+                "Document.cookie setter": 15,
+                "Navigator.prototype.connection": 7,
+                "Navigator.prototype.userAgent": 7,
+                "Screen.prototype.width": 7,
+                "Screen.prototype.height": 7,
+                "window.devicePixelRatio": 7,
+                "Date.prototype.getTime": 7
+            },
+            "sites": 17,
+            "prevalence": 0.00171,
+            "cnames": [],
+            "responseHashes": [
+                "b67071ab2f1bb9197c7ac84233fa28edbf13a58873e76bcb638569804c29fac1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "skyra.state": {
+                    "ttl": 31536004,
+                    "length": 142,
+                    "prevalence": 0.0015064778547755348,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anskaffelser.no",
+                "web.trondelagfylke.no",
+                "www.bama.no",
+                "www.fagforbundet.no",
+                "www.fjordnorway.com",
+                "www.helsedirektoratet.no",
+                "www.jernbanedirektoratet.no",
+                "www.klp.no",
+                "www.miljodirektoratet.no",
+                "www.obos.no",
+                "www.politiet.no",
+                "www.rema.no",
+                "www.statped.no",
+                "www.statsforvalteren.no",
+                "www.trondelagfylke.no",
+                "www.uia.no",
+                "www.vinmonopolet.no"
+            ]
+        },
+        {
+            "rule": "skyra\\.no\\/response",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingest.staging"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "c955e57777ec0d73639dca6748560d00aa5eb8e12f13ebb2ed9656add3908f97"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anskaffelser.no",
+                "web.trondelagfylke.no",
+                "www.miljodirektoratet.no",
+                "www.statped.no",
+                "www.statsforvalteren.no",
+                "www.trondelagfylke.no",
+                "www.uia.no"
+            ]
+        },
+        {
+            "rule": "skyra\\.no\\/response",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingest.staging"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anskaffelser.no",
+                "web.trondelagfylke.no",
+                "www.miljodirektoratet.no",
+                "www.statped.no",
+                "www.statsforvalteren.no",
+                "www.trondelagfylke.no",
+                "www.uia.no"
+            ]
+        },
+        {
+            "rule": "skyra\\.no\\/survey\\/trondelag-fylkeskommune",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingest.staging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "65eb454d2e87072e0baea05737940b361140f0ec85f99a1bd5406369f34b3df0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trondelagfylke.no",
+                "www.trondelagfylke.no"
+            ]
+        },
+        {
+            "rule": "skyra\\.no\\/survey\\/trondelag-fylkeskommune\\/fullSurveys",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingest.staging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1e87b693512485e24e53403f75fe2e3a0bd85832ebe378e3946bdbbfd673ef97"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trondelagfylke.no",
+                "www.trondelagfylke.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00151,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.42857142857142855
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.32653061224489793
+        },
+        {
+            "domain": "msecnd.net",
+            "prevalence": 0.14285714285714285
+        },
+        {
+            "domain": "azure.com",
+            "prevalence": 0.061224489795918366
+        },
+        {
+            "domain": "piwik.pro",
+            "prevalence": 0.04081632653061224
+        }
+    ],
+    "types": {
+        "Script": 17,
+        "Fetch": 11,
+        "Preflight": 7
+    },
+    "nameservers": [
+        "michelle.ns.cloudflare.com",
+        "brady.ns.cloudflare.com"
+    ]
+}

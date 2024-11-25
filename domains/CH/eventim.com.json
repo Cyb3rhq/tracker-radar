@@ -1,0 +1,93 @@
+{
+    "domain": "eventim.com",
+    "owner": {
+        "name": "CTS Eventim AG & Co. KGaA",
+        "displayName": "CTS Eventim"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "static",
+        "public-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "eventim\\.com\\/evi\\/3\\.18\\.1\\/evi-widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "c5062be650de06fae4151645f90aba23e6eefc79e20b7596eb87f13773c7508a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eventim.de",
+                "www.fnacspectacles.com",
+                "www.oeticket.com",
+                "www.ticketcorner.ch"
+            ]
+        },
+        {
+            "rule": "eventim\\.com\\/evi\\/api\\/evi\\/public\\/rule",
+            "cookies": 0.000502,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public-api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "eebfe0c398a118d4afb1d6400feda9c2bb53d1ad83ed4c01b97c275467845d19",
+                "8c83341368ca7449aa164b9806e1adda16294940ade23aa5448d13543a26a61a",
+                "f3de9284f859176b7992e943a01d215f2520e4412fe96da10810627a020aa03f",
+                "f5a69917e0a2fec1f70203bc5012484dfe96d56d886ff02f10b7ddfeab15ce8f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eventim.de",
+                "www.eventim.de",
+                "www.fnacspectacles.com",
+                "www.oeticket.com",
+                "www.ticketcorner.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 5
+    },
+    "nameservers": [
+        "a3-64.akam.net",
+        "a10-65.akam.net",
+        "a6-65.akam.net",
+        "a1-222.akam.net",
+        "a13-67.akam.net",
+        "a12-66.akam.net"
+    ]
+}

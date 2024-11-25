@@ -1,0 +1,97 @@
+{
+    "domain": "porsche.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [
+        "auth0.p-dub.myaccess.aws",
+        "logs.pchomenav.aws"
+    ],
+    "cnames": [
+        {
+            "original": "identity.porsche.com",
+            "resolved": "auth0.p-dub.myaccess.aws.porsche.cloud"
+        },
+        {
+            "original": "logs.nav.porsche.com",
+            "resolved": "logs.pchomenav.aws.porsche.cloud"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "porsche\\.cloud\\/authorize",
+            "cookies": 0.0000273,
+            "fingerprinting": 0,
+            "subdomains": [
+                "auth0.p-dub.myaccess.aws"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [
+                {
+                    "original": "identity.porsche.com",
+                    "resolved": "auth0.p-dub.myaccess.aws.porsche.cloud"
+                }
+            ],
+            "responseHashes": [
+                "b94f0a01e468ecabfaa10d588293b0e63b01f195d97afb2ed1ad92cba89585e0",
+                "4c8210742952703b876b35113b6687a27abab8d8d542a174a17c3265c035d8e6",
+                "42594e31c13fea559283d43b08fef67e3e00b0ceba0acfca87ebc781f99a5ff2"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "porsche.com",
+                "finder.porsche.com",
+                "shop.porsche.com",
+                "www.porsche.com"
+            ]
+        },
+        {
+            "rule": "porsche\\.cloud\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logs.pchomenav.aws"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [
+                {
+                    "original": "logs.nav.porsche.com",
+                    "resolved": "logs.pchomenav.aws.porsche.cloud"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "porsche.com",
+                "finder.porsche.com",
+                "shop.porsche.com",
+                "www.porsche.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "types": {
+        "Document": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "dns1.p09.nsone.net",
+        "dns2.p09.nsone.net",
+        "dns3.p09.nsone.net",
+        "dns4.p09.nsone.net"
+    ]
+}

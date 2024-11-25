@@ -1,0 +1,99 @@
+{
+    "domain": "clerk.services",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "frontend-api"
+    ],
+    "cnames": [
+        {
+            "original": "clerk.galaxy.ai",
+            "resolved": "frontend-api.clerk.services"
+        },
+        {
+            "original": "clerk.realestate.co.nz",
+            "resolved": "frontend-api.clerk.services"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "clerk\\.services\\/v1\\/environment",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "frontend-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "clerk.galaxy.ai",
+                    "resolved": "frontend-api.clerk.services"
+                },
+                {
+                    "original": "clerk.realestate.co.nz",
+                    "resolved": "frontend-api.clerk.services"
+                }
+            ],
+            "responseHashes": [
+                "4731ffb0bc5400344bd8785cf46c48534644a7e9db60b67a2ac443dcdf167299"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "galaxy.ai",
+                "www.realestate.co.nz"
+            ]
+        },
+        {
+            "rule": "clerk\\.services\\/v1\\/client",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "frontend-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "clerk.galaxy.ai",
+                    "resolved": "frontend-api.clerk.services"
+                },
+                {
+                    "original": "clerk.realestate.co.nz",
+                    "resolved": "frontend-api.clerk.services"
+                }
+            ],
+            "responseHashes": [
+                "23dd14843a897cfd27aeae64db27bf0cf30e97095ca10f3f8e6db1744ac458b7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "galaxy.ai",
+                "www.realestate.co.nz"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "types": {
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns1.dnsimple.com",
+        "ns3.dnsimple.com",
+        "ns2.dnsimple.com",
+        "ns4.dnsimple.com"
+    ]
+}

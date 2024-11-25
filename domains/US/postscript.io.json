@@ -1,0 +1,2944 @@
+{
+    "domain": "postscript.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00193,
+    "sites": 283,
+    "subdomains": [
+        "sdk",
+        "sdk-api-proxy",
+        "sdk-api",
+        "bicp-analytics",
+        "sdk-webhook-prod"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "postscript\\.io\\/sdk\\.bundle\\.js",
+            "cookies": 0.00125,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 190,
+                "Navigator.prototype.userAgent": 191,
+                "window.innerWidth": 190,
+                "Document.cookie getter": 183,
+                "Date.prototype.getTime": 189,
+                "Document.cookie setter": 183,
+                "window.localStorage": 188
+            },
+            "sites": 197,
+            "prevalence": 0.00135,
+            "cnames": [],
+            "responseHashes": [
+                "199dc55e65674a050f82a1201d2500ad84a81172c53a85afc88d8e2b506f66d1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ps_session": {
+                    "ttl": 86409,
+                    "length": 21,
+                    "prevalence": 0.001250256200040992,
+                    "uniqueness": 1
+                },
+                "ps_ab_test_542d90c9-085a-4e4b-82e3-856fed3b2652": {
+                    "ttl": 315360024,
+                    "length": 36,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "ps_ab_test_44025": {
+                    "ttl": 315360015,
+                    "length": 6,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "ps_ab_test_01eb8e4f-41ad-4710-9561-97e5ed4a34f1": {
+                    "ttl": 315360031,
+                    "length": 36,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "ps_ab_test_14b0f2b0-a40e-4a7c-a935-74ed97c3bfe0": {
+                    "ttl": 315360008,
+                    "length": 36,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "ps_ab_test_45742": {
+                    "ttl": 315360029,
+                    "length": 6,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "ps_ab_test_28713": {
+                    "ttl": 315360008,
+                    "length": 6,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "ps_ab_test_c597fe82-7b5c-40f3-adcc-32b477bd7554": {
+                    "ttl": 315360009,
+                    "length": 36,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "ps_ab_test_163bf717-4c07-4aab-b3a7-606b68f65925": {
+                    "ttl": 315360014,
+                    "length": 36,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "davidprotein.com",
+                "us.boncharge.com",
+                "grip6.com",
+                "yumearth.com",
+                "www.bareperformancenutrition.com",
+                "hexclad.com",
+                "www.pier1.com",
+                "froyaorganics.com",
+                "hollowsocks.com",
+                "costafarms.com",
+                "www.miraclebrand.co",
+                "zbiotics.com",
+                "thewalkingcompany.com",
+                "qureskincare.com",
+                "dogishuman.com",
+                "mantasleep.com",
+                "dressbarn.com",
+                "www.hillhousehome.com",
+                "dbrand.com",
+                "tcbros.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/sdk\\/config",
+            "cookies": 0.00000683,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy",
+                "sdk-api"
+            ],
+            "apis": {},
+            "sites": 198,
+            "prevalence": 0.00135,
+            "cnames": [],
+            "responseHashes": [
+                "079d65d709d16c865919ac1a16a8b5ada5371631910c4f7146606b9a59ae4cd4",
+                "383d7007d2700ab97f30cafb22994c6b7feafeec98281dcf3774e6f90cf264fa",
+                "544aebf4fe4ac2b9d528cf024317b03b31dc8bfc8b3d958b50cf29e2e3106258",
+                "c625dfad23873d439441e0ad510abb9fa64c4b38ccd4856e4afe758efba07da3",
+                "006cff7d43842b8a436bdec89a231b2f0fdea2bdfa45b3a700a1455cc8398a2c",
+                "6ddb45101cabb9c22b2362bdcb5f48363bc2663cef62c6e7727aeee951778107",
+                "4ef6687a813062f4f98bbcfe4717563f2bcc938c37343c3c92795eb629e37b8c",
+                "9fa7c9fc249f4b5ae00dcb16542beabec2c3f7b84ce5279d3d11314da00a12d8",
+                "c5912cce40ba98aa1ffb56e67d8e52e70e15b7ca2410b65f5e07403d51783fc3",
+                "b2ada322e6f04411445c6b304e91894e9f457b59159eb36125f23b6131595ccd",
+                "f428bc5bc585ac59f65c4dbd2528b79d976c0c099aeec1b259a65e05a4afc363",
+                "0f4263a6b392bdf1407a46c8c0060b4ceea338438bf2fa399701dfda5048ca04",
+                "1891c09474608469a921659e745bbb6cfb725a968bc98866e9dca2f37d2f5f98",
+                "371b339be74f9e97ae4fe7db49faa118f11c2a654e8d15d6ba46c8aaf4dbfe7c",
+                "258db4846955ec1e23fb38ef2254a6acc3949823fe03929725a884e2142bf9ae",
+                "5f8a6575cf1d96022683e082477b368dd35d477278610d512980d6672dc49222",
+                "b7e8071c55329ac6f12dd1835556fe018086146b90a9d689c1defc51726bd557",
+                "be39cdaa6e31d002d4b29b33c2fb697b997dbb379ebc8b2e697acfecf7f338ec",
+                "f36cff9419eb4f5c10115cdeac6c31a6d5c3ff849e5f7e991e8d1f6c3334059c",
+                "bf7e5a058e70045c42cb9da8396f52f2e89c2e44a39f319c12eae2146734cb34",
+                "f2793d703d0831c88ed1c8075b0909f8385c5cda6638b2778a4063830c64b0ad",
+                "fb321167aaa80edd3e123f1dc8ad4e0b625ecbb60541feec5b2303bc7a17358e",
+                "86d0ab783ea8d6f5498b26f16860a83028b78cd5f050f76b24ef3c1cd1c05d54",
+                "0b699b368143a9738e0932e83e8214812f8a809a468583091814160c85dfd536",
+                "064a490478596410c0224bfa1db1ee085d279914bbe2399c65b9ac146c28989f",
+                "f13bcd27377719f04b28cf44dc1faac1a56e566a83b81b7f82c2a80af7092999",
+                "0414c20ab4e4517a825498bca22128d75118415f105020f02ff554cff9f89392",
+                "ee6cf1dec00615f4c46893d32a2e5697a6ddcde4b22b5946ec8d0370236ef54b",
+                "ecdbe78a1a44d569ef2bd5146a13a5b3ab0b66fd040f203c393ea0e80bf9bbfa",
+                "f3daf314384345ad5075de89a87a2a402abde0e97f36789d61c7033a10786d63",
+                "e8570ddf64376a0d6e1110bbf5eac6380612473f4262888cdf6b8a11293b3504",
+                "0d6575c31b7ff5254e616cb6d02f090662e7ea2a4f639047332304cc729a7ef4",
+                "8958ac95f917ce10b06577caadd8fdeaeed9262e423c68fc5c8269670c7a7ffb",
+                "f137772e03887404fb3904bd57b14e7652f7d13463f31253bda0a0b992700481",
+                "31f122a63b69e4d554d32317bdfe0be5942ec355b89b10323ae773b34808d808",
+                "d743530502e18257f01fbc19ad388ce6bbb5c3fe76d66455518edc34e3c4095f",
+                "f695c96f11cbd0d49de3eb8b0e08ed4088ee70d1b8d164a9b72c0d2618d97770",
+                "3677b525eb551f96996e9d43754cac5d0b820ca73c28bd591c090001914a92da",
+                "6ccc116214e392d2a5b2307b88dc46f0c90c0a8f0fec4f5fe7e2a07d5243d9b3",
+                "1dc96a510fbb723ebc5304db3035ee7af62eae7ae6eeb10db5c1584f46684143",
+                "9e15744a6f01ee325aa65571f8255182024e0f2b9e6629962e3ad4d003eb94ed",
+                "dff6e70e3e10bad2116630a41018862a3799013fe7ee27f4dc4d5daca5cf0ed6",
+                "e99d6d06ec101d17042e3cd6c02a4790066504ee5b3b5004ddd5a24c8de6bd3e",
+                "0b71233ca98261093c77dd2875492d276fb59cc1bdee231e7b51e12acbd6a314",
+                "106604fe79253af62390fd6365ced647ddc4892f50470da25078eb3d9f112181",
+                "3c23f785e5d0e557cb25e00832c7b54aa667f28aa7673544e97bb622a606868e",
+                "f7587c3a56861b4c3aff0caee180899b42a1354ae3af0a983821d9c44fc20267",
+                "fb22fd721e3267e68bf5f78f81e6181a3b9bd4d523267a4ab3982355f9448764",
+                "939fffb90b51dda0480c9a0bd0d9cec2ad96a42a759a1986fe92373432044be9",
+                "35106374d7a180c1fd1f033e269fa13993c1b37b3a5d7967aaf4a61aec52fe13",
+                "b3b56fb5ddc3332f8a692b4048af789aaec12e84a670f8a33c9eee6efb5bf914",
+                "71baae51d59ff2dedd0f01f9b80dbee9e785ee433a47d3e7629d355ae777efea",
+                "932ebe663c1ba3efb54172111075e1445a3e310d53714aaa9d5c7b72a04a5b54",
+                "40b7ba8b4e87df5d5597cc97d6f48148e0631b627965ab1b6479803ca65ebe8a",
+                "c0a9f9271734122478ab51974fee2d0fd290d00f21fc0fec16d293c682f7022d",
+                "46b87d27ab5a440d1124e43253c095c93bc5571adb964827c766e6e7fb18a8f5",
+                "64a92871b6089430a6e7a86a5fa300fe2ee54757c03dd719fd6df3892939b538",
+                "45e47d7e1559f5967a35c3a8799e9d23e0d730972693b5965336d39c08824edf",
+                "c1db2e8b9db4a13daca3916fd0f98ec85d54c7b6e2a6907280396a12a1d796a8",
+                "c3745edf2a28551bcae0af83f8b8116c71ad1c350f2d5282abd8add4e5663631",
+                "b05f6ae8f55baa4655669656308b207bb26080053963936d7517a6df5eab19fa",
+                "b263afec1696db0f81b79e21f37010b49404eeb86e1c282434844e2f7e11134c",
+                "8a824fcf49c5114110fbdfb6e9a2e1fd8127e6ac83aee8ee0643fd8ead90fa75",
+                "35f7243a2d9ee935c23d43f9bdef1054d39dad45e1315c04873e99a8598aa65e",
+                "0be711acc22708084fa7a6488780c07c1b969a24bca7203dc7fdced0875d094b",
+                "abd7fe853a542045f80807d52c0bf874032e16f194189ca2e04b43fba9056588",
+                "55cf4b4b10a71eeaa9a528f16cece86875846a243f59efc106c1c2ea9fe5dba2",
+                "f84d07f02cf2a8837176ba7128eae14634328a3dfb54dabee642a6420d26e8cc",
+                "b73ebfde059757a3bcfe75e78373f878748bdb5a74f4cd00d29265e2b22ce29c",
+                "5ed0bf3cbddfb2c524b543a7872582ec90bb666852809751136550bc7d67e526",
+                "ab27e832d80bfb1104aa13f7f8a9018ac09bb46249c6a764b48b3a22ea2e13ad",
+                "45a3d692870bdb5da135704884a4bc301e6b4bc7e1b2aac9a3c676b7fb46a5a0",
+                "ed4cc555f9148ce061028574d64fc1ac1b8d4c3ff05e85846ca199492507415a",
+                "f92349fe5d9530ae66fe248cb9b401ba2dc010baac549fd8dcb896523c642c76",
+                "3d5d8f48590a9a1fefaaa5ca17ee31379d868ae3baab8a74fb853023f1e8343c",
+                "2a14c9892e202f8691d50d02bb9d10ca6692e6c67802b0ecd5d5ff65606e0616",
+                "9fd7ff5f25e2845d4479c3edcbac6c7684637e19c3367d4b2aa74a7124b2b11b",
+                "ab2dc9c62b213a2728d116eef951942836b6359ce9f0b09615c206aac5c2a09e",
+                "02433612fdd2a1dd7926220b45394fb62c390ff9157e7bd3bcde0f745e3ff6b0",
+                "f44238e4cde9d4bb977cdfeb365020b1e1ce9da9ddb57e0f30f497c2c9bfa603",
+                "3b58def26c30774b3ea9338e75b5bdd3af71e6fe3362b34f793369bd7a995b5a",
+                "b57472ce71853fd300402b90b3d2b322ee1209e033b16a2b99fccd0639e8631b",
+                "3ea34dfaea2138f316e53b03e1e9d73093874f12c7dd76496cac2f2f00d60aa1",
+                "f12b002fd5b8b3202be22140f86fbad89023170ce5e2b4edbc0bc6dc2a5c9db5",
+                "57730a7d640fac75908eb248228144d3d01bf918d6c5b2f8ff63ec94affccda2",
+                "72d9eaea43af6d429b00ec84a771a6aca4074931f47bf26fdf21140afe4ba290",
+                "5e7a7d519370dd15a23060ed1b83d27a044bd0a69564d1a25e1667312abbefd1",
+                "98243f46e3ed6df950a188fb7ea39c24dde01262bb240190cd8da1fb81886094",
+                "8bb7a752468d048f336eabba75892259caf7b54405a0c5bb00db34b499d23018",
+                "372fba83d0bcbbf0ee77d0d8a9f781ba2ebc8383a1a49d00e8f972aaa72743d2",
+                "68e96f35a3353d941037afbb30e5162b735795f247aedfaac5c32193bf44331c",
+                "5ca4facfe37a1ef89b9225b465e8652600e56d5d271db0cabcf340a10e5b9bd3",
+                "ac61ab69a14b6a98c6aafe6d561715b73cafd7d5e34acfee9b68afd1c99148d6",
+                "e5d6814d0b33235b648ab65cba50147f2d653a5947dcb795f1a3ed0ae4bd3d0b",
+                "1272b3e5661ed10f4afb6e361be6b77c07c5f7537e13083c9ea99c4ea47bef2c",
+                "0adad2ef0f2f419466a1dc17298e0d4990bc993cd1db6379a2dfb05375159471",
+                "d9e8e26db3594fd88ae8d8c4880d2affb75d7a5d9085a634e04b021e28c86f28",
+                "1b8980b26c75be67b0718d480c1f8a6571f926e6edc362a4bdc3756fac9c2f31",
+                "fa3114b54110c3b61c0c6a5f2396cca65932f2e95cde99c38a763e3f5a298a53",
+                "88c312a0dada3737fe7786ee024d69b3ad2b8ff4da196e0664e1b483da24d9af",
+                "6cfa89d1961179c674c0589d14914dd48819c9347db259fbe24edd198ac85c33",
+                "42a83c23ad05fc52f235abddffa2547755fb9a868b83f4cd7c6f76d0f31574fd",
+                "66c16c4efaf5697ac77cfa5ff31bcb614af9c526a1f66e441c04334ce1b5054a",
+                "6263c4dd9a3d028120c85efb771f9b11db5cf0ce9e8d26fc655ef8775056088c",
+                "3de1006f343cd427d937470b24876802db99af80015ae8440528a4e4f73c2168",
+                "d1531f7aa8f6dc8bf9ef95c8c85136209774dc3b1a10152e933f8d12d19d2df5",
+                "583465f07d2317e8bbc971d6ff3c834b772a01cd2f50c319707f7a5bdff904cb",
+                "fbfb51bcd5a8ec5c38a34d84f8f7fff7fbaa5af59271c66a19e979c08e4ff836",
+                "a594344ccf1bc01dc2b50cc8f1e8b582937c6ab751df576cd77b06684203cff3",
+                "558318d989e5a0e5595d8c9accdf667ed972e46bd93975bc4f2a97c94e704c3e",
+                "3c46365606c8f7ad54b3215355adbf01a940564689223869fbefd0c1e3110d4e",
+                "7549e90e7b556a34e330f256f599b14fec1189815f88b4d7ae5a20ea0eb85f1d",
+                "40e99ff013274e5eea696387bbb12f496f078a78802f1db8ce0c0447d40bb24d",
+                "81da61e5f3b5990f365f2ae0b88b52a7dad011e70e8dee1699bab92188cc1d14",
+                "e44066022ff034a48d52718afb51c1e8602a6533821da3357958b272c82f1826",
+                "4e08ab218cc0878b8c1c2601dd45dc68083b9b620d01576002a7e7fd33a82ec9",
+                "680062031b7aec5a4d855a6a9b2d5d506afee990cdc48a9d5d73f325e3e71317",
+                "7f555a6e1cee130b119c1a86365f97c3207341cce879e7392c0e444529181e29",
+                "80c4e89ec17405f9b1141cb0ee16afff0d27cad91b79cb7a019213f173478527",
+                "fed8a38508598781ebdf1d63325a69b7a0b82fc1f2fed385e17114c905edb7fd",
+                "0d6e99522704b65d094e2d568f97e8de4499691bd43d6e781ea8766d7bc6c0e0",
+                "a37e2ed66fea1eb0e943c9fbed51cb0bf5f7cda05fda7f4da0dbea0b874e92b6",
+                "7887ae22b3558c0c7d81e1bd18689f84445b79c27d557088d6be12a5bd0e55f6",
+                "6da96e8d5010862d3bfaf8245d8c5bc9279d1c7a02d64932e8cf8282c4f39d81",
+                "91e9abcd37f0d771a3be1f2fecb6e894f05071b82934376b0c7a44128b06fcff",
+                "bd640de03af0cac48951f72ea6306a120d22fec7aa566f30586bc70626ea96b7",
+                "92dee8fca06b1057e048fdcbfddce8684c3711bb5b24fbbead7ec63659b6bc85",
+                "747ec0e4de944120b89c2190660e3ebe144ef3b1faa173d751df35b1717828b7",
+                "ee1b9b4f175586950b52a5966d3324f780e10c3f47548c85f3fd55bcfddbcf24",
+                "7eed116203544b8cfb69bfa7e7056e15fa0f498b654d11dbd66af6e916ff50bb",
+                "b36f80c2dd14e5a7ccc700b9bd9a537546698b7f2fd1499b37fd03d5af223043",
+                "8829ba74f4abf26105d855337f0aeaad8ef4fd227b3a517d50cd7595314dfa1c",
+                "115b81d83f32102188ee3e0bad7ca7cecfcdb7303c3cae9d066fb21bf3f46035",
+                "b29f1dd34233a7f980bb973ee289932655c63a7ceb4629f43b27c14c043b630e",
+                "9ded656516c5de40d625ab1028cfc04a3aa2497346bb6fd1409a2f9681ce6f1a",
+                "493846c116ef9fb986faa20df3dbe56bf56f3ed9b187e412663a8aa4b75952db",
+                "402ff57085b89cd693704988cb8b8ae4b673fb885fd71ba35b20554584620b30",
+                "192639c7740104f546aae96877d4f3a7cfa085dcf4c40e1729f21b15d9c0ce98",
+                "ef37f549dcfcb86ea4d7b041619bb33716f610832dd8e22e117fb1899ba005f4",
+                "a80721309ead63a2171aa56269d4181ab55c16e216291f89ac83a5b16a779738",
+                "9e5054aa983cee917ca52b7295535e0a609a53e547dff9c087e1c4c6174d91fc",
+                "6fb0a79520e1fdb3df546686c83f9ad49177d0f76d08d2cb2619a8807754af78",
+                "16467d4f706f3c2c434c9df13317aabed88a41d6da598343f1ee0fc1e87a6d0b",
+                "77e4e7485a754bf6a3faf2f894bf704b9e8b9725407859c0eff0a4b5b1257509",
+                "e6969023be176c849345ee0fa5c106a3526c8167ed0b48f654cae65646d34ee0",
+                "55d8e7fb6dac061632333f4cc2afea3d4e5cebabe8c9ec3c25d1134ef9166b8a",
+                "0478850451c1197c856c52d314cf8d52f1d4ba5a7c63dbba7aab131d48d39414",
+                "19a1ffb1f66fc0dc83df7c918822fbeaa91a1100a2cae3758090d83af93ab76e",
+                "baff0aa9a107628743d276004f0ef460b7c1f309972c9af427dddbb39631fe64",
+                "4fcc675ee5aff4b571427294ef9ee623585fbdd4572368677d705b2a5cba30fe",
+                "79682aafa9f9ab2601e0d026dad051bf4db29cd248569adfc01ad110d142341a",
+                "4129473af9d750720ffe651ca8bcac086ff562a3f1fb2ee420bba09663447573",
+                "36e9fabda587c3a5564cee772d4bd77929d2e30978017bef0cbe2de037b6e0a0",
+                "8815b0bf2757d7f6736a6f0f7dffe1f2fe846eef93fcbc0770cede659a7c45f3",
+                "a5f7c1a564a1d548caa7f7e59071d64323fc4a459c850a1cbf2cdb1a43973445",
+                "3524d1086411e15267112b839f3216b01c542d6b6c4f7e9625f5bff8c5bf6169",
+                "39c696adbd0566c7e41e7ec0139339419784732e1bedae3cb5a728647d8740af",
+                "2ddde3d6604c1fc84d82d2f51db27d7f721badb1a69c889993a22d4343559986",
+                "87d49189d3dc8edc3ea2d47f8e49a589d36a5c0259a85f804a89fac89534eda8",
+                "715de060295f2729a8c8a0c54054dc7d8212ae6179e22cf6786ef521c2ad4849",
+                "faa45519f5de78c9e7afced6f21d0d313289f60e10f3a90e2af861d41631033c",
+                "2dce71b2cff937204f9638765c4f93394a8dd16a912342baef4cffb9095c941e",
+                "24df47d4721e1dcdd43a4c66965ce8cd2dfab8b10fb2be4f3185ece7532387ce",
+                "3cd1d56d65a037c93e4364081263cd597f52f5735503345e7210bcf23e00504c",
+                "451cbb3b2e5764d7a7fc14c65e0cc4d489936e5db0d113a6e177294af845d765",
+                "ddeb0ab6ae88e23a43157a8ec57bd1162c9463eaf8260feb6f18d698ea57f8b1",
+                "cb8b296adf25347bfc0dd2b69e7a551bf4a4c40feedd982ea3aaaf0ab0ea5630",
+                "ee1f4ac42be71883e38158755f2edb3b3d0d1943694c8f8397efd8338c95f64a",
+                "323be8851a6913f45cef0428ea93a5e74d78f68c7299b4fa087d8b26bbb91a0a",
+                "5614ab121924a23024e04528ce4104f43ae7d0e664f7d42a51ef4c50ea875b0e",
+                "771cf066a29b99d4bfdfc1948354ade2c8d3a1486bfdab4fc6a4d3fa9648f1ea",
+                "144f4c51171b3e40db83eaf5836cf1b0deb7ec0530b70994c48e64c5dc215da7",
+                "c27f265433b593163f76743905b5f61db4df430782a5970d1c92d6444e28d843",
+                "ec8ce11a2f8142577fec068b15158166034fd618552bf773825c6739571a76c4",
+                "1a2d6a9476a74c3e9d93e3b7a1a0d1bf6d0b8540cd9c9255f6a85264d2e456b2",
+                "2c0e0a4fb16e18577677351fc4535f9861456dac31e9eef0fc521543d263f2a7",
+                "b48c89b80e3ccafe81ac6c03709894f5ee4e77acd529f6e9c0fb91961fa0c5e1",
+                "4a71bc63525cf4565eb5e7df1703231cadfff117f1679fed6d5c048f51f0207a",
+                "11886d0a09c7e357408ef68edbaa8d274c5423fe855089b2b9f530b30b475ea0",
+                "8fe75144e704e5b51f9dd5ad00b55bd89c65f580b9b50db62b5c822a869a016a",
+                "d7fd78ecd66b425b4de6fc758e5a7c0d699828fa3d9a5a2fa8b1e521ac3232c2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.organicolivia.com",
+                "pepperjoe.com",
+                "www.ryzesuperfoods.com",
+                "shopnationstore.com",
+                "www.bubsnaturals.com",
+                "www.hurley.com",
+                "myspicesage.com",
+                "kizik.com",
+                "grip6.com",
+                "fashionablecanes.com",
+                "woolx.com",
+                "www.bragg.com",
+                "passionplanner.com",
+                "cliceyewear.com",
+                "www.drmtlgy.com",
+                "www.goodseeco.com",
+                "www.maryruthorganics.com",
+                "ashanderie.com",
+                "www.turntablelab.com",
+                "feals.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/desktop\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 195,
+            "prevalence": 0.00133,
+            "cnames": [],
+            "responseHashes": [
+                "10c5e15e98fa6ee5020549db898f6b8e3c018429d3f61cfb786da76d1af6da99"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.0001093120174899228,
+                "_ps_session": 0.0013117442098790736,
+                "_li_dcdm_c": 0.00014347202295552367,
+                "dy_fs_page": 0.00004099200655872105
+            },
+            "exampleSites": [
+                "www.drmtlgy.com",
+                "warrior12.com",
+                "us.kobobooks.com",
+                "qureskincare.com",
+                "www.rhodeskin.com",
+                "www.hanksbelts.com",
+                "thewalkingcompany.com",
+                "www.ghostlifestyle.com",
+                "guardianbikes.com",
+                "passionplanner.com",
+                "www.tuxmat.com",
+                "fluxfootwear.com",
+                "warpath.coffee",
+                "www.drsquatch.com",
+                "tryrosabella.com",
+                "www.graza.co",
+                "www.honeylove.com",
+                "culturesforhealth.com",
+                "aloha-collection.com",
+                "tilvalhallaproject.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/desktop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 194,
+            "prevalence": 0.00133,
+            "cnames": [],
+            "responseHashes": [
+                "10c5e15e98fa6ee5020549db898f6b8e3c018429d3f61cfb786da76d1af6da99"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.0001093120174899228,
+                "_ps_session": 0.0013117442098790736,
+                "_li_dcdm_c": 0.00014347202295552367,
+                "dy_fs_page": 0.00004099200655872105
+            },
+            "exampleSites": [
+                "dossier.co",
+                "drinkcirkul.com",
+                "ashanderie.com",
+                "www.orientwatchusa.com",
+                "jellyroll615.com",
+                "yumearth.com",
+                "racelinewheels.com",
+                "www.masachips.com",
+                "www.brooklinen.com",
+                "www.equipfoods.com",
+                "www.bodycandy.com",
+                "officialhodgetwins.com",
+                "www.frownies.com",
+                "store.fixitsticks.com",
+                "www.harveywoodworking.com",
+                "www.epicgardening.com",
+                "www.loveinfaith.life",
+                "hak5.org",
+                "www.drmtlgy.com",
+                "heartandsoil.co"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/desktop\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 189,
+            "prevalence": 0.00129,
+            "cnames": [],
+            "responseHashes": [
+                "783e5c7b3cd8119e505f1a09dc8ed63c861ca05a1c0b41a81c91d97e82cd3a90"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "froyaorganics.com",
+                "bravebooks.us",
+                "tryrosabella.com",
+                "magicspoon.com",
+                "www.brooklinen.com",
+                "davidprotein.com",
+                "lomi.com",
+                "peachybbies.com",
+                "jellyroll615.com",
+                "myspicesage.com",
+                "ruggable.com",
+                "supply.co",
+                "livebearded.com",
+                "www.epicgardening.com",
+                "proudpatriots.com",
+                "nathanjames.com",
+                "www.bodycandy.com",
+                "drinkolipop.com",
+                "nooro-us.com",
+                "feals.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/desktop\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 170,
+                "window.innerWidth": 152,
+                "PerformanceTiming.prototype.navigationStart": 152
+            },
+            "sites": 189,
+            "prevalence": 0.00129,
+            "cnames": [],
+            "responseHashes": [
+                "223f49ec1075aa5052c585be129d53dc75e82fde0fc7bcf76aea7f411e153266"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.0001093120174899228,
+                "_ps_session": 0.001284416205506593,
+                "_li_dcdm_c": 0.0001366400218624035,
+                "dy_fs_page": 0.00004099200655872105
+            },
+            "exampleSites": [
+                "hollowsocks.com",
+                "www.thewalkingcompany.com",
+                "mugsyjeans.com",
+                "tilvalhallaproject.com",
+                "dbrand.com",
+                "dusk.com",
+                "cliceyewear.com",
+                "www.loveinfaith.life",
+                "www.mcgeeandco.com",
+                "dossier.co",
+                "byltbasics.com",
+                "www.grayboe.com",
+                "organixx.com",
+                "www.woolx.com",
+                "norseorganics.co",
+                "dogishuman.com",
+                "www.admiremyskin.com",
+                "zbiotics.com",
+                "hellotushy.com",
+                "www.drmtlgy.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/api\\/v1\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bicp-analytics"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.00013,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aloha-collection.com",
+                "bravebooks.us",
+                "dmoknives.com",
+                "fluxfootwear.com",
+                "groovelife.com",
+                "heartandsoil.co",
+                "hollowsocks.com",
+                "lineageprovisions.com",
+                "officialhodgetwins.com",
+                "realalexjones.com",
+                "thealexjonesstore.com",
+                "thrivecausemetics.com",
+                "www.dollskill.com",
+                "www.drmtlgy.com",
+                "www.gymreapers.com",
+                "www.honeylove.com",
+                "www.mountainkhakis.com",
+                "www.rumpl.com",
+                "www.thehydrojug.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/sdk-script-loader\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 129,
+            "prevalence": 0.000881,
+            "cnames": [],
+            "responseHashes": [
+                "d9082c9a2604e2fa534b9e88b1d66540da8cff808c0459ba63ab834f9a12f15b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.ryzesuperfoods.com",
+                "www.roushperformance.com",
+                "trueclassictees.com",
+                "cuddleclones.com",
+                "everdries.com",
+                "www.lovepop.com",
+                "www.pier1.com",
+                "www.rhodeskin.com",
+                "www.bonescoffee.com",
+                "kosas.com",
+                "dusk.com",
+                "www.bartonwatchbands.com",
+                "woolx.com",
+                "hexclad.com",
+                "drinkolipop.com",
+                "www.nativecos.com",
+                "www.graza.co",
+                "brucebolt.us",
+                "www.rumpl.com",
+                "twillory.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v1\\/subscribers",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-webhook-prod"
+            ],
+            "apis": {},
+            "sites": 34,
+            "prevalence": 0.000232,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skingrip.com",
+                "modcloth.com",
+                "kosas.com",
+                "www.brumate.com",
+                "www.hurley.com",
+                "www.bodycandy.com",
+                "trudyshallmark.com",
+                "theearthlingco.com",
+                "beadaholique.com",
+                "www.hillhousehome.com",
+                "passionplanner.com",
+                "myspicesage.com",
+                "tensunits.com",
+                "racelinewheels.com",
+                "brucebolt.us",
+                "thelostco.com",
+                "www.brookstone.com",
+                "www.skullsplitterdice.com",
+                "eberlestock.com",
+                "tylerchildersmusic.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v1\\/subscribers",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-webhook-prod"
+            ],
+            "apis": {},
+            "sites": 34,
+            "prevalence": 0.000232,
+            "cnames": [],
+            "responseHashes": [
+                "313f8f8decdf9901f128f8c4d04e4db465f16d0e87e63a812710870e66b24298",
+                "de73aeaebbca2831d3bc65559c1662ece0f508330e6ad52977ff99459e571a33"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skingrip.com",
+                "www.hillhousehome.com",
+                "www.bodycandy.com",
+                "racelinewheels.com",
+                "tensunits.com",
+                "www.geometry.house",
+                "virginiaboyskitchens.com",
+                "www.brookstone.com",
+                "www.independenttradingco.com",
+                "www.skullsplitterdice.com",
+                "clearlyfiltered.com",
+                "scotchandsoda.com",
+                "www.apc-us.com",
+                "www.roushperformance.com",
+                "passionplanner.com",
+                "tylerchildersmusic.com",
+                "guardianbikes.com",
+                "modcloth.com",
+                "www.brumate.com",
+                "brucebolt.us"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/1952df896c6a79bb730cdfb69adf4fa0\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0000888,
+            "cnames": [],
+            "responseHashes": [
+                "407a4fbb195cc704c5ba2df58ecd14837e7f3374c106118c41e59f6110d64470"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beadaholique.com",
+                "costafarms.com",
+                "eberlestock.com",
+                "racelinewheels.com",
+                "skingrip.com",
+                "thelostco.com",
+                "trudyshallmark.com",
+                "www.bonescoffee.com",
+                "www.brookstone.com",
+                "www.independenttradingco.com",
+                "www.roushperformance.com",
+                "www.skullsplitterdice.com",
+                "www.thehydrojug.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/5672",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "111325fdac9e3c078a70d6b8a8f81466eda581d61cd40536714d160a1a799fa1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boncharge.com",
+                "us.boncharge.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/5672",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boncharge.com",
+                "us.boncharge.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/popups\\/5672\\/desktop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boncharge.com",
+                "us.boncharge.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/420901",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "111325fdac9e3c078a70d6b8a8f81466eda581d61cd40536714d160a1a799fa1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "butcherbox.com",
+                "www.butcherbox.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/420901",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e6a8c3f056b15ea6814a1ba9e398459d8198265f577206c9d28349911fd2f4b8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "butcherbox.com",
+                "www.butcherbox.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/custom_fonts\\/420901",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "83978d4501aff3668c955aad63d4ca0bd577c94f4702f62b14b6e9f09ebba37c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "butcherbox.com",
+                "www.butcherbox.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/4845",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "111325fdac9e3c078a70d6b8a8f81466eda581d61cd40536714d160a1a799fa1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carawayhome.com",
+                "www.carawayhome.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/4845",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carawayhome.com",
+                "www.carawayhome.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/popups\\/4845\\/desktop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carawayhome.com",
+                "www.carawayhome.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/sdk\\/logging\\/4845",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carawayhome.com",
+                "www.carawayhome.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/sdk\\/logging\\/4845",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carawayhome.com",
+                "www.carawayhome.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/268157",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "111325fdac9e3c078a70d6b8a8f81466eda581d61cd40536714d160a1a799fa1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "groovelife.com",
+                "www.groovelife.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/268157",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d62ec944326d41dfb3c1d9bb7e5528672c420f4abd431dd73ddb77a9b5ea6ecd"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "groovelife.com",
+                "www.groovelife.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/7832",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8d1e46fd7b01df3683bb063d0825e109a359e3bdd57fd5b804f3ae6fd978544e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hak5.org",
+                "shop.hak5.org"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/7832",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hak5.org",
+                "shop.hak5.org"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/popups\\/7832\\/desktop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hak5.org",
+                "shop.hak5.org"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/10650",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "111325fdac9e3c078a70d6b8a8f81466eda581d61cd40536714d160a1a799fa1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "honeylove.com",
+                "www.honeylove.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/10650",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a514e285cf807fba7305f6bddbaceb7a40714960c61ccc1b3d608805a57f5670"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "honeylove.com",
+                "www.honeylove.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/custom_fonts\\/10650",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4d99267d77d701745e897fa22b533762e19576c9a0ba228b79fd5b0f49a64002"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "honeylove.com",
+                "www.honeylove.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/284070",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "111325fdac9e3c078a70d6b8a8f81466eda581d61cd40536714d160a1a799fa1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "portlandleathergoods.com",
+                "www.portlandleathergoods.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/284070",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "portlandleathergoods.com",
+                "www.portlandleathergoods.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/popups\\/284070\\/desktop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "portlandleathergoods.com",
+                "www.portlandleathergoods.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/419592",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "111325fdac9e3c078a70d6b8a8f81466eda581d61cd40536714d160a1a799fa1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "realalexjones.com",
+                "thealexjonesstore.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/419592",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "60c8fe0b0a6267debec7b80447c41821e7b18bff53bf7caae3e7aa468077bf79"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "realalexjones.com",
+                "thealexjonesstore.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/custom_fonts\\/419592",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "721d3d4c3b8f93159dcca3325ae2d2710dfa67dade269e882bd87a1d7e3a9d67"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "realalexjones.com",
+                "thealexjonesstore.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/42178",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8d1e46fd7b01df3683bb063d0825e109a359e3bdd57fd5b804f3ae6fd978544e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thewalkingcompany.com",
+                "www.thewalkingcompany.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/42178",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thewalkingcompany.com",
+                "www.thewalkingcompany.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/popups\\/42178\\/desktop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thewalkingcompany.com",
+                "www.thewalkingcompany.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v1\\/subscribers",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-webhook-prod"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tilvalhallaproject.com",
+                "tylerchildersmusic.com",
+                "www.ilovemyfreedom.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/255207",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8d1e46fd7b01df3683bb063d0825e109a359e3bdd57fd5b804f3ae6fd978544e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kobobooks.com",
+                "us.kobobooks.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/255207",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kobobooks.com",
+                "us.kobobooks.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/popups\\/255207\\/desktop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fc1495b6e2b46086c33cf2000c8057c554557388d8dc80d8d76139eb408f0dd8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kobobooks.com",
+                "us.kobobooks.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/6599",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "111325fdac9e3c078a70d6b8a8f81466eda581d61cd40536714d160a1a799fa1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "woolx.com",
+                "www.woolx.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/6599",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "woolx.com",
+                "www.woolx.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/popups\\/6599\\/desktop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "woolx.com",
+                "www.woolx.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/109681",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8d1e46fd7b01df3683bb063d0825e109a359e3bdd57fd5b804f3ae6fd978544e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanapipedream.com",
+                "www.americanapipedream.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/109681",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanapipedream.com",
+                "www.americanapipedream.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/popups\\/109681\\/desktop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanapipedream.com",
+                "www.americanapipedream.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/335873",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "111325fdac9e3c078a70d6b8a8f81466eda581d61cd40536714d160a1a799fa1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bartonwatchbands.com",
+                "www.bartonwatchbands.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/335873",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bartonwatchbands.com",
+                "www.bartonwatchbands.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/popups\\/335873\\/desktop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bartonwatchbands.com",
+                "www.bartonwatchbands.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/2989",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "111325fdac9e3c078a70d6b8a8f81466eda581d61cd40536714d160a1a799fa1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bodycandy.com",
+                "www.bodycandy.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/2989",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bodycandy.com",
+                "www.bodycandy.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/popups\\/2989\\/desktop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "338b2797f142061ba44f561e6ea5ed1c3ad2557f488e6a091d190a5feed1981b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bodycandy.com",
+                "www.bodycandy.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/1664",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "111325fdac9e3c078a70d6b8a8f81466eda581d61cd40536714d160a1a799fa1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brooklinen.com",
+                "www.brooklinen.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/1664",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brooklinen.com",
+                "www.brooklinen.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/popups\\/1664\\/desktop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brooklinen.com",
+                "www.brooklinen.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/266842",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "111325fdac9e3c078a70d6b8a8f81466eda581d61cd40536714d160a1a799fa1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brookstone.com",
+                "www.brookstone.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/266842",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brookstone.com",
+                "www.brookstone.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/popups\\/266842\\/desktop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6f6b14ac22c3e6a76273ba8994462294779b18dba9d3be27be8f0b2e3d891cc"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brookstone.com",
+                "www.brookstone.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/398366",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "111325fdac9e3c078a70d6b8a8f81466eda581d61cd40536714d160a1a799fa1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brumate.com",
+                "www.brumate.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/398366",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brumate.com",
+                "www.brumate.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/popups\\/398366\\/desktop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b4213a0d6ca85882d740d782f27ff46bc533348eaefd2f5a0e31e904d01f1372"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brumate.com",
+                "www.brumate.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/371763",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "111325fdac9e3c078a70d6b8a8f81466eda581d61cd40536714d160a1a799fa1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crunchlabs.com",
+                "www.crunchlabs.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/371763",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crunchlabs.com",
+                "www.crunchlabs.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/popups\\/371763\\/desktop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4589b0d6039f4950cace8922a714c189f3afe4e543011ca40db718eda8d66507"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crunchlabs.com",
+                "www.crunchlabs.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/336817",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "111325fdac9e3c078a70d6b8a8f81466eda581d61cd40536714d160a1a799fa1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dollskill.com",
+                "www.dollskill.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/336817",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0534a6b98accbc18c02bc13e1b2d8841a27f6d15fa49a5674c08ca6b3c8fcc2d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dollskill.com",
+                "www.dollskill.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/custom_fonts\\/336817",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d97ccb112f707e4bc25894727270e01cd526964988a6c6da95859c8196459a76"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dollskill.com",
+                "www.dollskill.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/10511",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "111325fdac9e3c078a70d6b8a8f81466eda581d61cd40536714d160a1a799fa1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drmtlgy.com",
+                "www.drmtlgy.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/10511",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0f9fb6a8e7aaceed5369616173a77f6908f3bb29e873cd5ef59e66902bb96999"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drmtlgy.com",
+                "www.drmtlgy.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/custom_fonts\\/10511",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5e61e53d24c7edb9ef0f92f55e002bac777c0d4638956281f3660efbcab3b98b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drmtlgy.com",
+                "www.drmtlgy.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/322290",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "111325fdac9e3c078a70d6b8a8f81466eda581d61cd40536714d160a1a799fa1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "equipfoods.com",
+                "www.equipfoods.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/322290",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "equipfoods.com",
+                "www.equipfoods.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/popups\\/322290\\/desktop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "equipfoods.com",
+                "www.equipfoods.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/2618",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "111325fdac9e3c078a70d6b8a8f81466eda581d61cd40536714d160a1a799fa1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "frownies.com",
+                "www.frownies.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/2618",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "frownies.com",
+                "www.frownies.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/popups\\/2618\\/desktop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "frownies.com",
+                "www.frownies.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/171619",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "111325fdac9e3c078a70d6b8a8f81466eda581d61cd40536714d160a1a799fa1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "graza.co",
+                "www.graza.co"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/266834",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "111325fdac9e3c078a70d6b8a8f81466eda581d61cd40536714d160a1a799fa1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kennethcole.com",
+                "www.kennethcole.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/266834",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kennethcole.com",
+                "www.kennethcole.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/popups\\/266834\\/desktop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c663623b39989e546b1001e52f83368e6f76b59542da13ca2a960f5d4cd6d898"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kennethcole.com",
+                "www.kennethcole.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/4470",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "111325fdac9e3c078a70d6b8a8f81466eda581d61cd40536714d160a1a799fa1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lemsshoes.com",
+                "www.lemsshoes.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/4470",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lemsshoes.com",
+                "www.lemsshoes.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/popups\\/4470\\/desktop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5f73290b02887b8959087fe8e532634267d9a491ff64ae46bf68bfc7cd03f771"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lemsshoes.com",
+                "www.lemsshoes.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/364933",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "111325fdac9e3c078a70d6b8a8f81466eda581d61cd40536714d160a1a799fa1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "loveinfaith.life",
+                "www.loveinfaith.life"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/364933",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "loveinfaith.life",
+                "www.loveinfaith.life"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/popups\\/364933\\/desktop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "loveinfaith.life",
+                "www.loveinfaith.life"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/5827",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maryruthorganics.com",
+                "www.maryruthorganics.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/429019",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mcgeeandco.com",
+                "www.mcgeeandco.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/1648",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "111325fdac9e3c078a70d6b8a8f81466eda581d61cd40536714d160a1a799fa1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nativecos.com",
+                "www.nativecos.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/1648",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nativecos.com",
+                "www.nativecos.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/popups\\/1648\\/desktop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nativecos.com",
+                "www.nativecos.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/240603",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "111325fdac9e3c078a70d6b8a8f81466eda581d61cd40536714d160a1a799fa1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "neweracap.com",
+                "www.neweracap.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/312211",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8d1e46fd7b01df3683bb063d0825e109a359e3bdd57fd5b804f3ae6fd978544e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pier1.com",
+                "www.pier1.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/312211",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pier1.com",
+                "www.pier1.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/popups\\/312211\\/desktop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pier1.com",
+                "www.pier1.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/270557",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "111325fdac9e3c078a70d6b8a8f81466eda581d61cd40536714d160a1a799fa1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rhodeskin.com",
+                "www.rhodeskin.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/270557",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rhodeskin.com",
+                "www.rhodeskin.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/popups\\/270557\\/desktop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rhodeskin.com",
+                "www.rhodeskin.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/346197",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8d1e46fd7b01df3683bb063d0825e109a359e3bdd57fd5b804f3ae6fd978544e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "roushperformance.com",
+                "www.roushperformance.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/346197",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "roushperformance.com",
+                "www.roushperformance.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/popups\\/346197\\/desktop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bd8bac221154618f992a7838d50f3e992f11bfd9c5454689d26eaf0630ed47ce"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "roushperformance.com",
+                "www.roushperformance.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/254325",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8d1e46fd7b01df3683bb063d0825e109a359e3bdd57fd5b804f3ae6fd978544e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "turntablelab.com",
+                "www.turntablelab.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/254325",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "turntablelab.com",
+                "www.turntablelab.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/popups\\/254325\\/desktop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "56f542eeaa195628b4322a7fb88e182b8601b298794e16ffa060c118f0dbc8bb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "turntablelab.com",
+                "www.turntablelab.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/public\\/klaviyo_form_status\\/11050",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8d1e46fd7b01df3683bb063d0825e109a359e3bdd57fd5b804f3ae6fd978544e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "youngla.com",
+                "www.youngla.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/block_popups\\/11050",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "youngla.com",
+                "www.youngla.com"
+            ]
+        },
+        {
+            "rule": "postscript\\.io\\/v2\\/public\\/popups\\/11050\\/desktop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-api-proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7117a080528d880ed147b32f3020b55bea7bd3672b225494bc5387b0a16fee9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "youngla.com",
+                "www.youngla.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00176,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6919540229885057
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.03793103448275862
+        },
+        {
+            "domain": "intelligems.io",
+            "prevalence": 0.029885057471264367
+        },
+        {
+            "domain": "minmaxify.com",
+            "prevalence": 0.016091954022988506
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.011494252873563218
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.010344827586206896
+        },
+        {
+            "domain": "skio.com",
+            "prevalence": 0.009195402298850575
+        },
+        {
+            "domain": "stylux.io",
+            "prevalence": 0.009195402298850575
+        },
+        {
+            "domain": "db.io",
+            "prevalence": 0.009195402298850575
+        }
+    ],
+    "types": {
+        "Script": 515,
+        "Fetch": 426,
+        "Document": 389,
+        "Stylesheet": 189,
+        "Ping": 19,
+        "Preflight": 36,
+        "Image": 13,
+        "Other": 3
+    },
+    "nameservers": [
+        "ns-1106.awsdns-10.org",
+        "ns-448.awsdns-56.com",
+        "ns-2022.awsdns-60.co.uk",
+        "ns-1021.awsdns-63.net"
+    ]
+}

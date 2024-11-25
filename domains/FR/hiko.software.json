@@ -1,0 +1,89 @@
+{
+    "domain": "hiko.software",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000302,
+    "sites": 3,
+    "subdomains": [
+        "apps"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "hiko\\.software\\/js\\/assets\\/cookie\\.html",
+            "cookies": 0.000101,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {
+                "Document.cookie setter": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "05c9377fedfc696e544bc0023ca11585ea75d226e711d8e236cdd3630f02fa33"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {
+                "s": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00010076582023377671,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "footkorner.com",
+                "www.jennyfer.com",
+                "www.willemsefrance.fr"
+            ]
+        },
+        {
+            "rule": "hiko\\.software\\/js\\/assets\\/read-cookie\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps"
+            ],
+            "apis": {
+                "Document.cookie getter": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "8cb96c358f153ff62ede3fd95101cc69c0612c9920a73e67ca6097e0bd9b8d2f"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "footkorner.com",
+                "www.jennyfer.com",
+                "www.willemsefrance.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000101,
+    "topInitiators": [
+        {
+            "domain": "shopify.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 6
+    },
+    "nameservers": [
+        "ns39.domaincontrol.com",
+        "ns40.domaincontrol.com"
+    ]
+}

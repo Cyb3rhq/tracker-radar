@@ -1,0 +1,91 @@
+{
+    "domain": "szn.cz",
+    "owner": {
+        "name": "Seznam.cz, a.s.",
+        "displayName": "Seznam.cz"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "login"
+    ],
+    "cnames": [
+        {
+            "original": "login.kupi.cz",
+            "resolved": "login.szn.cz"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "szn\\.cz\\/api\\/v1\\/user\\/badge",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "login.kupi.cz",
+                    "resolved": "login.szn.cz"
+                }
+            ],
+            "responseHashes": [
+                "c4ac623578272fce89f4fa128225cfc85bcdc7293af370cc635c0397a069192c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kupi.cz",
+                "www.kupi.cz"
+            ]
+        },
+        {
+            "rule": "szn\\.cz\\/api\\/v1\\/autologin",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "prozeny.cz",
+                "www.prozeny.cz",
+                "www.sauto.cz",
+                "www.seznamzpravy.cz",
+                "www.zbozi.cz"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Document": 5
+    },
+    "nameservers": [
+        "ams.seznam.cz",
+        "ans.seznam.cz"
+    ]
+}

@@ -1,0 +1,161 @@
+{
+    "domain": "klarnaservices.com",
+    "owner": {
+        "name": "Klarna Bank AB",
+        "displayName": "Klarna Bank"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00111,
+    "sites": 11,
+    "subdomains": [
+        "osm",
+        "na-library",
+        "na-library.playground"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "klarnaservices\\.com\\/lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "osm",
+                "na-library",
+                "na-library.playground"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 10,
+                "window.localStorage": 9
+            },
+            "sites": 11,
+            "prevalence": 0.00111,
+            "cnames": [],
+            "responseHashes": [
+                "36ca8964159d74ae7eb131387189485398509cee17eabb8a7ef48ba9157ec4fb",
+                "dd48293faa1cf7ed55f5ac990125158c4c04438aa5d596072d2f1882c32c8e74"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "timex.ca",
+                "www.backcountry.com",
+                "www.citizenwatch.com",
+                "www.coolframes.ca",
+                "www.delonghi.com",
+                "www.harryrosen.com",
+                "www.jabra.com",
+                "www.saje.ca",
+                "www.specialized.com",
+                "www.thebikeshop.com",
+                "www.vistek.ca"
+            ]
+        },
+        {
+            "rule": "klarnaservices\\.com\\/config\\/runtime-config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "na-library"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000906,
+            "cnames": [],
+            "responseHashes": [
+                "b63089d8d317caf764104d335fd122421953bd3a8429fb95977e737441beb47c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "timex.ca",
+                "www.backcountry.com",
+                "www.coolframes.ca",
+                "www.delonghi.com",
+                "www.harryrosen.com",
+                "www.jabra.com",
+                "www.saje.ca",
+                "www.specialized.com",
+                "www.vistek.ca"
+            ]
+        },
+        {
+            "rule": "klarnaservices\\.com\\/v1\\/0\\.0\\.349\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "na-library"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 9,
+                "window.sessionStorage": 9,
+                "window.localStorage": 9,
+                "Navigator.prototype.language": 9,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 9,
+            "prevalence": 0.000906,
+            "cnames": [],
+            "responseHashes": [
+                "9781cf5b9b9ee1d56bdef41316c12bebafbf6501d26c500436344c2988c997ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "timex.ca",
+                "www.backcountry.com",
+                "www.coolframes.ca",
+                "www.delonghi.com",
+                "www.harryrosen.com",
+                "www.jabra.com",
+                "www.saje.ca",
+                "www.specialized.com",
+                "www.vistek.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.1111111111111111
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.05555555555555555
+        },
+        {
+            "domain": "minmaxify.com",
+            "prevalence": 0.05555555555555555
+        },
+        {
+            "domain": "bolt.com",
+            "prevalence": 0.05555555555555555
+        },
+        {
+            "domain": "lr-ingest.io",
+            "prevalence": 0.05555555555555555
+        }
+    ],
+    "types": {
+        "Script": 20,
+        "Fetch": 9
+    },
+    "nameservers": [
+        "ns-745.awsdns-29.net",
+        "ns-1262.awsdns-29.org",
+        "ns-334.awsdns-41.com",
+        "ns-1786.awsdns-31.co.uk"
+    ]
+}

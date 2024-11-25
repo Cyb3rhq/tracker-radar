@@ -1,0 +1,266 @@
+{
+    "domain": "liveperson.net",
+    "owner": {
+        "name": "LivePerson, Inc",
+        "displayName": "LivePerson",
+        "privacyPolicy": "https://www.liveperson.com/policies/privacy",
+        "url": "http://liveperson.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00111,
+    "sites": 11,
+    "subdomains": [
+        "lptag",
+        "publisher",
+        "lo.idp",
+        "lo.v",
+        "lo0.v",
+        "va.v"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "liveperson\\.net\\/tag\\/tag\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lptag"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "NavigatorUAData.prototype.brands": 4,
+                "NavigatorUAData.prototype.getHighEntropyValues": 4,
+                "window.sessionStorage": 4,
+                "window.localStorage": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "Document.cookie getter": 4
+            },
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "2823fbfa7b9256867e21af1ecbfbb98583c8ef0e0b495f6f01d862ef58e3d93d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "LPVID": {
+                    "ttl": 31536015,
+                    "length": 22,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                },
+                "LPSID-66659534": {
+                    "ttl": null,
+                    "length": 22,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trustpilot.com",
+                "de.trustpilot.com",
+                "fr.trustpilot.com",
+                "uk.trustpilot.com",
+                "www.amag.ch",
+                "www.cupraofficial.ch",
+                "www.orange.fr",
+                "www.sky.com",
+                "www.trustpilot.com"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/iframe-le-tag\\/iframe-cs\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "publisher"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.indexedDB": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "977046592b00d4b3569b963b568c06c557e58e9bd806d2d68a37e9561e2114c5"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "live.com",
+                "onedrive.live.com"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/postmessage\\/postmessage\\.min\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lo.idp"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c8cd0b0d514cecdaf4e7214325a70bba9bae301e156265bd0d880f9065d1d183"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cupraofficial.ch",
+                "www.sky.com"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/25706656",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lo.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cupraofficial.ch",
+                "www.cupraofficial.ch"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/31127979",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lo0.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b759767c0c24b0cc73eebf002b688b55f4f2a4432b00204be2f7a720aefcc1ca"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010046212577858148,
+                "LPSID-31127979": 0.00010046212577858148
+            },
+            "exampleSites": [
+                "orange.fr",
+                "www.orange.fr"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/66659534",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lo0.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e0e4828355767fd5a0ee2ffee7cf6c9b09e0664426bf4bf6dd4a749f0621618b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010046212577858148,
+                "LPSID-66659534": 0.00010046212577858148
+            },
+            "exampleSites": [
+                "sky.com",
+                "www.sky.com"
+            ]
+        },
+        {
+            "rule": "liveperson\\.net\\/api\\/js\\/84608747",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "va.v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f539b6ee46850cfb54aef05cba43332131813060b2f1ae9fa8058dbc4babcd80"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "LPVID": 0.00010046212577858148,
+                "LPSID-84608747": 0.00010046212577858148
+            },
+            "exampleSites": [
+                "united.com",
+                "www.united.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Analytics",
+        "Embedded Content",
+        "Support Chat Widget"
+    ],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "lpsnmedia.net",
+            "prevalence": 0.3181818181818182
+        },
+        {
+            "domain": "trustpilot.net",
+            "prevalence": 0.22727272727272727
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.22727272727272727
+        },
+        {
+            "domain": "microsoft.com",
+            "prevalence": 0.09090909090909091
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.09090909090909091
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.045454545454545456
+        }
+    ],
+    "types": {
+        "Script": 17,
+        "Document": 4
+    },
+    "nameservers": [
+        "a3-64.akam.net",
+        "a12-64.akam.net",
+        "a1-175.akam.net"
+    ]
+}

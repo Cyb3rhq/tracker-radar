@@ -1,0 +1,146 @@
+{
+    "domain": "bf-tools.net",
+    "owner": {
+        "name": "BurdaForward GmbH",
+        "displayName": "BurdaForward"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00015,
+    "sites": 22,
+    "subdomains": [
+        "a",
+        "mds"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bf-tools\\.net\\/de\\/de\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {
+                "window.localStorage": 12,
+                "Document.cookie getter": 6,
+                "Navigator.prototype.userAgent": 12
+            },
+            "sites": 14,
+            "prevalence": 0.0000956,
+            "cnames": [],
+            "responseHashes": [
+                "084d52b443b76742d95ab5f6e3155fa2438e6204d80dd06fcf8ccf1c381ecde5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chip.de",
+                "forum.chip.de",
+                "gutscheine.chip.de",
+                "gutscheine.focus.de",
+                "praxistipps.chip.de",
+                "praxistipps.focus.de",
+                "ratgeber.bunte.de",
+                "vergleich.focus.de",
+                "www.bunte.de",
+                "www.chip.de",
+                "www.finanzen100.de",
+                "www.netmoms.de",
+                "www.tvspielfilm.de",
+                "www.tvtoday.de"
+            ]
+        },
+        {
+            "rule": "bf-tools\\.net\\/api\\/v1\\/getMetadata",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mds"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000683,
+            "cnames": [],
+            "responseHashes": [
+                "ba0cc1cb61cd34ea48cd6e2e753ba03491b4f1676fc76f0de1634a805b86ea4e",
+                "43dfa807877d69bc6f94e1961e29f23acfc9377e2b759f4360fb33ad59dbe9e8",
+                "01f46c8f8a877978980333745e8ebd194539f713e939792fceab3a08dc0ae984",
+                "c63d9c7b9d7a808176944c40aaa5cd176cfe40109925753df26db6b937f6d8a4",
+                "2090402b47e94f714dadff2bb37271dcf2392a5490824839994033e62f2f6938",
+                "d771883f0b65e7cb7e9a1c11003b92587c7d745531bbc7743c41ce4c878fef87",
+                "7ef324886622ee5dfb08ee1fdf890661212d71aa2ef325b68fdd8aa1f9d4586a",
+                "ca04d225fe0763eddf04dfd84f5a61d176887c22cf87416c63b8b17be6fd5fae",
+                "79c3819bebd64105dbada019fdbb86d99f4cff0f46fce37c7050c2d224efebd3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chip.de",
+                "forum.chip.de",
+                "praxistipps.chip.de",
+                "praxistipps.focus.de",
+                "ratgeber.bunte.de",
+                "www.bunte.de",
+                "www.chip.de",
+                "www.fitforfun.de",
+                "www.focus.de",
+                "www.netmoms.de"
+            ]
+        },
+        {
+            "rule": "bf-tools\\.net\\/api\\/v1\\/getMetadata",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mds"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "2c5720452e50077a05f34df1d6b977346bcc2e223f3051742d114a5e210e47c9",
+                "dffe8c7957ad92d4aba0412f9609a488d8b569650717e7e19131c61e736c957b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "haus.de",
+                "www.mein-schoener-garten.de",
+                "www.playboy.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9545454545454546
+        },
+        {
+            "domain": "bfops.io",
+            "prevalence": 0.045454545454545456
+        }
+    ],
+    "types": {
+        "Script": 14,
+        "Fetch": 10,
+        "XHR": 3
+    },
+    "nameservers": [
+        "a1-195.akam.net",
+        "a20-66.akam.net",
+        "a7-64.akam.net",
+        "a11-64.akam.net",
+        "a26-67.akam.net",
+        "a18-65.akam.net"
+    ]
+}

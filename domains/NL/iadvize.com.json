@@ -1,0 +1,733 @@
+{
+    "domain": "iadvize.com",
+    "owner": {
+        "name": "iAdvize",
+        "displayName": "iAdvize"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.000903,
+    "sites": 9,
+    "subdomains": [
+        "labs",
+        "halc",
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "iadvize\\.com\\/scripts\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "labs"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "2872da5ae287ca1dcdab4375161829346ea731d48feff9527306adbf1f9799fd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rs-online.com",
+                "uk.rs-online.com",
+                "www.vandenborre.be"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/iadvize\\.js",
+            "cookies": 0.000803,
+            "fingerprinting": 1,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {
+                "Document.cookie setter": 8,
+                "Document.cookie getter": 8,
+                "window.innerHeight": 8,
+                "window.innerWidth": 8,
+                "Navigator.prototype.language": 1
+            },
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {
+                "iadvize-7670-consent": {
+                    "ttl": 31536000,
+                    "length": 5,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                },
+                "iadvize-7696-consent": {
+                    "ttl": 31536000,
+                    "length": 5,
+                    "prevalence": 0.00010035122930255896,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rs-online.com",
+                "uk.rs-online.com",
+                "www.boulanger.com",
+                "www.brother.nl",
+                "www.decathlon.fr",
+                "www.michelin.nl",
+                "www.somfy.nl",
+                "www.vandenborre.be"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/54243b88ec7096271db6a6a212f54fe63bfab8a3\\/live\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "f4d0e9791ba7bf6e19a13369a5606f0248ad3e1405b8b12f1624078cac62dafa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rs-online.com",
+                "uk.rs-online.com",
+                "www.boulanger.com",
+                "www.brother.nl",
+                "www.decathlon.fr",
+                "www.michelin.nl",
+                "www.somfy.nl",
+                "www.vandenborre.be"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/scripts\\/iAdvizeLabs\\.84f607\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "labs"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "2872da5ae287ca1dcdab4375161829346ea731d48feff9527306adbf1f9799fd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rs-online.com",
+                "uk.rs-online.com",
+                "www.vandenborre.be"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/scripts\\/plugin-split-index\\.2ea8b9\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 1,
+            "subdomains": [
+                "labs"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ff7e4a82877ad98f52a41edc0145ab4453c1f1c87423323dae6c4eed9f4405c8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rs-online.com",
+                "uk.rs-online.com",
+                "www.vandenborre.be"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/rpc\\/live\\.1\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "58012518fb168bbcc5cae06f4240545d0cea9a7d300efecaf820b5028fb9567f",
+                "d462519aae60529205251131861b47d6b72bdc754ba9393419518501923e1eb7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rs-online.com",
+                "uk.rs-online.com",
+                "www.vandenborre.be"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/54243b88ec7096271db6a6a212f54fe63bfab8a3\\/node_modules_bowser_es5_js-node_modules_babel_runtime_helpers_defineProperty_js-node_modules_-7e5f6c\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "f0e3d47eb65a62d11613a8378bc2ceb802c027a6957b1aca36ad384dc5d79115"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rs-online.com",
+                "uk.rs-online.com",
+                "www.vandenborre.be"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/54243b88ec7096271db6a6a212f54fe63bfab8a3\\/full-mode\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 3,
+                "window.sessionStorage": 3,
+                "Date.prototype.getTime": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "5f1b26db9489a03bc72bb98063ee8e3079d287dc9578d82d1695b773f765bd3c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rs-online.com",
+                "uk.rs-online.com",
+                "www.vandenborre.be"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/rpc\\/live\\.2\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "fb7a290a4577b431b36314d5400b7348f86d1597958233c623f64cf36ca41bf4",
+                "75fa360827343a3a53330b1f50185699d6fc04874250556a0f6a602ab5bc4bff"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "cookies.js": 0.00020070245860511792
+            },
+            "exampleSites": [
+                "rs-online.com",
+                "uk.rs-online.com",
+                "www.vandenborre.be"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/54243b88ec7096271db6a6a212f54fe63bfab8a3\\/targeting\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "2102c483a8dd15c80ef7b395b4e1ca0aaf613c003d98b977f93bec387f098f81"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rs-online.com",
+                "uk.rs-online.com",
+                "www.vandenborre.be"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/54243b88ec7096271db6a6a212f54fe63bfab8a3\\/www_js_lib_IframeManager_index_ts-www_js_modules_shared_draggable_draggable_ts\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "b70f80571a9ad3a2301f6ff930dc51c77c97d0ba9c42d234efc901f90e4ee8e1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rs-online.com",
+                "uk.rs-online.com",
+                "www.boulanger.com",
+                "www.brother.nl",
+                "www.decathlon.fr",
+                "www.michelin.nl",
+                "www.somfy.nl",
+                "www.vandenborre.be"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/54243b88ec7096271db6a6a212f54fe63bfab8a3\\/notificationOrchestratorEmitter\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "08d3b63bed3d96f3a36d50fa144eb590aa910dbf4b3e0fe5e72f138b90b9924f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rs-online.com",
+                "uk.rs-online.com",
+                "www.vandenborre.be"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/54243b88ec7096271db6a6a212f54fe63bfab8a3\\/debugLauncher\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "c6a17d737fd67d2b58a99037a7e5dc95f47dbbe0668fb7b4338295931dfb4d1b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rs-online.com",
+                "uk.rs-online.com",
+                "www.boulanger.com",
+                "www.brother.nl",
+                "www.decathlon.fr",
+                "www.michelin.nl",
+                "www.somfy.nl",
+                "www.vandenborre.be"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/54243b88ec7096271db6a6a212f54fe63bfab8a3\\/dataPipeline\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "192741365dbc9d3338b520028fa7a034f01d894017232f2aa602cd7d9e06140d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rs-online.com",
+                "uk.rs-online.com",
+                "www.vandenborre.be"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/54243b88ec7096271db6a6a212f54fe63bfab8a3\\/GDPRMiddleware\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "5c252569c00d7917d0e4bc9632c67ff03d32cb921bb93ce8d5cf61f020b4edea"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rs-online.com",
+                "uk.rs-online.com",
+                "www.vandenborre.be"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/translations\\/livechat\\/0\\.1\\.671\\/nl\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "25e63ee409b0b9f9cbbd154cc82d43ab40d8fafc33c54f4cc4e81d5b546f9b21"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rs-online.com",
+                "www.vandenborre.be"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/54243b88ec7096271db6a6a212f54fe63bfab8a3\\/orchestratorLoader\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {
+                "window.sessionStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e88f31fc44698d47afd4c5dad499795a7f393cde977c61721cebb2cf484e08fe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rs-online.com",
+                "uk.rs-online.com",
+                "www.vandenborre.be"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/54243b88ec7096271db6a6a212f54fe63bfab8a3\\/handleClickedUrl\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ecb9f22d28cf901da027237961ce1a638008db6955d86918c38bcfc82758bcc8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rs-online.com",
+                "uk.rs-online.com",
+                "www.vandenborre.be"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/54243b88ec7096271db6a6a212f54fe63bfab8a3\\/notification\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1d8908014bbbc04509248916c11de8e1215256e42ebc37bcdb1e2bee3ed47f96"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rs-online.com",
+                "uk.rs-online.com"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/54243b88ec7096271db6a6a212f54fe63bfab8a3\\/notification\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "693681cdc38c7af92159e83039bcd818f1b9c243639c7496e6051a3b4e88a714"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rs-online.com",
+                "uk.rs-online.com"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/54243b88ec7096271db6a6a212f54fe63bfab8a3\\/orchestrator\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e1b4f19d90677e1863cbaabf93208d0627fa09a21a13494fdae61c9a8d38e89d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rs-online.com",
+                "uk.rs-online.com",
+                "www.vandenborre.be"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/54243b88ec7096271db6a6a212f54fe63bfab8a3\\/node_modules_iadvize_notifications-library_esm_AvatarCircle_AvatarCircle_js-node_modules_iadv-1ae2b8\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5bbad688023f48cd693b824182fcbe212099cc4c6984394c79c4eb7f879f343e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rs-online.com",
+                "uk.rs-online.com"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/54243b88ec7096271db6a6a212f54fe63bfab8a3\\/MessagingNotification\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "834b1a9de88cda1552a04e5f7e0298e4b6fa617414dd7956fe477726bf1d260f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rs-online.com",
+                "uk.rs-online.com"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/ui\\/fonts\\/google-fonts\\/OpenSans\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b4d4b5f06411ba2afe8b601924d874b668d29a561d952f2126db51e507bb022b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rs-online.com",
+                "uk.rs-online.com"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/ui\\/fonts\\/google-fonts\\/OpenSans-Regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "36f368532d781eba5bd61159e411c351a218d43e454376d402a5da83579bc20a"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rs-online.com",
+                "uk.rs-online.com"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/54243b88ec7096271db6a6a212f54fe63bfab8a3\\/light-mode\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {
+                "window.sessionStorage": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "b412006084ddfbd611e0ee237ea0c142179732f9b0bd0650f088069387e331d8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boulanger.com",
+                "www.brother.nl",
+                "www.decathlon.fr",
+                "www.michelin.nl",
+                "www.somfy.nl"
+            ]
+        },
+        {
+            "rule": "iadvize\\.com\\/static\\/livechat\\/54243b88ec7096271db6a6a212f54fe63bfab8a3\\/HtmlCustomData-light\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "halc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9eb967cd10a6b0f27394f90ee057bca2003f053ca380f448ac25c57b42f3b09a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boulanger.com",
+                "www.decathlon.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000803,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7096774193548387
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.16129032258064516
+        },
+        {
+            "domain": "tagcommander.com",
+            "prevalence": 0.06451612903225806
+        },
+        {
+            "domain": "unpkg.com",
+            "prevalence": 0.03225806451612903
+        },
+        {
+            "domain": "dlp-media.com",
+            "prevalence": 0.03225806451612903
+        }
+    ],
+    "types": {
+        "Script": 81,
+        "Fetch": 8,
+        "Stylesheet": 4,
+        "Font": 2
+    },
+    "nameservers": [
+        "ns-198.awsdns-24.com",
+        "ns-621.awsdns-13.net",
+        "ns-1682.awsdns-18.co.uk",
+        "ns-1418.awsdns-49.org"
+    ]
+}

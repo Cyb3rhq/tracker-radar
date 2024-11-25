@@ -1,0 +1,501 @@
+{
+    "domain": "mapbox.com",
+    "owner": {
+        "name": "Mapbox Inc.",
+        "displayName": "Mapbox"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00241,
+    "sites": 24,
+    "subdomains": [
+        "api",
+        "api.tiles",
+        "events"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mapbox\\.com\\/mapbox-gl-js\\/v2\\.6\\.1\\/mapbox-gl\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "api.tiles"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "8b6083428cf3d0734ef07ed9c0b89c7fa388e1da0ac658bda83bcb50d5c7505c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crusadercaravans.com.au",
+                "freesound.org",
+                "www.visitgippsland.com.au"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/mapbox-gl-js\\/v2\\.6\\.1\\/mapbox-gl\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api",
+                "api.tiles"
+            ],
+            "apis": {
+                "URL.createObjectURL": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "80d94f5ada822d2ec8cc1b7492fcc87988a883d04125b0217c516080a68c69bf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crusadercaravans.com.au",
+                "freesound.org"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/events\\/v2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fuelprice.io",
+                "mapcarta.com",
+                "speed.cloudflare.com",
+                "traffic.transport.vic.gov.au",
+                "www.emergency.wa.gov.au",
+                "www.lls.nsw.gov.au",
+                "www.ses.nsw.gov.au",
+                "www.statewidebearings.com.au",
+                "www.vocabulary.com"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/fonts\\/v1\\/mapbox\\/DIN%20Offc%20Pro%20Italic,Arial%20Unicode%20MS%20Regular\\/0-255\\.pbf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0654bf52fb8e7b3bdb3deaa89e7e85a07941234bff81746cc888d5faa73b943c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fuelprice.io",
+                "www.statewidebearings.com.au"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/fonts\\/v1\\/mapbox\\/DIN%20Offc%20Pro%20Regular,Arial%20Unicode%20MS%20Regular\\/0-255\\.pbf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7934604056efce26b8b6d0435b616b0d5a07b20f2ff68ac5bedcc3772c78a44b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fuelprice.io",
+                "www.statewidebearings.com.au"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/fonts\\/v1\\/mapbox\\/DIN%20Offc%20Pro%20Medium,Arial%20Unicode%20MS%20Regular\\/0-255\\.pbf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ff07d1c962aaa437bb3add374325de6a6e22b3fe03baa42b630848d7094e89c6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fuelprice.io",
+                "www.statewidebearings.com.au"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/map-sessions\\/v1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fuelprice.io",
+                "mapcarta.com",
+                "traffic.transport.vic.gov.au",
+                "www.emergency.wa.gov.au",
+                "www.ses.nsw.gov.au",
+                "www.statewidebearings.com.au"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/mapbox-gl-js\\/plugins\\/mapbox-gl-geocoder\\/v4\\.7\\.2\\/mapbox-gl-geocoder\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "acb2ffdaf534ec7eb69b2afe9feb397c383af2a9784089c14c76266c3634a354"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "freesound.org",
+                "www.climatecouncil.org.au"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/v4\\/mapbox\\.mapbox-terrain-v2,mapbox\\.mapbox-streets-v8\\/2\\/1\\/1\\.vector\\.pbf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapcarta.com",
+                "www.vocabulary.com"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/v4\\/mapbox\\.mapbox-terrain-v2,mapbox\\.mapbox-streets-v8\\/2\\/0\\/1\\.vector\\.pbf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapcarta.com",
+                "www.vocabulary.com"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/v4\\/mapbox\\.mapbox-streets-v7,mapbox\\.92olaqdt,mapbox\\.mapbox-terrain-v2,mapbox\\.9tm8dx88,mapbox\\.4suez6c9,mapbox\\.akwnx50w,mapbox\\.8x70v9py,mapbox\\.b1l3wqbs,mapbox\\.cc9j0p61,mapbox\\.d4advw8k\\/1\\/0\\/1\\.vector\\.pbf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cloudflare.com",
+                "speed.cloudflare.com"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/v4\\/mapbox\\.mapbox-streets-v7,mapbox\\.92olaqdt,mapbox\\.mapbox-terrain-v2,mapbox\\.9tm8dx88,mapbox\\.4suez6c9,mapbox\\.akwnx50w,mapbox\\.8x70v9py,mapbox\\.b1l3wqbs,mapbox\\.cc9j0p61,mapbox\\.d4advw8k\\/0\\/0\\/0\\.vector\\.pbf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1165c4c0623ab1a3bd0ff171b3ebbb6b1a8bc885239f9a0d44b7a6f2cb5ea49b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cloudflare.com",
+                "speed.cloudflare.com"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/v4\\/mapbox\\.mapbox-streets-v7,mapbox\\.92olaqdt,mapbox\\.mapbox-terrain-v2,mapbox\\.9tm8dx88,mapbox\\.4suez6c9,mapbox\\.akwnx50w,mapbox\\.8x70v9py,mapbox\\.b1l3wqbs,mapbox\\.cc9j0p61,mapbox\\.d4advw8k\\/1\\/0\\/0\\.vector\\.pbf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cloudflare.com",
+                "speed.cloudflare.com"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/fonts\\/v1\\/mapbox\\/DIN%20Pro%20Bold,Arial%20Unicode%20MS%20Bold\\/0-255\\.pbf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "bfe1c8fc487c33e33a6d44bc0d77417ac012b67ec8a67882765f51354cbc6eb5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "transport.vic.gov.au",
+                "www.emergency.wa.gov.au",
+                "www.ses.nsw.gov.au"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/fonts\\/v1\\/mapbox\\/DIN%20Pro%20Regular,Arial%20Unicode%20MS%20Regular\\/0-255\\.pbf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "9f3d5672804525c749397997f6a182e1c7fda13a00a761230b5f337f64c9c624"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "transport.vic.gov.au",
+                "www.emergency.wa.gov.au",
+                "www.ses.nsw.gov.au"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/fonts\\/v1\\/mapbox\\/DIN%20Pro%20Medium,Arial%20Unicode%20MS%20Regular\\/0-255\\.pbf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "54fff5df153b7350191f1b64910b98c60c5dbc8e7ab6c57a0b0f9953c75faa17"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "transport.vic.gov.au",
+                "www.emergency.wa.gov.au",
+                "www.ses.nsw.gov.au"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/fonts\\/v1\\/mapbox\\/DIN%20Pro%20Italic,Arial%20Unicode%20MS%20Regular\\/0-255\\.pbf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "23786e9accfe39330d5cf19a728f6e7791dc283f7afe041219ad1e84ef70892b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "transport.vic.gov.au",
+                "www.emergency.wa.gov.au",
+                "www.ses.nsw.gov.au"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/styles\\/v1\\/robgenvis\\/clur0nqqy00n001pw43ww2g0u",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "330a02d126a2187354aefe6e3e4ab5aacb309a1d8815473dd0e10fc2ab7548c7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "emergency.wa.gov.au",
+                "www.emergency.wa.gov.au"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/fonts\\/v1\\/mapbox\\/DIN%20Pro%20Regular,Arial%20Unicode%20MS%20Regular\\/8192-8447\\.pbf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "44a355d46fd683ce1ffe408b44a497806a77475648f55529d604e2261345b50a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "emergency.wa.gov.au",
+                "www.ses.nsw.gov.au"
+            ]
+        },
+        {
+            "rule": "mapbox\\.com\\/mapbox-gl-js\\/plugins\\/mapbox-gl-rtl-text\\/v0\\.2\\.3\\/mapbox-gl-rtl-text\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "142f4fc31b4911887bacfea4df1813df67be28dfcb4c56e3f8f576f2e6fdf5d2"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nsw.gov.au",
+                "www.ses.nsw.gov.au"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9166666666666666
+        },
+        {
+            "domain": "hazardwatch.gov.au",
+            "prevalence": 0.08333333333333333
+        }
+    ],
+    "types": {
+        "Stylesheet": 5,
+        "Script": 2,
+        "Fetch": 47,
+        "Other": 2
+    },
+    "nameservers": [
+        "ns-1401.awsdns-47.org",
+        "ns-1742.awsdns-25.co.uk",
+        "ns-447.awsdns-55.com",
+        "ns-553.awsdns-05.net"
+    ]
+}

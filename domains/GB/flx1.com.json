@@ -1,0 +1,214 @@
+{
+    "domain": "flx1.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "c",
+        "go-direct",
+        "go"
+    ],
+    "cnames": [
+        {
+            "original": "dmp.post.toa.st",
+            "resolved": "go-direct.flx1.com"
+        },
+        {
+            "original": "dmp.scs.co.uk",
+            "resolved": "go-direct.flx1.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "flx1\\.com\\/298-22404\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.onLine": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ca0c82dca949a641d3bc05e9aa52119960abdcd1f19c5dd20e96f28f2da5bd6d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "flx1_session_id_22404": {
+                    "ttl": 913,
+                    "length": 12,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ewm.co.uk",
+                "www.ewm.co.uk"
+            ]
+        },
+        {
+            "rule": "flx1\\.com\\/flx1-jquery\\/1\\.11\\.2-20170607\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c",
+                "go-direct"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "dmp.scs.co.uk",
+                    "resolved": "go-direct.flx1.com"
+                },
+                {
+                    "original": "dmp.post.toa.st",
+                    "resolved": "go-direct.flx1.com"
+                }
+            ],
+            "responseHashes": [
+                "0be0b579a29f7069b801525582b66a22720fb8cb06b2bc6546373c9631d5c936"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ewm.co.uk",
+                "www.ewm.co.uk",
+                "www.scs.co.uk",
+                "www.toa.st"
+            ]
+        },
+        {
+            "rule": "flx1\\.com\\/px",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "go",
+                "go-direct"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "dmp.scs.co.uk",
+                    "resolved": "go-direct.flx1.com"
+                },
+                {
+                    "original": "dmp.post.toa.st",
+                    "resolved": "go-direct.flx1.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "flx1_session_id_22404": 0.00020092425155716296
+            },
+            "exampleSites": [
+                "ewm.co.uk",
+                "www.ewm.co.uk",
+                "www.scs.co.uk",
+                "www.toa.st"
+            ]
+        },
+        {
+            "rule": "flx1\\.com\\/ia",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "go",
+                "go-direct"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "dmp.scs.co.uk",
+                    "resolved": "go-direct.flx1.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "flx1_session_id_22404": 0.00020092425155716296
+            },
+            "exampleSites": [
+                "ewm.co.uk",
+                "www.ewm.co.uk",
+                "www.scs.co.uk"
+            ]
+        },
+        {
+            "rule": "flx1\\.com\\/ia",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "go-direct"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "dmp.scs.co.uk",
+                    "resolved": "go-direct.flx1.com"
+                },
+                {
+                    "original": "dmp.post.toa.st",
+                    "resolved": "go-direct.flx1.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scs.co.uk",
+                "www.toa.st"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "Ping": 2
+    },
+    "nameservers": [
+        "ns-935.awsdns-52.net",
+        "ns-1109.awsdns-10.org",
+        "ns-1831.awsdns-36.co.uk"
+    ]
+}

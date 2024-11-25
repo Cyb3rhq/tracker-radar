@@ -1,0 +1,196 @@
+{
+    "domain": "stylight.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000683,
+    "sites": 10,
+    "subdomains": [
+        "cdn.sales.partner",
+        "static",
+        "stats.production.ps"
+    ],
+    "cnames": [
+        {
+            "original": "stats.stylight.com",
+            "resolved": "stats.production.ps.stylight.net"
+        },
+        {
+            "original": "stats.stylight.de",
+            "resolved": "stats.production.ps.stylight.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "stylight\\.net\\/v1\\/st\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.sales.partner"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "fd4c37e1de0a6d4a0e566673e0140f4bd18bde5a721d7a7c8dd1602d81a69d85"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "purelei.com",
+                "quince.com",
+                "www.collectorsquare.com",
+                "www.jny.com",
+                "www.quince.com"
+            ]
+        },
+        {
+            "rule": "stylight\\.net\\/fonts\\/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7W0Q5nw\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "1b9e5715d841894c905f3ffe2abcb022ec4796bc7ef535b600d208e4c1eb1a27"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stylight.com",
+                "www.stylight.com",
+                "www.stylight.de"
+            ]
+        },
+        {
+            "rule": "stylight\\.net\\/fonts\\/nuFRD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_k-UXtHA-X-uE0qEEw\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "3e3364b9f6b8a6c2298d9d185b585f49828a9df4cb69de6a24804fe2f07bc412"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stylight.com",
+                "www.stylight.com",
+                "www.stylight.de"
+            ]
+        },
+        {
+            "rule": "stylight\\.net\\/frontend\\/dist\\/vc34394\\/js\\/home\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.appVersion": 2,
+                "window.indexedDB": 2,
+                "Navigator.prototype.onLine": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "acd078e097af699ca79c53289480318128e14e6c40f666f780498e2cf959bf58"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "st_visitor": {
+                    "ttl": 31536004,
+                    "length": 139,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stylight.com",
+                "www.stylight.com"
+            ]
+        },
+        {
+            "rule": "stylight\\.net\\/track\\/12751cfd1aed6b3e6aee551fe78fe43d\\/wwin",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stats.production.ps"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "stats.stylight.com",
+                    "resolved": "stats.production.ps.stylight.net"
+                },
+                {
+                    "original": "stats.stylight.de",
+                    "resolved": "stats.production.ps.stylight.net"
+                }
+            ],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stylight.com",
+                "www.stylight.com",
+                "www.stylight.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9375
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.03125
+        },
+        {
+            "domain": "trackjs.com",
+            "prevalence": 0.03125
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Font": 6,
+        "Image": 3
+    },
+    "nameservers": [
+        "ns-1487.awsdns-57.org",
+        "ns-311.awsdns-38.com",
+        "ns-1780.awsdns-30.co.uk",
+        "ns-573.awsdns-07.net"
+    ]
+}

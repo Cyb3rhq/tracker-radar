@@ -1,0 +1,122 @@
+{
+    "domain": "c268e291-ingress-albingres-f365-1819339527.us-east-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "api.scentbird.com",
+            "resolved": "c268e291-ingress-albingres-f365-1819339527.us-east-1.elb.amazonaws.com"
+        },
+        {
+            "original": "sst.scentbird.com",
+            "resolved": "c268e291-ingress-albingres-f365-1819339527.us-east-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "c268e291-ingress-albingres-f365-1819339527\\.us-east-1\\.elb\\.amazonaws\\.com\\/graphql",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api.scentbird.com",
+                    "resolved": "c268e291-ingress-albingres-f365-1819339527.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scentbird.com",
+                "www.scentbird.com"
+            ]
+        },
+        {
+            "rule": "c268e291-ingress-albingres-f365-1819339527\\.us-east-1\\.elb\\.amazonaws\\.com\\/graphql",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api.scentbird.com",
+                    "resolved": "c268e291-ingress-albingres-f365-1819339527.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "7974dfefd86b1ec0db885b6b08d17f97ff2a605f623968b87e668c6f7b320d4c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scentbird.com",
+                "www.scentbird.com"
+            ]
+        },
+        {
+            "rule": "c268e291-ingress-albingres-f365-1819339527\\.us-east-1\\.elb\\.amazonaws\\.com\\/g\\/collect",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "sst.scentbird.com",
+                    "resolved": "c268e291-ingress-albingres-f365-1819339527.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "c5a98505988dedb7df788103a85d25dac7cd3e253cf879042b30e0be1f4c859d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.00004099200655872105,
+                "_ga_cid": 0.00001366400218624035,
+                "scnt_ga_clientid": 0.00001366400218624035
+            },
+            "exampleSites": [
+                "scentbird.com",
+                "www.scentbird.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "ensighten.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

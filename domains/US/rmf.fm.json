@@ -1,0 +1,82 @@
+{
+    "domain": "rmf.fm",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "rmf\\.fm\\/zgody\\/v112020\\/dist\\/rodo_rmf\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "127f3cd91a0a72f62ca0191ca67312b97e4350a5c7b5fa466f9121d8a72cef25"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rmfon.pl",
+                "www.rmf24.pl"
+            ]
+        },
+        {
+            "rule": "rmf\\.fm\\/zgody\\/v112020\\/data\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "98aaadf6e05b0d43b489cde8a03cdfd82cbae42636118a95a22978105c84bd4e",
+                "78bb892dc20ee09cd269db9321271e0f6238454489255732783ec80d26f036c8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rmfon.pl",
+                "www.rmfon.pl",
+                "www.rmf24.pl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns03.rmffm.eu",
+        "ns01.rmf.pl",
+        "ns02.rmffm.com"
+    ]
+}

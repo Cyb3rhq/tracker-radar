@@ -1,0 +1,136 @@
+{
+    "domain": "shopifyapps.com",
+    "owner": {
+        "name": "Shopify Inc.",
+        "displayName": "Shopify",
+        "privacyPolicy": "https://www.shopify.com/legal/privacy",
+        "url": "http://shopify.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.0011,
+    "sites": 11,
+    "subdomains": [
+        "geolocation-recommendations",
+        "forms"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "shopifyapps\\.com\\/locale_bar\\/script\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 1,
+            "subdomains": [
+                "geolocation-recommendations"
+            ],
+            "apis": {
+                "Document.cookie getter": 7,
+                "Document.cookie setter": 4
+            },
+            "sites": 8,
+            "prevalence": 0.000803,
+            "cnames": [],
+            "responseHashes": [
+                "0472a1e35fd01cda6854bb8d74efda865ad6217e51766966bc372e61f44325e7",
+                "bdb9d2084546474cf73392ad7ff542aad448f0d9697aa748ebad90434c42ac7e",
+                "32e7689a1669157d1331245296ee387e859d77748e258655aeb1b67d2fbcc901",
+                "07d7f848b1c808a54b0a2d7731537e548d03bea1ac141655d474725d652c931f",
+                "448c5e98fcf88a408165f8be055057812f68d1bdc72fec7bca2703f993689838",
+                "a73801e1171b639aa1f7ee2e5c77ba2f2719a79add5613eef642400a61b22044",
+                "2823f842ac74684ccf646ce4796d8f794801dc6abd7465ecd6c8b920a4180fd4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "locale_bar_accepted": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00040172742794014263,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "agelab.no",
+                "frivannsliv.no",
+                "mechanicalkeyboards.com",
+                "sbdapparel.com",
+                "silvasweden.com",
+                "tuftewear.no",
+                "us.store.bambulab.com",
+                "www.game-on.no"
+            ]
+        },
+        {
+            "rule": "shopifyapps\\.com\\/api\\/v2\\/form_instances",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "forms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kamerastore.com",
+                "www.sowinpower.no"
+            ]
+        },
+        {
+            "rule": "shopifyapps\\.com\\/api\\/v2\\/form_instances",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "forms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kamerastore.com",
+                "www.sowinpower.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9166666666666666
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.08333333333333333
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "dns2.p06.nsone.net",
+        "dns3.p06.nsone.net",
+        "dns1.p06.nsone.net",
+        "dns4.p06.nsone.net",
+        "ns1.dnsimple.com",
+        "ns2.dnsimple.com",
+        "ns3.dnsimple.com",
+        "ns4.dnsimple.com"
+    ]
+}

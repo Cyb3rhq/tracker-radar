@@ -1,0 +1,416 @@
+{
+    "domain": "parsely.com",
+    "owner": {
+        "name": "Parsely, Inc.",
+        "displayName": "Parsely",
+        "privacyPolicy": "https://www.parse.ly/privacy-policy/",
+        "url": "http://parse.ly"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.01,
+    "sites": 100,
+    "subdomains": [
+        "api",
+        "p1",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "parsely\\.com\\/v2\\/profile",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.00111,
+            "cnames": [],
+            "responseHashes": [
+                "0ccb22919099974c2c0ba5ee04fc90b568efdb5f7113fd8af558dddc6441305e",
+                "8d0fafad98930f9a64602509e39ad910a3fca64d16883fb7f7bbb629c807c6b9",
+                "6be0f93325b93480cff65f54a62aae14a83233356079ca9fe14b6a07880eb5c4",
+                "441e850e2a4d470c160003e89668dddd5a2b0b7c95784b0047acdccc9fb7229a",
+                "72a7aebe84557adfb0e8b136cb8fb31fb3168e3b58358e9db3a55fee6cf9b92c",
+                "c8bcda87d769408e2b5da44c90ce59c3a65a794171df898a3c12b52aa90ba812",
+                "f9623013e70ed32464886f480bacb72c1115c9d6aff099a17a033c7177da706f",
+                "f1655ee090f5060c69c0bdac965a6215aa764fb9bdbf939f62187b9e1603686e",
+                "8b3ed6ad0c6c07e2b6e664c07a8ee8404c92c5b08206ec1f3537c6c37465bf14",
+                "baf73003a920287b42ab307b6339006dbbce1653170eefe966815e2d05c1abd0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.00010046212577858148
+            },
+            "exampleSites": [
+                "9to5mac.com",
+                "electrek.co",
+                "sport.sky.it",
+                "tg24.sky.it",
+                "www.digitaltrends.com",
+                "www.nasa.gov",
+                "www.pewresearch.org",
+                "www.politico.eu",
+                "www.recipetineats.com",
+                "www.theonion.com",
+                "www.vice.com"
+            ]
+        },
+        {
+            "rule": "parsely\\.com\\/px\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "p1"
+            ],
+            "apis": {},
+            "sites": 23,
+            "prevalence": 0.00231,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00010046212577858148
+            },
+            "exampleSites": [
+                "9to5mac.com",
+                "nypost.com",
+                "www.nbcnews.com",
+                "www.lenouvelliste.ch",
+                "sport.sky.it",
+                "www.frandroid.com",
+                "science.nasa.gov",
+                "www.swissinfo.ch",
+                "www.recipetineats.com",
+                "www.today.com",
+                "electrek.co",
+                "www.theonion.com",
+                "www.timeout.com",
+                "www.lacote.ch",
+                "www.arcinfo.ch",
+                "tg24.sky.it",
+                "www.morningstar.com",
+                "reviewed.usatoday.com",
+                "www.numerama.com",
+                "www.nasa.gov"
+            ]
+        },
+        {
+            "rule": "parsely\\.com\\/keys\\/techradar\\.com\\/p\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.vendor": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c472d9eccea19a771567dbb10f33ed122bca439a20e44ebd784a04a4a9fe0a7f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookies.js_dtest": {
+                    "ttl": 1,
+                    "length": 9,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 0.5
+                },
+                "parsely_uuid": {
+                    "ttl": 1,
+                    "length": 9,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 0.5
+                },
+                "_parsely_session": {
+                    "ttl": 1802,
+                    "length": 120,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 1
+                },
+                "_parsely_visitor": {
+                    "ttl": 34164002,
+                    "length": 16,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "techradar.com",
+                "www.techradar.com"
+            ]
+        },
+        {
+            "rule": "parsely\\.com\\/plogger\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "p1"
+            ],
+            "apis": {},
+            "sites": 75,
+            "prevalence": 0.00753,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0004018485031143259,
+                "_ga_BYLBCMMCG8": 0.00010046212577858148,
+                "_ga": 0.00010046212577858148,
+                "__pid": 0.00010046212577858148,
+                "_li_dcdm_c": 0.00010046212577858148
+            },
+            "exampleSites": [
+                "techradar.com",
+                "time.com",
+                "www.accuweather.com",
+                "www.cnbc.com",
+                "www.digitaltrends.com",
+                "www.techradar.com",
+                "www.thesun.co.uk",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.digitalcameraworld.com",
+                "www.dailyecho.co.uk",
+                "www.space.com",
+                "www.pcgamer.com",
+                "www.brookings.edu",
+                "www.whathifi.com",
+                "www.livescience.com",
+                "www.thunertagblatt.ch",
+                "www.guidingtech.com",
+                "nymag.com",
+                "www.windowscentral.com"
+            ]
+        },
+        {
+            "rule": "parsely\\.com\\/keys\\/fuw\\.ch\\/p\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.vendor": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f2c0dcfa6514d3beead2e1405f2fc3aa5360d52eaebc48ff1a0a3f426de093e3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookies.js_dtest": {
+                    "ttl": 5,
+                    "length": 9,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 0.5
+                },
+                "parsely_uuid": {
+                    "ttl": 5,
+                    "length": 9,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 0.5
+                },
+                "_parsely_session": {
+                    "ttl": 1806,
+                    "length": 113,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 1
+                },
+                "_parsely_visitor": {
+                    "ttl": 34164006,
+                    "length": 16,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fuw.ch",
+                "www.fuw.ch"
+            ]
+        },
+        {
+            "rule": "parsely\\.com\\/v2\\/related",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5054b83a063603a7579e099ecfd340099307a308e980890e0683d22f099ced40"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theverge.com",
+                "www.theverge.com"
+            ]
+        },
+        {
+            "rule": "parsely\\.com\\/keys\\/vice\\.com\\/p\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.vendor": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.colorDepth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e79bbd875bb078bd1da4270d66daac3019828fa30e8ce092f269165f99d109e1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookies.js_dtest": {
+                    "ttl": 3,
+                    "length": 9,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 0.5
+                },
+                "parsely_uuid": {
+                    "ttl": 3,
+                    "length": 9,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 0.5
+                },
+                "_parsely_session": {
+                    "ttl": 1804,
+                    "length": 139,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 0.5
+                },
+                "_parsely_visitor": {
+                    "ttl": 34164004,
+                    "length": 16,
+                    "prevalence": 0.00020092425155716296,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vice.com",
+                "www.vice.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Analytics",
+        "Audience Measurement",
+        "Third-Party Analytics Marketing",
+        "Action Pixels"
+    ],
+    "performance": {},
+    "cookies": 0.00954,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7352941176470589
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.11029411764705882
+        },
+        {
+            "domain": "d1z2jf7jlzjs58.cloudfront.net",
+            "prevalence": 0.09558823529411764
+        },
+        {
+            "domain": "adlightning.com",
+            "prevalence": 0.014705882352941176
+        },
+        {
+            "domain": "segment.com",
+            "prevalence": 0.007352941176470588
+        },
+        {
+            "domain": "cnbcfm.com",
+            "prevalence": 0.007352941176470588
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.007352941176470588
+        },
+        {
+            "domain": "script.ac",
+            "prevalence": 0.007352941176470588
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.007352941176470588
+        },
+        {
+            "domain": "zamimg.com",
+            "prevalence": 0.007352941176470588
+        }
+    ],
+    "types": {
+        "Fetch": 13,
+        "Image": 98,
+        "Script": 6
+    },
+    "nameservers": [
+        "ns-217.awsdns-27.com",
+        "ns-1076.awsdns-06.org",
+        "ns-973.awsdns-57.net",
+        "ns-1808.awsdns-34.co.uk"
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "domain": "adoric-om.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "49235799",
+        "95662602",
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "adoric-om\\.com\\/adoric\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 2,
+            "subdomains": [
+                "49235799",
+                "95662602"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "a40fc410ed49bfe05611260526ef86afc1f5d73099ee2b52369c7377f791c8d3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "adoric_popup": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.00010046212577858148,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "top10bestmattresses.co.uk",
+                "www.jpost.com"
+            ]
+        },
+        {
+            "rule": "adoric-om\\.com\\/v1\\/campaigns\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "17a3bc5800732023f1f472dc44480aa5820550091a0b3e148e218ec4a801e5db"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "top10bestmattresses.co.uk",
+                "www.jpost.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "itzel.ns.cloudflare.com",
+        "titan.ns.cloudflare.com"
+    ]
+}

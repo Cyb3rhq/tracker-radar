@@ -1,0 +1,105 @@
+{
+    "domain": "tracking-website-prod-674464163.us-east-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000301,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "tracking.unrealengine.com",
+            "resolved": "tracking-website-prod-674464163.us-east-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "tracking-website-prod-674464163\\.us-east-1\\.elb\\.amazonaws\\.com\\/tracking\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "tracking.unrealengine.com",
+                    "resolved": "tracking-website-prod-674464163.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "c4c3f95f0e4d8742e5cc72f136720a2a29eeb264d189bfdea585898d91e5e584"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "OptanonConsent": {
+                    "ttl": 31536004,
+                    "length": 11,
+                    "prevalence": 0.00010043185698503566,
+                    "uniqueness": 1
+                },
+                "EpicOptanonConsent": {
+                    "ttl": 31536004,
+                    "length": 11,
+                    "prevalence": 0.00010043185698503566,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "epicgames.com",
+                "forums.unrealengine.com",
+                "www.unrealengine.com"
+            ]
+        },
+        {
+            "rule": "tracking-website-prod-674464163\\.us-east-1\\.elb\\.amazonaws\\.com\\/track\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [
+                {
+                    "original": "tracking.unrealengine.com",
+                    "resolved": "tracking-website-prod-674464163.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "epicgames.com",
+                "forums.unrealengine.com",
+                "www.unrealengine.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Image": 3
+    },
+    "nameservers": []
+}

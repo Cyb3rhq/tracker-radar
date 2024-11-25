@@ -1,0 +1,120 @@
+{
+    "domain": "sap.akadns.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000041,
+    "sites": 6,
+    "subdomains": [
+        "accounts.sap.com.cloud"
+    ],
+    "cnames": [
+        {
+            "original": "accounts.sap.com",
+            "resolved": "accounts.sap.com.cloud.sap.akadns.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sap\\.akadns\\.net\\/\\.well-known\\/openid-configuration",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "accounts.sap.com.cloud"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "accounts.sap.com",
+                    "resolved": "accounts.sap.com.cloud.sap.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "df10408fbb43b1635cdd9cdb161c1e6d2f709e97a9d5aa2ef61deddabe061970"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sap.com",
+                "answers.sap.com",
+                "community.sap.com"
+            ]
+        },
+        {
+            "rule": "sap\\.akadns\\.net\\/oauth2\\/authorize",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "accounts.sap.com.cloud"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "accounts.sap.com",
+                    "resolved": "accounts.sap.com.cloud.sap.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "7d29e9c60f4849072474afebc7adbc3d9a156c9a7fb9ffe8ca6843ee47435d49"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sap.com",
+                "answers.sap.com",
+                "community.sap.com"
+            ]
+        },
+        {
+            "rule": "sap\\.akadns\\.net\\/ui\\/resources\\/javascripts\\/SAP_IDS\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "accounts.sap.com.cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "accounts.sap.com",
+                    "resolved": "accounts.sap.com.cloud.sap.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "6348173f2aec070a2f108946a052cba18c4cf9bbd7a5e1c6ba3d9d654f352cbb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sap.com",
+                "userapps.support.sap.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Fetch": 3,
+        "Document": 3,
+        "Script": 2
+    },
+    "nameservers": []
+}

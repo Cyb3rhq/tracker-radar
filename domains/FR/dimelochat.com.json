@@ -1,0 +1,121 @@
+{
+    "domain": "dimelochat.com",
+    "owner": {
+        "name": "dimelo sas",
+        "displayName": "dimelo"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000403,
+    "sites": 4,
+    "subdomains": [
+        "mgen"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "dimelochat\\.com\\/chat\\/6c554b600ef9eedd7a55d86a\\/loader\\.js",
+            "cookies": 0.000302,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mgen"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "47b618b0576c54159b0828f48da923f4fd223645b7c508843bf2fe8eeaa3c370"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mgen.fr",
+                "proximite.mgen.fr",
+                "www.mgen.fr"
+            ]
+        },
+        {
+            "rule": "dimelochat\\.com\\/assets\\/chat-ea7535fdbf59e8147f9c9671325a63d87db4c806571667b0d3cc4134bb403f6f\\.js",
+            "cookies": 0.000302,
+            "fingerprinting": 2,
+            "subdomains": [
+                "mgen"
+            ],
+            "apis": {
+                "CanvasRenderingContext2D.prototype.getImageData": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.platform": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "fb6cae251bc5f3dda1c63f7aac2d5eb3495effa3933bd9287efbc9e0243555ff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mgen.fr",
+                "proximite.mgen.fr",
+                "www.mgen.fr"
+            ]
+        },
+        {
+            "rule": "dimelochat\\.com\\/chat\\/6c554b600ef9eedd7a55d86a\\/cross-storage-hub\\.html",
+            "cookies": 0.000302,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mgen"
+            ],
+            "apis": {
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "d5ce8c0f2295b91311b573975f4a5b7598f44f8d1f5fab95366dc15186605fa5"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mgen.fr",
+                "proximite.mgen.fr",
+                "www.mgen.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000403,
+    "topInitiators": [
+        {
+            "domain": "tagcommander.com",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Document": 3
+    },
+    "nameservers": [
+        "ns10.dnsmadeeasy.com",
+        "ns11.dnsmadeeasy.com",
+        "ns12.dnsmadeeasy.com",
+        "ns13.dnsmadeeasy.com",
+        "ns14.dnsmadeeasy.com",
+        "ns15.dnsmadeeasy.com"
+    ]
+}

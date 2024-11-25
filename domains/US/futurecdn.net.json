@@ -1,0 +1,5523 @@
+{
+    "domain": "futurecdn.net",
+    "owner": {
+        "name": "Future Plc",
+        "displayName": "Future"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000827,
+    "sites": 121,
+    "subdomains": [
+        "ad-assets",
+        "champagne",
+        "bordeaux",
+        "search-api.fie",
+        "freyr",
+        "slice.vanilla",
+        "vanilla",
+        "cdn.mos.cms",
+        "images.fie"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "futurecdn\\.net\\/xenforo-forums\\/hybrid-forum-configuration\\.main\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad-assets"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "36407cfe566843807deaa40a26f0448502a85cacf30225e5163ed0626a75d996"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anandtech.com",
+                "forums.anandtech.com",
+                "forums.androidcentral.com",
+                "forums.tomsguide.com",
+                "forums.tomshardware.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/xenforo-forums\\/hybrid-forum-configuration\\.taboola\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad-assets"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "9ac344300206b8dddf7ccf5c8dab0bd2c88d89594fa7c3679b8f8b2070a17195"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anandtech.com",
+                "forums.anandtech.com",
+                "forums.androidcentral.com",
+                "forums.tomsguide.com",
+                "forums.tomshardware.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/champagne\\.js",
+            "cookies": 0.0000956,
+            "fingerprinting": 1,
+            "subdomains": [
+                "champagne"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 44,
+                "Document.cookie getter": 41,
+                "Date.prototype.getTime": 15,
+                "Document.cookie setter": 14,
+                "PerformanceTiming.prototype.navigationStart": 41,
+                "window.localStorage": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 44,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "eb2c33c7f27eada96872f7c5877d21b166439bba921e92269b7cb3ce8bc636a9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "usprivacy": {
+                    "ttl": 31536002,
+                    "length": 4,
+                    "prevalence": 0.00009564801530368245,
+                    "uniqueness": 0.07142857142857142
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.itpro.com",
+                "www.wallpaper.com",
+                "www.womanandhome.com",
+                "www.livingetc.com",
+                "www.windowscentral.com",
+                "www.fitandwell.com",
+                "forums.anandtech.com",
+                "www.toptenreviews.com",
+                "www.petsradar.com",
+                "www.cyclingweekly.com",
+                "www.advnture.com",
+                "www.androidcentral.com",
+                "theweek.com",
+                "moneyweek.com",
+                "www.homesandgardens.com",
+                "www.idealhome.co.uk",
+                "www.cyclingnews.com",
+                "www.myimperfectlife.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/bordeaux\\.js",
+            "cookies": 0.000437,
+            "fingerprinting": 2,
+            "subdomains": [
+                "bordeaux"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 64,
+                "Document.cookie getter": 64,
+                "Navigator.prototype.connection": 64,
+                "window.sessionStorage": 64,
+                "window.localStorage": 64,
+                "Date.prototype.getTime": 64,
+                "Document.cookie setter": 64,
+                "Screen.prototype.width": 64,
+                "Date.prototype.getTimezoneOffset": 60
+            },
+            "sites": 64,
+            "prevalence": 0.000437,
+            "cnames": [],
+            "responseHashes": [
+                "e48841c5da5461b6726196e4a55525874ae16f82af40551a29b91b9f3808c85a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "h_id": {
+                    "ttl": 86403,
+                    "length": 32,
+                    "prevalence": 0.0004372480699596912,
+                    "uniqueness": 1
+                },
+                "usp.23": {
+                    "ttl": 604806,
+                    "length": 1,
+                    "prevalence": 0.0004099200655872105,
+                    "uniqueness": 0.016666666666666666
+                },
+                "usp.22": {
+                    "ttl": 604806,
+                    "length": 1,
+                    "prevalence": 0.0004099200655872105,
+                    "uniqueness": 0.016666666666666666
+                },
+                "usp.9": {
+                    "ttl": 604806,
+                    "length": 1,
+                    "prevalence": 0.0004099200655872105,
+                    "uniqueness": 0.016666666666666666
+                },
+                "usp.24": {
+                    "ttl": 604806,
+                    "length": 1,
+                    "prevalence": 0.0004099200655872105,
+                    "uniqueness": 0.016666666666666666
+                },
+                "usp.14": {
+                    "ttl": 604806,
+                    "length": 1,
+                    "prevalence": 0.0004099200655872105,
+                    "uniqueness": 0.016666666666666666
+                },
+                "usp.2": {
+                    "ttl": 604806,
+                    "length": 1,
+                    "prevalence": 0.0004099200655872105,
+                    "uniqueness": 0.016666666666666666
+                },
+                "usp.42": {
+                    "ttl": 604806,
+                    "length": 1,
+                    "prevalence": 0.0004099200655872105,
+                    "uniqueness": 0.016666666666666666
+                },
+                "usp.46": {
+                    "ttl": 604806,
+                    "length": 1,
+                    "prevalence": 0.0004099200655872105,
+                    "uniqueness": 0.016666666666666666
+                },
+                "usp.19": {
+                    "ttl": 604806,
+                    "length": 1,
+                    "prevalence": 0.0004099200655872105,
+                    "uniqueness": 0.016666666666666666
+                },
+                "usp.57": {
+                    "ttl": 604806,
+                    "length": 1,
+                    "prevalence": 0.0004099200655872105,
+                    "uniqueness": 0.016666666666666666
+                },
+                "usp.59": {
+                    "ttl": 604806,
+                    "length": 1,
+                    "prevalence": 0.0004099200655872105,
+                    "uniqueness": 0.016666666666666666
+                },
+                "usp.61": {
+                    "ttl": 604806,
+                    "length": 1,
+                    "prevalence": 0.0004099200655872105,
+                    "uniqueness": 0.016666666666666666
+                },
+                "usp.62": {
+                    "ttl": 604806,
+                    "length": 1,
+                    "prevalence": 0.0004099200655872105,
+                    "uniqueness": 0.016666666666666666
+                },
+                "usp.64": {
+                    "ttl": 604806,
+                    "length": 1,
+                    "prevalence": 0.0004099200655872105,
+                    "uniqueness": 0.016666666666666666
+                },
+                "usp.65": {
+                    "ttl": 604806,
+                    "length": 1,
+                    "prevalence": 0.0004099200655872105,
+                    "uniqueness": 0.016666666666666666
+                },
+                "usp.66": {
+                    "ttl": 604806,
+                    "length": 1,
+                    "prevalence": 0.0004099200655872105,
+                    "uniqueness": 0.016666666666666666
+                },
+                "usprivacy": {
+                    "ttl": 31536002,
+                    "length": 4,
+                    "prevalence": 0.00009564801530368245,
+                    "uniqueness": 0.07142857142857142
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.newegg.com",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.techspot.com",
+                "www.countrylife.co.uk",
+                "www.newegg.ca",
+                "www.itpro.com",
+                "www.imore.com",
+                "www.anandtech.com",
+                "www.cyclingweekly.com",
+                "www.mbr.co.uk",
+                "moneyweek.com",
+                "www.pbo.co.uk",
+                "forums.tomsguide.com",
+                "www.radioworld.com",
+                "www.decanter.com",
+                "www.androidcentral.com",
+                "www.bikeperfect.com",
+                "www.windowscentral.com",
+                "www.myimperfectlife.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/6587\\.df9595f10d55a87e\\.js",
+            "cookies": 0.00041,
+            "fingerprinting": 2,
+            "subdomains": [
+                "bordeaux"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 60,
+                "Navigator.prototype.cookieEnabled": 60,
+                "Document.cookie getter": 60,
+                "Document.cookie setter": 60,
+                "window.localStorage": 60,
+                "Navigator.prototype.doNotTrack": 60,
+                "Navigator.prototype.userAgent": 59
+            },
+            "sites": 60,
+            "prevalence": 0.00041,
+            "cnames": [],
+            "responseHashes": [
+                "ac5455a501fe03319672056d6a785ddfac392cc683ead0c8bd3b85698be251e6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_li_dcdm_c": {
+                    "ttl": null,
+                    "length": 16,
+                    "prevalence": 0.0003484320557491289,
+                    "uniqueness": 0.9019607843137255
+                },
+                "_lc2_fpi": {
+                    "ttl": 63072005,
+                    "length": 40,
+                    "prevalence": 0.0003484320557491289,
+                    "uniqueness": 1
+                },
+                "_lc2_fpi_meta": {
+                    "ttl": 63072005,
+                    "length": 29,
+                    "prevalence": 0.0003484320557491289,
+                    "uniqueness": 1
+                },
+                "_lr_retry_request": {
+                    "ttl": 3605,
+                    "length": 4,
+                    "prevalence": 0.0004099200655872105,
+                    "uniqueness": 0.016666666666666666
+                },
+                "_lr_env_src_ats": {
+                    "ttl": 2592005,
+                    "length": 5,
+                    "prevalence": 0.0004099200655872105,
+                    "uniqueness": 0.016666666666666666
+                },
+                "_lr_sampling_rate": {
+                    "ttl": 604826,
+                    "length": 1,
+                    "prevalence": 0.00006148800983808158,
+                    "uniqueness": 0.2222222222222222
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.newegg.com",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.bikeperfect.com",
+                "forums.anandtech.com",
+                "www.cyclingweekly.com",
+                "www.livingetc.com",
+                "www.marieclaire.com",
+                "www.golfmonthly.com",
+                "www.toptenreviews.com",
+                "www.anandtech.com",
+                "forums.tomshardware.com",
+                "anandtech.com",
+                "www.imore.com",
+                "www.sciencealert.com",
+                "www.livescience.com",
+                "www.horseandhound.co.uk",
+                "www.idealhome.co.uk",
+                "www.practicalcaravan.com",
+                "www.windowscentral.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/8186\\.aee019f635583de1\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "bordeaux"
+            ],
+            "apis": {
+                "NavigatorUAData.prototype.brands": 60,
+                "NavigatorUAData.prototype.platform": 60,
+                "window.sessionStorage": 60,
+                "Date.prototype.getTime": 60,
+                "Navigator.prototype.userAgent": 60,
+                "Screen.prototype.width": 60,
+                "Screen.prototype.height": 60,
+                "window.innerWidth": 60,
+                "window.innerHeight": 60,
+                "Navigator.prototype.language": 60,
+                "Navigator.prototype.webdriver": 60,
+                "Navigator.prototype.platform": 60,
+                "Navigator.prototype.vendor": 58
+            },
+            "sites": 60,
+            "prevalence": 0.00041,
+            "cnames": [],
+            "responseHashes": [
+                "0f6f39854bdd07361611a381bd51dd1b3b2bb6ce685e2c79ef3d6236f9b95eb5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.newegg.com",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "forums.anandtech.com",
+                "www.horseandhound.co.uk",
+                "www.anandtech.com",
+                "www.mbr.co.uk",
+                "www.whowhatwear.com",
+                "www.livescience.com",
+                "www.windowscentral.com",
+                "www.cyclingnews.com",
+                "whatculture.com",
+                "www.marieclaire.com",
+                "theweek.com",
+                "www.sciencealert.com",
+                "moneyweek.com",
+                "forums.tomsguide.com",
+                "www.practicalcaravan.com",
+                "www.yachtingmonthly.com",
+                "www.idealhome.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/\\[request]\\.b2b3876c103549f4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bordeaux"
+            ],
+            "apis": {},
+            "sites": 60,
+            "prevalence": 0.00041,
+            "cnames": [],
+            "responseHashes": [
+                "880c7a61a3343d9ae1393284aa240a412bf8bf903960c62a9d351345d3ccc30c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.newegg.com",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.realhomes.com",
+                "www.womanandhome.com",
+                "www.whowhatwear.com",
+                "whatculture.com",
+                "www.yachtingworld.com",
+                "www.marieclaire.com",
+                "www.mby.com",
+                "moneyweek.com",
+                "www.kiplinger.com",
+                "www.golfmonthly.com",
+                "www.gardeningknowhow.com",
+                "www.androidcentral.com",
+                "www.tvtechnology.com",
+                "forums.androidcentral.com",
+                "theweek.com",
+                "www.newegg.ca",
+                "www.toptenreviews.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/1004\\.9b49c4c0a1e65d80\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bordeaux"
+            ],
+            "apis": {},
+            "sites": 60,
+            "prevalence": 0.00041,
+            "cnames": [],
+            "responseHashes": [
+                "10a98e45101647a0a3bffeceed8bd4c9cb2ce819ecf1fe57a69bc6226e67c5c2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.newegg.com",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "anandtech.com",
+                "www.shortlist.com",
+                "www.mbr.co.uk",
+                "www.practicalcaravan.com",
+                "www.cyclingweekly.com",
+                "www.bikeperfect.com",
+                "www.cinemablend.com",
+                "www.windowscentral.com",
+                "forums.anandtech.com",
+                "www.goodto.com",
+                "www.livescience.com",
+                "www.horseandhound.co.uk",
+                "www.nexttv.com",
+                "forums.tomshardware.com",
+                "moneyweek.com",
+                "www.homesandgardens.com",
+                "theweek.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/criteoBidAdapter-js\\.40347c6a0e44976d\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bordeaux"
+            ],
+            "apis": {},
+            "sites": 58,
+            "prevalence": 0.000396,
+            "cnames": [],
+            "responseHashes": [
+                "487c021dbee92e82712437588dacc25b2ce23d91f485454910c35cf1631473c2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.cinemablend.com",
+                "www.techlearning.com",
+                "whatculture.com",
+                "www.toptenreviews.com",
+                "www.marieclaire.co.uk",
+                "www.whowhatwear.com",
+                "www.goodto.com",
+                "www.practicalmotorhome.com",
+                "forums.anandtech.com",
+                "www.horseandhound.co.uk",
+                "anandtech.com",
+                "www.nexttv.com",
+                "www.yachtingworld.com",
+                "www.anandtech.com",
+                "www.mby.com",
+                "www.marieclaire.com",
+                "www.sciencealert.com",
+                "www.myimperfectlife.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/appnexusBidAdapter-js\\.8eaf781b20bddcf6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bordeaux"
+            ],
+            "apis": {},
+            "sites": 58,
+            "prevalence": 0.000396,
+            "cnames": [],
+            "responseHashes": [
+                "d82b165e9d9dc6ea407636572a852b60d6c81a5718d6b0bd24804c86efa063bc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.countrylife.co.uk",
+                "forums.anandtech.com",
+                "www.cyclingnews.com",
+                "www.golfmonthly.com",
+                "www.shortlist.com",
+                "www.nexttv.com",
+                "whatculture.com",
+                "www.yachtingworld.com",
+                "www.bikeperfect.com",
+                "www.rugbyworld.com",
+                "www.homebuilding.co.uk",
+                "www.realhomes.com",
+                "www.tvtechnology.com",
+                "forums.tomsguide.com",
+                "www.laptopmag.com",
+                "www.practicalcaravan.com",
+                "forums.androidcentral.com",
+                "www.mby.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/undertoneBidAdapter-js\\.d6d61f35b023ee87\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bordeaux"
+            ],
+            "apis": {
+                "window.innerWidth": 54,
+                "window.innerHeight": 54
+            },
+            "sites": 54,
+            "prevalence": 0.000369,
+            "cnames": [],
+            "responseHashes": [
+                "fbf166664fe552f08141f4888fb541b9268cbfcbaeaadc60b79d459b7044c0d6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.windowscentral.com",
+                "www.mbr.co.uk",
+                "www.androidcentral.com",
+                "www.thefield.co.uk",
+                "www.gardeningknowhow.com",
+                "www.livescience.com",
+                "www.livingetc.com",
+                "whatculture.com",
+                "forums.tomshardware.com",
+                "www.digitalcameraworld.com",
+                "www.myimperfectlife.com",
+                "www.homebuilding.co.uk",
+                "www.imore.com",
+                "www.nexttv.com",
+                "www.idealhome.co.uk",
+                "www.bikeperfect.com",
+                "www.anandtech.com",
+                "www.toptenreviews.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/pubmaticBidAdapter-js\\.4b98c248dd7afb21\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "bordeaux"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 59,
+                "Navigator.prototype.userAgent": 59,
+                "Navigator.prototype.doNotTrack": 59,
+                "Screen.prototype.height": 59,
+                "Screen.prototype.width": 59,
+                "Navigator.prototype.language": 59,
+                "Navigator.prototype.connection": 59
+            },
+            "sites": 59,
+            "prevalence": 0.000403,
+            "cnames": [],
+            "responseHashes": [
+                "77d9724f5fafb9231328dac975ac7c4357cb4e3c2e5c2957b372fe27e246e8cd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.newegg.com",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.marieclaire.co.uk",
+                "www.thefield.co.uk",
+                "www.imore.com",
+                "www.sciencealert.com",
+                "www.livingetc.com",
+                "www.gardeningetc.com",
+                "www.whowhatwear.com",
+                "www.livescience.com",
+                "www.laptopmag.com",
+                "www.digitalcameraworld.com",
+                "www.advnture.com",
+                "www.petsradar.com",
+                "anandtech.com",
+                "moneyweek.com",
+                "www.cinemablend.com",
+                "www.fitandwell.com",
+                "www.countrylife.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/tripleliftBidAdapter-js\\.bdf160cba95c803e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bordeaux"
+            ],
+            "apis": {},
+            "sites": 58,
+            "prevalence": 0.000396,
+            "cnames": [],
+            "responseHashes": [
+                "3410ee759f6928953e6bbe32c8b74709d7a8adb6fa6cb9ca8845637447d4b6de"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.mby.com",
+                "www.realhomes.com",
+                "www.practicalcaravan.com",
+                "theweek.com",
+                "www.techspot.com",
+                "www.practicalmotorhome.com",
+                "www.sciencealert.com",
+                "www.windowscentral.com",
+                "www.marieclaire.com",
+                "www.toptenreviews.com",
+                "www.kiplinger.com",
+                "whatculture.com",
+                "www.goodto.com",
+                "moneyweek.com",
+                "www.cyclingweekly.com",
+                "www.thefield.co.uk",
+                "www.shortlist.com",
+                "www.idealhome.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/rubiconBidAdapter-js\\.e7cb7a9c9d140ec5\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bordeaux"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 60,
+                "Screen.prototype.width": 60,
+                "Screen.prototype.height": 60,
+                "window.name": 60
+            },
+            "sites": 60,
+            "prevalence": 0.00041,
+            "cnames": [],
+            "responseHashes": [
+                "b5138cb44ff90c625da70519932f0171bff9edd3fa34b23f0111c36ac0137881"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.newegg.com",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "forums.androidcentral.com",
+                "www.gardeningknowhow.com",
+                "www.imore.com",
+                "forums.tomshardware.com",
+                "www.laptopmag.com",
+                "www.cyclingnews.com",
+                "www.newegg.ca",
+                "www.techlearning.com",
+                "www.womanandhome.com",
+                "www.yachtingmonthly.com",
+                "www.digitalcameraworld.com",
+                "www.yachtingworld.com",
+                "www.androidcentral.com",
+                "www.homebuilding.co.uk",
+                "www.livescience.com",
+                "anandtech.com",
+                "www.shortlist.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/amxBidAdapter-js\\.c71741d0466d711a\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bordeaux"
+            ],
+            "apis": {
+                "Screen.prototype.height": 56,
+                "Screen.prototype.width": 56
+            },
+            "sites": 56,
+            "prevalence": 0.000383,
+            "cnames": [],
+            "responseHashes": [
+                "dca294b18ce87eb570363594e5e452e4ca25697927f29349da26a6ca360c7a8e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.newegg.com",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.pbo.co.uk",
+                "www.marieclaire.com",
+                "www.thefield.co.uk",
+                "www.petsradar.com",
+                "whatculture.com",
+                "www.whowhatwear.com",
+                "www.yachtingworld.com",
+                "www.marieclaire.co.uk",
+                "www.cinemablend.com",
+                "www.myimperfectlife.com",
+                "www.mby.com",
+                "forums.anandtech.com",
+                "www.rugbyworld.com",
+                "www.tvtechnology.com",
+                "www.gardeningetc.com",
+                "anandtech.com",
+                "www.countrylife.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/yieldmoBidAdapter-js\\.ef2202bfa50daec2\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "bordeaux"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 57,
+                "Navigator.prototype.doNotTrack": 57,
+                "window.devicePixelRatio": 57,
+                "window.innerWidth": 57,
+                "window.innerHeight": 57,
+                "Navigator.prototype.maxTouchPoints": 57
+            },
+            "sites": 57,
+            "prevalence": 0.000389,
+            "cnames": [],
+            "responseHashes": [
+                "e97fee21bacb2cd22fe1614c0e32331af9727ac58b8d09b3b3babcebaddc77f7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.practicalcaravan.com",
+                "anandtech.com",
+                "www.techspot.com",
+                "www.womanandhome.com",
+                "www.laptopmag.com",
+                "www.kiplinger.com",
+                "www.whowhatwear.com",
+                "forums.tomsguide.com",
+                "www.digitalcameraworld.com",
+                "www.androidcentral.com",
+                "www.practicalmotorhome.com",
+                "www.golfmonthly.com",
+                "www.imore.com",
+                "www.livingetc.com",
+                "www.windowscentral.com",
+                "www.anandtech.com",
+                "www.gardeningknowhow.com",
+                "www.pbo.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/ixBidAdapter-js\\.7c845c266e29c343\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bordeaux"
+            ],
+            "apis": {
+                "Screen.prototype.height": 58,
+                "Screen.prototype.width": 58
+            },
+            "sites": 58,
+            "prevalence": 0.000396,
+            "cnames": [],
+            "responseHashes": [
+                "d0387176b2442818b9a23d7ecfb3fe136c8e0cce1414f7dd2ee8bad175e2655e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.windowscentral.com",
+                "www.marieclaire.co.uk",
+                "www.toptenreviews.com",
+                "www.livingetc.com",
+                "www.homesandgardens.com",
+                "www.anandtech.com",
+                "forums.anandtech.com",
+                "www.gardeningknowhow.com",
+                "theweek.com",
+                "www.goodto.com",
+                "www.bikeperfect.com",
+                "forums.androidcentral.com",
+                "www.marieclaire.com",
+                "www.techlearning.com",
+                "www.practicalcaravan.com",
+                "www.livescience.com",
+                "www.pbo.co.uk",
+                "www.homebuilding.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/hl\\/es6\\/hawklinks\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 17,
+                "window.sessionStorage": 15
+            },
+            "sites": 17,
+            "prevalence": 0.000116,
+            "cnames": [],
+            "responseHashes": [
+                "aba84ce60fe24de99154b59e5163c01d9a36cd07d8f002888045fda0efa52202"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomsguide.com",
+                "forums.tomsguide.com",
+                "forums.tomshardware.com",
+                "www.anandtech.com",
+                "www.countrylife.co.uk",
+                "www.decanter.com",
+                "www.horseandhound.co.uk",
+                "www.mbr.co.uk",
+                "www.mby.com",
+                "www.pbo.co.uk",
+                "www.practicalcaravan.com",
+                "www.practicalmotorhome.com",
+                "www.rugbyworld.com",
+                "www.shortlist.com",
+                "www.thefield.co.uk",
+                "www.yachtingmonthly.com",
+                "www.yachtingworld.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/freyr\\.js",
+            "cookies": 0.000219,
+            "fingerprinting": 1,
+            "subdomains": [
+                "freyr"
+            ],
+            "apis": {
+                "Document.cookie getter": 56,
+                "Date.prototype.getTime": 34,
+                "Document.cookie setter": 32
+            },
+            "sites": 59,
+            "prevalence": 0.000403,
+            "cnames": [],
+            "responseHashes": [
+                "7c58f4a071c5a84d4cbc0f0b1a11d89083390b40fdb7c41787cbbf953ac9949a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "usprivacy": {
+                    "ttl": 31536001,
+                    "length": 4,
+                    "prevalence": 0.0002186240349798456,
+                    "uniqueness": 0.03125
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomsguide.com",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.decanter.com",
+                "www.womanandhome.com",
+                "www.bikeperfect.com",
+                "www.mbr.co.uk",
+                "www.yachtingmonthly.com",
+                "www.practicalmotorhome.com",
+                "www.laptopmag.com",
+                "www.practicalcaravan.com",
+                "www.realhomes.com",
+                "www.yachtingworld.com",
+                "www.whowhatwear.com",
+                "www.cyclingweekly.com",
+                "www.androidcentral.com",
+                "forums.tomshardware.com",
+                "www.radioworld.com",
+                "www.gardeningetc.com",
+                "www.rugbyworld.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/merchant-domains\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 49,
+            "prevalence": 0.000335,
+            "cnames": [],
+            "responseHashes": [
+                "814a2ceb13c99066f7289acc81dd3c12d11c59ab651f9806f1686395e8da2cf3",
+                "92912c34da6d3d3b45124e42c85471c2173ae510ca2f0dbaea264d4fc60861ef",
+                "07f7129adcf61204b9153714d670d6c2eafa732bc6666bc5768188159730660a",
+                "2190971367dfc08ff5e037bc3cde6526b74af9d0957cab954705a89e52948257",
+                "ae24f6baa78a8e57f05c586c878593e2f4bda7c493d50129adb2abb984bd8c52",
+                "e04b012527a3bb325038857db8107dac0d1e32a848f1e4835516b0045f161f20",
+                "a5e14bfaacdc1a27f4c10015d691853df5be2c6a30ad36de64b9743e71faa0a1",
+                "cd8c36c46ff3a8aaa33ac6602c8d0a5d1f654978548b29b6a812163719cd9ba2",
+                "dfd395e2ab0e4690e75122b379f15f5788b880d356d2750025107e3d6538c4e1",
+                "5cffcd9efa8359e89a3b576f5b3279db31888059d4b4816ab77b13802a619f51",
+                "f00499482f78607f5744c7df12e828c134f67bcf279ed75e692f85c58f8997fe",
+                "f8404a5796f6873114dac64d85c853582eb72ad672d77b3c7876847dafea4846",
+                "6cbd033862a2e944c90c6d6b94a7738c1134b9e8564ea753be58efb929760f2f",
+                "42525f0121372dfeb18274e2c0bdb30db346a7ceff40c3299631b1631c1406d5",
+                "b103c621d584cc60560c855cf8af567a16d808cd9b185422c62353bfb72d9823",
+                "6b7cf36fe590bdda43895f187761b1db4715ba51b08930a97af6eeb50564c086",
+                "1aa450a77c1bc0a0d832b3b1af34e2bd94476369e8906c3384e8ccf2afaf0d7e",
+                "abf7affe66edffd64acd91ba5f465e4d4bc0d76a9bc6bdffc8cdda9260af55f2",
+                "b5e1110db4ef73026fcee0442d27bf0faf440c4ebc2f56ca0dfe3661e09804dc",
+                "8b95d71e7d1740fa0fa2e9fa238924a75f0db7a9e830c97e8386d6888b89f4d9",
+                "289a61967ee365feab9d802a736852279ed400c4fe2f7a373537b464723d8445",
+                "2c7e91634da5f9935c29a764214d4bb9d94bd073b3a6847e81c9af5d1e240424",
+                "dad7d56a27f6e06940de6d11603ea25255d86e3083f70799ce8a63347788cb99",
+                "6d85a4398ac7f68ebcd083cb7a2e7ddde92c5b2575c62bc0df229caccd306d00",
+                "989e0c1726b93edc30e248d65c4301c52939de1839621416537cce0f7302a13e",
+                "aa01007414b0d8a9aba4372e1ccef1db7d8e4c6944c5dd1550a77b64ba772965",
+                "5a60e124b8b0cb83519a66ea9dcdf4ea6582a2b629f6b239b4ae5556faf2e1c7",
+                "5988ee4687b5de18cc3433b2349d23245442dc1f0b872ed339388a5382f118f7",
+                "cf05b31de211d9b3ba4a129469f2da741f320f13865ff7eb9ae3d7803f11a305",
+                "06aaf3f141f7c7837bb50a6d3cbc0be83c1c4f5c135dbafeb4f9dc4d0e089a24",
+                "66df09612b30c70ae6be311847198db2221d0c78ba1168799b6ad73bc4730d78",
+                "6ef68337d7aa6975d0f16d633fb9a253d4e5545f7815655d1cdb5e91a721f815",
+                "955738a08432355743e0e3c1d24d1254c126972ac2134fdeaf391d28af918250",
+                "4e3fa8c2a4d95acfb38d2158f0fb8e9534e2285694f9ed5f9de9508dc2170bb8",
+                "56abb9fd561ada9ddc7d6b6d094cb7971279fb19b41a968490236af5fb394d19",
+                "53226aa1da34b481b077e1854a80c950b672e6985c51998705b58ff0b9624f6a",
+                "31250e9280807b840cc683a51c83a666a879d4a8dd89f9b1209f84270c8dbe93",
+                "8d21f9e7d997c0a9da68f5e16f51859c1a1031e5da3e486e6b1e32401c93d9c7",
+                "bda47df89ba9dc1dc8f187849b892ce3b6ca02b24ac57cdbfe278f50607ca754",
+                "496264c12b37474d44899ee5cb05d26bba587c959f9c6eaecefdd03ca55b084d",
+                "56d1f65ddbbeb81a85ac0fbbd0d06a15ed5c1ecf708f48f694859342ddc3bbaa",
+                "3f1c0c85e2238e484516f5431bcf5955aa329a7161c950644303679f83d638c7",
+                "ab82b9e9a0002608c1dc135289e9469024e29ae9fdd91132af30e7b5d960ee20",
+                "c8a96edd8eca96376d19bba1a357a35427a0d9a8c98fe008213a70c4a8772023",
+                "b8ff41175e77d9e79bf421b77ef2ef939c3fb70072b4d687b71c294d2431ebd6",
+                "75412a2a66aa3c38ceda1241cb112071b44fdcaa3a38559a88c5cc6486b33937",
+                "24355cc01b91cbead41e41a1e1d9b9e6b115df4c721d4b8a2190e357bdde9dab",
+                "f2118c2dcc1f37cc402ab8dee5ac46c7a5a14c9083e24b4475dc0c36d052b2f9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomsguide.com",
+                "forums.tomsguide.com",
+                "www.gardeningknowhow.com",
+                "www.nexttv.com",
+                "www.marieclaire.com",
+                "www.itpro.com",
+                "www.practicalcaravan.com",
+                "www.rugbyworld.com",
+                "www.decanter.com",
+                "www.womanandhome.com",
+                "www.countrylife.co.uk",
+                "www.cyclingnews.com",
+                "moneyweek.com",
+                "www.kiplinger.com",
+                "www.androidcentral.com",
+                "www.wallpaper.com",
+                "www.practicalmotorhome.com",
+                "www.golfmonthly.com",
+                "www.shortlist.com",
+                "www.gardeningetc.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\/progressive\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {
+                "Document.cookie getter": 18,
+                "window.localStorage": 19,
+                "Navigator.prototype.userAgent": 19,
+                "Navigator.prototype.maxTouchPoints": 15,
+                "window.sessionStorage": 18,
+                "Date.prototype.getTime": 15
+            },
+            "sites": 19,
+            "prevalence": 0.00013,
+            "cnames": [],
+            "responseHashes": [
+                "5369a02931698764597a3acaf4720d767a2237727e180f721438597adb5bbaf6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moneyweek.com",
+                "theweek.com",
+                "www.cyclingweekly.com",
+                "www.fitandwell.com",
+                "www.gardeningetc.com",
+                "www.gardeningknowhow.com",
+                "www.golfmonthly.com",
+                "www.goodto.com",
+                "www.homesandgardens.com",
+                "www.idealhome.co.uk",
+                "www.kiplinger.com",
+                "www.livingetc.com",
+                "www.marieclaire.co.uk",
+                "www.marieclaire.com",
+                "www.myimperfectlife.com",
+                "www.realhomes.com",
+                "www.wallpaper.com",
+                "www.whowhatwear.com",
+                "www.womanandhome.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/13-1-7\\/js\\/externals\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "slice.vanilla"
+            ],
+            "apis": {},
+            "sites": 38,
+            "prevalence": 0.00026,
+            "cnames": [],
+            "responseHashes": [
+                "f65329a3db68a68c542fe17485430268a4f86882c6e579344e42a862d43ef2b8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.cinemablend.com",
+                "www.windowscentral.com",
+                "moneyweek.com",
+                "theweek.com",
+                "www.womanandhome.com",
+                "www.realhomes.com",
+                "www.imore.com",
+                "www.golfmonthly.com",
+                "www.advnture.com",
+                "www.kiplinger.com",
+                "www.marieclaire.co.uk",
+                "www.petsradar.com",
+                "www.gardeningknowhow.com",
+                "www.techlearning.com",
+                "www.gardeningetc.com",
+                "www.whowhatwear.com",
+                "www.homebuilding.co.uk",
+                "www.cyclingnews.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/translations\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 45,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "ec73186723baba99e424856e47a223ed80cf99d4c0e50f78653234437e961a98",
+                "6fbf9b311c6de653340205dacce2bae79ee4a68d67baee56dc187d03b65bcbc9",
+                "c21d771e938e5abadb89541c8dddf505db7e05a4962803d1d000b2f859b987b7",
+                "cfba487c06be58bd75c5e2902a6b035a932ba1287fad3e3fabd484f31aa7da1d",
+                "5fed8e3cc28b3867ccb13973275c945fbd363b190aa771c3288fa5660f3d957b",
+                "2fc7f765cd7b12aca0323711d3746c0e5b3d3bc47a4d10b5c12f49788bba6148"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.yachtingmonthly.com",
+                "www.mbr.co.uk",
+                "www.practicalmotorhome.com",
+                "www.myimperfectlife.com",
+                "www.imore.com",
+                "www.nexttv.com",
+                "www.kiplinger.com",
+                "www.androidcentral.com",
+                "www.techlearning.com",
+                "www.livingetc.com",
+                "www.wallpaper.com",
+                "theweek.com",
+                "www.advnture.com",
+                "www.tvtechnology.com",
+                "www.whowhatwear.com",
+                "www.goodto.com",
+                "www.fitandwell.com",
+                "www.golfmonthly.com",
+                "www.idealhome.co.uk",
+                "www.cinemablend.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\/seasonal\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {
+                "window.localStorage": 8
+            },
+            "sites": 13,
+            "prevalence": 0.0000888,
+            "cnames": [],
+            "responseHashes": [
+                "40df044af1b3cec23ae7cd5cd35c8a37b54f32a6ee95eed5e78ffb13b49ace25"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moneyweek.com",
+                "theweek.com",
+                "www.advnture.com",
+                "www.bikeperfect.com",
+                "www.cinemablend.com",
+                "www.cyclingnews.com",
+                "www.cyclingweekly.com",
+                "www.gardeningknowhow.com",
+                "www.idealhome.co.uk",
+                "www.itpro.com",
+                "www.livingetc.com",
+                "www.wallpaper.com",
+                "www.womanandhome.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/css\\/browser\\/17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\/seasonal\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.0000888,
+            "cnames": [],
+            "responseHashes": [
+                "61abfc5de5a0c0f86a2fcf857118cb9c9f5ab4feb35881b5d4e57fd3115c8122"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moneyweek.com",
+                "theweek.com",
+                "www.advnture.com",
+                "www.bikeperfect.com",
+                "www.cinemablend.com",
+                "www.cyclingnews.com",
+                "www.cyclingweekly.com",
+                "www.gardeningknowhow.com",
+                "www.idealhome.co.uk",
+                "www.itpro.com",
+                "www.livingetc.com",
+                "www.wallpaper.com",
+                "www.womanandhome.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/seasonal\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 27,
+            "prevalence": 0.000184,
+            "cnames": [],
+            "responseHashes": [
+                "bb9455ed1c60692f1b1852805bf3225557b2a1db531843ce4434e710230e200b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.cyclingnews.com",
+                "www.livescience.com",
+                "www.homebuilding.co.uk",
+                "www.imore.com",
+                "www.wallpaper.com",
+                "www.bikeperfect.com",
+                "www.golfmonthly.com",
+                "www.gardeningetc.com",
+                "www.homesandgardens.com",
+                "www.marieclaire.com",
+                "www.myimperfectlife.com",
+                "www.gardeningknowhow.com",
+                "www.marieclaire.co.uk",
+                "www.goodto.com",
+                "www.windowscentral.com",
+                "www.nexttv.com",
+                "www.womanandhome.com",
+                "www.itpro.com",
+                "www.petsradar.com",
+                "www.advnture.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/css\\/browser\\/17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\/progressive\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [
+                "674d6ffc4c9198f1fb11859da1f516cab62f3a1ce074d428b9fc9fae8f0757f1"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "moneyweek.com",
+                "www.fitandwell.com",
+                "www.gardeningknowhow.com",
+                "www.kiplinger.com",
+                "www.livingetc.com",
+                "www.marieclaire.com",
+                "www.myimperfectlife.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.4\\.3-cb79c2e23a459baff372aadbf48637a367c68f4a\\/progressive\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {
+                "Document.cookie getter": 7,
+                "window.localStorage": 7,
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.maxTouchPoints": 7,
+                "window.sessionStorage": 7,
+                "Date.prototype.getTime": 7,
+                "window.innerWidth": 2
+            },
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [
+                "7ddc7025066fe5c444a8feb3835c760be9f81b5dd54fc2674ccaf71b76f268bf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theweek.com",
+                "www.fitandwell.com",
+                "www.gardeningetc.com",
+                "www.golfmonthly.com",
+                "www.goodto.com",
+                "www.marieclaire.com",
+                "www.myimperfectlife.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.4\\.3-cb79c2e23a459baff372aadbf48637a367c68f4a\\/default-site\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "971c867a86310f144b7f01838a6233b646c82eb8287aaf7aa180b7b0f71cc58e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theweek.com",
+                "www.livescience.com",
+                "www.nexttv.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.4\\.3-cb79c2e23a459baff372aadbf48637a367c68f4a\\/seasonal\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {
+                "window.localStorage": 8
+            },
+            "sites": 14,
+            "prevalence": 0.0000956,
+            "cnames": [],
+            "responseHashes": [
+                "6b27e98f730358ba5f1070b62b97b3f42cddb7b3587259095294f96be7eb67cc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theweek.com",
+                "www.cyclingnews.com",
+                "www.fitandwell.com",
+                "www.gardeningetc.com",
+                "www.golfmonthly.com",
+                "www.goodto.com",
+                "www.homebuilding.co.uk",
+                "www.imore.com",
+                "www.livescience.com",
+                "www.marieclaire.com",
+                "www.myimperfectlife.com",
+                "www.nexttv.com",
+                "www.petsradar.com",
+                "www.windowscentral.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/css\\/browser\\/17\\.4\\.3-cb79c2e23a459baff372aadbf48637a367c68f4a\\/seasonal\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000956,
+            "cnames": [],
+            "responseHashes": [
+                "61abfc5de5a0c0f86a2fcf857118cb9c9f5ab4feb35881b5d4e57fd3115c8122"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theweek.com",
+                "www.cyclingnews.com",
+                "www.fitandwell.com",
+                "www.gardeningetc.com",
+                "www.golfmonthly.com",
+                "www.goodto.com",
+                "www.homebuilding.co.uk",
+                "www.imore.com",
+                "www.livescience.com",
+                "www.marieclaire.com",
+                "www.myimperfectlife.com",
+                "www.nexttv.com",
+                "www.petsradar.com",
+                "www.windowscentral.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/merchant-domains\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.00013,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theweek.com",
+                "www.bikeperfect.com",
+                "www.cyclingnews.com",
+                "www.gardeningetc.com",
+                "www.gardeningknowhow.com",
+                "www.homebuilding.co.uk",
+                "www.imore.com",
+                "www.mby.com",
+                "www.myimperfectlife.com",
+                "www.pbo.co.uk",
+                "www.petsradar.com",
+                "www.practicalcaravan.com",
+                "www.practicalmotorhome.com",
+                "www.rugbyworld.com",
+                "www.shortlist.com",
+                "www.techlearning.com",
+                "www.thefield.co.uk",
+                "www.yachtingmonthly.com",
+                "www.yachtingworld.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/13-1-7\\/js\\/localeSelector\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "slice.vanilla"
+            ],
+            "apis": {
+                "Document.cookie getter": 3
+            },
+            "sites": 19,
+            "prevalence": 0.00013,
+            "cnames": [],
+            "responseHashes": [
+                "1f99f414b2ef10a8be4b58f95a030e61677ec91a9072469308246843418aa2d0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theweek.com",
+                "www.androidcentral.com",
+                "www.cinemablend.com",
+                "www.cyclingweekly.com",
+                "www.digitalcameraworld.com",
+                "www.gardeningetc.com",
+                "www.golfmonthly.com",
+                "www.goodto.com",
+                "www.homesandgardens.com",
+                "www.imore.com",
+                "www.itpro.com",
+                "www.laptopmag.com",
+                "www.livingetc.com",
+                "www.myimperfectlife.com",
+                "www.realhomes.com",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.whowhatwear.com",
+                "www.womanandhome.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\/default-site\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "a7b1cda737ef7d21ffd2ef0ffba81a68681c6b87ee67c63f1ec7038f4d4e528c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theweek.com",
+                "www.bikeperfect.com",
+                "www.livescience.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/css\\/browser\\/17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\/responsive\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "674d6ffc4c9198f1fb11859da1f516cab62f3a1ce074d428b9fc9fae8f0757f1"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "advnture.com",
+                "www.bikeperfect.com",
+                "www.cinemablend.com",
+                "www.nexttv.com",
+                "www.petsradar.com",
+                "www.techlearning.com",
+                "www.tvtechnology.com",
+                "www.windowscentral.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\/responsive\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {
+                "Document.cookie getter": 20,
+                "window.localStorage": 20,
+                "window.sessionStorage": 20,
+                "Navigator.prototype.userAgent": 20,
+                "Navigator.prototype.maxTouchPoints": 11,
+                "Date.prototype.getTime": 11
+            },
+            "sites": 20,
+            "prevalence": 0.000137,
+            "cnames": [],
+            "responseHashes": [
+                "bed8e449c065fbf901202527af87cd32dd448bcba939842160dfa932674890a3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "advnture.com",
+                "www.advnture.com",
+                "www.androidcentral.com",
+                "www.bikeperfect.com",
+                "www.cinemablend.com",
+                "www.cyclingnews.com",
+                "www.digitalcameraworld.com",
+                "www.homebuilding.co.uk",
+                "www.imore.com",
+                "www.itpro.com",
+                "www.laptopmag.com",
+                "www.livescience.com",
+                "www.nexttv.com",
+                "www.petsradar.com",
+                "www.techlearning.com",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.toptenreviews.com",
+                "www.tvtechnology.com",
+                "www.windowscentral.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/advnture\\/media\\/shared\\/js\\/infinite-scroll\\.993589d808c4b73da303\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1a9cd9b88624fb7e18e313a2d8ed2a99761193df7ae29f9395c995395b0e571f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "advnture.com",
+                "www.advnture.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/advnture\\/media\\/shared\\/js\\/nav-subscribe\\.8920a3dd383f8634b023\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1de0c65f913096937a736e92178b49e378c7b933cf34f38fcb22911b3f7bbcec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "advnture.com",
+                "www.advnture.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/u3bqPndtsjW8ksAYAApvBV-650-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a8330ce28d6cfdf4a4b0b36bc87e464edca2072b3a40e440b7edb248331feb4f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "advnture.com",
+                "www.advnture.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/13-1-7\\/js\\/regionRedirectBanner\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "slice.vanilla"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "5c1440f2236630fbe14d0463b3b962e2b682dc0b7cc11b3df57960fe5c35b35b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "advnture.com",
+                "www.bikeperfect.com",
+                "www.techlearning.com",
+                "www.tvtechnology.com",
+                "www.windowscentral.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/purch\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c3e7bbb268824ebac9119b45bc9214617edcb26300a40657af2905d868d6a4ba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anandtech.com",
+                "www.anandtech.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/css\\/browser\\/purch\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "674d6ffc4c9198f1fb11859da1f516cab62f3a1ce074d428b9fc9fae8f0757f1"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anandtech.com",
+                "www.anandtech.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\/promotionfallback\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "25179c4c292c7c97bb28ca03e923d4d7189d5fabff710eddfb8f1b1ce9ffa29b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "androidcentral.com",
+                "www.goodto.com",
+                "www.idealhome.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/androidcentral\\/media\\/shared\\/img\\/flags\\/nosize\\/US\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c0a177730664a02710981330dacbe32e843153f32945016aa1e7b377ed4f9819"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "androidcentral.com",
+                "www.androidcentral.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/androidcentral\\/media\\/shared\\/js\\/infinite-scroll\\.993589d808c4b73da303\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1a9cd9b88624fb7e18e313a2d8ed2a99761193df7ae29f9395c995395b0e571f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "androidcentral.com",
+                "www.androidcentral.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/androidcentral\\/media\\/shared\\/js\\/nav-subscribe\\.8920a3dd383f8634b023\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1de0c65f913096937a736e92178b49e378c7b933cf34f38fcb22911b3f7bbcec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "androidcentral.com",
+                "www.androidcentral.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\/promotion\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {
+                "window.localStorage": 18
+            },
+            "sites": 18,
+            "prevalence": 0.000123,
+            "cnames": [],
+            "responseHashes": [
+                "e25551ec16d4c6103b24c49b322a99f9b038c2d6ad3e81f53c07ee260dcdb700"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "androidcentral.com",
+                "www.cyclingweekly.com",
+                "www.digitalcameraworld.com",
+                "www.gardeningetc.com",
+                "www.golfmonthly.com",
+                "www.goodto.com",
+                "www.homebuilding.co.uk",
+                "www.homesandgardens.com",
+                "www.idealhome.co.uk",
+                "www.imore.com",
+                "www.itpro.com",
+                "www.laptopmag.com",
+                "www.livescience.com",
+                "www.marieclaire.co.uk",
+                "www.tomsguide.com",
+                "www.wallpaper.com",
+                "www.whowhatwear.com",
+                "www.womanandhome.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/css\\/browser\\/17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\/promotion\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "aed601f99eb26eb2e6c2cdbb3c2e818824e8aea8ab1835e666385be3eeb176be"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "androidcentral.com",
+                "www.goodto.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/widget\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 26,
+            "prevalence": 0.000178,
+            "cnames": [],
+            "responseHashes": [
+                "dc0d1565cfad4668ca3ee305cccfe56e3f747e67895ed2b5b6f0d81e894923b4",
+                "968815b43880d5916b4df258da050f866237c02ba02cbf4a841fe2f2cae378f8",
+                "47a6002bc9b68f5ca464baac85989a79145383d756370c3446ccfc27373351af",
+                "778dd8901d559b6e55cda3af31386037d9a929cf9e03e0e8e5e35ffb006dbc87",
+                "ba62ca634188c92141a5c04b8014298e895b89bb4d284f34b4a0db977836d280",
+                "e7dccfe764e22f034c348546a31d3452860b8b09ce3b60e77f5e198cc49ca181",
+                "c92fddc4b173fd6cd0fc1ff22fa783faaf85fdec03e3a1bd6e6924078626e6b2",
+                "ffc0bed5af65fce979e43b968f1bb4aec142712e0da73dda963122455fb2a5dd",
+                "7f5d5b8af62342382f5e2c871db08d8c3e8afb7d70f6091941f8fd138772cef2",
+                "d3a44572ba27f1905bad9d5aea26811ab387ad9e8013022666e5f1b31f6fe344",
+                "6cf00ac52b3f0cd23bcbce1cf9f25403de5990fb83d1be8e76b968075a939ae0",
+                "b88c42861e5e74f806b0126fa271cce3f61746af57057fab8e601a6a8f980c81",
+                "ea82cecc1e706e46f23d298a805b1d2a906226bc60b6382ff7e273ef9158b666",
+                "cac5d0dd57232c865fbcc8c789b5d20e5fc284244ee29dc7eee3542264d24c90",
+                "15689bc7ead3e78288befa98a4cec9c0068bc422fb03be66a185fb84e37ccd6b",
+                "1cd422e45c7b391182f32a21135ccd57fa59661880b6ea6498949cb9425012dd",
+                "cdc7869577f6d54bc772d5073bfd3ad5ae65ef62ff5628d99d87748473273a34",
+                "9e2976e224de51a43d97a96d10f5006d85fe41cf40e065c46d49d170b4e83c27",
+                "1669085d88310f7c8937a3e1d75f47601be2172474ee6b69f41e654e41e3a6c3",
+                "c2d7c104ba09b40135d8a45cb80df0865915b188941b0a3d7ea246217953a037",
+                "b9dbb4f47bcdffdf10e2139f2334594331d8afe1d3974ec2e1ecf0a3b14365ed"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cats": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "www.idealhome.co.uk",
+                "www.myimperfectlife.com",
+                "www.cyclingnews.com",
+                "www.homebuilding.co.uk",
+                "www.marieclaire.co.uk",
+                "www.countrylife.co.uk",
+                "www.cyclingweekly.com",
+                "www.androidcentral.com",
+                "www.shortlist.com",
+                "www.livescience.com",
+                "www.imore.com",
+                "www.goodto.com",
+                "www.practicalcaravan.com",
+                "www.wallpaper.com",
+                "www.itpro.com",
+                "www.homesandgardens.com",
+                "www.mbr.co.uk",
+                "www.livingetc.com",
+                "www.fitandwell.com",
+                "www.whowhatwear.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.5\\.0-716571be609c28f39fb1080d9068d5ad7d955ecd\\/promotion\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "65dd25aad6bc0df267b252cec2a40e950924b4674c4a4f89f4dca3a18d384b39"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "androidcentral.com",
+                "www.homesandgardens.com",
+                "www.marieclaire.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.5\\.0-716571be609c28f39fb1080d9068d5ad7d955ecd\\/analytics-library-entry-getCustomTrackingId\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "79776beb89eae97bba182bf4561081a93ad7ed69982747e721fc106df0b6c319"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "androidcentral.com",
+                "www.homesandgardens.com",
+                "www.marieclaire.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.5\\.0-716571be609c28f39fb1080d9068d5ad7d955ecd\\/seasonal\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "49e4a5244953131fd2b00fdbf30284abe79f06ccaf342a7ad2c01c4513d40ac3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "androidcentral.com",
+                "www.homesandgardens.com",
+                "www.marieclaire.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/bikeperfect\\/media\\/shared\\/js\\/infinite-scroll\\.993589d808c4b73da303\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1a9cd9b88624fb7e18e313a2d8ed2a99761193df7ae29f9395c995395b0e571f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bikeperfect.com",
+                "www.bikeperfect.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/bikeperfect\\/media\\/shared\\/js\\/nav-subscribe\\.8920a3dd383f8634b023\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1de0c65f913096937a736e92178b49e378c7b933cf34f38fcb22911b3f7bbcec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bikeperfect.com",
+                "www.bikeperfect.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/JQaF4VvzRhhbuCHR8AZKVW-650-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ae5bcca895577e4962060e5e732d73c6a54b3543eaafebf66bdbfd772fa38618"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bikeperfect.com",
+                "www.bikeperfect.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\/multimodelreview\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fe2d15b2ac11fc6b89aa019d6f69a22939babd70d8c7a1bd7bd02b535eec5d78"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bikeperfect.com",
+                "www.digitalcameraworld.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\/powered-by\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d9a85f4513d269e454a1bb5fc1e361339bb889625eb3f5f953039228d7128317"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bikeperfect.com",
+                "www.digitalcameraworld.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\/analytics-library-entry-getCustomTrackingId\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000956,
+            "cnames": [],
+            "responseHashes": [
+                "65cef4b0d3674747839ce29f3f0f06493c08a15defd63b2b29a1c1748a6a07e9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bikeperfect.com",
+                "www.cyclingweekly.com",
+                "www.gardeningetc.com",
+                "www.golfmonthly.com",
+                "www.homebuilding.co.uk",
+                "www.homesandgardens.com",
+                "www.imore.com",
+                "www.itpro.com",
+                "www.livescience.com",
+                "www.livingetc.com",
+                "www.marieclaire.co.uk",
+                "www.wallpaper.com",
+                "www.whowhatwear.com",
+                "www.womanandhome.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/cinemablend\\/media\\/shared\\/img\\/flags\\/nosize\\/US\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c0a177730664a02710981330dacbe32e843153f32945016aa1e7b377ed4f9819"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cinemablend.com",
+                "www.cinemablend.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/cinemablend\\/media\\/shared\\/js\\/infinite-scroll\\.993589d808c4b73da303\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1a9cd9b88624fb7e18e313a2d8ed2a99761193df7ae29f9395c995395b0e571f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cinemablend.com",
+                "www.cinemablend.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/cinemablend\\/media\\/shared\\/js\\/nav-subscribe\\.8920a3dd383f8634b023\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1de0c65f913096937a736e92178b49e378c7b933cf34f38fcb22911b3f7bbcec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cinemablend.com",
+                "www.cinemablend.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/countrylife\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.maxTouchPoints": 1,
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5524195a7261820e4ad7258aae65713670a7785d7e3b2d6a10375de3ed05238a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "countrylife.co.uk",
+                "www.countrylife.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/css\\/browser\\/countrylife\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5037642ea5434bbbb0dabc4881ceeeea86f92d7604e99d4b47622d178b5c31da"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "countrylife.co.uk",
+                "www.countrylife.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/review\\.17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bd44dc9cde0fe6c2d74992729aafbeba15adeaa886609621693d09cbe121b1f2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cats": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "countrylife.co.uk",
+                "www.mbr.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/css\\/browser\\/17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\/review\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "765b6e50ebe346441c20d94188f8caada4f71b829085c32ae5ce07e48ae47821"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cats": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "countrylife.co.uk",
+                "www.mbr.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/wzTgxuvR5yK9XByrYRxGTB-650-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "48160ccf9274fb7dee0ea7573eabc0d35726820dcec5df74972e09c3d01fffd9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyclingnews.com",
+                "www.cyclingnews.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.4\\.3-cb79c2e23a459baff372aadbf48637a367c68f4a\\/responsive\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {
+                "Document.cookie getter": 10,
+                "window.localStorage": 10,
+                "Navigator.prototype.userAgent": 10,
+                "Navigator.prototype.maxTouchPoints": 10,
+                "Date.prototype.getTime": 10,
+                "window.sessionStorage": 10,
+                "window.innerWidth": 2
+            },
+            "sites": 10,
+            "prevalence": 0.0000683,
+            "cnames": [],
+            "responseHashes": [
+                "249c9ac9eac6f04bc49f8e70cf0050d4e74f7c668906e2988c20c5d29e8239f4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyclingnews.com",
+                "www.homebuilding.co.uk",
+                "www.imore.com",
+                "www.laptopmag.com",
+                "www.livescience.com",
+                "www.nexttv.com",
+                "www.petsradar.com",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "www.windowscentral.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.4\\.3-cb79c2e23a459baff372aadbf48637a367c68f4a\\/powered-by\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "e0b6b38f8ed1fb449c74e5812e03bff9ba658a0af311f56310eac7e8035c7e08"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyclingnews.com",
+                "www.fitandwell.com",
+                "www.golfmonthly.com",
+                "www.laptopmag.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/cyclingnews\\/media\\/shared\\/js\\/comments\\.de5d682e481d2e986922\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f23e79d0b8f2baadf8a82953198ac9e452daff96f13e4dda67a04112336d6364"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyclingnews.com",
+                "www.cyclingnews.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.4\\.3-cb79c2e23a459baff372aadbf48637a367c68f4a\\/analytics-library-entry-getCustomTrackingId\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "79776beb89eae97bba182bf4561081a93ad7ed69982747e721fc106df0b6c319"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyclingnews.com",
+                "www.fitandwell.com",
+                "www.gardeningetc.com",
+                "www.golfmonthly.com",
+                "www.homebuilding.co.uk",
+                "www.imore.com",
+                "www.livescience.com",
+                "www.myimperfectlife.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/logos\\/merchants\\/amazon-us-15006529670367-100-80\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images.fie"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "755ba4601a87c94a5f65fdc7786a5d2d93973dd8bef153ce97d2f9c26725fa89"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyclingnews.com",
+                "www.fitandwell.com",
+                "www.golfmonthly.com",
+                "www.laptopmag.com",
+                "www.mbr.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/F42sUkXS4tnfWJVTMQ9Jj6-1024-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f9392c7cb288eb8fa5f5155534afa16c5979f6a5b28d0dda468e741edbcb9cda"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyclingweekly.com",
+                "www.cyclingweekly.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\/cw-site\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2ddabb49534c90cdea5c94d5c0df8fe5db0797c06a76a8663e60de783aef58ea"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyclingweekly.com",
+                "www.cyclingweekly.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/cyclingweekly\\/manifest\\.63b5e43afc010450e4e2\\.es6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6d1889170a27f28b2100919f7cf4473ce7ae81323d6f4c328431d2946bb500fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyclingweekly.com",
+                "www.cyclingweekly.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/cyclingweekly\\/media\\/shared\\/img\\/flags\\/nosize\\/US\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c0a177730664a02710981330dacbe32e843153f32945016aa1e7b377ed4f9819"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyclingweekly.com",
+                "www.cyclingweekly.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/thqqgco6eduwn8np-16742130414759-250-80\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "013c5fbce60188430ef748ed0d22d32c1d1a14bcea0fdc5f9a634fa96eb09166"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyclingweekly.com",
+                "www.cyclingweekly.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/9g4y89d5wy959GrhorE7dU-650-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0fb16ff49e3b47e7d414a5537bff42115261caa05997d258158d14b5eccc44f0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digitalcameraworld.com",
+                "www.digitalcameraworld.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\/dcw-site\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1f23de6ac588a757f2386824f00b45e61f8294382257f7c7cafba748bfe49c94"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digitalcameraworld.com",
+                "www.digitalcameraworld.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\/merchantlink\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3583b7b3370ea3c077756cfc988fb11aa63dbc4c3fd67c90ddad817c64db2da2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digitalcameraworld.com",
+                "www.livingetc.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/digitalcameraworld\\/media\\/shared\\/img\\/flags\\/nosize\\/US\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c0a177730664a02710981330dacbe32e843153f32945016aa1e7b377ed4f9819"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digitalcameraworld.com",
+                "www.digitalcameraworld.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/v43b8cztcetrrtpf-1729510557716-250-80\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "86af7460089265a0afe3b0c27cb9dfd0b29999562fec0870c96121a86b33d293"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digitalcameraworld.com",
+                "www.digitalcameraworld.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/digitalcameraworld\\/media\\/shared\\/js\\/infinite-scroll\\.993589d808c4b73da303\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1a9cd9b88624fb7e18e313a2d8ed2a99761193df7ae29f9395c995395b0e571f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digitalcameraworld.com",
+                "www.digitalcameraworld.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/digitalcameraworld\\/media\\/shared\\/js\\/nav-subscribe\\.8920a3dd383f8634b023\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1de0c65f913096937a736e92178b49e378c7b933cf34f38fcb22911b3f7bbcec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digitalcameraworld.com",
+                "www.digitalcameraworld.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/fitandwell\\/manifest\\.63b5e43afc010450e4e2\\.es6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6d1889170a27f28b2100919f7cf4473ce7ae81323d6f4c328431d2946bb500fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fitandwell.com",
+                "www.fitandwell.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/FSbenZgR8XdZC4xcp3NugZ-1024-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ffc8fa80aea57505df9d961df24f08790518151747cf1d5c69e76bf711cecb0a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fitandwell.com",
+                "www.fitandwell.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.4\\.3-cb79c2e23a459baff372aadbf48637a367c68f4a\\/review\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "56bec6b169b52d42cd1d689662dbbc0fb8538cc4fc41130a1441c9d5beb7f0dd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fitandwell.com",
+                "www.golfmonthly.com",
+                "www.laptopmag.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.4\\.3-cb79c2e23a459baff372aadbf48637a367c68f4a\\/seasonal-event-countdown\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "8317ccaf1cc376e59d2ae29cf4473de183e7df07f438403c7e69d1cb87578cb4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fitandwell.com",
+                "www.golfmonthly.com",
+                "www.laptopmag.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.4\\.3-cb79c2e23a459baff372aadbf48637a367c68f4a\\/seasonal-event-merchants\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "4a508495d56ab29c286cd8e95d7de3d0a0387af054722b7fbf1586deee7af1a2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fitandwell.com",
+                "www.golfmonthly.com",
+                "www.laptopmag.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/8sCgqNes2dwduc9ERGQp7N-1024-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2eef2a63940da988706411d926adabf142de6b249b0badfd5e5b7f85b39b08ae"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gardeningetc.com",
+                "www.gardeningetc.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.4\\.3-cb79c2e23a459baff372aadbf48637a367c68f4a\\/promotion\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {
+                "window.localStorage": 5
+            },
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "ad7158cf7bcd8c048939a2828f09ef450dc688bd8d61d4fea38830c5364e68ac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gardeningetc.com",
+                "www.golfmonthly.com",
+                "www.goodto.com",
+                "www.homebuilding.co.uk",
+                "www.imore.com",
+                "www.laptopmag.com",
+                "www.livescience.com",
+                "www.tomsguide.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/gardeningetc\\/manifest\\.63b5e43afc010450e4e2\\.es6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6d1889170a27f28b2100919f7cf4473ce7ae81323d6f4c328431d2946bb500fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gardeningetc.com",
+                "www.gardeningetc.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/flexiimages\\/xtegpeqkpu1649748926\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4f5fc2dbb3d6c9c3e98959269ef26c3b9b1842f9acf451edf0f401915a920b65"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gardeningetc.com",
+                "www.gardeningetc.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/ym1dykageoholcfv-16455343070951-250-80\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e8b2c29dbde07a8e2f6ffae09b88436dcef7210199bdd88368795808bdc760da"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gardeningetc.com",
+                "www.gardeningetc.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/bqJGwJbW7Sb9qULvqHnfqn-1024-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b014d416bf7f43b4131803acb22d2008a0e357b1cf3d9acbd2aae8ef96e22d82"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gardeningknowhow.com",
+                "www.gardeningknowhow.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/gardeningknowhow\\/manifest\\.63b5e43afc010450e4e2\\.es6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6d1889170a27f28b2100919f7cf4473ce7ae81323d6f4c328431d2946bb500fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gardeningknowhow.com",
+                "www.gardeningknowhow.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/golfmonthly\\/manifest\\.63b5e43afc010450e4e2\\.es6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6d1889170a27f28b2100919f7cf4473ce7ae81323d6f4c328431d2946bb500fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "golfmonthly.com",
+                "www.golfmonthly.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/golfmonthly\\/media\\/shared\\/img\\/flags\\/nosize\\/US\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c0a177730664a02710981330dacbe32e843153f32945016aa1e7b377ed4f9819"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "golfmonthly.com",
+                "www.golfmonthly.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/products\\/e0fe71e68c612552466758dd7a60d3b1bd0ce779-250-80\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8d55aef481ffb6a34054f7d655e67ccf0e100255403fac3ece04320497337225"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "golfmonthly.com",
+                "www.golfmonthly.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/adPJK6L4WUGZpHCqPQQbJb-1024-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "31966114b613df62d39089cb4de1900223f4761c83fbd3f0766f637b175ab1e5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "golfmonthly.com",
+                "www.golfmonthly.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/img\\/misc\\/no-image-available\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "4ec3c004ee334755536b515e20d63b626396d89ec4b6f0d1e060e2e01108a158"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "golfmonthly.com",
+                "www.laptopmag.com",
+                "www.mbr.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/exPyWevmRd6Et83c5cZXJJ-1024-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d5f260a800f8f0ecd0fce9795c5af961e93252d80af35d11a3a97dde2d7080da"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodto.com",
+                "www.goodto.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/goodto\\/manifest\\.63b5e43afc010450e4e2\\.es6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6d1889170a27f28b2100919f7cf4473ce7ae81323d6f4c328431d2946bb500fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodto.com",
+                "www.goodto.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/goodto\\/media\\/shared\\/img\\/flags\\/nosize\\/US\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c0a177730664a02710981330dacbe32e843153f32945016aa1e7b377ed4f9819"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodto.com",
+                "www.goodto.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/oYgzB7yBr87EVHtkjyLZnU-650-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "219d5468fa667bae1f903c913aa10f20ad7a0ddef938dbaa628fc9b292ac6892"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homebuilding.co.uk",
+                "www.homebuilding.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/flexiimages\\/m7awu8serc1613169967\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "996a2ccba0b58f7393c1f2a4eff5c81174b71cd1c1df1ea60b0520840ae040bc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homebuilding.co.uk",
+                "www.homebuilding.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/NDgGLMRvJuA7kFKdhmJBRX-1024-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c89123569155ec03129b6507d524408e082473d26a09d00f3d6b510194d8bd83"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homesandgardens.com",
+                "www.homesandgardens.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.5\\.0-716571be609c28f39fb1080d9068d5ad7d955ecd\\/progressive\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Document.cookie getter": 3,
+                "window.sessionStorage": 3,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "4829d219ee7c3f116bebbef46cbedeb054e0e85056cae5583a7c86b06340746a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homesandgardens.com",
+                "www.marieclaire.co.uk",
+                "www.realhomes.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/homesandgardens\\/manifest\\.63b5e43afc010450e4e2\\.es6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6d1889170a27f28b2100919f7cf4473ce7ae81323d6f4c328431d2946bb500fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homesandgardens.com",
+                "www.homesandgardens.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/homesandgardens\\/media\\/shared\\/img\\/flags\\/nosize\\/US\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c0a177730664a02710981330dacbe32e843153f32945016aa1e7b377ed4f9819"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homesandgardens.com",
+                "www.homesandgardens.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/7vdrrvvg4vbcrcot-16456956591649-250-80\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "51325db770b79cc5bfcf88f43938f9c2d2b89a4bbf78b86146439c846c8108f3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homesandgardens.com",
+                "www.homesandgardens.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/css\\/browser\\/17\\.5\\.0-716571be609c28f39fb1080d9068d5ad7d955ecd\\/seasonal\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "61abfc5de5a0c0f86a2fcf857118cb9c9f5ab4feb35881b5d4e57fd3115c8122"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homesandgardens.com",
+                "www.marieclaire.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/horseandhound\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8818c996715f4d0c7cd7263c51166d6300072ee188640cba13ab759c93ac7db5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "horseandhound.co.uk",
+                "www.horseandhound.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/css\\/browser\\/horseandhound\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5037642ea5434bbbb0dabc4881ceeeea86f92d7604e99d4b47622d178b5c31da"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "horseandhound.co.uk",
+                "www.horseandhound.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/zXEeq8eWjkiPN3am7fr5pm-1024-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "718675f4d624f2161e741059092c27ab3203157f2a3b1f0a2922ae79913554e3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "idealhome.co.uk",
+                "www.idealhome.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\/idealh-site\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8d04df1504458f8c2c6f2886b168884430c25c43a1b111ee2fee9cf9e28e6a80"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "idealhome.co.uk",
+                "www.idealhome.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/idealhome\\/manifest\\.63b5e43afc010450e4e2\\.es6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6d1889170a27f28b2100919f7cf4473ce7ae81323d6f4c328431d2946bb500fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "idealhome.co.uk",
+                "www.idealhome.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/css\\/browser\\/17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\/promotionfallback\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6c8bd0c69091082905332fb917c73b830a164d5b4aa8afc7fc69418641fa8257"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "idealhome.co.uk",
+                "www.idealhome.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/HW86YCuWfSVi8SKpK76Qjf-650-80\\.jpeg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6bbf348b464e08e731675b52412390f2ee69a5999fd394c09a4b61709083001f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "imore.com",
+                "www.imore.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/imore\\/media\\/shared\\/img\\/flags\\/nosize\\/US\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c0a177730664a02710981330dacbe32e843153f32945016aa1e7b377ed4f9819"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "imore.com",
+                "www.imore.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/products\\/5cb0d538fa6fb7bcee8f05b697789c4ba4fa368b-250-80\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a450519c6f6cb0500a915204b0c0aa76c02f4e5a75aa70baedaec00b664bc299"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "imore.com",
+                "www.imore.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\/itpro-site\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ebf90303d4574255acb2b29726c1d0d637338d351d4558d990ef347c385c3171"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "itpro.com",
+                "www.itpro.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/itpro\\/media\\/shared\\/img\\/flags\\/nosize\\/US\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c0a177730664a02710981330dacbe32e843153f32945016aa1e7b377ed4f9819"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "itpro.com",
+                "www.itpro.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/logos\\/models\\/hlwce5dqzq4wsnmg-16040076574048-250-80\\.jpeg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images.fie"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "4b9fd9b435c9892d54c230477124de805ab9c2797236bd6f89737dd9bece6b70"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "itpro.com",
+                "www.itpro.com",
+                "www.laptopmag.com",
+                "www.tomsguide.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/itpro\\/media\\/shared\\/js\\/infinite-scroll\\.993589d808c4b73da303\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1a9cd9b88624fb7e18e313a2d8ed2a99761193df7ae29f9395c995395b0e571f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "itpro.com",
+                "www.itpro.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/itpro\\/media\\/shared\\/js\\/dianomi-script\\.ebe938acae218dfa73d8\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "af28dbbf0c36db4c15aaa7458ba19305aeae1d1e6bc90a4ed900cccc6f8084c7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "itpro.com",
+                "www.itpro.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/itpro\\/media\\/shared\\/js\\/nav-subscribe\\.8920a3dd383f8634b023\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1de0c65f913096937a736e92178b49e378c7b933cf34f38fcb22911b3f7bbcec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "itpro.com",
+                "www.itpro.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/8bXT6QErJZHSS3sceWfZcD-650-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "06f235dc451ebf27f223ec555b05219f611b35adcd91780a5300b8899f34673c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "itpro.com",
+                "www.itpro.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/kiplinger\\/manifest\\.63b5e43afc010450e4e2\\.es6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6d1889170a27f28b2100919f7cf4473ce7ae81323d6f4c328431d2946bb500fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kiplinger.com",
+                "www.kiplinger.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/kiplinger\\/listing\\.977935339e9557464c3e\\.es6\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a17c4d8ffdfc2614c8e7ac86f89f460d9c959c095c651edc0fd7024a1d30a582"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kiplinger.com",
+                "www.kiplinger.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/kiplinger\\/homeListing\\.271qdf3rxvr2884by3hq\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "589f96a9859ff7441c7efa9988e89f507191ecf1782f5b73c10cf42dff179c86"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kiplinger.com",
+                "www.kiplinger.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/hwgJ7osrMtUWhk5koeVme7-200-80\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9c1ad5d5ed67285b55489889fd5801ab82a948e38c4ad1a347b62b819d088306"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kiplinger.com",
+                "www.kiplinger.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/5uJe4NP8YMw59BbyVQSTvc-650-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e441d56ebbbf61ea23d218fdcabd08aa060e0805ca9b077fbde305aecda04038"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laptopmag.com",
+                "www.laptopmag.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/laptopmag\\/media\\/shared\\/img\\/flags\\/nosize\\/US\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c0a177730664a02710981330dacbe32e843153f32945016aa1e7b377ed4f9819"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laptopmag.com",
+                "www.laptopmag.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/nsn8tjxqmqhfgoo4-16455329884552-250-80\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7148442e6228c34662e03172d57563d85c2c97ab238672368e9e375b6334ee62"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "livescience.com",
+                "www.livescience.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/zzfaBy5rk3DHGXcJ5zRNhC-650-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "845da25fe140d0a97d42d4d79f9d05d78f88a1688a1a5781ebdc1c28ea755124"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "livescience.com",
+                "www.livescience.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/livingetc\\/manifest\\.63b5e43afc010450e4e2\\.es6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6d1889170a27f28b2100919f7cf4473ce7ae81323d6f4c328431d2946bb500fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "livingetc.com",
+                "www.livingetc.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/livingetc\\/media\\/shared\\/img\\/flags\\/nosize\\/US\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c0a177730664a02710981330dacbe32e843153f32945016aa1e7b377ed4f9819"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "livingetc.com",
+                "www.livingetc.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\/lvg-site\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a87b356e36f51b1091c7c02ea37adc46b817d14eb435d1b26e876219f4bd3021"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "livingetc.com",
+                "www.livingetc.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/ijFrwec8dVYuyp6xPknYTT-1024-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "76e0bbda458844f3e98f7bc3bd2ff2b86eb41878087cecb48535bd088f3e51b8"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "livingetc.com",
+                "www.livingetc.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/pPXtZz8xGEVSxtUM6GzBpc-1024-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "83af1f755bb9dd187b3d2c0b779711ccd88c43478746c6bd460ed87e5ed60634"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marieclaire.co.uk",
+                "www.marieclaire.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/marieclaireuk\\/manifest\\.63b5e43afc010450e4e2\\.es6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6d1889170a27f28b2100919f7cf4473ce7ae81323d6f4c328431d2946bb500fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marieclaire.co.uk",
+                "www.marieclaire.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/marieclaireus\\/manifest\\.63b5e43afc010450e4e2\\.es6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6d1889170a27f28b2100919f7cf4473ce7ae81323d6f4c328431d2946bb500fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marieclaire.com",
+                "www.marieclaire.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/2i8m5R4Q2o7sEHGmWSnDP-1024-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1aaaa8d48c64d6d042a591b789620d754104511d3f38ae69a196b0a2f83d2c8d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marieclaire.com",
+                "www.marieclaire.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/mbr\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.maxTouchPoints": 1,
+                "Document.cookie getter": 1,
+                "window.sessionStorage": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f61ffbb941ef75ff8a4801739c83382420b9786359beaecf95172cc51d237a72"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mbr.co.uk",
+                "www.mbr.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/css\\/browser\\/mbr\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5037642ea5434bbbb0dabc4881ceeeea86f92d7604e99d4b47622d178b5c31da"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mbr.co.uk",
+                "www.mbr.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/analytics-library-entry-getCustomTrackingId\\.17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d2540ea9d6c6d3f9239b7a1bcb2e03caf9f30508f58dd835817c3179387d6475"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mbr.co.uk",
+                "www.shortlist.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/mby\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "373d69666b28b0217af5dcd4c493d011a5c3e42715b6c5a4b2fb19447fcf85d3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mby.com",
+                "www.mby.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/css\\/browser\\/mby\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5037642ea5434bbbb0dabc4881ceeeea86f92d7604e99d4b47622d178b5c31da"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mby.com",
+                "www.mby.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/FshfB4TY7nnvUBLorXbmQF-1024-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9b4bc72a97b9353cb443c18709e1461a43ad756328d9eef40804d102eeab3ccc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myimperfectlife.com",
+                "www.myimperfectlife.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/myimperfectlife\\/manifest\\.63b5e43afc010450e4e2\\.es6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6d1889170a27f28b2100919f7cf4473ce7ae81323d6f4c328431d2946bb500fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myimperfectlife.com",
+                "www.myimperfectlife.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/myimperfectlife\\/media\\/shared\\/img\\/flags\\/nosize\\/US\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c0a177730664a02710981330dacbe32e843153f32945016aa1e7b377ed4f9819"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myimperfectlife.com",
+                "www.myimperfectlife.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/9qQqnizGBkL2wRGnZYo4BJ\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ca614d1624361627273cf557072388dc766232987a49792edcce770c86888e4e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "n2yo.com",
+                "www.n2yo.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/nexttv\\/media\\/shared\\/js\\/infinite-scroll\\.993589d808c4b73da303\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1a9cd9b88624fb7e18e313a2d8ed2a99761193df7ae29f9395c995395b0e571f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nexttv.com",
+                "www.nexttv.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/nexttv\\/media\\/shared\\/js\\/nav-subscribe\\.8920a3dd383f8634b023\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1de0c65f913096937a736e92178b49e378c7b933cf34f38fcb22911b3f7bbcec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nexttv.com",
+                "www.nexttv.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/pbo\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "33906dd13d3a52c0141621e100f3599c67c2965787206591c0022ae3dfebb604"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pbo.co.uk",
+                "www.pbo.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/css\\/browser\\/pbo\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5037642ea5434bbbb0dabc4881ceeeea86f92d7604e99d4b47622d178b5c31da"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pbo.co.uk",
+                "www.pbo.co.uk"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/AFVw9ewrUUPVeK4TWgSrmH-650-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a706dd70dd037c679d6c8831938d8f767fb0477d963508d2dd54a0621a5e1d1e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "petsradar.com",
+                "www.petsradar.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/petsradar\\/media\\/shared\\/img\\/flags\\/nosize\\/US\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c0a177730664a02710981330dacbe32e843153f32945016aa1e7b377ed4f9819"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "petsradar.com",
+                "www.petsradar.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/petsradar\\/media\\/shared\\/js\\/infinite-scroll\\.993589d808c4b73da303\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1a9cd9b88624fb7e18e313a2d8ed2a99761193df7ae29f9395c995395b0e571f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "petsradar.com",
+                "www.petsradar.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/petsradar\\/media\\/shared\\/js\\/nav-subscribe\\.8920a3dd383f8634b023\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1de0c65f913096937a736e92178b49e378c7b933cf34f38fcb22911b3f7bbcec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "petsradar.com",
+                "www.petsradar.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/price\\.17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9c87eebe7996e4dd1bb44151823adff082c52e36db7afbe56af63e976613a97a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "practicalcaravan.com",
+                "www.practicalmotorhome.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/css\\/browser\\/17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\/price\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f2681c154dd605144ea137e08cf75e99b3b17e3137c990c613186ca74a97d9c2"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "practicalcaravan.com",
+                "www.practicalmotorhome.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/realhomes\\/Lato-400-Regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ae5488cdee6c86ae9f892d07dfa77b93f820e132a99dd1a719cbf909168706c7"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "realhomes.com",
+                "www.realhomes.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/realhomes\\/Source-Serif-Pro-600-SemiBold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9631fb36f661ab79edc78daceb2567c450a694bae24ed058542ed0863a8a0e67"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "realhomes.com",
+                "www.realhomes.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/realhomes\\/manifest\\.63b5e43afc010450e4e2\\.es6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6d1889170a27f28b2100919f7cf4473ce7ae81323d6f4c328431d2946bb500fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "realhomes.com",
+                "www.realhomes.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/ZCeVsRM84iHLy3jbG28kBh-1024-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3b11bc874e94ed4b0e7c09fd968e17bced14be46d971c237a54c446e886ec4fd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "realhomes.com",
+                "www.realhomes.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/rugbyworld\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4cf449f2c13f8c9d3396d0df991988e387d65d9783930e650b4902eff79188db"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rugbyworld.com",
+                "www.rugbyworld.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/css\\/browser\\/rugbyworld\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5037642ea5434bbbb0dabc4881ceeeea86f92d7604e99d4b47622d178b5c31da"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rugbyworld.com",
+                "www.rugbyworld.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/shortlist\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.maxTouchPoints": 1,
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "eb6d5949b98323dbf7fb4085eced6e45d8e373035b1642106c280bbfa6cd4942"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shortlist.com",
+                "www.shortlist.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/css\\/browser\\/shortlist\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "09f535766b3f8307944aa0d51b093d120abfd7d40180594f1d767d9a6f230a67"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shortlist.com",
+                "www.shortlist.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/tomsguide\\/media\\/shared\\/img\\/flags\\/nosize\\/US\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c0a177730664a02710981330dacbe32e843153f32945016aa1e7b377ed4f9819"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomsguide.com",
+                "www.tomsguide.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/tomsguide\\/media\\/shared\\/js\\/infinite-scroll\\.993589d808c4b73da303\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1a9cd9b88624fb7e18e313a2d8ed2a99761193df7ae29f9395c995395b0e571f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomsguide.com",
+                "www.tomsguide.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/tomsguide\\/media\\/shared\\/js\\/sticky-footer\\.4f1cd534a97e277796b8\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a45ea6775222b84dbdcb4597181b11b358eeb460ca329cb353e5d0cd2180a67d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomsguide.com",
+                "www.tomsguide.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/tomsguide\\/media\\/shared\\/js\\/nav-subscribe\\.8920a3dd383f8634b023\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1de0c65f913096937a736e92178b49e378c7b933cf34f38fcb22911b3f7bbcec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomsguide.com",
+                "www.tomsguide.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/tomsguide\\/media\\/shared\\/js\\/slide-analytics\\.35f50e86a3edfbeea718\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6ae2d4b7c97ce209b927fb6a9311e5559b7e0ae37c22bacf4baccb0440be935b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomsguide.com",
+                "www.tomsguide.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/iPikmsd4UJFnV86VpsArjR-650-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ec55b70328191b9155ad9bef4198d3dd77d6d2990f57a058e429b8c6158c239d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomsguide.com",
+                "www.tomsguide.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/f2wUVoxvWLstNyzSC7aiuY-650-80\\.png\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b58a91fdf252a8a6655b088bccc90b376519c21c4c1115b60a39709ff148cdd7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomshardware.com",
+                "www.tomshardware.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/tomshardware\\/media\\/shared\\/img\\/flags\\/nosize\\/US\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c0a177730664a02710981330dacbe32e843153f32945016aa1e7b377ed4f9819"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomshardware.com",
+                "www.tomshardware.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/4mngg6swbfknYKw9kDta7P-200-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d4bacb83b044e601ee0414467f0c6931041a026976624b436f2c288711d2a6f7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toptenreviews.com",
+                "www.toptenreviews.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/toptenreviews\\/media\\/shared\\/js\\/tabs\\.110fdeabc22ed5dadb5f\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ff1ea49140cebb276d4fe3978bbc244ca15cdf9ecd9a8d3bbda6a7f9a8a595f3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toptenreviews.com",
+                "www.toptenreviews.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/toptenreviews\\/media\\/shared\\/js\\/limit-list-links\\.9d4c42b73181807da19d\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5d5c8325de592145eadb12b8328bea991b18b20d2e5d057b7a96e31d43234574"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toptenreviews.com",
+                "www.toptenreviews.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/toptenreviews\\/media\\/shared\\/js\\/advancedsearch\\.d01233c2849214b3dbc7\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2bf17159b953696b3d107fa9432da33e4e5d20c65f9de8d979a5ae38fffd2bf3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toptenreviews.com",
+                "www.toptenreviews.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/toptenreviews\\/media\\/shared\\/js\\/archive-month-filter\\.9c4a6d6908c3082a7a79\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d58a73439573deea084ab102a79245229be98392768bbf3821aa66bf371e5706"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toptenreviews.com",
+                "www.toptenreviews.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/toptenreviews\\/media\\/shared\\/js\\/infinite-scroll\\.993589d808c4b73da303\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1a9cd9b88624fb7e18e313a2d8ed2a99761193df7ae29f9395c995395b0e571f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toptenreviews.com",
+                "www.toptenreviews.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/toptenreviews\\/media\\/shared\\/js\\/sticky-footer\\.4f1cd534a97e277796b8\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a45ea6775222b84dbdcb4597181b11b358eeb460ca329cb353e5d0cd2180a67d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toptenreviews.com",
+                "www.toptenreviews.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\/wallpaper-site\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "64e85690a1c27c7466e3bfb23c7b9b0f0b52643fcb478b58b0bb4181dc898b96"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wallpaper.com",
+                "www.wallpaper.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/wallpaper\\/manifest\\.63b5e43afc010450e4e2\\.es6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6d1889170a27f28b2100919f7cf4473ce7ae81323d6f4c328431d2946bb500fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wallpaper.com",
+                "www.wallpaper.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/dmt45erz2udfbrkp-16641862363533-250-80\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f949c9c413ad59c619f9e6347c464717d5697b841583bdd221a86f9fca7c0d71"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wallpaper.com",
+                "www.wallpaper.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/Ac5owm78uigS8hSomP88qe-1024-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "de4a8a51ef3d104cc97c5586b75906c19b48de9eca441ee66a59245a568e30fb"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wallpaper.com",
+                "www.wallpaper.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\/whowhatwear-site\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "eed6e72f37b6a8c5a4eabadbd95a830fe1b89eb9eb5af7cd05a6d909bb6b4e71"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whowhatwear.com",
+                "www.whowhatwear.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/whowhatwear\\/manifest\\.63b5e43afc010450e4e2\\.es6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6d1889170a27f28b2100919f7cf4473ce7ae81323d6f4c328431d2946bb500fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whowhatwear.com",
+                "www.whowhatwear.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/whowhatwear\\/listing\\.977935339e9557464c3e\\.es6\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a17c4d8ffdfc2614c8e7ac86f89f460d9c959c095c651edc0fd7024a1d30a582"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whowhatwear.com",
+                "www.whowhatwear.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/whowhatwear\\/homeListing\\.271qdf3rxvr2884by3hq\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "589f96a9859ff7441c7efa9988e89f507191ecf1782f5b73c10cf42dff179c86"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whowhatwear.com",
+                "www.whowhatwear.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/YMC63otHCGHhbYdKdNdzx3-650-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d3d9864137e8e48867c00b26c6b2bec747b3e63fdf4205bfc0abe6189d5a74b2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "windowscentral.com",
+                "www.windowscentral.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/17\\.6\\.0-682be441e8131b2834305e5a207c6e88c3f5fdcb\\/wh-site\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "243649c00d5f3f1653c8cf70396d529b5047707390cf0f4714d8cca3d68e8125"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "womanandhome.com",
+                "www.womanandhome.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/womanandhome\\/manifest\\.63b5e43afc010450e4e2\\.es6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanilla"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6d1889170a27f28b2100919f7cf4473ce7ae81323d6f4c328431d2946bb500fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "womanandhome.com",
+                "www.womanandhome.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/yW989tSsWwjJN6KsGqrYbR-1024-80\\.jpg\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mos.cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "efae0132464182e2ee0d8b7f9e156b9f1f21d6a88f20cb30d2234023dffd4d32"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "womanandhome.com",
+                "www.womanandhome.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/yachtingmonthly\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "720840f2afde68306392921892c2ba5f7506037d3f466716a0ebdcf6b5ba5f59"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yachtingmonthly.com",
+                "www.yachtingmonthly.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/css\\/browser\\/yachtingmonthly\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5037642ea5434bbbb0dabc4881ceeeea86f92d7604e99d4b47622d178b5c31da"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yachtingmonthly.com",
+                "www.yachtingmonthly.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/js\\/w\\/es6\\/yachtingworld\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3ae2d10bb2270d38c887fa34c0162192b6d2714e46f6e03fdc57119c03ddf0b7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yachtingworld.com",
+                "www.yachtingworld.com"
+            ]
+        },
+        {
+            "rule": "futurecdn\\.net\\/css\\/browser\\/yachtingworld\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search-api.fie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5037642ea5434bbbb0dabc4881ceeeea86f92d7604e99d4b47622d178b5c31da"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yachtingworld.com",
+                "www.yachtingworld.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.000799,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4552872062663185
+        },
+        {
+            "domain": "privacy-mgmt.com",
+            "prevalence": 0.36161879895561355
+        },
+        {
+            "domain": "webcontentassessor.com",
+            "prevalence": 0.09464751958224543
+        },
+        {
+            "domain": "future.net.uk",
+            "prevalence": 0.04046997389033943
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.03655352480417755
+        },
+        {
+            "domain": "servebom.com",
+            "prevalence": 0.007506527415143603
+        },
+        {
+            "domain": "inmobi.com",
+            "prevalence": 0.0039164490861618795
+        }
+    ],
+    "types": {
+        "Script": 1321,
+        "Fetch": 147,
+        "Stylesheet": 76,
+        "Other": 19,
+        "Image": 124,
+        "Font": 4
+    },
+    "nameservers": [
+        "ns-554.awsdns-05.net",
+        "ns-1944.awsdns-51.co.uk",
+        "ns-407.awsdns-50.com",
+        "ns-1028.awsdns-00.org"
+    ]
+}

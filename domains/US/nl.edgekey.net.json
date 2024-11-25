@@ -1,0 +1,99 @@
+{
+    "domain": "nl.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000683,
+    "sites": 10,
+    "subdomains": [
+        "postnl",
+        "static.ah"
+    ],
+    "cnames": [
+        {
+            "original": "raf.postnl.nl",
+            "resolved": "postnl.nl.edgekey.net"
+        },
+        {
+            "original": "static.ah.nl",
+            "resolved": "static.ah.nl.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "nl\\.edgekey\\.net\\/tags",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "postnl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "raf.postnl.nl",
+                    "resolved": "postnl.nl.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "ed939901b6c2738bfd1bbe0613b5679f1190cfda0937dff1d99999978585bd35"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "postnl.nl",
+                "www.postnl.nl"
+            ]
+        },
+        {
+            "rule": "nl\\.edgekey\\.net\\/ah-static\\/images\\/ah-ui-bridge-components\\/logo\\/logo-ah\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.ah"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.ah.nl",
+                    "resolved": "static.ah.nl.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "189be2f8dd890d264b74a818135cb584834c99deaf9aab860520bbf6d7ae44e6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ah.be",
+                "www.ah.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": []
+}

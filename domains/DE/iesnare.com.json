@@ -1,0 +1,123 @@
+{
+    "domain": "iesnare.com",
+    "owner": {
+        "name": "TransUnion LLC",
+        "displayName": "TransUnion"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "mpsnare"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "iesnare\\.com\\/5\\.2\\.2\\/wdp\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 3,
+            "subdomains": [
+                "mpsnare"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.plugins": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Navigator.prototype.getBattery": 2,
+                "DeviceMotionEvent.prototype.accelerationIncludingGravity": 2,
+                "DeviceOrientationEvent.prototype.gamma": 2,
+                "DeviceOrientationEvent.prototype.beta": 2,
+                "DeviceOrientationEvent.prototype.alpha": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d189c35680c5583e0a1cd5095bfdac429c8a3f3ec459acc0891f1487eb576122"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elitepartner.de",
+                "www.parship.de"
+            ]
+        },
+        {
+            "rule": "iesnare\\.com\\/star",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mpsnare"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elitepartner.de",
+                "www.elitepartner.de",
+                "www.parship.de"
+            ]
+        },
+        {
+            "rule": "iesnare\\.com\\/5\\.2\\.2\\/logo\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mpsnare"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "dbc09964ae20806eedaf6ecd2dff6baf8504e2cfc4727bf6b387447daedef283"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elitepartner.de",
+                "www.parship.de"
+            ]
+        }
+    ],
+    "categories": [
+        "Fraud Prevention"
+    ],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "WebSocket": 3
+    },
+    "nameservers": [
+        "dns1.p05.nsone.net",
+        "dns2.p05.nsone.net",
+        "dns3.p05.nsone.net",
+        "dns4.p05.nsone.net"
+    ]
+}

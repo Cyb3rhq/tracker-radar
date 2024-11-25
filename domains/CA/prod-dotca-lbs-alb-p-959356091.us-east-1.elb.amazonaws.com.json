@@ -1,0 +1,83 @@
+{
+    "domain": "prod-dotca-lbs-alb-p-959356091.us-east-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000101,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "api.remax.ca",
+            "resolved": "prod-dotca-lbs-alb-p-959356091.us-east-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "prod-dotca-lbs-alb-p-959356091\\.us-east-1\\.elb\\.amazonaws\\.com\\/api\\/v1\\/geo",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.remax.ca",
+                    "resolved": "prod-dotca-lbs-alb-p-959356091.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "319863d700af3e3e1d2a84d30dfec97c1c044205c6428037f71bb3dfca0db00f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "remax.ca",
+                "www.remax.ca"
+            ]
+        },
+        {
+            "rule": "prod-dotca-lbs-alb-p-959356091\\.us-east-1\\.elb\\.amazonaws\\.com\\/api\\/v1\\/listings\\/distance",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.remax.ca",
+                    "resolved": "prod-dotca-lbs-alb-p-959356091.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "c7a8a0f4ad327a0920e42d281bdaefd7293e4eaa69cc3129e5440e6cb2e233ca"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "remax.ca",
+                "www.remax.ca"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Fetch": 4
+    },
+    "nameservers": []
+}

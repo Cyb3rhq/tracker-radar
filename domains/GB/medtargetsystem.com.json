@@ -1,0 +1,129 @@
+{
+    "domain": "medtargetsystem.com",
+    "owner": {
+        "name": "MedTargetSystem",
+        "displayName": "MedTargetSystem"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "medtargetsystem\\.com\\/iframe\\/transition",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "53a90fcd8f561738c52c66b5251d0bc5751e191e5445e853849436844109d702",
+                "97e107a240cb677b949fee09c4141349d92a21fd5968862da2c9d24d666534ba",
+                "2577844302bd2cea59e664e659ff20f8fd4d8094c9ec7759aa3d706c6af5a899"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "MAYO_CLINIC_ENSIGHTEN_PRIVACY_TLD-www.mayoclinic.org": 0.00010046212577858148
+            },
+            "exampleSites": [
+                "oup.com",
+                "dermnetnz.org",
+                "teachmeanatomy.info",
+                "www.mayoclinic.org"
+            ]
+        },
+        {
+            "rule": "medtargetsystem\\.com\\/js\\/build\\/iframe\\/transition\\.js",
+            "cookies": 0.000402,
+            "fingerprinting": 2,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.indexedDB": 3,
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 3,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "CanvasRenderingContext2D.prototype.getImageData": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "757369cb59178a984a2617d7cde1b56ab149a378d05f007e3de629c0377827a5",
+                "741600c835ba7298e083db591a80517f41ead3663b790eb45d7610dd96065cac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oup.com",
+                "dermnetnz.org",
+                "teachmeanatomy.info",
+                "www.mayoclinic.org"
+            ]
+        },
+        {
+            "rule": "medtargetsystem\\.com\\/_itu\\.png",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "184f2ea285c1f4a147ee230c0c0a8532a8d940801ef8cd14e8a01afe5e146e4c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oup.com",
+                "dermnetnz.org",
+                "radiopaedia.org",
+                "teachmeanatomy.info",
+                "www.mayoclinic.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "hcn.health",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Document": 4,
+        "Script": 4,
+        "Image": 5
+    },
+    "nameservers": [
+        "ns-271.awsdns-33.com",
+        "ns-830.awsdns-39.net",
+        "ns-1786.awsdns-31.co.uk",
+        "ns-1272.awsdns-31.org"
+    ]
+}

@@ -1,0 +1,181 @@
+{
+    "domain": "elfsight.com",
+    "owner": {
+        "name": "Vladimir Fedotov",
+        "displayName": "Vladimir Fedotov"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00111,
+    "sites": 11,
+    "subdomains": [
+        "static",
+        "apps",
+        "shy",
+        "core.service"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "elfsight\\.com\\/platform\\/platform\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 9,
+            "prevalence": 0.000906,
+            "cnames": [],
+            "responseHashes": [
+                "cec24a06e2e9c6dbe79ac537c1c0906c2896eb331ebe94fc3077075d78dc5a6f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "firearmsoutletcanada.com",
+                "help.brother-usa.com",
+                "revco.ca",
+                "www.bcliquorstores.com",
+                "www.herooutdoors.com",
+                "www.military.com",
+                "www.salutbonjour.ca",
+                "www.silo57.ca",
+                "www.sportsmans.com"
+            ]
+        },
+        {
+            "rule": "elfsight\\.com\\/p\\/platform\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps",
+                "shy"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 6,
+            "prevalence": 0.000604,
+            "cnames": [],
+            "responseHashes": [
+                "e7d87832231c0254188f01e9288d261c56e6050e723ed8aebe1d9b4f58cb26a8",
+                "cec24a06e2e9c6dbe79ac537c1c0906c2896eb331ebe94fc3077075d78dc5a6f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brother-usa.com",
+                "mobility.costco.ca",
+                "www.herooutdoors.com",
+                "www.salutbonjour.ca",
+                "www.silo57.ca",
+                "www.wineandbeyond.ca"
+            ]
+        },
+        {
+            "rule": "elfsight\\.com\\/p\\/boot\\/",
+            "cookies": 0.000704,
+            "fingerprinting": 0,
+            "subdomains": [
+                "core.service"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000704,
+            "cnames": [],
+            "responseHashes": [
+                "da703c56e484c1c8cc680cb8a70893a7e2b17546a32fdabf84155af57ea02de9",
+                "6b2d5d44b976bbc0734f17d257803f8be2f04607e48445f15a3d8867d19ebf24",
+                "0223b48d5b7a69379ff749b6bd871705556a7016333a1139c7d46bccdda0b490",
+                "c5e201b3fe68d2f62e952f117e06392213735397aa01ddb77fcd33a9d136586e",
+                "7ad02361a3d3e886d616dcb717d20d6bfe3ea6d7a97dfb478b30f87009da0ff6",
+                "48c297b031e4299c0ac9b001b8f44712af84510673a76ea41f5db740a0a936f2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.00010061374383740819
+            },
+            "exampleSites": [
+                "revco.ca",
+                "www.bcliquorstores.com",
+                "www.herooutdoors.com",
+                "www.military.com",
+                "www.salutbonjour.ca",
+                "www.silo57.ca",
+                "www.sportsmans.com"
+            ]
+        },
+        {
+            "rule": "elfsight\\.com\\/apps\\/instashow\\/stable\\/c0ef9b5eb19a76be43bcbf9e64cd538b87ad796d\\/app\\/instashow\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.language": 2,
+                "window.localStorage": 2,
+                "window.indexedDB": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Date.prototype.getTime": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f9b03a8c96e7d9572226b27d18adb990f13af2c8300a27753e427bf413bdb60b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salutbonjour.ca",
+                "www.silo57.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000805,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5416666666666666
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.08333333333333333
+        }
+    ],
+    "types": {
+        "Script": 17,
+        "XHR": 7
+    },
+    "nameservers": [
+        "dilbert.ns.cloudflare.com",
+        "rihana.ns.cloudflare.com"
+    ]
+}

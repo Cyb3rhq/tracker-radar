@@ -1,0 +1,128 @@
+{
+    "domain": "f5silverline.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000478,
+    "sites": 7,
+    "subdomains": [
+        "poyqro.virginmedia.gslb",
+        "p6ekqm.ocado.gslb",
+        "pw442m.resmed.gslb"
+    ],
+    "cnames": [
+        {
+            "original": "accounts.ocado.com",
+            "resolved": "p6ekqm.ocado.gslb.f5silverline.com"
+        },
+        {
+            "original": "dawn-us.resmed.com",
+            "resolved": "pw442m.resmed.gslb.f5silverline.com"
+        },
+        {
+            "original": "oauth.virginmedia.com",
+            "resolved": "poyqro.virginmedia.gslb.f5silverline.com"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "f5silverline\\.com\\/\\.well-known\\/openid-configuration",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "poyqro.virginmedia.gslb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "oauth.virginmedia.com",
+                    "resolved": "poyqro.virginmedia.gslb.f5silverline.com"
+                }
+            ],
+            "responseHashes": [
+                "673220d576f7c40c9ca11e3c67da89114d5dfff0409f40bac766814b742eee1e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "virginmedia.com",
+                "my.virginmedia.com"
+            ]
+        },
+        {
+            "rule": "f5silverline\\.com\\/auth-service\\/sso\\/authorize",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "p6ekqm.ocado.gslb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "accounts.ocado.com",
+                    "resolved": "p6ekqm.ocado.gslb.f5silverline.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ocado.com",
+                "www.ocado.com"
+            ]
+        },
+        {
+            "rule": "f5silverline\\.com\\/chatbot-plugin\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pw442m.resmed.gslb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "dawn-us.resmed.com",
+                    "resolved": "pw442m.resmed.gslb.f5silverline.com"
+                }
+            ],
+            "responseHashes": [
+                "47b7b1ee03c2aa7543f00480c11cfed30032d5b2787e0107b947f14e371b6939"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "resmed.com",
+                "www.resmed.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000273,
+    "topInitiators": [
+        {
+            "domain": "virginmedia.co.uk",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Document": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns1.defense.net",
+        "ns2.defense.net"
+    ]
+}

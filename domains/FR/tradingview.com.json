@@ -1,0 +1,108 @@
+{
+    "domain": "tradingview.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000403,
+    "sites": 4,
+    "subdomains": [
+        "s3",
+        "widgetdata"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "tradingview\\.com\\/external-embedding\\/embed-widget-market-overview\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "3e5d4f2cbb3948d73f8ded1de3dba8b7d8b18dd04ed5ad4f59b2acbef9f167c9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cb_svref": 0.00010076582023377671
+            },
+            "exampleSites": [
+                "prixdubaril.com",
+                "www.jpost.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/socket\\.io\\/websocket",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgetdata"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000403,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "prixdubaril.com",
+                "www.elconfidencial.com",
+                "www.investopedia.com",
+                "www.jpost.com"
+            ]
+        },
+        {
+            "rule": "tradingview\\.com\\/external-embedding\\/embed-widget-ticker-tape\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "186bcc05f5b870b7654a13f0263704082b3fbbce560aed44cdcb1b948cc1a081"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elconfidencial.com",
+                "www.investopedia.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "tradingview-widget.com",
+            "prevalence": 0.7419354838709677
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25806451612903225
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "WebSocket": 4
+    },
+    "nameservers": [
+        "ns-1853.awsdns-39.co.uk",
+        "ns-234.awsdns-29.com",
+        "ns-619.awsdns-13.net",
+        "ns-1533.awsdns-63.org"
+    ]
+}

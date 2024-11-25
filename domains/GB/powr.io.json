@@ -1,0 +1,164 @@
+{
+    "domain": "powr.io",
+    "owner": {
+        "name": "POWR Inc.",
+        "displayName": "POWR"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [
+        "www",
+        "outlet"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "powr\\.io\\/powr\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3
+            },
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "cc98b196556378bca585fe31435b809acee2b450839a0039bd56cdb0a0e07c5a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "northwestguitars.co.uk",
+                "richtonemusic.co.uk",
+                "www.bonnersmusic.co.uk",
+                "www.fabricsgalore.co.uk",
+                "www.frenchestateagents.com",
+                "www.theanswerbank.co.uk"
+            ]
+        },
+        {
+            "rule": "powr\\.io\\/wix-manager",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "richtonemusic.co.uk",
+                "www.frenchestateagents.com",
+                "www.theanswerbank.co.uk"
+            ]
+        },
+        {
+            "rule": "powr\\.io\\/instagram",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "42fe16779cf95d43cb97800ef4edb8665e66e23e3c050d62bc3a5a2a0c20924c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "richtonemusic.co.uk",
+                "www.frenchestateagents.com"
+            ]
+        },
+        {
+            "rule": "powr\\.io\\/social-feed",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "outlet"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fd84e347bb341a03c91a2005eebff1f07be65988b1e4c32d3b4495be283956c0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "frenchestateagents.com",
+                "www.frenchestateagents.com"
+            ]
+        },
+        {
+            "rule": "powr\\.io\\/social-feed",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "outlet"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "frenchestateagents.com",
+                "www.frenchestateagents.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "powrcdn.com",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Fetch": 3,
+        "XHR": 4,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "major.ns.cloudflare.com",
+        "jill.ns.cloudflare.com"
+    ]
+}

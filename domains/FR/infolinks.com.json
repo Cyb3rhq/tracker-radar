@@ -1,0 +1,249 @@
+{
+    "domain": "infolinks.com",
+    "owner": {
+        "name": "Infolink Media LLC",
+        "displayName": "Infolink Media"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000202,
+    "sites": 2,
+    "subdomains": [
+        "resources",
+        "router",
+        "rt3100",
+        "rt3070"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "infolinks\\.com\\/js\\/infolinks_main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "resources"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "0283ac61747e13da6af509d42352d8799021e2a214a7bd17209e0a6cf9c8d8bc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laweekly.com",
+                "www.vosan.co"
+            ]
+        },
+        {
+            "rule": "infolinks\\.com\\/js\\/1967\\.007-4\\.011\\/ice\\.js",
+            "cookies": 0.000202,
+            "fingerprinting": 2,
+            "subdomains": [
+                "resources"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.plugins": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "b6a8106ed45b6f5b76de08b431afdbbbec648054d5b669c306a8dc8614c466fe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "logglytrackingsession": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.00020153164046755341,
+                    "uniqueness": 1
+                },
+                "gCStest": {
+                    "ttl": -785096788,
+                    "length": 8,
+                    "prevalence": 0.00020153164046755341,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laweekly.com",
+                "www.vosan.co"
+            ]
+        },
+        {
+            "rule": "infolinks\\.com\\/usync\\/manage",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "router"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laweekly.com",
+                "www.vosan.co"
+            ]
+        },
+        {
+            "rule": "infolinks\\.com\\/usync\\/lcmanage",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "router"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laweekly.com",
+                "www.vosan.co"
+            ]
+        },
+        {
+            "rule": "infolinks\\.com\\/gsd",
+            "cookies": 0.000202,
+            "fingerprinting": 0,
+            "subdomains": [
+                "router"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "7a3ab28ec99ff269d72c6beffb95c9976d3167534f7d939511153e6f72a5ebee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laweekly.com",
+                "www.vosan.co"
+            ]
+        },
+        {
+            "rule": "infolinks\\.com\\/action\\/doq\\.htm",
+            "cookies": 0.000101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rt3100",
+                "rt3070"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "0731fc79ba7f09554b52b0d071a6f04713665125c96bd72c5cd3ab82547d92cb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laweekly.com",
+                "www.vosan.co"
+            ]
+        },
+        {
+            "rule": "infolinks\\.com\\/action\\/getads\\.htm",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rt3070"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vosan.co",
+                "www.vosan.co"
+            ]
+        },
+        {
+            "rule": "infolinks\\.com\\/action\\/dcl\\.htm",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rt3070"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vosan.co",
+                "www.vosan.co"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000202,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Document": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "bob.ns.cloudflare.com",
+        "lisa.ns.cloudflare.com"
+    ]
+}

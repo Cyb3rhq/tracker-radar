@@ -1,0 +1,779 @@
+{
+    "domain": "stonly.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000683,
+    "sites": 10,
+    "subdomains": [
+        "s",
+        "api",
+        "sentry"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "stonly\\.com\\/js\\/widget\\/v2\\/version",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [
+                "a2298b619375db73c775ad85b62eccb7f12dbedc914b90d47d79674f9a0bd5d4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "essentialsinwriting.com",
+                "help.calendly.com",
+                "help.wealthsimple.com",
+                "www.cooksongold.com",
+                "www.edchoice.org",
+                "www.jandy.com",
+                "www.lwf.org"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/js\\/widget\\/v2\\/stonly-widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 7
+            },
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [
+                "2e0e8f4f8967ce847c542bbd1ca8ce089507f6353eb73f05b805819e1ecd40db"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "essentialsinwriting.com",
+                "help.calendly.com",
+                "help.wealthsimple.com",
+                "www.cooksongold.com",
+                "www.edchoice.org",
+                "www.jandy.com",
+                "www.lwf.org"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/js\\/widget\\/v2\\/vendors~widget-454506fead718e9b82b1\\.stonly\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.platform": 7
+            },
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [
+                "f6401ed48a7efb69460fea4e5232da394e3c35f64ba28a1ebcc3384a320e0ee3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "essentialsinwriting.com",
+                "help.calendly.com",
+                "help.wealthsimple.com",
+                "www.cooksongold.com",
+                "www.edchoice.org",
+                "www.jandy.com",
+                "www.lwf.org"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/js\\/widget\\/v2\\/widget-b61c56daeb4d9e7f12d5\\.stonly\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 7,
+                "window.sessionStorage": 7,
+                "Document.cookie getter": 7,
+                "Navigator.prototype.language": 7,
+                "Navigator.prototype.languages": 7,
+                "window.innerHeight": 1,
+                "Navigator.prototype.userAgent": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5
+            },
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [
+                "781741999f581806dc8c382481aecfc4a56edc2387a3629f20ecebf4d510101e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "essentialsinwriting.com",
+                "help.calendly.com",
+                "help.wealthsimple.com",
+                "www.cooksongold.com",
+                "www.edchoice.org",
+                "www.jandy.com",
+                "www.lwf.org"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/stonly-stat-id\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "window.localStorage": 6
+            },
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "324dcdb99059fc22e7bb0856559531ca6b8ed93e8d3d6057572bee9a4a8a5b52"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "essentialsinwriting.com",
+                "help.calendly.com",
+                "help.wealthsimple.com",
+                "www.cooksongold.com",
+                "www.edchoice.org",
+                "www.flickrhelp.com",
+                "www.jandy.com",
+                "www.lwf.org"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/api\\/v1\\/targeting\\/identify",
+            "cookies": 0.0000478,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "essentialsinwriting.com",
+                "help.calendly.com",
+                "help.wealthsimple.com",
+                "www.cooksongold.com",
+                "www.edchoice.org",
+                "www.jandy.com",
+                "www.lwf.org"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/api\\/v1\\/targeting\\/identify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [
+                "d2d7b962231a739105665b0b4d7ca5dc566beb4354a10c477ec8b1b12d955bbe"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "essentialsinwriting.com",
+                "help.calendly.com",
+                "help.wealthsimple.com",
+                "www.cooksongold.com",
+                "www.edchoice.org",
+                "www.jandy.com",
+                "www.lwf.org"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/api\\/v2\\/widget\\/integration",
+            "cookies": 0.0000478,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [
+                "053a337c6ad36adf98150732baefb9e79d713662c0d5a4eb410aaf2a853b6a89",
+                "fa302266b83dd3a25edd2042d2531f22fbe50658af82b1c8fdb25e1bfe70d1a9",
+                "69daabac9e2bc4b8533a1c0fdbe38b631b55ba7a61a9f00114a9a80ff2b470cd",
+                "a516a4117549551c1dd98fcb511e02c92939a312ddcf63fa357278214bf3c4ce",
+                "18778cc9c621f5e4173f62ce135f16e9e454677a0e5a75072fdfd82fe251c80c",
+                "841e4d79cc50137d4476ba56db07d3f9b8f6f19fa329cb899a3ff3196a3d574a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ajs_anonymous_id": 0.00001366400218624035,
+                "IR_gbd": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "essentialsinwriting.com",
+                "help.calendly.com",
+                "help.wealthsimple.com",
+                "www.cooksongold.com",
+                "www.edchoice.org",
+                "www.jandy.com",
+                "www.lwf.org"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/api\\/v2\\/widget\\/integration",
+            "cookies": 0.0000478,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ajs_anonymous_id": 0.00001366400218624035,
+                "IR_gbd": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "essentialsinwriting.com",
+                "help.calendly.com",
+                "help.wealthsimple.com",
+                "www.cooksongold.com",
+                "www.edchoice.org",
+                "www.jandy.com",
+                "www.lwf.org"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/api\\/v1\\/stat",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "eb365de41c99f002d621030f1ed923378b7e02880f0e6446258d33306f594570"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "essentialsinwriting.com",
+                "help.calendly.com",
+                "www.cooksongold.com",
+                "www.flickrhelp.com",
+                "www.jandy.com",
+                "www.lwf.org"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/api\\/v1\\/stat",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "essentialsinwriting.com",
+                "help.calendly.com",
+                "www.cooksongold.com",
+                "www.jandy.com",
+                "www.lwf.org"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/static\\/css\\/guide-embed\\.3a8f972b\\.chunk\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "75bd3cbe1b0a4e03e1be84e63222bc67dd3ba6178bd8f0fbd43120e7b5af914f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flickrhelp.com",
+                "www.flickrhelp.com"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/static\\/js\\/3708\\.ad7d8e1c\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3a6d4a51d1e29920527fd84f551377b641742aee68cd889f653ea74160259782"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flickrhelp.com",
+                "www.flickrhelp.com"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/static\\/js\\/5827\\.3d3bb116\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "64d64d45e6c8eb80aadde55fcd5727a5a01c19093e97e869b89f0513925ac986"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flickrhelp.com",
+                "www.flickrhelp.com"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/static\\/js\\/8982\\.33a103b0\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6e15b8e2de5c75e3844223de9560349bc3dd48a60d95befdff81cbd6df57e671"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flickrhelp.com",
+                "www.flickrhelp.com"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/static\\/js\\/8757\\.4ba4d7a8\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e7d986e27f88e3d506be38b0bb35bfdcab1a1dcaea4790146b04e964903ff02a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flickrhelp.com",
+                "www.flickrhelp.com"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/static\\/js\\/2677\\.97fa2231\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3a8a686175eda300c06a88c58521b74d5b345384eacbc40d6f32671af17fae95"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flickrhelp.com",
+                "www.flickrhelp.com"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/static\\/js\\/4625\\.f20009ba\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6e8210ee3de9956917d4f741fbfeafdf11bc16a2aec0612ea360bcc389257c66"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flickrhelp.com",
+                "www.flickrhelp.com"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/static\\/js\\/9171\\.a8fd2ebb\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "652b46efcea43d2dda13534c1720f6505ac221d175f4cc046ddccdfba3e45962"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flickrhelp.com",
+                "www.flickrhelp.com"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/static\\/js\\/6574\\.425a13d4\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "415cfa65e1b9c0b57ca9512bb138c4b5d57978474b9664231f8ff06d0b3e27b5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flickrhelp.com",
+                "www.flickrhelp.com"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/static\\/js\\/5999\\.ff7f5c4d\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1af9d5ec9a981e2433b194db76188b476638b7548772c06681dbd9b684da0894"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flickrhelp.com",
+                "www.flickrhelp.com"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/static\\/js\\/6338\\.e86bc39c\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d09a0fa13a2b09965f74f8c68515918374c6102b12e8c93196a85d8d004afc59"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flickrhelp.com",
+                "www.flickrhelp.com"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/static\\/js\\/116\\.b4d4025c\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6eb2facb6f4f2036459e2bd937231676e99282ba07c1c8e1a9a2376cf71426b8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flickrhelp.com",
+                "www.flickrhelp.com"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/static\\/js\\/5515\\.a85619e4\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fa3c7c0525c16fe2a45b99cf82c865fef6a3a15df7d79c45fbf042b0664cbe7b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flickrhelp.com",
+                "www.flickrhelp.com"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/static\\/js\\/6979\\.09a8ab36\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "09665d588eebd3f6c1d5d3857b32fea3dceb7f4ee9f25b7904c10d0078ef4519"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flickrhelp.com",
+                "www.flickrhelp.com"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/static\\/js\\/3104\\.03efd092\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "389db7c3f0853ed17659c49c0334f10577217d480dd9de5cc945f18cba54cca9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flickrhelp.com",
+                "www.flickrhelp.com"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/static\\/js\\/2846\\.5892c4e0\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "059af38d36bdf914e0ecd376052e33e2d7c38578749ded93ca0ac7aea4f76140"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flickrhelp.com",
+                "www.flickrhelp.com"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/static\\/js\\/guide-embed\\.d517e7fb\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "38f21199b0fa23ea6d85a12e5d2b5da96bdd6fc242edc6a3be60d17cc5f1270e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flickrhelp.com",
+                "www.flickrhelp.com"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/\\/static\\/js\\/bundle\\.d650ac06\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.languages": 2,
+                "window.name": 2,
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "764398206346d43f57be198fb639dbd10cc212dce12794502e78ceef66dc40c6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flickrhelp.com",
+                "www.flickrhelp.com"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/api\\/4\\/envelope\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sentry"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flickrhelp.com",
+                "www.flickrhelp.com"
+            ]
+        },
+        {
+            "rule": "stonly\\.com\\/api\\/v1\\/auth\\/status",
+            "cookies": 0.00000683,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a744e7b710661ca8106966bb62bf37162cee4ae128518826843f22b54ad18486"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flickrhelp.com",
+                "www.flickrhelp.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000683,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.45714285714285713
+        },
+        {
+            "domain": "fluidrausa.com",
+            "prevalence": 0.34285714285714286
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.11428571428571428
+        },
+        {
+            "domain": "fullstory.com",
+            "prevalence": 0.08571428571428572
+        }
+    ],
+    "types": {
+        "XHR": 29,
+        "Script": 55,
+        "Document": 8,
+        "Preflight": 19,
+        "Stylesheet": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-89.awsdns-11.com",
+        "ns-894.awsdns-47.net",
+        "ns-1862.awsdns-40.co.uk",
+        "ns-1432.awsdns-51.org"
+    ]
+}

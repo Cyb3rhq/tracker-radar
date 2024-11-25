@@ -1,0 +1,184 @@
+{
+    "domain": "tvpage.com",
+    "owner": {
+        "name": "TVPage, Inc.",
+        "displayName": "TVPage"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000109,
+    "sites": 16,
+    "subdomains": [
+        "a",
+        "api",
+        "v"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "tvpage\\.com\\/tvpa\\.min\\.js",
+            "cookies": 0.0000547,
+            "fingerprinting": 2,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 10,
+                "Date.prototype.getTime": 10,
+                "Document.cookie getter": 10,
+                "Document.cookie setter": 8,
+                "Navigator.prototype.mimeTypes": 8,
+                "Navigator.prototype.language": 8
+            },
+            "sites": 10,
+            "prevalence": 0.0000683,
+            "cnames": [],
+            "responseHashes": [
+                "fd4612f65cc903bbde75d88520ee651ff844149787b56428a4292de80bb4da51",
+                "e8bdf665ce2c7da077f95fe86837a4b230351a80cbae7af9a3f70f4c43312c4c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__tvpa": {
+                    "ttl": 604803,
+                    "length": 32,
+                    "prevalence": 0.0000546560087449614,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gap.com",
+                "bananarepublic.gap.com",
+                "data.kleintools.com",
+                "macys.com",
+                "www.gap.com",
+                "www.kleintools.com",
+                "www.macys.com",
+                "www.pacificabeauty.com",
+                "www.pacificcoast.com",
+                "www.surefit.com"
+            ]
+        },
+        {
+            "rule": "tvpage\\.com\\/v1\\/__tvpa\\.gif",
+            "cookies": 0.0000683,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000683,
+            "cnames": [],
+            "responseHashes": [
+                "32a8493819ca644996aeea47b1000023db23aaa92e9dc483193c7b526f186168",
+                "9a9735525cd91bcd490a0696b2a8843b557dbc782e3d0d11ddf962b396c0443c",
+                "376b0dfff25e0aa85667005b71f834fd09adfbb3eca6832463aacda71137c369",
+                "31684962063461647c2c39f0cff3a16f342c9c3f8f72dc896687fd0c8290bfe9",
+                "50eae098581b1061424ace0ecc22f900c3be98dffb8c36eacb1fb20976abd678",
+                "c6b4a39dfd1dd5c83c8b2e32f6c5c7592accfe860302efcaadd38c7c30394420",
+                "e6f56eb97617022d22ac7a3c2c248a0813f9ddf945be38cc976d3785a41f7061",
+                "fc1108e002740f71b6bce2cf13219cf908d7ebcd0df9f19343a33dde8ab0ecdc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__tvpa": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "gap.com",
+                "bananarepublic.gap.com",
+                "data.kleintools.com",
+                "macys.com",
+                "www.gap.com",
+                "www.kleintools.com",
+                "www.macys.com",
+                "www.pacificabeauty.com",
+                "www.pacificcoast.com",
+                "www.surefit.com"
+            ]
+        },
+        {
+            "rule": "tvpage\\.com\\/1759732\\/236363205\\/56251c79-c563-45ef-8962-2e0026c2c329\\/transcode\\/content_origin_1080p\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f29cd2fa936cdeb43e57b2f04855183706512d195160bee75f6d270897fada74"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "surefit.com",
+                "www.surefit.com"
+            ]
+        },
+        {
+            "rule": "tvpage\\.com\\/1759732\\/236350990\\/e5b6146f-741e-455a-b861-3da5ec354280\\/transcode\\/content_origin_1080p\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "v"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4d5a98e7db6d167e2516f769aff14b72c369a484c4913fff94364542163ca98a"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "surefit.com",
+                "www.surefit.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000109,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.45714285714285713
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.11428571428571428
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.11428571428571428
+        },
+        {
+            "domain": "tvpagewidgets.com",
+            "prevalence": 0.11428571428571428
+        }
+    ],
+    "types": {
+        "Script": 20,
+        "Media": 4
+    },
+    "nameservers": [
+        "ns-156.awsdns-19.com",
+        "ns-1893.awsdns-44.co.uk",
+        "ns-1497.awsdns-59.org",
+        "ns-529.awsdns-02.net"
+    ]
+}

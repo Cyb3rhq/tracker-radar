@@ -1,0 +1,99 @@
+{
+    "domain": "flip-pay.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "api",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "flip-pay\\.com\\/v1\\/access",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heavy.com",
+                "www.thedailymash.co.uk"
+            ]
+        },
+        {
+            "rule": "flip-pay\\.com\\/v1\\/access",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0ae666ea64d75b7228804e3893e410d1ce323b1374106b441f18e1088d361d7c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heavy.com",
+                "www.thedailymash.co.uk"
+            ]
+        },
+        {
+            "rule": "flip-pay\\.com\\/clients\\/mh\\/inm\\/18\\/flip-pay\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "616358fb020bbbe376364f95c61741b04b6459a751faeed6eebfc94bba2d6af0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belfasttelegraph.co.uk",
+                "www.independent.ie"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "woz.ns.cloudflare.com",
+        "bella.ns.cloudflare.com"
+    ]
+}

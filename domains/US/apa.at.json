@@ -1,0 +1,151 @@
+{
+    "domain": "apa.at",
+    "owner": {
+        "name": "APA-Austria Presse Agentur eG",
+        "displayName": "APA-Austria Presse Agentur"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000478,
+    "sites": 7,
+    "subdomains": [
+        "apasfiis.sf",
+        "uvp-noen.sf"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "apa\\.at\\/admin\\/proxycheck\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apasfiis.sf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6f5e5d6c8a34f05452d22790c80ef7d7e1e71e3bd8c8060faec9e02cb9be65b8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orf.at",
+                "tvthek.orf.at"
+            ]
+        },
+        {
+            "rule": "apa\\.at\\/admin\\/geocheck\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apasfiis.sf"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "348aea16ed7fe51c16502326fab6680589deb7f570fd62e22bf913aa24951590"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orf.at",
+                "sport.orf.at",
+                "tv.orf.at"
+            ]
+        },
+        {
+            "rule": "apa\\.at\\/dash\\/gp\\/GEOPROTECTION_QXB\\.mp4\\/manifest\\.mpd",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apasfiis.sf"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orf.at",
+                "sport.orf.at",
+                "tv.orf.at"
+            ]
+        },
+        {
+            "rule": "apa\\.at\\/gp_nas\\/_definst_\\/nas\\/gp\\/online\\/GEOPROTECTION_hr\\.smil\\/manifest\\.mpd",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apasfiis.sf"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "6f1d35087ea3c36b3cbd9b365268af63c0adeb94300d6c1d71f8101a0084bc32",
+                "c575b5b021039dabe4741615958ba8ee44f88666e303b63e10baff56dc0c3d09"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orf.at",
+                "sport.orf.at",
+                "tv.orf.at"
+            ]
+        },
+        {
+            "rule": "apa\\.at\\/scripts\\/jquery\\.uvp\\.stable\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uvp-noen.sf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "37b57c60e112bcf428ceb701b97966bb1d4d325d28d8c20941de7cbb9b1c2897"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "noen.at",
+                "www.noen.at"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 5,
+        "XHR": 6,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns1.apa.at",
+        "ns2.apa.at",
+        "ns5.univie.ac.at"
+    ]
+}

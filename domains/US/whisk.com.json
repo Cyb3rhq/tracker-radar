@@ -1,0 +1,341 @@
+{
+    "domain": "whisk.com",
+    "owner": {
+        "name": "Foodient Ltd.",
+        "displayName": "Foodient"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000547,
+    "sites": 8,
+    "subdomains": [
+        "cdn",
+        "events",
+        "widget"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "whisk\\.com\\/sdk\\/shopping-list\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "window.localStorage": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.width": 3,
+                "window.devicePixelRatio": 3,
+                "Navigator.prototype.connection": 3,
+                "window.innerHeight": 3,
+                "window.innerWidth": 3,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 3,
+                "Navigator.prototype.languages": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "329eba5038538ce2e95094a3c868d90b034460c3ae0f41b29542f5dd4b16a4b3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foodnetwork.co.uk",
+                "mccormick.com",
+                "www.mccormick.com"
+            ]
+        },
+        {
+            "rule": "whisk\\.com\\/sdk\\/proxy\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "3676ae7975bd7b6bab9cc3176ebfa06008a7056b2018b654c2e3917112b01c4e"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foodnetwork.co.uk",
+                "mccormick.com",
+                "realfood.tesco.com",
+                "www.bestrecipes.com.au",
+                "www.delicious.com.au",
+                "www.mccormick.com"
+            ]
+        },
+        {
+            "rule": "whisk\\.com\\/sdk\\/proxy\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "window.localStorage": 1,
+                "Document.cookie setter": 2
+            },
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "095c4b92bb3bced2636e68b90b2955939a7ccada11196de803d8b59b669c9e5a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foodnetwork.co.uk",
+                "mccormick.com",
+                "realfood.tesco.com",
+                "www.bestrecipes.com.au",
+                "www.delicious.com.au",
+                "www.mccormick.com"
+            ]
+        },
+        {
+            "rule": "whisk\\.com\\/v1\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foodnetwork.co.uk",
+                "mccormick.com",
+                "realfood.tesco.com",
+                "www.bestrecipes.com.au",
+                "www.delicious.com.au",
+                "www.mccormick.com"
+            ]
+        },
+        {
+            "rule": "whisk\\.com\\/v1\\/track",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foodnetwork.co.uk",
+                "mccormick.com",
+                "realfood.tesco.com",
+                "www.bestrecipes.com.au",
+                "www.delicious.com.au",
+                "www.mccormick.com"
+            ]
+        },
+        {
+            "rule": "whisk\\.com\\/api\\/v2\\/recipes\\/_widget",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "c8fb2af0ff15ae42949f601de6b81dcdfed206dad9f92dd734a10fec0f461f03",
+                "5e542edab48af399fd39ff63c333e1a67c0d6dc836934becaca725571ec5ac2a",
+                "78a6beae3dcccf79900c293bf81afbb5e1a96e6f170e0fede0bd207ef3504e76",
+                "4c0cb7b4a6b23fa3a5f9d11a158325bb8b140a9a04d1af32f2cf25f63df316c2",
+                "a57f73c062bb433dc738f0d3be2c60b26aafd0c172f1b597bc2e976ac8cce7c9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_hjTLDTest": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "foodnetwork.co.uk",
+                "mccormick.com",
+                "realfood.tesco.com",
+                "www.bestrecipes.com.au",
+                "www.delicious.com.au",
+                "www.mccormick.com"
+            ]
+        },
+        {
+            "rule": "whisk\\.com\\/api\\/v2\\/recipes\\/_widget",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_hjTLDTest": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "foodnetwork.co.uk",
+                "mccormick.com",
+                "realfood.tesco.com",
+                "www.bestrecipes.com.au",
+                "www.delicious.com.au",
+                "www.mccormick.com"
+            ]
+        },
+        {
+            "rule": "whisk\\.com\\/sdk\\/async~sentry-d99f8f5d0512160212e3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c0c1271d6b52b6a0fcac7502b2dc3317c00ce3a72877d981699f44e0ed64758c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mccormick.com",
+                "www.mccormick.com"
+            ]
+        },
+        {
+            "rule": "whisk\\.com\\/sdk\\/shopping-list-sp\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "window.localStorage": 1,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.connection": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c2591013126b21a73ba58253c19bc4c3dc6547b4f4e873cdaa2f8727124f5478"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bestrecipes.com.au",
+                "www.delicious.com.au"
+            ]
+        },
+        {
+            "rule": "whisk\\.com\\/sdk\\/add-to-list-deliciousau-widget\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "020e3de3fd9cf5504c837d497648305de06e4075fd198789c61c82969d1fbee9"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delicious.com.au",
+                "www.delicious.com.au"
+            ]
+        },
+        {
+            "rule": "whisk\\.com\\/sdk\\/add-to-list-deliciousau-widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "99a2aa4d81871724ce02be34eba5313b9bce1b114a878fb61aac0ee60e1c31fb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delicious.com.au",
+                "www.delicious.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000273,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 15,
+        "Document": 8,
+        "Preflight": 12,
+        "Fetch": 12
+    },
+    "nameservers": [
+        "pam.ns.cloudflare.com",
+        "rick.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "domain": "citidirect.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "report.customerexperience"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "citidirect\\.com\\/static\\/citigpa\\/detector-dom\\.min\\.js",
+            "cookies": 0.00000683,
+            "fingerprinting": 3,
+            "subdomains": [
+                "report.customerexperience"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Element.prototype.getClientRects": 2,
+                "Navigator.prototype.userAgent": 1,
+                "window.localStorage": 1,
+                "window.devicePixelRatio": 1,
+                "window.sessionStorage": 1,
+                "window.outerHeight": 1,
+                "window.outerWidth": 1,
+                "Document.cookie setter": 1,
+                "window.innerHeight": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "31c5504e44995167889aceb8555acd7dd42626f0222ce54298662bb7ef810bfe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_cls_v": {
+                    "ttl": 157680002,
+                    "length": 36,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_cls_s": {
+                    "ttl": null,
+                    "length": 38,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "citigroup.com",
+                "www.citigroup.com"
+            ]
+        },
+        {
+            "rule": "citidirect\\.com\\/glassbox\\/reporting\\/citigpa\\/cls_report",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "report.customerexperience"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "076e4a5921f77b32a029213db9f21cd25a79c901d9af9e30ac07e813576b1221"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cls_v": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "citigroup.com",
+                "www.citigroup.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns1.nsroot1.com",
+        "ns2.nsroot2.com"
+    ]
+}

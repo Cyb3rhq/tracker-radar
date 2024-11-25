@@ -1,0 +1,110 @@
+{
+    "domain": "img-ecomm-rl-prod.azureedge.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "img-ecomm-rl-prod\\.azureedge\\.net\\/ecomm-header\\/latest\\/app\\.06e86260\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "da1e9ca557faa3ccf18daaabcb2a75133453aa299684da5bc66404c4fec955b5"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "redlobster.com",
+                "www.redlobster.com"
+            ]
+        },
+        {
+            "rule": "img-ecomm-rl-prod\\.azureedge\\.net\\/ecomm-header\\/latest\\/app\\.06b028a1\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4cb311d01cf41f31ae2d16de891ef3b7461e30c3a233242a8081a6db9ca1b78e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rlClientType": {
+                    "ttl": 415814509,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "redlobster.com",
+                "www.redlobster.com"
+            ]
+        },
+        {
+            "rule": "img-ecomm-rl-prod\\.azureedge\\.net\\/ecomm-header\\/latest\\/chunk-vendors\\.7914fecd\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c89f2d549c67c5275b4d171c690571834ad2ffa38670c671418283e393c09ac8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "redlobster.com",
+                "www.redlobster.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 4
+    },
+    "nameservers": []
+}

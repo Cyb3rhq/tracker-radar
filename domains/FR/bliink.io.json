@@ -1,0 +1,146 @@
+{
+    "domain": "bliink.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000504,
+    "sites": 5,
+    "subdomains": [
+        "tag",
+        "engine"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "bliink\\.io\\/library\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "209e2b3e8107ffcce8f9b73bb40315673e403bb021527c79e34265a02223e86b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "astucesdegrandmere.net",
+                "www.driverscloud.com",
+                "www.pourquoidocteur.fr"
+            ]
+        },
+        {
+            "rule": "bliink\\.io\\/sdk\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.connection": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "16e6f59c8867086125dc59e993c425c05797d793bd09f06048c1aae9f3859c87"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "astucesdegrandmere.net",
+                "wamiz.com",
+                "www.driverscloud.com"
+            ]
+        },
+        {
+            "rule": "bliink\\.io\\/prebid-bliink-8\\.50\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {
+                "NavigatorUAData.prototype.brands": 3,
+                "NavigatorUAData.prototype.platform": 3,
+                "window.sessionStorage": 3,
+                "Navigator.prototype.appName": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "301ddbabb5d06048f7b928c62ec61af8a5368842e02dd3cc916759e342c88cf5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "astucesdegrandmere.net",
+                "wamiz.com",
+                "www.driverscloud.com"
+            ]
+        },
+        {
+            "rule": "bliink\\.io\\/prebid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engine"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "f919aadef784e8e6ffdc7e98be9252c3b80c89df9d167b66b6e3332eb7553f81"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salaire-brut-en-net.fr",
+                "www.salaire-brut-en-net.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "avantisvideo.com",
+            "prevalence": 0.35714285714285715
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "seedtag.com",
+            "prevalence": 0.21428571428571427
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns200.anycast.me",
+        "dns200.anycast.me"
+    ]
+}

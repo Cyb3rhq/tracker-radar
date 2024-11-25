@@ -1,0 +1,187 @@
+{
+    "domain": "gamifiera.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "gamifiera\\.com\\/static\\/gmf\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "d7aaea432f27ae421ee737a26d3bd933c10bb852c17469b9834d5d11ab2a737d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panduro.com",
+                "www.apohem.se",
+                "www.jollyroom.se"
+            ]
+        },
+        {
+            "rule": "gamifiera\\.com\\/v1\\/merchant-config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "8d1d561aa8c26d96f0413af93a0f91c2b6db38a32ee44e12f9b8c7626a693ad2",
+                "0f45bd81a0392d8261336b9ed64b6cb8c68d982a97e40945c3c9ca8ab84daaf7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panduro.com",
+                "www.apohem.se",
+                "www.jollyroom.se"
+            ]
+        },
+        {
+            "rule": "gamifiera\\.com\\/v1\\/merchant-config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panduro.com",
+                "www.apohem.se",
+                "www.jollyroom.se"
+            ]
+        },
+        {
+            "rule": "gamifiera\\.com\\/static\\/gmf\\/3\\.5\\.104\\/gmf\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.vendor": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "window.sessionStorage": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "c6c13c27cfad5266a9d4ff526e2a9b50ef7c60c54c0f4e973e88dd828ebe6fa1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panduro.com",
+                "www.apohem.se",
+                "www.jollyroom.se"
+            ]
+        },
+        {
+            "rule": "gamifiera\\.com\\/static\\/gmf\\/3\\.5\\.104\\/base\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "a1ffbf57dd3fd61a225998de98e10ece557b2e0f12584983a6082cc7ce1efad3"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panduro.com",
+                "www.apohem.se",
+                "www.jollyroom.se"
+            ]
+        },
+        {
+            "rule": "gamifiera\\.com\\/static\\/gmf\\/3\\.5\\.104\\/locales\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "f7890eb5473f08522f48f2a817addbbc3ea693043e81763851e1602d90e0c27b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panduro.com",
+                "www.apohem.se",
+                "www.jollyroom.se"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "azure.com",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "XHR": 3,
+        "Preflight": 3,
+        "Stylesheet": 3
+    },
+    "nameservers": [
+        "pdns1.registrar-servers.com",
+        "pdns2.registrar-servers.com"
+    ]
+}

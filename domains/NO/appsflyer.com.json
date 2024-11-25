@@ -1,0 +1,199 @@
+{
+    "domain": "appsflyer.com",
+    "owner": {
+        "name": "AppsFlyer",
+        "displayName": "AppsFlyer"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00271,
+    "sites": 27,
+    "subdomains": [
+        "websdk",
+        "wa",
+        "onelinksmartscript"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "appsflyer\\.com\\/",
+            "cookies": 0.000502,
+            "fingerprinting": 3,
+            "subdomains": [
+                "websdk"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 23,
+                "window.localStorage": 23,
+                "window.sessionStorage": 23,
+                "Navigator.prototype.webdriver": 23,
+                "Navigator.prototype.language": 23,
+                "Screen.prototype.colorDepth": 23,
+                "Navigator.prototype.cookieEnabled": 23,
+                "Navigator.prototype.deviceMemory": 22,
+                "window.devicePixelRatio": 22,
+                "Screen.prototype.width": 23,
+                "Screen.prototype.height": 23,
+                "Screen.prototype.orientation": 23,
+                "Screen.prototype.availWidth": 23,
+                "Screen.prototype.availHeight": 23,
+                "Date.prototype.getTimezoneOffset": 23,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 23,
+                "window.indexedDB": 23,
+                "Navigator.prototype.platform": 23,
+                "Navigator.prototype.doNotTrack": 23,
+                "Navigator.prototype.languages": 23,
+                "Navigator.prototype.javaEnabled": 23,
+                "PerformanceTiming.prototype.navigationStart": 23,
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 22,
+                "NavigatorUAData.prototype.getHighEntropyValues": 4,
+                "Document.cookie setter": 5
+            },
+            "sites": 23,
+            "prevalence": 0.00231,
+            "cnames": [],
+            "responseHashes": [
+                "0ba6b163f965f258c24888cf11c6dfe0d044de0800284da2e78a3faf7bd12925"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "AF_MEASUREMENT_STATUS": {
+                    "ttl": 63072005,
+                    "length": 4,
+                    "prevalence": 0.00010043185698503566,
+                    "uniqueness": 1
+                },
+                "afUserId": {
+                    "ttl": 63072006,
+                    "length": 38,
+                    "prevalence": 0.0005021592849251782,
+                    "uniqueness": 1
+                },
+                "AF_SYNC": {
+                    "ttl": 604806,
+                    "length": 13,
+                    "prevalence": 0.0005021592849251782,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weather.com",
+                "www.babycenter.com",
+                "www.marksandspencer.com",
+                "www.rituals.com",
+                "www.unibet.com",
+                "us.norton.com",
+                "www.zleague.gg",
+                "www.prisjakt.nu",
+                "www.cuemath.com",
+                "crypto.com",
+                "wolt.com",
+                "skylum.com",
+                "www.whattoexpect.com",
+                "www.plex.tv",
+                "www.g2a.com",
+                "www.goindigo.in",
+                "www.blockchain.com",
+                "character.ai",
+                "www.1stdibs.com",
+                "www.jiocinema.com"
+            ]
+        },
+        {
+            "rule": "appsflyer\\.com\\/events",
+            "cookies": 0.000502,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wa"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "a9347cf05d9605fdd594b0e801971da7d04a864c00f15c4c38feb9b247b6b3f1",
+                "90073f50a30ba5b2a353daf830016ee99ecfddb0055e0b924e30b0fcc4168d46",
+                "bb827fe6466990ec4dc1a719271e2dedfb6272f898fde1281547295e2a6bb179",
+                "b7a80fae3e1d778371f725855cea922e07a4800b4f4fdc2cd2a4a60d23288245"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "character.ai",
+                "www.1stdibs.com",
+                "www.jiocinema.com",
+                "www.plex.tv",
+                "www.zleague.gg"
+            ]
+        },
+        {
+            "rule": "appsflyer\\.com\\/onelink-smart-script-latest\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "onelinksmartscript"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.userAgent": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "c52094824bd16b8c4109e27dd8ed32a5caa775af2e05a850ffadffb6b2754021"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "onskeskyen.no",
+                "www.etoro.com",
+                "www.viki.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.48484848484848486
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.42424242424242425
+        },
+        {
+            "domain": "arkadiumhosted.com",
+            "prevalence": 0.030303030303030304
+        },
+        {
+            "domain": "ziffstatic.com",
+            "prevalence": 0.030303030303030304
+        },
+        {
+            "domain": "etorostatic.com",
+            "prevalence": 0.030303030303030304
+        }
+    ],
+    "types": {
+        "Script": 26,
+        "XHR": 5
+    },
+    "nameservers": [
+        "ns-1429.awsdns-50.org",
+        "ns-1547.awsdns-01.co.uk",
+        "ns-326.awsdns-40.com",
+        "ns-659.awsdns-18.net"
+    ]
+}

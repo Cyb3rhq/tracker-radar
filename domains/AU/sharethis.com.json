@@ -1,0 +1,2234 @@
+{
+    "domain": "sharethis.com",
+    "owner": {
+        "name": "ShareThis, Inc",
+        "displayName": "ShareThis",
+        "privacyPolicy": "https://www.sharethis.com/privacy/",
+        "url": "http://sharethis.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0117,
+    "sites": 116,
+    "subdomains": [
+        "platform-api",
+        "l",
+        "count-server",
+        "platform-cdn",
+        "t",
+        "pd",
+        "sync",
+        "buttons-config",
+        "w",
+        "ws",
+        "s",
+        "ss",
+        "datasphere-sbsvc"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sharethis\\.com\\/js\\/sharethis\\.js",
+            "cookies": 0.00703,
+            "fingerprinting": 2,
+            "subdomains": [
+                "platform-api"
+            ],
+            "apis": {
+                "Document.cookie setter": 70,
+                "Document.cookie getter": 70,
+                "window.localStorage": 70,
+                "Navigator.prototype.userAgent": 70,
+                "Document.prototype.interestCohort": 69,
+                "Date.prototype.getTime": 70,
+                "NavigatorUAData.prototype.brands": 69,
+                "NavigatorUAData.prototype.platform": 69,
+                "NavigatorUAData.prototype.getHighEntropyValues": 69,
+                "window.innerWidth": 12
+            },
+            "sites": 79,
+            "prevalence": 0.00793,
+            "cnames": [],
+            "responseHashes": [
+                "98d32b00fca86fc6994df33302e051a6ad03461a43ff5797d5b10ace4cf4772f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "st_samesite": {
+                    "ttl": 0,
+                    "length": 1,
+                    "prevalence": 0.006026516673362796,
+                    "uniqueness": 0.016666666666666666
+                },
+                "fpestid": {
+                    "ttl": 31536000,
+                    "length": 70,
+                    "prevalence": 0.0034150261149055844,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "recyclingnearyou.com.au",
+                "www.beaumont-tiles.com.au",
+                "www9.gogoanime.me",
+                "www.prouds.com.au",
+                "www.yourchineseastrology.com",
+                "www.hunterhunter.com.au",
+                "ytbdownload.com",
+                "www.goldmark.com.au",
+                "illawarraconvoy.com.au",
+                "flixup.to",
+                "1337xto.to",
+                "www.asknumbers.com",
+                "flixtor.win",
+                "australianmutual.bank",
+                "club.shannons.com.au",
+                "www.speedcafe.com",
+                "www.amoyshare.com",
+                "brickset.com",
+                "vcahospitals.com",
+                "www.gcmutual.bank"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/pview",
+            "cookies": 0.00703,
+            "fingerprinting": 0,
+            "subdomains": [
+                "l"
+            ],
+            "apis": {},
+            "sites": 84,
+            "prevalence": 0.00844,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "fa0a97e50006d884141a0887ee5ca71f9489580222e71505a19ca90714f7dab9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0004017677782241864,
+                "_li_dcdm_c": 0.0003013258336681398,
+                "_hjTLDTest": 0.0002008838891120932
+            },
+            "exampleSites": [
+                "ancensored.com",
+                "www.beaurepaires.com.au",
+                "www.soundandvision.com",
+                "www.projectmatilda.com",
+                "www.scam-detector.com",
+                "hianime.to",
+                "www.comedy.co.uk",
+                "strokefoundation.org.au",
+                "ftw.usatoday.com",
+                "www.australianlottoresults.com.au",
+                "ashpublications.org",
+                "www.goldmark.com.au",
+                "vhd.heritagecouncil.vic.gov.au",
+                "www.speedcafe.com",
+                "club.shannons.com.au",
+                "www.bloomsbury.com",
+                "www.bowlssa.com.au",
+                "www.alfredhealth.org.au",
+                "www.anytimefitness.com.au",
+                "mumsgrapevine.com.au"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/v2\\.0\\/get_counts",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "count-server"
+            ],
+            "apis": {},
+            "sites": 20,
+            "prevalence": 0.00201,
+            "cnames": [],
+            "responseHashes": [
+                "c72cc377e9ae33c8c32cdc69805b9fd7f2cce33f879388dd820e0a77a7487854",
+                "7e3fd638857699f575e2a9b7b4cfd04227ba38e025705f6c3b17e5f1e8721057",
+                "3b43eecd5fb0adadc14dbe358f26503aaab7a615ac25a7b08eadc3959344d753",
+                "d48fd5f37d15958aeedd4482397b259290f8d81bf6be5f2e5718b2e351886b8b",
+                "1732d26868f5a43cc2e081d24f14bd860ec6c64b4bf50b5d4ad973c161c977ad",
+                "e9ed2e9203d73b12952df400f5721914a953c5bc818e8e1a7c05e78b4b0a5bc7",
+                "09666281f628f65004ae5198c6cfc69a7c296dbfd0a5fb2993c4fed4737bd9fd",
+                "6b8575d4e4485142221cb06ceb0dd45725b51bd6065a4970d74d52fb8bb51998",
+                "385061e10780e6a767321acc7a9560c95b4e5992025cef5663411222057bbc7e",
+                "f73911ae2224636318ce1a3bf2ed966463731a1314782ca3c70f25d2da7404ae",
+                "71fbbdca97efd8ca7c7db8a0c1e3ba4a56e119781d3f429cf9ab876bc7458008",
+                "7683074cd6a678623f3f0ab7dd4520e1b395bdecb641f1cea69e38aa95091936",
+                "fe62bceb5cb14ddb5316c9263b07f697cacc61d2c62afc9d53fb358b7e666bff",
+                "749655bb9d6aa72159e349cf42f4fdb9d5ef2f51ed316b8ccdfb1e2af106c6c3",
+                "68daf1ca52932849b3be8d78e82f4f121e421f4d1a5f365988e0b9bd84b478d9",
+                "cdecb319e9d43af2f31aaf593a2740d94f506d35e46d3cc059546541fa39dd55",
+                "7a01f844cd6980aa104478840ec69daef85ae6bbaf9fd28cb27b99068f8e1f9f",
+                "3374f60aaedea39b29a04dbe00fb1f8057daa594c2f064570845928fcc71068a",
+                "e251ce463ecfeaece80c65d70bcf0f979aa8f306729df565a14ba643618d06d5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1337xto.to",
+                "aniwatch.cool",
+                "gostream.to",
+                "hianime.to",
+                "libgenesis.net",
+                "nhentai.to",
+                "streameasthd.com",
+                "thejigsawpuzzles.com",
+                "vidstream.to",
+                "wordly.org",
+                "www.amoyshare.com",
+                "www.comedy.co.uk",
+                "www.ellaslist.com.au",
+                "www.majorgeeks.com",
+                "www.projectmatilda.com",
+                "www.retrogames.cz",
+                "www.yourchineseastrology.com",
+                "www9.gogoanime.me",
+                "ytbdownload.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/facebook\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 30,
+            "prevalence": 0.00301,
+            "cnames": [],
+            "responseHashes": [
+                "768d97ec0916217ae82c70aeda3a61b9b0dab344edc4a3240a4f7cd94af00307"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aniwatch.cool",
+                "brickset.com",
+                "medevel.com",
+                "www9.gogoanime.me",
+                "libgenesis.net",
+                "www.majorgeeks.com",
+                "www.backyardchickencoops.com.au",
+                "gostream.to",
+                "www.yourchineseastrology.com",
+                "nhentai.to",
+                "recyclingnearyou.com.au",
+                "streameasthd.com",
+                "ww.putlocker.vip",
+                "babesource.com",
+                "thejigsawpuzzles.com",
+                "www.projectmatilda.com",
+                "www.comedy.co.uk",
+                "ytbdownload.com",
+                "www.retrogames.cz",
+                "1337xto.to"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/twitter\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 28,
+            "prevalence": 0.00281,
+            "cnames": [],
+            "responseHashes": [
+                "76ffdc5337cd5a509f15d70767b85a793aead82975d0d86912e1607e963c9aed"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ytbdownload.com",
+                "illawarraconvoy.com.au",
+                "vidstream.to",
+                "www.comedy.co.uk",
+                "thejigsawpuzzles.com",
+                "1337xto.to",
+                "club.shannons.com.au",
+                "aniwatch.cool",
+                "www.amoyshare.com",
+                "www.australianlottoresults.com.au",
+                "libgenesis.net",
+                "nhentai.to",
+                "medevel.com",
+                "streameasthd.com",
+                "babesource.com",
+                "brickset.com",
+                "ww.putlocker.vip",
+                "www.projectmatilda.com",
+                "www.retrogames.cz",
+                "wordly.org"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/whatsapp\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.00191,
+            "cnames": [],
+            "responseHashes": [
+                "847eb36b4dc4b05f94052dcd98077319e74d882334a106bb9ca451ba211c9c2c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1337xto.to",
+                "brickset.com",
+                "club.shannons.com.au",
+                "gostream.to",
+                "libgenesis.net",
+                "medevel.com",
+                "streameasthd.com",
+                "thejigsawpuzzles.com",
+                "vidstream.to",
+                "wordly.org",
+                "www.270towin.com",
+                "www.amoyshare.com",
+                "www.comedy.co.uk",
+                "www.ellaslist.com.au",
+                "www.projectmatilda.com",
+                "www.retrogames.cz",
+                "www.yourchineseastrology.com",
+                "ytbdownload.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/pinterest\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [
+                "efc737b4f58cfe73a9bd0e57d7570365701381da31e628b269e7217a0ce3359d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1337xto.to",
+                "babesource.com",
+                "club.shannons.com.au",
+                "libgenesis.net",
+                "wordly.org",
+                "www.backyardchickencoops.com.au",
+                "www.comedy.co.uk",
+                "www.yourchineseastrology.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/email\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.00151,
+            "cnames": [],
+            "responseHashes": [
+                "5f5012132c752db2433e17712d91ef8689f1bc95167b2720e23224c2ae62e009"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1337xto.to",
+                "babesource.com",
+                "club.shannons.com.au",
+                "illawarraconvoy.com.au",
+                "medevel.com",
+                "streameasthd.com",
+                "thejigsawpuzzles.com",
+                "wordly.org",
+                "www.270towin.com",
+                "www.australianlottoresults.com.au",
+                "www.backyardchickencoops.com.au",
+                "www.comedy.co.uk",
+                "www.retrogames.cz",
+                "www9.gogoanime.me"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/sharethis\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.00181,
+            "cnames": [],
+            "responseHashes": [
+                "9a83c65bdd0ff9488af9d25720686457ea7295c9c44f9f1d285a0c9ec89bab99"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1337xto.to",
+                "aniwatch.cool",
+                "babesource.com",
+                "hianime.to",
+                "medevel.com",
+                "nhentai.to",
+                "streameasthd.com",
+                "thejigsawpuzzles.com",
+                "ww.putlocker.vip",
+                "www.amoyshare.com",
+                "www.australianlottoresults.com.au",
+                "www.comedy.co.uk",
+                "www.ellaslist.com.au",
+                "www.majorgeeks.com",
+                "www.retrogames.cz",
+                "www9.gogoanime.me",
+                "ytbdownload.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/arrow_left\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00121,
+            "cnames": [],
+            "responseHashes": [
+                "5c833b1818762f1e134fbb158447fb0b92f2b018b15aa36f2e2405213f830d38"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1337xto.to",
+                "medevel.com",
+                "streameasthd.com",
+                "www.amoyshare.com",
+                "www.australianlottoresults.com.au",
+                "www.comedy.co.uk",
+                "www.majorgeeks.com",
+                "www.retrogames.cz",
+                "www.yourchineseastrology.com",
+                "www9.gogoanime.me",
+                "ytbdownload.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/arrow_right\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00121,
+            "cnames": [],
+            "responseHashes": [
+                "1bae747c7fd090f56608956a97c870391e1c43f89d24d5766129b75628985c1e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1337xto.to",
+                "medevel.com",
+                "streameasthd.com",
+                "www.amoyshare.com",
+                "www.australianlottoresults.com.au",
+                "www.comedy.co.uk",
+                "www.majorgeeks.com",
+                "www.retrogames.cz",
+                "www.yourchineseastrology.com",
+                "www9.gogoanime.me",
+                "ytbdownload.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/sc",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "l"
+            ],
+            "apis": {},
+            "sites": 71,
+            "prevalence": 0.00713,
+            "cnames": [],
+            "responseHashes": [
+                "99642d97b8f7162f2e29a1f1cf48f13adb6577bbf5040e9064e221f0e2b0eaec",
+                "a1e81e7c860a16f93c08fb9f18db602d349eee0ab8b44bab0b62fe207b6b70e3",
+                "4bd6a8b583a08dabb38fd67e6845640cdd480dddf2ab5987e497def2bbc43f22",
+                "09a402f74f3741bb08d401297bb8929a2a4cbfa409a106b37c37a4468dffa18d",
+                "4a61887cdf6b53841c724919c32d1d293250d1e3ec6dca72dcb9712344d07eb6",
+                "db9a9b465ce8a5edc51f7ff57fc66e3afcc11b2cf36e5182b42d7ebeeebf36a5",
+                "b8c7a16742f4b8155c168a06ef2dfd175ec6e668c76ea41ae9fb3bacd47d40e8",
+                "fd21a344927e5f9d1efdd9324734c8f38e5f1c47c57ff64eee6b6f92374ccad2",
+                "3040136342a29b9264ca73d7ba37fc63aad3b2a12042d44c2b9486bfcc91df38",
+                "298ec5b2443c142f6fa2b3c3ad2e60ef9a26a9c7febae04faa53293afd6912ae",
+                "add9ab2fb8f01ea24e76ca03bc76560cad222bba4f6c8101d9ef54d0781f23d5",
+                "9ecd0ef4794d9e6e15de21505876f3590a76a6c7ae8b5af8185698c25233784e",
+                "31e6f79bcfb2697ce8b4e911d43890fd6e89c56f179d06397b9da2f49214c4f5",
+                "4cc687ebaf12d0180e1c10cbdec323697d73818f21ff57fabe4e3e9a839a4d5e",
+                "64641a25be3d841a072fd36b5ad01bb03e44b97986822449eb0eb53da0a3af7a",
+                "c2a3958ee977cf47389a392a6e92516d660d217543bce856255d9cf5d97d87a1",
+                "b7a5b63f3eb5db11c102180be8c0092fb3e2d52ddc75a58cb01708ddf61abf4a",
+                "09aa7df9c1bbeaa7d03389cf397f9ad949dc0327ceb5332f78bebf007ea0e1b8",
+                "fb0fe09efa2e977a0839c401d5c269b9005c2c933ae3d75cd81c001c8a1c7b1b",
+                "51f7b34b4fec4a73b24c842255ea5dbfb8a5a271aa23a5769815d2fec4b3857b",
+                "2fb8ca12a2533e3d0311ab9658034c0da562bd03384a2a911135eccf968fa1d1",
+                "284d302280cb3cd1c5aac2b0f078074e928551650af102945ad1fa5e8f43b1ea",
+                "5933a8086985a39258655356b8f4649ab4e11197fa252e211b9a953d440db609",
+                "a4a2559fa44514705228cfdd94421520bafa088e1acc1b3fe8d1ee47f8476127",
+                "c92bc116e86632e9e889cf30861753aa20f74430d27d82359aadd0c3ef98be00",
+                "cfd22be380f768d9f9a06a00a0da8d9d15c19b58045c8af3c7d4277e2cee433f",
+                "b322616019b69826f8619449f19ea559479074dbdec801b7c4b4bf419c6ee657",
+                "355730ecfac5d04352fb5dcf19bdb16f776cb7a6a52618652b24b9a308552e9e",
+                "cbe76b1a75b61d57d3feefadc782d229ea9abf3642d8b335f0dbafe96b3ce022",
+                "7b0ae10972b3e15681f05a963256f9a21da94aa20a03fab7f32e3ba858acf36b",
+                "498f98b614da1ec54ebeb088da972ed5ebb0cf72136cde2afcd1a6688a37bf74",
+                "be52daa81b2580ea6196fa2ad797d42be77aba5c7161df84ec1f5d88d01cf9c4",
+                "cb12387b248d624e005b0d95fa63714969ae22aa4007531bf3e9894d93b1c0d1",
+                "1a5167f29e68107c57f538b6cd7626d3daaae5619037f7174da8638f67331f02",
+                "1061e19957d2d302812b076d4c2e227a98b75f7f54c065472b69fb8ad25d90af",
+                "8f0d4d67372809c64cbc540c178f178b505483b3c3bbcea56a87388432829299",
+                "931b0b07d2a84980b34887ad882b5ae7aa69cddf7c77af5f1b116323bc540215",
+                "c2f3ecef462949cbe4683527e72cc3102c9de8d42acaa18403213af9058e97c1",
+                "83eac9423aa0b1a64051611ed81f326a3bbb5bf6e31b1759753131ed191905ce",
+                "32730f98349c9f7f6bfb9fb09f051d3d9b79940a260c53b5d472246caebfb36d",
+                "b33d159dca68e25de78f2330b8a793a42fc1a10e35f12f880625cfabb8391a01",
+                "24ab915f27d0265df9481d7e153d3b76991414d418638f1fdb78fbe159776fe7",
+                "7c0ed4d574cb14ff4c72c5526e0b8370bcf7c8707183e44f5a7af23cb740c449",
+                "00bab896041d69e8a9c87f8ca3bb028837540a80abf7b497768864d9b1746895",
+                "293661a3a9734b5148300762b66f2a8af327beb86b7304d9605b98330c428419",
+                "fa0a97e50006d884141a0887ee5ca71f9489580222e71505a19ca90714f7dab9",
+                "8b74351132ea4820b151cdec3dbd40c55526f4286a8bfd2088861c6541e2c2c8",
+                "36e1433377be800102241affb7ead5ae45097bcbee54ba1cb65a04fff4666471",
+                "27ef3cc61960ecc43f75f34f89b56a9541a5ba06e27247619b6605a0ec928bdc",
+                "f1713b1f95bad2854292a91a1001c056539d86ee1ead108676d2709ed18f5495",
+                "9f628350cefe3e8caa65ccb050e946c943e078205e991be0838d12aa0e6b7459",
+                "fb2550d01c0b58162a4ddd4309f51fd181474a973528f76637bb19e1472d899b",
+                "323f4f23406f89af6903c6166467059992667c06dc68b68653b560acebe88a77",
+                "db69792abb68cf313c80cfbf04676fe9faf263e6e72d962e267a1a998e4ecd48",
+                "9e0dd38eeb09bf0615456526c110740f5662171b19babfd832ee5e7ee50bfba1",
+                "e2877924e0fb318aaa7aab821bbd2a5fee00c25ff9ed504535aa21c7d61cc5d1",
+                "a7ee3578b404eebafc23c0d4dc1b95c15b188007fcd7e773b9665277bcd52cdc",
+                "a688003053966a7ce226f636a69e8cd70e741f04b07206776918757a3f6b1b46",
+                "0632598719fc81d20b52729cb0566bb314503729e074c7604d9d3dcfc70a022c",
+                "6d3bc5acbf5b45210395bd4bf58808d100abd8ff1f85369a73c46608bf108a4b",
+                "55b87f0c2fa83f556cd02e2d999f99a6f8093af9270621dcfc79f98bcc23f39e",
+                "3efe284f2a919064d821ecd4506774c02e3c07d0566f5c7002f13ef299d123fd",
+                "626bc3f2f3dea85ca6f43132656e89b1ace4a132690fe9b3f0f3b63b2566ea65",
+                "0ee4c482392c77d85aa8d67a1a4474b2acd4a023313b88a2cac5e85477dd31f1",
+                "a56abd8ccf2a1851e5b9112c07cddc66e97350160419e1de008d93537da6e550",
+                "a6d13683949993dca2d8160b4c698a1c0873fbfd470f12da18cc4fe4bccb5d90",
+                "5e8aa3725efef2ba71c80db5f15ffbef2ebe7ddede420cfb74698c374052c0b9",
+                "50e111755343f06abf2846b10cba21c1efba87f56d9f11f103cdfed84e789390",
+                "bed0d2125c66d5b7176d0db1e8d1ca1af82c122b7abc82df91844944f75595c9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0004017677782241864,
+                "_li_dcdm_c": 0.0003013258336681398,
+                "_hjTLDTest": 0.0001004419445560466
+            },
+            "exampleSites": [
+                "babesource.com",
+                "vidstream.to",
+                "www.beaumont-tiles.com.au",
+                "www.anguscoote.com.au",
+                "wordly.org",
+                "1337xto.to",
+                "www.daikin.com.au",
+                "aniwatch.cool",
+                "www.backyardchickencoops.com.au",
+                "www.superiorengineering.com.au",
+                "www.holmart.com.au",
+                "www.bowlsvic.org.au",
+                "ashpublications.org",
+                "www.techlicious.com",
+                "www.beaurepaires.com.au",
+                "www.climatecouncil.org.au",
+                "australianmutual.bank",
+                "www.anzca.edu.au",
+                "www.globirdenergy.com.au",
+                "www.thestar.com.my"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/1\\/k\\/t\\.dhj",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 76
+            },
+            "sites": 78,
+            "prevalence": 0.00783,
+            "cnames": [],
+            "responseHashes": [
+                "4ef3e469dd04ade22ec29950871096522030e403260e1898e224dd8838b0fb84",
+                "da5a022edd11522fbbcc3452e653f36d3d63a7ee65a84e92e82d70c69483894a",
+                "a15040b51ae8cb82d645fc07e11ec0a0ba93d4cc81db481281c56a62d0e1d3c9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0003013258336681398,
+                "_li_dcdm_c": 0.0003013258336681398,
+                "_hjTLDTest": 0.0001004419445560466
+            },
+            "exampleSites": [
+                "shittytube.com",
+                "brickset.com",
+                "pornploy.com",
+                "babesource.com",
+                "www.scam-detector.com",
+                "www.projectmatilda.com",
+                "www.americanthinker.com",
+                "www.superiorengineering.com.au",
+                "www.majorgeeks.com",
+                "www.holmart.com.au",
+                "www.ellaslist.com.au",
+                "www.newsmax.com",
+                "www.incestflix.com",
+                "ashpublications.org",
+                "crackstreams.io",
+                "www.bowlsvic.org.au",
+                "www.thenation.com",
+                "joannenova.com.au",
+                "www.horsleyparkgunshop.com.au",
+                "www.bowlssa.com.au"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/a\\/t_\\.htm",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 71,
+                "Navigator.prototype.userAgent": 21,
+                "Document.cookie getter": 18
+            },
+            "sites": 77,
+            "prevalence": 0.00773,
+            "cnames": [],
+            "responseHashes": [
+                "104f8455cbff44a58fd4cad5a31defc9cbe58cb9e7d068e07be7e8aa9a2503aa"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.holmart.com.au",
+                "www.270towin.com",
+                "www.bowlsvic.org.au",
+                "www.mindtools.com",
+                "imhentai.xxx",
+                "1337xto.to",
+                "crackstreams.io",
+                "www.understandingwar.org",
+                "www.daikin.com.au",
+                "www.projectmatilda.com",
+                "babesource.com",
+                "www.horsleyparkgunshop.com.au",
+                "rule34video.io",
+                "www.scam-detector.com",
+                "www.beaumont-tiles.com.au",
+                "www.stereonet.com",
+                "club.shannons.com.au",
+                "streameasthd.com",
+                "javseen.tv",
+                "ytbdownload.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/1\\.1587\\.23404\\/a\\/AU\\/t_\\.js",
+            "cookies": 0.00743,
+            "fingerprinting": 1,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 74,
+                "Document.cookie getter": 74,
+                "Navigator.prototype.userAgent": 69,
+                "Document.cookie setter": 74
+            },
+            "sites": 75,
+            "prevalence": 0.00753,
+            "cnames": [],
+            "responseHashes": [
+                "43f3b463d6cb80ba893dd4bcba59e4ed9a63c486d9d50d52285d9097ab6b2f6b",
+                "e5bff390b7a5159d3f3f77f3a133e336dbbff4d2d4b987cce5881be858a5621a",
+                "b4f16ed19dcdb81a2a8da4bed252cd4fad23269658587b0248d95ecddd52b5f6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "medevel.com",
+                "crackstreams.io",
+                "www.beaurepaires.com.au",
+                "www.anguscoote.com.au",
+                "nhentai.to",
+                "www.holmart.com.au",
+                "pornploy.com",
+                "www.bowls.com.au",
+                "www.projectmatilda.com",
+                "ashpublications.org",
+                "property.ljhooker.com.au",
+                "brickset.com",
+                "www.beaumont-tiles.com.au",
+                "australianmutual.bank",
+                "www.hunterhunter.com.au",
+                "www.americanthinker.com",
+                "vhd.heritagecouncil.vic.gov.au",
+                "en.yts-official.mx",
+                "www.understandingwar.org",
+                "www.newsmax.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/pd\\/dtscout",
+            "cookies": 0.00181,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pd"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.00191,
+            "cnames": [],
+            "responseHashes": [
+                "95c84a965d3aa9bea7056878471bd8027ff44b25cd78410f0504f2ea084ec762",
+                "e2f2f20d56793f8bff297e0c87e5a165e3348530d63f3892c51241d574e42b82",
+                "85dd37e5ae4de723c1a61ee030427b07e860a5f66e28ec0124da89a79e5d467c",
+                "28833b5b91e713688a1e3aaec555c87ac0a338b7f986704bd58c298a618f50b7",
+                "332fc19585cf0b088c1f68a45bcad74cdd7b7d74c0f1ff79f9697811f502b40e",
+                "35c6e0083c2a43b08f7d6b9635941adf58e973d9ec7b575e997921289ada1c70",
+                "8733f8a362f9f21d5441a6d7590c81e7e0799a961f676d4726da9326b7f80c41",
+                "3240d237d3420170c1ae6ab32ae82542a4a587e046446ad73c62d0b066f3b560",
+                "bdbaeeb1bc39e01c0d45a9cfe2fe5da83c704b0b6a31c4e0296be627f5d848cb",
+                "57d8ead729eea458852b0d5c7273843882f1d7567fe5857cf21f4f649157cb06",
+                "94c86172341ca465bd6c7f9b05aaf249f3ed736a620958d28a3563a6cdbbb249",
+                "97546d863e16ee58258c22ae3d9af23d15d1cd33a47bcc37bd168526a544b5cf",
+                "5e4bc79f5b8a81c863c79af3eafcd18dc41d1fb1b7b423ec9a23ecca6e372f6b",
+                "d5866ffcda2f055cea4807d25ac2d7f9489fb56e79423ddca88afa8e1a75e918",
+                "49ad3e3f19a843e4c3e711100b9290c0d6a62806f71b6c90d283cc045b57c88e",
+                "3b76dc25adddedf4090b16e9cf42d484e4a4342bddb2c30548665219a982396d",
+                "b015049d2e6aac5c014476f2ca85cb9f6115ae4536d54b19b0bd0d67e3560224",
+                "074babf2875551248cba0198f84ea87103b4c8ba5156f4e6dab0d121bde81309"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1337xto.to",
+                "camcaps.to",
+                "camsweb.net",
+                "comicporn.xxx",
+                "crackstreams.io",
+                "en.yts-official.mx",
+                "erothots1.com",
+                "fapello.tv",
+                "imhentai.xxx",
+                "javseen.tv",
+                "joannenova.com.au",
+                "nhentai.to",
+                "nhentai.xxx",
+                "pornploy.com",
+                "rule34video.io",
+                "shittytube.com",
+                "topfapgirls.tv",
+                "www.incestflix.com",
+                "www1.fmovies.top"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/ttd",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 74,
+            "prevalence": 0.00743,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.comedy.co.uk",
+                "www.speedcafe.com",
+                "www.globalresearch.ca",
+                "www.anguscoote.com.au",
+                "camsweb.net",
+                "www.thenation.com",
+                "www9.gogoanime.me",
+                "www.bowlssa.com.au",
+                "aniwatch.cool",
+                "www.thestar.com.my",
+                "brickset.com",
+                "ww.putlocker.vip",
+                "hianime.to",
+                "joannenova.com.au",
+                "www.scam-detector.com",
+                "topfapgirls.tv",
+                "www.bloomsbury.com",
+                "www.majorgeeks.com",
+                "www.stereonet.com",
+                "www.understandingwar.org"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/int\\/lotame",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 56,
+            "prevalence": 0.00562,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cc_id": 0.001004419445560466
+            },
+            "exampleSites": [
+                "babesource.com",
+                "www.scam-detector.com",
+                "www.backyardchickencoops.com.au",
+                "brickset.com",
+                "www.soundandvision.com",
+                "www.bloomsbury.com",
+                "www.thestar.com.my",
+                "www.comedy.co.uk",
+                "www.speedcafe.com",
+                "aniwatch.cool",
+                "www.australianlottoresults.com.au",
+                "www.bowls.com.au",
+                "illawarraconvoy.com.au",
+                "www.ellaslist.com.au",
+                "www.hunterhunter.com.au",
+                "www.projectmatilda.com",
+                "property.ljhooker.com.au",
+                "www.goldmark.com.au",
+                "vhd.heritagecouncil.vic.gov.au",
+                "gostream.to"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/eyeota",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 74,
+            "prevalence": 0.00743,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.comedy.co.uk",
+                "www.anzca.edu.au",
+                "www.horsleyparkgunshop.com.au",
+                "erothots1.com",
+                "imhentai.xxx",
+                "club.shannons.com.au",
+                "www.speedcafe.com",
+                "vidstream.to",
+                "www.hunterhunter.com.au",
+                "joannenova.com.au",
+                "www.newsmax.com",
+                "www.prouds.com.au",
+                "www.globalresearch.ca",
+                "hianime.to",
+                "camsweb.net",
+                "www.holmart.com.au",
+                "www.bowlsvic.org.au",
+                "discover.texasrealfood.com",
+                "www.gcmutual.bank",
+                "www.anguscoote.com.au"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/nlsn",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 74,
+            "prevalence": 0.00743,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "australianmutual.bank",
+                "www.soundandvision.com",
+                "vidstream.to",
+                "www.prouds.com.au",
+                "babesource.com",
+                "www.ellaslist.com.au",
+                "www.comedy.co.uk",
+                "www.superiorengineering.com.au",
+                "www.holmart.com.au",
+                "fapello.tv",
+                "www.gcmutual.bank",
+                "nhentai.to",
+                "www.majorgeeks.com",
+                "joannenova.com.au",
+                "www9.gogoanime.me",
+                "www.bowlsvic.org.au",
+                "www.anzca.edu.au",
+                "www.projectmatilda.com",
+                "ashpublications.org",
+                "www.understandingwar.org"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/pd\\/dtscout",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pd"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.00191,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0002008838891120932
+            },
+            "exampleSites": [
+                "1337xto.to",
+                "camcaps.to",
+                "camsweb.net",
+                "comicporn.xxx",
+                "crackstreams.io",
+                "en.yts-official.mx",
+                "erothots1.com",
+                "fapello.tv",
+                "imhentai.xxx",
+                "javseen.tv",
+                "joannenova.com.au",
+                "nhentai.to",
+                "nhentai.xxx",
+                "pornploy.com",
+                "rule34video.io",
+                "shittytube.com",
+                "topfapgirls.tv",
+                "www.incestflix.com",
+                "www1.fmovies.top"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/yahoo",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 56,
+            "prevalence": 0.00562,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.gcmutual.bank",
+                "www.anzca.edu.au",
+                "babesource.com",
+                "www.soundandvision.com",
+                "www.prouds.com.au",
+                "www.tangerinetelecom.com.au",
+                "brickset.com",
+                "www.daikin.com.au",
+                "www.speedcafe.com",
+                "www.harpercollins.com.au",
+                "streameasthd.com",
+                "www.stereonet.com",
+                "www.bowls.com.au",
+                "club.shannons.com.au",
+                "ww.putlocker.vip",
+                "www.comedy.co.uk",
+                "www.ellaslist.com.au",
+                "www.understandingwar.org",
+                "www.bowlssa.com.au",
+                "www.scam-detector.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/d\\/a\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 22,
+            "prevalence": 0.00221,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.0002008838891120932
+            },
+            "exampleSites": [
+                "imhentai.xxx",
+                "fapello.tv",
+                "www.beaumont-tiles.com.au",
+                "javseen.tv",
+                "camcaps.to",
+                "joannenova.com.au",
+                "crackstreams.io",
+                "nhentai.xxx",
+                "erothots1.com",
+                "camsweb.net",
+                "ashpublications.org",
+                "1337xto.to",
+                "rule34video.io",
+                "en.yts-official.mx",
+                "topfapgirls.tv",
+                "www1.fmovies.top",
+                "www.incestflix.com",
+                "hianime.to",
+                "nhentai.to",
+                "shittytube.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/js\\/66c7fbc265657100197bd751\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buttons-config"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7b1f569389fe90630731b68ad451b5a0e8006795e0df3a30c2edddb03d9c4372"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "streameasthd.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/reddit\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00171,
+            "cnames": [],
+            "responseHashes": [
+                "dadbb59b37bfea4c78c6e15c8cbb96dfba84526e43a0767dc244fd062a841aba"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aniwatch.cool",
+                "babesource.com",
+                "brickset.com",
+                "gostream.to",
+                "hianime.to",
+                "medevel.com",
+                "nhentai.to",
+                "streameasthd.com",
+                "vidstream.to",
+                "ww.putlocker.vip",
+                "www.amoyshare.com",
+                "www.comedy.co.uk",
+                "www.majorgeeks.com",
+                "www.projectmatilda.com",
+                "www9.gogoanime.me",
+                "ytbdownload.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/telegram\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "03e42b95e9049816d901eabbe2a2247deda61a85972e3a50e3c8274e6c5fe39b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aniwatch.cool",
+                "gostream.to",
+                "hianime.to",
+                "nhentai.to",
+                "streameasthd.com",
+                "vidstream.to",
+                "ww.putlocker.vip",
+                "www.projectmatilda.com",
+                "www9.gogoanime.me"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/messenger\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [
+                "2986551fd9e82929eabb8cba7c44f74a28d8496c744893432f067b320dff55da"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brickset.com",
+                "gostream.to",
+                "streameasthd.com",
+                "vidstream.to",
+                "www.comedy.co.uk",
+                "www.projectmatilda.com",
+                "www9.gogoanime.me",
+                "ytbdownload.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/copy\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "6b959d4422402c39edb23d3d2592e7789bcb24516aaf8ba8f269eaa9d7d2b251"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "streameasthd.com",
+                "www.comedy.co.uk",
+                "www.projectmatilda.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/adobe",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 20,
+            "prevalence": 0.00201,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1337xto.to",
+                "ashpublications.org",
+                "brickset.com",
+                "discover.texasrealfood.com",
+                "gostream.to",
+                "hianime.to",
+                "vcahospitals.com",
+                "vidstream.to",
+                "www.australianlottoresults.com.au",
+                "www.beaurepaires.com.au",
+                "www.beaumont-tiles.com.au",
+                "www.bowls.com.au",
+                "www.comedy.co.uk",
+                "www.daikin.com.au",
+                "www.majorgeeks.com",
+                "www.projectmatilda.com",
+                "www.scam-detector.com",
+                "www.tangerinetelecom.com.au",
+                "www.thestar.com.my",
+                "www.understandingwar.org"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/nexxen",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.00181,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1337xto.to",
+                "ashpublications.org",
+                "brickset.com",
+                "discover.texasrealfood.com",
+                "gostream.to",
+                "hianime.to",
+                "vcahospitals.com",
+                "vidstream.to",
+                "www.australianlottoresults.com.au",
+                "www.beaurepaires.com.au",
+                "www.beaumont-tiles.com.au",
+                "www.comedy.co.uk",
+                "www.daikin.com.au",
+                "www.majorgeeks.com",
+                "www.projectmatilda.com",
+                "www.tangerinetelecom.com.au",
+                "www.thenation.com",
+                "www.thestar.com.my"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/basis",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.00161,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1337xto.to",
+                "ashpublications.org",
+                "brickset.com",
+                "discover.texasrealfood.com",
+                "gostream.to",
+                "hianime.to",
+                "vcahospitals.com",
+                "vidstream.to",
+                "www.australianlottoresults.com.au",
+                "www.beaurepaires.com.au",
+                "www.beaumont-tiles.com.au",
+                "www.comedy.co.uk",
+                "www.daikin.com.au",
+                "www.majorgeeks.com",
+                "www.projectmatilda.com",
+                "www.thestar.com.my"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/id5",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1337xto.to",
+                "camsweb.net",
+                "comicporn.xxx",
+                "crackstreams.io",
+                "cryptonews.com",
+                "fapello.tv",
+                "nhentai.xxx",
+                "pornploy.com",
+                "topfapgirls.tv",
+                "www.incestflix.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/mediamath",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00171,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1337xto.to",
+                "ashpublications.org",
+                "brickset.com",
+                "discover.texasrealfood.com",
+                "gostream.to",
+                "hianime.to",
+                "vcahospitals.com",
+                "vidstream.to",
+                "www.australianlottoresults.com.au",
+                "www.beaurepaires.com.au",
+                "www.beaumont-tiles.com.au",
+                "www.comedy.co.uk",
+                "www.daikin.com.au",
+                "www.majorgeeks.com",
+                "www.projectmatilda.com",
+                "www.thenation.com",
+                "www.thestar.com.my"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/openx",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1337xto.to",
+                "ashpublications.org",
+                "gostream.to",
+                "hianime.to",
+                "vidstream.to",
+                "www.beaumont-tiles.com.au",
+                "www.comedy.co.uk",
+                "www.projectmatilda.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/button\\/buttons\\.js",
+            "cookies": 0.000804,
+            "fingerprinting": 1,
+            "subdomains": [
+                "w",
+                "ws"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 12,
+                "Date.prototype.getTime": 12,
+                "Document.cookie getter": 12,
+                "NavigatorUAData.prototype.brands": 11,
+                "NavigatorUAData.prototype.platform": 11,
+                "NavigatorUAData.prototype.getHighEntropyValues": 11,
+                "Document.cookie setter": 8
+            },
+            "sites": 13,
+            "prevalence": 0.00131,
+            "cnames": [],
+            "responseHashes": [
+                "c06ec88641687c7f653a3e6b3a601130400dc1698afe67c531d693406cd99440"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "st_samesite": {
+                    "ttl": 0,
+                    "length": 1,
+                    "prevalence": 0.0008035355564483728,
+                    "uniqueness": 0.125
+                },
+                "fpestid": {
+                    "ttl": 31535999,
+                    "length": 70,
+                    "prevalence": 0.0003013258336681398,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancensored.com",
+                "plantselector.botanicgardens.sa.gov.au",
+                "strokefoundation.org.au",
+                "vhd.heritagecouncil.vic.gov.au",
+                "www.bowls.com.au",
+                "www.bowlssa.com.au",
+                "www.bowlsvic.org.au",
+                "www.globalresearch.ca",
+                "www.horsleyparkgunshop.com.au",
+                "www.rspcaqld.org.au",
+                "www.scam-detector.com",
+                "www.understandingwar.org",
+                "www.unicef.org"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/loader\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s",
+                "ss"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.appName": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "65b86fc12f3832f3046d33dca119811267d118182b6e504d3862d8556e3cc71b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__unam": {
+                    "ttl": 23515756,
+                    "length": 30,
+                    "prevalence": 0.0002008838891120932,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancensored.com",
+                "www.scam-detector.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/button\\/async-buttons\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {
+                "window.name": 13,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 13,
+            "prevalence": 0.00131,
+            "cnames": [],
+            "responseHashes": [
+                "c92c3814d5c8ef8bd016d9cb4dec18ff0dfca4a3f2b4968207888383095e0197"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancensored.com",
+                "strokefoundation.org.au",
+                "vhd.heritagecouncil.vic.gov.au",
+                "www.bowls.com.au",
+                "www.bowlssa.com.au",
+                "www.bowlsvic.org.au",
+                "www.epa.nsw.gov.au",
+                "www.globalresearch.ca",
+                "www.horsleyparkgunshop.com.au",
+                "www.rspcaqld.org.au",
+                "www.scam-detector.com",
+                "www.understandingwar.org",
+                "www.unicef.org"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/pview",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "l"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_hjTLDTest": 0.0001004419445560466
+            },
+            "exampleSites": [
+                "ancensored.com",
+                "strokefoundation.org.au",
+                "www.rspcaqld.org.au",
+                "www.unicef.org"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/button\\/css\\/buttons-secure\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.00131,
+            "cnames": [],
+            "responseHashes": [
+                "95dc1b83a7c030dd13ab3e29df921f10e04208b28734f172ea232854264c3b05"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancensored.com",
+                "strokefoundation.org.au",
+                "vhd.heritagecouncil.vic.gov.au",
+                "www.bowls.com.au",
+                "www.bowlssa.com.au",
+                "www.bowlsvic.org.au",
+                "www.epa.nsw.gov.au",
+                "www.globalresearch.ca",
+                "www.horsleyparkgunshop.com.au",
+                "www.rspcaqld.org.au",
+                "www.scam-detector.com",
+                "www.understandingwar.org",
+                "www.unicef.org"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/images\\/2017\\/facebook_32\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c2c42136f43a28599c5b6b810653b070787865c7f899c564e9e24926576fee71"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancensored.com",
+                "www.unicef.org"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/images\\/2017\\/linkedin_32\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "91832dd0430ec0feca31e4f008e6dd71db9764ee1e080e9a0a80c8340b4f4b27"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancensored.com",
+                "www.unicef.org"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/secure5x\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "61fb5ada883b89031df45d3c5d34d106b47ef3610964a4150e8b4c3ad364c35b"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancensored.com",
+                "vhd.heritagecouncil.vic.gov.au",
+                "www.horsleyparkgunshop.com.au",
+                "www.rspcaqld.org.au",
+                "www.scam-detector.com",
+                "www.understandingwar.org"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/secure5x\\/js\\/stcommon\\.1f60705adac788a51a8240cf535237b0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "2d200d90966b8380a648972d71130785371751cf24bb7398f2854be23afb4a65"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancensored.com",
+                "vhd.heritagecouncil.vic.gov.au",
+                "www.horsleyparkgunshop.com.au",
+                "www.rspcaqld.org.au",
+                "www.scam-detector.com",
+                "www.understandingwar.org"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/secure5x\\/js\\/st\\.d46c567ef2d922f9ad89eca462444ab6\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Document.cookie getter": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "5d4a01feb41d13176ee653921d64c3f479fc698fe9e5f18e217296b756835900"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancensored.com",
+                "vhd.heritagecouncil.vic.gov.au",
+                "www.horsleyparkgunshop.com.au",
+                "www.rspcaqld.org.au",
+                "www.scam-detector.com",
+                "www.understandingwar.org"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/js\\/64a3d891df473b0019d1b0da\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buttons-config"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "a3d04c97f2b874ccf3b735b3a2929447e2097fce58d1e59cbe8d67383bddb763"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aniwatch.cool",
+                "hianime.to",
+                "nhentai.to"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/ppg\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d1690bddf6e84d768801f264b82cf81ace128702efcc7dd01d44791a8b497360"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brickset.com",
+                "www.australianlottoresults.com.au"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/linkedin\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "cb8c2b19fd9b56c41db14bd71b5c0616c1ba4e99b08c8e75084cf695f74b7120"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shannons.com.au",
+                "medevel.com",
+                "recyclingnearyou.com.au",
+                "www.ellaslist.com.au"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/powr\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "platform-api"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b72a47ae1aef48a901294fb34cc05de9317d40cd8e21e9b6d9d606338317575d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "funeral-notices.co.uk",
+                "www.stereonet.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/js\\/6433be364f61b7001240a339\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buttons-config"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ee08c012fb5f8de8293cd6fe2b407ed26699fa985a169622cb7e93d2f89f7605"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gostream.to",
+                "vidstream.to"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datasphere-sbsvc"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "625e8a013db07b7aaa0f53f638d33870e1091af50c501f6c5c4b893456fa7ba5",
+                "cccb5d232e69dcd1c12ee54f279795e8d45345b3e00b5a4256424aa002721d15",
+                "c14c6b977a2c600df98500040d017f9dd88f246bd54832b879a29883fc15efa8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libgenesis.net",
+                "wordly.org",
+                "www.270towin.com",
+                "www.yourchineseastrology.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/print\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "30e817756a474c7f893057d069f7ed56e1fd4617d70fcf40ac5d58fae5890ede"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libgenesis.net",
+                "www.270towin.com",
+                "www.yourchineseastrology.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/googlebookmarks\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "10cb84fe21c12fd7b21b199af6ea678f9e1f47a349bd26cf6a7d70a47e4b1b9f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libgenesis.net",
+                "www9.gogoanime.me"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/skype\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b69939c41abddbdc9d22db67942f31cf93466284be6024b7b98b789f5caffb58"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thejigsawpuzzles.com",
+                "www.projectmatilda.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/log",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "l"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.0001004419445560466,
+                "lotame_domain_check": 0.0001004419445560466
+            },
+            "exampleSites": [
+                "wordly.org",
+                "www.backyardchickencoops.com.au",
+                "www.holmart.com.au",
+                "www.newsmax.com",
+                "www.techlicious.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/yandex",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alibaba.com",
+                "www.okx.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/blogger\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2b68a13f6d142fc5e69efc0ca98c093d894325ee0d2064463ca0da80a6da2c4b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amoyshare.com",
+                "www.yourchineseastrology.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/js\\/5cf6f1c54351e9001264f4d5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buttons-config"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "2c29defe29114d0e8b948e78d50ebb281035df53a9167089deb1e77e801bbd2f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anguscoote.com.au",
+                "www.goldmark.com.au",
+                "www.prouds.com.au"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/facebook-white\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2f3a7818f88c8afbe9111ed9f13f12e37a2ad56f87b54dc0dd19b2c372d3f6c8"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anzca.edu.au",
+                "www.asknumbers.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/twitter-white\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4842f835de39abaa449973e6beb13260b52d1bace5843d2246369fc3e4e8034d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anzca.edu.au",
+                "www.asknumbers.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/img\\/email-white\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5110c1e29bb22f0c8ae1b7af3c994dd4f580d05d8773f5fb1f031b5ce1560c83"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anzca.edu.au",
+                "www.asknumbers.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/oiq",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "avis.com",
+                "www.hoka.com"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/secure\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "a8be6d04466f8a2b2117e386c68248fa254b675420c346a10ffaf47ee1c4e533"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bowls.com.au",
+                "www.bowlssa.com.au",
+                "www.bowlsvic.org.au",
+                "www.epa.nsw.gov.au",
+                "www.globalresearch.ca",
+                "www.unicef.org"
+            ]
+        },
+        {
+            "rule": "sharethis\\.com\\/secure\\/js\\/st\\.3b9f3f69dc50facea4e7ccac2c236448\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Document.cookie getter": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "3d0d76fdc0b6003bf282c7c3ad68d43c77488139d1b3f05c24dea95fc5729c1d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bowls.com.au",
+                "www.bowlssa.com.au",
+                "www.bowlsvic.org.au",
+                "www.epa.nsw.gov.au",
+                "www.globalresearch.ca",
+                "www.unicef.org"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Third-Party Analytics Marketing",
+        "Social - Share",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.0104,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7948717948717948
+        },
+        {
+            "domain": "dtscout.com",
+            "prevalence": 0.09743589743589744
+        },
+        {
+            "domain": "crwdcntrl.net",
+            "prevalence": 0.046153846153846156
+        },
+        {
+            "domain": "trackjs.com",
+            "prevalence": 0.015384615384615385
+        },
+        {
+            "domain": "yandex.ru",
+            "prevalence": 0.010256410256410256
+        },
+        {
+            "domain": "owneriq.net",
+            "prevalence": 0.010256410256410256
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.010256410256410256
+        },
+        {
+            "domain": "creative-serving.org",
+            "prevalence": 0.005128205128205128
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.005128205128205128
+        },
+        {
+            "domain": "ccgateway.net",
+            "prevalence": 0.005128205128205128
+        }
+    ],
+    "types": {
+        "Script": 331,
+        "XHR": 159,
+        "Image": 682,
+        "Document": 89,
+        "Stylesheet": 13
+    },
+    "nameservers": [
+        "ns-1529.awsdns-63.org",
+        "ns-1617.awsdns-10.co.uk",
+        "ns-378.awsdns-47.com",
+        "ns-773.awsdns-32.net"
+    ]
+}

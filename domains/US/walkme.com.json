@@ -1,0 +1,4744 @@
+{
+    "domain": "walkme.com",
+    "owner": {
+        "name": "WalkMe LTD",
+        "displayName": "WalkMe"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000376,
+    "sites": 55,
+    "subdomains": [
+        "cdn",
+        "ec",
+        "playerserver",
+        "papi",
+        "ec-playback"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "walkme\\.com\\/player\\/resources\\/wmjQuery1715\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Date.prototype.getTime": 5,
+                "Event.prototype.timeStamp": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "56c3f4f36d43b9b4331e7e60daf59f0bf314e4e02907983f491bfb7fd205425a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "accela.com",
+                "community.esri.com",
+                "community.netapp.com",
+                "www.jnjvisionpro.com",
+                "www.mycnhstore.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/walkme_lib_20240115-104219-dd6b8f04\\.br\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.sessionStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1dec67888a9019b85de8badfc7da0cc898a5dafd07c60014a4f3dac37179d78b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "wm_load_test_01c65c34a5d141bbac172b11d8b9fcbf_0": {
+                    "ttl": 2,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "wm_load_test_498b95526ef143d091ffecba1688e5cc_0": {
+                    "ttl": 12,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "accela.com",
+                "community.esri.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20240115-104219-dd6b8f04\\.br\\/29\\.3e562ef0\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "16e11f49df4f43cf32730b754db34a4d65cf0686ca25f26d4c937824e7acc6b2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "accela.com",
+                "community.esri.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20240115-104219-dd6b8f04\\.br\\/45\\.c6515566\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3f6a144a233528bcc32b7708a01f78e9afe78f8936fbf67e8226d5218ede994d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "accela.com",
+                "community.esri.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/resources\\/fonts\\/notosans\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.000082,
+            "cnames": [],
+            "responseHashes": [
+                "04492dc91f7b11414946c67dda4b85fba53e4ad6e76237095b73b30d1c6bbe5d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "accela.com",
+                "arizonadigestivehealth.com",
+                "dermskinhealth.com",
+                "dhat.com",
+                "docs.servicenow.com",
+                "ibx.key.com",
+                "mvp.sos.ga.gov",
+                "support.servicenow.com",
+                "tddctx.com",
+                "www.gastroconsa.com",
+                "www.idexx.com",
+                "www.twinspires.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/event\\/postEvent",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ec"
+            ],
+            "apis": {},
+            "sites": 24,
+            "prevalence": 0.000164,
+            "cnames": [],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mvp.sos.ga.gov",
+                "www.idexx.com",
+                "member.my.healthequity.com",
+                "participant.wageworks.com",
+                "tddctx.com",
+                "www.estes-express.com",
+                "www.twinspires.com",
+                "dhat.com",
+                "community.esri.com",
+                "www.orgill.com",
+                "shop.sgproof.com",
+                "www.amerigas.com",
+                "www.bcbstx.com",
+                "www.myamerigas.com",
+                "www.bcbsil.com",
+                "www.gastroconsa.com",
+                "www.jnjvisionpro.com",
+                "community.netapp.com",
+                "accela.com",
+                "www.bcbsmt.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/187c308966e74ecdb3ec0ac38fa35343\\/walkme_187c308966e74ecdb3ec0ac38fa35343_https\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.vendor": 3,
+                "Navigator.prototype.platform": 3,
+                "window.devicePixelRatio": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "9df770cd11b346ca206e480c2e036c458e8dd4f3a792d2b5ec120d31df7d0116"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arizonadigestivehealth.com",
+                "dermskinhealth.com",
+                "dhat.com",
+                "tddctx.com",
+                "www.gastroconsa.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/187c308966e74ecdb3ec0ac38fa35343\\/settings\\.txt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "26e62b6a9d8c9d63ffb2ab8cc377decabd30d740ba30d0c338814880432a9444"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arizonadigestivehealth.com",
+                "dermskinhealth.com",
+                "dhat.com",
+                "tddctx.com",
+                "www.gastroconsa.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/resources\\/wmjQuery360\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Event.prototype.timeStamp": 4,
+                "Element.prototype.getClientRects": 5
+            },
+            "sites": 19,
+            "prevalence": 0.00013,
+            "cnames": [],
+            "responseHashes": [
+                "41549a387785352a5ee11381a3fd323aec93b6e9b518ce3e598396235d4b59f5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arizonadigestivehealth.com",
+                "dermskinhealth.com",
+                "dhat.com",
+                "docs.servicenow.com",
+                "empowerretirementplan.empower-retirement.com",
+                "ibx.key.com",
+                "ira.empower-retirement.com",
+                "my.alldata.com",
+                "myaccountviewonline.com",
+                "newsroom.ap.org",
+                "participant.empower-retirement.com",
+                "participant.wageworks.com",
+                "support.servicenow.com",
+                "tddctx.com",
+                "www.amerigas.com",
+                "www.estes-express.com",
+                "www.gastroconsa.com",
+                "www.idexx.com",
+                "www.myamerigas.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/187c308966e74ecdb3ec0ac38fa35343\\/scripts\\/prelib-plugin-7c9ac061-ce88-35d8-a5c1-342fe5aded6f\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "window.localStorage": 4,
+                "Navigator.prototype.userAgent": 5,
+                "window.sessionStorage": 4,
+                "PerformanceTiming.prototype.navigationStart": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "36d74eca4031c3b91cb68b44240dd47cf8730802d91528500ec77a70b3cd158f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arizonadigestivehealth.com",
+                "dermskinhealth.com",
+                "dhat.com",
+                "tddctx.com",
+                "www.gastroconsa.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/walkme_lib_20241009-131950-a5b3f20f-b3d80f54\\.br\\.js",
+            "cookies": 0.0000342,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 9,
+                "window.localStorage": 8,
+                "window.devicePixelRatio": 8,
+                "Document.cookie getter": 8,
+                "Date.prototype.getTime": 9,
+                "Document.cookie setter": 5,
+                "Screen.prototype.height": 6,
+                "Screen.prototype.width": 6,
+                "Navigator.prototype.platform": 6,
+                "Date.prototype.getTimezoneOffset": 6,
+                "window.sessionStorage": 5
+            },
+            "sites": 9,
+            "prevalence": 0.0000615,
+            "cnames": [],
+            "responseHashes": [
+                "5ee74d85ce6cd2b1e4af8c34e7ba1e05d3e63d766bbadfc68bb9947e5233c92b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "wm_load_test_187c308966e74ecdb3ec0ac38fa35343_0": {
+                    "ttl": 7,
+                    "length": 1,
+                    "prevalence": 0.0000273280043724807,
+                    "uniqueness": 0.25
+                },
+                "wm_load_test_0ce9325c7b214554b7343ce09ac5cd42_0": {
+                    "ttl": 8,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arizonadigestivehealth.com",
+                "dermskinhealth.com",
+                "dhat.com",
+                "empowerretirementplan.empower-retirement.com",
+                "ira.empower-retirement.com",
+                "participant.empower-retirement.com",
+                "participant.wageworks.com",
+                "tddctx.com",
+                "www.gastroconsa.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/187c308966e74ecdb3ec0ac38fa35343\\/walkme_config_f1b949a104f44b05a0748357bb2fc907\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "aeb1648aa595b5ce1b2e5065cc584adc60f194ffc2fd295d369eef50eec5dbac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arizonadigestivehealth.com",
+                "dermskinhealth.com",
+                "dhat.com",
+                "tddctx.com",
+                "www.gastroconsa.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20241009-131950-a5b3f20f-b3d80f54\\.br\\/9\\.63378662\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "c15d407eca98b37d6a6f19164f5bf4d7f43e0a96ed925e8c8fb0860f4822fde5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arizonadigestivehealth.com",
+                "dermskinhealth.com",
+                "dhat.com",
+                "participant.wageworks.com",
+                "tddctx.com",
+                "www.gastroconsa.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/187c308966e74ecdb3ec0ac38fa35343\\/custom_css_f1b949a104f44b05a0748357bb2fc907\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "cba693b422929e42e74f26aa97e5059c725aa1f9dfcd8439fc012c20ed19ece9"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arizonadigestivehealth.com",
+                "dermskinhealth.com",
+                "dhat.com",
+                "tddctx.com",
+                "www.gastroconsa.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/187c308966e74ecdb3ec0ac38fa35343\\/data_f1b949a104f44b05a0748357bb2fc907\\.br\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "36be8b1f1eb4d37163f34497e81b5899bd085c7391548d3bf0f92dcf3cf6e5d9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arizonadigestivehealth.com",
+                "dermskinhealth.com",
+                "dhat.com",
+                "tddctx.com",
+                "www.gastroconsa.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20241009-131950-a5b3f20f-b3d80f54\\.br\\/30\\.e2e066dd\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "a78f4fe965bbfd43733373276abd9a8c942f6a4a8166896d8d5d51b728f1052f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arizonadigestivehealth.com",
+                "dermskinhealth.com",
+                "dhat.com",
+                "participant.wageworks.com",
+                "tddctx.com",
+                "www.gastroconsa.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20241009-131950-a5b3f20f-b3d80f54\\.br\\/46\\.500ff4bb\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "0b9389c95137553d6a9f13c69e51b5d795201a14ac0b6a5a8105c2a953726038"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arizonadigestivehealth.com",
+                "dermskinhealth.com",
+                "dhat.com",
+                "tddctx.com",
+                "www.gastroconsa.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/EndUserStorage\\/Get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "playerserver"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "d26c118f871e0a4402c022ef72e78883817194771d5d4bdba11750f5f4aec766",
+                "c4b37ffffe97ee86669c773a12413c537a1514d5042411e7ce075e715354ba5a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ajs_anonymous_id": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "ibm.com",
+                "community.netapp.com",
+                "participant.wageworks.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/conditions\\/evaluatedConditions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "papi"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+                "0031dee22489cfb76136c62fd8d7fa40feb32ae7e4d39fc15c9e84e61d7e773d",
+                "3b6a13323cbd2839e9c06d3172df140fd0a1bcb77101ebfe9037d348c57f9978",
+                "aa4aef09aeab372509dbc5e3ff42dd6bd7cf7e94a60d4c79d934292cd22816b0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ajs_anonymous_id": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "ibm.com",
+                "community.esri.com",
+                "community.netapp.com",
+                "member.my.healthequity.com",
+                "www.idexx.com",
+                "www.twinspires.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/ToDoList\\/UserCompletedTasksByIdsAndGoalsIds",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "playerserver"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000615,
+            "cnames": [],
+            "responseHashes": [
+                "3066a67985876278a3166a366b4d1e0cb422c8538b4fabcd0d7dfced5eb81cc5",
+                "5e2b3da8932f9d6da996614880fe8ba901ff059ea44800e3b4b09b4638203173",
+                "344f1b999192e44740b15aa94181b5cb9a89a003c6e5c436051412337a25a6c1",
+                "9d9a28bcf4208db93e988e1c9e6e343835ed0ad89858afa036ce12b1300e4790",
+                "2e2d7f4486209516cbcb47b97e356d22fa95be545b22c40d6572030a0ec93033",
+                "6d81769f441e41bd3a642977bf4a8eda13a8585a86d58198df2d5ff53a9deb7a",
+                "b120cbed143e021b48579559a763dce8fbb3bbe3edef7c27a1a97ecb664a979d",
+                "695f02d3df5f890ae7560f7ef9318a67529a38916f1dc0be1b2b8aa47cc3ae48"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ajs_anonymous_id": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "ibm.com",
+                "community.netapp.com",
+                "member.my.healthequity.com",
+                "www.bcbsil.com",
+                "www.bcbsmt.com",
+                "www.bcbsok.com",
+                "www.bcbstx.com",
+                "www.idexx.com",
+                "www.jnjvisionpro.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/498b95526ef143d091ffecba1688e5cc\\/walkme_498b95526ef143d091ffecba1688e5cc_https\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.platform": 2,
+                "window.devicePixelRatio": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "92f9b8aedeee0f21b76382728e6d829c16c3c9e1baf1f1d5035265d2ca85f843"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "esri.com",
+                "community.esri.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/498b95526ef143d091ffecba1688e5cc\\/settings\\.txt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6ad6794ba3e53b0a6378b788649189caaa2af49c730b63eade3a0e814a98ba27"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "esri.com",
+                "community.esri.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/498b95526ef143d091ffecba1688e5cc\\/walkme_config_ec11defce9774747a6fda21b1a7604a5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "de415b94799848bc5897ee0c29e6ca84047dd29b351388b758611f6f20533f6c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "esri.com",
+                "community.esri.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/498b95526ef143d091ffecba1688e5cc\\/data_dfa3af4e8eff41e4b287f854e763c3ca\\.br\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "603a5cda2c1303cdeeda67915cb769846d325fc3062f26fa926d79ebe6af1237"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "esri.com",
+                "community.esri.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20240115-104219-dd6b8f04\\.br\\/resources\\/CD\\/cdHiddenIframeScript\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ddab192869f16ddcfbcbb9ed4372c4c1f5dc4ed47a1045287ac15699b33c1213"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "esri.com",
+                "community.esri.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20240115-104219-dd6b8f04\\.br\\/resources\\/CD\\/CDhiddenIframe\\.compress\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3d6f68208d81986efdc1baa74dc3a937ee7561697bc7b0b9d2159a31e161141f"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "esri.com",
+                "community.esri.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/498b95526ef143d091ffecba1688e5cc\\/custom_css_dfa3af4e8eff41e4b287f854e763c3ca\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9b9ccfe9e416a931fd720744bb892b27622a7be9c2f60e7265ba64f9f301eaa9"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "esri.com",
+                "community.esri.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/event\\/log",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ec"
+            ],
+            "apis": {},
+            "sites": 20,
+            "prevalence": 0.000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "esri.com",
+                "community.esri.com",
+                "docs.servicenow.com",
+                "ibx.key.com",
+                "member.my.healthequity.com",
+                "mvp.sos.ga.gov",
+                "myaccount.nipsco.com",
+                "newsroom.ap.org",
+                "participant.wageworks.com",
+                "shop.sgproof.com",
+                "support.servicenow.com",
+                "www.amerigas.com",
+                "www.columbiagasohio.com",
+                "www.columbiagaspa.com",
+                "www.columbiagasva.com",
+                "www.jnjvisionpro.com",
+                "www.myamerigas.com",
+                "www.nipsco.com",
+                "www.orgill.com",
+                "www.repairlinkshop.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/resources\\/fonts\\/opensans\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 24,
+            "prevalence": 0.000164,
+            "cnames": [],
+            "responseHashes": [
+                "db6b25bb6ccabdbd425d7b1c871c5d0b3588cc5c51936d4f6ecaa8f92c6e7b03"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "support.servicenow.com",
+                "www.bcbsmt.com",
+                "www.bcbsok.com",
+                "www.bcbsil.com",
+                "docs.servicenow.com",
+                "esri.com",
+                "www.idexx.com",
+                "community.esri.com",
+                "myaccount.nipsco.com",
+                "shop.sgproof.com",
+                "www.repairlinkshop.com",
+                "member.my.healthequity.com",
+                "www.bcbstx.com",
+                "www.amerigas.com",
+                "www.columbiagasohio.com",
+                "www.nipsco.com",
+                "www.columbiagaspa.com",
+                "www.myamerigas.com",
+                "www.columbiagasva.com",
+                "community.netapp.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/af330d01833b44fa877a866ecc7a34f5\\/settings\\.txt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "52a0a923bfcbb857fece024558448a70300f9eeea767d3b62beb1bc9bd548651"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "netapp.com",
+                "community.netapp.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/EndUserStorage\\/Update",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "playerserver"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "b05092ec35deb87372f57c7c24d75658f6debfd8499b5956623ff28d289065b6",
+                "c97602406a6d6f1bc213e4c5bc356cc10c905eaf4129c59f94eb423ca07e49fa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "netapp.com",
+                "community.netapp.com",
+                "participant.wageworks.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/f676808318934ec3a6a525fb6c9a6c45\\/walkme_f676808318934ec3a6a525fb6c9a6c45_https\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.devicePixelRatio": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6f388ced646b87e76c68897d26fab90b944771c498545c9e1423ce44d3e4f179"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servicenow.com",
+                "support.servicenow.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/f676808318934ec3a6a525fb6c9a6c45\\/settings\\.txt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "cd212976abc4b326dd5db766c5b2d1dc2b30a3535a47fb4f160e087b35f10002"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servicenow.com",
+                "docs.servicenow.com",
+                "support.servicenow.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/f676808318934ec3a6a525fb6c9a6c45\\/scripts\\/prelib-plugin-93e609d7-266f-3441-8c76-62e583a84ecc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e7b220b66ac5a5e1416244392fa0e35a7888c49f7ffa00e30befd6a61b485342"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servicenow.com",
+                "support.servicenow.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/walkme_lib_20241106-123033-54bde7ea-1e505cb0\\.br\\.js",
+            "cookies": 0.000082,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 14,
+                "window.localStorage": 14,
+                "window.devicePixelRatio": 14,
+                "Document.cookie getter": 14,
+                "Date.prototype.getTime": 14,
+                "Navigator.prototype.languages": 2,
+                "Screen.prototype.height": 12,
+                "Screen.prototype.width": 12,
+                "Navigator.prototype.platform": 12,
+                "Date.prototype.getTimezoneOffset": 12,
+                "Document.cookie setter": 12,
+                "window.sessionStorage": 9,
+                "window.innerWidth": 4
+            },
+            "sites": 14,
+            "prevalence": 0.0000956,
+            "cnames": [],
+            "responseHashes": [
+                "3f1e0920424f6ec3bc0be240de2715cf58f8d1efc04e40b2d7e5492fcec2d87a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "wm_load_test_f676808318934ec3a6a525fb6c9a6c45_0": {
+                    "ttl": 7,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "wm_load_test_f3599f85f2a2440f8e7e8178c44f1199_0": {
+                    "ttl": 13,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "wm_load_test_5f757a3688d54e1d92063ab8391024da_0": {
+                    "ttl": 20,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "wm-dmn": {
+                    "ttl": 607,
+                    "length": 13,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "wm-ueug": {
+                    "ttl": 63072007,
+                    "length": 42,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "wm-fgug": {
+                    "ttl": 63072007,
+                    "length": 4,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "sessionCreation": {
+                    "ttl": 7,
+                    "length": 9,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "wm-session-per-user": {
+                    "ttl": 604813,
+                    "length": 226,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "wm-ds-s": {
+                    "ttl": 608,
+                    "length": 8,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "wm_load_test_97d1b52cff1c40f7813e1d3a88cf2912_0": {
+                    "ttl": 8,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "wm-cseu-id": {
+                    "ttl": 63072012,
+                    "length": 42,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "wm-deepui-use-eks": {
+                    "ttl": 31536012,
+                    "length": 4,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "wm-deepui-lexicon-enabled-for-data-file": {
+                    "ttl": 31536012,
+                    "length": 5,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "wm-deepui-end-user-rand": {
+                    "ttl": 604813,
+                    "length": 19,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "wm-ueuT": {
+                    "ttl": 84282,
+                    "length": 42,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "wm-hb": {
+                    "ttl": 604813,
+                    "length": 34,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "wm-deepui-user-mapping-updated-at": {
+                    "ttl": 31536013,
+                    "length": 13,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "wm-smtp-init": {
+                    "ttl": 613,
+                    "length": 14,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "wm_load_test_fdaa8d240b284eefa4644c18c1d61f47_3": {
+                    "ttl": 7,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "wm_load_test_fdaa8d240b284eefa4644c18c1d61f47_0": {
+                    "ttl": 7,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "wm_load_test_42041de55902408a85f150aca6b4dee0_0": {
+                    "ttl": 2,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "wm_load_test_c7fed0e420f2448492ff92519e46c9ba_0": {
+                    "ttl": 2,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servicenow.com",
+                "member.my.healthequity.com",
+                "my.alldata.com",
+                "myaccount.ingramspark.com",
+                "shop.sgproof.com",
+                "support.servicenow.com",
+                "www.amerigas.com",
+                "www.bcbsil.com",
+                "www.bcbsmt.com",
+                "www.bcbsok.com",
+                "www.bcbstx.com",
+                "www.idexx.com",
+                "www.myamerigas.com",
+                "www.repairlinkshop.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/f676808318934ec3a6a525fb6c9a6c45\\/walkme_config_e9e67ca526bf4545aa8df9ad3e0a58c4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ac55f94f42f06ab87a911cb0937bafb0e13f35539ee54b90918d2ce5af845580"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servicenow.com",
+                "support.servicenow.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/f676808318934ec3a6a525fb6c9a6c45\\/external-data\\/insights-configuration\\/insights_configuration_28f392af3dbc46208d3e4d86c5f03cc0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fb153402ba70c0a381b1e9924b3d90fb40729735c3e9c1372b6cdc9594a329fe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servicenow.com",
+                "support.servicenow.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/ic\\/idp\\/0\\.54\\.1\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "562164e9f5fb67967b936c7e3c3c833b5eb149b71876c4fd5000216db018aeb4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servicenow.com",
+                "support.servicenow.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/ic\\/idp\\/p\\/f676808318934ec3a6a525fb6c9a6c45\\/settings\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "papi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d73d64520f0aba7101186b3530a388366f692a9e100048c2c16af464299c4bd8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servicenow.com",
+                "support.servicenow.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/ic\\/idp\\/p\\/f676808318934ec3a6a525fb6c9a6c45\\/settings\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "papi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servicenow.com",
+                "support.servicenow.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/event\\/log",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ec"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servicenow.com",
+                "support.servicenow.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/f676808318934ec3a6a525fb6c9a6c45\\/custom_css_e9e67ca526bf4545aa8df9ad3e0a58c4\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "adcfa1dde3f77dbcd423f45086206f6bd8affef04c52625e508e2f5a9174afb7"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servicenow.com",
+                "support.servicenow.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/f676808318934ec3a6a525fb6c9a6c45\\/data_e9e67ca526bf4545aa8df9ad3e0a58c4\\.br\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6fa12a48394a04f357b49c0b29dcf5e0b36153804f269d74531ef7b665eb84a0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servicenow.com",
+                "support.servicenow.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/f676808318934ec3a6a525fb6c9a6c45\\/runtime_data\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "325dbfb06e612bb413c4664871c6d4c7c68c5c047a1aa9a75f10613917e30e79"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servicenow.com",
+                "support.servicenow.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20241106-123033-54bde7ea-1e505cb0\\.br\\/12\\.f2ca3e22\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 9
+            },
+            "sites": 9,
+            "prevalence": 0.0000615,
+            "cnames": [],
+            "responseHashes": [
+                "2baa19158541e216adb0d12af46ce668b581a9b9e566fe779d0b8b900f54be9b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servicenow.com",
+                "member.my.healthequity.com",
+                "support.servicenow.com",
+                "www.amerigas.com",
+                "www.bcbsil.com",
+                "www.bcbsmt.com",
+                "www.bcbsok.com",
+                "www.bcbstx.com",
+                "www.myamerigas.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/deepui\\/0\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 16,
+                "Navigator.prototype.product": 16,
+                "Navigator.prototype.userAgent": 16,
+                "Performance.prototype.memory": 16
+            },
+            "sites": 16,
+            "prevalence": 0.000109,
+            "cnames": [],
+            "responseHashes": [
+                "f93efac5732e859cbeb68845312f3976edd12a8c3f2494ccba226cc4ae05b732"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servicenow.com",
+                "ibx.key.com",
+                "member.my.healthequity.com",
+                "mvp.sos.ga.gov",
+                "participant.wageworks.com",
+                "shop.sgproof.com",
+                "support.servicenow.com",
+                "www.amerigas.com",
+                "www.bcbsil.com",
+                "www.bcbsmt.com",
+                "www.bcbsok.com",
+                "www.bcbstx.com",
+                "www.estes-express.com",
+                "www.idexx.com",
+                "www.jnjvisionpro.com",
+                "www.myamerigas.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20241106-123033-54bde7ea-1e505cb0\\.br\\/30\\.e6ef1fb5\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 12
+            },
+            "sites": 12,
+            "prevalence": 0.000082,
+            "cnames": [],
+            "responseHashes": [
+                "cd61d92c392327375c77c01fa7b0be08f6aa23f5bfa60095d9a816143f1e5e1c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servicenow.com",
+                "member.my.healthequity.com",
+                "shop.sgproof.com",
+                "support.servicenow.com",
+                "www.amerigas.com",
+                "www.bcbsil.com",
+                "www.bcbsmt.com",
+                "www.bcbsok.com",
+                "www.bcbstx.com",
+                "www.idexx.com",
+                "www.myamerigas.com",
+                "www.repairlinkshop.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20241106-123033-54bde7ea-1e505cb0\\.br\\/52\\.fa97189f\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "4d783d2317a5a0e7dfc75fecc1da7d9a72a62b00eea3ed4c42a1073717fef008"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servicenow.com",
+                "support.servicenow.com",
+                "www.repairlinkshop.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/deepui\\/p\\/user\\/f676808318934ec3a6a525fb6c9a6c45\\/0\\/e9e67ca526bf4545aa8df9ad3e0a58c4\\/data_lang-en\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "349f36bdfcb74ba7466cbb77951f7bbeaf77fa2699e7c146ec542da405ac9cd7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servicenow.com",
+                "support.servicenow.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/deepui\\/0\\/1\\.055469c4a45b2f1297d5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.000109,
+            "cnames": [],
+            "responseHashes": [
+                "9df88ca74e8a5e2300b99d7ebd95614eabaa8b6df8a208089db3cf7c206b5210"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servicenow.com",
+                "ibx.key.com",
+                "member.my.healthequity.com",
+                "mvp.sos.ga.gov",
+                "participant.wageworks.com",
+                "shop.sgproof.com",
+                "support.servicenow.com",
+                "www.amerigas.com",
+                "www.bcbsil.com",
+                "www.bcbsmt.com",
+                "www.bcbsok.com",
+                "www.bcbstx.com",
+                "www.estes-express.com",
+                "www.idexx.com",
+                "www.jnjvisionpro.com",
+                "www.myamerigas.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/resources\\/fonts\\/widget-font_v3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "00b34a8abd63ed3d9c8a68eb3115a718f6d32e4df1ea4aa6b2b31056efff691f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servicenow.com",
+                "support.servicenow.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/resources\\/fonts\\/poppins\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "6f89cdcf493e7240672536fc42e5854a3854f70a36599284afd6a43733a7a77e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servicenow.com",
+                "support.servicenow.com",
+                "www.idexx.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/resources\\/fonts\\/proxima-nova\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "bcbcbcce818c214511eef5af4104498fd6e05fe36d02b12647b78b4a75adc2d7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servicenow.com",
+                "support.servicenow.com",
+                "www.bcbsok.com",
+                "www.idexx.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20241106-123033-54bde7ea-1e505cb0\\.br\\/4\\.bd75b626\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2d3d9da5649ee32bd75b505118dafc371f7b25756829eee7fb9c968165973ea1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servicenow.com",
+                "support.servicenow.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/c39541e892a643ec8f634a77c5b5f2c0\\/walkme_c39541e892a643ec8f634a77c5b5f2c0_https\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.platform": 3,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.vendor": 3,
+                "window.devicePixelRatio": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "c7d5a74805825f0059351557d19365143eb925976e8311905ad92556cfeb9853"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "empower-retirement.com",
+                "ira.empower-retirement.com",
+                "participant.empower-retirement.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/c39541e892a643ec8f634a77c5b5f2c0\\/settings\\.txt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "2c4e359cc249400150545b008e20248969620e7f80c93b030f3dcc0d6a1c9c62"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "empower-retirement.com",
+                "ira.empower-retirement.com",
+                "participant.empower-retirement.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/c39541e892a643ec8f634a77c5b5f2c0\\/scripts\\/prelib-plugin-1817741f-89f1-3583-a2ec-ee3444313ff2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "f99750593ef4eaecda429c04384b5e13de9663499f8693e4e3eac084e1315547"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "empower-retirement.com",
+                "ira.empower-retirement.com",
+                "participant.empower-retirement.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/c39541e892a643ec8f634a77c5b5f2c0\\/walkme_config_2478d607ab9848e9b29b2de4494ad75f\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "aa41bf34e1c5a631144ffccc54f87cc8cf3b5382328ad16443f5ed545ad08423"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "empower-retirement.com",
+                "ira.empower-retirement.com",
+                "participant.empower-retirement.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/walkme_lib_20240912-113337-83e0f8f9-2d973a2e\\.br\\.js",
+            "cookies": 0.0000342,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 6,
+                "window.devicePixelRatio": 6,
+                "Date.prototype.getTime": 6,
+                "window.sessionStorage": 1,
+                "Screen.prototype.height": 6,
+                "Screen.prototype.width": 6,
+                "Navigator.prototype.platform": 6,
+                "Date.prototype.getTimezoneOffset": 6,
+                "Document.cookie getter": 5,
+                "Document.cookie setter": 5
+            },
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "88eeb5e708aa6f57325dbc077fc6a0f33792a4cafb4e9c06034cdf3b53ba6863"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "wm_load_test_c7ad4ebff0b04409a5be4210cdf41447_0": {
+                    "ttl": 5,
+                    "length": 1,
+                    "prevalence": 0.00003416000546560088,
+                    "uniqueness": 0.2
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "key.com",
+                "myaccount.nipsco.com",
+                "www.columbiagasohio.com",
+                "www.columbiagaspa.com",
+                "www.columbiagasva.com",
+                "www.nipsco.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20240912-113337-83e0f8f9-2d973a2e\\.br\\/30\\.1b6a1f24\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "4fc303f1e92ea92b7f48f3249c339367c6f8a5ec2f1d2638df2da9ba50b2ed79"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "key.com",
+                "myaccount.nipsco.com",
+                "www.columbiagasohio.com",
+                "www.columbiagaspa.com",
+                "www.columbiagasva.com",
+                "www.nipsco.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/deepui\\/p\\/user\\/440720a23f3046b8b4444093d5c39507\\/0\\/f24366f1aa7547ff8ab79d3f7b1a6622\\/data_lang-en\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cc73fdce06c840098616cb822f859f61d0ed0b876b5e01372e6f94ddab20dae4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "key.com",
+                "ibx.key.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/6ecf0ce99be34cfdb9b0fa1e5057bb9b\\/test\\/walkme_6ecf0ce99be34cfdb9b0fa1e5057bb9b_https\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "informatica.com",
+                "knowledge.informatica.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/f3599f85f2a2440f8e7e8178c44f1199\\/walkme_f3599f85f2a2440f8e7e8178c44f1199_https\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.devicePixelRatio": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2ee27882571236c816f5078063d9df1e97c02ff9f20b560f2612a396d0e31bb4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthequity.com",
+                "member.my.healthequity.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/f3599f85f2a2440f8e7e8178c44f1199\\/settings\\.txt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthequity.com",
+                "member.my.healthequity.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/resources\\/wmjQuery33121\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Event.prototype.timeStamp": 7,
+                "Element.prototype.getClientRects": 7
+            },
+            "sites": 16,
+            "prevalence": 0.000109,
+            "cnames": [],
+            "responseHashes": [
+                "4c39cb66f7f70d491df03c9483665b7aa362d889daebc31d1d98305f34b7e3af"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthequity.com",
+                "member.my.healthequity.com",
+                "mvp.sos.ga.gov",
+                "myaccount.ingramspark.com",
+                "myaccount.nipsco.com",
+                "shop.sgproof.com",
+                "www.bcbsil.com",
+                "www.bcbsmt.com",
+                "www.bcbsok.com",
+                "www.bcbstx.com",
+                "www.columbiagasohio.com",
+                "www.columbiagaspa.com",
+                "www.columbiagasva.com",
+                "www.nipsco.com",
+                "www.repairlinkshop.com",
+                "www.twinspires.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/f3599f85f2a2440f8e7e8178c44f1199\\/scripts\\/prelib-plugin-2b1c8fb1-26c3-3a17-83d6-3b2a0364d054\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Date.prototype.getTime": 2,
+                "URL.createObjectURL": 2,
+                "window.screenLeft": 2,
+                "Screen.prototype.availLeft": 2,
+                "window.screenTop": 2,
+                "Screen.prototype.availTop": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cc08c3740148138cd11a3011b8a8bf1225956a671be71a80196eadd0a378c31d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthequity.com",
+                "member.my.healthequity.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/f3599f85f2a2440f8e7e8178c44f1199\\/walkme_config_e516c62eaa394847ba4b221b16c0f319\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "33675c268f7fd319a3fc81017b7c071e2dd59f7e39274b6d7bcdf32f114a2633"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthequity.com",
+                "member.my.healthequity.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/f3599f85f2a2440f8e7e8178c44f1199\\/external-data\\/insights-configuration\\/insights_configuration_6ac3d0c53cdd4ac5aa46b5c7907d944f\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthequity.com",
+                "member.my.healthequity.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20241106-123033-54bde7ea-1e505cb0\\.br\\/resources\\/CD\\/cdHiddenIframeScript\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "ddab192869f16ddcfbcbb9ed4372c4c1f5dc4ed47a1045287ac15699b33c1213"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthequity.com",
+                "member.my.healthequity.com",
+                "shop.sgproof.com",
+                "www.repairlinkshop.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20241106-123033-54bde7ea-1e505cb0\\.br\\/resources\\/CD\\/CDhiddenIframe\\.compress\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "d617ef3b7c9199e45ce3214f3da46388ee8d70bd56bbdfee918b6f7b3eb33140"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthequity.com",
+                "member.my.healthequity.com",
+                "shop.sgproof.com",
+                "www.repairlinkshop.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20241106-123033-54bde7ea-1e505cb0\\.br\\/9\\.dfaebf44\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "2beedee41353bbe33c138954ca56107742ca7bd6695e376557419e17f896450b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthequity.com",
+                "member.my.healthequity.com",
+                "myaccount.ingramspark.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/f3599f85f2a2440f8e7e8178c44f1199\\/runtime_data\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77a78debe245fca54ba84ee421ece965e98d79558357d5718d3af136b2a33699"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthequity.com",
+                "member.my.healthequity.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20241106-123033-54bde7ea-1e505cb0\\.br\\/24\\.91d09ec5\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "838f65992bea13dadb0d0cda70090c677be47b17a7cf50caa68b8b721e9139dd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthequity.com",
+                "member.my.healthequity.com",
+                "shop.sgproof.com",
+                "www.bcbsil.com",
+                "www.bcbsmt.com",
+                "www.bcbsok.com",
+                "www.bcbstx.com",
+                "www.idexx.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20241106-123033-54bde7ea-1e505cb0\\.br\\/47\\.a0441a83\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6c848d9cc239b1236bda4f3d3f39d8858e0a9838fa50e05da5f29f1b82c72a10"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthequity.com",
+                "member.my.healthequity.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/deepui\\/p\\/user\\/f3599f85f2a2440f8e7e8178c44f1199\\/0\\/ae7b27e17e924af1807bad266a75fc63\\/data_lang-en\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a8e9a3b75c48e1d2121efd897fc333621f916138addc5e139f8b42fc800fcddc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthequity.com",
+                "member.my.healthequity.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/session\\/init",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ec-playback"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "04d75cbe3965cc1674b4cdfd2e35b1e46c6817ff5077423a62b797c1827c38af"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthequity.com",
+                "member.my.healthequity.com",
+                "participant.wageworks.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/event\\/playback",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ec-playback"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthequity.com",
+                "member.my.healthequity.com",
+                "participant.wageworks.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/deepui\\/p\\/user\\/f3599f85f2a2440f8e7e8178c44f1199\\/0\\/d18f41227e6840c0928e983c17517a45\\/data_lang-en\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a10a4f1ce7638ee0f2df28136c41089c92d1a2fc0ef43f8686d74babafee1d17"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthequity.com",
+                "member.my.healthequity.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/054f66e2fdfe42409e4aaac94e54b69e\\/walkme_054f66e2fdfe42409e4aaac94e54b69e_https\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.devicePixelRatio": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ea63e4040eb01f5929df3017f5e7175ec6515fc3ba104005e1aae4282481b669"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ga.gov",
+                "mvp.sos.ga.gov"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/054f66e2fdfe42409e4aaac94e54b69e\\/settings\\.txt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a43f453d8652b572d1c1d8fd8dedcf9a74046a7bde7147077c43a34db54c1a53"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ga.gov",
+                "mvp.sos.ga.gov"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/054f66e2fdfe42409e4aaac94e54b69e\\/scripts\\/prelib-plugin-68720789-07a5-3f31-832f-56c55dec00e4\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6cc993f0a5ed19fc72b1f795bfe60574785e9d31c34013a36fa048a24fb43b6c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ga.gov",
+                "mvp.sos.ga.gov"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/walkme_lib_20240207-133137-083ee31b-c724ce9f\\.br\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.devicePixelRatio": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "daff1be904a0263eea316ee8d28aec366bc9e7610a604371473f769da611d11a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "wm_load_test_054f66e2fdfe42409e4aaac94e54b69e_0": {
+                    "ttl": 21,
+                    "length": 1,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ga.gov",
+                "mvp.sos.ga.gov"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/054f66e2fdfe42409e4aaac94e54b69e\\/walkme_config_3da7781ef4ae4f9782e784ed79a08e3b\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a28f5a23dd5d5e08a2d91158aa3f1f7292a2850a87175250beb42bfde6f907a2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ga.gov",
+                "mvp.sos.ga.gov"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20240207-133137-083ee31b-c724ce9f\\.br\\/resources\\/CD\\/cdHiddenIframeScript\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ddab192869f16ddcfbcbb9ed4372c4c1f5dc4ed47a1045287ac15699b33c1213"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ga.gov",
+                "mvp.sos.ga.gov"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20240207-133137-083ee31b-c724ce9f\\.br\\/resources\\/CD\\/CDhiddenIframe\\.compress\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 1,
+                "window.localStorage": 1,
+                "window.sessionStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ga.gov",
+                "mvp.sos.ga.gov"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/054f66e2fdfe42409e4aaac94e54b69e\\/custom_css_ed36057da3624a12aff1b2a697513768\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "23042b1392900bc72c769f508852f74cbdc47b25d3f8a449c8c3fa81ef2fadce"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ga.gov",
+                "mvp.sos.ga.gov"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/054f66e2fdfe42409e4aaac94e54b69e\\/data_ed36057da3624a12aff1b2a697513768\\.br\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0dbcf99724811b6d8bbc2605e4a29f5265b15dfdfdda25ecb2af49eb37b998c0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ga.gov",
+                "mvp.sos.ga.gov"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20240207-133137-083ee31b-c724ce9f\\.br\\/10\\.7fbe48c4\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "10f8202e2c232580a4f50ffa7f8a7ef4d7b9203ab9a3b35aa563c2bcc41f9df7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ga.gov",
+                "mvp.sos.ga.gov"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20240207-133137-083ee31b-c724ce9f\\.br\\/25\\.cd5d8a16\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78cd8a2f3704787fd988b43104c62658742fc5a1988c845641a654c3132fde31"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ga.gov",
+                "mvp.sos.ga.gov"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20240207-133137-083ee31b-c724ce9f\\.br\\/29\\.6636d9cf\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "90f3d277cb9a2850436da8619b45cacbcb926941f035351c3c4889e3876da9cc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ga.gov",
+                "mvp.sos.ga.gov"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20240207-133137-083ee31b-c724ce9f\\.br\\/24\\.1d12bc7c\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "62b188c17e067beb6b273f6abe9febfd5ac983a5cb8511df0c08a10ad8b467fa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ga.gov",
+                "mvp.sos.ga.gov"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20240207-133137-083ee31b-c724ce9f\\.br\\/45\\.33cf40cb\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bdd54f66ab54f6a305493a5face2a7ce061e1636b7127e46db61b2a461e59123"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ga.gov",
+                "mvp.sos.ga.gov"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/deepui\\/p\\/user\\/054f66e2fdfe42409e4aaac94e54b69e\\/0\\/ed36057da3624a12aff1b2a697513768\\/data_lang-en\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8f3eaf1377dcf32c319df7b030b49ca8d03fceba49c0b9a9bb3742f8d4bc94d7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ga.gov",
+                "mvp.sos.ga.gov"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/deepui\\/0\\/3\\.055469c4a45b2f1297d5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2e341dacc9bdba104ae611f46543d3c3dead909e1abd4f1059ef613f6a3e7cd4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ga.gov",
+                "mvp.sos.ga.gov"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/c7ad4ebff0b04409a5be4210cdf41447\\/walkme_c7ad4ebff0b04409a5be4210cdf41447_https\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.platform": 4,
+                "Document.cookie getter": 5,
+                "Navigator.prototype.vendor": 4,
+                "window.devicePixelRatio": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "8152adfd0371dbd53f777d2d80aba7ce58e3148568934fb302aa4c47b3bc532d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nipsco.com",
+                "www.columbiagasohio.com",
+                "www.columbiagaspa.com",
+                "www.columbiagasva.com",
+                "www.nipsco.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/c7ad4ebff0b04409a5be4210cdf41447\\/settings\\.txt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "f012385a1299115f8a10b91e51b4451d480860d0fd6708d6dea4f252ef3f2f35"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nipsco.com",
+                "www.columbiagasohio.com",
+                "www.columbiagaspa.com",
+                "www.columbiagasva.com",
+                "www.nipsco.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/c7ad4ebff0b04409a5be4210cdf41447\\/scripts\\/prelib-plugin-a5eac80b-b8ed-3e74-8a35-e3a130de313a\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "window.localStorage": 5,
+                "Navigator.prototype.userAgent": 5,
+                "window.sessionStorage": 5,
+                "PerformanceTiming.prototype.navigationStart": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "9607a7b984a127dff8b53ab07ce62ecf92814c670673b098535a7af2397e81be"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nipsco.com",
+                "www.columbiagasohio.com",
+                "www.columbiagaspa.com",
+                "www.columbiagasva.com",
+                "www.nipsco.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/c7ad4ebff0b04409a5be4210cdf41447\\/walkme_config_50ac6fbfda01462a8ad74db4ab8e9dfe\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "00fdd127a5fdff0e8552f68eb78dc684955b47b73beb4c2d841a7fe587c60050"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nipsco.com",
+                "www.columbiagasohio.com",
+                "www.columbiagaspa.com",
+                "www.columbiagasva.com",
+                "www.nipsco.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20240912-113337-83e0f8f9-2d973a2e\\.br\\/resources\\/CD\\/cdHiddenIframeScript\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "ddab192869f16ddcfbcbb9ed4372c4c1f5dc4ed47a1045287ac15699b33c1213"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nipsco.com",
+                "www.columbiagasohio.com",
+                "www.columbiagaspa.com",
+                "www.columbiagasva.com",
+                "www.nipsco.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20240912-113337-83e0f8f9-2d973a2e\\.br\\/resources\\/CD\\/CDhiddenIframe\\.compress\\.html",
+            "cookies": 0.00000683,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTime": 5,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "d617ef3b7c9199e45ce3214f3da46388ee8d70bd56bbdfee918b6f7b3eb33140"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {
+                "WalkMeStorage_WalkMe_testStorage": {
+                    "ttl": -63071991,
+                    "length": 9,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "WalkMeStorage_c7ad4ebff0b04409a5be4210cdf41447": {
+                    "ttl": 63072014,
+                    "length": 850,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nipsco.com",
+                "www.columbiagasohio.com",
+                "www.columbiagaspa.com",
+                "www.columbiagasva.com",
+                "www.nipsco.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20240912-113337-83e0f8f9-2d973a2e\\.br\\/9\\.ecfa9795\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "1b21080bea30304ca940f05a5db295e247bfabf150d848e3dff87a4a3b7043d1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nipsco.com",
+                "www.columbiagasohio.com",
+                "www.columbiagaspa.com",
+                "www.columbiagasva.com",
+                "www.nipsco.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/c7ad4ebff0b04409a5be4210cdf41447\\/custom_css_50ac6fbfda01462a8ad74db4ab8e9dfe\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "0dcffd37590f905fa95553fb1f6e3b3b62d7cae645118be3d0277621f23bc573"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nipsco.com",
+                "www.columbiagasohio.com",
+                "www.columbiagaspa.com",
+                "www.columbiagasva.com",
+                "www.nipsco.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/c7ad4ebff0b04409a5be4210cdf41447\\/data_50ac6fbfda01462a8ad74db4ab8e9dfe\\.br\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "176bb252ee53a1d4480491e96174337459764c7afe0b08738995e0f6514e3228"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nipsco.com",
+                "www.columbiagasohio.com",
+                "www.columbiagaspa.com",
+                "www.columbiagasva.com",
+                "www.nipsco.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/c7ad4ebff0b04409a5be4210cdf41447\\/runtime_data\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "241918f97b31dfb091a85a6fa7ef7daab7eb44378bf7d1ed9bcaec99c8d5c833"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nipsco.com",
+                "www.columbiagasohio.com",
+                "www.columbiagaspa.com",
+                "www.columbiagasva.com",
+                "www.nipsco.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20240912-113337-83e0f8f9-2d973a2e\\.br\\/24\\.dc121d84\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "942a1674b7ecee1d24b1e88b8df1dc0db6f824d6957248178e24a17648c67b3d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nipsco.com",
+                "www.columbiagasohio.com",
+                "www.columbiagaspa.com",
+                "www.columbiagasva.com",
+                "www.nipsco.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20240912-113337-83e0f8f9-2d973a2e\\.br\\/47\\.d0945811\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "36372ae57c6cbffb5fb081907af9cd3e6e9e31a80857b24a6c3928d603ce0436"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nipsco.com",
+                "www.columbiagasohio.com",
+                "www.columbiagaspa.com",
+                "www.columbiagasva.com",
+                "www.nipsco.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/0ce9325c7b214554b7343ce09ac5cd42\\/walkme_0ce9325c7b214554b7343ce09ac5cd42_https\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.devicePixelRatio": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f29100127804b48073ab11c608ef2642bb4ed002b370a517f47ba5523c243d00"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wageworks.com",
+                "participant.wageworks.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/0ce9325c7b214554b7343ce09ac5cd42\\/settings\\.txt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2790636485fbd9d03522bdc0935f10c8f6cb836b7b5d0fd941afacff9e4648ca"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wageworks.com",
+                "participant.wageworks.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/0ce9325c7b214554b7343ce09ac5cd42\\/scripts\\/prelib-plugin-b94a6f27-0253-3643-8235-fbf424569381\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Date.prototype.getTime": 1,
+                "URL.createObjectURL": 1,
+                "window.screenLeft": 1,
+                "Screen.prototype.availLeft": 1,
+                "window.screenTop": 1,
+                "Screen.prototype.availTop": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d686e628a59e47f649fc01d54110ddc4ef7687b8ee73f86c4ffde411e5422dec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wageworks.com",
+                "participant.wageworks.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/0ce9325c7b214554b7343ce09ac5cd42\\/walkme_config_1ed944bebab94451b01b4efe5f712b08\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6a9f1dc506f0fd31dc095e4f96ba236f3a810c1e5b6b43450189057341c25e63"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wageworks.com",
+                "participant.wageworks.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/0ce9325c7b214554b7343ce09ac5cd42\\/external-data\\/insights-configuration\\/insights_configuration_aaf1617478f44ffc8b34cda1c6b1cb2c\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wageworks.com",
+                "participant.wageworks.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20241009-131950-a5b3f20f-b3d80f54\\.br\\/resources\\/CD\\/cdHiddenIframeScript\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ddab192869f16ddcfbcbb9ed4372c4c1f5dc4ed47a1045287ac15699b33c1213"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wageworks.com",
+                "participant.wageworks.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20241009-131950-a5b3f20f-b3d80f54\\.br\\/resources\\/CD\\/CDhiddenIframe\\.compress\\.html",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.vendor": 1,
+                "Navigator.prototype.platform": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d617ef3b7c9199e45ce3214f3da46388ee8d70bd56bbdfee918b6f7b3eb33140"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {
+                "WalkMeStorage_0ce9325c7b214554b7343ce09ac5cd42": {
+                    "ttl": 63072011,
+                    "length": 1291,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wageworks.com",
+                "participant.wageworks.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/0ce9325c7b214554b7343ce09ac5cd42\\/custom_css_f83552951e264d9d8d73875da067bbdc\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7be1220ccb2fde56bc0c69f0b2f6f5d65c877b1269478a376e7bf8d880b0393c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wageworks.com",
+                "participant.wageworks.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/0ce9325c7b214554b7343ce09ac5cd42\\/data_f83552951e264d9d8d73875da067bbdc\\.br\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7d0e97e2e46280d539cf2b53618360a6e1d19e6fb12b71cda15dfae81079172b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wageworks.com",
+                "participant.wageworks.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/0ce9325c7b214554b7343ce09ac5cd42\\/runtime_data\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "64e516869cf8de6edbc8d599162c6ce1ed1b04f2f9f53a9a4d628fc16542aae9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wageworks.com",
+                "participant.wageworks.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20241009-131950-a5b3f20f-b3d80f54\\.br\\/12\\.d399d81b\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6fa301f9b6fbd5e5f9aa95825c456e36c99722f1259013c505ecd255748dd759"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wageworks.com",
+                "participant.wageworks.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20241009-131950-a5b3f20f-b3d80f54\\.br\\/24\\.3557ed69\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7162b6c26a1810b373027a29443acf0d55c986a9e4cda3374076ccd950ed3831"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wageworks.com",
+                "participant.wageworks.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20241009-131950-a5b3f20f-b3d80f54\\.br\\/47\\.5c91fca9\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "115ef9a7dd07055c5fa98073938dc30b71f4cae95430f0724e62efa5c8f2cc98"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wageworks.com",
+                "participant.wageworks.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/deepui\\/p\\/user\\/0ce9325c7b214554b7343ce09ac5cd42\\/0\\/f83552951e264d9d8d73875da067bbdc\\/data_lang-en\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d41734966148d286ba7726720336dd1c3df3d9010621f3230483f84d9e775725"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wageworks.com",
+                "participant.wageworks.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/deepui\\/userMapping\\/0ce9325c7b214554b7343ce09ac5cd42\\/0\\/f83552951e264d9d8d73875da067bbdc\\/data_lang-en\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wageworks.com",
+                "participant.wageworks.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/5f757a3688d54e1d92063ab8391024da\\/settings\\.txt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d4e18cb77ea131d75513052b3113562fd833cf1279f6b96eb68d31fe6740399c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sgproof.com",
+                "shop.sgproof.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20241106-123033-54bde7ea-1e505cb0\\.br\\/46\\.3cdd1445\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "c21625ec089ce13b0a515ffb8c97cbb6e8a6590bc593ec544866423a4e096dd8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sgproof.com",
+                "www.bcbsil.com",
+                "www.bcbsmt.com",
+                "www.bcbsok.com",
+                "www.bcbstx.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/97d1b52cff1c40f7813e1d3a88cf2912\\/walkme_97d1b52cff1c40f7813e1d3a88cf2912_https\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.platform": 3,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.vendor": 3,
+                "window.devicePixelRatio": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "970ccf84a12b93919c7795bc9c7946dd5ee189274c71f9ef3cf4b52ccb3eb48f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerigas.com",
+                "www.amerigas.com",
+                "www.myamerigas.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/97d1b52cff1c40f7813e1d3a88cf2912\\/settings\\.txt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "58a7172b881de6da889067f15c9374df6abc554719ca009a1e52b569988267d1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerigas.com",
+                "www.amerigas.com",
+                "www.myamerigas.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/97d1b52cff1c40f7813e1d3a88cf2912\\/scripts\\/prelib-plugin-80a3188c-872e-36bd-a1e8-ddb29216ddfd\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "window.localStorage": 3,
+                "window.sessionStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "4f27b9b9928ab0743eb7d5ee2d177a76922dd0536190c43eb28838b7e11747a4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerigas.com",
+                "www.amerigas.com",
+                "www.myamerigas.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/97d1b52cff1c40f7813e1d3a88cf2912\\/walkme_config_57152b89d68243c0a15c91c34ffda04a\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "b6f48dc603fb8f02a86323789ac6627de3d15319026ac04cfc456a9a4f90522f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerigas.com",
+                "www.amerigas.com",
+                "www.myamerigas.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/97d1b52cff1c40f7813e1d3a88cf2912\\/external-data\\/insights-configuration\\/insights_configuration_2380d5c6e8bc41638254792ca19baf0e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "a5d50f97feff16af5937d6a21dd9b0d9f70f838177de092a9d948380c6c02489"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerigas.com",
+                "www.amerigas.com",
+                "www.myamerigas.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/97d1b52cff1c40f7813e1d3a88cf2912\\/custom_css_f1903c3af0744b8e82433b7bb9c8760a\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "890f1438290a80f08b51aab05dc748422634bbaab4b0bc63d59a2c115fd87b6f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerigas.com",
+                "www.amerigas.com",
+                "www.myamerigas.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/97d1b52cff1c40f7813e1d3a88cf2912\\/data_f1903c3af0744b8e82433b7bb9c8760a\\.br\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "2789d2e6afa7ba9e4d3d145f7b5b8bdcbc6436f1bdd7b3ba8aa9a6fb18732492"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerigas.com",
+                "www.amerigas.com",
+                "www.myamerigas.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20241106-123033-54bde7ea-1e505cb0\\.br\\/53\\.3f52f9cb\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "3ba0d245433ad04f3a0512081e957bb045ae4c4f7358ce89cfcf05cb0c618e69"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerigas.com",
+                "www.amerigas.com",
+                "www.idexx.com",
+                "www.myamerigas.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/deepui\\/p\\/user\\/97d1b52cff1c40f7813e1d3a88cf2912\\/0\\/f1903c3af0744b8e82433b7bb9c8760a\\/data_lang-en\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerigas.com",
+                "www.amerigas.com",
+                "www.myamerigas.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/deepui\\/userMapping\\/97d1b52cff1c40f7813e1d3a88cf2912\\/0\\/f1903c3af0744b8e82433b7bb9c8760a\\/data_lang-en\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerigas.com",
+                "www.amerigas.com",
+                "www.myamerigas.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/fdaa8d240b284eefa4644c18c1d61f47\\/test\\/walkme_fdaa8d240b284eefa4644c18c1d61f47_https\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.devicePixelRatio": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e8e7c6c6eab6596e71882273b9b60fdc71ef0e65a60052b15ac30d24eb453af7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bcbsil.com",
+                "www.bcbsmt.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/fdaa8d240b284eefa4644c18c1d61f47\\/test\\/settings\\.txt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "375a03247efd716345c270fac5467efa4dbda15b236b27f50308841c4686718e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bcbsil.com",
+                "www.bcbsil.com",
+                "www.bcbsmt.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/fdaa8d240b284eefa4644c18c1d61f47\\/test\\/scripts\\/prelib-plugin-548db397-f1aa-3298-8191-379da62ec6e2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "456b6bdfbf4763af9cd7ed99e146a03902666b053ac107e88ca962b16f7df577"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bcbsil.com",
+                "www.bcbsmt.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/fdaa8d240b284eefa4644c18c1d61f47\\/test\\/walkme_config_30d40d3becc94b0fb0450b8c7a394ee8\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "01c7b21225e7814b57feef84fb2eca619c7aa48ad44eb55110643adb62a03b4f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bcbsil.com",
+                "www.bcbsmt.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/fdaa8d240b284eefa4644c18c1d61f47\\/test\\/custom_css_3b86d9204dca4ffda40beaecefbbe167\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0199e1e3cf8bfe2c52e6953129d8d2e5af69362ec61c0be85e4c54051f808a2e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bcbsil.com",
+                "www.bcbsmt.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/fdaa8d240b284eefa4644c18c1d61f47\\/test\\/data_3b86d9204dca4ffda40beaecefbbe167\\.br\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ee2e3b92e77b58fd32cf98a02422b69673d648833da6cb92b53ea7b8bdb03a16"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bcbsil.com",
+                "www.bcbsmt.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/fdaa8d240b284eefa4644c18c1d61f47\\/runtime_data\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "1aeaa7afc4996c1a5cce8bf093bda21a4531579d76cbdd8e6cea8cf795f50440"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bcbsil.com",
+                "www.bcbsmt.com",
+                "www.bcbsok.com",
+                "www.bcbstx.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/chatbot\\/3\\.80\\.41\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 6,
+                "Navigator.prototype.userAgent": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "c00bd1f485d8047fc71d09d19a5a19ea2abb1846800b8ee1e2206616cfc84d47"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bcbsil.com",
+                "www.bcbsmt.com",
+                "www.bcbsok.com",
+                "www.bcbstx.com",
+                "www.idexx.com",
+                "www.jnjvisionpro.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20241106-123033-54bde7ea-1e505cb0\\.br\\/8\\.867116ad\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "968e1285c8a49c62485048e4799c4ff75f819bb51fc32156a2e43bf23940fbc3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bcbsil.com",
+                "www.bcbsmt.com",
+                "www.bcbsok.com",
+                "www.bcbstx.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/chatbot\\/3\\.80\\.41\\/170\\.54a244252457c4eadf39\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "4179cf1d05f27857abc6ea46233be49827338c9f5c18e4a201db4347ba5117fd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bcbsil.com",
+                "www.bcbsmt.com",
+                "www.bcbsok.com",
+                "www.bcbstx.com",
+                "www.idexx.com",
+                "www.jnjvisionpro.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/chatbot\\/3\\.80\\.41\\/636\\.54a244252457c4eadf39\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "2b0ebf357db7500848e7082ec6f69f1b280883c866e154b84f40420d955118c6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bcbsil.com",
+                "www.bcbsmt.com",
+                "www.bcbsok.com",
+                "www.bcbstx.com",
+                "www.idexx.com",
+                "www.jnjvisionpro.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/chatbot\\/3\\.80\\.41\\/317\\.54a244252457c4eadf39\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "d43d07538e758ff6848cdac8ec34367bc66baacff46641d5d1be207bf9cecb77"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bcbsil.com",
+                "www.bcbsmt.com",
+                "www.bcbsok.com",
+                "www.bcbstx.com",
+                "www.idexx.com",
+                "www.jnjvisionpro.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/chatbot\\/3\\.80\\.41\\/596\\.54a244252457c4eadf39\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [
+                "bbcefa09c3383408ea9539e3807703df0f63fe4dc2dcd622fc1e4348677a96c5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bcbsil.com",
+                "www.bcbsmt.com",
+                "www.bcbsok.com",
+                "www.bcbstx.com",
+                "www.idexx.com",
+                "www.jnjvisionpro.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/deepui\\/p\\/user\\/fdaa8d240b284eefa4644c18c1d61f47\\/3\\/3b86d9204dca4ffda40beaecefbbe167\\/data_lang-en\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d89b47d7fc591f03a070af2ea4e912a51ed127d9a952903f4b65cea7b298762d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bcbsil.com",
+                "www.bcbsmt.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/fdaa8d240b284eefa4644c18c1d61f47\\/walkme_fdaa8d240b284eefa4644c18c1d61f47_https\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.devicePixelRatio": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "878ce6e03db504c25aa564c4a6ed9e122a566d278eb7235f1965305481559614"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bcbsok.com",
+                "www.bcbstx.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/fdaa8d240b284eefa4644c18c1d61f47\\/settings\\.txt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "0bca3345a9fbc531998e5444d431023e16b792cb371ab2a47dc063ae0db939c4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bcbsok.com",
+                "www.bcbsok.com",
+                "www.bcbstx.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/fdaa8d240b284eefa4644c18c1d61f47\\/scripts\\/prelib-plugin-1a87a79c-0ec9-3d0e-a6c3-162bb85385bb\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "430d678eb8914260c80be29774ce24b33fa01de3eed4b50d375cb4f6f5587e5a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bcbsok.com",
+                "www.bcbstx.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/fdaa8d240b284eefa4644c18c1d61f47\\/walkme_config_5e70206c4759481695605f914caaf624\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6d52e87268354e7e7775aabe3412cd4f37c15c69ae3f969dc8d3e934bdcb7a75"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bcbsok.com",
+                "www.bcbstx.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/fdaa8d240b284eefa4644c18c1d61f47\\/external-data\\/insights-configuration\\/insights_configuration_08a74907aa174bc9b82a3c3b84508aa0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fb153402ba70c0a381b1e9924b3d90fb40729735c3e9c1372b6cdc9594a329fe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bcbsok.com",
+                "www.bcbstx.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/fdaa8d240b284eefa4644c18c1d61f47\\/custom_css_dc47609e07774baf93aa517de71460ad\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "20918875fe42b59201259c92dd4d4219a4dd99d679f6a0ed3d5a15c630185532"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bcbsok.com",
+                "www.bcbstx.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/fdaa8d240b284eefa4644c18c1d61f47\\/data_dc47609e07774baf93aa517de71460ad\\.br\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2dbc2577b2ab48a7478700d82cc81122832b6d4a0b1e08f97a390f643aa7f540"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bcbsok.com",
+                "www.bcbstx.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/deepui\\/p\\/user\\/fdaa8d240b284eefa4644c18c1d61f47\\/0\\/dc47609e07774baf93aa517de71460ad\\/data_lang-en\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9634b6b5e9d36f53b9a1d30b03cf7f48ab2b33bfaf40c653105ef787b7013650"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bcbsok.com",
+                "www.bcbstx.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/dbf8ddf95f854c73951f9eaceefceded\\/settings\\.txt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jnjvisionpro.com",
+                "www.jnjvisionpro.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/f0dfc29705ed4a0dad0c600025fa7ce7\\/walkme_f0dfc29705ed4a0dad0c600025fa7ce7_https\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.devicePixelRatio": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6a9400cba5b361482bb49680d4a4a8eb6df60305290e9d3a0b101ad195c36140"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mycnhstore.com",
+                "www.mycnhstore.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/f0dfc29705ed4a0dad0c600025fa7ce7\\/settings\\.txt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4cb3ce40c5233acc15f0774f4f4d55bc89c5cabe383713ed6dbc169424a3a41f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mycnhstore.com",
+                "www.mycnhstore.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/f0dfc29705ed4a0dad0c600025fa7ce7\\/scripts\\/prelib-plugin-7c9ac061-ce88-35d8-a5c1-342fe5aded6f\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dc4dbfaaed67287c346bb4ba02fb697adf5f236e45cdcb35abbc33c9d606b7d6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mycnhstore.com",
+                "www.mycnhstore.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/walkme_lib_20241020-073847-e2b169c7\\.br\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1e4f88ddc17bdc8bf0bd5cef8308f84bf1d793f491f4d8e46705ac135ce8ace2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mycnhstore.com",
+                "www.mycnhstore.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/f0dfc29705ed4a0dad0c600025fa7ce7\\/walkme_config_d9de27d3ee8049b0a7c8a6a2ecd3307c\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "04456dc54ee2c7ed5979d60df4aeb922aa456e50037f0a8ae463b006ac59bf1d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mycnhstore.com",
+                "www.mycnhstore.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/f0dfc29705ed4a0dad0c600025fa7ce7\\/external-data\\/insights-configuration\\/insights_configuration_4485962f634147cea6c83cb313433294\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mycnhstore.com",
+                "www.mycnhstore.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/9188\\/walkme_9188_https\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.platform": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dbb705db716ed573db615625e49508d90e3b6164004991a4f278eddc9fe834ef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nli.org.il",
+                "www.nli.org.il"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/9188\\/settings\\.txt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b1124571240a72a4ccebb62de1025fe1772ac08844e285ecce2823ff310e8a2f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nli.org.il",
+                "www.nli.org.il"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/d93d9c452f7f46a6bfb0810312db77fb\\/walkme_d93d9c452f7f46a6bfb0810312db77fb_https\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.devicePixelRatio": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dbd3f6a2f5703af28319dee75f58408a84c61a5c502d8527f09af0279e106f8c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "twinspires.com",
+                "www.twinspires.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/d93d9c452f7f46a6bfb0810312db77fb\\/settings\\.txt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "068f9e045fc9b053d058b845730b1e448cb4dfb1f901faad30dec5893e5acd24"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "twinspires.com",
+                "www.twinspires.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/d93d9c452f7f46a6bfb0810312db77fb\\/scripts\\/prelib-plugin-f2a5f946-0f4d-37bd-9df3-6080658a9b19\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "08881312fe2ad027a4d17d7542172505b3f41fc182afd771763b92c8c2a8c062"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "twinspires.com",
+                "www.twinspires.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/walkme_lib_20231221-090118-805645c0-6c282736\\.br\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.devicePixelRatio": 2,
+                "Date.prototype.getTime": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "df9b8ff2063f771a0dfac7bfbdee80f8fd42e1f8bd889c0e3d069d7af8251e9c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "twinspires.com",
+                "www.twinspires.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/d93d9c452f7f46a6bfb0810312db77fb\\/walkme_config_e57ba3d93c4846b19c24f5594e3e5893\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a9b6b3e390619b45ce5bc8e1bc7428fa419bb7b8e5e63a984d6dfc5d7c68e722"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "twinspires.com",
+                "www.twinspires.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/d93d9c452f7f46a6bfb0810312db77fb\\/external-data\\/insights-configuration\\/insights_configuration_c1e531ca22eb4b54a876813ab7aea1b7\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f2e2c9f0bc018cbe7ee4799572370460b93c1e260b5dd77b774895562faf6c94"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "twinspires.com",
+                "www.twinspires.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/d93d9c452f7f46a6bfb0810312db77fb\\/custom_css_b710c66b7bf648c69658f8f742c99152\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1e031841d806bf13eaa1abb2bec69b2e83ac0faa12acfcccc5fce14948cc8d74"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "twinspires.com",
+                "www.twinspires.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/d93d9c452f7f46a6bfb0810312db77fb\\/data_b710c66b7bf648c69658f8f742c99152\\.br\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "888c7e0796470cc6e5843611a7a8021d5eccaaefaf2dc424da42df8f8ecd8c14"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "twinspires.com",
+                "www.twinspires.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/users\\/d93d9c452f7f46a6bfb0810312db77fb\\/runtime_data\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "379b17445a2e6e6d6afa88dc13733fa90c58ce8b416d6a72c021abfa48c73627"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "twinspires.com",
+                "www.twinspires.com"
+            ]
+        },
+        {
+            "rule": "walkme\\.com\\/player\\/lib\\/20231221-090118-805645c0-6c282736\\.br\\/24\\.b9f8b0c6\\.walkme_lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2fd090d289de602bfc9c87e7071f99421423ed89ce1d51cefb1c3bf46530a465"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "twinspires.com",
+                "www.twinspires.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000273,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.898360655737705
+        },
+        {
+            "domain": "klara.com",
+            "prevalence": 0.022950819672131147
+        },
+        {
+            "domain": "gbqofs.com",
+            "prevalence": 0.019672131147540985
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.013114754098360656
+        },
+        {
+            "domain": "bizible.com",
+            "prevalence": 0.009836065573770493
+        },
+        {
+            "domain": "quantummetric.com",
+            "prevalence": 0.009836065573770493
+        },
+        {
+            "domain": "dynatrace.com",
+            "prevalence": 0.009836065573770493
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.006557377049180328
+        },
+        {
+            "domain": "segment.com",
+            "prevalence": 0.003278688524590164
+        },
+        {
+            "domain": "lpl.com",
+            "prevalence": 0.003278688524590164
+        }
+    ],
+    "types": {
+        "Script": 530,
+        "XHR": 64,
+        "Stylesheet": 27,
+        "Other": 2,
+        "Document": 15,
+        "Preflight": 4,
+        "Fetch": 24
+    },
+    "nameservers": [
+        "ns-1439.awsdns-51.org",
+        "ns-1737.awsdns-25.co.uk",
+        "ns-877.awsdns-45.net",
+        "ns-92.awsdns-11.com"
+    ]
+}

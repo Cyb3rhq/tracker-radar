@@ -1,0 +1,336 @@
+{
+    "domain": "snipcart.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000082,
+    "sites": 12,
+    "subdomains": [
+        "cdn",
+        "app",
+        "dudacommerce-cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "snipcart\\.com\\/scripts\\/2\\.0\\/snipcart\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie setter": 3,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "bab2cb3048b7955c03d2b94c8539e7e7c437f961976300cecfbd82b041c34ec8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookies.js": {
+                    "ttl": 1,
+                    "length": 9,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 0.5
+                },
+                "snipcart_order_token": {
+                    "ttl": 3,
+                    "length": 15,
+                    "prevalence": 0.000020496003279360526,
+                    "uniqueness": 0.6666666666666666
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gladkokken.no",
+                "www.ohlinsusa.com",
+                "www.swallowtailgardenseeds.com"
+            ]
+        },
+        {
+            "rule": "snipcart\\.com\\/api\\/sessions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gladkokken.no",
+                "publicdomainreview.org",
+                "www.iconvehicledynamics.com",
+                "www.mccombs.utexas.edu",
+                "www.ohlinsusa.com",
+                "www.swallowtailgardenseeds.com",
+                "www.wheelmax.com"
+            ]
+        },
+        {
+            "rule": "snipcart\\.com\\/api\\/sessions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [
+                "ab201dd83acafe01798c16cc8731fd4a8cc1378ccf67df29ede492531978f641",
+                "fc16d74e4fcaed8f17ea6a8d05976fc323f0c4448e87fb7aeb783f576ca9470b",
+                "c47beeacd66cdee9755f7b68e2dfa3cdf1332ad51a756c6c598ae11e21aea367",
+                "c84def4c8cc1501704009033feb982245742e4db9133993d8f041f6d84918930",
+                "c55432e414996cdb3f1c6e9f51a640f337e35da8f4b69061e35a8e4d8dff7f53",
+                "6e5cc79cd08444fe02ca6c329082dc6c60375eae2dfb52ae2db3d4ce9e4e85cb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gladkokken.no",
+                "publicdomainreview.org",
+                "www.iconvehicledynamics.com",
+                "www.mccombs.utexas.edu",
+                "www.ohlinsusa.com",
+                "www.swallowtailgardenseeds.com",
+                "www.wheelmax.com"
+            ]
+        },
+        {
+            "rule": "snipcart\\.com\\/themes\\/v3\\.0\\.0\\/default\\/snipcart\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dudacommerce-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Event.prototype.timeStamp": 2,
+                "Navigator.prototype.vendor": 2,
+                "Document.cookie getter": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4ac2cab09b9e4f5911c569b87f815a828789a0557bde0121e7a08caaeb5abcbd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coincollecting.com",
+                "www.coincollecting.com"
+            ]
+        },
+        {
+            "rule": "snipcart\\.com\\/themes\\/v3\\.0\\.0\\/default\\/snipcart\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dudacommerce-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1a0caf877e52d8d2205b6bb46efb1a32a0852948408f8ed8464d3a49d24af769"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coincollecting.com",
+                "www.coincollecting.com"
+            ]
+        },
+        {
+            "rule": "snipcart\\.com\\/themes\\/v3\\.0\\/default\\/snipcart\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Event.prototype.timeStamp": 3,
+                "Navigator.prototype.vendor": 3,
+                "Document.cookie getter": 3,
+                "window.innerWidth": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "99fd4a7f1bb9f91543df89f873b94b9e75e488737f1b4306200bdb194b460cde"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iconvehicledynamics.com",
+                "www.iconvehicledynamics.com",
+                "www.mccombs.utexas.edu"
+            ]
+        },
+        {
+            "rule": "snipcart\\.com\\/themes\\/v3\\.0\\/default\\/snipcart\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6861f421150dcc080239e8f6754228f07c65d59d83da1dc1853c28325cad692b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iconvehicledynamics.com",
+                "www.iconvehicledynamics.com"
+            ]
+        },
+        {
+            "rule": "snipcart\\.com\\/themes\\/v3\\.7\\.3\\/l10n\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "474429720a7543d8157334afbc04a8500303ad54e6bb1fc004a3ff7ddd4bf7c8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iconvehicledynamics.com",
+                "www.iconvehicledynamics.com",
+                "www.mccombs.utexas.edu"
+            ]
+        },
+        {
+            "rule": "snipcart\\.com\\/themes\\/v3\\.0\\.27\\/default\\/snipcart\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "07fdbf47cc302721dd2cecaf54dafb7e5a6a4dcda599dc309c8a7c5309608325"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wheelmax.com",
+                "www.wheelmax.com"
+            ]
+        },
+        {
+            "rule": "snipcart\\.com\\/themes\\/v3\\.0\\.27\\/default\\/snipcart\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Event.prototype.timeStamp": 2,
+                "Navigator.prototype.vendor": 2,
+                "Document.cookie getter": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "49d4fa87f7a07e7ceba609f43f7af65a3004447dbabac2684a0c5324a2394ca0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wheelmax.com",
+                "www.wheelmax.com"
+            ]
+        },
+        {
+            "rule": "snipcart\\.com\\/themes\\/v3\\.0\\.27\\/l10n\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7d61cb3e53e513412b7979ee7ec95bdaf84aa2c61699173ff4a477130f590ba1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wheelmax.com",
+                "www.wheelmax.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9032258064516129
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.0967741935483871
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Preflight": 7,
+        "XHR": 12,
+        "Stylesheet": 6
+    },
+    "nameservers": [
+        "diva.ns.cloudflare.com",
+        "sri.ns.cloudflare.com"
+    ]
+}

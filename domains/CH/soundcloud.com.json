@@ -1,0 +1,141 @@
+{
+    "domain": "soundcloud.com",
+    "owner": {
+        "name": "SoundCloud Global Limited & Co. KG",
+        "displayName": "SoundCloud"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00111,
+    "sites": 11,
+    "subdomains": [
+        "w",
+        "api-widget"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "soundcloud\\.com\\/player\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "w"
+            ],
+            "apis": {
+                "window.innerHeight": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "9074a5382c13f4f6c408ce77ec22e4782d9af7f9d61a53d35522a9bf01140225",
+                "2c7f61e181c361e0db59050ec69d631bc12a9c43b1ec06ca2a7e4add08965f4d",
+                "307f699eaea78b557f349b52798fca883867fef83153f013da0f38a779553a8a",
+                "55b71216c0829359c7d2076e46668ee89dcc3b4e845e1e5c587365319bf1696c"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lu-glidz.blogspot.com",
+                "stardewvalleywiki.com",
+                "www.erozuna.com",
+                "www.fao.org",
+                "www.ucl.ac.uk"
+            ]
+        },
+        {
+            "rule": "soundcloud\\.com\\/resolve",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-widget"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "08df52820d5b602d9c303061c0cc8183eb15da49f3a0dd40ed49458b4282805b",
+                "f2a61be57f9a3b6cfbe103807f4ecf69ec29e087ea056121c1903c124c4a0208",
+                "37c51f40bce47cceed44c5d25831565788411786828f923b37ac6d19e176f01d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lu-glidz.blogspot.com",
+                "www.erozuna.com",
+                "www.fao.org",
+                "www.ucl.ac.uk"
+            ]
+        },
+        {
+            "rule": "soundcloud\\.com\\/player\\/api\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "w"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "0d812ad43eed509018404d80594b433beb6f9a844fd03def78441510b3ff73e3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bmj.com",
+                "www.boss.info",
+                "www.ea.com",
+                "www.roland.com",
+                "www.uaudio.com",
+                "www.unispital-basel.ch"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "sndcdn.com",
+            "prevalence": 0.5357142857142857
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.32142857142857145
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.07142857142857142
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.03571428571428571
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.03571428571428571
+        }
+    ],
+    "types": {
+        "Document": 5,
+        "XHR": 4,
+        "Script": 6
+    },
+    "nameservers": [
+        "ns-1445.awsdns-52.org",
+        "ns-1745.awsdns-26.co.uk",
+        "ns-56.awsdns-07.com",
+        "ns-799.awsdns-35.net"
+    ]
+}

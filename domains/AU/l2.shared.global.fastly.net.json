@@ -1,0 +1,101 @@
+{
+    "domain": "l2.shared.global.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "api.grow.me",
+            "resolved": "l2.shared.global.fastly.net"
+        },
+        {
+            "original": "map.mp.nbc.com",
+            "resolved": "l2.shared.global.fastly.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "l2\\.shared\\.global\\.fastly\\.net\\/webevents\\/v2\\/JS\\/69dedba1e9714049b35bde9e2f9bf059\\/Events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "map.mp.nbc.com",
+                    "resolved": "l2.shared.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "84cd603cf770feba3bc7c2c928b022c1c74b2a8ff680d514078e099b91de2e03"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nbc.com",
+                "www.nbc.com"
+            ]
+        },
+        {
+            "rule": "l2\\.shared\\.global\\.fastly\\.net\\/location-privacy-info",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "api.grow.me",
+                    "resolved": "l2.shared.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "5bcfb388b5b5516d477469e1eddcb8248a815212d8fec9740d55c7f6387cb7c3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tvfanatic.com",
+                "www.tvfanatic.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Fetch": 2
+    },
+    "nameservers": []
+}

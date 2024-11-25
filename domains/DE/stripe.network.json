@@ -1,0 +1,122 @@
+{
+    "domain": "stripe.network",
+    "owner": {
+        "name": "Stripe, Inc",
+        "displayName": "Stripe",
+        "privacyPolicy": "https://stripe.com/privacy",
+        "url": "http://stripe.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00111,
+    "sites": 11,
+    "subdomains": [
+        "m"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "stripe\\.network\\/inner\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "m"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.00111,
+            "cnames": [],
+            "responseHashes": [
+                "947ac0903521f5eceefc90637c066306a8ca67466ccc188bb0107fb7cfb532d1"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apollo-news.net",
+                "civitai.com",
+                "fontawesome.com",
+                "ipinfo.io",
+                "lex-forum.net",
+                "mubi.com",
+                "support.native-instruments.com",
+                "www.mentimeter.com",
+                "www.native-instruments.com",
+                "www.smarthome-tricks.de",
+                "www.treatwell.de"
+            ]
+        },
+        {
+            "rule": "stripe\\.network\\/out-4\\.5\\.43\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "m"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 7,
+                "Navigator.prototype.doNotTrack": 7,
+                "Navigator.prototype.languages": 7,
+                "Navigator.prototype.platform": 7,
+                "Navigator.prototype.plugins": 6,
+                "Screen.prototype.availWidth": 6,
+                "Screen.prototype.availHeight": 6,
+                "Screen.prototype.colorDepth": 6,
+                "window.devicePixelRatio": 6,
+                "Date.prototype.getTimezoneOffset": 9,
+                "window.sessionStorage": 8,
+                "window.localStorage": 6,
+                "CanvasRenderingContext2D.prototype.measureText": 7,
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.mimeTypes": 6,
+                "HTMLCanvasElement.prototype.toDataURL": 5
+            },
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "e039e607c78306c7e029a7fd0ecdb14f86456f16e1a5ce65aa26b4fdf1d38a3c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apollo-news.net",
+                "civitai.com",
+                "fontawesome.com",
+                "ipinfo.io",
+                "lex-forum.net",
+                "mubi.com",
+                "support.native-instruments.com",
+                "www.mentimeter.com",
+                "www.smarthome-tricks.de",
+                "www.treatwell.de"
+            ]
+        }
+    ],
+    "categories": [
+        "Online Payment",
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "stripe.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 11,
+        "Script": 10
+    },
+    "nameservers": [
+        "ns-1087.awsdns-07.org",
+        "ns-1882.awsdns-43.co.uk",
+        "ns-423.awsdns-52.com",
+        "ns-705.awsdns-24.net"
+    ]
+}

@@ -1,0 +1,207 @@
+{
+    "domain": "bloomreach.com",
+    "owner": {
+        "name": "Bloomreach, Inc.",
+        "displayName": "Bloomreach"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "us3-api.eng",
+        "demoapp-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bloomreach\\.com\\/js\\/exponea\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "us3-api.eng",
+                "demoapp-api"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "93ea9bd2092d6921910e754bba6d97cff724d3af4f0a9b22cb0590219acfb0e0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__exponea_etc__": {
+                    "ttl": 94608004,
+                    "length": 36,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "__exponea_time2__": {
+                    "ttl": 3605,
+                    "length": 20,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clarev.com",
+                "www.griotsgarage.com"
+            ]
+        },
+        {
+            "rule": "bloomreach\\.com\\/webxp\\/projects\\/34ab70c4-5667-11ef-9925-66eeacfb47f2\\/bundle",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us3-api.eng"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "59dbe7d634ad83e4c0a2301f6cedb726975ab032b1ba76dc6f27d18e3c1b67a2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clarev.com",
+                "www.clarev.com"
+            ]
+        },
+        {
+            "rule": "bloomreach\\.com\\/bulk",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us3-api.eng",
+                "demoapp-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "083ddda779ce96923db10908bde49f6a63e561ac1592792cac55be9878363c3f",
+                "6a379115879de74fd2452ad1606b5b0aca317b77cb2db212a8273fc13dc58de3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clarev.com",
+                "www.clarev.com",
+                "www.griotsgarage.com"
+            ]
+        },
+        {
+            "rule": "bloomreach\\.com\\/managed-tags\\/show",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us3-api.eng",
+                "demoapp-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5c858b1c80e2a37e46abc26525a908fe14db93ebdce1dbdbdd2828cd180bbeec"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clarev.com",
+                "www.griotsgarage.com"
+            ]
+        },
+        {
+            "rule": "bloomreach\\.com\\/optimization\\/recommend\\/user",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us3-api.eng"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7f89c4193941d66f75e97363a62f1c03e66bf157b4e6b954e5502d885575126f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clarev.com",
+                "www.clarev.com"
+            ]
+        },
+        {
+            "rule": "bloomreach\\.com\\/webxp\\/projects\\/3ac35f78-a32e-11ed-97f9-f62541dd11c8\\/bundle",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "demoapp-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fa948b348a9c4e64ac5d440ee26f100882443b83d3b6c5434965e2ed7b29564c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "griotsgarage.com",
+                "www.griotsgarage.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6111111111111112
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.05555555555555555
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 11
+    },
+    "nameservers": [
+        "a12-66.akam.net",
+        "a18-64.akam.net",
+        "a26-65.akam.net",
+        "a9-66.akam.net",
+        "a13-67.akam.net",
+        "a1-233.akam.net"
+    ]
+}

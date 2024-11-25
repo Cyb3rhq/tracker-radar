@@ -1,0 +1,100 @@
+{
+    "domain": "archipro.com.au",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.001,
+    "sites": 10,
+    "subdomains": [
+        "pixel"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "archipro\\.com\\.au\\/ap-analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {
+                "Document.cookie getter": 10,
+                "window.localStorage": 10
+            },
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "fd33550216c9f32ba4fe0b0d3f30d5d53b626fe9304cf89dfe35229d70e94e71"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "audioconnection.com.au",
+                "fienza.com.au",
+                "www.abiinteriors.com.au",
+                "www.clipsal.com",
+                "www.keelerhardware.com.au",
+                "www.metroll.com.au",
+                "www.outdoorelegance.com.au",
+                "www.rjliving.com.au",
+                "www.spacefurniture.com.au",
+                "www.steel-line.com.au"
+            ]
+        },
+        {
+            "rule": "archipro\\.com\\.au\\/ping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "912d0c07da7bdb22cdae025b96da26d01523aaab7362edb28544e3949deb369d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "audioconnection.com.au",
+                "fienza.com.au",
+                "www.abiinteriors.com.au",
+                "www.clipsal.com",
+                "www.keelerhardware.com.au",
+                "www.metroll.com.au",
+                "www.outdoorelegance.com.au",
+                "www.rjliving.com.au",
+                "www.spacefurniture.com.au",
+                "www.steel-line.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8571428571428571
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Fetch": 10
+    },
+    "nameservers": [
+        "amy.ns.cloudflare.com",
+        "chuck.ns.cloudflare.com"
+    ]
+}

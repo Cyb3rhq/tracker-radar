@@ -1,0 +1,88 @@
+{
+    "domain": "k8s-ingressa-internet-d8c823bc7c-1457349916.us-east-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "livemesensor.liveme.com",
+            "resolved": "k8s-ingressa-internet-d8c823bc7c-1457349916.us-east-1.elb.amazonaws.com"
+        },
+        {
+            "original": "lvapi.liveme.com",
+            "resolved": "k8s-ingressa-internet-d8c823bc7c-1457349916.us-east-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "k8s-ingressa-internet-d8c823bc7c-1457349916\\.us-east-1\\.elb\\.amazonaws\\.com\\/sa\\.gif",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "livemesensor.liveme.com",
+                    "resolved": "k8s-ingressa-internet-d8c823bc7c-1457349916.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "liveme.com",
+                "sync.liveme.com"
+            ]
+        },
+        {
+            "rule": "k8s-ingressa-internet-d8c823bc7c-1457349916\\.us-east-1\\.elb\\.amazonaws\\.com\\/search\\/getcountryCode",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "lvapi.liveme.com",
+                    "resolved": "k8s-ingressa-internet-d8c823bc7c-1457349916.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "7c735b4dc4bd113135b26661521b65ff44d295c3a39b9a2bab47de05ced3ea47"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "liveme.com",
+                "sync.liveme.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0001,
+    "types": {
+        "Image": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

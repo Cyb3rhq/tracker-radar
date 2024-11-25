@@ -1,0 +1,171 @@
+{
+    "domain": "exosrv.com",
+    "owner": {
+        "name": "ExoClick, S.L.",
+        "displayName": "ExoClick",
+        "privacyPolicy": "https://www.exoclick.com/privacy/",
+        "url": "http://exoclick.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000704,
+    "sites": 7,
+    "subdomains": [
+        "ads",
+        "a",
+        "syndication"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "exosrv\\.com\\/nativeads\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads",
+                "a"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 1,
+                "NavigatorUAData.prototype.getHighEntropyValues": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e8d7f3a9bbc7e58637b6b70a7eb82ba3373b2d1f5c0f407253c826c2b8a652a5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hcbdsm.com",
+                "www.youramateurporn.com"
+            ]
+        },
+        {
+            "rule": "exosrv\\.com\\/splash\\.php",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "syndication"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "363ccfc41eba7c29ae34406c7ecc607adaa7b2ff3e984ff50a8a15817fea1933"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hcbdsm.com",
+                "www.youramateurporn.com"
+            ]
+        },
+        {
+            "rule": "exosrv\\.com\\/splash\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "syndication"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hcbdsm.com",
+                "www.youramateurporn.com"
+            ]
+        },
+        {
+            "rule": "exosrv\\.com\\/ads-iframe-display\\.php",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "syndication"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "f76d9f4050419c2abbb3954e85b4363cfeeb71ff19816fc5a32cee19e10a3c1a",
+                "23f87eb3fccfb9435d6eda22e0a743f42ea1e905e9c50110b7a95a7215b3bb11",
+                "101d99d2d77d1822eb4ba5adc241d1f002c7841252b0fbbb175a1243d0452bf2"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homepornking.com",
+                "www.homepornking.com",
+                "www.peekvids.com",
+                "www.porntry.com"
+            ]
+        },
+        {
+            "rule": "exosrv\\.com\\/ads\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads",
+                "a"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "273c95ab65884bfb12154bf674975fa538719d095fcf78c27504e52cb391c68f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "peekvids.com",
+                "www.porntry.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {},
+    "cookies": 0.000402,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 2,
+        "Preflight": 2,
+        "Document": 4
+    },
+    "nameservers": [
+        "dns1.cloudns.net",
+        "sec2.rcode0.net",
+        "sec1.rcode0.net",
+        "dns2.cloudns.net"
+    ]
+}

@@ -1,0 +1,164 @@
+{
+    "domain": "stape.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.00151,
+    "sites": 15,
+    "subdomains": [
+        "qslcncqs.eul",
+        "euv",
+        "eul",
+        "ust"
+    ],
+    "cnames": [
+        {
+            "original": "gtm.buildingmaterials.co.uk",
+            "resolved": "eul.stape.io"
+        },
+        {
+            "original": "measure.espares.co.uk",
+            "resolved": "euv.stape.io"
+        },
+        {
+            "original": "ssdata.submagic.co",
+            "resolved": "ust.stape.io"
+        },
+        {
+            "original": "sst.inov8.com",
+            "resolved": "eul.stape.io"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "stape\\.io\\/g\\/collect",
+            "cookies": 0.0001,
+            "fingerprinting": 0,
+            "subdomains": [
+                "qslcncqs.eul",
+                "euv",
+                "eul"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [
+                {
+                    "original": "measure.espares.co.uk",
+                    "resolved": "euv.stape.io"
+                },
+                {
+                    "original": "sst.inov8.com",
+                    "resolved": "eul.stape.io"
+                }
+            ],
+            "responseHashes": [
+                "cb88c1a99ce2934e1194c6af60f701b534ada7216b9f96fb6976c0be5346718e",
+                "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.0003013863773357444
+            },
+            "exampleSites": [
+                "laithwaites.co.uk",
+                "www.espares.co.uk",
+                "www.inov8.com",
+                "www.laithwaites.co.uk"
+            ]
+        },
+        {
+            "rule": "stape\\.io\\/gpt_ads-public\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eul",
+                "ust"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "gtm.buildingmaterials.co.uk",
+                    "resolved": "eul.stape.io"
+                },
+                {
+                    "original": "ssdata.submagic.co",
+                    "resolved": "ust.stape.io"
+                }
+            ],
+            "responseHashes": [
+                "60cb051e5a90fb89b3dd953d5eb8a121a0d6d54f5c49a174997190aaf013e3af"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "buildingmaterials.co.uk",
+                "www.submagic.co"
+            ]
+        },
+        {
+            "rule": "stape\\.io\\/ngtzbsjfgmt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eul"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "gtm.buildingmaterials.co.uk",
+                    "resolved": "eul.stape.io"
+                }
+            ],
+            "responseHashes": [
+                "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "dy_fs_page": 0.00020092425155716296
+            },
+            "exampleSites": [
+                "buildingmaterials.co.uk",
+                "www.buildingmaterials.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000804,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5333333333333333
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.26666666666666666
+        },
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.13333333333333333
+        },
+        {
+            "domain": "facebook.net",
+            "prevalence": 0.06666666666666667
+        }
+    ],
+    "types": {
+        "Fetch": 6,
+        "Script": 2
+    },
+    "nameservers": [
+        "donald.ns.cloudflare.com",
+        "aida.ns.cloudflare.com"
+    ]
+}

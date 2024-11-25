@@ -1,0 +1,357 @@
+{
+    "domain": "whizeo.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000273,
+    "sites": 4,
+    "subdomains": [
+        "data",
+        "cdn",
+        "chat",
+        "api",
+        "services",
+        "webcontent"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "whizeo\\.com\\/widgets\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {
+                "window.innerWidth": 3,
+                "window.outerWidth": 3,
+                "window.outerHeight": 3,
+                "Date.prototype.getTime": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Navigator.prototype.appName": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Screen.prototype.colorDepth": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.appCodeName": 3,
+                "Navigator.prototype.appVersion": 3,
+                "Navigator.prototype.product": 3,
+                "Navigator.prototype.productSub": 3,
+                "Navigator.prototype.vendor": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.deviceMemory": 3,
+                "Navigator.prototype.hardwareConcurrency": 3,
+                "Navigator.prototype.mediaDevices": 3,
+                "MediaDevices.prototype.enumerateDevices": 3,
+                "NavigatorUAData.prototype.platform": 3,
+                "Screen.prototype.availWidth": 3,
+                "Screen.prototype.availHeight": 3,
+                "window.devicePixelRatio": 3,
+                "WebGL2RenderingContext.prototype.getExtension": 3,
+                "WebGL2RenderingContext.prototype.getParameter": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "HTMLMediaElement.prototype.canPlayType": 3,
+                "Navigator.prototype.mimeTypes": 3,
+                "HTMLCanvasElement.prototype.toDataURL": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "6bf297a180f25ef902b223335d2beaac6d29473df809eae38d852bbe67d165c7",
+                "83b93643d0ff42d05824f340189a8f2d7a7fd1456d0fd2112763bd372cc94b82"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "berlinpackaging.com",
+                "www.cla-val.com",
+                "www.jameco.com"
+            ]
+        },
+        {
+            "rule": "whizeo\\.com\\/openfpcdn\\/botd\\/v1",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.vendor": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.appVersion": 3,
+                "Navigator.prototype.connection": 3,
+                "window.outerWidth": 3,
+                "window.outerHeight": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Navigator.prototype.plugins": 3,
+                "Navigator.prototype.productSub": 3,
+                "Navigator.prototype.mimeTypes": 3,
+                "WebGLRenderingContext.prototype.getParameter": 3,
+                "Navigator.prototype.webdriver": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.languages": 3,
+                "Navigator.prototype.permissions": 3,
+                "Notification.permission": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "29cb26e06f2a4a877f1134a46480d9b78f8b6e0e6f9b0fe67e34307c312b5a89"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "berlinpackaging.com",
+                "www.cla-val.com",
+                "www.jameco.com"
+            ]
+        },
+        {
+            "rule": "whizeo\\.com\\/loader\\/AllowedClients\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "berlinpackaging.com",
+                "www.cla-val.com",
+                "www.jameco.com"
+            ]
+        },
+        {
+            "rule": "whizeo\\.com\\/tracking-event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "a7418bdea7313e4629c9bd256d16b1a86e92e84a2d920204ec962bd7c5b0cdf6",
+                "c257128878fc0cb34bed131e83edd27f4a6568bb1ca971270fef2fb234dd82ac",
+                "7d062ca4456df4cbab2177f228e22dc6c8294ff5761063cb9bfcbe2522eaac0a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "berlinpackaging.com",
+                "www.berlinpackaging.com",
+                "www.cla-val.com",
+                "www.jameco.com"
+            ]
+        },
+        {
+            "rule": "whizeo\\.com\\/tracking-event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "berlinpackaging.com",
+                "www.berlinpackaging.com",
+                "www.cla-val.com",
+                "www.jameco.com"
+            ]
+        },
+        {
+            "rule": "whizeo\\.com\\/widgets\\/stat-fp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "berlinpackaging.com",
+                "www.cla-val.com",
+                "www.jameco.com"
+            ]
+        },
+        {
+            "rule": "whizeo\\.com\\/widgets\\/stat-fp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "berlinpackaging.com",
+                "www.cla-val.com",
+                "www.jameco.com"
+            ]
+        },
+        {
+            "rule": "whizeo\\.com\\/widgets\\/init\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "7045c932c3dacda4a10c4993aa18a3897e0ba781600c2d0f1143fe34ffa2c6cc",
+                "1dbd5dc644d958eb92e5dbfee703a8229ba6ae5c35330bef99aac19d1570c09f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "berlinpackaging.com",
+                "www.cla-val.com",
+                "www.jameco.com"
+            ]
+        },
+        {
+            "rule": "whizeo\\.com\\/widgets\\/widget\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "17c25f95c3b88fc0a015925a2c715d70692b97ef31bfd94f5c7df986b78f18d5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jameco.com",
+                "www.jameco.com"
+            ]
+        },
+        {
+            "rule": "whizeo\\.com\\/images\\/toaster-background\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcontent"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c445a54df0c45bcdf4a5ee70fc2fa26bc333c0cb1655fe4d496f04c40735e287"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jameco.com",
+                "www.jameco.com"
+            ]
+        },
+        {
+            "rule": "whizeo\\.com\\/client\\/1064\\/assets\\/3ed5f68e-4ae3-454b-92a5-ddc4843664c0\\.jpeg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webcontent"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "32159bd67729e968ea7c58388326e9c81aa44d58a261eadab47c43d2bddbc4ea"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jameco.com",
+                "www.jameco.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.5555555555555556
+        },
+        {
+            "domain": "inventiveperception365.com",
+            "prevalence": 0.2222222222222222
+        },
+        {
+            "domain": "insightful-enterprise-247.com",
+            "prevalence": 0.1111111111111111
+        },
+        {
+            "domain": "intelligent-business-7.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "Fetch": 3,
+        "XHR": 9,
+        "Preflight": 7,
+        "Image": 4
+    },
+    "nameservers": [
+        "major.ns.cloudflare.com",
+        "maeve.ns.cloudflare.com"
+    ]
+}

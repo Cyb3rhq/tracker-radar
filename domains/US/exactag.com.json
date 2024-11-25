@@ -1,0 +1,227 @@
+{
+    "domain": "exactag.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000102,
+    "sites": 15,
+    "subdomains": [
+        "m",
+        "cdn"
+    ],
+    "cnames": [
+        {
+            "original": "at.bahn.de",
+            "resolved": "m.exactag.com"
+        },
+        {
+            "original": "cdn-at.bahn.de",
+            "resolved": "cdn.exactag.com"
+        },
+        {
+            "original": "ctagm.eduscho.at",
+            "resolved": "cdn.exactag.com"
+        },
+        {
+            "original": "ctagm.tchibo.de",
+            "resolved": "cdn.exactag.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "exactag\\.com\\/ccrm",
+            "cookies": 0.0000273,
+            "fingerprinting": 0,
+            "subdomains": [
+                "m"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [
+                {
+                    "original": "at.bahn.de",
+                    "resolved": "m.exactag.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bahn.de",
+                "int.bahn.de",
+                "mobile.bahn.de",
+                "www.bahn.de"
+            ]
+        },
+        {
+            "rule": "exactag\\.com\\/1x1\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [
+                {
+                    "original": "cdn-at.bahn.de",
+                    "resolved": "cdn.exactag.com"
+                }
+            ],
+            "responseHashes": [
+                "50c049bd07ab7e60d4a251d8a4295c231632a023180f406be9f45a72eeb296cd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bahn.de",
+                "int.bahn.de",
+                "mobile.bahn.de",
+                "www.bahn.de"
+            ]
+        },
+        {
+            "rule": "exactag\\.com\\/js\\/exactag\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "ctagm.tchibo.de",
+                    "resolved": "cdn.exactag.com"
+                },
+                {
+                    "original": "ctagm.eduscho.at",
+                    "resolved": "cdn.exactag.com"
+                }
+            ],
+            "responseHashes": [
+                "325b0f4e7c8ca2c6771710cae777e98d9c869906a289e09010960d196ad38ed5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tchibo.de",
+                "www.bett1.de",
+                "www.eduscho.at",
+                "www.haba-play.com",
+                "www.tchibo.de"
+            ]
+        },
+        {
+            "rule": "exactag\\.com\\/pi\\.aspx",
+            "cookies": 0.0000273,
+            "fingerprinting": 1,
+            "subdomains": [
+                "m"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.appVersion": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "80c868d51ae73437a991df2593f7a5cc3f0d4e57602221514a3940b9a185cce8",
+                "2f1bb2c156609dbeee54e66e6b8fa1f7f455cab4fd0c95a9a69976147d29fc21",
+                "1844a155c9090b877ee99fc5cbe33fd2ed55142a5a7e4796c9cf6aee4d1fe299"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "et_uk": {
+                    "ttl": 15552011,
+                    "length": 32,
+                    "prevalence": 0.0000273280043724807,
+                    "uniqueness": 1
+                },
+                "et_gk": {
+                    "ttl": 7776011,
+                    "length": 60,
+                    "prevalence": 0.0000273280043724807,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "haba-play.com",
+                "www.sixt.com.au",
+                "www.sixt.com",
+                "www.sixt.de"
+            ]
+        },
+        {
+            "rule": "exactag\\.com\\/js\\/exactag_sixt\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Document.cookie getter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "3c2592647bc2071d89d484ce5894082fbc78ea8f44e71e0461cd779c235be565"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sixt.com.au",
+                "www.sixt.com",
+                "www.sixt.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000752,
+    "topInitiators": [
+        {
+            "domain": "static-bahn.de",
+            "prevalence": 0.38095238095238093
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.23809523809523808
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.19047619047619047
+        },
+        {
+            "domain": "instana.io",
+            "prevalence": 0.19047619047619047
+        }
+    ],
+    "types": {
+        "Image": 8,
+        "Script": 12
+    },
+    "nameservers": [
+        "ns-922.awsdns-51.net",
+        "ns-1881.awsdns-43.co.uk",
+        "ns-1125.awsdns-12.org",
+        "ns-200.awsdns-25.com"
+    ]
+}

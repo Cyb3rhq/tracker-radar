@@ -1,0 +1,81 @@
+{
+    "domain": "trovit.com",
+    "owner": {
+        "name": "TROVIT",
+        "displayName": "TROVIT"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000302,
+    "sites": 3,
+    "subdomains": [
+        "analytics"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "trovit\\.com\\/trovit-analytics\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "3b551cc9abce86cba93074d539abb87331aef10b40e3163c643c14bf39ff6daa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_tac": {
+                    "ttl": 604819,
+                    "length": 24,
+                    "prevalence": 0.00020122748767481639,
+                    "uniqueness": 0.5
+                },
+                "_ta": {
+                    "ttl": 604819,
+                    "length": 37,
+                    "prevalence": 0.00020122748767481639,
+                    "uniqueness": 1
+                },
+                "_tas": {
+                    "ttl": 919,
+                    "length": 11,
+                    "prevalence": 0.00020122748767481639,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "realtor.com",
+                "www.rentboard.ca",
+                "www.rentfaster.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "celeste.ns.cloudflare.com",
+        "kobe.ns.cloudflare.com"
+    ]
+}

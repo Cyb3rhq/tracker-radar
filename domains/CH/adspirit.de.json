@@ -1,0 +1,247 @@
+{
+    "domain": "adspirit.de",
+    "owner": {
+        "name": "AdSpirit GmbH",
+        "displayName": "AdSpirit"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [
+        "aponet",
+        "mmi",
+        "cdn",
+        "hifitest",
+        "konradin"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "adspirit\\.de\\/adview\\.php",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aponet",
+                "mmi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "1cfaf533b9965b7d9cf11f372b0eecdc7839642d73db9971d7533b9ad4cbc54c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aponet.de",
+                "www.gelbe-liste.de",
+                "www.pharmazeutische-zeitung.de"
+            ]
+        },
+        {
+            "rule": "adspirit\\.de\\/banner\\/aponet\\/2165\\/2019-08-04\\/0_Transparent_1x1\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1cfaf533b9965b7d9cf11f372b0eecdc7839642d73db9971d7533b9ad4cbc54c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aponet.de",
+                "www.pharmazeutische-zeitung.de"
+            ]
+        },
+        {
+            "rule": "adspirit\\.de\\/adasync\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn",
+                "aponet"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.plugins": 3,
+                "Navigator.prototype.mimeTypes": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Document.cookie getter": 3
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "5cd46ce7d15699ba2a1acac132c2375e7848cb06ee16c8cabb65ef5252b4c846",
+                "df5eb13e14ada98892a0c1418dc6a8349c8fbd7ed028925cb38b5550078d2bba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hifitest.de",
+                "www.pharmazeutische-zeitung.de",
+                "www.sueddeutsche.de",
+                "www.wissen.de"
+            ]
+        },
+        {
+            "rule": "adspirit\\.de\\/adscript\\.php",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hifitest",
+                "aponet",
+                "konradin"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "2d48e6c1bd6103c2f0421d4a3d9056ee1d4ee7023463598a376c24172f0e4e95",
+                "b9e3418b4281d717528ffe042291814e44505740a26c46f57545f47fbd823046",
+                "6d4d3e5e32f56ab4f918bfebb81677134a07a0e95ed92d9d2c09e9aa51887f4e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hifitest.de",
+                "www.hifitest.de",
+                "www.pharmazeutische-zeitung.de",
+                "www.wissen.de"
+            ]
+        },
+        {
+            "rule": "adspirit\\.de\\/banner\\/asm_pageview\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "9d33f1621ca6eca3c807b75f23aea2f847f1992d487cab0aeb732332af8fab46"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hifitest.de",
+                "www.pharmazeutische-zeitung.de",
+                "www.wissen.de"
+            ]
+        },
+        {
+            "rule": "adspirit\\.de\\/adpageview\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hifitest",
+                "aponet",
+                "konradin"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "1cfaf533b9965b7d9cf11f372b0eecdc7839642d73db9971d7533b9ad4cbc54c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hifitest.de",
+                "www.pharmazeutische-zeitung.de",
+                "www.wissen.de"
+            ]
+        },
+        {
+            "rule": "adspirit\\.de\\/adresponsivescript\\.php",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aponet"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cbffd863afabd9ab4edc279d32988779c042892c601b9e52a092e314a521186c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pharmazeutische-zeitung.de",
+                "www.pharmazeutische-zeitung.de"
+            ]
+        },
+        {
+            "rule": "adspirit\\.de\\/adscrollintoview\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aponet"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "1cfaf533b9965b7d9cf11f372b0eecdc7839642d73db9971d7533b9ad4cbc54c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pharmazeutische-zeitung.de",
+                "www.pharmazeutische-zeitung.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000502,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8461538461538461
+        },
+        {
+            "domain": "twiago.com",
+            "prevalence": 0.15384615384615385
+        }
+    ],
+    "types": {
+        "Image": 10,
+        "Script": 13
+    },
+    "nameservers": [
+        "ns1.ns-serve.net",
+        "ns2.ns-serve.net"
+    ]
+}

@@ -1,0 +1,134 @@
+{
+    "domain": "adbox.lv",
+    "owner": {
+        "name": "INBOKSS, SIA",
+        "displayName": "INBOKSS"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "b"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "adbox\\.lv\\/bxlib\\/js\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "70591a8fe528c305159dc1a150fe18374316653802954565b28b47bfd1d9b818"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inbox.lv",
+                "www.la.lv"
+            ]
+        },
+        {
+            "rule": "adbox\\.lv\\/bxlib\\/js\\/emiter\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "b"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d85f1c22d5aa6b5467b4290f582d86a5f444e33bd0bc68f9d038974ef725d447"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inbox.lv",
+                "www.la.lv"
+            ]
+        },
+        {
+            "rule": "adbox\\.lv\\/emiter\\/bx_placement\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "09431bc668517ac668b0f8bdeb0986ce03e8010e05e8d4521310391700f47cad",
+                "b1c22160100e9e78fea3f52826926197e897a587238d7a6d640d045fa7562828"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inbox.lv",
+                "www.inbox.lv",
+                "www.la.lv"
+            ]
+        },
+        {
+            "rule": "adbox\\.lv\\/stats\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "5c2fb6ddf9aa2266b8fe206ff13497c7ace1ca1468a3ed7fcaa5c1f3f4cd0ee0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inbox.lv",
+                "www.inbox.lv",
+                "www.la.lv"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Image": 3
+    },
+    "nameservers": [
+        "weston.ns.cloudflare.com",
+        "meg.ns.cloudflare.com"
+    ]
+}

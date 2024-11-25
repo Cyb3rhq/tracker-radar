@@ -1,0 +1,182 @@
+{
+    "domain": "split.io",
+    "owner": {
+        "name": "Split Software, Inc.",
+        "displayName": "Split Software"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "sdk",
+        "auth",
+        "events"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "split\\.io\\/api\\/splitChanges",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kartenliebe.ch",
+                "miro.com",
+                "www.eventbrite.com",
+                "www.familysearch.org",
+                "www.mentimeter.com",
+                "zapier.com"
+            ]
+        },
+        {
+            "rule": "split\\.io\\/api\\/splitChanges",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "d806d5c8c7503933ae3698e030a4a2c68a60b0a2eec11268bbee605184b185fe",
+                "0d3bbaeb5e90f7b5891c3a821f200729e342590cd7ba7f7617cf3937edc740f1",
+                "ae4dfb2534d5ed754154343fce26f673ee0219bd488bd516d3c2aca331b2d5f6",
+                "54724a0098312f735965358de0b99df3b82c909fe3f4436f2dc1a9129f8e2a36",
+                "fd59eee9ac1fe5d88e86c6da66d03e70153b058d130180c11905ffd47c574731"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kartenliebe.ch",
+                "miro.com",
+                "www.eventbrite.com",
+                "www.familysearch.org",
+                "www.mentimeter.com",
+                "zapier.com"
+            ]
+        },
+        {
+            "rule": "split\\.io\\/api\\/v2\\/auth",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "auth"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "c38b616e7f44a59b24f1bfb98ddeb6f193e1768f1b74882f3c37c31b6a7911ed",
+                "2fc24afb7a6a4ffb7e1b0e1718ac0fb88a50e9d8883b263cbe46dffa346eaa05",
+                "36caef01dece57dcbc3c6e5913e868b343309d1db4ade9013a3de5367a477692",
+                "4ccaa791624066f8f097d6fe098cfa3a5491c846b6b2052a6e01f30dde1c9786",
+                "23d3554174cade92ee9922fb106429ccb17b84b377a76df3a2a924b845ea0bf4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kartenliebe.ch",
+                "miro.com",
+                "www.eventbrite.com",
+                "www.familysearch.org",
+                "www.mentimeter.com",
+                "zapier.com"
+            ]
+        },
+        {
+            "rule": "split\\.io\\/api\\/v2\\/auth",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "auth"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kartenliebe.ch",
+                "miro.com",
+                "www.eventbrite.com",
+                "www.familysearch.org",
+                "www.mentimeter.com",
+                "zapier.com"
+            ]
+        },
+        {
+            "rule": "split\\.io\\/api\\/events\\/beacon",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "leafly.com",
+                "www.leafly.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5454545454545454
+        },
+        {
+            "domain": "fscdn.org",
+            "prevalence": 0.18181818181818182
+        },
+        {
+            "domain": "evbstatic.com",
+            "prevalence": 0.13636363636363635
+        },
+        {
+            "domain": "zapier-deployment.com",
+            "prevalence": 0.13636363636363635
+        }
+    ],
+    "types": {
+        "Preflight": 12,
+        "Fetch": 14
+    },
+    "nameservers": [
+        "ns-1842.awsdns-38.co.uk",
+        "ns-1183.awsdns-19.org",
+        "ns-877.awsdns-45.net",
+        "ns-335.awsdns-41.com"
+    ]
+}

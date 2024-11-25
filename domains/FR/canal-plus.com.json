@@ -1,0 +1,81 @@
+{
+    "domain": "canal-plus.com",
+    "owner": {
+        "name": "GROUPE CANAL +",
+        "displayName": "Groupe Canal+"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000403,
+    "sites": 4,
+    "subdomains": [
+        "pass-api-v2"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "canal-plus\\.com\\/provider\\/services\\/fr\\/public\\/createToken",
+            "cookies": 0.000202,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pass-api-v2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "2125e3803c3df4cf512e1a09556b8f7fd7026e44e98485e1c83164810f3b69c1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canalplus.com",
+                "client.canalplus.com"
+            ]
+        },
+        {
+            "rule": "canal-plus\\.com\\/provider\\/services\\/cpfra-fr\\/public\\/createToken",
+            "cookies": 0.000202,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pass-api-v2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "b60885d132210576f8e7c2278fe9e3fe321ccd9aa89540ee13e5b8dd02080217"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canalplus.com",
+                "www.canalplus.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000403,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "nsb.perf1.com",
+        "nsc.perf1.com",
+        "nsa.perf1.fr"
+    ]
+}

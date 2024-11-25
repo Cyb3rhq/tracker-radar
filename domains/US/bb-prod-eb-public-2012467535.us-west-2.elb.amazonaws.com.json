@@ -1,0 +1,76 @@
+{
+    "domain": "bb-prod-eb-public-2012467535.us-west-2.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "api.bodybuilding.com",
+            "resolved": "bb-prod-eb-public-2012467535.us-west-2.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "bb-prod-eb-public-2012467535\\.us-west-2\\.elb\\.amazonaws\\.com\\/profile\\/me",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api.bodybuilding.com",
+                    "resolved": "bb-prod-eb-public-2012467535.us-west-2.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "f404140ff2e6bc5193078ccc5386b2510ec2ca3516d7ed872537029c36fff8f7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bodybuilding.com",
+                "www.bodybuilding.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.00000683,
+    "topInitiators": [
+        {
+            "domain": "skio.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "bbcom-prod-content-cache.s3-us-west-2.amazonaws.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "XHR": 2
+    },
+    "nameservers": []
+}

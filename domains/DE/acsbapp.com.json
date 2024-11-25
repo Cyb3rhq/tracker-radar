@@ -1,0 +1,148 @@
+{
+    "domain": "acsbapp.com",
+    "owner": {
+        "name": "accessiBe Inc.",
+        "displayName": "accessiBe"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.001,
+    "sites": 10,
+    "subdomains": [
+        "eu",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "acsbapp\\.com\\/apps\\/app\\/dist\\/js\\/app\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "eu"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 10,
+                "Navigator.prototype.maxTouchPoints": 10,
+                "window.localStorage": 9,
+                "NavigatorUAData.prototype.brands": 9
+            },
+            "sites": 10,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "97eb81b3243714173224c1cdb3d41f8eea3ebb9f49408fdc472932d6f0aabfd9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "losteria.net",
+                "metamask.io",
+                "www.etoro.com",
+                "www.medizin.uni-tuebingen.de",
+                "www.muenchner-volkstheater.de",
+                "www.smeg.com",
+                "www.specialized.com",
+                "www.uniklinikum-leipzig.de",
+                "www.westfield.com",
+                "www.wickedweasel.com"
+            ]
+        },
+        {
+            "rule": "acsbapp\\.com\\/apps\\/app\\/dist\\/js\\/locale\\/de-app\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "f188322667c58f012c1c66ae2941c272618eba34db381f94ffefbc80b0588e1b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "losteria.net",
+                "www.medizin.uni-tuebingen.de",
+                "www.muenchner-volkstheater.de",
+                "www.uniklinikum-leipzig.de"
+            ]
+        },
+        {
+            "rule": "acsbapp\\.com\\/config\\/wickedweasel\\.com\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "bde9c2949e64d059c18d8f93566a64dafc6d2e8e259a70322fb804831dfd0b5b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wickedweasel.com",
+                "www.wickedweasel.com"
+            ]
+        },
+        {
+            "rule": "acsbapp\\.com\\/cache\\/app\\/wildcards\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ae383fa1e3a44a72f51a5b3f443b82de4d4d8a07f96a18ebf612c5579eb98dce"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wickedweasel.com",
+                "www.wickedweasel.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.88
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.08
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.04
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Fetch": 8
+    },
+    "nameservers": [
+        "bill.ns.cloudflare.com",
+        "davina.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,197 @@
+{
+    "domain": "disco-api.com",
+    "owner": {
+        "name": "Discovery Communications Europe Limited",
+        "displayName": "Discovery Communications Europe"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.0001,
+    "sites": 1,
+    "subdomains": [
+        "global-prod",
+        "eu1-prod",
+        "eu1-prod-images"
+    ],
+    "cnames": [
+        {
+            "original": "eu1-prod-direct.discoveryplus.com",
+            "resolved": "eu1-prod.disco-api.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "disco-api\\.com\\/bootstrapInfo",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "global-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "3de94d0fbe6f1d38b45f8d6a4bd63d29e98604f4f88e0efa3cb839b97411e6c3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discoveryplus.com",
+                "www.discoveryplus.com"
+            ]
+        },
+        {
+            "rule": "disco-api\\.com\\/cms\\/configs\\/web-prod",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu1-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "eu1-prod-direct.discoveryplus.com",
+                    "resolved": "eu1-prod.disco-api.com"
+                }
+            ],
+            "responseHashes": [
+                "db4535c29d0bf8004fdd0a46eea5a3631429dd81e8147485ffd3408290045bcd"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discoveryplus.com",
+                "www.discoveryplus.com"
+            ]
+        },
+        {
+            "rule": "disco-api\\.com\\/users\\/me\\/profiles\\/selected",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu1-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "eu1-prod-direct.discoveryplus.com",
+                    "resolved": "eu1-prod.disco-api.com"
+                }
+            ],
+            "responseHashes": [
+                "441270e1fe547d907e2741eea4402db902b8c100e398a8b99217d9ce15e5af79"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discoveryplus.com",
+                "www.discoveryplus.com"
+            ]
+        },
+        {
+            "rule": "disco-api\\.com\\/users\\/me",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu1-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "eu1-prod-direct.discoveryplus.com",
+                    "resolved": "eu1-prod.disco-api.com"
+                }
+            ],
+            "responseHashes": [
+                "14a44010e580b2091714fd978adb510809b3e3daea9ce30a3bd76e45decc8cd6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discoveryplus.com",
+                "www.discoveryplus.com"
+            ]
+        },
+        {
+            "rule": "disco-api\\.com\\/entitlements\\/userEntitlementsSummary\\/me",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu1-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "eu1-prod-direct.discoveryplus.com",
+                    "resolved": "eu1-prod.disco-api.com"
+                }
+            ],
+            "responseHashes": [
+                "54d8a15a130f5ed17a884f5c3be2713c1e672d29ca7f2cc1eb2314ee0176181f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discoveryplus.com",
+                "www.discoveryplus.com"
+            ]
+        },
+        {
+            "rule": "disco-api\\.com\\/2024\\/11\\/01\\/0cf52688-8c51-4a1e-8c13-ebaf57690598\\.jpeg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu1-prod-images"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "ed604b29db9e565fd2c77f9e4a5f4e540e3ee5092bfeed82edff0c945c1ec7e3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discoveryplus.com",
+                "www.discoveryplus.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0001,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 10,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-1277.awsdns-31.org",
+        "ns-1647.awsdns-13.co.uk",
+        "ns-235.awsdns-29.com",
+        "ns-722.awsdns-26.net"
+    ]
+}

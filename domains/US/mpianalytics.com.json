@@ -1,0 +1,136 @@
+{
+    "domain": "mpianalytics.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "cis",
+        "collector"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "mpianalytics\\.com\\/api\\/v1\\/identify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cis"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000041,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "subito.it",
+                "impresapiu.subito.it",
+                "ingatlan.jofogas.hu",
+                "www.jofogas.hu",
+                "www.subito.it",
+                "www.willhaben.at"
+            ]
+        },
+        {
+            "rule": "mpianalytics\\.com\\/api\\/v1\\/identify",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cis"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "2b14c7f29929c66616f57966e527b418bfb0eb246f19b2d07672be0fa9c65eb6",
+                "3e4b5adedf8917251c640b28016ef39938d783e193568b3ee0a3c3845a88cc11",
+                "43b94b65f0c7674f62f2b9dfe5665873b053683aac710e817c5ccebb79e7fa36",
+                "e662db1b1a846f2a7bf82cbc3a0eb8d335459ce7a7fbf48b17e74d852d31c985"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "subito.it",
+                "ingatlan.jofogas.hu",
+                "www.jofogas.hu",
+                "www.subito.it",
+                "www.willhaben.at"
+            ]
+        },
+        {
+            "rule": "mpianalytics\\.com\\/api\\/v1\\/track\\/sdrn:schibsted:client:subito",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collector"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "90687150c18ec51580a40877532d01b82c479d207966f5b51972f0efee916f18"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "subito.it",
+                "www.subito.it"
+            ]
+        },
+        {
+            "rule": "mpianalytics\\.com\\/api\\/v1\\/track\\/sdrn:schibsted:client:willhabenat",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collector"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "90687150c18ec51580a40877532d01b82c479d207966f5b51972f0efee916f18"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "willhaben.at",
+                "www.willhaben.at"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8571428571428571
+        },
+        {
+            "domain": "updata-public.s3.eu-central-1.amazonaws.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Preflight": 6,
+        "Fetch": 9
+    },
+    "nameservers": [
+        "ns-221.awsdns-27.com",
+        "ns-597.awsdns-10.net",
+        "ns-1257.awsdns-29.org",
+        "ns-2030.awsdns-61.co.uk"
+    ]
+}

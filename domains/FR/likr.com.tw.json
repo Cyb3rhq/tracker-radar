@@ -1,0 +1,73 @@
+{
+    "domain": "likr.com.tw",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000202,
+    "sites": 2,
+    "subdomains": [
+        "auto-load-balancer"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "likr\\.com\\.tw\\/pushEndPoint\\/uuid_gen\\/uuid_iframe\\.php",
+            "cookies": 0.000202,
+            "fingerprinting": 1,
+            "subdomains": [
+                "auto-load-balancer"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [],
+            "responseHashes": [
+                "294b0c2e3ec3edc89ec51dcef5ef2e099b3111a0634b2e7121cd249744d39b3a"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {
+                "AviviD_uuid": {
+                    "ttl": 315360010,
+                    "length": 36,
+                    "prevalence": 0.00020153164046755341,
+                    "uniqueness": 1
+                },
+                "AviviD_refresh_uuid_status": {
+                    "ttl": 315360010,
+                    "length": 1,
+                    "prevalence": 0.00020153164046755341,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jalantikus.com",
+                "www.bola.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000202,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 2
+    },
+    "nameservers": [
+        "ns-cloud-b3.googledomains.com",
+        "ns-cloud-b4.googledomains.com",
+        "ns-cloud-b1.googledomains.com",
+        "ns-cloud-b2.googledomains.com"
+    ]
+}

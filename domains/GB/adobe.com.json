@@ -1,0 +1,314 @@
+{
+    "domain": "adobe.com",
+    "owner": {
+        "name": "Adobe Inc.",
+        "displayName": "Adobe",
+        "privacyPolicy": "https://www.adobe.com/privacy/marketing-cloud.html",
+        "url": "http://adobe.com"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000603,
+    "sites": 6,
+    "subdomains": [
+        "entitlement.auth",
+        "sp.auth"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "adobe\\.com\\/entitlement\\/v4\\/AccessEnabler\\.js",
+            "cookies": 0.000603,
+            "fingerprinting": 1,
+            "subdomains": [
+                "entitlement.auth"
+            ],
+            "apis": {
+                "console.memory": 6,
+                "Document.cookie getter": 6,
+                "window.localStorage": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.vendor": 6,
+                "Navigator.prototype.platform": 6,
+                "Document.cookie setter": 6,
+                "Date.prototype.getTime": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "9b24c44df96c5176d269271dd9c6de2d5368fd79cf6e4e97bc9a48ef57432385"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "client_type": {
+                    "ttl": null,
+                    "length": 5,
+                    "prevalence": 0.0006027727546714888,
+                    "uniqueness": 0.16666666666666666
+                },
+                "client_version": {
+                    "ttl": null,
+                    "length": 5,
+                    "prevalence": 0.0006027727546714888,
+                    "uniqueness": 0.16666666666666666
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bravotv.com",
+                "www.cbssports.com",
+                "www.cnbc.com",
+                "www.espn.com",
+                "www.espn.co.uk",
+                "www.nbc.com"
+            ]
+        },
+        {
+            "rule": "adobe\\.com\\/entitlement\\/v4\\/AccessEnablerProxy\\.html",
+            "cookies": 0.000603,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sp.auth"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "462a25128107d678e19d98c537e440aa8c59317d2dd03e10957e38feb06f196d"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bravotv.com",
+                "www.cbssports.com",
+                "www.cnbc.com",
+                "www.espn.com",
+                "www.espn.co.uk",
+                "www.nbc.com"
+            ]
+        },
+        {
+            "rule": "adobe\\.com\\/entitlement\\/v4\\/AccessEnablerProxy\\.js",
+            "cookies": 0.000603,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sp.auth"
+            ],
+            "apis": {
+                "console.memory": 6,
+                "window.localStorage": 6,
+                "Document.cookie getter": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "278781625880498dfbfbde37f14e91fda9c492677afdda0f8bf2736376d2ad99"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bravotv.com",
+                "www.cbssports.com",
+                "www.cnbc.com",
+                "www.espn.com",
+                "www.espn.co.uk",
+                "www.nbc.com"
+            ]
+        },
+        {
+            "rule": "adobe\\.com\\/o\\/client\\/register",
+            "cookies": 0.000603,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sp.auth"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "bab261c5f44033949d4df47f2bc875915c1032fd8f0d6e6d94d2fc8da6db9a37",
+                "dd8aef2f3366a9fbf59145dd62829979c0a955c554626e2d64c7e8e45396caa5",
+                "b4bcc987f3353fcfb07b445fcdecb9ad2d1ab4c20b239312d13799e47011c634",
+                "cafe80fc2dac0fe2035891ca21841aad163ab0725cbe2087657210ba5867a428",
+                "ac009cc39bc25dc56d6c80374f4bb41131df4324745bf0eb76a9854017247660"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bravotv.com",
+                "www.cbssports.com",
+                "www.cnbc.com",
+                "www.espn.com",
+                "www.espn.co.uk",
+                "www.nbc.com"
+            ]
+        },
+        {
+            "rule": "adobe\\.com\\/o\\/client\\/register",
+            "cookies": 0.000603,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sp.auth"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bravotv.com",
+                "www.cbssports.com",
+                "www.cnbc.com",
+                "www.espn.com",
+                "www.espn.co.uk",
+                "www.nbc.com"
+            ]
+        },
+        {
+            "rule": "adobe\\.com\\/o\\/client\\/token",
+            "cookies": 0.000603,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sp.auth"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "1c7f0756096a9400d16529faf3a5ab4ad1471d2e2937507759cf28e3315f3e0a",
+                "a9da42851c0f5fe039d8a350d2912c3d2f9550f406fd2bf8f6217db46a3fafdb",
+                "a42e078e4396f85ec7745782cea77cd5baa47d6a8a3851d85a1c6281f3de1570",
+                "687794219b5831ab42ec82b8fcfb36b73cda6881aa4fbf2343413a54f9433b80",
+                "194d2cc620bce8e33e15d1a966711f239747ca9d971143e14e58b7867079c4b9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bravotv.com",
+                "www.cbssports.com",
+                "www.cnbc.com",
+                "www.espn.com",
+                "www.espn.co.uk",
+                "www.nbc.com"
+            ]
+        },
+        {
+            "rule": "adobe\\.com\\/o\\/client\\/token",
+            "cookies": 0.000603,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sp.auth"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bravotv.com",
+                "www.cbssports.com",
+                "www.cnbc.com",
+                "www.espn.com",
+                "www.espn.co.uk",
+                "www.nbc.com"
+            ]
+        },
+        {
+            "rule": "adobe\\.com\\/adobe-services\\/config\\/ESPN",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sp.auth"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "a70755f1374edc59e18560fe154e3f9ae279f0a76d502645c4874fe6d9ad14e3",
+                "45e6f6841cfedd0bfe8da3bea6f6bda46113ae674294a385f91a8d628e6a9b04"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espn.com",
+                "www.espn.com",
+                "www.espn.co.uk"
+            ]
+        },
+        {
+            "rule": "adobe\\.com\\/adobe-services\\/config\\/ESPN",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sp.auth"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espn.com",
+                "www.espn.com",
+                "www.espn.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000603,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5609756097560976
+        },
+        {
+            "domain": "espn.com",
+            "prevalence": 0.24390243902439024
+        },
+        {
+            "domain": "cnbcfm.com",
+            "prevalence": 0.12195121951219512
+        },
+        {
+            "domain": "rum.us-east-1.amazonaws.com",
+            "prevalence": 0.07317073170731707
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Document": 6,
+        "XHR": 15,
+        "Preflight": 15
+    },
+    "nameservers": [
+        "a10-64.akam.net",
+        "a28-67.akam.net",
+        "a26-66.akam.net",
+        "a7-64.akam.net",
+        "a1-217.akam.net",
+        "a13-65.akam.net"
+    ]
+}

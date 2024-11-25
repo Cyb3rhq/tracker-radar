@@ -1,0 +1,349 @@
+{
+    "domain": "makaira.io",
+    "owner": {
+        "name": "marmalade GmbH",
+        "displayName": "marmalade"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000683,
+    "sites": 10,
+    "subdomains": [
+        "piwik",
+        "beurer",
+        "sport-conrad",
+        "taschen",
+        "mifus"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "makaira\\.io\\/piwik\\.js",
+            "cookies": 0.000041,
+            "fingerprinting": 2,
+            "subdomains": [
+                "piwik"
+            ],
+            "apis": {
+                "Document.cookie getter": 6,
+                "window.name": 6,
+                "Date.prototype.getTime": 7,
+                "Navigator.prototype.cookieEnabled": 6,
+                "NavigatorUAData.prototype.brands": 6,
+                "NavigatorUAData.prototype.platform": 6,
+                "NavigatorUAData.prototype.getHighEntropyValues": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.mimeTypes": 6,
+                "Navigator.prototype.javaEnabled": 6,
+                "Screen.prototype.width": 6,
+                "Screen.prototype.height": 6,
+                "Navigator.prototype.platform": 6,
+                "Document.cookie setter": 6
+            },
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [
+                "d7fc375178c93a2fc15fd888e30170eedf4ef3d04497e7f951ab7bfe0c921693"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pk_id.8.95c7": {
+                    "ttl": 33955205,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_pk_ses.8.95c7": {
+                    "ttl": 1805,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_pk_id.199.0732": {
+                    "ttl": 33955203,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_pk_ses.199.0732": {
+                    "ttl": 1803,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_pk_id.439.57b5": {
+                    "ttl": 33955205,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_pk_ses.439.57b5": {
+                    "ttl": 1804,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_pk_id.245.e182": {
+                    "ttl": 33955207,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_pk_ses.245.e182": {
+                    "ttl": 1806,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_pk_id.344.6832": {
+                    "ttl": 33955205,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_pk_ses.344.6832": {
+                    "ttl": 1804,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_pk_id.6.81fe": {
+                    "ttl": 33955202,
+                    "length": 28,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                },
+                "_pk_ses.6.81fe": {
+                    "ttl": 1802,
+                    "length": 1,
+                    "prevalence": 0.000006832001093120175,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zweirad-stadler.de",
+                "www.allnatura.de",
+                "www.beurer.com",
+                "www.groundies.com",
+                "www.hark.de",
+                "www.loberon.de",
+                "www.wall-art.de"
+            ]
+        },
+        {
+            "rule": "makaira\\.io\\/piwik\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "piwik"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000478,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "previousURL": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "zweirad-stadler.de",
+                "www.allnatura.de",
+                "www.beurer.com",
+                "www.groundies.com",
+                "www.hark.de",
+                "www.loberon.de",
+                "www.wall-art.de"
+            ]
+        },
+        {
+            "rule": "makaira\\.io\\/enterprise\\/snippets",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beurer",
+                "sport-conrad",
+                "taschen"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beurer.com",
+                "www.beurer.com",
+                "www.sport-conrad.com",
+                "www.taschen.com"
+            ]
+        },
+        {
+            "rule": "makaira\\.io\\/enterprise\\/snippets",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beurer",
+                "sport-conrad",
+                "taschen"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [
+                "59f13105ff6ac8674dd8ba4f5bc75d1f541cb4b1b374fbcc2aa845b3957c5ba8",
+                "09c35d448086116979afb49aca06818652ebe08be4827807ef904e170fe3a472",
+                "fb92cea9ef6ad688f69e46a9c266ba7e458076f6132775a3469a803421b2d196"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beurer.com",
+                "www.beurer.com",
+                "www.sport-conrad.com",
+                "www.taschen.com"
+            ]
+        },
+        {
+            "rule": "makaira\\.io\\/recommendation\\/public",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beurer",
+                "mifus",
+                "sport-conrad",
+                "taschen"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beurer.com",
+                "www.beurer.com",
+                "www.rofu.de",
+                "www.sport-conrad.com",
+                "www.taschen.com"
+            ]
+        },
+        {
+            "rule": "makaira\\.io\\/recommendation\\/public",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beurer",
+                "mifus",
+                "sport-conrad",
+                "taschen"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "d2c1dd7b3214a7edd78e6d010eac283c09b539aefbcfcd5abcc44eb5bb7c8859",
+                "ec5d1e4b3fa048ca18b3d371e090de30d89b68920603fc54e7f3b7a06ccec3ff",
+                "382064387357c717caf06947f5aeb2c4b39580c86f0f9e29ce7c8828a2b3b453",
+                "d6afb231a2a87830eb2dae0ca5e634a99081724ef008ef8955cf0162b92cf9ec"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beurer.com",
+                "www.beurer.com",
+                "www.rofu.de",
+                "www.sport-conrad.com",
+                "www.taschen.com"
+            ]
+        },
+        {
+            "rule": "makaira\\.io\\/enterprise\\/page",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beurer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beurer.com",
+                "www.beurer.com"
+            ]
+        },
+        {
+            "rule": "makaira\\.io\\/enterprise\\/page",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beurer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "738044f3a6f2423f1b2b4ccef4af30ed01ace89396eab1a43a45188241525d03"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beurer.com",
+                "www.beurer.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000041,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4666666666666667
+        },
+        {
+            "domain": "kameleoonglobalscript.js",
+            "prevalence": 0.4666666666666667
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.03333333333333333
+        },
+        {
+            "domain": "consentmanager.net",
+            "prevalence": 0.03333333333333333
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Ping": 7,
+        "Preflight": 11,
+        "Fetch": 11
+    },
+    "nameservers": [
+        "nikon.ns.cloudflare.com",
+        "rosalie.ns.cloudflare.com"
+    ]
+}

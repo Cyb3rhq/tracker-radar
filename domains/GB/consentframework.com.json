@@ -1,0 +1,160 @@
+{
+    "domain": "consentframework.com",
+    "owner": {
+        "name": "Sirdata SAS",
+        "displayName": "Sirdata"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000804,
+    "sites": 8,
+    "subdomains": [
+        "api",
+        "cache",
+        "choices"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "consentframework\\.com\\/api\\/v1\\/public\\/consent-string",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [
+                "d12efdedc4b016585cd48b9c1ad66078e4761235ed86e79d1b7539e0aa94e2c6",
+                "7a7fd59e0cf462bacf2f81c952a07973b2ac4fb796d434dc7dc336ad60f5fbb7",
+                "9f6771c75b1805f784c58129e9943324c3cfbbe4beb3460557c2c6a35acb7632",
+                "aa1b550f9e90521b1d2abb7989a39b4654176389bc250219c5c095ab1f64aa99",
+                "a47b7f5599f7b08cc671fa4de0c52a76446420990b3aafb3c7615b354e0f1ce4",
+                "5418687c894bfb726ecc41e5299c92e08c96edd45ce367a7dbfc4068a80ac062",
+                "9f4e38a8d26c0c87a193931be96a0e55364fc1505ed5fedacbe6fee0e1df521b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aleteia.org",
+                "cineuropa.org",
+                "gizmodo.com",
+                "tunebat.com",
+                "www.dafont.com",
+                "www.for-sale.co.uk",
+                "www.free-scores.com",
+                "www.ibtimes.com"
+            ]
+        },
+        {
+            "rule": "consentframework\\.com\\/api\\/v1\\/public\\/user-action",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000804,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aleteia.org",
+                "cineuropa.org",
+                "gizmodo.com",
+                "tunebat.com",
+                "www.dafont.com",
+                "www.for-sale.co.uk",
+                "www.free-scores.com",
+                "www.ibtimes.com"
+            ]
+        },
+        {
+            "rule": "consentframework\\.com\\/js\\/pa\\/25624\\/c\\/cvBEy\\/stub",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cache"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e812de053ebb888ce7a6aae6083a659882a6b8d3ce4cd34adc7afbd1b0e2ce5e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "free-scores.com",
+                "www.free-scores.com"
+            ]
+        },
+        {
+            "rule": "consentframework\\.com\\/js\\/pa\\/25624\\/c\\/cvBEy\\/cmp",
+            "cookies": 0.000201,
+            "fingerprinting": 2,
+            "subdomains": [
+                "choices"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.language": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "50adcffbfc2a5f8fdd6552f49a93acdf0af9b02d5e905c648a810f80033794ba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "free-scores.com",
+                "www.free-scores.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Consent Management Platform"
+    ],
+    "performance": {},
+    "cookies": 0.000804,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "powerad.ai",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Fetch": 16,
+        "Script": 4
+    },
+    "nameservers": [
+        "hal.ns.cloudflare.com",
+        "kiki.ns.cloudflare.com"
+    ]
+}

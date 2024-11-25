@@ -1,0 +1,131 @@
+{
+    "domain": "hcg.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000201,
+    "sites": 2,
+    "subdomains": [
+        "direct.holidaycheck"
+    ],
+    "cnames": [
+        {
+            "original": "ats.holidaycheck.ch",
+            "resolved": "direct.holidaycheck.hcg.cloud"
+        },
+        {
+            "original": "ats.holidaycheck.de",
+            "resolved": "direct.holidaycheck.hcg.cloud"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "hcg\\.cloud\\/gtm\\.js",
+            "cookies": 0.000201,
+            "fingerprinting": 1,
+            "subdomains": [
+                "direct.holidaycheck"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "ats.holidaycheck.ch",
+                    "resolved": "direct.holidaycheck.hcg.cloud"
+                },
+                {
+                    "original": "ats.holidaycheck.de",
+                    "resolved": "direct.holidaycheck.hcg.cloud"
+                }
+            ],
+            "responseHashes": [
+                "73640bb07ee391040cb2b13805a9279b8b9e42a6980c4e25263fccb5b21954d3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "holidaycheck.ch",
+                "www.holidaycheck.de"
+            ]
+        },
+        {
+            "rule": "hcg\\.cloud\\/gtag\\/js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "direct.holidaycheck"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "ats.holidaycheck.ch",
+                    "resolved": "direct.holidaycheck.hcg.cloud"
+                },
+                {
+                    "original": "ats.holidaycheck.de",
+                    "resolved": "direct.holidaycheck.hcg.cloud"
+                }
+            ],
+            "responseHashes": [
+                "ccb32ab1ca8d8f6662a2d2344d20a7fcfc2627977e492d49d1809884eccb8999"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "holidaycheck.ch",
+                "www.holidaycheck.de"
+            ]
+        },
+        {
+            "rule": "hcg\\.cloud\\/g\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "direct.holidaycheck"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [
+                {
+                    "original": "ats.holidaycheck.de",
+                    "resolved": "direct.holidaycheck.hcg.cloud"
+                },
+                {
+                    "original": "ats.holidaycheck.ch",
+                    "resolved": "direct.holidaycheck.hcg.cloud"
+                }
+            ],
+            "responseHashes": [
+                "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "holidaycheck.de",
+                "www.holidaycheck.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "types": {
+        "Script": 4,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-cloud-b1.googledomains.com",
+        "ns-cloud-b2.googledomains.com",
+        "ns-cloud-b3.googledomains.com",
+        "ns-cloud-b4.googledomains.com"
+    ]
+}

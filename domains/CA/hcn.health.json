@@ -1,0 +1,231 @@
+{
+    "domain": "hcn.health",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000704,
+    "sites": 7,
+    "subdomains": [
+        "aim-tag"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "hcn\\.health\\/js\\/client\\.js",
+            "cookies": 0.000704,
+            "fingerprinting": 1,
+            "subdomains": [
+                "aim-tag"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 7,
+                "window.localStorage": 7,
+                "window.sessionStorage": 7,
+                "window.name": 7,
+                "Document.cookie getter": 7,
+                "Document.cookie setter": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000704,
+            "cnames": [],
+            "responseHashes": [
+                "f6f3b00cb69d550a049c3f6416b9ae18284618a59bc172872dffba9e2953f187",
+                "36f06f208a4aafe3763453ce21e609d091746fb6f459db7df01970379104b4fb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "dmd-tag": {
+                    "ttl": 315532804,
+                    "length": 36,
+                    "prevalence": 0.0007042962068618574,
+                    "uniqueness": 1
+                },
+                "dmd-sid4": {
+                    "ttl": null,
+                    "length": 118,
+                    "prevalence": 0.0007042962068618574,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oup.com",
+                "dermnetnz.org",
+                "resources.healthgrades.com",
+                "teachmeanatomy.info",
+                "www.healthgrades.com",
+                "www.mayoclinichealthsystem.org",
+                "www.mayoclinic.org"
+            ]
+        },
+        {
+            "rule": "hcn\\.health\\/iframe\\.html",
+            "cookies": 0.000302,
+            "fingerprinting": 1,
+            "subdomains": [
+                "aim-tag"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 7,
+                "window.name": 3,
+                "Document.cookie setter": 3,
+                "window.sessionStorage": 3,
+                "window.localStorage": 1,
+                "Document.cookie getter": 2,
+                "URL.createObjectURL": 1,
+                "CanvasRenderingContext2D.prototype.getImageData": 1
+            },
+            "sites": 7,
+            "prevalence": 0.000704,
+            "cnames": [],
+            "responseHashes": [
+                "29c6ffc813643df81d3030ad6d4c70d7b24a894cea2cab8333ee570fc3a5a4a8",
+                "eecb0c1e07aae33c27603c0560d4e50940874e2973bc540ff42d797ea1743f54",
+                "4681e148fafd0cbf3285e5968c095ff4fb7a803af2f9fe170d84ed0d708815af",
+                "31ba6558b8acc8d4128037725c456382b30688420d4867d80a29edf5fb8c5374",
+                "a3ea165bc0da91e79d37b4809f8417f185e4f8a1a60f740f97af624cac38d5ac",
+                "12e02043220e92fd1c62312470e3f5b735b4e09b10b544ed1a67cc3ba2c2ffbb"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "utag_main_vapi_domain": 0.00020122748767481639,
+                "MAYO_CLINIC_ENSIGHTEN_PRIVACY_TLD-www.mayoclinic.org": 0.00010061374383740819
+            },
+            "exampleSites": [
+                "oup.com",
+                "dermnetnz.org",
+                "resources.healthgrades.com",
+                "teachmeanatomy.info",
+                "www.healthgrades.com",
+                "www.mayoclinichealthsystem.org",
+                "www.mayoclinic.org"
+            ]
+        },
+        {
+            "rule": "hcn\\.health\\/_itu\\.png",
+            "cookies": 0.000704,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aim-tag"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000704,
+            "cnames": [],
+            "responseHashes": [
+                "48f014af867327f8189aefe730720cd603833cf3f42258b70e345ae7c569801d",
+                "61c440bb2e9b5783efa732a19eecd450b95a939b3c12322a25b12f3eabfec0be",
+                "8f04b1ef890c267d1da476e5f9a2ca21b8c7f8cf1ba6f6685a4adfe0894724f9",
+                "bffeeb91a4d8329c5f7f5b6988f1b6ab9cd16416dda23a1ef7f8d19485995f98",
+                "abbf6c0abed3aa425039c67c3c7582c2efc2fd2337c7ffe5e8ee92a53fb5c7bf",
+                "8e034d237039b9c52a444f942f231e4832c87fdd59d8117d07fd73fdd847cb62"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oup.com",
+                "dermnetnz.org",
+                "resources.healthgrades.com",
+                "teachmeanatomy.info",
+                "www.healthgrades.com",
+                "www.mayoclinichealthsystem.org",
+                "www.mayoclinic.org"
+            ]
+        },
+        {
+            "rule": "hcn\\.health\\/api\\/v4\\/aim-reader\\/dom-content-loaded",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aim-tag"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000805,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oup.com",
+                "academic.oup.com",
+                "dermnetnz.org",
+                "resources.healthgrades.com",
+                "teachmeanatomy.info",
+                "www.healthgrades.com",
+                "www.mayoclinichealthsystem.org",
+                "www.mayoclinic.org"
+            ]
+        },
+        {
+            "rule": "hcn\\.health\\/api\\/v4\\/aim-reader\\/partner-auth",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aim-tag"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000604,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dermnetnz.org",
+                "resources.healthgrades.com",
+                "teachmeanatomy.info",
+                "www.healthgrades.com",
+                "www.mayoclinichealthsystem.org",
+                "www.mayoclinic.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000704,
+    "topInitiators": [
+        {
+            "domain": "hcn.health",
+            "prevalence": 0.4117647058823529
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.17647058823529413
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.17647058823529413
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.11764705882352941
+        },
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.11764705882352941
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Document": 7,
+        "XHR": 21
+    },
+    "nameservers": [
+        "ns-207.awsdns-25.com",
+        "ns-1554.awsdns-02.co.uk",
+        "ns-1107.awsdns-10.org",
+        "ns-795.awsdns-35.net"
+    ]
+}

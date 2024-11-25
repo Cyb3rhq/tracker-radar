@@ -1,0 +1,112 @@
+{
+    "domain": "trygr.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000403,
+    "sites": 4,
+    "subdomains": [
+        "cdn",
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "trygr\\.io\\/sdk_v2\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000403,
+            "cnames": [],
+            "responseHashes": [
+                "74b0462de1a3f931d8c5f5189933c868eb8651fc8d6a371f949cb3f30dfa189d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "easypara.fr",
+                "www.laboutiqueducoiffeur.com",
+                "www.pharmaciepolygone.com",
+                "www.pharmashopi.com"
+            ]
+        },
+        {
+            "rule": "trygr\\.io\\/adserver\\/api\\/v2\\/list\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000403,
+            "cnames": [],
+            "responseHashes": [
+                "fd62a53afdd49595ccd111b6ac06466a1690e7c8da4aeb0e884b5e0f4e937624"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "easypara.fr",
+                "www.laboutiqueducoiffeur.com",
+                "www.pharmaciepolygone.com",
+                "www.pharmashopi.com"
+            ]
+        },
+        {
+            "rule": "trygr\\.io\\/adserver\\/api\\/v2\\/list\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000403,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "easypara.fr",
+                "www.laboutiqueducoiffeur.com",
+                "www.pharmaciepolygone.com",
+                "www.pharmashopi.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "px-cloud.net",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 4,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "matt.ns.cloudflare.com",
+        "roxy.ns.cloudflare.com"
+    ]
+}

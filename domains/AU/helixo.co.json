@@ -1,0 +1,122 @@
+{
+    "domain": "helixo.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000703,
+    "sites": 7,
+    "subdomains": [
+        "ufe",
+        "engine.ufe"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "helixo\\.co\\/scripts\\/sdk\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ufe"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 6,
+                "window.sessionStorage": 6
+            },
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "fcb13ca541f9869c56d03edf5bd81ab1cbd8f09af2f3783b2f63f0ceb0d38672"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bagstogo.com.au",
+                "mywaterfilter.com.au",
+                "ozmobiles.com.au",
+                "shop.greengadgets.net.au",
+                "simplysheds.com.au",
+                "www.cameraelectronic.com.au",
+                "www.thesurfboardwarehouse.com.au"
+            ]
+        },
+        {
+            "rule": "helixo\\.co\\/scripts\\/ufe\\.styles\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ufe"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "bf3f77dbf4dd5ed6a220bfaeb7c094efdf20d2a0a535db3c531211fe891bf30d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bagstogo.com.au",
+                "ozmobiles.com.au",
+                "shop.greengadgets.net.au",
+                "simplysheds.com.au",
+                "www.cameraelectronic.com.au",
+                "www.thesurfboardwarehouse.com.au"
+            ]
+        },
+        {
+            "rule": "helixo\\.co\\/api\\/v1\\/public\\/funnel",
+            "cookies": 0.000603,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engine.ufe"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "47ac84fe50e0bf21fa39edc152543cb14e02675cdf428abcb9b8f24beec40965"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bagstogo.com.au",
+                "ozmobiles.com.au",
+                "shop.greengadgets.net.au",
+                "simplysheds.com.au",
+                "www.cameraelectronic.com.au",
+                "www.thesurfboardwarehouse.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000603,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9411764705882353
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.058823529411764705
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Stylesheet": 6,
+        "XHR": 6
+    },
+    "nameservers": [
+        "barbara.ns.cloudflare.com",
+        "newt.ns.cloudflare.com"
+    ]
+}

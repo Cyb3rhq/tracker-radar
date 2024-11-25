@@ -1,0 +1,330 @@
+{
+    "domain": "sberdevices.ru",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000888,
+    "sites": 13,
+    "subdomains": [
+        "layer-in-image.prom.app",
+        "cdn-app",
+        "mcrai",
+        "outstream",
+        "ads-hb"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sberdevices\\.ru\\/info\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "layer-in-image.prom.app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "5fb19d766a15008eb3e07faebacb3cdd5d2c4ae318aba2734d95a7164390fd45"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lisa.ru",
+                "www.eg.ru",
+                "www.thevoicemag.ru"
+            ]
+        },
+        {
+            "rule": "sberdevices\\.ru\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "layer-in-image.prom.app"
+            ],
+            "apis": {
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "9cdaa6b74c70803e8315e4aa01caa6a4b03a71456e6afb987139f34e8d705f76"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ym_d": 0.000006832001093120175
+            },
+            "exampleSites": [
+                "lisa.ru",
+                "www.eg.ru",
+                "www.thevoicemag.ru"
+            ]
+        },
+        {
+            "rule": "sberdevices\\.ru\\/layer-in-image\\.3ef33fae\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "layer-in-image.prom.app"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 3,
+                "window.innerWidth": 3,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "c1e255dcc6bbf6782a816b4d15bb620639cf02c00da068b4b072cb38851f4ab4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "layerUserId": {
+                    "ttl": 863913613,
+                    "length": 21,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                },
+                "layerUUID": {
+                    "ttl": 863913613,
+                    "length": 36,
+                    "prevalence": 0.00001366400218624035,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lisa.ru",
+                "www.eg.ru",
+                "www.thevoicemag.ru"
+            ]
+        },
+        {
+            "rule": "sberdevices\\.ru\\/shared-static\\/0\\.0\\.0\\/styles\\/SBSansText\\.0\\.1\\.0\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "1e6bb47b6ccdb958b4efe2b89cb7b3abf6fc9fda8f506f5089a3dcc475a8869f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lisa.ru",
+                "www.eg.ru",
+                "www.thevoicemag.ru"
+            ]
+        },
+        {
+            "rule": "sberdevices\\.ru\\/iimg\\/v0\\/client_info",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mcrai"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "be1edd7c6f16dc481dd6316da340906cd14bf984f226f9ce338d7e74c3c13b5d",
+                "1889aa1ac549c54ba8bb473a657a6bd5d37aa0e795bdd3e52aac0131d9ab62b8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lisa.ru",
+                "www.eg.ru",
+                "www.thevoicemag.ru"
+            ]
+        },
+        {
+            "rule": "sberdevices\\.ru\\/misc\\/0\\.0\\.0\\/assets\\/ad-sdk\\/ad-category-recognition\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-app"
+            ],
+            "apis": {
+                "window.localStorage": 10,
+                "Date.prototype.getTime": 10
+            },
+            "sites": 10,
+            "prevalence": 0.0000683,
+            "cnames": [],
+            "responseHashes": [
+                "b9ec95eaf2af0da8ddc870194e6d3f5be0b120259b93687bd85ae54dea45d47a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ngs.ru",
+                "spletnik.ru",
+                "www.e1.ru",
+                "www.fontanka.ru",
+                "www.marieclaire.ru",
+                "www.maximonline.ru",
+                "www.mk.ru",
+                "www.psychologies.ru",
+                "www.starhit.ru",
+                "www.woman.ru"
+            ]
+        },
+        {
+            "rule": "sberdevices\\.ru\\/api\\/v0\\/sdk\\/category",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "outstream"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ngs.ru",
+                "www.e1.ru",
+                "www.fontanka.ru",
+                "www.marieclaire.ru",
+                "www.maximonline.ru",
+                "www.mk.ru",
+                "www.psychologies.ru",
+                "www.starhit.ru"
+            ]
+        },
+        {
+            "rule": "sberdevices\\.ru\\/api\\/v0\\/sdk\\/category",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "outstream"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000547,
+            "cnames": [],
+            "responseHashes": [
+                "e0ab24f50c8a372e295a283ba4cab449dd247bd4642fded42325ddca349bdab1",
+                "e65d7ded5a8734f41c1fd98da6487f81664f02a373dd7ad0a7bb60bd2c7ffcf9",
+                "0ac452b3f44b6d37915cf236bdbd29777eef457b28093cc84cbd0dc4ef716263",
+                "f5fe0874d432ce8e7562615c100b5683e7db9c2cfa1d5550e88de2e93431eb1e",
+                "0639b674dcdfaf0164cb4afdfda79c14de915fbebc779ac499b93cb8b8b2526e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ngs.ru",
+                "www.e1.ru",
+                "www.fontanka.ru",
+                "www.marieclaire.ru",
+                "www.maximonline.ru",
+                "www.mk.ru",
+                "www.psychologies.ru",
+                "www.starhit.ru"
+            ]
+        },
+        {
+            "rule": "sberdevices\\.ru\\/hb\\/prod\\/api\\/v0\\/hb",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads-hb"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spletnik.ru",
+                "www.mk.ru",
+                "www.starhit.ru",
+                "www.woman.ru"
+            ]
+        },
+        {
+            "rule": "sberdevices\\.ru\\/hb\\/prod\\/api\\/v0\\/hb",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads-hb"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000273,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spletnik.ru",
+                "www.mk.ru",
+                "www.starhit.ru",
+                "www.woman.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "hsmedia.ru",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "yandex.ru",
+            "prevalence": 0.16
+        },
+        {
+            "domain": "yastatic.net",
+            "prevalence": 0.04
+        }
+    ],
+    "types": {
+        "Fetch": 14,
+        "Script": 16,
+        "Stylesheet": 3,
+        "Preflight": 12,
+        "XHR": 4
+    },
+    "nameservers": [
+        "cloud-ns5.sberdevices.ru",
+        "cloud-ns2.sberdevices.ru",
+        "cloud-ns3.sberdevices.ru",
+        "cloud-ns4.sberdevices.ru",
+        "cloud-ns1.sberdevices.ru",
+        "cloud-ns6.sberdevices.ru"
+    ]
+}

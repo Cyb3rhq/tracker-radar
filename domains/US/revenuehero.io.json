@@ -1,0 +1,110 @@
+{
+    "domain": "revenuehero.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000547,
+    "sites": 8,
+    "subdomains": [
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "revenuehero\\.io\\/scheduler\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 5,
+                "Navigator.prototype.userAgent": 5,
+                "window.localStorage": 5,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "4708a9582d1f91acf246bbd8317128b8b500aa3185a03c4b995b9fd4ffaf45a8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "relayfi.com",
+                "thewritelife.com",
+                "workforce.com",
+                "www.lambdatest.com",
+                "www.storylane.io"
+            ]
+        },
+        {
+            "rule": "revenuehero\\.io\\/logs\\/ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "relayfi.com",
+                "thewritelife.com",
+                "workforce.com",
+                "www.lambdatest.com",
+                "www.storylane.io"
+            ]
+        },
+        {
+            "rule": "revenuehero\\.io\\/logs\\/ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "relayfi.com",
+                "thewritelife.com",
+                "workforce.com",
+                "www.lambdatest.com",
+                "www.storylane.io"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Fetch": 5,
+        "Preflight": 5
+    },
+    "nameservers": [
+        "ns1.vercel-dns.com",
+        "ns2.vercel-dns.com"
+    ]
+}

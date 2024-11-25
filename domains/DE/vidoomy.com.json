@@ -1,0 +1,256 @@
+{
+    "domain": "vidoomy.com",
+    "owner": {
+        "name": "Soluciones Corporativas IP, SL",
+        "displayName": "Soluciones Corporativas IP"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000502,
+    "sites": 5,
+    "subdomains": [
+        "vpaid",
+        "ad",
+        "a",
+        "vid"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "vidoomy\\.com\\/player\\/t\\/vidoomy-player\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "vpaid"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.userAgent": 2,
+                "OfflineAudioContext.prototype.constructor": 2,
+                "AudioBuffer.prototype.getChannelData": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "Navigator.prototype.language": 2,
+                "window.innerWidth": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8a1c228da2e3b545fc843034521c08e88935e5a3408f9d7e243a3a8e5b20c01e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reitschuster.de",
+                "www.pi-news.net"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/prebid\\/prebid-vidoomy_pbjs\\.js",
+            "cookies": 0.0001,
+            "fingerprinting": 2,
+            "subdomains": [
+                "vpaid"
+            ],
+            "apis": {
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 1,
+                "Document.cookie getter": 1,
+                "Navigator.prototype.cookieEnabled": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "8dd15ee007ddb6fb149cb0c3a79472471c6ce1a1180c3c5e96f2ded7a3602303"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reitschuster.de",
+                "www.pi-news.net"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/api\\/adserver\\/ad\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reitschuster.de",
+                "www.pi-news.net"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/api\\/adserver\\/ad\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "cc39baeaa28309f4584499f4442c206b676abfcc197fd4d72fb39cd8e158d7cb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reitschuster.de",
+                "www.pi-news.net"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/api\\/rtbserver\\/cookie",
+            "cookies": 0.000201,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reitschuster.de",
+                "www.pi-news.net"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/api\\/adserver\\/tracking\\/e",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reitschuster.de",
+                "www.pi-news.net"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/api\\/adserver\\/tracking\\/e",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "30760ba5ec1169343ff3a2a1433973ab93870e317dc6535ec867f82a76abe42d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reitschuster.de",
+                "www.pi-news.net"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/sync",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "vid"
+            ],
+            "apis": {
+                "Navigator.prototype.vendor": 2,
+                "OfflineAudioContext.prototype.constructor": 2,
+                "AudioBuffer.prototype.getChannelData": 2,
+                "Screen.prototype.availTop": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availLeft": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availHeight": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "convertunits.com",
+                "www.convertunits.com",
+                "www.coolibri.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000201,
+    "topInitiators": [
+        {
+            "domain": "frvr.com",
+            "prevalence": 0.4444444444444444
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2222222222222222
+        },
+        {
+            "domain": "anyclip.com",
+            "prevalence": 0.2222222222222222
+        },
+        {
+            "domain": "betweendigital.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Preflight": 4,
+        "XHR": 4,
+        "Image": 2,
+        "Document": 3
+    },
+    "nameservers": [
+        "ns2.dondominio.com",
+        "ns7.dondominio.com"
+    ]
+}

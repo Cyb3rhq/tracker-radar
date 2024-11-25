@@ -1,0 +1,928 @@
+{
+    "domain": "poool.fr",
+    "owner": {
+        "name": "Ano Nymous",
+        "displayName": "Ano Nymous"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00111,
+    "sites": 11,
+    "subdomains": [
+        "assets",
+        "api",
+        "frontend",
+        "subscribe-assets",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "poool\\.fr\\/vendor-audit\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Document.cookie getter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "3efa9fb770f744aef68d036bfce559fdb77d5191efcf2d0c3faccfa6c422a7bb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elle.fr",
+                "www.larousse.fr",
+                "www.lesnumeriques.com",
+                "www.spektrum.de"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/poool-sdk-v4\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Document.cookie getter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "4bf69235ce44aa4e4f3d4ced2175bc3d9cb5f211732283a1c6fd9415afe98884"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elle.fr",
+                "www.larousse.fr",
+                "www.spektrum.de"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/api\\/v3\\/access\\/paywall",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "bd29ea223d0bc0364d7a5576320aa7c5f85fea2d9175fbe5e073fab70d9b9536",
+                "d05343c19846d251ae6ad7e7080730b5e39405741cdc7887cc678d0dc5bf1c0d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elle.fr",
+                "www.larousse.fr",
+                "www.spektrum.de"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/api\\/v3\\/access\\/paywall",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elle.fr",
+                "www.larousse.fr",
+                "www.spektrum.de"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/audit\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "ad1f33bf28077676845635de3acba210ff013f8936767f4ca6431ca398b45ba4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futura-sciences.com",
+                "www.lesnumeriques.com",
+                "www.spektrum.de"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/access\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "5a417a81dd208f4e604b33ed661d05e67b45e72fca3e61896809f6090200de49"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futura-sciences.com",
+                "www.larousse.fr",
+                "www.philomag.com",
+                "www.spektrum.de"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/lib-sdk\\.2\\.2\\.4-1729843121241\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Document.cookie getter": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "66055566919e293c3447369ac5c9052d876984437e5deb7f4090e94538ee87c0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futura-sciences.com",
+                "www.laliberte.ch",
+                "www.lepoint.fr",
+                "www.parents.fr",
+                "www.regal.fr",
+                "www.santemagazine.fr"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/api\\/v3\\/engage\\/elements",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [
+                "536281611d8fce0ad8a600fcc060760a8ca0c5cf504a7129a1dfac19e9a20b83",
+                "c08913e0d6a6d62641e95e49dfa84eae9a3c4e0fa3eb481be63f784f85d6af7b",
+                "a91d7cc1eff74cb5a904d6073dd7724daedc69c4d432de62a1630a2e51bf94a6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futura-sciences.com",
+                "www.futura-sciences.com",
+                "www.laliberte.ch",
+                "www.lepoint.fr",
+                "www.parents.fr",
+                "www.regal.fr",
+                "www.santemagazine.fr"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/api\\/v3\\/engage\\/elements",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000703,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futura-sciences.com",
+                "www.futura-sciences.com",
+                "www.laliberte.ch",
+                "www.lepoint.fr",
+                "www.parents.fr",
+                "www.regal.fr",
+                "www.santemagazine.fr"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/engage\\/rQMIkMx6FAi04fEp40bMGNBx2kRHTaxymvBkvcKOrNlqDZJ8fr03drrX1I9vZNKl\\/6720bd4636fb1376ed8c1ff8",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "frontend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2d1c526d3ac034cf8ac7dfa32da5400c94f815ec7ad45348380138fb7ae38ef3"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futura-sciences.com",
+                "www.futura-sciences.com"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/engage\\/_next\\/static\\/media\\/3d9ea938b6afa941-s\\.p\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "frontend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "4cefc558e5d102883ba0e5d603bb814cec215c375c422182c34f65a33e8141b3"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futura-sciences.com",
+                "www.futura-sciences.com"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/engage\\/_next\\/static\\/chunks\\/webpack-25400494291c965d\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "frontend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2e317faff965c102fc83695fd58ed156c3c1829c65198cced2a248037eccf26b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futura-sciences.com",
+                "www.futura-sciences.com"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/engage\\/_next\\/static\\/css\\/43c2b86b9eef2948\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "frontend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fe42925e2674937e7553347d91265dae22c96cc9680112ad6ab5de549ac2b8d1"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futura-sciences.com",
+                "www.futura-sciences.com"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/engage\\/_next\\/static\\/css\\/041e38382f9ab1ef\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "frontend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "f648186a1155880708514cde242fb567f8a5e621a48582ee3b9eafc8b10fb296"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futura-sciences.com",
+                "www.futura-sciences.com"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/engage\\/_next\\/static\\/chunks\\/fd9d1056-6b4837b91e57841f\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "frontend"
+            ],
+            "apis": {
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "71ed963804cbd4b773b16a2e290fb534288140999cca4833a8ff300a9d72a9b1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futura-sciences.com",
+                "www.futura-sciences.com"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/engage\\/_next\\/static\\/chunks\\/23-9fc750dd6149ea44\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "frontend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "358d0349da75c953f6018a84f9325fbf5089bf1d5d49d19191b43c513a2ec6c3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futura-sciences.com",
+                "www.futura-sciences.com"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/engage\\/_next\\/static\\/chunks\\/main-app-126b6998ba9a6f13\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "frontend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "050682cf7f4009a25a678edec2f26ad512f4c9cce18cf9a92fd38c098cc225f6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futura-sciences.com",
+                "www.futura-sciences.com"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/engage\\/_next\\/static\\/chunks\\/app\\/\\(engage\\)\\/%5BappId%5D\\/%5BelementId%5D\\/not-found-6ce0324055d00733\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "frontend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "6848df0a1804e35741e53bb561b56b5c0c3f11ad51d0339b8dc01577a5ac28ea"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futura-sciences.com",
+                "www.futura-sciences.com"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/engage\\/_next\\/static\\/chunks\\/696-f079ae8868a96a48\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "frontend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "7ca8078cb2510407f5dd4ddabb87aeb4e938cf6e176280847b52e02a71e4ce97"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futura-sciences.com",
+                "www.futura-sciences.com"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/engage\\/_next\\/static\\/chunks\\/89-4983ea6efe66dc97\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "frontend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "68ccd161ce06b5774eaecd3663969488aeb1f22451ded8c73b6864355e51dd7c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futura-sciences.com",
+                "www.futura-sciences.com"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/engage\\/_next\\/static\\/chunks\\/app\\/\\(engage\\)\\/%5BappId%5D\\/layout-7f91d0e5a3d6d0ca\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "frontend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "26c3fb2505a4a2aa713a08741c588bc7748dad1e8e3c07dddbee7d6d5040f7a5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futura-sciences.com",
+                "www.futura-sciences.com"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/engage\\/_next\\/static\\/chunks\\/969-dc7c65438545d4fd\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "frontend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5cab78ea3885e312e1b322fa8e51110a0e8387d0555759f9b5bdc55d604e3d2f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futura-sciences.com",
+                "www.futura-sciences.com"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/engage\\/_next\\/static\\/chunks\\/327-2db21f3acd5ab70e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "frontend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "78cbdc4072b0ca692f10c1744862f25cb12a3494d002ea23ba54e9405313182d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futura-sciences.com",
+                "www.futura-sciences.com"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/engage\\/_next\\/static\\/chunks\\/app\\/\\(engage\\)\\/%5BappId%5D\\/%5BelementId%5D\\/page-53563e9b611902b6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "frontend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5e363b0e5df8fec0b878ca592b27a738b707c0f6f6c038ac46a3928829c2fd45"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futura-sciences.com",
+                "www.futura-sciences.com"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/cdn-cgi\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "frontend",
+                "assets"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futura-sciences.com",
+                "www.futura-sciences.com",
+                "www.larousse.fr",
+                "www.spektrum.de"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/engage\\/_next\\/image",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "frontend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "9c1772013cdfa90b1dbcee19a1e8842c793f4e4593148b2ef099498e50da83a4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futura-sciences.com",
+                "www.futura-sciences.com"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/api\\/v3\\/engage\\/event\\/async",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futura-sciences.com",
+                "www.futura-sciences.com"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/engage\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000502,
+            "cnames": [],
+            "responseHashes": [
+                "e522cb8d78266fd01fb35b6add5c5df1b6627df1e18201cead5fa7a25a30ef73"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laliberte.ch",
+                "www.lepoint.fr",
+                "www.parents.fr",
+                "www.regal.fr",
+                "www.santemagazine.fr"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/vendor-trim-html\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "b568c04ad6868b8a68300efdddd583c57fb8ada7f6d654d1e243dbf3fed2123c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "larousse.fr",
+                "www.spektrum.de"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/api\\/v3\\/subscribe\\/site",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "0855f161f2e2ac998e4a2b96ffc07823bbefcdf6d5ae17b6c8c8f262150f58eb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "larousse.fr",
+                "www.larousse.fr"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/api\\/v3\\/subscribe\\/site",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "larousse.fr",
+                "www.larousse.fr"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/vendor-access\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "2d31f04872f1b2aaa0434e97bccb556f3a84377444baa412e58be18d3e5b26d1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "larousse.fr",
+                "www.spektrum.de"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/auth-element\\.865ac39316a47dd2d57e\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "subscribe-assets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "c62e5b0186f9267118975c792a420fc5a2701671b5fcea70448231a0999e2faf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "larousse.fr",
+                "www.larousse.fr"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/vendor-buddy-v3\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "92f6da9c8b6ed225cf4385e2075469cd9df7d21b2dba9874c870b035a7193e35"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "larousse.fr",
+                "www.larousse.fr",
+                "www.spektrum.de"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/vendor-buddy\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "subscribe-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "783ea21432b7dbc6ea4aea4250e9eaf39f0f040fbc687a2002601266cd9c96e0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "larousse.fr",
+                "www.larousse.fr"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/assets\\/fonts\\/poool-ico-2\\/1\\.3\\.0\\/Poool-Ico-2\\.ttf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "e5d5b37ab5b2fb440a2be6cbcc37b04456936c27d7ffb4a8ccba9e79307dafca"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "larousse.fr",
+                "www.spektrum.de"
+            ]
+        },
+        {
+            "rule": "poool\\.fr\\/vendor-sdk-v4\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "subscribe-assets"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "5002be8466d001e1a55bdc736ccae101059e4b758ef5daa249ba68f4c1248ed0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "larousse.fr",
+                "www.larousse.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000301,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5666666666666667
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.18333333333333332
+        },
+        {
+            "domain": "poool-subscribe.fr",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "cloudflareinsights.com",
+            "prevalence": 0.08333333333333333
+        },
+        {
+            "domain": "lpnt.fr",
+            "prevalence": 0.05
+        },
+        {
+            "domain": "ladmedia.fr",
+            "prevalence": 0.016666666666666666
+        }
+    ],
+    "types": {
+        "Script": 60,
+        "Fetch": 12,
+        "Preflight": 12,
+        "Document": 2,
+        "Font": 4,
+        "Stylesheet": 4,
+        "XHR": 4,
+        "Image": 2,
+        "Ping": 2
+    },
+    "nameservers": [
+        "oswald.ns.cloudflare.com",
+        "ara.ns.cloudflare.com"
+    ]
+}

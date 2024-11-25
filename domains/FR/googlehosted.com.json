@@ -1,0 +1,511 @@
+{
+    "domain": "googlehosted.com",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.00202,
+    "sites": 20,
+    "subdomains": [
+        "ghs"
+    ],
+    "cnames": [
+        {
+            "original": "ct.showroomprive.com",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "dal.data.cbc.ca",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "gcp.gites-de-france.com",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "gtm.electrolux.fr",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "gtm.mixcloud.com",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "gtm.plaqueplastique.fr",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "htmsa.hema.com",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "img.playnews.fr",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "metrics.artsper.com",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "metrics.blissim.fr",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "metrics.brevo.com",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "metrics.funbooker.com",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "metrics.schoolmouv.fr",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "t.swatch.com",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "website.gtm.ig.com",
+            "resolved": "ghs.googlehosted.com"
+        },
+        {
+            "original": "www.sgtm.g2a.com",
+            "resolved": "ghs.googlehosted.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "googlehosted\\.com\\/gtm\\.js",
+            "cookies": 0.000101,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ghs"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000504,
+            "cnames": [
+                {
+                    "original": "metrics.blissim.fr",
+                    "resolved": "ghs.googlehosted.com"
+                },
+                {
+                    "original": "gtm.plaqueplastique.fr",
+                    "resolved": "ghs.googlehosted.com"
+                },
+                {
+                    "original": "metrics.artsper.com",
+                    "resolved": "ghs.googlehosted.com"
+                },
+                {
+                    "original": "gtm.electrolux.fr",
+                    "resolved": "ghs.googlehosted.com"
+                },
+                {
+                    "original": "htmsa.hema.com",
+                    "resolved": "ghs.googlehosted.com"
+                }
+            ],
+            "responseHashes": [
+                "6d750c6857dcdbc80aa91259fa99eb4914224f6458a78b54518dea35a326ab5e",
+                "226a555035fdbda0658bd09fd2db6ff551eeb9eb67e15732bbaf830aad68da26",
+                "ce0d130439eaddf1d193483a61cdd304888f566e339d3475a62f63c0a537b7c0",
+                "d74e839f7f80b162334f382206185e468997e0a21bfc2de7ceeb1e92839dccbc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blissim.fr",
+                "plaqueplastique.fr",
+                "www.artsper.com",
+                "www.electrolux.fr",
+                "www.hema.com"
+            ]
+        },
+        {
+            "rule": "googlehosted\\.com\\/g\\/collect",
+            "cookies": 0.000202,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ghs"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000504,
+            "cnames": [
+                {
+                    "original": "metrics.blissim.fr",
+                    "resolved": "ghs.googlehosted.com"
+                },
+                {
+                    "original": "metrics.brevo.com",
+                    "resolved": "ghs.googlehosted.com"
+                },
+                {
+                    "original": "metrics.funbooker.com",
+                    "resolved": "ghs.googlehosted.com"
+                },
+                {
+                    "original": "gtm.mixcloud.com",
+                    "resolved": "ghs.googlehosted.com"
+                },
+                {
+                    "original": "t.swatch.com",
+                    "resolved": "ghs.googlehosted.com"
+                }
+            ],
+            "responseHashes": [
+                "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c",
+                "2ba40fa1d2ed60ce1baddf52d806c5d3a8a51c278b83ccee6aeb5ac4de27e076"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.0003022974607013301
+            },
+            "exampleSites": [
+                "blissim.fr",
+                "www.brevo.com",
+                "www.funbooker.com",
+                "www.mixcloud.com",
+                "www.swatch.com"
+            ]
+        },
+        {
+            "rule": "googlehosted\\.com\\/dt\\.js",
+            "cookies": 0.000202,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ghs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [
+                {
+                    "original": "metrics.brevo.com",
+                    "resolved": "ghs.googlehosted.com"
+                }
+            ],
+            "responseHashes": [
+                "b9df6179be23ea56608daef12f73c691bb6da67cc7d075a646bb60bb1090170c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brevo.com",
+                "www.brevo.com"
+            ]
+        },
+        {
+            "rule": "googlehosted\\.com\\/gtag\\/js",
+            "cookies": 0.000101,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ghs"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000403,
+            "cnames": [
+                {
+                    "original": "metrics.brevo.com",
+                    "resolved": "ghs.googlehosted.com"
+                },
+                {
+                    "original": "gtm.plaqueplastique.fr",
+                    "resolved": "ghs.googlehosted.com"
+                },
+                {
+                    "original": "htmsa.hema.com",
+                    "resolved": "ghs.googlehosted.com"
+                }
+            ],
+            "responseHashes": [
+                "0943186b708d87b41a03cb792f24f8c913631fc27186b31f2f49314fcd8f8c02",
+                "4bb9995996519ccc1dd00376e27b50ac92febfde82ffeb50b8aca458a505366e",
+                "4915abb6d30287c84e0e01cc803898ba5c25f08a0e6de4ef49c717371da2d293"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brevo.com",
+                "plaqueplastique.fr",
+                "www.brevo.com",
+                "www.hema.com"
+            ]
+        },
+        {
+            "rule": "googlehosted\\.com\\/g\\/collect",
+            "cookies": 0.000202,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ghs"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000806,
+            "cnames": [
+                {
+                    "original": "metrics.brevo.com",
+                    "resolved": "ghs.googlehosted.com"
+                },
+                {
+                    "original": "gtm.plaqueplastique.fr",
+                    "resolved": "ghs.googlehosted.com"
+                },
+                {
+                    "original": "www.sgtm.g2a.com",
+                    "resolved": "ghs.googlehosted.com"
+                },
+                {
+                    "original": "htmsa.hema.com",
+                    "resolved": "ghs.googlehosted.com"
+                },
+                {
+                    "original": "website.gtm.ig.com",
+                    "resolved": "ghs.googlehosted.com"
+                },
+                {
+                    "original": "gtm.mixcloud.com",
+                    "resolved": "ghs.googlehosted.com"
+                },
+                {
+                    "original": "metrics.schoolmouv.fr",
+                    "resolved": "ghs.googlehosted.com"
+                }
+            ],
+            "responseHashes": [
+                "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c",
+                "f4a01a504a607fa87ccbca814234e7827a694b0ed0eca289a822b046e895e186"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_sg_b_p": 0.00010076582023377671,
+                "_ga": 0.0003022974607013301
+            },
+            "exampleSites": [
+                "brevo.com",
+                "login.brevo.com",
+                "plaqueplastique.fr",
+                "www.g2a.com",
+                "www.hema.com",
+                "www.ig.com",
+                "www.mixcloud.com",
+                "www.schoolmouv.fr"
+            ]
+        },
+        {
+            "rule": "googlehosted\\.com\\/data",
+            "cookies": 0.000202,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ghs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [
+                {
+                    "original": "metrics.artsper.com",
+                    "resolved": "ghs.googlehosted.com"
+                }
+            ],
+            "responseHashes": [
+                "3917bcdba7a31c8bcfa1dc363af9ae0c16ff7735c32f29ea01f4c767d525e5b5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "artsper.com",
+                "www.artsper.com"
+            ]
+        },
+        {
+            "rule": "googlehosted\\.com\\/v1\\/publish",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ghs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [
+                {
+                    "original": "dal.data.cbc.ca",
+                    "resolved": "ghs.googlehosted.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbc.ca",
+                "www.cbc.ca"
+            ]
+        },
+        {
+            "rule": "googlehosted\\.com\\/v1\\/publish",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ghs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [
+                {
+                    "original": "dal.data.cbc.ca",
+                    "resolved": "ghs.googlehosted.com"
+                }
+            ],
+            "responseHashes": [
+                "2a648e3f2abb85764b771ff180805585b51d0a1ea4fa0381ae0c171c812b668d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbc.ca",
+                "www.cbc.ca"
+            ]
+        },
+        {
+            "rule": "googlehosted\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ghs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [
+                {
+                    "original": "gcp.gites-de-france.com",
+                    "resolved": "ghs.googlehosted.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_fbp": 0.00020153164046755341
+            },
+            "exampleSites": [
+                "gites-de-france.com",
+                "www.gites-de-france.com"
+            ]
+        },
+        {
+            "rule": "googlehosted\\.com\\/resize",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ghs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [
+                {
+                    "original": "img.playnews.fr",
+                    "resolved": "ghs.googlehosted.com"
+                }
+            ],
+            "responseHashes": [
+                "239f0fa1ed359c5ae30a1fe8b9486f2e4b09a7ad13d25a46d0dbc9f96c555722"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playnews.fr",
+                "www.playnews.fr"
+            ]
+        },
+        {
+            "rule": "googlehosted\\.com\\/srp\\.js",
+            "cookies": 0.000202,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ghs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000202,
+            "cnames": [
+                {
+                    "original": "ct.showroomprive.com",
+                    "resolved": "ghs.googlehosted.com"
+                }
+            ],
+            "responseHashes": [
+                "82192636f0a208b369a4b5ad769a709266b38e388935f331369cec69ab2c83ce"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "showroomprive.com",
+                "www.showroomprive.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00111,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "stapecdn.com",
+            "prevalence": 0.13333333333333333
+        },
+        {
+            "domain": "privacy-center.org",
+            "prevalence": 0.06666666666666667
+        },
+        {
+            "domain": "blueconic.net",
+            "prevalence": 0.06666666666666667
+        },
+        {
+            "domain": "jsdelivr.net",
+            "prevalence": 0.06666666666666667
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "XHR": 7,
+        "Fetch": 10,
+        "Preflight": 2,
+        "Image": 4
+    },
+    "nameservers": [
+        "ns2.google.com",
+        "ns1.google.com",
+        "ns3.google.com",
+        "ns4.google.com"
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "domain": "glean.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000683,
+    "sites": 1,
+    "subdomains": [
+        "sony-support-external-be"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "glean\\.com\\/api\\/v1\\/createanonymoustoken",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sony-support-external-be"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7f5bee7f0e4d040060b0c93608782b3c617b24fad18cf92b94005ba3fd8ef8a1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.ca",
+                "www.sony.ca"
+            ]
+        },
+        {
+            "rule": "glean\\.com\\/api\\/v1\\/createanonymoustoken",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sony-support-external-be"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sony.ca",
+                "www.sony.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000683,
+    "topInitiators": [
+        {
+            "domain": "sony.com",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-cloud-b3.googledomains.com",
+        "ns-cloud-b4.googledomains.com",
+        "ns-cloud-b1.googledomains.com",
+        "ns-cloud-b2.googledomains.com"
+    ]
+}

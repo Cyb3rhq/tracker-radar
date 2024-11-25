@@ -1,0 +1,121 @@
+{
+    "domain": "richrelevance.com",
+    "owner": {
+        "name": "RichRelevance",
+        "displayName": "RichRelevance",
+        "privacyPolicy": "https://www.richrelevance.com/privacy/",
+        "url": "http://richrelevance.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000402,
+    "sites": 4,
+    "subdomains": [
+        "media",
+        "recs"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "richrelevance\\.com\\/rrserver\\/js\\/1\\.2\\/p13n\\.js",
+            "cookies": 0.000101,
+            "fingerprinting": 1,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1,
+                "window.localStorage": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "fe2a7a08d6eb68125e7417e12d1eac77fbb6597b2d6dda96f35b5905573cb3ab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rr_rcs": {
+                    "ttl": 31449604,
+                    "length": 83,
+                    "prevalence": 0.00010061374383740819,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdw.ca",
+                "www.swarovski.com"
+            ]
+        },
+        {
+            "rule": "richrelevance\\.com\\/rrserver\\/p13n_generated\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recs"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000302,
+            "cnames": [],
+            "responseHashes": [
+                "b4a557d944e0f53f2562ef41b48bff7cc8c46957fbce565ce8ed265d4adfca8d",
+                "c5f98fc852270476568e354c7abfd48aeca338acd4569b2d12d4bdcc0442a0f6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "musiciansfriend.com",
+                "www.rei.com",
+                "www.swarovski.com"
+            ]
+        },
+        {
+            "rule": "richrelevance\\.com\\/rrserver\\/api\\/personalize",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000201,
+            "cnames": [],
+            "responseHashes": [
+                "227cfcb175cf7d31853e4c88abcc851d3b329b68c17545ad65ce947a9652127f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "rr_rcs": 0.00020122748767481639
+            },
+            "exampleSites": [
+                "swarovski.com",
+                "www.swarovski.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000101,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "nicole.ns.cloudflare.com",
+        "otto.ns.cloudflare.com"
+    ]
+}
